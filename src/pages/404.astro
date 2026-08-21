@@ -1,0 +1,18 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const home = import.meta.env.BASE_URL;
+---
+
+<Base title="页面不存在 · Grok Bot 导航" description="这个地址在 Grok Bot 导航里不存在。" noindex>
+  <Header />
+  <main id="main" class="wrap not-found">
+    <p class="badge">404</p>
+    <h1>没有这一页</h1>
+    <p class="tagline">目录里找不到这个地址。回到首页继续查官方文档、教程和踩坑帖。</p>
+    <a class="home-link" href={home}>返回 Grok Bot 导航</a>
+  </main>
+  <Footer />
+</Base>

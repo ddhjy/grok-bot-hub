@@ -1,0 +1,101 @@
+---
+import { catalog, entriesBySection, hostnameOf, type SectionId } from "../lib/catalog";
+
+const total = catalog.entries.length;
+---
+
+<div class="directory" data-directory>
+  <div class="toolbar">
+    <div class="wrap">
+      <label class="search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"></circle>
+          <path d="M20 20l-3.2-3.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+        </svg>
+        <input
+          type="search"
+          data-search
+          placeholder="搜索标题、说明、标签或网址"
+          autocomplete="off"
+          enterkeyhint="search"
+        />
+        <kbd>/</kbd>
+      </label>
+      <div class="filters" role="toolbar" aria-label="按分区筛选">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">
+          全部 <span class="count">{total}</span>
+        </button>
+        {
+          catalog.sections.map((section) => (
+            <button class="filter" type="button" data-filter={section.id} aria-pressed="false">
+              {section.label}
+              <span class="count">{entriesBySection(section.id as SectionId).length}</span>
+            </button>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="status-row">
+      <span data-result-count>共 {total} 条</span>
+      <span>数据源 data/catalog.json</span>
+    </div>
+
+    <p class="empty" data-empty>没有匹配的条目。试试更短的词，或切回「全部」。</p>
+
+    {
+      catalog.sections.map((section) => {
+        const entries = entriesBySection(section.id as SectionId);
+        return (
+          <section class="section-block" id={section.id} data-section-block={section.id}>
+            <div class="section-head">
+              <h2>{section.label}</h2>
+              <span>
+                <span data-section-visible>{entries.length}</span> 条
+              </span>
+            </div>
+            <div class="grid">
+              {entries.map((entry) => {
+                const haystack = [entry.title, entry.blurb, entry.url, ...(entry.tags ?? [])]
+                  .join(" ")
+                  .toLocaleLowerCase("zh-CN");
+                return (
+                  <a
+                    class="card"
+                    href={entry.url}
+                    data-card
+                    data-section={entry.section}
+                    data-search={haystack}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <div class="card-kicker">
+                      <span>{hostnameOf(entry.url)}</span>
+                      <span class="card-cta">打开 ↗</span>
+                    </div>
+                    <h3>{entry.title}</h3>
+                    <p>{entry.blurb}</p>
+                    {entry.tags && entry.tags.length > 0 && (
+                      <div class="tags">
+                        {entry.tags.map((tag) => (
+                          <span class="tag">{tag}</span>
+                        ))}
+                      </div>
+                    )}
+                  </a>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })
+    }
+  </div>
+</div>
+
+<script>
+  import { initDirectory } from "../scripts/directory";
+  initDirectory();
+</script>

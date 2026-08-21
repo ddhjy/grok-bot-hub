@@ -1,0 +1,20 @@
+{
+  "name": "grok-bot-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "非官方 Grok Bot 资源导航：Git 管内容，静态站给人看。",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "validate": "node scripts/validate-catalog.mjs",
+    "build": "node scripts/validate-catalog.mjs && astro build",
+    "preview": "astro preview"
+  },
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "dependencies": {
+    "astro": "^5.13.2"
+  }
+}
