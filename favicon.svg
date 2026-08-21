@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Grok Bot 导航">
+  <rect width="32" height="32" rx="8" fill="#1c1916"/>
+  <rect x="6" y="8" width="20" height="14" rx="2" fill="none" stroke="#f3eee4" stroke-width="1.6"/>
+  <path d="M11 22h10v2.2a1.4 1.4 0 0 1-1.4 1.4h-7.2A1.4 1.4 0 0 1 11 24.2V22z" fill="#c23b22"/>
+  <circle cx="12.5" cy="15" r="1.2" fill="#c23b22"/>
+  <circle cx="19.5" cy="15" r="1.2" fill="#c23b22"/>
+</svg>
