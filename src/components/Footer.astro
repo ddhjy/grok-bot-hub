@@ -4,7 +4,8 @@ interface Props {
 }
 
 const { showHome = false } = Astro.props;
-const home = import.meta.env.BASE_URL;
+const raw = import.meta.env.BASE_URL;
+const home = raw.endsWith("/") ? raw : `${raw}/`;
 ---
 
 <footer class="site-footer">

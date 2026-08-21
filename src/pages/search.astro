@@ -1,0 +1,27 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Directory from "../components/Directory.astro";
+import { SEARCH_OG } from "../lib/catalog";
+---
+
+<Base
+  title={SEARCH_OG.title}
+  description={SEARCH_OG.description}
+  ogImage={SEARCH_OG.image}
+  ogImageAlt={SEARCH_OG.imageAlt}
+  noindex
+>
+  <Header />
+  <main id="main" tabindex="-1">
+    <section class="hero hero-section">
+      <div class="wrap">
+        <h1>搜索</h1>
+        <p class="tagline">{SEARCH_OG.description}</p>
+      </div>
+    </section>
+    <Directory searchPage />
+  </main>
+  <Footer showHome />
+</Base>

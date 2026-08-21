@@ -1,0 +1,26 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Directory from "../components/Directory.astro";
+import { TAKES_OG } from "../lib/catalog";
+---
+
+<Base
+  title={TAKES_OG.title}
+  description={TAKES_OG.description}
+  ogImage={TAKES_OG.image}
+  ogImageAlt={TAKES_OG.imageAlt}
+>
+  <Header />
+  <main id="main" tabindex="-1">
+    <section class="hero hero-section">
+      <div class="wrap">
+        <h1>观点与实测</h1>
+        <p class="tagline">{TAKES_OG.description}</p>
+      </div>
+    </section>
+    <Directory initialSection="takes" />
+  </main>
+  <Footer showHome />
+</Base>

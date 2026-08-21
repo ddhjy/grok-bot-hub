@@ -140,9 +140,13 @@ for (const entry of catalog.entries) {
 
   if (typeof entry.blurb === "string") {
     const opener = entry.blurb.trim();
-    if (/^(说明如何|文档写明|介绍如何|介绍了)/.test(opener)) {
-      fail(`${where} blurb 不要用「说明如何 / 文档写明 / 介绍…」开头，写清为什么要点。`);
+    if (/^(说明如何|文档写明|介绍如何|介绍了|演示如何)/.test(opener)) {
+      fail(`${where} blurb 不要用「说明如何 / 文档写明 / 介绍… / 演示如何」开头，写清为什么要点。`);
     }
+  }
+
+  if (typeof entry.title === "string" && !/[\u4e00-\u9fff]/.test(entry.title)) {
+    fail(`${where} title 需要中文译名或注解，不要只写英文或仓库 slug。`);
   }
 
   if (entry.tags !== undefined) {
@@ -169,11 +173,20 @@ for (const entry of catalog.entries) {
       fail(`${where} 只有 official 条目可以带 cluster。`);
     }
   }
+
+  if (entry.featured !== undefined) {
+    if (entry.featured !== true && entry.featured !== false) {
+      fail(`${where} featured 只能是 boolean。`);
+    }
+    if (entry.featured && entry.section !== "official") {
+      fail(`${where} 只有 official 条目可以标 featured。`);
+    }
+  }
 }
 
 const count = catalog.entries.length;
-if (count < 40 || count > 70) {
-  fail(`条目数量应为 40–70，当前为 ${count}。`);
+if (count < 40 || count > 120) {
+  fail(`条目数量应为 40–120，当前为 ${count}。`);
 }
 
 if (process.exitCode) {

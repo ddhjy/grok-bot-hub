@@ -1,0 +1,59 @@
+---
+import { displayBlurb, displayTitle, hostnameOf, hostTone, type CatalogEntry, type PinTone } from "../lib/catalog";
+
+interface Props {
+  entry: CatalogEntry;
+  attrs: Record<string, unknown>;
+  heading?: "h2" | "h3";
+  pin?: {
+    name?: string;
+    hostNote?: string;
+    reason?: string;
+    mark?: string;
+    tone?: PinTone;
+    hideTitle?: boolean;
+  };
+}
+
+const { entry, attrs, pin, heading = "h3" } = Astro.props;
+const host = hostnameOf(entry.url);
+const mark = pin?.mark ?? host.slice(0, 1);
+const tone = pin?.tone ?? hostTone(host);
+const Heading = heading;
+const named = Boolean(pin?.name);
+const hideHost = named || Boolean(pin?.mark);
+const hideTitle = Boolean(pin?.hideTitle);
+---
+
+<a class:list={["card", pin && "card-pin"]} href={entry.url} {...attrs} rel="noopener noreferrer" target="_blank">
+  <div class="card-kicker">
+    <span class="host-line">
+      <span class:list={["host-mark", `tone-${tone}`]} aria-hidden="true">
+        {mark}
+      </span>
+      {!hideHost && <span>{host}</span>}
+    </span>
+    <span class="card-cta" aria-hidden="true">↗</span>
+  </div>
+  {
+    named && (
+      <p class="pin-who">
+        <span class="pin-name">{pin?.name}</span>
+        {pin?.hostNote && <span class="pin-host-note">{pin.hostNote}</span>}
+      </p>
+    )
+  }
+  <Heading class:list={[hideTitle && "visually-hidden"]}>{displayTitle(entry)}</Heading>
+  {pin?.reason && <p class="pin-reason">{pin.reason}</p>}
+  {!pin?.reason && <p>{displayBlurb(entry)}</p>}
+  {
+    !pin && entry.tags && entry.tags.length > 0 && (
+      <div class="tags">
+        {entry.tags.map((tag) => (
+          <span class="tag">{tag}</span>
+        ))}
+      </div>
+    )
+  }
+  <span class="visually-hidden">（新窗口打开）</span>
+</a>

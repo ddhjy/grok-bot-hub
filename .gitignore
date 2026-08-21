@@ -6,3 +6,10 @@ dist/
 .env
 .env.*
 !.env.example
+
+# generated / local QA
+public/og-q-*.png
+inbox/
+REVIEW*.md
+FIXLOG.md
+ROUNDS.md

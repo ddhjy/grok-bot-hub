@@ -1,0 +1,48 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import Directory from "../../components/Directory.astro";
+import {
+  shareQueries,
+  canonicalShareQuery,
+  isCoreShareQuery,
+  searchDocumentTitle,
+  searchDocumentDescription,
+  searchOgFile,
+} from "../../lib/catalog";
+
+export function getStaticPaths() {
+  return shareQueries().map((q) => ({ params: { q } }));
+}
+
+const q = canonicalShareQuery(decodeURIComponent(Astro.params.q ?? ""));
+const title = searchDocumentTitle(q);
+const description = searchDocumentDescription(q);
+const ogName = searchOgFile(q);
+const ogExists = fs.existsSync(path.join(process.cwd(), "public", ogName));
+const ogImage = ogExists ? ogName : "og-search.png";
+const core = isCoreShareQuery(q);
+---
+
+<Base
+  title={title}
+  description={description}
+  ogImage={ogImage}
+  ogImageAlt={`${title}，非官方`}
+  noindex={!core}
+>
+  <Header />
+  <main id="main" tabindex="-1">
+    <section class="hero hero-section">
+      <div class="wrap">
+        <h1>「{q}」的搜索</h1>
+        <p class="tagline">{description}</p>
+      </div>
+    </section>
+    <Directory searchPage initialQuery={q} />
+  </main>
+  <Footer showHome />
+</Base>

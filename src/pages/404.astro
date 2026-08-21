@@ -4,15 +4,33 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
 const home = import.meta.env.BASE_URL;
+const homeHref = home.endsWith("/") ? home : `${home}/`;
+const origin = Astro.site ?? new URL("https://ddhjy.github.io");
 ---
 
-<Base title="页面不存在 · Grok Bot 目录" description="这个地址在 Grok Bot 目录里不存在。" noindex>
+<Base
+  title="没有这一页 · Grok Bot 目录"
+  description="这个地址在 Grok Bot 目录里不存在。回到首页搜索。"
+  noindex
+  ogImage="og-404.png"
+  ogImageAlt="没有这一页 · Grok Bot 目录，非官方"
+  canonicalHref={new URL(homeHref, origin).href}
+>
   <Header />
-  <main id="main" class="wrap not-found">
+  <main id="main" class="wrap not-found" tabindex="-1">
     <p class="badge">404</p>
     <h1>没有这一页</h1>
     <p class="tagline">目录里找不到这个地址。回到首页，用搜索找官方文档、教程和踩坑帖。</p>
-    <a class="home-link" href={home}>回首页搜索</a>
+    <a class="home-link" href={homeHref}>回首页搜索</a>
   </main>
   <Footer showHome />
+  <script is:inline>
+    (function () {
+      var path = location.pathname.replace(/\/+$/, "");
+      if (!/\/404$/.test(path)) return;
+      var home = document.querySelector(".home-link");
+      var href = home && home.getAttribute("href");
+      if (href) location.replace(href);
+    })();
+  </script>
 </Base>

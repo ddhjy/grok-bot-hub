@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "validate": "node scripts/validate-catalog.mjs",
-    "build": "node scripts/validate-catalog.mjs && astro build",
+    "validate": "node scripts/validate-catalog.mjs && node scripts/check-search.mjs",
+    "og": "node scripts/write-og-cards.mjs && python3 scripts/generate-og.py",
+    "build": "node scripts/validate-catalog.mjs && node scripts/check-search.mjs && node scripts/write-og-cards.mjs && python3 scripts/generate-og.py && astro build",
     "preview": "astro preview"
   },
   "engines": {

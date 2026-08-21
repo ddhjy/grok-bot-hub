@@ -3,18 +3,21 @@ import Base from "../layouts/Base.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Directory from "../components/Directory.astro";
-import { catalog } from "../lib/catalog";
+import { displayTitle, visibleOnDefaultGrid } from "../lib/catalog";
+
+const visibleEntries = visibleOnDefaultGrid();
+const visibleTotal = visibleEntries.length;
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   name: "Grok Bot 目录",
   description: "常驻云电脑队友的中文目录。非官方精选。",
-  numberOfItems: catalog.entries.length,
-  itemListElement: catalog.entries.map((entry, index) => ({
+  numberOfItems: visibleTotal,
+  itemListElement: visibleEntries.map((entry, index) => ({
     "@type": "ListItem",
     position: index + 1,
-    name: entry.title,
+    name: displayTitle(entry),
     url: entry.url,
     description: entry.blurb,
   })),
@@ -26,12 +29,12 @@ const jsonLd = {
   description="常驻云电脑队友的中文目录。精选官方文档、教程、技能和踩坑，不是 grok.com 聊天、Grok Imagine 或 Grok 4.x 模型评测。"
 >
   <Header />
-  <main id="main">
+  <main id="main" tabindex="-1">
     <section class="hero">
       <div class="wrap">
-        <h1>常驻云电脑队友的中文目录</h1>
+        <h1>常驻云电脑队友的<span class="keep-phrase">中文目录</span></h1>
         <p class="tagline">
-          给要上手 Grok Bot 的人：从安装、第一个 Bot 到必读坑，{catalog.entries.length} 条已核验链接。
+          给要上手 Grok Bot 的人：本页从安装到<span class="keep-phrase">第一个 Bot</span>，{visibleTotal} 条已核验链接。<span class="keep-phrase">必读坑在社区与坑</span>。
         </p>
         <p class="lede">
           Grok Bot 是 2026年8月11日由 xAI 与 Cursor 推出的全天候云电脑队友。本目录不收录 grok.com

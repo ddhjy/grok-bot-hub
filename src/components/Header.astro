@@ -1,5 +1,6 @@
 ---
-const home = import.meta.env.BASE_URL;
+const raw = import.meta.env.BASE_URL;
+const home = raw.endsWith("/") ? raw : `${raw}/`;
 ---
 
 <header class="site-header">

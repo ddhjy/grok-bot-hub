@@ -16,7 +16,7 @@
       "url": "https://x.ai/bot",
       "blurb": "先看官方怎么定义这名常驻队友：能登录你现有工具，在持久云电脑上把活干完。",
       "section": "official",
-      "cluster": "start",
+      "cluster": "computer",
       "tags": ["xAI", "产品", "定价"],
       "aliases": ["产品页", "官网"]
     },
@@ -26,7 +26,7 @@
       "url": "https://x.ai/news/introducing-grok-bot",
       "blurb": "二〇二六年八月十一日的发布说明：自带电脑、合上笔记本也继续干活的常驻智能体。",
       "section": "official",
-      "cluster": "start",
+      "cluster": "computer",
       "tags": ["xAI", "发布"],
       "aliases": ["Introducing Grok Bot", "发布稿", "always-on", "新闻"]
     },
@@ -37,6 +37,7 @@
       "blurb": "新人第一篇：Bot 是有名字的常驻队友，多 Bot 共用一台按账号隔离的云电脑。",
       "section": "official",
       "cluster": "start",
+      "featured": true,
       "tags": ["文档", "概念"],
       "aliases": ["overview", "总览"]
     },
@@ -47,6 +48,7 @@
       "blurb": "装 macOS 或 Windows 桌面端、用 Cursor 账号登录，并创建你的第一个 Bot。",
       "section": "official",
       "cluster": "start",
+      "featured": true,
       "tags": ["文档", "上手", "桌面端"],
       "aliases": ["安装", "get-started", "setup", "anzhuang"]
     },
@@ -56,7 +58,7 @@
       "url": "https://docs.x.ai/grok-bot/use-cases",
       "blurb": "想先试岗位的人看这里：销售外呼、招聘寻访、投放监控、费用对账、性能排查。",
       "section": "official",
-      "cluster": "start",
+      "cluster": "computer",
       "tags": ["文档", "用例"],
       "aliases": ["use cases", "岗位"]
     },
@@ -76,7 +78,7 @@
       "url": "https://docs.x.ai/grok-bot/bots",
       "blurb": "给 Bot 起名、限定职责，把它当常驻同事，而不是一次性聊天线程。",
       "section": "official",
-      "cluster": "start",
+      "cluster": "computer",
       "tags": ["文档", "编制"],
       "aliases": ["编制", "管理"]
     },
@@ -94,7 +96,7 @@
       "id": "docs-files-and-results",
       "title": "文件与结果",
       "url": "https://docs.x.ai/grok-bot/files-and-results",
-      "blurb": "产物落在共享云电脑的什么位置，以及怎样把结果取回本地。",
+      "blurb": "表格、截图或代码要拿回自己电脑时看这里，产物都在共享盘，不在聊天记录里。",
       "section": "official",
       "cluster": "computer",
       "tags": ["文档", "文件"],
@@ -107,6 +109,7 @@
       "blurb": "共享浏览器、文件系统和终端：没有干净接口时，就在云电脑里像人一样点网页。",
       "section": "official",
       "cluster": "computer",
+      "featured": true,
       "tags": ["文档", "云电脑"],
       "aliases": ["云电脑", "浏览器", "终端"]
     },
@@ -124,7 +127,7 @@
       "id": "docs-settings-notifications",
       "title": "设置与通知",
       "url": "https://docs.x.ai/grok-bot/settings-and-notifications",
-      "blurb": "通知按 Bot 分组、手机如何提醒，以及卡住的任务怎样跟进。",
+      "blurb": "任务卡住或想在手机上看进度时点这里，通知按 Bot 分组，不会混成一堆。",
       "section": "official",
       "cluster": "computer",
       "tags": ["文档", "通知"],
@@ -137,6 +140,7 @@
       "blurb": "密码与二次验证需你接管电脑完成；审批线应画在发送、付款和改生产这类不可逆动作上。",
       "section": "official",
       "cluster": "safety",
+      "featured": true,
       "tags": ["文档", "安全", "审批"],
       "aliases": ["审批", "安全", "隐私", "anquan"]
     },
@@ -144,7 +148,7 @@
       "id": "docs-teams",
       "title": "团队与企业",
       "url": "https://docs.x.ai/grok-bot/teams-and-enterprises",
-      "blurb": "团队市场、单点登录与共享用量，插件策略沿用现有 Cursor 规则。",
+      "blurb": "要上团队座位再点：单点登录、共享用量，插件规则跟现有 Cursor 一样。",
       "section": "official",
       "cluster": "billing",
       "tags": ["文档", "团队"],
@@ -164,7 +168,7 @@
       "id": "docs-faq",
       "title": "官方常见问题",
       "url": "https://docs.x.ai/grok-bot/faq",
-      "blurb": "资格门槛、共享电脑边界、记忆范围，以及桌面与 iOS 平台支持的短答。",
+      "blurb": "还没决定买不买时先看这篇：资格、记忆能记住什么、桌面和 iOS 各支持到哪。",
       "section": "official",
       "cluster": "safety",
       "tags": ["文档", "FAQ"],
@@ -177,6 +181,7 @@
       "blurb": "用同一 Cursor 账号登录、创建第一个 agent，并强调不要把密钥贴进聊天。",
       "section": "official",
       "cluster": "start",
+      "featured": true,
       "tags": ["Cursor", "上手"],
       "aliases": ["getting started", "入门"]
     },
@@ -197,6 +202,7 @@
       "blurb": "Ultra、团队 Premium 座位和 SuperGrok Heavy 三条准入路径，试用额度按步骤消耗。",
       "section": "official",
       "cluster": "billing",
+      "featured": true,
       "tags": ["Cursor", "计费"],
       "aliases": ["定价", "plans", "用量", "计费", "dingjia"]
     },
@@ -207,6 +213,7 @@
       "blurb": "符合条件的 SuperGrok Heavy 可绑定免费 Cursor Ultra；已在 Ultra 上不会叠用量。",
       "section": "official",
       "cluster": "billing",
+      "featured": true,
       "tags": ["Cursor", "Heavy", "Ultra"],
       "aliases": ["Heavy", "Ultra", "开通"]
     },
@@ -227,6 +234,7 @@
       "blurb": "优先用插件连接器对接 Gmail、Notion、Slack 等服务，授权在浏览器里完成。",
       "section": "official",
       "cluster": "computer",
+      "featured": true,
       "tags": ["Cursor", "插件"],
       "aliases": ["Slack", "Gmail", "Notion", "插件", "chajian"]
     },
@@ -237,6 +245,7 @@
       "blurb": "API 密钥应走安全卡片，不要写进普通聊天或普通文件。",
       "section": "official",
       "cluster": "safety",
+      "featured": true,
       "tags": ["Cursor", "安全"],
       "aliases": ["密钥", "secrets", "API"]
     },
@@ -252,13 +261,14 @@
     },
     {
       "id": "app-store-grok-bot",
-      "title": "App Store：Grok Bot",
+      "title": "App Store：Grok Bot 同伴应用",
       "url": "https://apps.apple.com/cn/app/grok-bot/id6794501026",
       "blurb": "官方 iOS 同伴应用，用来在手机上给云端 Bot 发消息，本身并不跑云电脑。",
       "section": "official",
-      "cluster": "billing",
+      "cluster": "computer",
+      "featured": true,
       "tags": ["iOS", "App Store"],
-      "aliases": ["苹果", "App Store", "下载"]
+      "aliases": ["苹果", "App Store", "下载", "App Store：Grok Bot"]
     },
     {
       "id": "plugin-marketplace",
@@ -310,7 +320,7 @@
       "id": "therundown-handoff",
       "title": "把跨应用的活交出去",
       "url": "https://app.therundown.ai/guides/hand-off-real-work-across-your-apps-with-grok-bot",
-      "blurb": "The Rundown 演示如何把要在多个应用之间完成的任务整包交给 Bot。",
+      "blurb": "跨邮箱、日历和浏览器才能做完的活，可以直接整包交给 Bot，不用自己当搬运。",
       "section": "tutorials",
       "tags": ["交接", "工作流"],
       "aliases": ["handoff", "交接"]
@@ -406,6 +416,240 @@
       "aliases": ["一周", "note"]
     },
     {
+      "id": "price-foulger-roofing",
+      "title": "Price Foulger：两天办完屋顶许可与分包",
+      "url": "https://x.com/pricefoulger/status/2090444744853766643",
+      "blurb": "屋顶承包商让 Bot 填许可、过验证码约巡检、发电子签分包和变更单，两天把运营侧活干完。",
+      "section": "cases",
+      "tags": ["电脑操作", "工程"],
+      "aliases": ["屋顶", "许可"]
+    },
+    {
+      "id": "jon-oneill-plumbing",
+      "title": "Jon ONeill：水管公司的 Atlas 编制",
+      "url": "https://x.com/HouseHackerJon/status/2087918025798467861",
+      "blurb": "水管公司老板拆出 Atlas、Marc 和 Gmail 调度岗，把工单接到 ServiceTitan 预约，还记下第一只被解雇的调度 Bot。",
+      "section": "cases",
+      "tags": ["编制", "电脑操作"],
+      "aliases": ["水管", "Atlas"]
+    },
+    {
+      "id": "chuck-russell-car-shopping",
+      "title": "Chuck Russell：三名 Bot 邮件反向竞价租 SUV",
+      "url": "https://chuckrussell.medium.com/my-agents-went-car-shopping-bdcd8e822617",
+      "blurb": "Genesis、Santa Fe、Lucid 各派一名 Bot 只走邮件填表压经销商，九家店两天收成一张比价表，人只拍板签租约。",
+      "section": "cases",
+      "tags": ["购物", "编制"],
+      "aliases": ["买车", "SUV"]
+    },
+    {
+      "id": "jjcm-vietnam-fabric",
+      "title": "jjcm：向越南四十家面料厂询价打样",
+      "url": "https://news.ycombinator.com/item?id=49263241",
+      "blurb": "面料岗 Bot 向越南约四十家供应商询价议价并锁下打样，再由打样岗把 Logo 花纹做成文件发给工厂。",
+      "section": "cases",
+      "tags": ["采购", "编制"],
+      "aliases": ["面料", "越南"]
+    },
+    {
+      "id": "john-schoenith-amazon-return",
+      "title": "John Schoenith：拍照办亚马逊退货",
+      "url": "https://x.com/eleven21/status/2090136506551976258",
+      "blurb": "拍一张退货照片，Bot 会在亚马逊订单里找记录、创建退货并打出带二维码的 UPS 面单。",
+      "section": "cases",
+      "tags": ["购物", "电脑操作"],
+      "aliases": ["亚马逊", "退货"]
+    },
+    {
+      "id": "alex-finn-sponsor-deal",
+      "title": "Alex Finn：Bot 谈成一万美元赞助",
+      "url": "https://www.youtube.com/watch?v=x8KP4MdvM1k",
+      "blurb": "片中贴出 Bot 盯商务邮箱、议价并当天成交一万美元赞助的原信，再拆幕僚长和营收岗怎么跑。",
+      "section": "cases",
+      "tags": ["销售", "编制", "视频"],
+      "aliases": ["Alex Finn", "赞助"]
+    },
+    {
+      "id": "nine-to-five-mac-etihad",
+      "title": "9to5Mac：查阿提哈德里程票并写每日简报",
+      "url": "https://www.youtube.com/watch?v=qXGfR8oB1j4",
+      "blurb": "Fernando 用幕僚长和旅行管家每天查阿提哈德奖励舱、扫苹果新闻，并写成早间邮件简报。",
+      "section": "cases",
+      "tags": ["简报", "订票", "视频"],
+      "aliases": ["9to5Mac", "阿提哈德"]
+    },
+    {
+      "id": "xonk-thirty-one-prs",
+      "title": "xonk：午睡两小时醒来并入三十一份拉取请求",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vn3mcm/how_are_you_using_grok_bot/p45y8qa/",
+      "blurb": "给幕僚长一句「别等我派活」，午睡两小时后收到三十四个拉取请求，审过并入三十一个。",
+      "section": "cases",
+      "tags": ["工程", "编制"],
+      "aliases": ["PR", "午睡"]
+    },
+    {
+      "id": "skins-team-litigation-email",
+      "title": "skins_team：十五分钟筛完三百九十 GB 诉讼邮件",
+      "url": "https://www.reddit.com/r/cursor/comments/1vlnrqb/introducing_grok_bot/p3dgqp8/",
+      "blurb": "把三百九十 GB 本地邮箱丢给云电脑，十五分钟抽出诉讼相关邮件，比 Codex 筛一周还准。",
+      "section": "cases",
+      "tags": ["电脑操作", "工程"],
+      "aliases": ["诉讼", "邮箱"]
+    },
+    {
+      "id": "osushi-aituber-x",
+      "title": "お寿司：四人编制接手 AITuber 的 X 运营",
+      "url": "https://note.com/osushi_cr/n/n6b65bcad56dd",
+      "blurb": "pdm、analyst、kurara、eng 四体在群聊和 Notion 看板里跑关注与发帖，作者只读例会再给 PdM 回方针。",
+      "section": "cases",
+      "tags": ["编制", "销售", "日文"],
+      "aliases": ["AITuber", "お寿司"]
+    },
+    {
+      "id": "kominami-music-site",
+      "title": "Kominami：让 Bot 巡检自己的音乐站",
+      "url": "https://note.com/kominami_program/n/n04a915512821",
+      "blurb": "质量岗 Bot 真点搜索、播放和手机版，再对三个地址隔时打九次状态码，交出带 URL 和时刻的巡检表。",
+      "section": "cases",
+      "tags": ["电脑操作", "日文"],
+      "aliases": ["巡检", "Kominami"]
+    },
+    {
+      "id": "kinopee-macos-notarize",
+      "title": "Kinopee：用 Bot 把 macOS 应用签到公证上架",
+      "url": "https://qiita.com/Kinopee/items/47970f629f1d98a42ccf",
+      "blurb": "公证上架 Realtime Translator 时，把卡住的 Docker、Developer ID、Secrets 和 CI 拆给 Bot 一起推，最后把签名流程单独收成拉取请求。",
+      "section": "cases",
+      "tags": ["工程", "日文"],
+      "aliases": ["公证", "macOS"]
+    },
+    {
+      "id": "ed-dale-yellow-pad",
+      "title": "Ed Dale：黄拍纸上画出岗位再雇他们",
+      "url": "https://ai30dc.substack.com/p/i-drew-the-jobs-on-a-yellow-pad-then",
+      "blurb": "通讯员 Chihaya、编辑 Fern、印刷工 Eisen 和行政助理 Suletta 当天上岗，午饭前改好会议并交出通讯稿。",
+      "section": "cases",
+      "tags": ["编制", "通讯"],
+      "aliases": ["黄拍纸", "Ed Dale"]
+    },
+    {
+      "id": "aakash-sponsor-letters",
+      "title": "Aakash：幕僚长起草十封赞助信",
+      "url": "https://www.aibyaakash.com/p/grok-bot",
+      "blurb": "行政与赞助谈判共用 Gmail 登录，Bot 自己爬完作者全部 Substack 后起草了十封赞助信。",
+      "section": "cases",
+      "tags": ["编制", "销售"],
+      "aliases": ["Aakash", "赞助信"]
+    },
+    {
+      "id": "ghiles-cold-email",
+      "title": "Ghiles：两行消息修好冷邮回复翻倍",
+      "url": "https://www.linkedin.com/pulse/how-turn-grok-bot-gtm-team-creates-content-runs-sales-moussaoui-1mrff",
+      "blurb": "手机上两行字让 Bot 换掉失效外呼邮箱，冷邮正向回复从六十四升到一百一十二。",
+      "section": "cases",
+      "tags": ["销售", "GTM"],
+      "aliases": ["冷邮", "Ghiles"]
+    },
+    {
+      "id": "david-carbutt-stripe",
+      "title": "David Carbutt：非开发者一周跑课与 Stripe",
+      "url": "https://x.com/DavidCarbutt_/status/2090603356649562522",
+      "blurb": "非开发者不到一周让幕僚长改错幻灯、从销售通话写出规则，并在 Stripe 开出五折课码。",
+      "section": "cases",
+      "tags": ["编制", "销售"],
+      "aliases": ["Stripe", "课程"]
+    },
+    {
+      "id": "orcdev-discord-scripts",
+      "title": "OrcDev：Discord 日更压成三条成片脚本",
+      "url": "https://x.com/orcdev/status/2090053406417105300",
+      "blurb": "一只 Bot 每天两次把 Discord 摘要交给脚本岗，挑出三条适合频道的题材并写好成片脚本。",
+      "section": "cases",
+      "tags": ["编制", "视频", "Discord"],
+      "aliases": ["OrcDev", "脚本"]
+    },
+    {
+      "id": "eugene-orbital-drift",
+      "title": "Eugene：用 Orbital Drift 编制跑 MV 成片",
+      "url": "https://forum.cursor.com/t/grok-bot-first-class-projects-roster-shared-context-artifacts-status/168193",
+      "blurb": "帖里列出幕僚长、制作人、鼓贝斯合成器、摄影指导和成片链路，是一份真实在跑的音乐视频制作编制。",
+      "section": "cases",
+      "tags": ["编制", "视频"],
+      "aliases": ["Orbital Drift", "MV"]
+    },
+    {
+      "id": "craig-hewitt-castos",
+      "title": "Craig Hewitt：Castos 客服研发市场编制",
+      "url": "https://www.youtube.com/watch?v=spsMYfG_ND4",
+      "blurb": "播客托管公司 Castos 拆出两套幕僚长，底下再挂客服、研发、市场岗，并接上 Gmail、Granola 和 Chartmogul。",
+      "section": "cases",
+      "tags": ["编制", "视频"],
+      "aliases": ["Castos", "Craig Hewitt"]
+    },
+    {
+      "id": "dylan-haugen-website",
+      "title": "Dylan Haugen：Bot 自行扩编并改官网",
+      "url": "https://www.youtube.com/watch?v=kgzxNL4Yxtc",
+      "blurb": "私人助理自己拉起编制，给 dylan-haugen.com 补上演讲页和新闻页，还从逐字稿抽出引用写成文章。",
+      "section": "cases",
+      "tags": ["编制", "电脑操作", "视频"],
+      "aliases": ["Dylan Haugen", "官网"]
+    },
+    {
+      "id": "derya-x-to-notion",
+      "title": "Derya：每天扫 X 写入 Notion 库",
+      "url": "https://x.com/DeryaTR_/status/2087371098920763631",
+      "blurb": "让 Bot 每天扫描 X 上的 AI 与机器人发布，自动建 Notion 库并持续追加，帖内有数据库截图。",
+      "section": "cases",
+      "tags": ["简报"],
+      "aliases": ["Notion", "Derya"]
+    },
+    {
+      "id": "indra-warren-duffer",
+      "title": "Indra：把五十万卢比交给日内交易 Bot",
+      "url": "https://x.com/IndraVahan/status/2089399469360214443",
+      "blurb": "把五十万卢比和券商权限交给名叫 Warren Duffer 的 Bot 做五倍杠杆日内交易，并公开目前已亏五万一千卢比。",
+      "section": "cases",
+      "tags": ["交易"],
+      "aliases": ["Warren Duffer", "交易"]
+    },
+    {
+      "id": "cigar-coupon-outreach",
+      "title": "anonymousdudemon：雪茄优惠爬虫加销售外呼",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vn3mcm/how_are_you_using_grok_bot/p450tr5/",
+      "blurb": "无代码一周内做出雪茄折扣抓取页，再把 Granola、Zoom、Gmail、Slack 跟进和 LinkedIn 外呼交给 Bot 连跑。",
+      "section": "cases",
+      "tags": ["销售", "电脑操作"],
+      "aliases": ["雪茄", "外呼"]
+    },
+    {
+      "id": "visual-ad-merchant-ops",
+      "title": "Visual_Ad8604：GitHub 交接后改商户资料",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vn3mcm/how_are_you_using_grok_bot/p4e7czx/",
+      "blurb": "用 GitHub 当公共收件箱，Claude 交代码、Grok Bot 负责落地、发内容和改 Google 商户资料。",
+      "section": "cases",
+      "tags": ["销售", "电脑操作"],
+      "aliases": ["商户资料", "GitHub"]
+    },
+    {
+      "id": "nathan-discord-bridge",
+      "title": "Nathan：把 Discord 提问接到 Bot 云电脑",
+      "url": "https://forum.cursor.com/t/official-discord-plugin-for-grok-bot-inbound-channels/168430",
+      "blurb": "作者把 discord-agent-bridge 跑在 Grok Bot 云电脑上，频道消息能叫醒 Bot 并沿官方 API 原路回复。",
+      "section": "cases",
+      "tags": ["客服", "Discord"],
+      "aliases": ["Discord", "网关"]
+    },
+    {
+      "id": "xiaotu-content-ops",
+      "title": "小土：点赞进知识库并改写成多平台",
+      "url": "https://zhuanlan.zhihu.com/p/2072963993224876217",
+      "blurb": "作者用一周把 X 点赞定时剪进 Obsidian，再把公众号改写成知乎问答和小红书卡片。",
+      "section": "cases",
+      "tags": ["电脑操作", "知识库"],
+      "aliases": ["小土", "知识库"]
+    },
+    {
       "id": "grokbot-imessage-skill",
       "title": "iMessage 技能",
       "url": "https://github.com/jeffhuber/grokbot-imessage-skill",
@@ -443,12 +687,12 @@
     },
     {
       "id": "chrome-devtools-mcp",
-      "title": "Chrome DevTools MCP",
+      "title": "Chrome DevTools MCP：驱动真浏览器",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "blurb": "通过 MCP 驱动真实 Chrome，读取性能轨迹、网络请求和带源映射的控制台错误。",
       "section": "skills",
       "tags": ["MCP", "Chrome"],
-      "aliases": ["Chrome", "DevTools"]
+      "aliases": ["Chrome", "DevTools", "Chrome DevTools MCP"]
     },
     {
       "id": "grok-ship",
