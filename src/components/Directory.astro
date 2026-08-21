@@ -1,13 +1,30 @@
 ---
-import { catalog, entriesBySection, hostnameOf, type SectionId } from "../lib/catalog";
+import {
+  catalog,
+  entriesBySection,
+  hostnameOf,
+  hostTone,
+  officialByCluster,
+  searchHaystack,
+  START_PATH,
+  OFFICIAL_CLUSTERS,
+  entryById,
+  formatZhDate,
+  type SectionId,
+} from "../lib/catalog";
 
 const total = catalog.entries.length;
+const updated = formatZhDate(catalog.updated);
+const startItems = START_PATH.map((step) => {
+  const entry = entryById(step.id);
+  return entry ? { ...step, url: entry.url, title: entry.title } : null;
+}).filter((item): item is NonNullable<typeof item> => item !== null);
 ---
 
 <div class="directory" data-directory>
   <div class="toolbar">
-    <div class="wrap">
-      <label class="search">
+    <div class="wrap toolbar-inner">
+      <div class="search">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"></circle>
           <path d="M20 20l-3.2-3.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
@@ -18,18 +35,25 @@ const total = catalog.entries.length;
           placeholder="搜索标题、说明、标签或网址"
           autocomplete="off"
           enterkeyhint="search"
+          aria-label="搜索目录"
         />
-        <kbd>/</kbd>
-      </label>
-      <div class="filters" role="toolbar" aria-label="按分区筛选">
-        <button class="filter" type="button" data-filter="all" aria-pressed="true">
-          全部 <span class="count">{total}</span>
+        <kbd aria-hidden="true">/</kbd>
+      </div>
+      <div class="filters" role="group" aria-label="按分区筛选" data-filters>
+        <button class="filter" type="button" data-filter="all" data-label="全部" aria-pressed="true">
+          全部 <span class="count" data-count>{total}</span>
         </button>
         {
           catalog.sections.map((section) => (
-            <button class="filter" type="button" data-filter={section.id} aria-pressed="false">
+            <button
+              class="filter"
+              type="button"
+              data-filter={section.id}
+              data-label={section.label}
+              aria-pressed="false"
+            >
               {section.label}
-              <span class="count">{entriesBySection(section.id as SectionId).length}</span>
+              <span class="count" data-count>{entriesBySection(section.id as SectionId).length}</span>
             </button>
           ))
         }
@@ -39,14 +63,48 @@ const total = catalog.entries.length;
 
   <div class="wrap">
     <div class="status-row">
-      <span data-result-count>共 {total} 条</span>
-      <span>数据源 data/catalog.json</span>
+      <span data-result-count aria-live="polite" aria-atomic="true">共 {total} 条</span>
+      {updated && <span>更新于 {updated}</span>}
     </div>
 
-    <p class="empty" data-empty>没有匹配的条目。试试更短的词，或切回「全部」。</p>
+    <nav class="start-path" data-start-path aria-label="从这里开始">
+      <p class="start-kicker">从这里开始</p>
+      <ol class="start-list">
+        {
+          startItems.map((item, index) => (
+            <li>
+              <a class="start-step" href={item.url} rel="noopener noreferrer" target="_blank">
+                <span class="start-index">{index + 1}</span>
+                <span class="start-copy">
+                  <strong>{item.label}</strong>
+                  <span>{item.hint}</span>
+                </span>
+                <span class="visually-hidden">（新窗口打开）</span>
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </nav>
+
+    <div class="empty" data-empty hidden>
+      <p class="empty-title" data-empty-title>没有匹配的条目</p>
+      <p class="empty-copy" data-empty-copy>换个词试试，或清空筛选。</p>
+      <div class="empty-actions">
+        <button type="button" class="btn-primary" data-clear-search>清空搜索</button>
+        <button type="button" class="btn-ghost" data-reset>查看全部</button>
+      </div>
+      <p class="empty-suggest">
+        试试
+        <button type="button" data-suggest="坑">坑</button>
+        <button type="button" data-suggest="技能">技能</button>
+        <button type="button" data-suggest="定价">定价</button>
+      </p>
+    </div>
 
     {
       catalog.sections.map((section) => {
+        const isOfficial = section.id === "official";
         const entries = entriesBySection(section.id as SectionId);
         return (
           <section class="section-block" id={section.id} data-section-block={section.id}>
@@ -56,38 +114,74 @@ const total = catalog.entries.length;
                 <span data-section-visible>{entries.length}</span> 条
               </span>
             </div>
-            <div class="grid">
-              {entries.map((entry) => {
-                const haystack = [entry.title, entry.blurb, entry.url, ...(entry.tags ?? [])]
-                  .join(" ")
-                  .toLocaleLowerCase("zh-CN");
-                return (
-                  <a
-                    class="card"
-                    href={entry.url}
-                    data-card
-                    data-section={entry.section}
-                    data-search={haystack}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <div class="card-kicker">
-                      <span>{hostnameOf(entry.url)}</span>
-                      <span class="card-cta">打开 ↗</span>
-                    </div>
-                    <h3>{entry.title}</h3>
-                    <p>{entry.blurb}</p>
-                    {entry.tags && entry.tags.length > 0 && (
-                      <div class="tags">
-                        {entry.tags.map((tag) => (
-                          <span class="tag">{tag}</span>
+            {isOfficial ? (
+              <div class="cluster-grid">
+                {OFFICIAL_CLUSTERS.map((cluster) => {
+                  const clusterEntries = officialByCluster(cluster.id);
+                  return (
+                    <div class="cluster" data-cluster={cluster.id}>
+                      <h3 class="cluster-label">{cluster.label}</h3>
+                      <ul class="doc-list">
+                        {clusterEntries.map((entry) => (
+                          <li>
+                            <a
+                              class="doc-row"
+                              href={entry.url}
+                              data-card
+                              data-section={entry.section}
+                              data-search={searchHaystack(entry)}
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              <span class="doc-title">{entry.title}</span>
+                              <span class="doc-blurb">{entry.blurb}</span>
+                              <span class="visually-hidden">（新窗口打开）</span>
+                            </a>
+                          </li>
                         ))}
+                      </ul>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <div class="grid">
+                {entries.map((entry) => {
+                  const host = hostnameOf(entry.url);
+                  return (
+                    <a
+                      class="card"
+                      href={entry.url}
+                      data-card
+                      data-section={entry.section}
+                      data-search={searchHaystack(entry)}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <div class="card-kicker">
+                        <span class="host-line">
+                          <span class:list={["host-mark", `tone-${hostTone(host)}`]} aria-hidden="true">
+                            {host.slice(0, 1)}
+                          </span>
+                          <span>{host}</span>
+                        </span>
+                        <span class="card-cta" aria-hidden="true">↗</span>
                       </div>
-                    )}
-                  </a>
-                );
-              })}
-            </div>
+                      <h3>{entry.title}</h3>
+                      <p>{entry.blurb}</p>
+                      {entry.tags && entry.tags.length > 0 && (
+                        <div class="tags">
+                          {entry.tags.map((tag) => (
+                            <span class="tag">{tag}</span>
+                          ))}
+                        </div>
+                      )}
+                      <span class="visually-hidden">（新窗口打开）</span>
+                    </a>
+                  );
+                })}
+              </div>
+            )}
           </section>
         );
       })

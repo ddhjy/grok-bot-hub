@@ -4,23 +4,43 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Directory from "../components/Directory.astro";
 import { catalog } from "../lib/catalog";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Grok Bot 目录",
+  description: "常驻云电脑队友的中文目录。非官方精选。",
+  numberOfItems: catalog.entries.length,
+  itemListElement: catalog.entries.map((entry, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: entry.title,
+    url: entry.url,
+    description: entry.blurb,
+  })),
+};
 ---
 
-<Base title="Grok Bot 导航" description="非官方 Grok Bot 资源导航。常驻云电脑队友的精选目录，不是 grok.com 聊天。">
+<Base
+  title="Grok Bot 目录"
+  description="常驻云电脑队友的中文目录。精选官方文档、教程、技能和踩坑，不是 grok.com 聊天、Grok Imagine 或 Grok 4.x 模型评测。"
+>
   <Header />
   <main id="main">
     <section class="hero">
       <div class="wrap">
-        <p class="badge">非官方 · {catalog.entries.length} 条精选</p>
-        <h1>Grok Bot 导航</h1>
-        <p class="tagline">常驻云电脑队友的非官方目录。内容写在 Git 里，这个静态站只负责给人看。</p>
+        <h1>常驻云电脑队友的中文目录</h1>
+        <p class="tagline">
+          给要上手 Grok Bot 的人：从安装、第一个 Bot 到必读坑，{catalog.entries.length} 条已核验链接。
+        </p>
         <p class="lede">
-          Grok Bot 是 2026-08-11 由 xAI/SpaceXAI 与 Cursor 推出的 always-on AI 队友，不是 grok.com
-          聊天、Grok Imagine，也不是 Grok 4.x 模型文章。
+          Grok Bot 是 2026年8月11日由 xAI 与 Cursor 推出的全天候云电脑队友。本目录不收录 grok.com
+          聊天、Grok Imagine 生图，也不收录只评 Grok 4.x 模型的文章。
         </p>
       </div>
     </section>
     <Directory />
   </main>
   <Footer />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
 </Base>

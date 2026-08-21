@@ -138,9 +138,35 @@ for (const entry of catalog.entries) {
     }
   }
 
+  if (typeof entry.blurb === "string") {
+    const opener = entry.blurb.trim();
+    if (/^(说明如何|文档写明|介绍如何|介绍了)/.test(opener)) {
+      fail(`${where} blurb 不要用「说明如何 / 文档写明 / 介绍…」开头，写清为什么要点。`);
+    }
+  }
+
   if (entry.tags !== undefined) {
     if (!Array.isArray(entry.tags) || entry.tags.some((tag) => typeof tag !== "string" || tag.trim() === "")) {
       fail(`${where} tags 必须是非空字符串数组。`);
+    }
+  }
+
+  if (entry.aliases !== undefined) {
+    if (
+      !Array.isArray(entry.aliases) ||
+      entry.aliases.some((alias) => typeof alias !== "string" || alias.trim() === "")
+    ) {
+      fail(`${where} aliases 必须是非空字符串数组。`);
+    }
+  }
+
+  const clusters = new Set(["start", "computer", "billing", "safety"]);
+  if (entry.cluster !== undefined) {
+    if (typeof entry.cluster !== "string" || !clusters.has(entry.cluster)) {
+      fail(`${where} cluster 只能是 start / computer / billing / safety。`);
+    }
+    if (entry.section !== "official") {
+      fail(`${where} 只有 official 条目可以带 cluster。`);
     }
   }
 }
