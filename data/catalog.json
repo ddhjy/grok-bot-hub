@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-23",
   "sections": [
     { "id": "official", "label": "官方资源" },
     { "id": "tutorials", "label": "教程" },
@@ -281,6 +281,16 @@
       "aliases": ["marketplace", "市场"]
     },
     {
+      "id": "x-bot-wider-access",
+      "title": "官方扩大开通：Plus、Pro+ 与 Teams 都能用",
+      "url": "https://x.com/bot/status/2090852881373311369",
+      "blurb": "官方账号宣布 SuperGrok Plus、Cursor Pro+ 和 Cursor Teams 现已开通，其余用户也可领有限额度免费试用。",
+      "section": "official",
+      "cluster": "start",
+      "tags": ["开通", "试用"],
+      "aliases": ["开通", "试用"]
+    },
+    {
       "id": "debbie-get-started",
       "title": "Debbie：如何开始用 Grok Bot",
       "url": "https://debbie.codes/blog/how-to-get-started-with-grok-bot",
@@ -351,6 +361,33 @@
       "section": "tutorials",
       "tags": ["GitHub", "笔记"],
       "aliases": ["Uncle-Gizmo", "笔记"]
+    },
+    {
+      "id": "nate-herk-week",
+      "title": "Nate Herk：用满一周后的九条编制心得",
+      "url": "https://www.youtube.com/watch?v=TMPUUyQC5aM",
+      "blurb": "幕僚长、共享记忆、Composio、ClickUp 记日志、录屏教技能和浏览器档案，把多体 Bot 收成一套能信的系统。",
+      "section": "tutorials",
+      "tags": ["编制", "插件", "视频"],
+      "aliases": ["Nate Herk", "一周"]
+    },
+    {
+      "id": "nicekate-cloud-computer",
+      "title": "NiceKate：在 16GB 云电脑上跑 Qwen 和 Blender",
+      "url": "https://www.youtube.com/watch?v=foedWQ4iZJI",
+      "blurb": "实测下载 Qwen、搭 WebUI、剪长视频、出 Notion 与 PPT、Blender 建模，并对照 OpenClaw、Codex 和 Claude Cowork 的限制。",
+      "section": "tutorials",
+      "tags": ["云电脑", "电脑操作", "视频"],
+      "aliases": ["NiceKate", "Qwen", "Blender"]
+    },
+    {
+      "id": "note-cursor-sandbox",
+      "title": "日文上手：共享云电脑原来是 Cursor 沙箱",
+      "url": "https://note.com/bright_dietes994/n/n82219247beae",
+      "blurb": "签约 SuperGrok Heavy 后摸清共享虚拟机是 Debian 非 root 的 Cursor 沙箱，只有 /workspace 会留下，作者用 Python 绕过缺失的 bzip2 装上 micromamba。",
+      "section": "tutorials",
+      "tags": ["电脑操作", "坑", "日文"],
+      "aliases": ["沙箱", "micromamba"]
     },
     {
       "id": "n2parko-roster",
@@ -650,6 +687,42 @@
       "aliases": ["小土", "知识库"]
     },
     {
+      "id": "prof-buehler-3d-print",
+      "title": "MIT 布勒：从四张照片打出实体 PLA 件",
+      "url": "https://x.com/ProfBuehlerMIT/status/2091108225806454802",
+      "blurb": "三人编制从结构照片写出仿真、跑完四十七组实验，再让打印岗打开 Bambu Studio 打出 PLA 件，手表上也能盯进度。",
+      "section": "cases",
+      "tags": ["编制", "幕僚长", "工程"],
+      "aliases": ["MIT", "3D", "打印"]
+    },
+    {
+      "id": "greg-isenberg-newsletter",
+      "title": "Greg Isenberg：六岗编制跑六千订户通讯",
+      "url": "https://www.youtube.com/watch?v=qQluNEfSVHk",
+      "blurb": "Billy Howell 把幕僚长、调研和销售岗接到 Beehive，一人撑起六千订户的周四通讯，并讲清一账号只扛一个项目才不烧额度。",
+      "section": "cases",
+      "tags": ["编制", "销售", "视频"],
+      "aliases": ["Greg Isenberg", "Beehive", "贝果"]
+    },
+    {
+      "id": "matthew-berman-eleven-jobs",
+      "title": "Matthew Berman：邮箱、点餐、修 CI 等十一类实岗",
+      "url": "https://www.youtube.com/watch?v=5CSXUsljJ_E",
+      "blurb": "早七点半清垃圾邮件、云浏览器下 DoorDash、从 Slack 派 Cursor 修 CI，再加幕僚长把日历和学校岗串起来。",
+      "section": "cases",
+      "tags": ["邮箱", "电脑操作", "编制", "视频"],
+      "aliases": ["Matthew Berman", "十一"]
+    },
+    {
+      "id": "cursorinsider-cod-email",
+      "title": "冷邮回复率几乎翻倍：一小时弃用 Hermes",
+      "url": "https://www.bilibili.com/video/BV1qv8T64Eso",
+      "blurb": "Cod Email 创始人用 Grok Bot 接管每天三百多条冷邮回复，一小时丢掉 Hermes，并点名打断会停、没有 goal mode 这些还不稳的坑。",
+      "section": "cases",
+      "tags": ["销售", "坑", "视频"],
+      "aliases": ["冷邮", "Hermes", "Bilibili"]
+    },
+    {
       "id": "grokbot-imessage-skill",
       "title": "iMessage 技能",
       "url": "https://github.com/jeffhuber/grokbot-imessage-skill",
@@ -711,6 +784,60 @@
       "section": "skills",
       "tags": ["MCP", "Coolify"],
       "aliases": ["Coolify"]
+    },
+    {
+      "id": "grokbot-sdk",
+      "title": "非官方 TypeScript SDK：封装 1340 网关",
+      "url": "https://forum.cursor.com/t/unofficial-typescript-sdk-for-the-grok-bot-http-gateway-tailscale-remote-internal/168732",
+      "blurb": "adam91holt 把未公开的 1340 网关打成 grokbot-sdk，本机读 gateway.json、远端走 Tailscale 或 SSH，可 listAgents 和 sendPrompt，并警告不要把端口暴露到公网。",
+      "section": "skills",
+      "tags": ["插件", "网关", "TypeScript"],
+      "aliases": ["SDK", "1340", "Tailscale"]
+    },
+    {
+      "id": "grok-wechat-plugin",
+      "title": "grok-wechat-plugin：微信私信叫醒 Bot",
+      "url": "https://github.com/little-thing/grok-wechat-plugin",
+      "blurb": "把仓库丢给 Bot 即可装上微信 iLink，扫码后对方私信经 webhook 叫醒专属助手并从微信回过去。",
+      "section": "skills",
+      "tags": ["插件", "微信"],
+      "aliases": ["微信", "iLink"]
+    },
+    {
+      "id": "locum",
+      "title": "Locum：把写代码外包给本机 Claude Code",
+      "url": "https://github.com/HarjjotSinghh/locum",
+      "blurb": "云端 Bot 够不着 localhost，这条隧道 MCP 把编码循环交给你已登录的本机 CLI，额度走订阅而不是 Grok。",
+      "section": "skills",
+      "tags": ["插件", "MCP", "工程"],
+      "aliases": ["locum", "Claude Code", "Codex"]
+    },
+    {
+      "id": "grok-bot-cli",
+      "title": "grok-bot-cli：终端里建助手、拉群、发消息",
+      "url": "https://github.com/ScriptedAlchemy/grok-bot-cli",
+      "blurb": "macOS 桌面端登录一次后，gbot 就能列出 Bot、建群、发信和读线程，不用再点桌面。",
+      "section": "skills",
+      "tags": ["插件", "工程"],
+      "aliases": ["gbot", "CLI"]
+    },
+    {
+      "id": "elves-grok-bot",
+      "title": "Elves 过夜核：没有拉取请求的活也能盯完",
+      "url": "https://github.com/aigorahub/elves/blob/main/skills/elves-grok-bot/SKILL.md",
+      "blurb": "专门给没有拉取请求的活准备的四文件内核，一分钟看门狗加 Stop Gate，中断后也不会把同一封 CRM 再发一遍。",
+      "section": "skills",
+      "tags": ["插件", "销售"],
+      "aliases": ["elves", "过夜"]
+    },
+    {
+      "id": "discord-agent-bridge",
+      "title": "discord-agent-bridge：Discord 频道接到云电脑",
+      "url": "https://github.com/FlyOverCoderKY/discord-agent-bridge",
+      "blurb": "没有官方 Discord 入站插件时，可把 Node 网关跑在云电脑本机，频道提问经未公开的 sendPrompt 回调叫醒指定 Bot。",
+      "section": "skills",
+      "tags": ["Discord", "插件", "网关"],
+      "aliases": ["Discord", "sendPrompt"]
     },
     {
       "id": "verge-launch",
@@ -776,6 +903,15 @@
       "aliases": ["alternatives", "代替"]
     },
     {
+      "id": "nate-b-jones-worth-200",
+      "title": "Nate B Jones：装完就能用，两百美元值不值",
+      "url": "https://www.youtube.com/watch?v=LM7Ft7g8qJw",
+      "blurb": "把共享云电脑当成真正的安全边界讲清楚，并给出他建过的十二体编制里最值得先雇的两岗。",
+      "section": "reviews",
+      "tags": ["定价", "坑", "视频"],
+      "aliases": ["Nate B Jones", "两百"]
+    },
+    {
       "id": "rakazo",
       "title": "rakazo：自托管常驻队友",
       "url": "https://github.com/elie222/rakazo",
@@ -819,6 +955,15 @@
       "section": "alternatives",
       "tags": ["Nix", "Linux"],
       "aliases": ["grok-bot-flake", "Nix", "flake"]
+    },
+    {
+      "id": "openmausbot",
+      "title": "OpenMausBot：自带虚拟机的开源替身",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "blurb": "侧栏每个联系人都是本机 Claude、Codex 或 Grok CLI，可挂云桌面或本地虚拟机，关电脑后队友仍在干活。",
+      "section": "alternatives",
+      "tags": ["开源", "替代", "电脑操作"],
+      "aliases": ["OpenMausBot", "Maus"]
     },
     {
       "id": "forum-introducing",
@@ -891,6 +1036,78 @@
       "section": "community",
       "tags": ["清单", "CC0"],
       "aliases": ["awesome-grok-bot", "awesome"]
+    },
+    {
+      "id": "forum-whatsapp-refresh",
+      "title": "电脑刷新会清掉 WhatsApp 链接会话",
+      "url": "https://forum.cursor.com/t/title-computer-refresh-wipes-whatsapp-linked-device-session-in-grok-bot/169025",
+      "blurb": "每日从 Gmail 拉 CSV 再经云电脑发 WhatsApp，刷新后会话目录会被清空；官方点明只保留 /workspace、浏览器配置和 ~/.config。",
+      "section": "community",
+      "tags": ["坑", "WhatsApp", "电脑操作"],
+      "aliases": ["WhatsApp", "刷新"]
+    },
+    {
+      "id": "forum-mcp-oauth-asana",
+      "title": "云端 MCP 不会展开环境变量，Asana 授权失败",
+      "url": "https://forum.cursor.com/t/grok-bot-cloud-mcp-oauth-leaves-env-asana-client-id-unsubstituted/168404",
+      "blurb": "本地 IDE 能解析环境变量，Grok Bot 的 Asana 连接卡片却在 Cursor 后端做 OAuth，占位符会原样送进授权网址，云配置里要写死客户端编号。",
+      "section": "community",
+      "tags": ["坑", "MCP", "插件"],
+      "aliases": ["Asana", "OAuth"]
+    },
+    {
+      "id": "forum-per-agent-browser",
+      "title": "每个 Bot 浏览器仍要单独过 Google 二次验证",
+      "url": "https://forum.cursor.com/t/grok-bot-per-agent-browser-still-requires-separate-sign-in-despite-account-level-login-promise/168212",
+      "blurb": "宣传是同一台电脑登录一次全员能用，实际每个 agent 窗口还要再过 Google 二次验证，官方承认这是缺陷。",
+      "section": "community",
+      "tags": ["坑", "登录", "浏览器"],
+      "aliases": ["2FA", "浏览器"]
+    },
+    {
+      "id": "forum-createagent",
+      "title": "「连不上你的电脑」其实是云电脑没起来",
+      "url": "https://forum.cursor.com/t/grok-bot-0-23-0-first-setup-fails-createagent-can-t-reach-your-computer/169007",
+      "blurb": "首次安装卡在 createAgent 时，官方澄清那句 computer 不是你的 Mac，而是账号侧还没起来的云电脑，重装和 Reset 都改变不了。",
+      "section": "community",
+      "tags": ["坑", "排障"],
+      "aliases": ["createAgent", "连不上"]
+    },
+    {
+      "id": "grok-bot-computer-kit",
+      "title": "Grok Bot Computer Kit：刷新后把环境救回来",
+      "url": "https://github.com/Curtian98/grok-bot-computer-kit",
+      "blurb": "非官方工具按持久盘把 VS Code、Docker、音频栈和看门狗装回更新后的云电脑，默认先空跑。",
+      "section": "community",
+      "tags": ["坑", "电脑操作"],
+      "aliases": ["computer-kit", "恢复"]
+    },
+    {
+      "id": "v2ex-linux-client",
+      "title": "官方 Linux 客户端其实有：deb 包与 AUR",
+      "url": "https://www.v2ex.com/t/1235888",
+      "blurb": "Arch 上能装 Cursor 放出的官方 deb 软件包（AUR grok-bot-bin），尽管帮助页仍写没有 Linux 桌面，且需 Heavy、Ultra 或 Teams Premium。",
+      "section": "community",
+      "tags": ["Linux", "坑", "客户端"],
+      "aliases": ["Linux", "AUR", "deb"]
+    },
+    {
+      "id": "v2ex-ssh-vnc",
+      "title": "八核十六吉云电脑实测：让 Bot 自己开 SSH",
+      "url": "https://www.v2ex.com/t/1235049",
+      "blurb": "楼主让 Bot 组网并打开 SSH 与远程桌面，贴出八核十六吉内存、测速和手机端截图；回帖记下重启会清空环境、只有 workspace 留得住。",
+      "section": "community",
+      "tags": ["电脑操作", "云电脑", "坑"],
+      "aliases": ["SSH", "VNC", "八核"]
+    },
+    {
+      "id": "zenn-memory-japanese",
+      "title": "驯服 Grok Bot：Memory 会脏，日文要用固定规则",
+      "url": "https://zenn.dev/u1/articles/grok-bot-memory-and-japanese-rules",
+      "blurb": "Memory 会把临时批评堆成互相打架的指令，作者用每日例程做回收，并把日文禁前缀、禁复读写成 Bot 改不了的固定规则。",
+      "section": "community",
+      "tags": ["坑", "日文"],
+      "aliases": ["Memory", "日文"]
     }
   ]
 }

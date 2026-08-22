@@ -170,6 +170,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-八核.png",
+    "badge": "非官方 · 搜索",
+    "title": "「八核」的搜索",
+    "footer": "八核十六吉云电脑实测",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-八核-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「八核」的搜索",
+    "footer": "八核十六吉云电脑实测",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-绑定.png",
     "badge": "非官方 · 搜索",
     "title": "「绑定」的搜索",
@@ -217,6 +251,40 @@
       248,
       232,
       226
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-贝果.png",
+    "badge": "非官方 · 搜索",
+    "title": "「贝果」的搜索",
+    "footer": "Greg Isenberg：六岗编制跑六千订户通讯",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-贝果-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「贝果」的搜索",
+    "footer": "Greg Isenberg：六岗编制跑六千订户通讯",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -337,7 +405,7 @@
       236,
       220
     ],
-    "kicker": "19个结果"
+    "kicker": "23个结果"
   },
   {
     "file": "og-q-编制-official.png",
@@ -371,7 +439,7 @@
       240,
       224
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-编制-cases.png",
@@ -388,7 +456,7 @@
       244,
       236
     ],
-    "kicker": "14个结果"
+    "kicker": "17个结果"
   },
   {
     "file": "og-q-编制-skills.png",
@@ -439,7 +507,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -459,10 +527,27 @@
     "kicker": "两个结果"
   },
   {
+    "file": "og-q-插件-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「插件」的搜索",
+    "footer": "Nate Herk",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-插件-skills.png",
     "badge": "非官方 · 技能",
     "title": "「插件」的搜索",
-    "footer": "远程查看部署和日志",
+    "footer": "远程查看部署和日志 · 非官方 TypeScript SDK：封装 1340 网关",
     "accent": [
       110,
       58,
@@ -472,6 +557,23 @@
       246,
       232,
       236
+    ],
+    "kicker": "七个结果"
+  },
+  {
+    "file": "og-q-插件-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「插件」的搜索",
+    "footer": "云端 MCP 不会展开环境变量，Asana 授权失败",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -612,6 +714,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-打印.png",
+    "badge": "非官方 · 搜索",
+    "title": "「打印」的搜索",
+    "footer": "MIT 布勒",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-打印-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「打印」的搜索",
+    "footer": "MIT 布勒",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-代替.png",
     "badge": "非官方 · 搜索",
     "title": "「代替」的搜索",
@@ -660,7 +796,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-登录-official.png",
@@ -683,7 +819,7 @@
     "file": "og-q-登录-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「登录」的搜索",
-    "footer": "云电脑撞上 X 登录锁",
+    "footer": "云电脑撞上 X 登录锁 · 每个 Bot 浏览器仍要单独过 Google 二次验证",
     "accent": [
       154,
       40,
@@ -694,7 +830,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-登录帮助.png",
@@ -830,7 +966,7 @@
       236,
       220
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -853,7 +989,7 @@
     "file": "og-q-定价-reviews.png",
     "badge": "非官方 · 评测对比",
     "title": "「定价」的搜索",
-    "footer": "持久数字同事（VentureBeat）",
+    "footer": "持久数字同事（VentureBeat） · Nate B Jones：装完就能用，两百美元值不值",
     "accent": [
       28,
       25,
@@ -864,7 +1000,7 @@
       234,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-短信.png",
@@ -1326,6 +1462,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-过夜.png",
+    "badge": "非官方 · 搜索",
+    "title": "「过夜」的搜索",
+    "footer": "Elves 过夜核",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-过夜-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「过夜」的搜索",
+    "footer": "Elves 过夜核",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-黄拍纸.png",
     "badge": "非官方 · 搜索",
     "title": "「黄拍纸」的搜索",
@@ -1363,7 +1533,7 @@
     "file": "og-q-恢复.png",
     "badge": "非官方 · 搜索",
     "title": "「恢复」的搜索",
-    "footer": "恢复数据",
+    "footer": "恢复数据 · Grok Bot Computer Kit：刷新后把环境救回来",
     "accent": [
       194,
       59,
@@ -1374,7 +1544,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-恢复-official.png",
@@ -1390,6 +1560,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-恢复-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「恢复」的搜索",
+    "footer": "Grok Bot Computer Kit：刷新后把环境救回来",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -1703,7 +1890,7 @@
     "file": "og-q-开通.png",
     "badge": "非官方 · 搜索",
     "title": "「开通」的搜索",
-    "footer": "用 SuperGrok Heavy 开通",
+    "footer": "用 SuperGrok Heavy 开通 · 官方扩大开通",
     "accent": [
       194,
       59,
@@ -1714,13 +1901,13 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-开通-official.png",
     "badge": "非官方 · 官方资源",
     "title": "「开通」的搜索",
-    "footer": "用 SuperGrok Heavy 开通",
+    "footer": "用 SuperGrok Heavy 开通 · 官方扩大开通",
     "accent": [
       194,
       59,
@@ -1731,7 +1918,7 @@
       236,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-课程.png",
@@ -1771,7 +1958,7 @@
     "file": "og-q-坑.png",
     "badge": "非官方 · 搜索",
     "title": "「坑」的搜索",
-    "footer": "必读坑 · 云电脑撞上 X 登录锁",
+    "footer": "日文上手 · 冷邮回复率几乎翻倍",
     "accent": [
       194,
       59,
@@ -1782,7 +1969,58 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "13个结果"
+  },
+  {
+    "file": "og-q-坑-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「坑」的搜索",
+    "footer": "日文上手",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-坑-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「坑」的搜索",
+    "footer": "冷邮回复率几乎翻倍",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-坑-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「坑」的搜索",
+    "footer": "Nate B Jones：装完就能用，两百美元值不值",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-坑-community.png",
@@ -1799,7 +2037,7 @@
       232,
       226
     ],
-    "kicker": "两个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-狼人杀.png",
@@ -1839,7 +2077,7 @@
     "file": "og-q-冷邮.png",
     "badge": "非官方 · 搜索",
     "title": "「冷邮」的搜索",
-    "footer": "两行消息修好冷邮回复翻倍",
+    "footer": "两行消息修好冷邮回复翻倍 · 冷邮回复率几乎翻倍",
     "accent": [
       194,
       59,
@@ -1850,13 +2088,13 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-冷邮-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「冷邮」的搜索",
-    "footer": "两行消息修好冷邮回复翻倍",
+    "footer": "两行消息修好冷邮回复翻倍 · 冷邮回复率几乎翻倍",
     "accent": [
       46,
       92,
@@ -1867,7 +2105,7 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-例程.png",
@@ -1924,7 +2162,41 @@
     "file": "og-q-连不上.png",
     "badge": "非官方 · 搜索",
     "title": "「连不上」的搜索",
-    "footer": "重连失败现场",
+    "footer": "重连失败现场 · 「连不上你的电脑」其实是云电脑没起来",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-连不上-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「连不上」的搜索",
+    "footer": "重连失败现场 · 「连不上你的电脑」其实是云电脑没起来",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-两百.png",
+    "badge": "非官方 · 搜索",
+    "title": "「两百」的搜索",
+    "footer": "Nate B Jones：装完就能用，两百美元值不值",
     "accent": [
       194,
       59,
@@ -1938,19 +2210,19 @@
     "kicker": "一个结果"
   },
   {
-    "file": "og-q-连不上-community.png",
-    "badge": "非官方 · 社区与坑",
-    "title": "「连不上」的搜索",
-    "footer": "重连失败现场",
+    "file": "og-q-两百-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「两百」的搜索",
+    "footer": "Nate B Jones：装完就能用，两百美元值不值",
     "accent": [
-      154,
-      40,
-      28
+      28,
+      25,
+      22
     ],
     "paper": [
-      248,
-      232,
-      226
+      236,
+      234,
+      228
     ],
     "kicker": "一个结果"
   },
@@ -1969,7 +2241,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-浏览器-official.png",
@@ -2002,6 +2274,23 @@
       246,
       232,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-浏览器-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「浏览器」的搜索",
+    "footer": "每个 Bot 浏览器仍要单独过 Google 二次验证",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -2190,7 +2479,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-幕僚长-tutorials.png",
@@ -2224,7 +2513,7 @@
       244,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-排障.png",
@@ -2241,7 +2530,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -2264,7 +2553,7 @@
     "file": "og-q-排障-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「排障」的搜索",
-    "footer": "重连失败现场",
+    "footer": "重连失败现场 · 「连不上你的电脑」其实是云电脑没起来",
     "accent": [
       154,
       40,
@@ -2275,7 +2564,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-啤酒.png",
@@ -2414,6 +2703,91 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-日文.png",
+    "badge": "非官方 · 搜索",
+    "title": "「日文」的搜索",
+    "footer": "日文上手 · 日文实测",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "六个结果"
+  },
+  {
+    "file": "og-q-日文-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「日文」的搜索",
+    "footer": "日文上手",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-日文-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「日文」的搜索",
+    "footer": "四人编制接手 AITuber 的 X 运营 · Kominami",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-日文-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「日文」的搜索",
+    "footer": "驯服 Grok Bot：Memory 会脏，日文要用固定规则",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-日文-takes.png",
+    "badge": "非官方 · 观点与实测",
+    "title": "「日文」的搜索",
+    "footer": "日文实测",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-入门.png",
     "badge": "非官方 · 搜索",
     "title": "「入门」的搜索",
@@ -2478,6 +2852,40 @@
       246,
       232,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-沙箱.png",
+    "badge": "非官方 · 搜索",
+    "title": "「沙箱」的搜索",
+    "footer": "日文上手",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-沙箱-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「沙箱」的搜索",
+    "footer": "日文上手",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
     ],
     "kicker": "一个结果"
   },
@@ -2686,6 +3094,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-十一.png",
+    "badge": "非官方 · 搜索",
+    "title": "「十一」的搜索",
+    "footer": "午睡两小时并入三十一份拉取请求 · Matthew Berman：邮箱、点餐、修 CI 等十一类实岗",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-十一-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「十一」的搜索",
+    "footer": "午睡两小时并入三十一份拉取请求 · Matthew Berman：邮箱、点餐、修 CI 等十一类实岗",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "两个结果"
+  },
+  {
     "file": "og-q-市场.png",
     "badge": "非官方 · 搜索",
     "title": "「市场」的搜索",
@@ -2750,6 +3192,40 @@
       246,
       232,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-试用.png",
+    "badge": "非官方 · 搜索",
+    "title": "「试用」的搜索",
+    "footer": "官方扩大开通",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-试用-official.png",
+    "badge": "非官方 · 官方资源",
+    "title": "「试用」的搜索",
+    "footer": "官方扩大开通",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      247,
+      236,
+      228
     ],
     "kicker": "一个结果"
   },
@@ -2939,6 +3415,40 @@
       226
     ],
     "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-刷新.png",
+    "badge": "非官方 · 搜索",
+    "title": "「刷新」的搜索",
+    "footer": "电脑刷新会清掉 WhatsApp 链接会话 · Grok Bot Computer Kit：刷新后把环境救回来",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-刷新-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「刷新」的搜索",
+    "footer": "电脑刷新会清掉 WhatsApp 链接会话 · Grok Bot Computer Kit：刷新后把环境救回来",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-水管.png",
@@ -3227,7 +3737,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-网关-cases.png",
@@ -3250,7 +3760,41 @@
     "file": "og-q-网关-skills.png",
     "badge": "非官方 · 技能",
     "title": "「网关」的搜索",
-    "footer": "把频道消息交给 Bot（Discord 网关）",
+    "footer": "把频道消息交给 Bot（Discord 网关） · 非官方 TypeScript SDK：封装 1340 网关",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
+    ],
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-微信.png",
+    "badge": "非官方 · 搜索",
+    "title": "「微信」的搜索",
+    "footer": "grok-wechat-plugin：微信私信叫醒 Bot",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-微信-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「微信」的搜索",
+    "footer": "grok-wechat-plugin：微信私信叫醒 Bot",
     "accent": [
       110,
       58,
@@ -3879,7 +4423,7 @@
     "file": "og-q-一周.png",
     "badge": "非官方 · 搜索",
     "title": "「一周」的搜索",
-    "footer": "日文实测 · 非开发者一周跑课与 Stripe",
+    "footer": "Nate Herk · 日文实测",
     "accent": [
       194,
       59,
@@ -3890,7 +4434,24 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-一周-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「一周」的搜索",
+    "footer": "Nate Herk",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-一周-cases.png",
@@ -3998,7 +4559,7 @@
     "file": "og-q-邮箱.png",
     "badge": "非官方 · 搜索",
     "title": "「邮箱」的搜索",
-    "footer": "十五分钟筛完三百九十 GB 诉讼邮件",
+    "footer": "十五分钟筛完三百九十 GB 诉讼邮件 · Matthew Berman：邮箱、点餐、修 CI 等十一类实岗",
     "accent": [
       194,
       59,
@@ -4009,13 +4570,13 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-邮箱-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「邮箱」的搜索",
-    "footer": "十五分钟筛完三百九十 GB 诉讼邮件",
+    "footer": "十五分钟筛完三百九十 GB 诉讼邮件 · Matthew Berman：邮箱、点餐、修 CI 等十一类实岗",
     "accent": [
       46,
       92,
@@ -4026,7 +4587,7 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-越南.png",
@@ -4077,7 +4638,7 @@
       236,
       220
     ],
-    "kicker": "七个结果"
+    "kicker": "12个结果"
   },
   {
     "file": "og-q-云电脑-official.png",
@@ -4097,6 +4658,23 @@
     "kicker": "两个结果"
   },
   {
+    "file": "og-q-云电脑-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「云电脑」的搜索",
+    "footer": "NiceKate · 日文上手",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "两个结果"
+  },
+  {
     "file": "og-q-云电脑-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「云电脑」的搜索",
@@ -4109,6 +4687,23 @@
     "paper": [
       236,
       244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-云电脑-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「云电脑」的搜索",
+    "footer": "discord-agent-bridge：Discord 频道接到云电脑",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
       236
     ],
     "kicker": "一个结果"
@@ -4134,7 +4729,7 @@
     "file": "og-q-云电脑-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「云电脑」的搜索",
-    "footer": "云电脑撞上 X 登录锁",
+    "footer": "云电脑撞上 X 登录锁 · 「连不上你的电脑」其实是云电脑没起来",
     "accent": [
       154,
       40,
@@ -4145,7 +4740,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-云电脑-takes.png",
@@ -4321,7 +4916,7 @@
     "file": "og-q-终端.png",
     "badge": "非官方 · 搜索",
     "title": "「终端」的搜索",
-    "footer": "云电脑与应用",
+    "footer": "云电脑与应用 · grok-bot-cli：终端里建助手、拉群、发消息",
     "accent": [
       194,
       59,
@@ -4332,7 +4927,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-终端-official.png",
@@ -4348,6 +4943,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-终端-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「终端」的搜索",
+    "footer": "grok-bot-cli：终端里建助手、拉群、发消息",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
     ],
     "kicker": "一个结果"
   },

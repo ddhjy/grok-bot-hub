@@ -138,11 +138,17 @@ assert(slack.length === 2, `Slack should be plugin + tutorial, got ${slack.lengt
 const skillIds = [
   "chrome-devtools-mcp",
   "coolify-cursor-plugin",
+  "discord-agent-bridge",
+  "elves-grok-bot",
+  "grok-bot-cli",
   "grok-bot-discord",
+  "grok-ship",
+  "grok-wechat-plugin",
   "grokbot-imessage-skill",
+  "grokbot-sdk",
+  "locum",
   "superpowers",
   "werewolf-gamemaster",
-  "grok-ship",
 ];
 const skill = hits("技能");
 for (const id of skillIds) {
@@ -155,7 +161,7 @@ assert(!skill.includes("docs-teams"), "技能 hits 团队与企业 via 插件 bl
 assert(!skill.includes("forum-local-mcp"), "技能 hits 本地 MCP via expansion");
 assert(
   skill.length === skillIds.length + 1,
-  `技能 should be 7 skills + 技能与例程, got ${skill.length}: ${skill.join(",")}`,
+  `技能 should be ${skillIds.length} skills + 技能与例程, got ${skill.length}: ${skill.join(",")}`,
 );
 
 const letterS = hits("s");
