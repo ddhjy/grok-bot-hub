@@ -133,7 +133,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-安装-official.png",
@@ -166,6 +166,23 @@
       246,
       240,
       224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-安装-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「安装」的搜索",
+    "footer": "grok-bot-linux：官网不给按钮的官方 Linux 安装包",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -323,6 +340,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-比价.png",
+    "badge": "非官方 · 搜索",
+    "title": "「比价」的搜索",
+    "footer": "Bindu",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-比价-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「比价」的搜索",
+    "footer": "Bindu",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-笔记.png",
     "badge": "非官方 · 搜索",
     "title": "「笔记」的搜索",
@@ -405,7 +456,7 @@
       236,
       220
     ],
-    "kicker": "23个结果"
+    "kicker": "33个结果"
   },
   {
     "file": "og-q-编制-official.png",
@@ -439,7 +490,7 @@
       240,
       224
     ],
-    "kicker": "三个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-编制-cases.png",
@@ -456,13 +507,13 @@
       244,
       236
     ],
-    "kicker": "17个结果"
+    "kicker": "22个结果"
   },
   {
     "file": "og-q-编制-skills.png",
     "badge": "非官方 · 技能",
     "title": "「编制」的搜索",
-    "footer": "软件工厂编制",
+    "footer": "软件工厂编制 · HyperGrok",
     "accent": [
       110,
       58,
@@ -473,7 +524,7 @@
       232,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-编制-takes.png",
@@ -507,7 +558,7 @@
       236,
       220
     ],
-    "kicker": "11个结果"
+    "kicker": "15个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -530,7 +581,7 @@
     "file": "og-q-插件-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「插件」的搜索",
-    "footer": "Nate Herk",
+    "footer": "Nate Herk · Flavio",
     "accent": [
       90,
       64,
@@ -541,7 +592,7 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-插件-skills.png",
@@ -558,13 +609,13 @@
       232,
       236
     ],
-    "kicker": "七个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-插件-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「插件」的搜索",
-    "footer": "云端 MCP 不会展开环境变量，Asana 授权失败",
+    "footer": "云端 MCP 不会展开环境变量，Asana 授权失败 · Notion 插件 OAuth 报 Invalid redirect_uri，Gmail 却能连",
     "accent": [
       154,
       40,
@@ -575,7 +626,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-插件市场.png",
@@ -680,6 +731,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-橙皮书.png",
+    "badge": "非官方 · 搜索",
+    "title": "「橙皮书」的搜索",
+    "footer": "橙皮书",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-橙皮书-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「橙皮书」的搜索",
+    "footer": "橙皮书",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-创建与管理.png",
     "badge": "非官方 · 搜索",
     "title": "「创建与管理」的搜索",
@@ -710,6 +795,40 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-促销.png",
+    "badge": "非官方 · 搜索",
+    "title": "「促销」的搜索",
+    "footer": "SuperGrok Heavy 送 Cursor Ultra 的促销被悄悄撤掉",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-促销-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「促销」的搜索",
+    "footer": "SuperGrok Heavy 送 Cursor Ultra 的促销被悄悄撤掉",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -778,6 +897,40 @@
       236,
       234,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-导出.png",
+    "badge": "非官方 · 搜索",
+    "title": "「导出」的搜索",
+    "footer": "试用额度归零后云电脑文件还在，别点 Reset",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-导出-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「导出」的搜索",
+    "footer": "试用额度归零后云电脑文件还在，别点 Reset",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -966,7 +1119,7 @@
       236,
       220
     ],
-    "kicker": "五个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -986,6 +1139,23 @@
     "kicker": "三个结果"
   },
   {
+    "file": "og-q-定价-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「定价」的搜索",
+    "footer": "Lauren",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-定价-reviews.png",
     "badge": "非官方 · 评测对比",
     "title": "「定价」的搜索",
@@ -1001,6 +1171,23 @@
       228
     ],
     "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-定价-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「定价」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度 · SuperGrok Heavy 送 Cursor Ultra 的促销被悄悄撤掉",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-短信.png",
@@ -1035,6 +1222,40 @@
       236
     ],
     "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-额度.png",
+    "badge": "非官方 · 搜索",
+    "title": "「额度」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度 · 试用额度归零后云电脑文件还在，别点 Reset",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-额度-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「额度」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度 · 试用额度归零后云电脑文件还在，别点 Reset",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-发布稿.png",
@@ -1391,7 +1612,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-官网-official.png",
@@ -1424,6 +1645,23 @@
       236,
       244,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-官网-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「官网」的搜索",
+    "footer": "grok-bot-linux：官网不给按钮的官方 Linux 安装包",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -1652,7 +1890,7 @@
     "file": "og-q-计费.png",
     "badge": "非官方 · 搜索",
     "title": "「计费」的搜索",
-    "footer": "方案与用量（Cursor 帮助）",
+    "footer": "方案与用量（Cursor 帮助） · Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度",
     "accent": [
       194,
       59,
@@ -1663,7 +1901,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-计费-official.png",
@@ -1679,6 +1917,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-计费-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「计费」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -1788,7 +2043,7 @@
     "file": "og-q-交易.png",
     "badge": "非官方 · 搜索",
     "title": "「交易」的搜索",
-    "footer": "Indra",
+    "footer": "Indra · HyperGrok",
     "accent": [
       194,
       59,
@@ -1798,6 +2053,23 @@
       245,
       236,
       220
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-交易-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「交易」的搜索",
+    "footer": "HyperGrok",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -1958,7 +2230,7 @@
     "file": "og-q-坑.png",
     "badge": "非官方 · 搜索",
     "title": "「坑」的搜索",
-    "footer": "日文上手 · 冷邮回复率几乎翻倍",
+    "footer": "日文上手 · Lauren",
     "accent": [
       194,
       59,
@@ -1969,13 +2241,13 @@
       236,
       220
     ],
-    "kicker": "13个结果"
+    "kicker": "27个结果"
   },
   {
     "file": "og-q-坑-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「坑」的搜索",
-    "footer": "日文上手",
+    "footer": "日文上手 · Lauren",
     "accent": [
       90,
       64,
@@ -1986,13 +2258,13 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-坑-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「坑」的搜索",
-    "footer": "冷邮回复率几乎翻倍",
+    "footer": "冷邮回复率几乎翻倍 · Bindu",
     "accent": [
       46,
       92,
@@ -2003,13 +2275,13 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-坑-reviews.png",
     "badge": "非官方 · 评测对比",
     "title": "「坑」的搜索",
-    "footer": "Nate B Jones：装完就能用，两百美元值不值",
+    "footer": "Nate B Jones：装完就能用，两百美元值不值 · 合上电脑活照干",
     "accent": [
       28,
       25,
@@ -2020,7 +2292,7 @@
       234,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-坑-community.png",
@@ -2037,7 +2309,7 @@
       232,
       226
     ],
-    "kicker": "十个结果"
+    "kicker": "18个结果"
   },
   {
     "file": "og-q-狼人杀.png",
@@ -2088,7 +2360,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-冷邮-cases.png",
@@ -2108,6 +2380,23 @@
     "kicker": "两个结果"
   },
   {
+    "file": "og-q-冷邮-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「冷邮」的搜索",
+    "footer": "grokbot-for-gtm：把冷邮和领英外呼交给 Bot 跑",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-例程.png",
     "badge": "非官方 · 搜索",
     "title": "「例程」的搜索",
@@ -2122,7 +2411,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-例程-official.png",
@@ -2156,7 +2445,7 @@
       240,
       224
     ],
-    "kicker": "两个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-连不上.png",
@@ -2241,7 +2530,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-浏览器-official.png",
@@ -2281,7 +2570,7 @@
     "file": "og-q-浏览器-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「浏览器」的搜索",
-    "footer": "每个 Bot 浏览器仍要单独过 Google 二次验证",
+    "footer": "每个 Bot 浏览器仍要单独过 Google 二次验证 · 云浏览器过不了 Cloudflare：Suno、Shopify 都会被挡",
     "accent": [
       154,
       40,
@@ -2292,7 +2581,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-买车.png",
@@ -2411,7 +2700,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-模型-reviews.png",
@@ -2434,7 +2723,7 @@
     "file": "og-q-模型-alternatives.png",
     "badge": "非官方 · 开源替代",
     "title": "「模型」的搜索",
-    "footer": "自带模型",
+    "footer": "自带模型 · grokbot-shim：本机桌面加自选模型跑 Grok Bot",
     "accent": [
       36,
       92,
@@ -2444,6 +2733,23 @@
       232,
       242,
       242
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-模型-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「模型」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -2468,7 +2774,7 @@
     "file": "og-q-幕僚长.png",
     "badge": "非官方 · 搜索",
     "title": "「幕僚长」的搜索",
-    "footer": "如何开始用 Grok Bot（Debbie） · 产品编制与拉取请求交接（n2parko）",
+    "footer": "如何开始用 Grok Bot（Debbie） · Lauren",
     "accent": [
       194,
       59,
@@ -2479,13 +2785,13 @@
       236,
       220
     ],
-    "kicker": "四个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-幕僚长-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「幕僚长」的搜索",
-    "footer": "如何开始用 Grok Bot（Debbie）",
+    "footer": "如何开始用 Grok Bot（Debbie） · Lauren",
     "accent": [
       90,
       64,
@@ -2496,7 +2802,7 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-幕僚长-cases.png",
@@ -2513,7 +2819,7 @@
       244,
       236
     ],
-    "kicker": "三个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-排障.png",
@@ -2530,7 +2836,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -2564,7 +2870,7 @@
       232,
       226
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-啤酒.png",
@@ -2638,7 +2944,7 @@
     "file": "og-q-企业.png",
     "badge": "非官方 · 搜索",
     "title": "「企业」的搜索",
-    "footer": "团队与企业",
+    "footer": "团队与企业 · Krista Letz：SpaceXAI 企业销售编制",
     "accent": [
       194,
       59,
@@ -2649,7 +2955,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-企业-official.png",
@@ -2665,6 +2971,91 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-企业-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「企业」的搜索",
+    "footer": "Krista Letz：SpaceXAI 企业销售编制",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-青岛.png",
+    "badge": "非官方 · 搜索",
+    "title": "「青岛」的搜索",
+    "footer": "青岛",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-青岛-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「青岛」的搜索",
+    "footer": "青岛",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-求职.png",
+    "badge": "非官方 · 搜索",
+    "title": "「求职」的搜索",
+    "footer": "Debbie",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-求职-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「求职」的搜索",
+    "footer": "Debbie",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -2706,7 +3097,7 @@
     "file": "og-q-日文.png",
     "badge": "非官方 · 搜索",
     "title": "「日文」的搜索",
-    "footer": "日文上手 · 日文实测",
+    "footer": "日文上手 · 点开 Bot 名字",
     "accent": [
       194,
       59,
@@ -2717,13 +3108,13 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-日文-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「日文」的搜索",
-    "footer": "日文上手",
+    "footer": "日文上手 · 点开 Bot 名字",
     "accent": [
       90,
       64,
@@ -2734,7 +3125,7 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-日文-cases.png",
@@ -2751,7 +3142,7 @@
       244,
       236
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-日文-community.png",
@@ -2958,10 +3349,10 @@
     "kicker": "一个结果"
   },
   {
-    "file": "og-q-设置.png",
+    "file": "og-q-设定.png",
     "badge": "非官方 · 搜索",
-    "title": "「设置」的搜索",
-    "footer": "设置与通知",
+    "title": "「设定」的搜索",
+    "footer": "点开 Bot 名字",
     "accent": [
       194,
       59,
@@ -2973,6 +3364,40 @@
       220
     ],
     "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-设定-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「设定」的搜索",
+    "footer": "点开 Bot 名字",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-设置.png",
+    "badge": "非官方 · 搜索",
+    "title": "「设置」的搜索",
+    "footer": "设置与通知 · 「Bot failed to respond」：Reset 对话框藏在设置窗后面",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-设置-official.png",
@@ -2988,6 +3413,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-设置-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「设置」的搜索",
+    "footer": "「Bot failed to respond」：Reset 对话框藏在设置窗后面",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -3142,7 +3584,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-市场-official.png",
@@ -3196,10 +3638,27 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-市场-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「市场」的搜索",
+    "footer": "Notion 插件 OAuth 报 Invalid redirect_uri，Gmail 却能连",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-试用.png",
     "badge": "非官方 · 搜索",
     "title": "「试用」的搜索",
-    "footer": "官方扩大开通",
+    "footer": "官方扩大开通 · 试用额度归零后云电脑文件还在，别点 Reset",
     "accent": [
       194,
       59,
@@ -3210,7 +3669,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-试用-official.png",
@@ -3226,6 +3685,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-试用-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「试用」的搜索",
+    "footer": "试用额度归零后云电脑文件还在，别点 Reset",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -3451,6 +3927,40 @@
     "kicker": "两个结果"
   },
   {
+    "file": "og-q-双重计费.png",
+    "badge": "非官方 · 搜索",
+    "title": "「双重计费」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-双重计费-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「双重计费」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-水管.png",
     "badge": "非官方 · 搜索",
     "title": "「水管」的搜索",
@@ -3590,7 +4100,7 @@
     "file": "og-q-团队.png",
     "badge": "非官方 · 搜索",
     "title": "「团队」的搜索",
-    "footer": "团队与企业",
+    "footer": "团队与企业 · 橙皮书",
     "accent": [
       194,
       59,
@@ -3601,7 +4111,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-团队-official.png",
@@ -3617,6 +4127,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-团队-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「团队」的搜索",
+    "footer": "橙皮书",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
     ],
     "kicker": "一个结果"
   },
@@ -3692,7 +4219,7 @@
     "file": "og-q-外呼.png",
     "badge": "非官方 · 搜索",
     "title": "「外呼」的搜索",
-    "footer": "雪茄优惠爬虫加销售外呼",
+    "footer": "雪茄优惠爬虫加销售外呼 · grokbot-for-gtm：把冷邮和领英外呼交给 Bot 跑",
     "accent": [
       194,
       59,
@@ -3703,7 +4230,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-外呼-cases.png",
@@ -3718,6 +4245,23 @@
     "paper": [
       236,
       244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-外呼-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「外呼」的搜索",
+    "footer": "grokbot-for-gtm：把冷邮和领英外呼交给 Bot 跑",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
       236
     ],
     "kicker": "一个结果"
@@ -3845,7 +4389,7 @@
     "file": "og-q-文件.png",
     "badge": "非官方 · 搜索",
     "title": "「文件」的搜索",
-    "footer": "文件与结果",
+    "footer": "文件与结果 · 试用额度归零后云电脑文件还在，别点 Reset",
     "accent": [
       194,
       59,
@@ -3856,7 +4400,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-文件-official.png",
@@ -3872,6 +4416,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-文件-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「文件」的搜索",
+    "footer": "试用额度归零后云电脑文件还在，别点 Reset",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -4434,7 +4995,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-一周-tutorials.png",
@@ -4457,7 +5018,7 @@
     "file": "og-q-一周-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「一周」的搜索",
-    "footer": "非开发者一周跑课与 Stripe",
+    "footer": "非开发者一周跑课与 Stripe · rogersmj",
     "accent": [
       46,
       92,
@@ -4468,7 +5029,7 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-一周-takes.png",
@@ -4491,7 +5052,7 @@
     "file": "og-q-隐私.png",
     "badge": "非官方 · 搜索",
     "title": "「隐私」的搜索",
-    "footer": "审批、安全与隐私",
+    "footer": "审批、安全与隐私 · 走 Cursor 账号时 Privacy Mode 对 Grok Bot 生效",
     "accent": [
       194,
       59,
@@ -4502,7 +5063,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-隐私-official.png",
@@ -4522,6 +5083,23 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-隐私-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「隐私」的搜索",
+    "footer": "走 Cursor 账号时 Privacy Mode 对 Grok Bot 生效",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-用量.png",
     "badge": "非官方 · 搜索",
     "title": "「用量」的搜索",
@@ -4536,7 +5114,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-用量-official.png",
@@ -4556,6 +5134,40 @@
     "kicker": "两个结果"
   },
   {
+    "file": "og-q-用量-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「用量」的搜索",
+    "footer": "Lauren",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-用量-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「用量」的搜索",
+    "footer": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度 · 客服确认长对话每轮回灌整段历史",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "两个结果"
+  },
+  {
     "file": "og-q-邮箱.png",
     "badge": "非官方 · 搜索",
     "title": "「邮箱」的搜索",
@@ -4570,7 +5182,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-邮箱-cases.png",
@@ -4587,7 +5199,7 @@
       244,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-越南.png",
@@ -4638,7 +5250,7 @@
       236,
       220
     ],
-    "kicker": "12个结果"
+    "kicker": "14个结果"
   },
   {
     "file": "og-q-云电脑-official.png",
@@ -4695,7 +5307,7 @@
     "file": "og-q-云电脑-skills.png",
     "badge": "非官方 · 技能",
     "title": "「云电脑」的搜索",
-    "footer": "discord-agent-bridge：Discord 频道接到云电脑",
+    "footer": "discord-agent-bridge：Discord 频道接到云电脑 · grokbot-for-gtm：把冷邮和领英外呼交给 Bot 跑",
     "accent": [
       110,
       58,
@@ -4706,7 +5318,7 @@
       232,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-云电脑-reviews.png",
@@ -4740,7 +5352,7 @@
       232,
       226
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-云电脑-takes.png",
@@ -4828,6 +5440,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-长对话.png",
+    "badge": "非官方 · 搜索",
+    "title": "「长对话」的搜索",
+    "footer": "客服确认长对话每轮回灌整段历史",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-长对话-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「长对话」的搜索",
+    "footer": "客服确认长对话每轮回灌整段历史",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-账号.png",
     "badge": "非官方 · 搜索",
     "title": "「账号」的搜索",
@@ -4842,7 +5488,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-账号-official.png",
@@ -4865,7 +5511,7 @@
     "file": "og-q-账号-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「账号」的搜索",
-    "footer": "删除 Cursor 账号会挂空绑定",
+    "footer": "删除 Cursor 账号会挂空绑定 · 走 Cursor 账号时 Privacy Mode 对 Grok Bot 生效",
     "accent": [
       154,
       40,
@@ -4876,7 +5522,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-知识库.png",
@@ -5046,7 +5692,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-Debbie-tutorials.png",
@@ -5080,7 +5726,7 @@
       244,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-iOS 文档.png",
