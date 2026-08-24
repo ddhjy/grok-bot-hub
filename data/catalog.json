@@ -1324,6 +1324,15 @@
       "section": "community",
       "tags": ["坑", "用量"],
       "aliases": ["额度", "Reset", "长对话"]
+    },
+    {
+      "id": "really-bot",
+      "title": "really.bot：已核验的 Grok Bot 任务库",
+      "url": "https://really.bot/",
+      "blurb": "社区投稿的 Grok Bot 工作流/任务库，上架前会过完整度和结果审核；覆盖研究、销售、行政、编程、财务等，可直接抄进自己的 Bot。",
+      "section": "skills",
+      "tags": ["任务库", "工作流", "社区", "really.bot"],
+      "aliases": ["really.bot", "Really Bot"]
     }
   ]
 }

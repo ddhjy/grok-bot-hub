@@ -149,6 +149,7 @@ const skillIds = [
   "grokbot-sdk",
   "hypergrok-trading-desk",
   "locum",
+  "really-bot",
   "superpowers",
   "werewolf-gamemaster",
 ];
