@@ -139,6 +139,7 @@ const skillIds = [
   "agentchat-grok-bot",
   "chrome-devtools-mcp",
   "coolify-cursor-plugin",
+  "deadsimple-email",
   "discord-agent-bridge",
   "elves-grok-bot",
   "grok-bot-cli",
@@ -153,8 +154,10 @@ const skillIds = [
   "grokbot-sdk",
   "hypergrok-trading-desk",
   "locum",
+  "mac-bridge-imessage",
   "mcp-fetch-worker",
   "really-bot",
+  "routinely-bot",
   "superpowers",
   "werewolf-gamemaster",
 ];

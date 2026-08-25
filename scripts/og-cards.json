@@ -524,13 +524,13 @@
       236,
       220
     ],
-    "kicker": "41个结果"
+    "kicker": "48个结果"
   },
   {
     "file": "og-q-编制-official.png",
     "badge": "非官方 · 官方资源",
     "title": "「编制」的搜索",
-    "footer": "创建与管理",
+    "footer": "创建与管理 · Cursor 官方片",
     "accent": [
       194,
       59,
@@ -541,7 +541,7 @@
       236,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-编制-tutorials.png",
@@ -575,7 +575,7 @@
       244,
       236
     ],
-    "kicker": "27个结果"
+    "kicker": "32个结果"
   },
   {
     "file": "og-q-编制-skills.png",
@@ -598,7 +598,7 @@
     "file": "og-q-编制-reviews.png",
     "badge": "非官方 · 评测对比",
     "title": "「编制」的搜索",
-    "footer": "r/hermesagent：试用两天就把开发队搬回 Hermes",
+    "footer": "r/hermesagent：试用两天就把开发队搬回 Hermes · VelvetShark：把 OpenClaw 活迁到 Grok Bot，五天六十七单",
     "accent": [
       28,
       25,
@@ -609,7 +609,7 @@
       234,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-编制-takes.png",
@@ -677,7 +677,7 @@
       236,
       220
     ],
-    "kicker": "23个结果"
+    "kicker": "30个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -711,13 +711,13 @@
       240,
       224
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-插件-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「插件」的搜索",
-    "footer": "五张收据交给 Accountant：Drive 写不进就另建表",
+    "footer": "五张收据交给 Accountant：Drive 写不进就另建表 · Austin Starks：两名 Bot 各自写期权书，人只点审批",
     "accent": [
       46,
       92,
@@ -728,7 +728,7 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-插件-skills.png",
@@ -745,7 +745,7 @@
       232,
       236
     ],
-    "kicker": "13个结果"
+    "kicker": "16个结果"
   },
   {
     "file": "og-q-插件-community.png",
@@ -762,7 +762,7 @@
       232,
       226
     ],
-    "kicker": "四个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-插件市场.png",
@@ -1085,7 +1085,7 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-登录-official.png",
@@ -1101,6 +1101,40 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-登录-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「登录」的搜索",
+    "footer": "登录卡住时直接说「把电脑交给我」",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-登录-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「登录」的搜索",
+    "footer": "Kanekoa",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -1289,7 +1323,7 @@
       236,
       220
     ],
-    "kicker": "11个结果"
+    "kicker": "14个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -1357,7 +1391,7 @@
       232,
       226
     ],
-    "kicker": "五个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-短信.png",
@@ -1425,7 +1459,24 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "十个结果"
+  },
+  {
+    "file": "og-q-额度-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「额度」的搜索",
+    "footer": "Eric Zakariasson：六条让周额度撑更久的用法",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-额度-reviews.png",
@@ -1459,7 +1510,7 @@
       232,
       226
     ],
-    "kicker": "五个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-发布稿.png",
@@ -1577,6 +1628,40 @@
       248,
       232,
       226
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-冈村.png",
+    "badge": "非官方 · 搜索",
+    "title": "「冈村」的搜索",
+    "footer": "冈村",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-冈村-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「冈村」的搜索",
+    "footer": "冈村",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -1748,7 +1833,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-购物-cases.png",
@@ -1765,7 +1850,7 @@
       244,
       236
     ],
-    "kicker": "三个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-故障.png",
@@ -1968,6 +2053,40 @@
       246,
       232,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-黑屏.png",
+    "badge": "非官方 · 搜索",
+    "title": "「黑屏」的搜索",
+    "footer": "闪过「正在创建电脑」后黑屏，设置页进不去",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-黑屏-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「黑屏」的搜索",
+    "footer": "闪过「正在创建电脑」后黑屏，设置页进不去",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -2479,7 +2598,7 @@
       236,
       220
     ],
-    "kicker": "39个结果"
+    "kicker": "53个结果"
   },
   {
     "file": "og-q-坑-tutorials.png",
@@ -2496,7 +2615,7 @@
       240,
       224
     ],
-    "kicker": "四个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-坑-cases.png",
@@ -2513,7 +2632,7 @@
       244,
       236
     ],
-    "kicker": "七个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-坑-reviews.png",
@@ -2530,7 +2649,7 @@
       234,
       228
     ],
-    "kicker": "三个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-坑-community.png",
@@ -2547,7 +2666,7 @@
       232,
       226
     ],
-    "kicker": "25个结果"
+    "kicker": "33个结果"
   },
   {
     "file": "og-q-狼人杀.png",
@@ -2649,7 +2768,7 @@
       236,
       220
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-例程-official.png",
@@ -2684,6 +2803,23 @@
       224
     ],
     "kicker": "四个结果"
+  },
+  {
+    "file": "og-q-例程-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「例程」的搜索",
+    "footer": "Routinely",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-连不上.png",
@@ -3057,7 +3193,24 @@
       236,
       220
     ],
-    "kicker": "八个结果"
+    "kicker": "12个结果"
+  },
+  {
+    "file": "og-q-幕僚长-official.png",
+    "badge": "非官方 · 官方资源",
+    "title": "「幕僚长」的搜索",
+    "footer": "Cursor 官方片",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      247,
+      236,
+      228
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-幕僚长-tutorials.png",
@@ -3091,7 +3244,7 @@
       244,
       236
     ],
-    "kicker": "六个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-排障.png",
@@ -3108,7 +3261,7 @@
       236,
       220
     ],
-    "kicker": "四个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -3142,7 +3295,7 @@
       232,
       226
     ],
-    "kicker": "三个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-啤酒.png",
@@ -3414,7 +3567,7 @@
       236,
       220
     ],
-    "kicker": "十个结果"
+    "kicker": "12个结果"
   },
   {
     "file": "og-q-日文-tutorials.png",
@@ -3448,7 +3601,24 @@
       244,
       236
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
+  },
+  {
+    "file": "og-q-日文-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「日文」的搜索",
+    "footer": "共享云电脑还是分档案",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-日文-community.png",
@@ -3754,7 +3924,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-设置-official.png",
@@ -3777,7 +3947,7 @@
     "file": "og-q-设置-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「设置」的搜索",
-    "footer": "「Bot failed to respond」：Reset 对话框藏在设置窗后面",
+    "footer": "「Bot failed to respond」：Reset 对话框藏在设置窗后面 · 闪过「正在创建电脑」后黑屏，设置页进不去",
     "accent": [
       154,
       40,
@@ -3788,7 +3958,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-设置与通知.png",
@@ -3828,7 +3998,7 @@
     "file": "og-q-审批.png",
     "badge": "非官方 · 搜索",
     "title": "「审批」的搜索",
-    "footer": "审批、安全与隐私",
+    "footer": "审批、安全与隐私 · Austin Starks：两名 Bot 各自写期权书，人只点审批",
     "accent": [
       194,
       59,
@@ -3839,7 +4009,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-审批-official.png",
@@ -3855,6 +4025,23 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-审批-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「审批」的搜索",
+    "footer": "Austin Starks：两名 Bot 各自写期权书，人只点审批",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -4406,7 +4593,7 @@
     "file": "og-q-水管.png",
     "badge": "非官方 · 搜索",
     "title": "「水管」的搜索",
-    "footer": "水管公司的 Atlas 编制（Jon ONeill）",
+    "footer": "水管公司的 Atlas 编制（Jon ONeill） · Jon ONeill",
     "accent": [
       194,
       59,
@@ -4417,7 +4604,7 @@
       236,
       220
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-水管-cases.png",
@@ -4433,6 +4620,23 @@
       236,
       244,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-水管-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「水管」的搜索",
+    "footer": "Jon ONeill",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -4553,7 +4757,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-团队-official.png",
@@ -4586,6 +4790,23 @@
       246,
       240,
       224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-团队-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「团队」的搜索",
+    "footer": "Teams Premium「含 Ultra 全部功能」不含 20 倍额度",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },
@@ -4791,13 +5012,13 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-微信-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「微信」的搜索",
-    "footer": "至顶",
+    "footer": "至顶 · 云电脑装 Linux 微信自动回复，异地 IP 随后把号锁进客服",
     "accent": [
       46,
       92,
@@ -4808,7 +5029,7 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-微信-skills.png",
@@ -5624,7 +5845,7 @@
       236,
       220
     ],
-    "kicker": "七个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-用量-official.png",
@@ -5675,7 +5896,7 @@
       232,
       226
     ],
-    "kicker": "四个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-邮箱.png",
@@ -5692,7 +5913,7 @@
       236,
       220
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-邮箱-cases.png",
@@ -5715,7 +5936,7 @@
     "file": "og-q-邮箱-skills.png",
     "badge": "非官方 · 技能",
     "title": "「邮箱」的搜索",
-    "footer": "grokbot-cloudflare-inbox：自建 Cloudflare 邮箱给 Bot 当 MCP",
+    "footer": "grokbot-cloudflare-inbox：自建 Cloudflare 邮箱给 Bot 当 MCP · Dead Simple Email：给 Bot 挂上托管邮箱 MCP",
     "accent": [
       110,
       58,
@@ -5726,7 +5947,7 @@
       232,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-越南.png",
@@ -5777,7 +5998,7 @@
       236,
       220
     ],
-    "kicker": "18个结果"
+    "kicker": "21个结果"
   },
   {
     "file": "og-q-云电脑-official.png",
@@ -5828,7 +6049,7 @@
       244,
       236
     ],
-    "kicker": "四个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-云电脑-skills.png",
@@ -5851,7 +6072,7 @@
     "file": "og-q-云电脑-reviews.png",
     "badge": "非官方 · 评测对比",
     "title": "「云电脑」的搜索",
-    "footer": "云电脑还是自托管",
+    "footer": "云电脑还是自托管 · 共享云电脑还是分档案",
     "accent": [
       28,
       25,
@@ -5862,7 +6083,7 @@
       234,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-云电脑-community.png",
@@ -6338,7 +6559,7 @@
       236,
       220
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-Debbie-tutorials.png",
@@ -6372,7 +6593,41 @@
       244,
       236
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
+  },
+  {
+    "file": "og-q-Google 表格.png",
+    "badge": "非官方 · 搜索",
+    "title": "「Google 表格」的搜索",
+    "footer": "Jon ONeill",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-Google 表格-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「Google 表格」的搜索",
+    "footer": "Jon ONeill",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-iOS 文档.png",
@@ -6405,6 +6660,40 @@
       247,
       236,
       228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-Linux 微信.png",
+    "badge": "非官方 · 搜索",
+    "title": "「Linux 微信」的搜索",
+    "footer": "云电脑装 Linux 微信自动回复，异地 IP 随后把号锁进客服",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-Linux 微信-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「Linux 微信」的搜索",
+    "footer": "云电脑装 Linux 微信自动回复，异地 IP 随后把号锁进客服",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -6490,6 +6779,40 @@
       246,
       240,
       224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-X 插件.png",
+    "badge": "非官方 · 搜索",
+    "title": "「X 插件」的搜索",
+    "footer": "官方 X 插件 OAuth 失败：同样删掉重装",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-X 插件-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「X 插件」的搜索",
+    "footer": "官方 X 插件 OAuth 失败：同样删掉重装",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
     ],
     "kicker": "一个结果"
   },

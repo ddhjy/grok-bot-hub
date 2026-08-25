@@ -185,8 +185,8 @@ for (const entry of catalog.entries) {
 }
 
 const count = catalog.entries.length;
-if (count < 40 || count > 180) {
-  fail(`条目数量应为 40–180，当前为 ${count}。`);
+if (count < 40 || count > 220) {
+  fail(`条目数量应为 40–220，当前为 ${count}。`);
 }
 
 if (process.exitCode) {
