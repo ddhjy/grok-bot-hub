@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "sections": [
     { "id": "official", "label": "官方资源" },
     { "id": "tutorials", "label": "教程" },
@@ -1811,6 +1811,341 @@
       "section": "community",
       "tags": ["坑", "排障", "电脑操作"],
       "aliases": ["黑屏", "Creating computer"]
+    },
+    {
+      "id": "x-bot-pro-weekly-reset",
+      "title": "官方：SuperGrok 与 Cursor Pro 全员开通，并清零本周额度",
+      "url": "https://x.com/bot/status/2092664183334846840",
+      "blurb": "官方账号把标准 SuperGrok 和 Cursor Pro 一并放开，同时给所有用户重置本周用量，刚买席位的人不用再等下一周期。",
+      "section": "official",
+      "cluster": "billing",
+      "tags": ["开通", "用量"],
+      "aliases": ["额度重置", "Cursor Pro", "SuperGrok"]
+    },
+    {
+      "id": "poteto-deeplink-install",
+      "title": "Lauren：桌面端已支持 grokbot:// 深链，一键装 X 与 pstack 插件",
+      "url": "https://x.com/poteto/status/2092317628635418739",
+      "blurb": "产品组成员放出 grokbot:// 安装链，悬停插件标题就能复制分享，设置页也能用同样方式改语言。",
+      "section": "official",
+      "cluster": "start",
+      "tags": ["插件", "桌面端"],
+      "aliases": ["grokbot://", "Lauren", "pstack"]
+    },
+    {
+      "id": "riley-eleven-tips",
+      "title": "Riley Brown：三十七分钟十一条，从编制、Cursor 到 Notion 技能",
+      "url": "https://x.com/rileybrown/status/2092644889762599281",
+      "blurb": "录像按时间轴演示幕僚长、Cursor 开发岗、Bot 互聊、X 插件、例程和 Notion 技能，评论里还有可复制提示词。",
+      "section": "tutorials",
+      "tags": ["视频", "编制", "插件"],
+      "aliases": ["Riley Brown", "十一条"]
+    },
+    {
+      "id": "kocer-chief-house-rules",
+      "title": "kocer：先雇幕僚长，把章程、十条家规和五条例程贴进新账号",
+      "url": "https://x.com/kocer_eth/status/2092216029816472002",
+      "blurb": "他主张第一周只留一个幕僚长，把不可逆动作停手、不猜数字、密码走云电脑交接写成可复制家规，再让例程早七点上岗。",
+      "section": "tutorials",
+      "tags": ["幕僚长", "编制"],
+      "aliases": ["kocer", "家规"]
+    },
+    {
+      "id": "matt-palmer-getting-started",
+      "title": "Matt Palmer：上手 Grok Bot，权限规则和多岗串到 Notion",
+      "url": "https://www.youtube.com/watch?v=jwogmXNt7o4",
+      "blurb": "产品同事本人走完允许/拒绝规则、多岗互相触发，以及把 X 粉丝写进 Notion、拿岗给 Cursor 云端 agent 写提示。",
+      "section": "tutorials",
+      "tags": ["编制", "插件", "电脑操作", "视频"],
+      "aliases": ["Matt Palmer", "Getting started"]
+    },
+    {
+      "id": "clearmud-ten-tips",
+      "title": "Clearmud：官方十条建议，全新账号从头建岗",
+      "url": "https://www.youtube.com/watch?v=szDvF-iX2tY",
+      "blurb": "团队当天放出上手清单后，他开从未用过的账号按顺序实测命名、幕僚长、写权限批准和 Mac 独有 Peekaboo。",
+      "section": "tutorials",
+      "tags": ["编制", "坑", "视频"],
+      "aliases": ["Clearmud", "十条建议"]
+    },
+    {
+      "id": "codefactory-week-automation",
+      "title": "코드팩토리：把全部自动化丢给 Grok Bot 一周之后",
+      "url": "https://www.youtube.com/watch?v=c80XdvftRD4",
+      "blurb": "用了近一周后强调先建最小任务岗再组成群聊线程，并讲清最低价档对自动化来说仍然偏贵。",
+      "section": "tutorials",
+      "tags": ["韩文", "编制", "视频"],
+      "aliases": ["코드팩토리", "Code Factory"]
+    },
+    {
+      "id": "srikanth-architecture",
+      "title": "Srikanth：拆控制面、共享云电脑和 Cursor 云代理，三者不是同一台机器",
+      "url": "https://medium.com/@srikanthbellary01/grok-bot-architecture-and-design-712b5c16b7ed",
+      "blurb": "把客户端、调度器、推理和账号级虚拟机拆开，重要产出要写进 /workspace，记忆不是账本，仓库改动另雇 Cursor 云代理。",
+      "section": "tutorials",
+      "tags": ["编制", "电脑操作", "工程"],
+      "aliases": ["Srikanth", "architecture"]
+    },
+    {
+      "id": "ben-nussbaum-outbound",
+      "title": "Ben Nussbaum：公用事业 outbound 岗十五分钟约到销售 demo",
+      "url": "https://x.com/bennussy/status/2092662993611866530",
+      "blurb": "他把 Client Outreach 接上 Gmail、日历和 Apollo，先写停手规则再改四轮文案，首日零退信并收到一封真人回复。",
+      "section": "cases",
+      "tags": ["销售", "插件"],
+      "aliases": ["Ben Nussbaum", "Apollo", "outbound"]
+    },
+    {
+      "id": "greg-kamradt-luma-arc",
+      "title": "Greg Kamradt：用电脑操作扫 Luma 报名，并给 ARC Prize 榜单起草邮件",
+      "url": "https://x.com/GregKamradt/status/2092665085378642089",
+      "blurb": "ARC Prize 负责人让 Bot 刷积分订酒店、按提交页查联系人写群发、从 X 私信抽信息，还穿过 Luma 界面给见面会报名分类。",
+      "section": "cases",
+      "tags": ["电脑操作"],
+      "aliases": ["Greg Kamradt", "Luma", "ARC Prize"]
+    },
+    {
+      "id": "forum-vera-contracts",
+      "title": "土木工程师给 Bot 装 VERA，按 1200 份合同起草新稿",
+      "url": "https://forum.cursor.com/t/vera-portable-document-rag-for-humans-and-agents/169492",
+      "blurb": "他把合同做成可随身检索的 .vera 档案，Grok Bot 用 VERA skill 按公司历史文风搜条款并起草新合同。",
+      "section": "cases",
+      "tags": ["编制", "插件"],
+      "aliases": ["VERA", "合同"]
+    },
+    {
+      "id": "reddit-trucking-dispatch",
+      "title": "货运老板训八天：Outlook、调度和货板工资单都交给一台 Bot",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vya1zs/i_own_a_trucking_company_i_trained_grokbot_for_8/",
+      "blurb": "登录 Outlook、调度系统和 Truckstop 货板后，Bot 会建单派车、归档 POD、盯超限许可并先算好司机周薪，作者说自己反而没事干。",
+      "section": "cases",
+      "tags": ["电脑操作", "编制"],
+      "aliases": ["trucking", "Truckstop", "Outlook"]
+    },
+    {
+      "id": "reddit-twelve-weekend-roster",
+      "title": "非开发者周末编出幕僚长到审计的十二岗",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vx9q3i/i_love_grok_bots/",
+      "blurb": "用 Cursor Pro+ 六十美元月费搭出 Darvis 幕僚长、Substack 写稿、Reddit 意向、提案和 GHL 审计等岗，作者只想自己开会和拍板。",
+      "section": "cases",
+      "tags": ["编制", "销售"],
+      "aliases": ["Darvis", "十二岗"]
+    },
+    {
+      "id": "srikanth-staff-computer",
+      "title": "Srikanth：Grok Bot 是编制，产品是那台合上本仍在跑的电脑",
+      "url": "https://medium.com/@srikanthbellary01/grok-bot-is-staff-the-computer-is-the-product-4c187f98f4c0",
+      "blurb": "他把首席、研发和音频拆成独立 Bot，合上 Legion 后例程照跑，仓库活交给 Cursor 云代理出 PR，并写明共享电脑不是安全边界。",
+      "section": "cases",
+      "tags": ["编制", "电脑操作", "坑"],
+      "aliases": ["Srikanth", "the computer is the product"]
+    },
+    {
+      "id": "mergisi-one-front-desk",
+      "title": "mergisi：只跟一名 Grok Bot 说话，由它调度整份编制",
+      "url": "https://mergisi.medium.com/i-talk-to-one-grok-bot-that-bot-runs-the-rest-c5d40baff402",
+      "blurb": "一人公司只留一个前台经理 Bot，合上笔记本后共享云电脑上的专员继续干活，避免五个聊天窗重复交代同一件事。",
+      "section": "cases",
+      "tags": ["编制"],
+      "aliases": ["mergisi", "前台经理"]
+    },
+    {
+      "id": "mo-bitar-eight-jobs",
+      "title": "Mo Bitar：本来准备黑 Grok Bot，一天下午却拉起八个岗跑生意",
+      "url": "https://atmoio.substack.com/p/i-went-in-ready-to-hate-grok-bot",
+      "blurb": "他用浏览器专岗去扫没有 API 的后台和竞品定价页，其中一个 Bot 自己找到博客仓库并推了改动。",
+      "section": "cases",
+      "tags": ["编制", "电脑操作", "例程"],
+      "aliases": ["Mo Bitar", "atmoio", "Less Bitter"]
+    },
+    {
+      "id": "hn-ryan-perry-studio",
+      "title": "Ryan Perry：六名 Grok Bot 各管一台电脑，撑起手机游戏工作室",
+      "url": "https://news.ycombinator.com/item?id=49447324",
+      "blurb": "他把买量、素材、工程、基建、上架和 QA 拆成六名各有独立电脑与待办的 Bot，录屏教会买量岗点 Meta Ads，测到获客成本降到原来的十五分之一。",
+      "section": "cases",
+      "tags": ["编制", "电脑操作", "工程"],
+      "aliases": ["Ryan Perry", "mobile game studio"]
+    },
+    {
+      "id": "note-notion-issue-pr",
+      "title": "未处理 Notion ISSUE：Grok Bot 点单、Cloud Agent 交过测 PR",
+      "url": "https://note.com/bright_dietes994/n/n511ee137e712",
+      "blurb": "Bot 用 Notion 插件按编号只取一件未对应工单改成对应中，把验收条件原样塞进 Cloud Agents API，三十三分钟后把过测 PR 写回看板。",
+      "section": "cases",
+      "tags": ["工程", "插件", "编制", "日文"],
+      "aliases": ["Notion ISSUE", "Cloud Agent"]
+    },
+    {
+      "id": "grokbot-obsidian-bridge",
+      "title": "GrokBot↔Obsidian：OAuth 闸门把笔记库接到 Bot",
+      "url": "https://github.com/iamsupersocks/grokbot-obsidian-bridge",
+      "blurb": "安装器只在本机搭 OAuth 反代，Grok Bot 第一次连时你点批准，之后只能经 HTTPS 打只读 Optimike MCP，仓库里没有真实库路径。",
+      "section": "skills",
+      "tags": ["插件", "MCP"],
+      "aliases": ["Obsidian", "Optimike"]
+    },
+    {
+      "id": "grokbot-hermes-bridge",
+      "title": "GrokBot↔Hermes：云电脑同事呼叫本机 Hermes",
+      "url": "https://github.com/iamsupersocks/grokbot-hermes-bridge",
+      "blurb": "网关只暴露 hermes_ask 和 hermes_status，Grok Bot 走 OAuth 用主人码批准后，把问题交给你机器上的 Hermes 再把有界回答送回聊天。",
+      "section": "skills",
+      "tags": ["插件", "MCP"],
+      "aliases": ["Hermes", "hermes_ask"]
+    },
+    {
+      "id": "phonezero",
+      "title": "PhoneZero：让 Grok Bot 自己打电话订位",
+      "url": "https://github.com/function1st/PhoneZero",
+      "blurb": "把仓库丢给云电脑并说 set this up，它会自己配 Telnyx 和 xAI 语音，订餐技能只回报 booked、unavailable 等一种结局。",
+      "section": "skills",
+      "tags": ["插件", "电脑操作"],
+      "aliases": ["PhoneZero", "Telnyx"]
+    },
+    {
+      "id": "overnight-crew",
+      "title": "Overnight：六人编制夜里出片、早上等人点头",
+      "url": "https://github.com/Archive228/overnight",
+      "blurb": "装上六个岗位后只有 Render 能花 imagine-mcp 预算，编辑点 APPROVED 也还要人闸才许公开发布。",
+      "section": "skills",
+      "tags": ["编制", "插件"],
+      "aliases": ["Overnight", "imagine-mcp"]
+    },
+    {
+      "id": "grok-bot-setup",
+      "title": "grok-bot-setup：把共享云电脑推理切到自选模型",
+      "url": "https://github.com/BlockedPath/grok-bot-setup",
+      "blurb": "沙箱重置后一条 bootstrap 会补 CLIProxy，再 adapters use deepseek 就能把共享云电脑的推理切到 DeepSeek、Claude 或 Codex。",
+      "section": "skills",
+      "tags": ["插件", "电脑操作"],
+      "aliases": ["CLIProxy", "DeepSeek"]
+    },
+    {
+      "id": "lange-chatgpt-work-vm",
+      "title": "蓝哥：ChatGPT Work 按需隔离云电脑，Grok Bot 是常驻共用 Linux",
+      "url": "https://x.com/0xlangeai/status/2092470709151011184",
+      "blurb": "对照两边架构：Work 用完可扔的隔离微虚拟机只跑浏览器，Bot 一个号一台常开 Linux、多岗共用登录和终端，更适合常驻任务。",
+      "section": "reviews",
+      "tags": ["评测", "云电脑"],
+      "aliases": ["蓝哥", "ChatGPT Work", "0xlangeai"]
+    },
+    {
+      "id": "codefactory-dumped-hermes",
+      "title": "코드팩토리：太好用，Hermes 和 OpenClaw 都卸了",
+      "url": "https://www.youtube.com/watch?v=MzObKXUaSbc",
+      "blurb": "上线两天就把自托管的 Hermes、OpenClaw 卸掉，韩语对照常驻云电脑和两百美元门槛值不值。",
+      "section": "reviews",
+      "tags": ["韩文", "编制", "视频"],
+      "aliases": ["코드팩토리", "Hermes", "OpenClaw"]
+    },
+    {
+      "id": "reddit-euro-quota-two-days",
+      "title": "嫌 OpenClaw 难装才换 Bot，周六开九十欧周一额度见底",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vxie4u/initial_feedback_i_love_it_but/",
+      "blurb": "上手比 OpenClaw 轻，但八十九点九九欧元套餐两天烧完要等五天；回帖说六十刀档轻量网页自动化也会吃额度，GTM 更稳要二百刀。",
+      "section": "reviews",
+      "tags": ["坑", "用量"],
+      "aliases": ["九十欧", "OpenClaw"]
+    },
+    {
+      "id": "srikanth-who-runs-it",
+      "title": "Srikanth：助手需要电脑，谁来当运维——OpenClaw / Hermes / Grok Bot",
+      "url": "https://medium.com/@srikanthbellary01/the-assistant-needs-a-computer-who-runs-it-39112153a9cf",
+      "blurb": "对照自托管后点出分叉不在模型：OpenClaw 和 Hermes 让你当主机运维，Grok Bot 把那台 Linux 云电脑做成产品本身。",
+      "section": "reviews",
+      "tags": ["编制", "坑"],
+      "aliases": ["Srikanth", "who runs it"]
+    },
+    {
+      "id": "snorlax-bot",
+      "title": "Snorlax-Bot：在自己电脑上跑的常驻同事替身",
+      "url": "https://github.com/chinghauchu/snorlax-bot",
+      "blurb": "命名队友、群聊、技能和例程都跑在你桌上的运行时，默认可先用 mock，Mac 接 oMLX、DGX Spark 接 vLLM，推理不出门。",
+      "section": "alternatives",
+      "tags": ["开源", "替代", "电脑操作"],
+      "aliases": ["Snorlax", "DGX Spark"]
+    },
+    {
+      "id": "jared-x-user-not-enrolled",
+      "title": "Jared Atchison：X 插件报 user-not-enrolled，改成按量计费生产应用才通",
+      "url": "https://x.com/jaredatch/status/2092667501155070298",
+      "blurb": "他用 Bot 整理书签时官方 X 插件一直报 user-not-enrolled，控制台有额度也没用，直到新建按量计费的生产应用才拿到权限。",
+      "section": "community",
+      "tags": ["插件", "坑"],
+      "aliases": ["Jared Atchison", "user-not-enrolled"]
+    },
+    {
+      "id": "forum-hung-custom-mcp",
+      "title": "卡住的自定义 MCP 会拖垮全部插件且卸不掉",
+      "url": "https://forum.cursor.com/t/grok-bot-hung-custom-mcp-remotes-are-invisible-in-plugins-yours-and-uninstall-also-times-out-discovery-catch-22/168350",
+      "blurb": "员工确认一个挂起的自定义 HTTP 连接器会让发现超时，Yours 列表里还看不见，只能把对端改成直接拒连或等官方清掉。",
+      "section": "community",
+      "tags": ["坑", "插件", "MCP"],
+      "aliases": ["自定义 MCP", "Yours"]
+    },
+    {
+      "id": "forum-rebuild-new-user",
+      "title": "云电脑重建后别走「创建第一个 Bot」",
+      "url": "https://forum.cursor.com/t/bots-workspace-missing-all-things-getting-new-user-experience/169448",
+      "blurb": "员工说 Bot 没被删，电脑还在起来时登录会误显示新手页；彻底退出再开，千万别点创建第一个 Bot。",
+      "section": "community",
+      "tags": ["坑", "登录", "编制"],
+      "aliases": ["新手页", "创建第一个 Bot"]
+    },
+    {
+      "id": "forum-no-compact",
+      "title": "官方：还没有 Compact，整段对话每轮都送回模型",
+      "url": "https://forum.cursor.com/t/grok-bot-prune-compact-an-agent-s-context-without-creating-a-new-bot/168333",
+      "blurb": "身份、记忆和文件会留着，但桌面和手机都没有新会话或 Compact，长聊天只在逼近上限时自动摘要，额度因此被整段 transcript 吃掉。",
+      "section": "community",
+      "tags": ["坑", "用量", "编制"],
+      "aliases": ["Compact", "prune"]
+    },
+    {
+      "id": "forum-vpn-54h",
+      "title": "Bot 装 VPN 会把云电脑卡死，Reset 救不了",
+      "url": "https://forum.cursor.com/t/grok-bot-unavailable-for-54-hours/169548",
+      "blurb": "员工查到电脑卡住所以消息到不了，Reset 和更新都白做；帖主补充当时 Bot 正在装 VPN，只能等官方在后端恢复。",
+      "section": "community",
+      "tags": ["坑", "排障", "电脑操作"],
+      "aliases": ["VPN", "54 hours"]
+    },
+    {
+      "id": "grokbot-linux-port",
+      "title": "grokbot-linux-port：无 Wine 的官方桌面端 Linux 移植",
+      "url": "https://github.com/Nichokas/grokbot-linux-port",
+      "blurb": "每天探测 Cursor CDN 上的 Windows 安装包，抽出 asar 再配官方 Electron Linux 二进制重编原生模块，AUR、COPR 和 PPA 已跟上 0.27.0。",
+      "section": "community",
+      "tags": ["坑", "电脑操作"],
+      "aliases": ["Linux", "AUR", "Wine"]
+    },
+    {
+      "id": "reddit-x-api-billing",
+      "title": "搜 X 热帖走官方开发者 API，一扫另扣十四美分",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vxpdr3/xai_owns_grok_and_x_grok_bot_still_billed_me_x/",
+      "blurb": "问 Bot「X 上在聊什么」会走官方开发者 API 而不是 grok.com 的免费读帖，作者改成网页搜公开内容、账号操作才花额度。",
+      "section": "community",
+      "tags": ["坑", "插件"],
+      "aliases": ["X API", "十四美分"]
+    },
+    {
+      "id": "reddit-linkedin-salesnav",
+      "title": "Sales Navigator 因 Bot 登录被拦，回帖改接 HeyReach",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vxcw0a/linkedin_banned_because_of_grokbot_using_it/",
+      "blurb": "有人用 Bot 直接登 LinkedIn 发站内信后 Sales Nav 被判异常；建议把触达交给 HeyReach 或 SendPilot，Bot 只写内容和看投放。",
+      "section": "community",
+      "tags": ["坑", "销售", "登录"],
+      "aliases": ["Sales Navigator", "HeyReach", "LinkedIn"]
+    },
+    {
+      "id": "mark-kashef-sourcemap",
+      "title": "Mark Kashef：生产源映射把 Bot 编制蓝图漏出来了",
+      "url": "https://www.youtube.com/watch?v=mAWT1HCBgbQ",
+      "blurb": "Cursor 把 Grok Bot 0.18 的 sourcemap 打进正式包后，他拆开岗怎么互发消息、开会、抢活、要批准，以及所谓各自电脑实际怎么分。",
+      "section": "community",
+      "tags": ["编制", "坑", "视频"],
+      "aliases": ["Mark Kashef", "sourcemap"]
     }
   ]
 }
