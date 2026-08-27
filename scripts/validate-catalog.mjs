@@ -105,6 +105,11 @@ for (const entry of catalog.entries) {
     }
   }
 
+  // Future daily harvests must set added to that day's Asia/Shanghai date.
+  if (typeof entry.added !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(entry.added)) {
+    fail(`${where} added 须为 YYYY-MM-DD 字符串。`);
+  }
+
   if (typeof entry.id === "string" && !ID_PATTERN.test(entry.id)) {
     fail(`${where} id 须为小写 kebab-case。`);
   }

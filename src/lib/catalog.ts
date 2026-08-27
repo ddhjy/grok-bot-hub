@@ -36,6 +36,11 @@ export interface Section {
 
 export interface CatalogEntry {
   id: string;
+  /**
+   * Asia/Shanghai calendar date this entry entered THIS catalog.
+   * Daily harvests must set added to that day's Shanghai date YYYY-MM-DD.
+   */
+  added?: string;
   title: string;
   url: string;
   blurb: string;
@@ -887,6 +892,54 @@ export function formatZhDate(iso?: string): string {
   return `${Number(match[1])}年${Number(match[2])}月${Number(match[3])}日`;
 }
 
+export function formatAddedShort(iso?: string): string {
+  if (!iso) return "";
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if (!match) return iso;
+  return `${Number(match[2])}月${Number(match[3])}日`;
+}
+
+const SHANGHAI_DAY_MS = 24 * 60 * 60 * 1000;
+
+function shanghaiDayMs(iso?: string): number | undefined {
+  if (!iso || !/^(\d{4})-(\d{2})-(\d{2})$/.test(iso)) return undefined;
+  const ms = Date.parse(`${iso}T00:00:00+08:00`);
+  return Number.isFinite(ms) ? ms : undefined;
+}
+
+/** True if `added` is 0–2 Asia/Shanghai calendar days before `updated` (YYYY-MM-DD parsed as +08:00). */
+export function isNewlyAdded(added?: string, updated?: string): boolean {
+  const addedMs = shanghaiDayMs(added);
+  const updatedMs = shanghaiDayMs(updated);
+  if (addedMs === undefined || updatedMs === undefined) return false;
+  const diffDays = (updatedMs - addedMs) / SHANGHAI_DAY_MS;
+  return diffDays >= 0 && diffDays <= 2;
+}
+
+export function addedSearchText(entry: CatalogEntry): string {
+  const iso = entry.added;
+  if (!iso) return "";
+  return ["收录", formatAddedShort(iso), formatZhDate(iso), iso].join(" ");
+}
+
+export type AddedSort = "new" | "old";
+
+/** Missing `added` sorts last. `"new"` is newest first; `"old"` is oldest first. */
+export function compareAdded(a: CatalogEntry, b: CatalogEntry, sort: AddedSort): number {
+  const left = shanghaiDayMs(a.added);
+  const right = shanghaiDayMs(b.added);
+  if (left === undefined && right === undefined) return 0;
+  if (left === undefined) return 1;
+  if (right === undefined) return -1;
+  if (left === right) return 0;
+  const cmp = left < right ? -1 : 1;
+  return sort === "old" ? cmp : -cmp;
+}
+
+export function sortByAdded(entries: readonly CatalogEntry[], sort: AddedSort): CatalogEntry[] {
+  return entries.slice().sort((a, b) => compareAdded(a, b, sort));
+}
+
 export function hostTone(host: string): "cinnabar" | "ink" | "bronze" | "plum" {
   if (host === "x.ai" || host.endsWith(".x.ai")) return "cinnabar";
   if (host.includes("cursor.com")) return "bronze";
@@ -902,6 +955,7 @@ export function searchPrimary(entry: CatalogEntry): string {
     entry.title,
     ...(entry.tags ?? []),
     ...(entry.aliases ?? []),
+    addedSearchText(entry),
   ]
     .join(" ")
     .toLocaleLowerCase("zh-CN");

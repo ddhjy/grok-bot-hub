@@ -428,6 +428,42 @@ input {
   opacity: 1;
 }
 
+.sort-ctrl {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.12rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--chip);
+}
+
+.sort-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0.12rem 0.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 0.76rem;
+}
+
+.sort-btn:hover:not(:disabled):not([aria-pressed="true"]) {
+  color: var(--ink);
+}
+
+.sort-btn[aria-pressed="true"],
+.sort-btn[aria-pressed="true"]:visited {
+  background: var(--chip-on);
+  color: var(--paper);
+}
+
 .status-row {
   display: flex;
   flex-wrap: wrap;
@@ -1242,6 +1278,45 @@ input {
   background: var(--chip);
   color: var(--ink-soft);
   font-size: 0.7rem;
+}
+
+.card-added {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.32rem;
+  margin: 0;
+  margin-top: auto;
+  padding-top: 0.2rem;
+  min-height: 0;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.tags + .card-added {
+  margin-top: 0;
+}
+
+.badge-new,
+.new-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.02rem 0.36rem;
+  border-radius: 999px;
+  background: var(--cinnabar);
+  color: var(--paper);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.35;
+}
+
+.card-pin .card-added {
+  display: flex;
 }
 
 .card-cta {

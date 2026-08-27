@@ -12,6 +12,7 @@
   "entries": [
     {
       "id": "xai-bot",
+      "added": "2026-08-21",
       "title": "Grok Bot 产品页",
       "url": "https://x.ai/bot",
       "blurb": "先看官方怎么定义这名常驻队友：能登录你现有工具，在持久云电脑上把活干完。",
@@ -22,6 +23,7 @@
     },
     {
       "id": "introducing-grok-bot",
+      "added": "2026-08-21",
       "title": "发布稿：Grok Bot 上线",
       "url": "https://x.ai/news/introducing-grok-bot",
       "blurb": "二〇二六年八月十一日的发布说明：自带电脑、合上笔记本也继续干活的常驻智能体。",
@@ -32,6 +34,7 @@
     },
     {
       "id": "docs-overview",
+      "added": "2026-08-21",
       "title": "文档总览：Bot 是什么",
       "url": "https://docs.x.ai/grok-bot/overview",
       "blurb": "新人第一篇：Bot 是有名字的常驻队友，多 Bot 共用一台按账号隔离的云电脑。",
@@ -43,6 +46,7 @@
     },
     {
       "id": "docs-get-started",
+      "added": "2026-08-21",
       "title": "安装与第一次交接",
       "url": "https://docs.x.ai/grok-bot/get-started",
       "blurb": "装 macOS 或 Windows 桌面端、用 Cursor 账号登录，并创建你的第一个 Bot。",
@@ -54,6 +58,7 @@
     },
     {
       "id": "docs-use-cases",
+      "added": "2026-08-21",
       "title": "官方岗位示例",
       "url": "https://docs.x.ai/grok-bot/use-cases",
       "blurb": "想先试岗位的人看这里：销售外呼、招聘寻访、投放监控、费用对账、性能排查。",
@@ -64,6 +69,7 @@
     },
     {
       "id": "docs-mobile",
+      "added": "2026-08-21",
       "title": "iOS 同伴应用",
       "url": "https://docs.x.ai/grok-bot/mobile",
       "blurb": "手机只用来给仍在云电脑上跑的 Bot 发消息，并不能把工作搬到手机本地。",
@@ -74,6 +80,7 @@
     },
     {
       "id": "docs-bots",
+      "added": "2026-08-21",
       "title": "创建与管理 Bot",
       "url": "https://docs.x.ai/grok-bot/bots",
       "blurb": "给 Bot 起名、限定职责，把它当常驻同事，而不是一次性聊天线程。",
@@ -84,6 +91,7 @@
     },
     {
       "id": "docs-chat-and-collaboration",
+      "added": "2026-08-21",
       "title": "消息与协作",
       "url": "https://docs.x.ai/grok-bot/chat-and-collaboration",
       "blurb": "Bot 可以互发消息、加入群聊并把任务所有权转交，减少你当传话人。",
@@ -94,6 +102,7 @@
     },
     {
       "id": "docs-files-and-results",
+      "added": "2026-08-21",
       "title": "文件与结果",
       "url": "https://docs.x.ai/grok-bot/files-and-results",
       "blurb": "表格、截图或代码要拿回自己电脑时看这里，产物都在共享盘，不在聊天记录里。",
@@ -104,6 +113,7 @@
     },
     {
       "id": "docs-computer-and-apps",
+      "added": "2026-08-21",
       "title": "云电脑与应用",
       "url": "https://docs.x.ai/grok-bot/computer-and-apps",
       "blurb": "共享浏览器、文件系统和终端：没有干净接口时，就在云电脑里像人一样点网页。",
@@ -115,6 +125,7 @@
     },
     {
       "id": "docs-skills-routines",
+      "added": "2026-08-21",
       "title": "技能与例行任务",
       "url": "https://docs.x.ai/grok-bot/skills-routines-and-automations",
       "blurb": "演示一遍的工作流可存成技能，再挂到定时或事件触发的例程上重复执行。",
@@ -125,6 +136,7 @@
     },
     {
       "id": "docs-settings-notifications",
+      "added": "2026-08-21",
       "title": "设置与通知",
       "url": "https://docs.x.ai/grok-bot/settings-and-notifications",
       "blurb": "任务卡住或想在手机上看进度时点这里，通知按 Bot 分组，不会混成一堆。",
@@ -135,6 +147,7 @@
     },
     {
       "id": "docs-approvals",
+      "added": "2026-08-21",
       "title": "审批、安全与隐私",
       "url": "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
       "blurb": "密码与二次验证需你接管电脑完成；审批线应画在发送、付款和改生产这类不可逆动作上。",
@@ -146,6 +159,7 @@
     },
     {
       "id": "docs-teams",
+      "added": "2026-08-21",
       "title": "团队与企业",
       "url": "https://docs.x.ai/grok-bot/teams-and-enterprises",
       "blurb": "要上团队座位再点：单点登录、共享用量，插件规则跟现有 Cursor 一样。",
@@ -156,6 +170,7 @@
     },
     {
       "id": "docs-troubleshooting",
+      "added": "2026-08-21",
       "title": "官方排障",
       "url": "https://docs.x.ai/grok-bot/troubleshooting",
       "blurb": "重连失败、runner 异常和测试期常见问题，先对照这份官方清单。",
@@ -166,6 +181,7 @@
     },
     {
       "id": "docs-faq",
+      "added": "2026-08-21",
       "title": "官方常见问题",
       "url": "https://docs.x.ai/grok-bot/faq",
       "blurb": "还没决定买不买时先看这篇：资格、记忆能记住什么、桌面和 iOS 各支持到哪。",
@@ -176,6 +192,7 @@
     },
     {
       "id": "cursor-help-getting-started",
+      "added": "2026-08-21",
       "title": "Cursor 帮助：开始使用",
       "url": "https://cursor.com/help/grok-bot/getting-started",
       "blurb": "用同一 Cursor 账号登录、创建第一个 agent，并强调不要把密钥贴进聊天。",
@@ -187,6 +204,7 @@
     },
     {
       "id": "cursor-help-sign-in",
+      "added": "2026-08-21",
       "title": "Cursor 帮助：登录",
       "url": "https://cursor.com/help/grok-bot/sign-in",
       "blurb": "Grok Bot 没有独立账号，桌面和手机都用 Cursor 账号，认证失败时按这篇排查。",
@@ -197,6 +215,7 @@
     },
     {
       "id": "cursor-help-plans",
+      "added": "2026-08-21",
       "title": "Cursor 帮助：方案与用量",
       "url": "https://cursor.com/help/grok-bot/plans",
       "blurb": "Ultra、团队 Premium 座位和 SuperGrok Heavy 三条准入路径，试用额度按步骤消耗。",
@@ -208,6 +227,7 @@
     },
     {
       "id": "cursor-help-supergrok-heavy",
+      "added": "2026-08-21",
       "title": "用 SuperGrok Heavy 开通",
       "url": "https://cursor.com/help/grok-bot/supergrok-heavy",
       "blurb": "符合条件的 SuperGrok Heavy 可绑定免费 Cursor Ultra；已在 Ultra 上不会叠用量。",
@@ -219,6 +239,7 @@
     },
     {
       "id": "cursor-help-mobile",
+      "added": "2026-08-21",
       "title": "Cursor 帮助：手机端",
       "url": "https://cursor.com/help/grok-bot/mobile",
       "blurb": "目前仅支持 iOS，需与桌面同一账号；云电脑升级只能在桌面端完成。",
@@ -229,6 +250,7 @@
     },
     {
       "id": "cursor-help-connect-plugins",
+      "added": "2026-08-21",
       "title": "连接插件",
       "url": "https://cursor.com/help/grok-bot/connect-plugins",
       "blurb": "优先用插件连接器对接 Gmail、Notion、Slack 等服务，授权在浏览器里完成。",
@@ -240,6 +262,7 @@
     },
     {
       "id": "cursor-help-secrets",
+      "added": "2026-08-21",
       "title": "安全存放密钥",
       "url": "https://cursor.com/help/grok-bot/secrets",
       "blurb": "API 密钥应走安全卡片，不要写进普通聊天或普通文件。",
@@ -251,6 +274,7 @@
     },
     {
       "id": "cursor-help-computer-recovery",
+      "added": "2026-08-21",
       "title": "恢复云电脑数据",
       "url": "https://cursor.com/help/grok-bot/computer-recovery",
       "blurb": "对话历史在沙箱外；误删盒内文件时，重开电脑通常能从服务端同步副本。",
@@ -261,6 +285,7 @@
     },
     {
       "id": "app-store-grok-bot",
+      "added": "2026-08-21",
       "title": "App Store：Grok Bot 同伴应用",
       "url": "https://apps.apple.com/cn/app/grok-bot/id6794501026",
       "blurb": "官方 iOS 同伴应用，用来在手机上给云端 Bot 发消息，本身并不跑云电脑。",
@@ -272,6 +297,7 @@
     },
     {
       "id": "plugin-marketplace",
+      "added": "2026-08-21",
       "title": "xAI 插件市场",
       "url": "https://github.com/xai-org/plugin-marketplace",
       "blurb": "官方 .grok-plugin 市场仓库，Grok Bot 的插件策略沿用 Cursor 现有规则。",
@@ -282,6 +308,7 @@
     },
     {
       "id": "x-bot-wider-access",
+      "added": "2026-08-23",
       "title": "官方扩大开通：Plus、Pro+ 与 Teams 都能用",
       "url": "https://x.com/bot/status/2090852881373311369",
       "blurb": "官方账号宣布 SuperGrok Plus、Cursor Pro+ 和 Cursor Teams 现已开通，其余用户也可领有限额度免费试用。",
@@ -292,6 +319,7 @@
     },
     {
       "id": "debbie-get-started",
+      "added": "2026-08-21",
       "title": "Debbie：如何开始用 Grok Bot",
       "url": "https://debbie.codes/blog/how-to-get-started-with-grok-bot",
       "blurb": "从第一个 Bot 和幕僚长提示词写起，并分享她如何重组自己的编制。",
@@ -301,6 +329,7 @@
     },
     {
       "id": "dailydose-masterclass",
+      "added": "2026-08-21",
       "title": "Grok Bot 实操课",
       "url": "https://www.dailydoseofds.com/p/grok-bot-masterclass/",
       "blurb": "Avi 把「录一遍变成技能、再挂到例程」讲成可跟做的课，强调合上笔记本也继续跑。",
@@ -310,6 +339,7 @@
     },
     {
       "id": "mindstudio-setup",
+      "added": "2026-08-21",
       "title": "安装并建立第一批智能体",
       "url": "https://www.mindstudio.ai/blog/grok-bot-setup-guide",
       "blurb": "从安装走到第一个 agent，并写清 Heavy、Ultra 与团队 Premium 的门槛。",
@@ -319,6 +349,7 @@
     },
     {
       "id": "ayautomate-explained",
+      "added": "2026-08-21",
       "title": "Grok Bot 是什么（配真实编制）",
       "url": "https://www.ayautomate.com/blog/grok-bot-xai-ai-agents-explained",
       "blurb": "用真实 iPhone 编制截图把产品讲清楚，避免和普通聊天助手混为一谈。",
@@ -328,6 +359,7 @@
     },
     {
       "id": "therundown-handoff",
+      "added": "2026-08-21",
       "title": "把跨应用的活交出去",
       "url": "https://app.therundown.ai/guides/hand-off-real-work-across-your-apps-with-grok-bot",
       "blurb": "跨邮箱、日历和浏览器才能做完的活，可以直接整包交给 Bot，不用自己当搬运。",
@@ -337,6 +369,7 @@
     },
     {
       "id": "usecarly-slack",
+      "added": "2026-08-21",
       "title": "连接多个 Slack 工作区",
       "url": "https://www.usecarly.com/blog/how-to-connect-multiple-slack-workspaces-to-grok-bot/",
       "blurb": "讲清用 Slack 事件唤醒例程，和把 Grok Bot 装成 Slack 应用不是同一件事。",
@@ -346,6 +379,7 @@
     },
     {
       "id": "peter-yang-use-cases",
+      "added": "2026-08-21",
       "title": "Peter Yang：五个值得先试的用法",
       "url": "https://www.youtube.com/watch?v=MkVcHbviYOw",
       "blurb": "视频演示顾问、YouTube 研究员、X 侦察、邮箱清理和旅行管家五类岗位。",
@@ -355,6 +389,7 @@
     },
     {
       "id": "uncle-gizmo-notes",
+      "added": "2026-08-21",
       "title": "Uncle-Gizmo 公开笔记",
       "url": "https://github.com/Uncle-Gizmo/grok-bot-info",
       "blurb": "较稳妥的示例工作流整理，并讨论它和 Grok Build 如何并存。",
@@ -364,6 +399,7 @@
     },
     {
       "id": "nate-herk-week",
+      "added": "2026-08-23",
       "title": "Nate Herk：用满一周后的九条编制心得",
       "url": "https://www.youtube.com/watch?v=TMPUUyQC5aM",
       "blurb": "幕僚长、共享记忆、Composio、ClickUp 记日志、录屏教技能和浏览器档案，把多体 Bot 收成一套能信的系统。",
@@ -373,6 +409,7 @@
     },
     {
       "id": "nicekate-cloud-computer",
+      "added": "2026-08-23",
       "title": "NiceKate：在 16GB 云电脑上跑 Qwen 和 Blender",
       "url": "https://www.youtube.com/watch?v=foedWQ4iZJI",
       "blurb": "实测下载 Qwen、搭 WebUI、剪长视频、出 Notion 与 PPT、Blender 建模，并对照 OpenClaw、Codex 和 Claude Cowork 的限制。",
@@ -382,6 +419,7 @@
     },
     {
       "id": "note-cursor-sandbox",
+      "added": "2026-08-23",
       "title": "日文上手：共享云电脑原来是 Cursor 沙箱",
       "url": "https://note.com/bright_dietes994/n/n82219247beae",
       "blurb": "签约 SuperGrok Heavy 后摸清共享虚拟机是 Debian 非 root 的 Cursor 沙箱，只有 /workspace 会留下，作者用 Python 绕过缺失的 bzip2 装上 micromamba。",
@@ -391,6 +429,7 @@
     },
     {
       "id": "poteto-routines",
+      "added": "2026-08-24",
       "title": "Lauren：十五分钟例程一天近百次，重复任务另开 Bot",
       "url": "https://x.com/poteto/status/2091368467060662497",
       "blurb": "产品组成员提醒十五分钟例程一天近一百次、长聊天里的例程更贵，重复任务应交给新开的 Bot，幕僚长继续管日常。",
@@ -400,6 +439,7 @@
     },
     {
       "id": "grok-bot-orange-book",
+      "added": "2026-08-24",
       "title": "橙皮书：把一支 AI 团队装进口袋",
       "url": "https://github.com/KinGao294/grok-bot-orange-book",
       "blurb": "一万六千字中文手册按实测写免费试用、五人舰队招募卡、额度吞金兽和无人值守流水线，并标出数字保质期以周计。",
@@ -409,6 +449,7 @@
     },
     {
       "id": "note-bot-settings",
+      "added": "2026-08-24",
       "title": "点开 Bot 名字：人格设定和全局 Auto-review 各管什么",
       "url": "https://note.com/vast_cosmos394/n/n99fca3682929",
       "blurb": "点名字改的是人格、通知和云电脑预览，时区、本机执行和 Auto-review 在全局 Settings，作者按建专家房间的顺序把该先填哪一栏写清楚了。",
@@ -418,6 +459,7 @@
     },
     {
       "id": "flavio-grok-bot",
+      "added": "2026-08-24",
       "title": "Flavio：先跑通一遍再写成技能，再挂例程",
       "url": "https://flaviocopes.com/grok-bot/",
       "blurb": "用自己的 Blog Pulse 岗把共享云电脑、插件顺序和审批边界讲清楚，并对照 OpenClaw、ChatGPT Work 什么场景会翻车。",
@@ -427,6 +469,7 @@
     },
     {
       "id": "n2parko-roster",
+      "added": "2026-08-21",
       "title": "n2parko：产品编制与 Bot 交接",
       "url": "https://x.com/n2parko/status/2087251704744235298",
       "blurb": "SpaceXAI 产品侧的幕僚长加工程编制帖，带 Bot 互相当值守并交接拉取请求的截图。",
@@ -436,6 +479,7 @@
     },
     {
       "id": "leerob-four-bets",
+      "added": "2026-08-21",
       "title": "Lee Robinson：四条技术赌注",
       "url": "https://x.com/leerob/status/2089169319099777364",
       "blurb": "把产品概括成无界面、瘦客户端厚服务端、常驻电脑、浏览器作为一等工具四条赌注。",
@@ -445,6 +489,7 @@
     },
     {
       "id": "debbie-flights",
+      "added": "2026-08-21",
       "title": "Debbie：让 Bot 订机票",
       "url": "https://debbie.codes/blog/i-tested-if-grok-bot-could-book-my-flights",
       "blurb": "实测 Bot 能操作航司网站，但最后确认仍要人点，属于诚实的差一点。",
@@ -454,6 +499,7 @@
     },
     {
       "id": "debbie-beer",
+      "added": "2026-08-21",
       "title": "Debbie：周日夜买无麸质啤酒",
       "url": "https://debbie.codes/blog/i-sent-grok-bot-to-buy-my-gluten-free-beer",
       "blurb": "让幕僚长在电商网站完成购物跑腿，用来展示电脑操作而不是聊天草稿。",
@@ -463,6 +509,7 @@
     },
     {
       "id": "nates-twelve-bots",
+      "added": "2026-08-21",
       "title": "Nate：八小时组十二个 Bot",
       "url": "https://natesnewsletter.substack.com/p/grok-bot-review",
       "blurb": "用第一天就拉起的十二人编制，讨论这个价位的智能体小队值不值得。",
@@ -472,6 +519,7 @@
     },
     {
       "id": "logan-computer-unlock",
+      "added": "2026-08-21",
       "title": "Logan：关键是电脑而不是模型号",
       "url": "https://x.com/LoganJastremski/status/2089903051557491092",
       "blurb": "强调解锁点是 Bot 能像人一样使用软件，而不是再换一个更大的模型版本。",
@@ -481,6 +529,7 @@
     },
     {
       "id": "jp-note-cloud-computer",
+      "added": "2026-08-21",
       "title": "日文实测：在共享云电脑上过一周",
       "url": "https://note.com/azumimusuhi/n/n0485219790bb",
       "blurb": "日文手记记录把日常工作放到共享虚拟机上连续用一周的真实感受。",
@@ -490,6 +539,7 @@
     },
     {
       "id": "price-foulger-roofing",
+      "added": "2026-08-22",
       "title": "Price Foulger：两天办完屋顶许可与分包",
       "url": "https://x.com/pricefoulger/status/2090444744853766643",
       "blurb": "屋顶承包商让 Bot 填许可、过验证码约巡检、发电子签分包和变更单，两天把运营侧活干完。",
@@ -499,6 +549,7 @@
     },
     {
       "id": "jon-oneill-plumbing",
+      "added": "2026-08-22",
       "title": "Jon ONeill：水管公司的 Atlas 编制",
       "url": "https://x.com/HouseHackerJon/status/2087918025798467861",
       "blurb": "水管公司老板拆出 Atlas、Marc 和 Gmail 调度岗，把工单接到 ServiceTitan 预约，还记下第一只被解雇的调度 Bot。",
@@ -508,6 +559,7 @@
     },
     {
       "id": "chuck-russell-car-shopping",
+      "added": "2026-08-22",
       "title": "Chuck Russell：三名 Bot 邮件反向竞价租 SUV",
       "url": "https://chuckrussell.medium.com/my-agents-went-car-shopping-bdcd8e822617",
       "blurb": "Genesis、Santa Fe、Lucid 各派一名 Bot 只走邮件填表压经销商，九家店两天收成一张比价表，人只拍板签租约。",
@@ -517,6 +569,7 @@
     },
     {
       "id": "jjcm-vietnam-fabric",
+      "added": "2026-08-22",
       "title": "jjcm：向越南四十家面料厂询价打样",
       "url": "https://news.ycombinator.com/item?id=49263241",
       "blurb": "面料岗 Bot 向越南约四十家供应商询价议价并锁下打样，再由打样岗把 Logo 花纹做成文件发给工厂。",
@@ -526,6 +579,7 @@
     },
     {
       "id": "john-schoenith-amazon-return",
+      "added": "2026-08-22",
       "title": "John Schoenith：拍照办亚马逊退货",
       "url": "https://x.com/eleven21/status/2090136506551976258",
       "blurb": "拍一张退货照片，Bot 会在亚马逊订单里找记录、创建退货并打出带二维码的 UPS 面单。",
@@ -535,6 +589,7 @@
     },
     {
       "id": "alex-finn-sponsor-deal",
+      "added": "2026-08-22",
       "title": "Alex Finn：Bot 谈成一万美元赞助",
       "url": "https://www.youtube.com/watch?v=x8KP4MdvM1k",
       "blurb": "片中贴出 Bot 盯商务邮箱、议价并当天成交一万美元赞助的原信，再拆幕僚长和营收岗怎么跑。",
@@ -544,6 +599,7 @@
     },
     {
       "id": "nine-to-five-mac-etihad",
+      "added": "2026-08-22",
       "title": "9to5Mac：查阿提哈德里程票并写每日简报",
       "url": "https://www.youtube.com/watch?v=qXGfR8oB1j4",
       "blurb": "Fernando 用幕僚长和旅行管家每天查阿提哈德奖励舱、扫苹果新闻，并写成早间邮件简报。",
@@ -553,6 +609,7 @@
     },
     {
       "id": "xonk-thirty-one-prs",
+      "added": "2026-08-22",
       "title": "xonk：午睡两小时醒来并入三十一份拉取请求",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vn3mcm/how_are_you_using_grok_bot/p45y8qa/",
       "blurb": "给幕僚长一句「别等我派活」，午睡两小时后收到三十四个拉取请求，审过并入三十一个。",
@@ -562,6 +619,7 @@
     },
     {
       "id": "skins-team-litigation-email",
+      "added": "2026-08-22",
       "title": "skins_team：十五分钟筛完三百九十 GB 诉讼邮件",
       "url": "https://www.reddit.com/r/cursor/comments/1vlnrqb/introducing_grok_bot/p3dgqp8/",
       "blurb": "把三百九十 GB 本地邮箱丢给云电脑，十五分钟抽出诉讼相关邮件，比 Codex 筛一周还准。",
@@ -571,6 +629,7 @@
     },
     {
       "id": "osushi-aituber-x",
+      "added": "2026-08-22",
       "title": "お寿司：四人编制接手 AITuber 的 X 运营",
       "url": "https://note.com/osushi_cr/n/n6b65bcad56dd",
       "blurb": "pdm、analyst、kurara、eng 四体在群聊和 Notion 看板里跑关注与发帖，作者只读例会再给 PdM 回方针。",
@@ -580,6 +639,7 @@
     },
     {
       "id": "kominami-music-site",
+      "added": "2026-08-22",
       "title": "Kominami：让 Bot 巡检自己的音乐站",
       "url": "https://note.com/kominami_program/n/n04a915512821",
       "blurb": "质量岗 Bot 真点搜索、播放和手机版，再对三个地址隔时打九次状态码，交出带 URL 和时刻的巡检表。",
@@ -589,6 +649,7 @@
     },
     {
       "id": "kinopee-macos-notarize",
+      "added": "2026-08-22",
       "title": "Kinopee：用 Bot 把 macOS 应用签到公证上架",
       "url": "https://qiita.com/Kinopee/items/47970f629f1d98a42ccf",
       "blurb": "公证上架 Realtime Translator 时，把卡住的 Docker、Developer ID、Secrets 和 CI 拆给 Bot 一起推，最后把签名流程单独收成拉取请求。",
@@ -598,6 +659,7 @@
     },
     {
       "id": "ed-dale-yellow-pad",
+      "added": "2026-08-22",
       "title": "Ed Dale：黄拍纸上画出岗位再雇他们",
       "url": "https://ai30dc.substack.com/p/i-drew-the-jobs-on-a-yellow-pad-then",
       "blurb": "通讯员 Chihaya、编辑 Fern、印刷工 Eisen 和行政助理 Suletta 当天上岗，午饭前改好会议并交出通讯稿。",
@@ -607,6 +669,7 @@
     },
     {
       "id": "aakash-sponsor-letters",
+      "added": "2026-08-22",
       "title": "Aakash：幕僚长起草十封赞助信",
       "url": "https://www.aibyaakash.com/p/grok-bot",
       "blurb": "行政与赞助谈判共用 Gmail 登录，Bot 自己爬完作者全部 Substack 后起草了十封赞助信。",
@@ -616,6 +679,7 @@
     },
     {
       "id": "ghiles-cold-email",
+      "added": "2026-08-22",
       "title": "Ghiles：两行消息修好冷邮回复翻倍",
       "url": "https://www.linkedin.com/pulse/how-turn-grok-bot-gtm-team-creates-content-runs-sales-moussaoui-1mrff",
       "blurb": "手机上两行字让 Bot 换掉失效外呼邮箱，冷邮正向回复从六十四升到一百一十二。",
@@ -625,6 +689,7 @@
     },
     {
       "id": "david-carbutt-stripe",
+      "added": "2026-08-22",
       "title": "David Carbutt：非开发者一周跑课与 Stripe",
       "url": "https://x.com/DavidCarbutt_/status/2090603356649562522",
       "blurb": "非开发者不到一周让幕僚长改错幻灯、从销售通话写出规则，并在 Stripe 开出五折课码。",
@@ -634,6 +699,7 @@
     },
     {
       "id": "orcdev-discord-scripts",
+      "added": "2026-08-22",
       "title": "OrcDev：Discord 日更压成三条成片脚本",
       "url": "https://x.com/orcdev/status/2090053406417105300",
       "blurb": "一只 Bot 每天两次把 Discord 摘要交给脚本岗，挑出三条适合频道的题材并写好成片脚本。",
@@ -643,6 +709,7 @@
     },
     {
       "id": "eugene-orbital-drift",
+      "added": "2026-08-22",
       "title": "Eugene：用 Orbital Drift 编制跑 MV 成片",
       "url": "https://forum.cursor.com/t/grok-bot-first-class-projects-roster-shared-context-artifacts-status/168193",
       "blurb": "帖里列出幕僚长、制作人、鼓贝斯合成器、摄影指导和成片链路，是一份真实在跑的音乐视频制作编制。",
@@ -652,6 +719,7 @@
     },
     {
       "id": "craig-hewitt-castos",
+      "added": "2026-08-22",
       "title": "Craig Hewitt：Castos 客服研发市场编制",
       "url": "https://www.youtube.com/watch?v=spsMYfG_ND4",
       "blurb": "播客托管公司 Castos 拆出两套幕僚长，底下再挂客服、研发、市场岗，并接上 Gmail、Granola 和 Chartmogul。",
@@ -661,6 +729,7 @@
     },
     {
       "id": "dylan-haugen-website",
+      "added": "2026-08-22",
       "title": "Dylan Haugen：Bot 自行扩编并改官网",
       "url": "https://www.youtube.com/watch?v=kgzxNL4Yxtc",
       "blurb": "私人助理自己拉起编制，给 dylan-haugen.com 补上演讲页和新闻页，还从逐字稿抽出引用写成文章。",
@@ -670,6 +739,7 @@
     },
     {
       "id": "derya-x-to-notion",
+      "added": "2026-08-22",
       "title": "Derya：每天扫 X 写入 Notion 库",
       "url": "https://x.com/DeryaTR_/status/2087371098920763631",
       "blurb": "让 Bot 每天扫描 X 上的 AI 与机器人发布，自动建 Notion 库并持续追加，帖内有数据库截图。",
@@ -679,6 +749,7 @@
     },
     {
       "id": "indra-warren-duffer",
+      "added": "2026-08-22",
       "title": "Indra：把五十万卢比交给日内交易 Bot",
       "url": "https://x.com/IndraVahan/status/2089399469360214443",
       "blurb": "把五十万卢比和券商权限交给名叫 Warren Duffer 的 Bot 做五倍杠杆日内交易，并公开目前已亏五万一千卢比。",
@@ -688,6 +759,7 @@
     },
     {
       "id": "cigar-coupon-outreach",
+      "added": "2026-08-22",
       "title": "anonymousdudemon：雪茄优惠爬虫加销售外呼",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vn3mcm/how_are_you_using_grok_bot/p450tr5/",
       "blurb": "无代码一周内做出雪茄折扣抓取页，再把 Granola、Zoom、Gmail、Slack 跟进和 LinkedIn 外呼交给 Bot 连跑。",
@@ -697,6 +769,7 @@
     },
     {
       "id": "visual-ad-merchant-ops",
+      "added": "2026-08-22",
       "title": "Visual_Ad8604：GitHub 交接后改商户资料",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vn3mcm/how_are_you_using_grok_bot/p4e7czx/",
       "blurb": "用 GitHub 当公共收件箱，Claude 交代码、Grok Bot 负责落地、发内容和改 Google 商户资料。",
@@ -706,6 +779,7 @@
     },
     {
       "id": "nathan-discord-bridge",
+      "added": "2026-08-22",
       "title": "Nathan：把 Discord 提问接到 Bot 云电脑",
       "url": "https://forum.cursor.com/t/official-discord-plugin-for-grok-bot-inbound-channels/168430",
       "blurb": "作者把 discord-agent-bridge 跑在 Grok Bot 云电脑上，频道消息能叫醒 Bot 并沿官方 API 原路回复。",
@@ -715,6 +789,7 @@
     },
     {
       "id": "xiaotu-content-ops",
+      "added": "2026-08-22",
       "title": "小土：点赞进知识库并改写成多平台",
       "url": "https://zhuanlan.zhihu.com/p/2072963993224876217",
       "blurb": "作者用一周把 X 点赞定时剪进 Obsidian，再把公众号改写成知乎问答和小红书卡片。",
@@ -724,6 +799,7 @@
     },
     {
       "id": "prof-buehler-3d-print",
+      "added": "2026-08-23",
       "title": "MIT 布勒：从四张照片打出实体 PLA 件",
       "url": "https://x.com/ProfBuehlerMIT/status/2091108225806454802",
       "blurb": "三人编制从结构照片写出仿真、跑完四十七组实验，再让打印岗打开 Bambu Studio 打出 PLA 件，手表上也能盯进度。",
@@ -733,6 +809,7 @@
     },
     {
       "id": "greg-isenberg-newsletter",
+      "added": "2026-08-23",
       "title": "Greg Isenberg：六岗编制跑六千订户通讯",
       "url": "https://www.youtube.com/watch?v=qQluNEfSVHk",
       "blurb": "Billy Howell 把幕僚长、调研和销售岗接到 Beehive，一人撑起六千订户的周四通讯，并讲清一账号只扛一个项目才不烧额度。",
@@ -742,6 +819,7 @@
     },
     {
       "id": "matthew-berman-eleven-jobs",
+      "added": "2026-08-23",
       "title": "Matthew Berman：邮箱、点餐、修 CI 等十一类实岗",
       "url": "https://www.youtube.com/watch?v=5CSXUsljJ_E",
       "blurb": "早七点半清垃圾邮件、云浏览器下 DoorDash、从 Slack 派 Cursor 修 CI，再加幕僚长把日历和学校岗串起来。",
@@ -751,6 +829,7 @@
     },
     {
       "id": "cursorinsider-cod-email",
+      "added": "2026-08-23",
       "title": "冷邮回复率几乎翻倍：一小时弃用 Hermes",
       "url": "https://www.bilibili.com/video/BV1qv8T64Eso",
       "blurb": "Cod Email 创始人用 Grok Bot 接管每天三百多条冷邮回复，一小时丢掉 Hermes，并点名打断会停、没有 goal mode 这些还不稳的坑。",
@@ -760,6 +839,7 @@
     },
     {
       "id": "kristaletz-gtm",
+      "added": "2026-08-24",
       "title": "Krista Letz：SpaceXAI 企业销售编制",
       "url": "https://x.com/kristaletz/status/2089103618121314689",
       "blurb": "内部 GTM 岗把 Salesforce、Gong、Granola 和 Figma 接进编制，通勤只读会前简报，通话中途停掉录音就能当场改完客户幻灯。",
@@ -769,6 +849,7 @@
     },
     {
       "id": "bindu-india-grocery",
+      "added": "2026-08-24",
       "title": "Bindu：让 Bot 在印度生鲜应用比价下单",
       "url": "https://www.linkedin.com/pulse/rpa-survive-grok-bot-bindu-sunil-bdmgf",
       "blurb": "作者真的让 Bot 登录三家印度生鲜应用比一篮子价格并下单，亚马逊拦了云电脑，登录时它把屏幕交回人手打密码。",
@@ -778,6 +859,7 @@
     },
     {
       "id": "note-cloud-agent-pr",
+      "added": "2026-08-24",
       "title": "青岛：让 Bot 去叫 Cursor Cloud Agent 出草稿拉取请求",
       "url": "https://note.com/bright_dietes994/n/nf62cc7de334f",
       "blurb": "常驻 Developer 用 API 在 Origin 上拉起 Cloud Agent，八分二十六秒带回草稿拉取请求，并记下共享虚拟机没有密钥面板、curl 计费接口也不会弹审批。",
@@ -787,6 +869,7 @@
     },
     {
       "id": "reddit-crm-40-accounts",
+      "added": "2026-08-24",
       "title": "Salesforce 误改四十个账户后改成先预览再写",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vud0xz/my_grok_bot_retiered_40_crm_accounts_off_stale/",
       "blurb": "测试通过的 Bot 拿过期两天的互动数据，悄悄把四十个真实客户调进错误档位，作者随后把每次写入改成结构化预览、人工点头才落库。",
@@ -796,6 +879,7 @@
     },
     {
       "id": "rogersmj-seven-inboxes",
+      "added": "2026-08-24",
       "title": "rogersmj：七个邮箱日历加旅行幕僚长一周内上岗",
       "url": "https://www.reddit.com/r/cursor/comments/1vuokfq/grok_bot_is_insane/p52zogm/",
       "blurb": "一周内让 Bot 管七个邮箱和日历、把会议笔记并进 Obsidian、从邮件推断任务板，旅行岗还发现缺订并交给幕僚长次日晨报。",
@@ -805,6 +889,7 @@
     },
     {
       "id": "debbie-job-hunt",
+      "added": "2026-08-24",
       "title": "Debbie：让 Bot 当求职猎手",
       "url": "https://dev.to/debs_obrien/job-hunt-with-a-bot-56g3",
       "blurb": "只起了一个名叫求职猎手的 Bot，它从推文和领英拼出她要远程、再扫岗位、拆职位说明，还能合上电脑后继续搜。",
@@ -814,6 +899,7 @@
     },
     {
       "id": "grokbot-imessage-skill",
+      "added": "2026-08-21",
       "title": "iMessage 技能",
       "url": "https://github.com/jeffhuber/grokbot-imessage-skill",
       "blurb": "通过本机 macOS 助手让 Bot 读取、分拣并发送 iMessage。",
@@ -823,6 +909,7 @@
     },
     {
       "id": "grok-bot-discord",
+      "added": "2026-08-21",
       "title": "Discord 网关",
       "url": "https://github.com/davefmurray/grok-bot-discord",
       "blurb": "把 Bot 接到 Discord 的非官方网关，而不是把它伪装成 Slack 应用。",
@@ -832,6 +919,7 @@
     },
     {
       "id": "werewolf-gamemaster",
+      "added": "2026-08-21",
       "title": "狼人杀主持人技能包",
       "url": "https://github.com/Heyvhuang/werewolf-gamemaster",
       "blurb": "一套能让 Bot 主持狼人杀局的真实技能包，不是占位用的示例文件。",
@@ -841,6 +929,7 @@
     },
     {
       "id": "superpowers",
+      "added": "2026-08-21",
       "title": "superpowers 通用技能集",
       "url": "https://github.com/obra/superpowers",
       "blurb": "官方市场里较大的通用技能包：先计划、用证据调试，再写出可过审的东西。",
@@ -850,6 +939,7 @@
     },
     {
       "id": "chrome-devtools-mcp",
+      "added": "2026-08-21",
       "title": "Chrome DevTools MCP：驱动真浏览器",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "blurb": "通过 MCP 驱动真实 Chrome，读取性能轨迹、网络请求和带源映射的控制台错误。",
@@ -859,6 +949,7 @@
     },
     {
       "id": "grok-ship",
+      "added": "2026-08-21",
       "title": "Grok Ship：软件工厂编制",
       "url": "https://github.com/kunchenguid/grok-ship",
       "blurb": "把 Grok Bot 编成软件工厂：侦察与交付分工，合入拉取请求前先做对抗审查。",
@@ -868,6 +959,7 @@
     },
     {
       "id": "coolify-cursor-plugin",
+      "added": "2026-08-21",
       "title": "Coolify Cursor 插件",
       "url": "https://github.com/coollabsio/coolify-cursor-plugin",
       "blurb": "Coolify 官方插件，用远程 HTTP MCP 查看服务器、应用、部署和日志。",
@@ -877,6 +969,7 @@
     },
     {
       "id": "grokbot-sdk",
+      "added": "2026-08-23",
       "title": "非官方 TypeScript SDK：封装 1340 网关",
       "url": "https://forum.cursor.com/t/unofficial-typescript-sdk-for-the-grok-bot-http-gateway-tailscale-remote-internal/168732",
       "blurb": "adam91holt 把未公开的 1340 网关打成 grokbot-sdk，本机读 gateway.json、远端走 Tailscale 或 SSH，可 listAgents 和 sendPrompt，并警告不要把端口暴露到公网。",
@@ -886,6 +979,7 @@
     },
     {
       "id": "grok-wechat-plugin",
+      "added": "2026-08-23",
       "title": "grok-wechat-plugin：微信私信叫醒 Bot",
       "url": "https://github.com/little-thing/grok-wechat-plugin",
       "blurb": "把仓库丢给 Bot 即可装上微信 iLink，扫码后对方私信经 webhook 叫醒专属助手并从微信回过去。",
@@ -895,6 +989,7 @@
     },
     {
       "id": "locum",
+      "added": "2026-08-23",
       "title": "Locum：把写代码外包给本机 Claude Code",
       "url": "https://github.com/HarjjotSinghh/locum",
       "blurb": "云端 Bot 够不着 localhost，这条隧道 MCP 把编码循环交给你已登录的本机 CLI，额度走订阅而不是 Grok。",
@@ -904,6 +999,7 @@
     },
     {
       "id": "grok-bot-cli",
+      "added": "2026-08-23",
       "title": "grok-bot-cli：终端里建助手、拉群、发消息",
       "url": "https://github.com/ScriptedAlchemy/grok-bot-cli",
       "blurb": "macOS 桌面端登录一次后，gbot 就能列出 Bot、建群、发信和读线程，不用再点桌面。",
@@ -913,6 +1009,7 @@
     },
     {
       "id": "elves-grok-bot",
+      "added": "2026-08-23",
       "title": "Elves 过夜核：没有拉取请求的活也能盯完",
       "url": "https://github.com/aigorahub/elves/blob/main/skills/elves-grok-bot/SKILL.md",
       "blurb": "专门给没有拉取请求的活准备的四文件内核，一分钟看门狗加 Stop Gate，中断后也不会把同一封 CRM 再发一遍。",
@@ -922,6 +1019,7 @@
     },
     {
       "id": "discord-agent-bridge",
+      "added": "2026-08-23",
       "title": "discord-agent-bridge：Discord 频道接到云电脑",
       "url": "https://github.com/FlyOverCoderKY/discord-agent-bridge",
       "blurb": "没有官方 Discord 入站插件时，可把 Node 网关跑在云电脑本机，频道提问经未公开的 sendPrompt 回调叫醒指定 Bot。",
@@ -931,6 +1029,7 @@
     },
     {
       "id": "hypergrok-trading-desk",
+      "added": "2026-08-24",
       "title": "HyperGrok：七个 Bot 组成的 Hyperliquid 交易台",
       "url": "https://github.com/galleonlabs/hypergrok-trading-desk",
       "blurb": "把仓库丢给 Bot 就能拉起研究、风控、下单、复盘七人编制，每笔单要你按票号批准，密钥只能交易不能提现。",
@@ -940,6 +1039,7 @@
     },
     {
       "id": "grokbot-for-gtm",
+      "added": "2026-08-24",
       "title": "grokbot-for-gtm：把冷邮和领英外呼交给 Bot 跑",
       "url": "https://github.com/bcharleson/grokbot-for-gtm",
       "blurb": "在 Bot 云电脑上装 Instantly 与 HeyReach 命令行，从名单、冷邮、领英到回信分类按编号跑完一整条外呼，发送前必须人批准。",
@@ -949,6 +1049,7 @@
     },
     {
       "id": "verge-launch",
+      "added": "2026-08-21",
       "title": "The Verge：可以派活的 AI 队友",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
       "blurb": "首发报道把 Grok Bot 写成可派活的队友，没有把它和 grok.com 聊天混为一谈。",
@@ -958,6 +1059,7 @@
     },
     {
       "id": "venturebeat-coworkers",
+      "added": "2026-08-21",
       "title": "VentureBeat：持久数字同事",
       "url": "https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month",
       "blurb": "从定价和常驻电脑切入，写团队路径大约每座位一百二十美元且机器不关。",
@@ -967,6 +1069,7 @@
     },
     {
       "id": "lenny-grok-bot-46-cursor",
+      "added": "2026-08-21",
       "title": "Lenny：Grok Bot、Grok 4.6 与 Cursor",
       "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
       "blurb": "把 Bot 产品、四代六点模型和 Cursor 拆开评，避免三件事写成一篇。",
@@ -976,6 +1079,7 @@
     },
     {
       "id": "grok-bot-vs-openclaw",
+      "added": "2026-08-21",
       "title": "Grok Bot 对 OpenClaw",
       "url": "https://myclaw.ai/blog/grok-bot-vs-openclaw",
       "blurb": "对比托管云电脑队友和自托管、自带模型的 OpenClaw 路线。",
@@ -985,6 +1089,7 @@
     },
     {
       "id": "grok-bot-vs-chatgpt-work",
+      "added": "2026-08-21",
       "title": "工作场景里对 ChatGPT",
       "url": "https://www.eigent.ai/blog/grok-bot-vs-chatgpt-work",
       "blurb": "对比会在真实应用里点完流程的同事，和偶尔调用工具的聊天助手。",
@@ -994,6 +1099,7 @@
     },
     {
       "id": "grok-bot-vs-claude-cowork",
+      "added": "2026-08-21",
       "title": "Grok Bot 对 Claude Cowork",
       "url": "https://www.eigent.ai/blog/grok-bot-vs-claude-cowork",
       "blurb": "对比账号级持久共享虚拟机，和按会话存在的 cowork 环境。",
@@ -1003,6 +1109,7 @@
     },
     {
       "id": "vellum-alternatives",
+      "added": "2026-08-21",
       "title": "二〇二六年代替盘点",
       "url": "https://www.vellum.ai/blog/best-grok-bot-alternatives",
       "blurb": "整理不想购买 Heavy 或 Ultra 座位时，可以考虑的替代产品地图。",
@@ -1012,6 +1119,7 @@
     },
     {
       "id": "nate-b-jones-worth-200",
+      "added": "2026-08-23",
       "title": "Nate B Jones：装完就能用，两百美元值不值",
       "url": "https://www.youtube.com/watch?v=LM7Ft7g8qJw",
       "blurb": "把共享云电脑当成真正的安全边界讲清楚，并给出他建过的十二体编制里最值得先雇的两岗。",
@@ -1021,6 +1129,7 @@
     },
     {
       "id": "bilibili-openclaw-hermes",
+      "added": "2026-08-24",
       "title": "合上电脑活照干：对照自养 OpenClaw 与 Hermes",
       "url": "https://www.bilibili.com/video/BV17D8b6dEwv",
       "blurb": "作者合上笔记本后用手机派活，十二分钟收回一份对照稿，并对照自己养的 OpenClaw、Hermes 讲清机房地址墙、多 Bot 共用登录和教任务还在灰度这些坑。",
@@ -1030,6 +1139,7 @@
     },
     {
       "id": "rakazo",
+      "added": "2026-08-21",
       "title": "rakazo：自托管常驻队友",
       "url": "https://github.com/elie222/rakazo",
       "blurb": "开源自托管方案，目标是复现合上电脑也继续干活这一工作方式，需自己运维。",
@@ -1039,6 +1149,7 @@
     },
     {
       "id": "guaca",
+      "added": "2026-08-21",
       "title": "guaca：电脑操作智能体",
       "url": "https://github.com/madebywelch/guaca",
       "blurb": "面向持久电脑操作的自托管实现，适合想自己管机器、不买托管座位的人。",
@@ -1048,6 +1159,7 @@
     },
     {
       "id": "opengrokbot",
+      "added": "2026-08-21",
       "title": "OpenGrokBot：自带模型",
       "url": "https://github.com/wolfqing/OpenGrokBot",
       "blurb": "把 OpenClaw 与自带模型拼成 Bot 替代，授权前需要自己读代码。",
@@ -1057,6 +1169,7 @@
     },
     {
       "id": "xinyun-openbot",
+      "added": "2026-08-21",
       "title": "心云 OpenBot",
       "url": "https://github.com/dongpen-max/XinyunOpenBot",
       "blurb": "面向同一类「常驻电脑队友」任务的中文开源替代。",
@@ -1066,6 +1179,7 @@
     },
     {
       "id": "grok-bot-flake",
+      "added": "2026-08-21",
       "title": "Nix flake：非官方 Linux 包",
       "url": "https://github.com/jordangarrison/grok-bot-flake",
       "blurb": "把官方 Linux 软件包打成 Nix flake，便于在无官方桌面端的环境里安装。",
@@ -1075,6 +1189,7 @@
     },
     {
       "id": "openmausbot",
+      "added": "2026-08-23",
       "title": "OpenMausBot：自带虚拟机的开源替身",
       "url": "https://github.com/milind-soni/OpenMausBot",
       "blurb": "侧栏每个联系人都是本机 Claude、Codex 或 Grok CLI，可挂云桌面或本地虚拟机，关电脑后队友仍在干活。",
@@ -1084,6 +1199,7 @@
     },
     {
       "id": "copilotkit-openbot",
+      "added": "2026-08-24",
       "title": "OpenBot：每人一台电脑的开源替身",
       "url": "https://github.com/CopilotKit/openbot",
       "blurb": "CopilotKit 的自托管同事栈给每个 Bot 单独浏览器和文件盘，动作先过策略网关再落审计，不跟官方产品共用一台云电脑。",
@@ -1093,6 +1209,7 @@
     },
     {
       "id": "grokbot-shim",
+      "added": "2026-08-24",
       "title": "grokbot-shim：本机桌面加自选模型跑 Grok Bot",
       "url": "https://github.com/codeaashu/grokbot-shim",
       "blurb": "从已安装的桌面端抽出运行时，在本机 XFCE 桌面用 Codex 或任意 OpenAI 兼容接口跑 Bot，还能用 noVNC 接管。",
@@ -1102,6 +1219,7 @@
     },
     {
       "id": "forum-introducing",
+      "added": "2026-08-21",
       "title": "论坛首发帖",
       "url": "https://forum.cursor.com/t/introducing-grok-bot/168053",
       "blurb": "Cursor 论坛上线帖，能看到最初两天里大家真正在问什么。",
@@ -1111,6 +1229,7 @@
     },
     {
       "id": "forum-not-security-boundary",
+      "added": "2026-08-21",
       "title": "Bot 不是安全边界",
       "url": "https://forum.cursor.com/t/grok-bot-ship-real-session-fences-bots-are-not-a-security-boundary/168476",
       "blurb": "必读讨论：同一账号下所有 Bot 看见同一套登录态和文件，不能靠分 Bot 做隔离。",
@@ -1120,6 +1239,7 @@
     },
     {
       "id": "forum-always-on-workers",
+      "added": "2026-08-21",
       "title": "常驻工人还是话题线程",
       "url": "https://forum.cursor.com/t/grok-bots-as-always-on-workers-vs-topic-threads/168183",
       "blurb": "社区逐渐形成的用法：把 Bot 当常驻同事，而不是为每个话题新开一个标签页。",
@@ -1129,6 +1249,7 @@
     },
     {
       "id": "forum-reconnect",
+      "added": "2026-08-21",
       "title": "重连失败现场",
       "url": "https://forum.cursor.com/t/grok-bot-reconnect-issue/168500",
       "blurb": "记录重连后出现「连不上你的电脑」的真实截图和讨论。",
@@ -1138,6 +1259,7 @@
     },
     {
       "id": "forum-x-login-lock",
+      "added": "2026-08-21",
       "title": "云电脑撞上 X 登录锁",
       "url": "https://forum.cursor.com/t/grok-bot-x-login-lock-limit-not-lifting/168541",
       "blurb": "云电脑会触发网站风控，X 登录锁定不是假设而是已经发生的现场。",
@@ -1147,6 +1269,7 @@
     },
     {
       "id": "forum-local-mcp",
+      "added": "2026-08-21",
       "title": "是否支持本地 MCP",
       "url": "https://forum.cursor.com/t/does-grok-bot-support-local-mcp-e-g-workflowy/168182",
       "blurb": "官方在帖中确认：Grok Bot 接不了本机或标准输入输出 MCP，只能用远程 HTTP 或云浏览器。",
@@ -1156,6 +1279,7 @@
     },
     {
       "id": "forum-orphaned-link",
+      "added": "2026-08-21",
       "title": "删除 Cursor 账号会挂空绑定",
       "url": "https://forum.cursor.com/t/deleted-cursor-account-leaves-grok-link-orphaned-and-blocks-relinking/168783",
       "blurb": "删除 Cursor 账号可能把 Grok 绑定留在失效身份上，并挡住重新关联。",
@@ -1165,6 +1289,7 @@
     },
     {
       "id": "ronglecat-awesome",
+      "added": "2026-08-21",
       "title": "社区清单 awesome-grok-bot",
       "url": "https://github.com/RongleCat/awesome-grok-bot",
       "blurb": "社区维护的 CC0 链接清单，本站只复用其中已核验的网址并重写说明。",
@@ -1174,6 +1299,7 @@
     },
     {
       "id": "forum-whatsapp-refresh",
+      "added": "2026-08-23",
       "title": "电脑刷新会清掉 WhatsApp 链接会话",
       "url": "https://forum.cursor.com/t/title-computer-refresh-wipes-whatsapp-linked-device-session-in-grok-bot/169025",
       "blurb": "每日从 Gmail 拉 CSV 再经云电脑发 WhatsApp，刷新后会话目录会被清空；官方点明只保留 /workspace、浏览器配置和 ~/.config。",
@@ -1183,6 +1309,7 @@
     },
     {
       "id": "forum-mcp-oauth-asana",
+      "added": "2026-08-23",
       "title": "云端 MCP 不会展开环境变量，Asana 授权失败",
       "url": "https://forum.cursor.com/t/grok-bot-cloud-mcp-oauth-leaves-env-asana-client-id-unsubstituted/168404",
       "blurb": "本地 IDE 能解析环境变量，Grok Bot 的 Asana 连接卡片却在 Cursor 后端做 OAuth，占位符会原样送进授权网址，云配置里要写死客户端编号。",
@@ -1192,6 +1319,7 @@
     },
     {
       "id": "forum-per-agent-browser",
+      "added": "2026-08-23",
       "title": "每个 Bot 浏览器仍要单独过 Google 二次验证",
       "url": "https://forum.cursor.com/t/grok-bot-per-agent-browser-still-requires-separate-sign-in-despite-account-level-login-promise/168212",
       "blurb": "宣传是同一台电脑登录一次全员能用，实际每个 agent 窗口还要再过 Google 二次验证，官方承认这是缺陷。",
@@ -1201,6 +1329,7 @@
     },
     {
       "id": "forum-createagent",
+      "added": "2026-08-23",
       "title": "「连不上你的电脑」其实是云电脑没起来",
       "url": "https://forum.cursor.com/t/grok-bot-0-23-0-first-setup-fails-createagent-can-t-reach-your-computer/169007",
       "blurb": "首次安装卡在 createAgent 时，官方澄清那句 computer 不是你的 Mac，而是账号侧还没起来的云电脑，重装和 Reset 都改变不了。",
@@ -1210,6 +1339,7 @@
     },
     {
       "id": "grok-bot-computer-kit",
+      "added": "2026-08-23",
       "title": "Grok Bot Computer Kit：刷新后把环境救回来",
       "url": "https://github.com/Curtian98/grok-bot-computer-kit",
       "blurb": "非官方工具按持久盘把 VS Code、Docker、音频栈和看门狗装回更新后的云电脑，默认先空跑。",
@@ -1219,6 +1349,7 @@
     },
     {
       "id": "v2ex-linux-client",
+      "added": "2026-08-23",
       "title": "官方 Linux 客户端其实有：deb 包与 AUR",
       "url": "https://www.v2ex.com/t/1235888",
       "blurb": "Arch 上能装 Cursor 放出的官方 deb 软件包（AUR grok-bot-bin），尽管帮助页仍写没有 Linux 桌面，且需 Heavy、Ultra 或 Teams Premium。",
@@ -1228,6 +1359,7 @@
     },
     {
       "id": "v2ex-ssh-vnc",
+      "added": "2026-08-23",
       "title": "八核十六吉云电脑实测：让 Bot 自己开 SSH",
       "url": "https://www.v2ex.com/t/1235049",
       "blurb": "楼主让 Bot 组网并打开 SSH 与远程桌面，贴出八核十六吉内存、测速和手机端截图；回帖记下重启会清空环境、只有 workspace 留得住。",
@@ -1237,6 +1369,7 @@
     },
     {
       "id": "zenn-memory-japanese",
+      "added": "2026-08-23",
       "title": "驯服 Grok Bot：Memory 会脏，日文要用固定规则",
       "url": "https://zenn.dev/u1/articles/grok-bot-memory-and-japanese-rules",
       "blurb": "Memory 会把临时批评堆成互相打架的指令，作者用每日例程做回收，并把日文禁前缀、禁复读写成 Bot 改不了的固定规则。",
@@ -1246,6 +1379,7 @@
     },
     {
       "id": "chnchn-double-billing",
+      "added": "2026-08-24",
       "title": "Ultra 里同一笔电脑操作同时扣 Bot 周额度和 Cursor 模型额度",
       "url": "https://x.com/chnchn88113/status/2091555195398541460",
       "blurb": "两张用量截图显示 cursor-grok-4.6-high-fast 一边吃 Bot 周额度一边记进 Cursor Models，sand-default 还进 Other Models，等于算两遍。",
@@ -1255,6 +1389,7 @@
     },
     {
       "id": "forum-trial-exhaustion",
+      "added": "2026-08-24",
       "title": "试用额度归零后云电脑文件还在，别点 Reset",
       "url": "https://forum.cursor.com/t/grok-bot-cloud-workspace-inaccessible-after-trial-exhaustion-ticket-t-e97475-pending/169010",
       "blurb": "员工确认试用归零只是 Bot 不再回消息，电脑视图仍能接管把文件传走，大约八月二十五日前导出，且千万别点 Reset。",
@@ -1264,6 +1399,7 @@
     },
     {
       "id": "forum-cloudflare-hcaptcha",
+      "added": "2026-08-24",
       "title": "云浏览器过不了 Cloudflare：Suno、Shopify 都会被挡",
       "url": "https://forum.cursor.com/t/grok-bot-agent-computer-blocked-by-cloudflare-hcaptcha-on-suno-create-often-silent-fails/168082",
       "blurb": "官方点明 Cloudflare 与人机验证是站点把云地址当机器人，接管解一次也会被再标，八月二十三日又有人证实 Shopify 登录同样过不去。",
@@ -1273,6 +1409,7 @@
     },
     {
       "id": "forum-failed-to-respond",
+      "added": "2026-08-24",
       "title": "「Bot failed to respond」：Reset 对话框藏在设置窗后面",
       "url": "https://forum.cursor.com/t/grokbot-bot-failed-to-respond/168984",
       "blurb": "Colin 说整台共享电脑卡住所以新建 Bot 也没用，Reset 会保留 Bot、文件和登录；对话框却常开在设置窗后面，按 TAB 再回车才能点到。",
@@ -1282,6 +1419,7 @@
     },
     {
       "id": "forum-notion-oauth",
+      "added": "2026-08-24",
       "title": "Notion 插件 OAuth 报 Invalid redirect_uri，Gmail 却能连",
       "url": "https://forum.cursor.com/t/grok-bot-notion-plugin-oauth-invalid-redirect-uri/169234",
       "blurb": "市场里的 Notion 插件一点 Connect 就弹出 Invalid redirect_uri，同一台 Bot 上 Gmail、Supabase、Tavily 都能授权，Cursor IDE 的内部集成也救不了。",
@@ -1291,6 +1429,7 @@
     },
     {
       "id": "forum-privacy-mode",
+      "added": "2026-08-24",
       "title": "走 Cursor 账号时 Privacy Mode 对 Grok Bot 生效",
       "url": "https://forum.cursor.com/t/privacy-and-term-of-use-of-grok-bot-with-cursor-account/168075",
       "blurb": "员工写明走 Ultra 或团队时按 Cursor 隐私设置，开 Privacy Mode 不会拿 Bot 数据训练，但 Legacy 无存储模式会直接拦掉 Grok Bot。",
@@ -1300,6 +1439,7 @@
     },
     {
       "id": "forum-supergrok-ultra-removed",
+      "added": "2026-08-24",
       "title": "SuperGrok Heavy 送 Cursor Ultra 的促销被悄悄撤掉",
       "url": "https://forum.cursor.com/t/did-i-miss-an-announcement-on-supergrok-heavy-and-cursor-ultra/169128",
       "blurb": "帮助页上的 Ultra 零元文案八月二十一日被撤掉，现行文档改成「关联只给用量、不会换成 Ultra」，二十一日到二十二日付款的人只拿到 Grok Bot。",
@@ -1309,6 +1449,7 @@
     },
     {
       "id": "grok-bot-linux",
+      "added": "2026-08-24",
       "title": "grok-bot-linux：官网不给按钮的官方 Linux 安装包",
       "url": "https://github.com/falser101/grok-bot-linux",
       "blurb": "Cursor 下载站上已有 0.24.0 的 deb、rpm 和 AppImage，这份清单把官网「更多下载」里藏掉的 Linux 直链抄下来。",
@@ -1318,6 +1459,7 @@
     },
     {
       "id": "reddit-long-chat-quota",
+      "added": "2026-08-24",
       "title": "客服确认长对话每轮回灌整段历史",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vsau1e/grok_bot_reset_my_week_and_im_already_at_4_is/",
       "blurb": "支持说从八月中旬一直开着的会话会把整段对话和工具记录每轮重发，烧到一周额度只剩百分之四；解法是侧栏复制 Bot 开空会话，别点会清云电脑的 Reset。",
@@ -1327,6 +1469,7 @@
     },
     {
       "id": "really-bot",
+      "added": "2026-08-24",
       "title": "really.bot：已核验的 Grok Bot 任务库",
       "url": "https://really.bot/",
       "blurb": "社区投稿的 Grok Bot 工作流/任务库，上架前会过完整度和结果审核；覆盖研究、销售、行政、编程、财务等，可直接抄进自己的 Bot。",
@@ -1336,6 +1479,7 @@
     },
     {
       "id": "forum-channel-six-bots",
+      "added": "2026-08-25",
       "title": "编制用 Channel：一个项目最多塞 6 个 Bot",
       "url": "https://forum.cursor.com/t/grok-bot-project-folders-that-hold-a-squad-not-just-a-flat-hide-list/168428",
       "blurb": "侧栏加号里的 New Channel 按项目命名后，可以把协调员和专岗塞进同一行共享空间，每个 Channel 最多 6 个 Bot。",
@@ -1345,6 +1489,7 @@
     },
     {
       "id": "zenn-mcp-another-account",
+      "added": "2026-08-25",
       "title": "日文上手：默认 MCP 账号连不上，要另加账户",
       "url": "https://zenn.dev/tec/articles/648fa51b83772e",
       "blurb": "在 macOS 建调查岗后，默认 Slack 账号会 Failed to load MCP，换 Add Another Account 才连上，再把调查收成技能、早八例程和发帖审批。",
@@ -1354,6 +1499,7 @@
     },
     {
       "id": "yunta-doom-esp32",
+      "added": "2026-08-25",
       "title": "蔡昀达：Grok Bot 把整份 DOOM 移植到 ESP32-S",
       "url": "https://x.com/yunta_tsai/status/2091727077871591760",
       "blurb": "Tesla 工程师贴出 Bot 把完整 DOOM 移植到 ESP32-S 并高帧率跑起来的录像，马斯克转发说十分钟就移植到新设备。",
@@ -1363,6 +1509,7 @@
     },
     {
       "id": "kundocs-wecom-weekly",
+      "added": "2026-08-25",
       "title": "张坤：周报能填进 Excel，发企微仍得自己点一下",
       "url": "https://x.com/kundocs/status/2091808853373403187",
       "blurb": "共享美国机房的云电脑合上笔记本仍在跑，周报按成果、计划、风险改了两三版，发出去却还得自己登企业微信。",
@@ -1372,6 +1519,7 @@
     },
     {
       "id": "debbie-ryanair-palma",
+      "added": "2026-08-25",
       "title": "Debbie：订 Palma 到都柏林机票，瑞安结账卡在云电脑",
       "url": "https://www.youtube.com/watch?v=xDNLKLg7Ib8",
       "blurb": "两大人两幼儿的真实行程里搜航班还顺，瑞安航空表单在云电脑上慢到她自己接手，设定行程那一步却打了满分。",
@@ -1381,6 +1529,7 @@
     },
     {
       "id": "zhiding-wechat-channels",
+      "added": "2026-08-25",
       "title": "至顶：云电脑装微信并打开视频号转给同事",
       "url": "https://www.bilibili.com/video/BV1Ypbe64EQ7",
       "blurb": "云电脑里自己装微信、打开视频号，再把视频转发给同事，国内常用 App 能不能被 Bot 点开，这三分钟里能看见。",
@@ -1390,6 +1539,7 @@
     },
     {
       "id": "davidgeorgehope-sms-peaks",
+      "added": "2026-08-25",
       "title": "David Hope：用 Bot 换掉 OpenClaw，从一年短信里找出情绪尖峰",
       "url": "https://www.linkedin.com/posts/davidgeorgehope_spacexai-grok-bot-has-replaced-openclaw-personally-activity-7497641546830258176-ke0U",
       "blurb": "作者让它读 DNA、病历和夫妻短信，对照自闭症女儿放学回家时段的行为尖峰，再拿去跟医生调药。",
@@ -1399,6 +1549,7 @@
     },
     {
       "id": "simon-loewen-inbox-groceries",
+      "added": "2026-08-25",
       "title": "Simon Loewen：隔夜清完旧邮件，又让 Bot 去订了菜",
       "url": "https://www.linkedin.com/posts/simon-loewen_introducing-grok-bot-activity-7497312141708832768-nD2L",
       "blurb": "他把日历、邮件、卡尔加里 Meetup 会务和每日清盘交给常驻 Bot，隔夜理完旧收件箱，还收到第一单有点离谱的代购菜。",
@@ -1408,6 +1559,7 @@
     },
     {
       "id": "alex-carr-insurance-triage",
+      "added": "2026-08-25",
       "title": "Alex Carr：录一遍屏幕，给没 API 的保险后台做巡检分流",
       "url": "https://www.linkedin.com/pulse/grok-bot-early-beta-test-review-some-commercial-loss-alex-carr-cpcu-ozdme",
       "blurb": "他自搭一套没 API 的保单后台，录一遍屏幕就让 Bot 按日分流巡检报告，干净的结案、异常的打回核保。",
@@ -1417,6 +1569,7 @@
     },
     {
       "id": "reddit-nhs-prescriptions",
+      "added": "2026-08-25",
       "title": "r/GrokBot：Keeper 盯 NHS 处方，Bob 当幕僚长还去退订",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vwkzf1/heres_how_grok_bot_is_doing_all_the_stuff_i_hate/",
       "blurb": "作者拆出幕僚长、私人助理和文案岗，让 Bot 管邮件和日历、在 NHS 续十二种药、预约眼科牙医，退订不成就自己上客服聊天。",
@@ -1426,6 +1579,7 @@
     },
     {
       "id": "note-accountant-receipts",
+      "added": "2026-08-25",
       "title": "五张收据交给 Accountant：Drive 写不进就另建表",
       "url": "https://note.com/bright_dietes994/n/n7979fadb9471",
       "blurb": "五张实拍收据全读对，但 Drive 插件不能改已有表、还会两次诱浏览器登录；Bot 用新建同名表再把旧表丢进回收站，而别的 Bot 接过的 Gmail 这边直接能读。",
@@ -1435,6 +1589,7 @@
     },
     {
       "id": "grokbot-cloudflare-inbox",
+      "added": "2026-08-25",
       "title": "grokbot-cloudflare-inbox：自建 Cloudflare 邮箱给 Bot 当 MCP",
       "url": "https://github.com/ethanolivertroy/grokbot-cloudflare-inbox",
       "blurb": "把 Cloudflare Worker 邮箱挂进 Settings→Plugins 后，Bot 用邮箱令牌收发邮件，令牌由你贴进受保护字段、不进聊天。",
@@ -1444,6 +1599,7 @@
     },
     {
       "id": "agentchat-grok-bot",
+      "added": "2026-08-25",
       "title": "AgentChat：给每个 Grok Bot 一个可互发私信的 @handle",
       "url": "https://github.com/agentchatme/agentchat-grok-bot",
       "blurb": "粘一条提示词让 Bot 自己注册 AgentChat，webhook 叫醒后就能跟 Claude Code、OpenClaw 对等私信，客户端关掉也不丢信。",
@@ -1453,6 +1609,7 @@
     },
     {
       "id": "grokbot-bridge",
+      "added": "2026-08-25",
       "title": "grokbot-bridge：常驻 Bot 监工、本机 Claude 或 Codex 干活",
       "url": "https://github.com/zhourong-bot/grokbot-bridge",
       "blurb": "没有官方召唤接口时用 webhook 门铃加本地文件邮箱，让常驻 Bot 盯着目标、把长任务交给可替换的本机命令行。",
@@ -1462,6 +1619,7 @@
     },
     {
       "id": "mcp-fetch-worker",
+      "added": "2026-08-25",
       "title": "mcp-fetch-worker：Bot 调自建 API 不必交出长期密钥",
       "url": "https://github.com/jkpe/mcp-fetch-worker",
       "blurb": "Cloudflare Access 的 OAuth 让 Grok Bot 第一次连时你点批准，之后它只能拿这个连接去打同域接口。",
@@ -1471,6 +1629,7 @@
     },
     {
       "id": "grok-research",
+      "added": "2026-08-25",
       "title": "grok-research：把共享云电脑编成买方研究工厂",
       "url": "https://github.com/jaredtrichard/grok-research",
       "blurb": "粘仓库链接就能在共享云电脑上立起 Firstmate 和各行业研究员，只出研报与观点、不接下单权限。",
@@ -1480,6 +1639,7 @@
     },
     {
       "id": "reddit-hermes-dev-team",
+      "added": "2026-08-25",
       "title": "r/hermesagent：试用两天就把开发队搬回 Hermes",
       "url": "https://www.reddit.com/r/hermesagent/comments/1vuxmnb/grok_bot_vs_hermes/",
       "blurb": "上手和模型路由被夸，但控不了上下文与思考档位，开发队产出变差，有人改用 Hermes 的 bot mode，也有人说周额度烧得太快。",
@@ -1489,6 +1649,7 @@
     },
     {
       "id": "grokbot-local-model",
+      "added": "2026-08-25",
       "title": "grokbot-local-model：把 Bot 推理切到你自己的模型网关",
       "url": "https://github.com/newblockorg/grokbot-local-model",
       "blurb": "在 0.24 沙箱 pod 里拦 InferenceService，登录和 MCP 仍走官方后端，对话改由你配置的 Anthropic 或 OpenAI 兼容接口回答。",
@@ -1498,6 +1659,7 @@
     },
     {
       "id": "chrismaconi-mixed-models",
+      "added": "2026-08-25",
       "title": "Chris Maconi：用量截图里混进 Claude 和 GPT，额度烧得飞快",
       "url": "https://x.com/chrismaconi/status/2091593461430628754",
       "blurb": "他以为处理全是 Grok 4.6，翻用量却看到 Anthropic 和 OpenAI 模型也在跑，认为这才是周额度烧穿的主因。",
@@ -1507,6 +1669,7 @@
     },
     {
       "id": "forum-shopify-admin-api",
+      "added": "2026-08-25",
       "title": "Shopify 登录过不去：改用 Admin API 令牌",
       "url": "https://forum.cursor.com/t/grok-bot-browser-blocked-from-shopify-login/169222",
       "blurb": "云浏览器会被 Shopify 当机器人挡在登录页，眼下能跑通的办法是在后台做自定义应用、把 Admin API 令牌交给 Bot，别再走那页。",
@@ -1516,6 +1679,7 @@
     },
     {
       "id": "forum-gmail-attachment-bytes",
+      "added": "2026-08-25",
       "title": "Gmail 插件只能列出附件，拿不到 CSV 字节",
       "url": "https://forum.cursor.com/t/grok-bot-gmail-connector-can-list-attachments-but-cannot-download-their-bytes/169261",
       "blurb": "连接器没有下载工具，每天从邮件拉 CSV 只能让 Bot 在浏览器里点下载，或先用过滤器和脚本把附件存进 Drive 再走 Drive 连接器。",
@@ -1525,6 +1689,7 @@
     },
     {
       "id": "forum-login-counts-computer",
+      "added": "2026-08-25",
       "title": "只登录 Grok Bot 也会占掉「电脑」名额",
       "url": "https://forum.cursor.com/t/does-logging-into-grokbot-count-as-a-separate-computer/169289",
       "blurb": "Grok Bot 本身算一台设备、云工作区还能再占一台，光完成登录就会触发 Cursor 的「电脑过多」，官方也不会给人解封，大约一天后设备会过期。",
@@ -1534,6 +1699,7 @@
     },
     {
       "id": "forum-reconnect-cursorvm",
+      "added": "2026-08-25",
       "title": "重连卡在 75%：查本机到 cursorvm.com 有没有被墙",
       "url": "https://forum.cursor.com/t/grok-bot-desktop-on-macos-is-permanently-stuck-on-reconnecting-to-your-computer/169119",
       "blurb": "云电脑往往已经健康，卡在 Reconnecting 是本机到 cursorvm.com 被 VPN 或公司网丢掉，热点能连就别再 Reset，让 IT 放行该域名的 HTTPS 长连接。",
@@ -1543,6 +1709,7 @@
     },
     {
       "id": "forum-cursor-agent-quota",
+      "added": "2026-08-25",
       "title": "Bot 拉起的 Cursor Agent 吃的是 Cursor 额度",
       "url": "https://forum.cursor.com/t/query-about-grok-bot-cursor-agent-usage-and-model-selection/169160",
       "blurb": "跟 Bot 聊天走 Grok Bot 额度，它替你开的 Cloud Agent 记在你自己的 Cursor 账户，默认模型跟 Cloud Agent 设置走，也可以口头指定。",
@@ -1552,6 +1719,7 @@
     },
     {
       "id": "v2ex-source-maps",
+      "added": "2026-08-25",
       "title": "Grok Bot 0.18.0 发版带着 Source Maps，客户端被重构上 GitHub",
       "url": "https://www.v2ex.com/t/1236880",
       "blurb": "正式版忘关 runtime source maps，Agent Coordinator、模型路由和本地执行协议都能顺着扒，GitHub 上已有重构仓和接 Claude 与 Codex 的魔改。",
@@ -1561,6 +1729,7 @@
     },
     {
       "id": "cursor-meet-grok-bot",
+      "added": "2026-08-26",
       "title": "Cursor 官方片：Meet Grok Bot，幕僚长把收件箱日历待办编成队",
       "url": "https://www.youtube.com/watch?v=rkigdXf-52I",
       "blurb": "官方频道走完幕僚长群聊、录屏教订机票，以及插件够不到时改开云电脑点浏览器。",
@@ -1571,6 +1740,7 @@
     },
     {
       "id": "eric-quota-tips",
+      "added": "2026-08-26",
       "title": "Eric Zakariasson：六条让周额度撑更久的用法",
       "url": "https://x.com/ericzakariasson/status/2092281851822113131",
       "blurb": "SpaceXAI 成员建议能用事件触发就别开定时、优先走连接器少点浏览器、编码丢给 Cloud Agent 或 CLI，做完就删一次性监视。",
@@ -1580,6 +1750,7 @@
     },
     {
       "id": "forum-hand-over-computer",
+      "added": "2026-08-26",
       "title": "登录卡住时直接说「把电脑交给我」",
       "url": "https://forum.cursor.com/t/grok-bot-failed-to-open-its-computer-and-couldnt-recognize-the-issue/169179",
       "blurb": "员工说任务要登录却没弹出 Take over 时，口头让 Bot 交出电脑，passkey 过不去就改密码或邮箱验证码。",
@@ -1589,6 +1760,7 @@
     },
     {
       "id": "danny-picasso-scout-mirai",
+      "added": "2026-08-26",
       "title": "Danny Limanseta：幕僚长拉起 Picasso、Scout、Mirai 三岗",
       "url": "https://x.com/DannyLimanseta/status/2092272526781284387",
       "blurb": "游戏设计师贴出编制截图：Picasso 出统一风格透明 PNG，Scout 按已看记录拆播客高光，Mirai 从工作区拉 Cursor Agent 修 bug 并提 PR。",
@@ -1598,6 +1770,7 @@
     },
     {
       "id": "morgan-domain-broker",
+      "added": "2026-08-26",
       "title": "Morgan Linton：给域名建 Domain Broker，一天只花二十秒做出站",
       "url": "https://x.com/morganlinton/status/2092254893402927332",
       "blurb": "工程师把调研买家和发冷邮件交给 Domain Broker 岗，贴出域名列表，说自己每天大约二十秒过一眼、其余出站都在云电脑上跑。",
@@ -1607,6 +1780,7 @@
     },
     {
       "id": "kanekoa-clipper-videos",
+      "added": "2026-08-26",
       "title": "Kanekoa：登录 Google 后让 Clipper 岗剪了三十八段视频",
       "url": "https://x.com/KanekoaTheGreat/status/2092020672914755841",
       "blurb": "他让 Clipper 岗找出并转录三十八段相关视频、剪出十三段合成十九分半，再写带时间戳的 markdown，后续说明已在 Bot 里登录 Google 账号。",
@@ -1616,6 +1790,7 @@
     },
     {
       "id": "vincent-spcx-watch",
+      "added": "2026-08-26",
       "title": "Vincent：幕僚长加 SPCX Watch，每天六点出迷你彭博简报",
       "url": "https://x.com/SPCX100T/status/2092247556336275684",
       "blurb": "他贴出早晨报告截图，并公开十二条扫描清单：SEC 文件、内部人买入、马斯克发言和情绪，同时抱怨定时偶尔会晚五分钟。",
@@ -1625,6 +1800,7 @@
     },
     {
       "id": "debbie-alcampo-twins",
+      "added": "2026-08-26",
       "title": "Debbie：推双胞胎散步时用语音让 Bot 买完全日杂货",
       "url": "https://dev.to/debs_obrien/grok-bot-does-my-shopping-while-walking-the-twins-40l2",
       "blurb": "幕僚长和购物岗接力往 Alcampo 车里加可乐、挤瓶蛋黄酱和 Galicia 汉堡，验证码仍要人亲手过，结账后再去比邻店价。",
@@ -1634,6 +1810,7 @@
     },
     {
       "id": "hn-slickdeals-banks",
+      "added": "2026-08-26",
       "title": "HN：共用一台云电脑，盯折扣、订约会、重建网站、代打银行电话树",
       "url": "https://news.ycombinator.com/item?id=49409779",
       "blurb": "多名 Bot 共用一台云电脑，每天刷 Slickdeals 找颗粒烤炉，还订过约会、重建并发布网站、代拨银行语音树直到接通人工。",
@@ -1643,6 +1820,7 @@
     },
     {
       "id": "note-pm-sns-coach",
+      "added": "2026-08-26",
       "title": "冈村：点「＋」拉起 PM、SNS Master、教练三岗",
       "url": "https://note.com/make_a_change/n/n702aee3494c6",
       "blurb": "PM 盯提及并回草稿、SNS Master 按晚间例程扫书签和博客、教练早六点出 KPI 提问，X 登录卡住就把云电脑交回人手。",
@@ -1652,6 +1830,7 @@
     },
     {
       "id": "austin-moderna-options",
+      "added": "2026-08-26",
       "title": "Austin Starks：两名 Bot 各自写期权书，人只点审批",
       "url": "https://medium.datadriveninvestor.com/moderna-basically-cured-cancer-so-i-used-grok-bot-to-create-a-trading-strategy-on-it-72e144ae4143",
       "blurb": "接上 NexusTrade 的 MCP 后，Bot 自己扫回测、锁箱和走步优化，实盘下单仍停在审批闸，浏览器几乎没动过。",
@@ -1661,6 +1840,7 @@
     },
     {
       "id": "kevin-steel-tesco",
+      "added": "2026-08-26",
       "title": "Kevin Steel：幕僚长加 Tesco 代购、会前纪要和研究岗",
       "url": "https://www.linkedin.com/posts/kevsteel84_surprised-ive-not-seen-a-post-about-grok-activity-7497916064664666112-cfhY",
       "blurb": "个人岗接上邮件、健身手环和 LinkedIn，九点出晨报，一句话就能去 Tesco 下单；会前岗每天扫日历，研究岗则通宵交分析。",
@@ -1670,6 +1850,7 @@
     },
     {
       "id": "wechat-linux-autoreply",
+      "added": "2026-08-26",
       "title": "云电脑装 Linux 微信自动回复，异地 IP 随后把号锁进客服",
       "url": "https://github.com/nicechencs/grok-bot-wechat-auto-reply",
       "blurb": "共享云电脑装了官方 Linux 微信，从整屏视觉改成哈希差分加 OCR，异地 IP 随后把号锁进安全客服。",
@@ -1679,6 +1860,7 @@
     },
     {
       "id": "routinely-bot",
+      "added": "2026-08-26",
       "title": "Routinely：用 webhook 订阅别人已经在跑的例程产出",
       "url": "https://routinely.bot/",
       "blurb": "别人的 Bot 把例程公开后，你的 Bot 用 webhook 订阅产出，轮询和运行都不扣自己的 token，站点目前按 Grok Bot 对接。",
@@ -1688,6 +1870,7 @@
     },
     {
       "id": "mac-bridge-imessage",
+      "added": "2026-08-26",
       "title": "Mac Bridge：让 Bot 受控收发 iMessage 和提醒",
       "url": "https://github.com/jimmyliu03/grok-bot-imessage",
       "blurb": "本机 MCP 只绑 127.0.0.1，发信和改提醒默认要你在 Mac 上按一次批准，十分钟过期。",
@@ -1697,6 +1880,7 @@
     },
     {
       "id": "deadsimple-email",
+      "added": "2026-08-26",
       "title": "Dead Simple Email：给 Bot 挂上托管邮箱 MCP",
       "url": "https://github.com/deadsimple-email/deadsimple-plugins",
       "blurb": "在插件里贴一把 dse_ 密钥就能建收件箱、抽验证码、等回信，不必自己搭邮件服务器。",
@@ -1706,6 +1890,7 @@
     },
     {
       "id": "velvetshark-openclaw-migrate",
+      "added": "2026-08-26",
       "title": "VelvetShark：把 OpenClaw 活迁到 Grok Bot，五天六十七单",
       "url": "https://www.youtube.com/watch?v=zA1vAZr9u20",
       "blurb": "四十单自己跑完、三处第一天就翻车，他仍留着本地 OpenClaw，只把调研监控和文件活交给云电脑。",
@@ -1715,6 +1900,7 @@
     },
     {
       "id": "note-hermes-ownership",
+      "added": "2026-08-26",
       "title": "共享云电脑还是分档案：Grok Bot 与 Hermes 的所有权分界",
       "url": "https://note.com/x402inc/n/nfc13b5ee0655",
       "blurb": "有费产品全岗共一台机、开源 Hermes 按 profile 隔离，作者用「机构可外借、危险判断必须自备」来选边。",
@@ -1724,6 +1910,7 @@
     },
     {
       "id": "nesqbot",
+      "added": "2026-08-26",
       "title": "nesqbot：每个助手单独桌面的自托管替身",
       "url": "https://github.com/Nesqual-Tech/nesqbot",
       "blurb": "docker compose 拉起后每个 Bot 独占 Linux 桌面，发送、花钱、删除一律停下来等人点头。",
@@ -1733,6 +1920,7 @@
     },
     {
       "id": "botroster",
+      "added": "2026-08-26",
       "title": "BOTROSTER：开源常驻队友共用一台持久电脑",
       "url": "https://github.com/mandarwagh9/botroster",
       "blurb": "桌面客户端自带浏览器和终端，关键动作先问你，演示模式不用填任何模型密钥。",
@@ -1742,6 +1930,7 @@
     },
     {
       "id": "jediah-quota-ids",
+      "added": "2026-08-26",
       "title": "Jediah Katz：周额度烧太快，把 Agent ID 发来好优化",
       "url": "https://x.com/jediahkatz/status/2092018934362866144",
       "blurb": "做 Bot 的工程师承认额度烧得比预期快，正在改效率，并让你右键复制 conversation id 发到评论区方便对照。",
@@ -1751,6 +1940,7 @@
     },
     {
       "id": "jon-sheet-quota",
+      "added": "2026-08-26",
       "title": "Jon ONeill：空的四页表格就吃掉周额度百分之二",
       "url": "https://x.com/HouseHackerJon/status/2092112289847763290",
       "blurb": "水管公司老板贴出用量截图：做一份还没填数据的四页表格就烧掉周额度的百分之二，官方企业销售已要走 request id。",
@@ -1760,6 +1950,7 @@
     },
     {
       "id": "forum-teams-premium-5x",
+      "added": "2026-08-26",
       "title": "Teams Premium「含 Ultra 全部功能」不含 20 倍额度",
       "url": "https://forum.cursor.com/t/what-does-it-means-cursor-teams-premium-includes-everything-in-cursor-ultra/169285",
       "blurb": "员工点明 Premium 席位是 Standard 的 5 倍、不是 Ultra 的 20 倍，那句 Everything in Ultra 只覆盖功能集和团队能力。",
@@ -1769,6 +1960,7 @@
     },
     {
       "id": "forum-vercel-oauth",
+      "added": "2026-08-26",
       "title": "Vercel 插件 OAuth 失败：删掉重装就通",
       "url": "https://forum.cursor.com/t/grok-bot-vercel-plugin-649-oauth-fails-with-app-configuration-error-redirect-url-is-invalid/168499",
       "blurb": "官方 Vercel 插件 649 会卡在 redirect URL 无效或 OAuth callback failed，8 月 24 日有人在最新桌面端卸载再装一次就连上了。",
@@ -1778,6 +1970,7 @@
     },
     {
       "id": "forum-reset-cleaning-up",
+      "added": "2026-08-26",
       "title": "Reset 卡在 Cleaning up 67%：先退出再 Recover",
       "url": "https://forum.cursor.com/t/grok-bot-hanging-at-cleaning-up-phase-after-resetting/169364",
       "blurb": "员工说进度条常常只是没收到完成信号、数据还在，彻底退出再开；仍连不上就用保留数据的 Recover，别再点一次全量 Reset。",
@@ -1787,6 +1980,7 @@
     },
     {
       "id": "forum-externalshell-unapproved",
+      "added": "2026-08-26",
       "title": "Always allow 了，本机 ExternalShell 仍报 UNAPPROVED",
       "url": "https://forum.cursor.com/t/grok-bot-externalshell-blocked-despite-always-allow/168180",
       "blurb": "设置其实已经生效，要彻底退出、杀掉残留的 local-exec-daemon，再把「本机执行」拨回 Ask every time 再拨回 Always allow。",
@@ -1796,6 +1990,7 @@
     },
     {
       "id": "forum-x-plugin-oauth",
+      "added": "2026-08-26",
       "title": "官方 X 插件 OAuth 失败：同样删掉重装",
       "url": "https://forum.cursor.com/t/grok-bot-official-x-plugin-oauth-fails-with-something-went-wrong-failed-to-give-the-app-access/168501",
       "blurb": "iOS 和云端授权会被 X 直接拒掉、工具数为 0，8 月 24 日同一人确认在最新桌面端卸载再装官方 X 插件就能连上。",
@@ -1805,6 +2000,7 @@
     },
     {
       "id": "forum-cloud-stuck-black",
+      "added": "2026-08-26",
       "title": "闪过「正在创建电脑」后黑屏，设置页进不去",
       "url": "https://forum.cursor.com/t/still-cant-get-into-grok-bot-on-computer-or-app/169184",
       "blurb": "员工说这不是本机装坏了，而是账号侧云电脑卡死，Settings 永远画不出来，只能让官方重建，自己重装和 Reset 都点不到。",
@@ -1814,6 +2010,7 @@
     },
     {
       "id": "x-bot-pro-weekly-reset",
+      "added": "2026-08-27",
       "title": "官方：SuperGrok 与 Cursor Pro 全员开通，并清零本周额度",
       "url": "https://x.com/bot/status/2092664183334846840",
       "blurb": "官方账号把标准 SuperGrok 和 Cursor Pro 一并放开，同时给所有用户重置本周用量，刚买席位的人不用再等下一周期。",
@@ -1824,6 +2021,7 @@
     },
     {
       "id": "poteto-deeplink-install",
+      "added": "2026-08-27",
       "title": "Lauren：桌面端已支持 grokbot:// 深链，一键装 X 与 pstack 插件",
       "url": "https://x.com/poteto/status/2092317628635418739",
       "blurb": "产品组成员放出 grokbot:// 安装链，悬停插件标题就能复制分享，设置页也能用同样方式改语言。",
@@ -1834,6 +2032,7 @@
     },
     {
       "id": "riley-eleven-tips",
+      "added": "2026-08-27",
       "title": "Riley Brown：三十七分钟十一条，从编制、Cursor 到 Notion 技能",
       "url": "https://x.com/rileybrown/status/2092644889762599281",
       "blurb": "录像按时间轴演示幕僚长、Cursor 开发岗、Bot 互聊、X 插件、例程和 Notion 技能，评论里还有可复制提示词。",
@@ -1843,6 +2042,7 @@
     },
     {
       "id": "kocer-chief-house-rules",
+      "added": "2026-08-27",
       "title": "kocer：先雇幕僚长，把章程、十条家规和五条例程贴进新账号",
       "url": "https://x.com/kocer_eth/status/2092216029816472002",
       "blurb": "他主张第一周只留一个幕僚长，把不可逆动作停手、不猜数字、密码走云电脑交接写成可复制家规，再让例程早七点上岗。",
@@ -1852,6 +2052,7 @@
     },
     {
       "id": "matt-palmer-getting-started",
+      "added": "2026-08-27",
       "title": "Matt Palmer：上手 Grok Bot，权限规则和多岗串到 Notion",
       "url": "https://www.youtube.com/watch?v=jwogmXNt7o4",
       "blurb": "产品同事本人走完允许/拒绝规则、多岗互相触发，以及把 X 粉丝写进 Notion、拿岗给 Cursor 云端 agent 写提示。",
@@ -1861,6 +2062,7 @@
     },
     {
       "id": "clearmud-ten-tips",
+      "added": "2026-08-27",
       "title": "Clearmud：官方十条建议，全新账号从头建岗",
       "url": "https://www.youtube.com/watch?v=szDvF-iX2tY",
       "blurb": "团队当天放出上手清单后，他开从未用过的账号按顺序实测命名、幕僚长、写权限批准和 Mac 独有 Peekaboo。",
@@ -1870,6 +2072,7 @@
     },
     {
       "id": "codefactory-week-automation",
+      "added": "2026-08-27",
       "title": "코드팩토리：把全部自动化丢给 Grok Bot 一周之后",
       "url": "https://www.youtube.com/watch?v=c80XdvftRD4",
       "blurb": "用了近一周后强调先建最小任务岗再组成群聊线程，并讲清最低价档对自动化来说仍然偏贵。",
@@ -1879,6 +2082,7 @@
     },
     {
       "id": "srikanth-architecture",
+      "added": "2026-08-27",
       "title": "Srikanth：拆控制面、共享云电脑和 Cursor 云代理，三者不是同一台机器",
       "url": "https://medium.com/@srikanthbellary01/grok-bot-architecture-and-design-712b5c16b7ed",
       "blurb": "把客户端、调度器、推理和账号级虚拟机拆开，重要产出要写进 /workspace，记忆不是账本，仓库改动另雇 Cursor 云代理。",
@@ -1888,6 +2092,7 @@
     },
     {
       "id": "ben-nussbaum-outbound",
+      "added": "2026-08-27",
       "title": "Ben Nussbaum：公用事业 outbound 岗十五分钟约到销售 demo",
       "url": "https://x.com/bennussy/status/2092662993611866530",
       "blurb": "他把 Client Outreach 接上 Gmail、日历和 Apollo，先写停手规则再改四轮文案，首日零退信并收到一封真人回复。",
@@ -1897,6 +2102,7 @@
     },
     {
       "id": "greg-kamradt-luma-arc",
+      "added": "2026-08-27",
       "title": "Greg Kamradt：用电脑操作扫 Luma 报名，并给 ARC Prize 榜单起草邮件",
       "url": "https://x.com/GregKamradt/status/2092665085378642089",
       "blurb": "ARC Prize 负责人让 Bot 刷积分订酒店、按提交页查联系人写群发、从 X 私信抽信息，还穿过 Luma 界面给见面会报名分类。",
@@ -1906,6 +2112,7 @@
     },
     {
       "id": "forum-vera-contracts",
+      "added": "2026-08-27",
       "title": "土木工程师给 Bot 装 VERA，按 1200 份合同起草新稿",
       "url": "https://forum.cursor.com/t/vera-portable-document-rag-for-humans-and-agents/169492",
       "blurb": "他把合同做成可随身检索的 .vera 档案，Grok Bot 用 VERA skill 按公司历史文风搜条款并起草新合同。",
@@ -1915,6 +2122,7 @@
     },
     {
       "id": "reddit-trucking-dispatch",
+      "added": "2026-08-27",
       "title": "货运老板训八天：Outlook、调度和货板工资单都交给一台 Bot",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vya1zs/i_own_a_trucking_company_i_trained_grokbot_for_8/",
       "blurb": "登录 Outlook、调度系统和 Truckstop 货板后，Bot 会建单派车、归档 POD、盯超限许可并先算好司机周薪，作者说自己反而没事干。",
@@ -1924,6 +2132,7 @@
     },
     {
       "id": "reddit-twelve-weekend-roster",
+      "added": "2026-08-27",
       "title": "非开发者周末编出幕僚长到审计的十二岗",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vx9q3i/i_love_grok_bots/",
       "blurb": "用 Cursor Pro+ 六十美元月费搭出 Darvis 幕僚长、Substack 写稿、Reddit 意向、提案和 GHL 审计等岗，作者只想自己开会和拍板。",
@@ -1933,6 +2142,7 @@
     },
     {
       "id": "srikanth-staff-computer",
+      "added": "2026-08-27",
       "title": "Srikanth：Grok Bot 是编制，产品是那台合上本仍在跑的电脑",
       "url": "https://medium.com/@srikanthbellary01/grok-bot-is-staff-the-computer-is-the-product-4c187f98f4c0",
       "blurb": "他把首席、研发和音频拆成独立 Bot，合上 Legion 后例程照跑，仓库活交给 Cursor 云代理出 PR，并写明共享电脑不是安全边界。",
@@ -1942,6 +2152,7 @@
     },
     {
       "id": "mergisi-one-front-desk",
+      "added": "2026-08-27",
       "title": "mergisi：只跟一名 Grok Bot 说话，由它调度整份编制",
       "url": "https://mergisi.medium.com/i-talk-to-one-grok-bot-that-bot-runs-the-rest-c5d40baff402",
       "blurb": "一人公司只留一个前台经理 Bot，合上笔记本后共享云电脑上的专员继续干活，避免五个聊天窗重复交代同一件事。",
@@ -1951,6 +2162,7 @@
     },
     {
       "id": "mo-bitar-eight-jobs",
+      "added": "2026-08-27",
       "title": "Mo Bitar：本来准备黑 Grok Bot，一天下午却拉起八个岗跑生意",
       "url": "https://atmoio.substack.com/p/i-went-in-ready-to-hate-grok-bot",
       "blurb": "他用浏览器专岗去扫没有 API 的后台和竞品定价页，其中一个 Bot 自己找到博客仓库并推了改动。",
@@ -1960,6 +2172,7 @@
     },
     {
       "id": "hn-ryan-perry-studio",
+      "added": "2026-08-27",
       "title": "Ryan Perry：六名 Grok Bot 各管一台电脑，撑起手机游戏工作室",
       "url": "https://news.ycombinator.com/item?id=49447324",
       "blurb": "他把买量、素材、工程、基建、上架和 QA 拆成六名各有独立电脑与待办的 Bot，录屏教会买量岗点 Meta Ads，测到获客成本降到原来的十五分之一。",
@@ -1969,6 +2182,7 @@
     },
     {
       "id": "note-notion-issue-pr",
+      "added": "2026-08-27",
       "title": "未处理 Notion ISSUE：Grok Bot 点单、Cloud Agent 交过测 PR",
       "url": "https://note.com/bright_dietes994/n/n511ee137e712",
       "blurb": "Bot 用 Notion 插件按编号只取一件未对应工单改成对应中，把验收条件原样塞进 Cloud Agents API，三十三分钟后把过测 PR 写回看板。",
@@ -1978,6 +2192,7 @@
     },
     {
       "id": "grokbot-obsidian-bridge",
+      "added": "2026-08-27",
       "title": "GrokBot↔Obsidian：OAuth 闸门把笔记库接到 Bot",
       "url": "https://github.com/iamsupersocks/grokbot-obsidian-bridge",
       "blurb": "安装器只在本机搭 OAuth 反代，Grok Bot 第一次连时你点批准，之后只能经 HTTPS 打只读 Optimike MCP，仓库里没有真实库路径。",
@@ -1987,6 +2202,7 @@
     },
     {
       "id": "grokbot-hermes-bridge",
+      "added": "2026-08-27",
       "title": "GrokBot↔Hermes：云电脑同事呼叫本机 Hermes",
       "url": "https://github.com/iamsupersocks/grokbot-hermes-bridge",
       "blurb": "网关只暴露 hermes_ask 和 hermes_status，Grok Bot 走 OAuth 用主人码批准后，把问题交给你机器上的 Hermes 再把有界回答送回聊天。",
@@ -1996,6 +2212,7 @@
     },
     {
       "id": "phonezero",
+      "added": "2026-08-27",
       "title": "PhoneZero：让 Grok Bot 自己打电话订位",
       "url": "https://github.com/function1st/PhoneZero",
       "blurb": "把仓库丢给云电脑并说 set this up，它会自己配 Telnyx 和 xAI 语音，订餐技能只回报 booked、unavailable 等一种结局。",
@@ -2005,6 +2222,7 @@
     },
     {
       "id": "overnight-crew",
+      "added": "2026-08-27",
       "title": "Overnight：六人编制夜里出片、早上等人点头",
       "url": "https://github.com/Archive228/overnight",
       "blurb": "装上六个岗位后只有 Render 能花 imagine-mcp 预算，编辑点 APPROVED 也还要人闸才许公开发布。",
@@ -2014,6 +2232,7 @@
     },
     {
       "id": "grok-bot-setup",
+      "added": "2026-08-27",
       "title": "grok-bot-setup：把共享云电脑推理切到自选模型",
       "url": "https://github.com/BlockedPath/grok-bot-setup",
       "blurb": "沙箱重置后一条 bootstrap 会补 CLIProxy，再 adapters use deepseek 就能把共享云电脑的推理切到 DeepSeek、Claude 或 Codex。",
@@ -2023,6 +2242,7 @@
     },
     {
       "id": "lange-chatgpt-work-vm",
+      "added": "2026-08-27",
       "title": "蓝哥：ChatGPT Work 按需隔离云电脑，Grok Bot 是常驻共用 Linux",
       "url": "https://x.com/0xlangeai/status/2092470709151011184",
       "blurb": "对照两边架构：Work 用完可扔的隔离微虚拟机只跑浏览器，Bot 一个号一台常开 Linux、多岗共用登录和终端，更适合常驻任务。",
@@ -2032,6 +2252,7 @@
     },
     {
       "id": "codefactory-dumped-hermes",
+      "added": "2026-08-27",
       "title": "코드팩토리：太好用，Hermes 和 OpenClaw 都卸了",
       "url": "https://www.youtube.com/watch?v=MzObKXUaSbc",
       "blurb": "上线两天就把自托管的 Hermes、OpenClaw 卸掉，韩语对照常驻云电脑和两百美元门槛值不值。",
@@ -2041,6 +2262,7 @@
     },
     {
       "id": "reddit-euro-quota-two-days",
+      "added": "2026-08-27",
       "title": "嫌 OpenClaw 难装才换 Bot，周六开九十欧周一额度见底",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vxie4u/initial_feedback_i_love_it_but/",
       "blurb": "上手比 OpenClaw 轻，但八十九点九九欧元套餐两天烧完要等五天；回帖说六十刀档轻量网页自动化也会吃额度，GTM 更稳要二百刀。",
@@ -2050,6 +2272,7 @@
     },
     {
       "id": "srikanth-who-runs-it",
+      "added": "2026-08-27",
       "title": "Srikanth：助手需要电脑，谁来当运维——OpenClaw / Hermes / Grok Bot",
       "url": "https://medium.com/@srikanthbellary01/the-assistant-needs-a-computer-who-runs-it-39112153a9cf",
       "blurb": "对照自托管后点出分叉不在模型：OpenClaw 和 Hermes 让你当主机运维，Grok Bot 把那台 Linux 云电脑做成产品本身。",
@@ -2059,6 +2282,7 @@
     },
     {
       "id": "snorlax-bot",
+      "added": "2026-08-27",
       "title": "Snorlax-Bot：在自己电脑上跑的常驻同事替身",
       "url": "https://github.com/chinghauchu/snorlax-bot",
       "blurb": "命名队友、群聊、技能和例程都跑在你桌上的运行时，默认可先用 mock，Mac 接 oMLX、DGX Spark 接 vLLM，推理不出门。",
@@ -2068,6 +2292,7 @@
     },
     {
       "id": "jared-x-user-not-enrolled",
+      "added": "2026-08-27",
       "title": "Jared Atchison：X 插件报 user-not-enrolled，改成按量计费生产应用才通",
       "url": "https://x.com/jaredatch/status/2092667501155070298",
       "blurb": "他用 Bot 整理书签时官方 X 插件一直报 user-not-enrolled，控制台有额度也没用，直到新建按量计费的生产应用才拿到权限。",
@@ -2077,6 +2302,7 @@
     },
     {
       "id": "forum-hung-custom-mcp",
+      "added": "2026-08-27",
       "title": "卡住的自定义 MCP 会拖垮全部插件且卸不掉",
       "url": "https://forum.cursor.com/t/grok-bot-hung-custom-mcp-remotes-are-invisible-in-plugins-yours-and-uninstall-also-times-out-discovery-catch-22/168350",
       "blurb": "员工确认一个挂起的自定义 HTTP 连接器会让发现超时，Yours 列表里还看不见，只能把对端改成直接拒连或等官方清掉。",
@@ -2086,6 +2312,7 @@
     },
     {
       "id": "forum-rebuild-new-user",
+      "added": "2026-08-27",
       "title": "云电脑重建后别走「创建第一个 Bot」",
       "url": "https://forum.cursor.com/t/bots-workspace-missing-all-things-getting-new-user-experience/169448",
       "blurb": "员工说 Bot 没被删，电脑还在起来时登录会误显示新手页；彻底退出再开，千万别点创建第一个 Bot。",
@@ -2095,6 +2322,7 @@
     },
     {
       "id": "forum-no-compact",
+      "added": "2026-08-27",
       "title": "官方：还没有 Compact，整段对话每轮都送回模型",
       "url": "https://forum.cursor.com/t/grok-bot-prune-compact-an-agent-s-context-without-creating-a-new-bot/168333",
       "blurb": "身份、记忆和文件会留着，但桌面和手机都没有新会话或 Compact，长聊天只在逼近上限时自动摘要，额度因此被整段 transcript 吃掉。",
@@ -2104,6 +2332,7 @@
     },
     {
       "id": "forum-vpn-54h",
+      "added": "2026-08-27",
       "title": "Bot 装 VPN 会把云电脑卡死，Reset 救不了",
       "url": "https://forum.cursor.com/t/grok-bot-unavailable-for-54-hours/169548",
       "blurb": "员工查到电脑卡住所以消息到不了，Reset 和更新都白做；帖主补充当时 Bot 正在装 VPN，只能等官方在后端恢复。",
@@ -2113,6 +2342,7 @@
     },
     {
       "id": "grokbot-linux-port",
+      "added": "2026-08-27",
       "title": "grokbot-linux-port：无 Wine 的官方桌面端 Linux 移植",
       "url": "https://github.com/Nichokas/grokbot-linux-port",
       "blurb": "每天探测 Cursor CDN 上的 Windows 安装包，抽出 asar 再配官方 Electron Linux 二进制重编原生模块，AUR、COPR 和 PPA 已跟上 0.27.0。",
@@ -2122,6 +2352,7 @@
     },
     {
       "id": "reddit-x-api-billing",
+      "added": "2026-08-27",
       "title": "搜 X 热帖走官方开发者 API，一扫另扣十四美分",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vxpdr3/xai_owns_grok_and_x_grok_bot_still_billed_me_x/",
       "blurb": "问 Bot「X 上在聊什么」会走官方开发者 API 而不是 grok.com 的免费读帖，作者改成网页搜公开内容、账号操作才花额度。",
@@ -2131,6 +2362,7 @@
     },
     {
       "id": "reddit-linkedin-salesnav",
+      "added": "2026-08-27",
       "title": "Sales Navigator 因 Bot 登录被拦，回帖改接 HeyReach",
       "url": "https://www.reddit.com/r/GrokBot/comments/1vxcw0a/linkedin_banned_because_of_grokbot_using_it/",
       "blurb": "有人用 Bot 直接登 LinkedIn 发站内信后 Sales Nav 被判异常；建议把触达交给 HeyReach 或 SendPilot，Bot 只写内容和看投放。",
@@ -2140,6 +2372,7 @@
     },
     {
       "id": "mark-kashef-sourcemap",
+      "added": "2026-08-27",
       "title": "Mark Kashef：生产源映射把 Bot 编制蓝图漏出来了",
       "url": "https://www.youtube.com/watch?v=mAWT1HCBgbQ",
       "blurb": "Cursor 把 Grok Bot 0.18 的 sourcemap 打进正式包后，他拆开岗怎么互发消息、开会、抢活、要批准，以及所谓各自电脑实际怎么分。",

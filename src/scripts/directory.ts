@@ -63,10 +63,73 @@ export function initDirectory(): void {
   const toolbar = root.querySelector<HTMLElement>(".toolbar");
   const filtersEl = root.querySelector<HTMLElement>("[data-filters]");
   const filtersWrap = root.querySelector<HTMLElement>(".filters-wrap");
+  const sortButtons = [...root.querySelectorAll<HTMLButtonElement>("[data-sort-value]")];
   const share = root.querySelector<HTMLButtonElement>("[data-share]");
   const shareStatus = root.querySelector<HTMLElement>("[data-share-status]");
   const shareFallback = root.querySelector<HTMLElement>("[data-share-fallback]");
   const shareText = root.querySelector<HTMLTextAreaElement>("[data-share-text]");
+  type AddedSort = "new" | "old";
+  const SORT_KEY = "hub-sort";
+  const parseSort = (raw: string | null | undefined): AddedSort => {
+    if (raw === "old" || raw === "added-asc") return "old";
+    if (raw === "new" || raw === "added-desc") return "new";
+    return "new";
+  };
+  let addedSort: AddedSort = (() => {
+    const fromUrl = new URLSearchParams(location.search).get("sort");
+    if (fromUrl === "new" || fromUrl === "old" || fromUrl === "added-desc" || fromUrl === "added-asc") return parseSort(fromUrl);
+    try {
+      return parseSort(localStorage.getItem(SORT_KEY));
+    } catch {
+      return "new";
+    }
+  })();
+
+  const syncSortButtons = (): void => {
+    for (const button of sortButtons) {
+      button.setAttribute("aria-pressed", button.dataset.sortValue === addedSort ? "true" : "false");
+    }
+  };
+
+  const sortCardNodes = (): void => {
+    const containers = new Set<HTMLElement>();
+    for (const card of cards) {
+      const host = card.closest(".grid, .doc-list, .doc-index, .community-rank");
+      if (host instanceof HTMLElement) containers.add(host);
+    }
+    for (const host of containers) {
+      const items = [...host.children].filter((el): el is HTMLElement => {
+        return el instanceof HTMLElement && Boolean(el.matches("[data-card]") || el.querySelector("[data-card]"));
+      });
+      if (items.length < 2) continue;
+      const addedOf = (el: HTMLElement): string =>
+        el.dataset.added || el.querySelector<HTMLElement>("[data-card]")?.dataset.added || "";
+      const idOf = (el: HTMLElement): string =>
+        el.dataset.id || el.querySelector<HTMLElement>("[data-card]")?.dataset.id || "";
+      items.sort((a, b) => {
+        const cmp = addedOf(a).localeCompare(addedOf(b));
+        if (cmp !== 0) return addedSort === "old" ? cmp : -cmp;
+        return idOf(a).localeCompare(idOf(b));
+      });
+      for (const item of items) host.appendChild(item);
+    }
+  };
+
+  const withSort = (href: string): string => {
+    const url = new URL(href, location.origin);
+    if (addedSort === "old") url.searchParams.set("sort", "old");
+    else url.searchParams.delete("sort");
+    return `${url.pathname}${url.search}`;
+  };
+
+  const persistSort = (): void => {
+    try {
+      localStorage.setItem(SORT_KEY, addedSort);
+    } catch {
+      /* ignore quota / private mode */
+    }
+  };
+
   const catalogTitle = "Grok Bot 目录";
   const defaultCountLabel = resultCount?.textContent ?? `共 ${cards.length} 条`;
   const shareIdleLabel = share?.textContent ?? "复制链接";
@@ -133,7 +196,7 @@ export function initDirectory(): void {
   };
 
   const sectionQueryHref = (id: string, q: string): string => {
-    return `${base}${id}/${encodeURIComponent(canonicalShareQuery(q))}/`;
+    return withSort(`${base}${id}/${encodeURIComponent(canonicalShareQuery(q))}/`);
   };
 
   const canonicalShareQuery = (q: string): string => {
@@ -169,7 +232,7 @@ export function initDirectory(): void {
 
   const searchDocHref = (q: string): string => {
     const key = canonicalShareQuery(q);
-    return `${base}search/${encodeURIComponent(key)}/`;
+    return withSort(`${base}search/${encodeURIComponent(key)}/`);
   };
 
   const sectionNameQuery = (q: string): string => {
@@ -185,17 +248,17 @@ export function initDirectory(): void {
 
   const sectionHref = (id: string, q = ""): string => {
     const path = !id || id === "all" ? base : `${base}${id}/`;
-    if (!q) return path;
+    if (!q) return withSort(path);
     const url = new URL(path, location.origin);
     url.searchParams.set("q", q);
-    return `${url.pathname}${url.search}`;
+    return withSort(`${url.pathname}${url.search}`);
   };
 
   const searchHref = (q: string): string => {
     if (q && hasSearchDoc(q)) return searchDocHref(q);
     const url = new URL(`${base}search/`, location.origin);
     if (q) url.searchParams.set("q", q);
-    return `${url.pathname}${url.search}`;
+    return withSort(`${url.pathname}${url.search}`);
   };
 
   const readUrl = (): { section: string; q: string; legacySection: string; searchPage: boolean } => {
@@ -228,21 +291,21 @@ export function initDirectory(): void {
     const q = activeQuery();
     if (isSearchPath(location.pathname)) {
       const pathQ = queryFromSearchPath(location.pathname);
-      if (q && pathQ && canonicalShareQuery(q) === canonicalShareQuery(pathQ)) return location.pathname;
-      if (!q) return `${base}search/`;
+      if (q && pathQ && canonicalShareQuery(q) === canonicalShareQuery(pathQ)) return withSort(location.pathname);
+      if (!q) return withSort(`${base}search/`);
       return searchHref(q);
     }
     const sectionPathQ = queryFromSectionPath(location.pathname);
     if (sectionPathQ && q && canonicalShareQuery(q) === canonicalShareQuery(sectionPathQ)) {
-      return location.pathname;
+      return withSort(location.pathname);
     }
     if (q && activeSection !== "all" && hasSectionQueryDoc(activeSection, q)) {
       return sectionQueryHref(activeSection, q);
     }
     const path = sectionHref(activeSection, "");
-    if (!q) return path;
+    if (!q) return withSort(path);
     if (activeSection === "all") return searchHref(q);
-    return path;
+    return withSort(path);
   };
 
   const shareUrl = (): string | null => {
@@ -673,6 +736,8 @@ export function initDirectory(): void {
     syncToolbarOffset();
     syncPlaceholder();
     syncFilterFade();
+    syncSortButtons();
+    sortCardNodes();
   };
 
   const scrollActiveSection = (): void => {
@@ -745,6 +810,11 @@ export function initDirectory(): void {
     }
     if (search) search.value = next.q;
     activeSection = next.section;
+    const sortParam = new URLSearchParams(location.search).get("sort");
+    if (sortParam === "new" || sortParam === "old" || sortParam === "added-desc" || sortParam === "added-asc") {
+      addedSort = parseSort(sortParam);
+      persistSort();
+    }
     skipScroll = true;
     setPressed();
     liveImmediate = true;
@@ -784,6 +854,17 @@ export function initDirectory(): void {
         return;
       }
       button.setAttribute("href", sectionHref(id, ""));
+    });
+  }
+
+  for (const sortBtn of sortButtons) {
+    sortBtn.addEventListener("click", () => {
+      const next = parseSort(sortBtn.dataset.sortValue);
+      if (!next || next === addedSort) return;
+      addedSort = next;
+      persistSort();
+      apply();
+      writeUrl("replace");
     });
   }
 
@@ -968,6 +1049,7 @@ export function initDirectory(): void {
   }
   if (search) search.value = initial.q;
   activeSection = initial.section;
+  persistSort();
   setPressed();
   liveImmediate = true;
   apply();

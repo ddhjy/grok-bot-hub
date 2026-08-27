@@ -1,5 +1,5 @@
 ---
-import { displayBlurb, displayTitle, hostnameOf, hostTone, type CatalogEntry, type PinTone } from "../lib/catalog";
+import { catalog, displayBlurb, displayTitle, formatAddedShort, hostnameOf, hostTone, isNewlyAdded, type CatalogEntry, type PinTone } from "../lib/catalog";
 
 interface Props {
   entry: CatalogEntry;
@@ -52,6 +52,14 @@ const hideTitle = Boolean(pin?.hideTitle);
         {entry.tags.map((tag) => (
           <span class="tag">{tag}</span>
         ))}
+      </div>
+    )
+  }
+  {
+    entry.added && (
+      <div class="card-added">
+        <span>收录 {formatAddedShort(entry.added)}</span>
+        {isNewlyAdded(entry.added, catalog.updated) && <span class="badge-new">新</span>}
       </div>
     )
   }

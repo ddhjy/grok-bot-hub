@@ -38,6 +38,8 @@ import {
   shareSectionQueryPairs,
   hubChipItems,
   queryHitsInSection,
+  sortByAdded,
+  compareAdded,
   type CatalogEntry,
   type SectionId,
   type HubSectionId,
@@ -59,17 +61,17 @@ const visibleTotal = visibleOnDefaultGrid().length;
 const updated = formatZhDate(catalog.updated);
 const pinnedCases = casePinned();
 const groupedCases = caseGroups();
-const takeCases = caseTakes();
+const takeCases = sortByAdded(caseTakes(), "new");
 const salesLead = caseSalesLead();
 const salesSplit = caseSalesSplit();
 const salesRankedPins = caseSalesRanked();
 const pitLead = communityLead();
 const pitRanked = communityRestRanked();
-const pitExtra = communityRestExtra();
+const pitExtra = sortByAdded(communityRestExtra(), "new");
 const opsLead = caseOpsLead();
 const opsSplit = caseOpsSplit();
 const skillLeadCard = skillLead();
-const skillRest = skillRestRanked();
+const skillRest = [...skillRestRanked()].sort((a, b) => compareAdded(a.entry, b.entry, "new"));
 const documentedQueries = shareQueries();
 const sectionQueryDocs = shareSectionQueryPairs()
   .map((item) => `${item.section}\t${item.q}`)
@@ -80,9 +82,9 @@ const emptySearchPage = searchPage && !activeInitialQuery;
 const casesVisible = casesCanvasCount();
 const cardHeading = "h3";
 const ClusterHeading = initialSection ? "h2" : "h3";
-const opsRest = opsSplit.rest;
-const salesRest = salesSplit.rest;
-const engEntries = groupedCases.find((group) => group.id === "eng")?.entries ?? [];
+const opsRest = sortByAdded(opsSplit.rest, "new");
+const salesRest = sortByAdded(salesSplit.rest, "new");
+const engEntries = sortByAdded(groupedCases.find((group) => group.id === "eng")?.entries ?? [], "new");
 
 function startAttr(entry: CatalogEntry): string | undefined {
   return DEMOTE_START_IDS.has(entry.id) ? "true" : undefined;
@@ -124,6 +126,7 @@ function cardAttrs(entry: CatalogEntry) {
   return {
     "data-card": true,
     "data-id": entry.id,
+    "data-added": entry.added ?? "",
     "data-section": entry.section,
     "data-search": searchPrimary(entry),
     "data-search-blurb": searchBlurb(entry),
@@ -223,6 +226,10 @@ function groupHasVisible(entries: CatalogEntry[]): boolean {
           }
         </div>
       </div>
+      <div class="sort-ctrl" data-sort-group role="group" aria-label="按收录时间排序">
+        <button type="button" class="sort-btn" data-sort-value="new" aria-pressed="true">最新收录</button>
+        <button type="button" class="sort-btn" data-sort-value="old" aria-pressed="false">最早收录</button>
+      </div>
     </div>
   </div>
 
@@ -286,7 +293,7 @@ function groupHasVisible(entries: CatalogEntry[]): boolean {
         const isOfficial = section.id === "official";
         const isCases = section.id === "cases";
         const isCommunity = section.id === "community";
-        const entries = catalog.entries.filter((entry) => entry.section === section.id && !isCaseTake(entry));
+        const entries = sortByAdded(catalog.entries.filter((entry) => entry.section === section.id && !isCaseTake(entry)), "new");
         const sectionVisible = sectionTally(section.id as SectionId);
         return (
           <section
@@ -305,7 +312,10 @@ function groupHasVisible(entries: CatalogEntry[]): boolean {
             {isOfficial ? (
               <div class="cluster-grid">
                 {OFFICIAL_CLUSTERS.map((cluster) => {
-                  const { featured, short, extra } = officialRestBuckets(cluster.id);
+                  const buckets = officialRestBuckets(cluster.id);
+                  const featured = sortByAdded(buckets.featured, "new");
+                  const short = sortByAdded(buckets.short, "new");
+                  const extra = sortByAdded(buckets.extra, "new");
                   const restVisible = [...short, ...extra].filter((entry) => !ssrHidden(entry)).length;
                   const extraVisible = extra.filter((entry) => !ssrHidden(entry)).length;
                   const featuredVisible = featured.filter((entry) => !ssrHidden(entry)).length;
