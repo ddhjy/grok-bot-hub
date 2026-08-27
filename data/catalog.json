@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "sections": [
     { "id": "official", "label": "官方资源" },
     { "id": "tutorials", "label": "教程" },
@@ -2399,6 +2399,237 @@
       "section": "cases",
       "tags": ["编制", "Notion", "X"],
       "aliases": ["Eric Zakariasson", "多队", "Project Ops"]
+    },
+    {
+      "id": "x-bot-premium-plus",
+      "added": "2026-08-28",
+      "title": "官方：经 X Premium+ 开通的 SuperGrok 现已能进",
+      "url": "https://x.com/bot/status/2092714467834671138",
+      "blurb": "开通帖下有人卡在「我明明有 SuperGrok」门口，官方回复走 X Premium+ 的 SuperGrok 现在可以进，原帖作者随后确认已通。",
+      "section": "official",
+      "cluster": "start",
+      "tags": ["开通"],
+      "aliases": ["X Premium+", "SuperGrok"]
+    },
+    {
+      "id": "grokbot-field-guide",
+      "added": "2026-08-28",
+      "title": "Grokbot Field Guide：对着入门视频自己搭八个用例",
+      "url": "https://github.com/tal-giladi/grokbot-field-guide",
+      "blurb": "对着 Getting started 视频把粉丝地图、两店比价、定时扫货、书签出 demo 等八个场景写成可粘贴提示，并标出该连哪些插件、登录何时把电脑交还。",
+      "section": "tutorials",
+      "tags": ["教程", "视频"],
+      "aliases": ["Field Guide", "Matt Palmer"]
+    },
+    {
+      "id": "learn-grok-bot",
+      "added": "2026-08-28",
+      "title": "Learn Grok Bot：十六课拆开「自带电脑的员工」",
+      "url": "https://github.com/yuanyijie/learn-grok-bot",
+      "blurb": "十六课从编制、SendMessage、共享电脑和叫醒规则拆到审批闸门，对着 0.18 还原树给可跑代码，并标明 Router 等是非官方附加项。",
+      "section": "tutorials",
+      "tags": ["教程", "工程"],
+      "aliases": ["十六课", "PRODUCT.md"]
+    },
+    {
+      "id": "note-sentry-to-pr",
+      "added": "2026-08-28",
+      "title": "从 Sentry 报错到修好 PR：无人 Routine 卡审批，人开口才放行",
+      "url": "https://note.com/bright_dietes994/n/n92e9c18a1979",
+      "blurb": "把 QR 支付 500 嵌进台账后，Bot 一分钟接 issue、筛掉超时噪声再发 Cloud Agent；无人 Routine 写 Notion 连弹三张审批，人随口一句同一操作却直接过。",
+      "section": "cases",
+      "tags": ["工程", "插件", "坑", "编制", "日文"],
+      "aliases": ["Sentry", "Cloud Agent"]
+    },
+    {
+      "id": "note-udemy-subs-x",
+      "added": "2026-08-28",
+      "title": "Cursor Pro 刚开权限：Udemy 竞品、解约订阅、扫 X 三条一起丢",
+      "url": "https://note.com/michael_pwe/n/n69d79e16ac33",
+      "blurb": "人只登一次 Google，Bot 从 Gmail 账单清掉闲置订阅并做 Udemy 竞品调研；X 时间线能打开但检索仍别扭，额度却只吃掉周框几个百分点。",
+      "section": "cases",
+      "tags": ["电脑操作", "销售", "日文"],
+      "aliases": ["Udemy", "解约"]
+    },
+    {
+      "id": "reddit-buyer-intent",
+      "added": "2026-08-28",
+      "title": "r/GrokBot：Miles 按关键词推高意向帖，跟评后谈成新客户",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vzxrkb/grok_bot_for_buyer_intent_signals/",
+      "blurb": "Bot 按关键词把高意向帖丢过来，作者自己读评论再跟评，客户说看了评论点进主页约了通话。",
+      "section": "cases",
+      "tags": ["销售", "编制"],
+      "aliases": ["Miles", "意向"]
+    },
+    {
+      "id": "grok-bot-shopping",
+      "added": "2026-08-28",
+      "title": "grok-bot-shopping：给 Bot 装上 UCP / Shop Pay / Onelink",
+      "url": "https://github.com/steve228uk/grok-bot-shopping",
+      "blurb": "粘 INSTALL.md 后会装上商家 UCP、只用 npx 的 Shop CLI 和 Stripe Onelink，Shop Pay 登录走系统钥匙串，可选再建一个 Buyer 同事。",
+      "section": "skills",
+      "tags": ["插件", "电脑操作"],
+      "aliases": ["Shop Pay", "UCP", "Onelink"]
+    },
+    {
+      "id": "grok-bot-raycast",
+      "added": "2026-08-28",
+      "title": "Raycast 非正式扩展：启动器里给 Bot 同事派活",
+      "url": "https://github.com/MaisonnatM/grok-bot",
+      "blurb": "本机 Raycast 经 Tailscale Serve 打到云电脑 127.0.0.1 上的非正式 Sand 网关，可 List Bots 和 Ask Bot，令牌不得进聊天也不得开 Funnel。",
+      "section": "skills",
+      "tags": ["插件", "坑"],
+      "aliases": ["Raycast", "Sand"]
+    },
+    {
+      "id": "grokbot-x",
+      "added": "2026-08-28",
+      "title": "grokbot-x：用 Typefully 发帖，躲开 X 的 AI 水印",
+      "url": "https://github.com/YannisKiefer/grokbot-x",
+      "blurb": "侦察高倍数帖再按人话起草，经 Typefully OAuth 发出去以免 Bot 浏览器在 x.com 留下会话指纹，夜里 SkillOpt 只保留验证集变好的改法。",
+      "section": "skills",
+      "tags": ["插件", "销售"],
+      "aliases": ["Typefully", "SkillOpt"]
+    },
+    {
+      "id": "poteto-make-bot-ui",
+      "added": "2026-08-28",
+      "title": "Lauren：把编制画成小岛，并放出 /Make Bot UI 技能",
+      "url": "https://x.com/poteto/status/2093023531642863686",
+      "blurb": "她用录像演示村民会走动、歇息，点一下就能给对应岗发消息；楼下技能用 grokbot:// 深链一键装上，还能做成刷邮件那种交互界面。",
+      "section": "skills",
+      "tags": ["插件", "编制"],
+      "aliases": ["Lauren", "Make Bot UI", "grokbot://"]
+    },
+    {
+      "id": "railway-engineer-plugin",
+      "added": "2026-08-28",
+      "title": "Railway：给编制加一名工程师岗，部署和排障走官方插件",
+      "url": "https://x.com/Railway/status/2093022975964713199",
+      "blurb": "Railway 放出演示录像和插件文档，让 Bot 管部署、基础设施和日志，并按例程把这套云上的活自动化。",
+      "section": "skills",
+      "tags": ["插件", "工程"],
+      "aliases": ["Railway"]
+    },
+    {
+      "id": "aditi-three-bots-review",
+      "added": "2026-08-28",
+      "title": "Aditi：一周三名 Grok Bot 搜融资、比机票、五店比价，共享登录才是真坑",
+      "url": "https://dev.to/aditi_gupta_8d81622a592aa/grokbot-honest-review-is-xai-and-cursors-computer-use-agent-worth-200-a-month-2924",
+      "blurb": "合上本仍能从手机接管云电脑，teach-a-task 能把操作录成私有技能，但一台机器上的 Google 登录会被其他 Bot 共用，发信下单仍要开审批。",
+      "section": "reviews",
+      "tags": ["编制", "电脑操作", "坑", "视频"],
+      "aliases": ["Aditi Gupta", "两百"]
+    },
+    {
+      "id": "reddit-brokerage-seven",
+      "added": "2026-08-28",
+      "title": "r/cursor：经纪公司编七岗试用一周，审批卡过期、表格被反复推倒",
+      "url": "https://www.reddit.com/r/cursor/comments/1vxjipg/grok_bot_review/",
+      "blurb": "接上 GoHighLevel、Gmail、表格、日历和 iMessage 后，定时任务会忘、审批卡过期就放弃、工作表每次更新被重建，二百刀档三四天额度见底。",
+      "section": "reviews",
+      "tags": ["编制", "销售", "坑"],
+      "aliases": ["GoHighLevel", "七岗"]
+    },
+    {
+      "id": "simon-scrapes-skool",
+      "added": "2026-08-28",
+      "title": "Simon Scrapes：用云浏览器登录没有 API 的 Skool，对照 Claude Code",
+      "url": "https://www.youtube.com/watch?v=OoqUrexnzU0",
+      "blurb": "他把社区留存看板、Slack MCP 和周二例会写成 Routine，并讲清手机端能接管屏幕、安卓还得等。",
+      "section": "reviews",
+      "tags": ["编制", "电脑操作", "插件", "视频"],
+      "aliases": ["Simon Scrapes", "Skool"]
+    },
+    {
+      "id": "forum-sand-tokens",
+      "added": "2026-08-28",
+      "title": "账单里的 sand-default 是 Bot 聊天，不吃 Cursor 额度",
+      "url": "https://forum.cursor.com/t/why-does-grok-bot-chat-use-so-many-sand-tokens/169581",
+      "blurb": "员工点明 sand-default 是聊天、sand-automation 是例程，都从 Bot 自己的周额度扣；例程每次把整段对话再送一遍，用量页还会把缓存读取算进去，所以看起来像烧掉几亿 token。",
+      "section": "community",
+      "tags": ["用量", "坑", "例程"],
+      "aliases": ["sand-default", "sand-automation"]
+    },
+    {
+      "id": "forum-webhook-ios",
+      "added": "2026-08-28",
+      "title": "webhook 地址只在桌面端，iOS 例程面板里没有",
+      "url": "https://forum.cursor.com/t/webhook-url-missing-on-ios/169589",
+      "blurb": "员工确认手机上看不到 URL 和 sender key，要到最新桌面端的触发卡片里复制 POST 地址和现成的 Authorization: Bearer。",
+      "section": "community",
+      "tags": ["坑", "插件", "iOS"],
+      "aliases": ["webhook", "iOS"]
+    },
+    {
+      "id": "forum-x-plugin-still-broken",
+      "added": "2026-08-28",
+      "title": "官方 X 插件在 Cloud、Bot、桌面刷新后仍然授不上",
+      "url": "https://forum.cursor.com/t/official-x-plugin-auth-is-broken-on-cursor-cloud-grok-bot-and-desktop-refresh/169592",
+      "blurb": "员工承认连上后工具数为 0、几分钟掉线都是自家问题，Cloud 还把回调指到 cursor:// 桌面地址，眼下没有干净绕过办法。",
+      "section": "community",
+      "tags": ["插件", "坑", "X"],
+      "aliases": ["X 插件", "OAuth"]
+    },
+    {
+      "id": "forum-ondemand-27",
+      "added": "2026-08-28",
+      "title": "周额度用尽后按量计费，十分钟烧掉 27 美元",
+      "url": "https://forum.cursor.com/t/anyone-used-grokbot-on-the-api-very-high-costs/169551",
+      "blurb": "帖主 inclusive 用完后往 Bot 塞 50 美元额度，几个任务就花掉 27；员工同时宣布 Pro 也能用 Bot，并承认限额会掉得很快。",
+      "section": "community",
+      "tags": ["用量", "坑"],
+      "aliases": ["On-Demand", "27 美元"]
+    },
+    {
+      "id": "forum-local-host-disconnected",
+      "added": "2026-08-28",
+      "title": "聊天能用，本机却永远显示 isn’t connected",
+      "url": "https://forum.cursor.com/t/grok-bot-0-27-0-windows-local-host-permanently-isn-t-connected-after-clean-registration-new-identity-server-side/169594",
+      "blurb": "员工确认守护进程和网络都没问题，是服务端没挂上本机身份；彻底退出所有 Grok Bot 进程再开一次，本机才会重新显示已连接。",
+      "section": "community",
+      "tags": ["坑", "排障", "电脑操作"],
+      "aliases": ["isn’t connected", "Windows"]
+    },
+    {
+      "id": "reddit-rules-md-sync",
+      "added": "2026-08-28",
+      "title": "r/GrokBot：规则文档没法跨岗共享，回帖把 RULES.md 同步到云电脑",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vz86b0/grok_bot_contextsource_docs/",
+      "blurb": "没有项目级共享库时，商务口吻和个人人设只能各岗各传一份；有人把规则放进 git 再同步到那台共享云电脑，所有 Bot 都能读。",
+      "section": "community",
+      "tags": ["编制", "坑"],
+      "aliases": ["RULES.md"]
+    },
+    {
+      "id": "reddit-upgrade-no-prorate",
+      "added": "2026-08-28",
+      "title": "r/GrokBot：六十刀刚付几天升二百刀不折算，月费几乎作废",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1vyurk3/upgrading_from_60_to_200_plan_doesnt_prorate/",
+      "blurb": "作者刚付六十刀想升档，结算仍收满二百；有人年付 SuperGrok 升档是折过的，也有人劝快到期再升。",
+      "section": "community",
+      "tags": ["坑", "用量"],
+      "aliases": ["折算", "升档"]
+    },
+    {
+      "id": "v2ex-no-public-ip",
+      "added": "2026-08-28",
+      "title": "Grok Bot 能用来做啥？签到可以，云电脑没公网 IP、Docker 不稳",
+      "url": "https://www.v2ex.com/t/1237707",
+      "blurb": "楼主已经开通却想不到关电脑后能干啥，回帖记下用它刷签到，以及这台多核云电脑没有公网 IP、跑不了 Docker、Hermes 和 Tailscale 隔天会停。",
+      "section": "community",
+      "tags": ["坑", "电脑操作", "云电脑"],
+      "aliases": ["公网 IP", "Docker", "签到"]
+    },
+    {
+      "id": "eric-bot-cursor-pool",
+      "added": "2026-08-28",
+      "title": "Eric：Bot 周额度挂在 Cursor 账号上，双订只取较大那档",
+      "url": "https://x.com/ericzakariasson/status/2092878366273597445",
+      "blurb": "SpaceXAI 成员确认 Bot 用量与 Cursor 模型和 SuperGrok 聊天分开，Pro 对标 SuperGrok、Pro+ 对标 Plus、Ultra 对标 Heavy，两边都付只拿更高的那份。",
+      "section": "community",
+      "tags": ["坑", "用量"],
+      "aliases": ["Eric Zakariasson", "周额度"]
     }
   ]
 }
