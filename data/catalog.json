@@ -2379,6 +2379,16 @@
       "section": "community",
       "tags": ["编制", "坑", "视频"],
       "aliases": ["Mark Kashef", "sourcemap"]
+    },
+    {
+      "id": "johnennis-focus-group",
+      "added": "2026-08-27",
+      "title": "John Ennis：用 Grok Bot 开焦点小组",
+      "url": "https://x.com/johnennis/status/2092753048602915189",
+      "blurb": "建了主持 Bot 去看自家网站、生成四个潜客人设，再开群聊并每五分钟提醒推进讨论，一屋子 Bot 在聊站点。",
+      "section": "cases",
+      "tags": ["案例", "群聊", "X"],
+      "aliases": ["John Ennis", "focus group", "焦点小组"]
     }
   ]
 }
