@@ -2389,6 +2389,16 @@
       "section": "cases",
       "tags": ["案例", "群聊", "X"],
       "aliases": ["John Ennis", "focus group", "焦点小组"]
+    },
+    {
+      "id": "eric-multi-bot-teams",
+      "added": "2026-08-27",
+      "title": "Eric Zakariasson：怎么同时带多支 Grok Bot 队伍",
+      "url": "https://x.com/ericzakariasson/status/2092982710465970425",
+      "blurb": "每个项目一个频道加 Notion 库，幕僚长用 Project Ops 建项、开频道、配岗；先复用现有 Bot，卡住就标 Blocked 再喊人。",
+      "section": "cases",
+      "tags": ["编制", "Notion", "X"],
+      "aliases": ["Eric Zakariasson", "多队", "Project Ops"]
     }
   ]
 }
