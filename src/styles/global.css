@@ -152,6 +152,12 @@ input {
   letter-spacing: 0.04em;
 }
 
+.header-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
 .badge {
   display: inline-flex;
   align-items: center;
@@ -163,6 +169,24 @@ input {
   letter-spacing: 0.08em;
   color: var(--muted);
   background: color-mix(in srgb, var(--paper) 70%, white);
+}
+
+.header-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  padding: 0.12rem 0.5rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  text-decoration: none;
+  background: color-mix(in srgb, var(--paper) 70%, white);
+}
+
+.header-github:hover {
+  border-color: var(--ink);
 }
 
 .hero {
