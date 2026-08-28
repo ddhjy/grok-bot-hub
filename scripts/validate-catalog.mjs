@@ -25,6 +25,27 @@ const REQUIRED_LABELS = {
 
 const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const CHINESE_PERIOD = "。";
+const ALLOWED_TAGS = [
+  "坑",
+  "上手",
+  "文档",
+  "排障",
+  "用量",
+  "安全",
+  "编制",
+  "电脑操作",
+  "插件",
+  "视频",
+  "开源",
+  "对比",
+  "销售",
+  "工程",
+  "购物",
+  "iOS",
+  "Linux",
+  "日文",
+];
+const MAX_TAGS = 5;
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const catalogPath = join(root, "data/catalog.json");
@@ -157,6 +178,17 @@ for (const entry of catalog.entries) {
   if (entry.tags !== undefined) {
     if (!Array.isArray(entry.tags) || entry.tags.some((tag) => typeof tag !== "string" || tag.trim() === "")) {
       fail(`${where} tags 必须是非空字符串数组。`);
+    } else if (entry.tags.length > MAX_TAGS) {
+      fail(`${where} tags 最多 ${MAX_TAGS} 个，专有名词放 aliases。`);
+    } else {
+      const seen = new Set();
+      for (const tag of entry.tags) {
+        if (!ALLOWED_TAGS.includes(tag)) {
+          fail(`${where} 标签「${tag}」不在允许列表：${ALLOWED_TAGS.join("、")}。`);
+        }
+        if (seen.has(tag)) fail(`${where} 重复标签「${tag}」。`);
+        seen.add(tag);
+      }
     }
   }
 
