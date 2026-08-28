@@ -26,24 +26,18 @@ const REQUIRED_LABELS = {
 const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const CHINESE_PERIOD = "。";
 const ALLOWED_TAGS = [
-  "坑",
   "上手",
-  "文档",
-  "排障",
-  "用量",
-  "安全",
-  "编制",
-  "电脑操作",
-  "插件",
-  "视频",
-  "开源",
-  "对比",
   "销售",
+  "运营",
   "工程",
-  "购物",
-  "iOS",
-  "Linux",
-  "日文",
+  "跑腿",
+  "电脑",
+  "插件",
+  "多Bot",
+  "计费",
+  "视频",
+  "排障",
+  "安全",
 ];
 const MAX_TAGS = 5;
 

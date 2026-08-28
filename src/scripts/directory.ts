@@ -1,3 +1,4 @@
+import { formatAddedLabel, shanghaiTodayIso } from "../lib/catalog";
 import { isActiveQuery, matchesQuery, normalizeQuery } from "../lib/query";
 
 type HistoryMode = "replace" | "push";
@@ -204,6 +205,14 @@ export function initDirectory(): void {
       return;
     }
     document.title = pageTitle();
+  };
+
+  const syncAddedLabels = (): void => {
+    const today = shanghaiTodayIso();
+    for (const el of root.querySelectorAll<HTMLElement>(".card-added[data-added]")) {
+      const iso = el.dataset.added;
+      if (iso) el.textContent = formatAddedLabel(iso, today);
+    }
   };
 
   const apply = (): void => {
@@ -426,6 +435,7 @@ export function initDirectory(): void {
   activeTag = initial.tag;
   liveImmediate = true;
   apply();
+  syncAddedLabels();
   allowLive = true;
   writeUrl("replace");
   syncToolbarOffset();

@@ -358,7 +358,7 @@ export const CASE_TAKE_ID_SET = new Set<string>(CASE_TAKE_IDS);
 export const CASE_GROUPS = [
   {
     id: "ops",
-    label: "电脑操作",
+    label: "电脑跑腿",
     ids: [
       "debbie-flights",
       "debbie-beer",
@@ -892,6 +892,38 @@ export function formatZhDate(iso?: string): string {
   return `${Number(match[1])}年${Number(match[2])}月${Number(match[3])}日`;
 }
 
+export function shanghaiTodayIso(now = new Date()): string {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(now);
+  const y = parts.find((part) => part.type === "year")?.value;
+  const m = parts.find((part) => part.type === "month")?.value;
+  const d = parts.find((part) => part.type === "day")?.value;
+  return y && m && d ? `${y}-${m}-${d}` : "";
+}
+
+function shanghaiDayDiff(added: string, today: string): number | undefined {
+  const addedMs = shanghaiDayMs(added);
+  const todayMs = shanghaiDayMs(today);
+  if (addedMs === undefined || todayMs === undefined) return undefined;
+  return Math.round((todayMs - addedMs) / SHANGHAI_DAY_MS);
+}
+
+/** Card date: 今天 / 昨天 / M月D日 (Asia/Shanghai, relative to `todayIso` or catalog.updated). */
+export function formatAddedLabel(iso?: string, todayIso?: string): string {
+  if (!iso) return "";
+  const ref = todayIso ?? catalog.updated ?? shanghaiTodayIso();
+  const diff = shanghaiDayDiff(iso, ref);
+  if (diff === 0) return "今天";
+  if (diff === 1) return "昨天";
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if (!match) return iso;
+  return `${Number(match[2])}月${Number(match[3])}日`;
+}
+
 export function formatAddedShort(iso?: string): string {
   if (!iso) return "";
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
@@ -910,7 +942,8 @@ function shanghaiDayMs(iso?: string): number | undefined {
 export function addedSearchText(entry: CatalogEntry): string {
   const iso = entry.added;
   if (!iso) return "";
-  return ["收录", formatAddedShort(iso), formatZhDate(iso), iso].join(" ");
+  const label = formatAddedLabel(iso, catalog.updated);
+  return [label, "今天", "昨天", formatAddedShort(iso), formatZhDate(iso), iso].join(" ");
 }
 
 export type AddedSort = "new" | "old";
