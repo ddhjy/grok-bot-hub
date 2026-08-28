@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "sections": [
     {
       "id": "official",
@@ -4202,6 +4202,377 @@
       "aliases": [
         "Eric Zakariasson",
         "周额度"
+      ]
+    },
+    {
+      "id": "x-bot-guides",
+      "added": "2026-08-29",
+      "title": "官方指南集：多人编制与实操手册",
+      "url": "https://x.ai/bot/guides",
+      "blurb": "SpaceXAI 把多队编制、移动端开发和设计岗实操收进 x.ai/bot/guides，按篇能看到作者怎么带常驻队友。",
+      "section": "official",
+      "cluster": "start",
+      "tags": [
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "Grok Bot Guides",
+        "指南集"
+      ]
+    },
+    {
+      "id": "x-bot-templates",
+      "added": "2026-08-29",
+      "title": "官方：岗人设可做成模板，别人一键复制",
+      "url": "https://x.com/bot/status/2093376523919323618",
+      "blurb": "官方放出分享录像，更新后就能把岗配置发成公开链接，对方装的是独立副本，不含你的对话、登录和云电脑。",
+      "section": "official",
+      "cluster": "start",
+      "tags": [
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "模板",
+        "template",
+        "分享岗"
+      ]
+    },
+    {
+      "id": "x-bot-android-preregister",
+      "added": "2026-08-29",
+      "title": "Lauren：Grok Bot 安卓版即将上架，可先预约",
+      "url": "https://x.com/poteto/status/2093063044062650744",
+      "blurb": "产品组成员放出 Google Play 预约页，安卓端还没正式发，先登记就能等上架通知。",
+      "section": "official",
+      "cluster": "start",
+      "tags": [
+        "上手"
+      ],
+      "aliases": [
+        "Android",
+        "Play",
+        "安卓"
+      ]
+    },
+    {
+      "id": "forum-grok-launched-agents",
+      "added": "2026-08-29",
+      "title": "Bot 拉起的 Cloud Agent 默认被 /agents 列表藏起来",
+      "url": "https://forum.cursor.com/t/grok-bot-open-cloud-agent-cards-in-the-browser-and-show-grok-launched-agents-on-agents/169754",
+      "blurb": "卡片上中键「Open in Cursor」会落到 cursor.com，过滤菜单打开 Source > Grok Bot 后，它派出去的任务才会出现在 /agents 列表里。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Cloud Agent",
+        "/agents"
+      ]
+    },
+    {
+      "id": "guillermo-one-person-playbook",
+      "added": "2026-08-29",
+      "title": "Guillermo：一人公司五个岗的粘贴章程",
+      "url": "https://www.productmarketfit.tech/p/the-grok-bot-playbook-to-run-a-one",
+      "blurb": "把获客、客服、发稿、调研和对账拆成五个常驻 Bot，附章程、教一次再排程，以及同目标群聊交接。",
+      "section": "tutorials",
+      "tags": [
+        "销售",
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "one person company",
+        "playbook"
+      ]
+    },
+    {
+      "id": "clearmud-live-hacks",
+      "added": "2026-08-29",
+      "title": "Clearmud：直播装幕僚长邮箱、Twilio 外呼和共用磁盘坑",
+      "url": "https://www.youtube.com/watch?v=8rV6DulVsoY",
+      "blurb": "近两小时直播给幕僚长装 AgentMail、接 Twilio 外呼、测 Compound Engineering，并当场指出多岗共用文件系统不是安全边界。",
+      "section": "tutorials",
+      "tags": [
+        "视频",
+        "安全",
+        "插件"
+      ],
+      "aliases": [
+        "Clearmud LIVE",
+        "AgentMail",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "note-slack-decisions",
+      "added": "2026-08-29",
+      "title": "工作区里捞本周拍板：读连接和事件连接是两层",
+      "url": "https://note.com/bright_dietes994/n/ndabd000e4072",
+      "blurb": "虚构事务所 28 条杂谈里的三件决定全部带出处捞出，读 MCP 能通、事件触发要手削 OAuth，第三人指令只触发不执行。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "拍板",
+        "工作区事件"
+      ]
+    },
+    {
+      "id": "note-inady-week",
+      "added": "2026-08-29",
+      "title": "一周实操：云端浏览器对账单、即时通讯点名派活",
+      "url": "https://note.com/inady/n/na45c77524c68",
+      "blurb": "关电脑也能每天九点爬无 API 的信用卡账单并抓到陌生扣费，实现甩给 Cursor Cloud Agents，即时通讯自提交通给接待岗再分发。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "运营"
+      ],
+      "aliases": [
+        "账单",
+        "Home Assistant"
+      ]
+    },
+    {
+      "id": "note-yriica-eight",
+      "added": "2026-08-29",
+      "title": "八岗个人编制：Chief 管日历收据，换乘岗刷公开时刻表",
+      "url": "https://note.com/yriica/n/na84dc280b0bf",
+      "blurb": "Cursor Ultra 用户摊开 Chief、Gmail、X、Lenny、Icon、Closet、Transit、Memo 八岗，日历收据走卡片，换乘岗用云端浏览器打开公开时刻表。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "日文",
+        "八岗"
+      ]
+    },
+    {
+      "id": "reddit-qa-tester",
+      "added": "2026-08-29",
+      "title": "r/GrokBot：当浏览器 QA 时清单一松就空截图",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w0xflc/how_are_you_using_grok_bot_as_a_qa_tester_without/",
+      "blurb": "Codex 写代码、Bot 点预览站能抓到真 UI 问题，但清单不严就会标阻塞、卡上传框，分数卡还带着空白截图。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "QA",
+        "浏览器测试"
+      ]
+    },
+    {
+      "id": "daviddtech-trading-10k",
+      "added": "2026-08-29",
+      "title": "DaviddTech：把一万美金实盘交给 Bot 跑二十二小时",
+      "url": "https://www.youtube.com/watch?v=muHeyXiCn-A",
+      "blurb": "他把 Bybit 账户和 Trigger.trade 技能交给岗自主下单二十二小时，六笔盈亏对半、净赚八十四，并另建无代码研究台。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "Bybit",
+        "交易"
+      ]
+    },
+    {
+      "id": "forum-gmail-blocked",
+      "added": "2026-08-29",
+      "title": "Gmail 插件被 Google 拦下：先在 Cursor 里授权",
+      "url": "https://forum.cursor.com/t/grok-bot-unable-to-authenticate-via-gmail-plugin/169782",
+      "blurb": "Bot 里点授权会撞上 This app is blocked，员工说改走 Cursor 的 Gmail 授权路径就能共享给 Bot，没买 Cursor 的人暂时没有绕过办法。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Gmail",
+        "This app is blocked"
+      ]
+    },
+    {
+      "id": "opengrok-model-picker",
+      "added": "2026-08-29",
+      "title": "open·grok：给每个助手单独换模型，官方更新也不丢",
+      "url": "https://github.com/OnlyTerp/opengrok",
+      "blurb": "一条命令装上选择器，按探针验证过的线路把 Grok、GLM、Claude、Gemini 接到共享云电脑，doctor 会盯着官方静默改包。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "opengrok",
+        "换模型"
+      ]
+    },
+    {
+      "id": "grok-codex-router",
+      "added": "2026-08-29",
+      "title": "grok-codex-router：把 Bot 推理接到已登录的 ChatGPT Codex",
+      "url": "https://github.com/IgorWarzocha/grok-codex-router",
+      "blurb": "在 Sand 云电脑打补丁后按助手选 GPT-5.6 档位，原生工具和权限不动，不认识的官方更新会失败关闭而不是硬改。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "campfiresms-grok-bot",
+      "added": "2026-08-29",
+      "title": "CampfireSMS：短信 webhook 叫醒关掉笔记本的 Bot",
+      "url": "https://github.com/campfiresms/campfiresms-grok-bot",
+      "blurb": "插件只收一把可吊销的手机凭证，入站短信先排队再发无正文唤醒，例程用五把 MCP 工具读写，电脑关掉也能回。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "SMS",
+        "短信"
+      ]
+    },
+    {
+      "id": "grok-bot-profiles",
+      "added": "2026-08-29",
+      "title": "规格写手 / 复现岗 / 出 PR / 核 PR：四分编制互不批自己的活",
+      "url": "https://github.com/HAEGONG/grok-bot-profiles",
+      "blurb": "把 SETUP.md 链接丢给新建助手当第一条消息，规格和复现停在人点头，核 PR 必须单独会话，因为账号共用一台电脑。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "profiles",
+        "编制"
+      ]
+    },
+    {
+      "id": "tech-with-tim-review",
+      "added": "2026-08-29",
+      "title": "Tech With Tim：装完一试，Grok Bot 没吹得那么神",
+      "url": "https://www.youtube.com/watch?v=ezANo2RNryU",
+      "blurb": "他当场装桌面端、配岗并试电脑操作，对照两百美元月费后说常驻同事没有宣传里那么好用。",
+      "section": "reviews",
+      "tags": [
+        "视频",
+        "计费"
+      ],
+      "aliases": [
+        "Tech With Tim"
+      ]
+    },
+    {
+      "id": "hydo",
+      "added": "2026-08-29",
+      "title": "Hydo：本机 Hermes 编制桌面，开源替代 Grok Bot 客户端",
+      "url": "https://github.com/fortun8te/hydo",
+      "blurb": "命名队友、频道叫醒和一台按秒计费的共享 Linux 盒子都跑在你电脑上，可按人切 Grok 或本地模型，关窗后例程才停。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Hermes",
+        "开源替代"
+      ]
+    },
+    {
+      "id": "forum-intel-mac",
+      "added": "2026-08-29",
+      "title": "Intel Mac 装不上：官网默认给的是 Apple Silicon 包",
+      "url": "https://forum.cursor.com/t/solved-grok-bot-not-supported-on-this-mac/169763",
+      "blurb": "帖主在 13.7 的 Intel MacBook Pro 上 0.28/0.29 都报不支持，后来发现下载页默认是 M 芯片安装包。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Intel Mac",
+        "Apple Silicon"
+      ]
+    },
+    {
+      "id": "forum-white-screen",
+      "added": "2026-08-29",
+      "title": "全新安装白屏：把 Application Support 里的文件夹改名",
+      "url": "https://forum.cursor.com/t/grok-bot-shows-white-screen-upon-opening-and-is-unusable/169815",
+      "blurb": "员工说这是跟踪中的首次安装白窗，退出后把 Application Support 下的 Grok Bot 文件夹改成 bak 再开，光重装清不掉这份缓存。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "白屏",
+        "Application Support"
+      ]
+    },
+    {
+      "id": "note-yukin-ime",
+      "added": "2026-08-29",
+      "title": "共享 VM 干净到没有 nano：给云电脑做了日英输入切换",
+      "url": "https://note.com/yukin_co/n/n72f2f476b5e6",
+      "blurb": "云电脑缺 nano、面板和桌面组件，剪贴板还会吞空格，作者做了日英一键切换工具，随后一次更新把它弄坏了。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "日文",
+        "IME"
+      ]
+    },
+    {
+      "id": "reddit-goodbye-4000",
+      "added": "2026-08-29",
+      "title": "r/GrokBot：周额度两天烧光又加了四千刀，改自建 OpenMausBot",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w0wr5c/goodbye_grok_bot/",
+      "blurb": "作者从第一天就爱用，但周额度两天见底、按量加了四千多美元后改在自己的服务器跑 OpenMausBot，按岗换便宜模型。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "OpenMausBot"
+      ]
+    },
+    {
+      "id": "quotabar",
+      "added": "2026-08-29",
+      "title": "QuotaBar：菜单栏盯 Grok Bot 周额度还剩多少",
+      "url": "https://github.com/zzjjcc0053/QuotaBar",
+      "blurb": "读本机 Cursor 登录库拉 Include、Other 月池和 Bot 周池，菜单栏常驻 GB 剩余百分比，不足两成变色。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "额度",
+        "菜单栏"
       ]
     }
   ]
