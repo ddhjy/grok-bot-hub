@@ -1,12 +1,10 @@
 ---
 import {
   allEntriesNewest,
-  catalog,
   catalogTagStats,
   searchPrimary,
   searchBlurb,
   searchUrl,
-  formatZhDate,
   shareQueries,
   type CatalogEntry,
 } from "../lib/catalog";
@@ -25,7 +23,6 @@ const base = import.meta.env.BASE_URL.endsWith("/")
   : `${import.meta.env.BASE_URL}/`;
 const entries = allEntriesNewest();
 const tags = catalogTagStats();
-const updated = formatZhDate(catalog.updated);
 const documentedQueries = shareQueries();
 const activeInitialQuery = isActiveQuery(normalizeQuery(initialQuery)) ? normalizeQuery(initialQuery) : "";
 const emptySearchPage = searchPage && !activeInitialQuery;
@@ -59,8 +56,6 @@ function tagHref(tag: string): string {
   url.searchParams.set("tag", tag);
   return `${url.pathname}${url.search}`;
 }
-
-const visibleNow = entries.filter((entry) => !cardAttrs(entry).hidden).length;
 ---
 
 <div
@@ -126,27 +121,7 @@ const visibleNow = entries.filter((entry) => !cardAttrs(entry).hidden).length;
       </div>
     </div>
 
-    <div class="status-row">
-      <span data-result-count>
-        {emptySearchPage
-          ? "输入关键词开始搜索"
-          : activeInitialQuery || initialTag
-            ? `当前显示 ${visibleNow} 条`
-            : `共 ${entries.length} 条`}
-      </span>
-      <span class="visually-hidden" data-result-live aria-live="polite" aria-atomic="true"></span>
-      <div class="status-actions">
-        <button type="button" class="share-link" data-share aria-label="复制标题和链接">
-          复制链接
-        </button>
-        <span class="share-status" data-share-status aria-live="polite" aria-atomic="true"></span>
-        <label class="share-fallback" data-share-fallback hidden>
-          <span>剪贴板不可用，请手动全选复制：</span>
-          <textarea data-share-text readonly rows="4"></textarea>
-        </label>
-        {updated && <span>按收录时间倒序 · 更新于 {updated}</span>}
-      </div>
-    </div>
+    <span class="visually-hidden" data-result-live aria-live="polite" aria-atomic="true"></span>
 
     <div class="empty" data-empty hidden={emptySearchPage ? undefined : true}>
       <p class="empty-title" data-empty-title>{emptySearchPage ? "输入关键词" : "没有匹配的条目"}</p>

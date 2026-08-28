@@ -907,15 +907,6 @@ function shanghaiDayMs(iso?: string): number | undefined {
   return Number.isFinite(ms) ? ms : undefined;
 }
 
-/** True if `added` is 0–2 Asia/Shanghai calendar days before `updated` (YYYY-MM-DD parsed as +08:00). */
-export function isNewlyAdded(added?: string, updated?: string): boolean {
-  const addedMs = shanghaiDayMs(added);
-  const updatedMs = shanghaiDayMs(updated);
-  if (addedMs === undefined || updatedMs === undefined) return false;
-  const diffDays = (updatedMs - addedMs) / SHANGHAI_DAY_MS;
-  return diffDays >= 0 && diffDays <= 2;
-}
-
 export function addedSearchText(entry: CatalogEntry): string {
   const iso = entry.added;
   if (!iso) return "";

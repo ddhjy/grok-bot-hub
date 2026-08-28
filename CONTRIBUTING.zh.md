@@ -1,76 +1,48 @@
 # 如何贡献
 
-感谢你来补这条非官方导航。本仓库的内容在 Git 里，网站只是目录的展示层。
+本文只讲操作步骤。字段定义和枚举值见 [CATALOG.zh.md](CATALOG.zh.md)；产品边界和设计决策见 [PRODUCT.md](PRODUCT.md)。
 
 本站与 xAI、SpaceXAI、Cursor 均无隶属关系。贡献内容请保持克制、可核验，不要写成软文。
 
-## 范围
+## 新增一条目录条目
 
-只收录 **Grok Bot** 这一个产品：常驻云电脑上的 AI 队友（xAI/SpaceXAI + Cursor，2026-08-11 上线）。
-
-不要提交：
-
-- grok.com 网页聊天
-- Grok Imagine / 生图
-- 只评 Grok 4.x 模型、几乎不谈 Bot 云电脑的文章
-- 失效链接、缩短链接、需要登录才能确认存在的空页
-- 微信群二维码、线下活动物料、其他站点的品牌视觉
-- 编造的用量数字、排名、「第一」「最强」一类空话
-
-拿不准时，先读官方总览：<https://docs.x.ai/grok-bot/overview>
-
-## 新增或修改一条目录
-
-1. 只改 [`data/catalog.json`](data/catalog.json)，不要为单条资源去改 Astro 页面。
-2. 在对应 `section` 的条目数组里追加或就地修改。
+1. 只改 `data/catalog.json`，不要为单条资源去改 Astro 页面。
+2. 在 `entries` 数组里追加一条，字段约定见 [CATALOG.zh.md § 字段](CATALOG.zh.md#字段)。
 3. 本地运行 `npm run validate`，确认通过。
-4. 打开拉取请求，用一两句中文说明这条资源为什么属于 Grok Bot。
+4. 提交拉取请求。
 
-字段约定：
+## 修改现有条目
 
-| 字段 | 必填 | 说明 |
-| --- | --- | --- |
-| `id` | 是 | 全仓库唯一，小写 kebab-case |
-| `title` | 是 | 卡片标题，中文优先；英文专有名词可放在标题里或 `aliases` |
-| `url` | 是 | 真实可打开的 `https` 地址，不要跟踪参数 |
-| `blurb` | 是 | **一句**中文，以「。」结尾；写清为什么要点 |
-| `section` | 是 | 七个分区 id 之一 |
-| `tags` | 否 | 只能从下面闭集里取，一条最多 5 个；Slack / MCP / Ultra 这类专名放 `aliases` |
-| `aliases` | 否 | 检索别名（英文原题、拼音、同义词） |
-| `cluster` | 否 | 仅 `official`：`start` 入门 / `computer` 电脑 / `billing` 计费 / `safety` 安全 |
-| `featured` | 否 | 仅 `official`：在对应分组里置顶；其余条目默认收进「其余」 |
+就地改 `data/catalog.json` 中对应条目。`npm run validate` 通过即可。
 
-分区 id 与中文标签必须与仓库里现有的 `sections` 数组一致：
+## 改站点代码
 
-- `official` 官方资源
-- `tutorials` 教程
-- `cases` 实战案例
-- `skills` 技能/插件/MCP
-- `reviews` 评测对比
-- `alternatives` 开源替代
-- `community` 社区与坑
+前端是 Astro 5 静态站，TypeScript，无后端、无登录。
 
-筛选用标签只能从这张闭集里取，不要新开：
+- 视觉和交互改 `src/`
+- 校验规则改 `scripts/validate-catalog.mjs`
+- GitHub Pages 工作流在 `.github/workflows/pages.yml`（本仓库用 `pages.workflow.yml` 存副本）
 
-- `坑` 踩坑、风控、边界
-- `上手` 安装、第一次、教程
-- `文档` 官方 / Cursor 帮助、发布与概念
-- `排障` 连不上、登录、恢复
-- `用量` 额度、定价、开通、订阅
-- `安全` 审批、隐私、密钥
-- `编制` 怎么编队伍、交接、岗位
-- `电脑操作` 云电脑、桌面、在电脑里干活
-- `插件` 插件、技能、MCP、第三方连接
-- `视频` 以视频为主
-- `开源` 自托管与替代
-- `对比` 横评、对 ChatGPT / Claude / OpenClaw
-- `销售` `工程` `购物` 岗位
-- `iOS` `Linux` 端
-- `日文` 日文来源
+站点代码是 MIT；目录数据是 CC0 1.0。请不要在 `data/catalog.json` 里加入与 Grok Bot 无关的版权声明。
 
-## 质量门槛
+若改了前端，在 `npm run validate` 之外再跑一次 `npm run build`。
 
-提交前请自检：
+## 提交拉取请求
+
+1. Fork 本仓库，从 `main` 拉出分支，例如 `add-docs-foo`。
+2. `npm run validate` 必须通过。
+3. 标题用中文，例如「新增：Cursor 帮助·恢复云电脑」。
+4. 描述里贴上你核验过的 URL，以及你把它放进该分区的理由。
+
+不接受：
+
+- 把本仓库变成通用 AI 导航
+- 在目录里夹带邀请码、返利、个人引流码
+- 大面积重排 JSON 却不改内容（难以审）
+
+## 自检清单
+
+提交前逐条过一遍：
 
 1. **链接是真的。** 用无痕窗口打开，确认不是 404，也不是「即将上线」空壳。构建脚本不代你做联网探活。
 2. **一句中文说明，且是点击理由。** `blurb` 只允许一个中文句号，且必须在句末。模式：给谁看 + 能得到什么 + 有何限制。不要堆功能清单，不要把英文原文整段贴进来。禁止用「说明如何」「文档写明」「介绍如何」「演示如何」开头。仓库名、英文标题必须在 `title` 里带中文译名（如 `rakazo：自托管常驻队友`），不要把 slug 或纯拉丁文当唯一标题。
@@ -79,28 +51,3 @@
 5. **一条一链。** 同一 URL 不要出现两次。同一篇文章的中英两个地址，只留读者更可能打开的那个。
 
 官方文档以 `docs.x.ai/grok-bot` 与 `cursor.com/help/grok-bot` 为准。若某篇官方页 404，直接删条目，不要改去猜测另一个路径。
-
-## 拉取请求流程
-
-1. Fork 本仓库，从 `main` 拉出分支，例如 `add-docs-foo`。
-2. 修改 `data/catalog.json`（若改站点代码，请在描述里单独说明）。
-3. `npm run validate` 必须通过；若改了前端，再跑 `npm run build`。
-4. 拉取请求标题用中文，例如「新增：Cursor 帮助·恢复云电脑」。
-5. 描述里贴上你核验过的 URL，以及你把它放进该分区的理由。
-6. 维护者可能要求缩短 `blurb`、改分区或去掉无法打开的链接。请把讨论留在拉取请求里。
-
-不接受：
-
-- 把本仓库变成通用 AI 导航
-- 在目录里夹带邀请码、返利、个人民流码
-- 大面积重排 JSON 却不改内容（难以审）
-
-## 改站点代码
-
-前端是 Astro 5 静态站，TypeScript，无后端、无登录。
-
-- 视觉和交互改 `src/`
-- 校验规则改 `scripts/validate-catalog.mjs`
-- GitHub Pages 工作流在 `.github/workflows/pages.yml`
-
-站点代码是 MIT；目录数据是 CC0 1.0。请不要在 `data/catalog.json` 里加入与 Grok Bot 无关的版权声明或水印。

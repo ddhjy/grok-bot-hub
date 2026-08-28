@@ -21,17 +21,11 @@ export function initDirectory(): void {
   const empty = root.querySelector<HTMLElement>("[data-empty]");
   const emptyTitle = root.querySelector<HTMLElement>("[data-empty-title]");
   const emptyCopy = root.querySelector<HTMLElement>("[data-empty-copy]");
-  const resultCount = root.querySelector<HTMLElement>("[data-result-count]");
   const resultLive = root.querySelector<HTMLElement>("[data-result-live]");
   const toolbar = root.querySelector<HTMLElement>(".toolbar");
-  const share = root.querySelector<HTMLButtonElement>("[data-share]");
-  const shareStatus = root.querySelector<HTMLElement>("[data-share-status]");
-  const shareFallback = root.querySelector<HTMLElement>("[data-share-fallback]");
-  const shareText = root.querySelector<HTMLTextAreaElement>("[data-share-text]");
 
   const catalogTitle = "Grok Bot 目录";
   const defaultCountLabel = `共 ${cards.length} 条`;
-  const shareIdleLabel = share?.textContent ?? "复制链接";
   const placeholderLong = search?.dataset.placeholderLong ?? "搜索标题";
   const placeholderShort = search?.dataset.placeholderShort ?? "搜索目录";
   const placeholderCompact = search?.dataset.placeholderCompact ?? "搜索";
@@ -137,16 +131,6 @@ export function initDirectory(): void {
     return homeHref(activeTag);
   };
 
-  const shareUrl = (): string | null => {
-    const q = activeQuery();
-    if (q) {
-      if (hasSearchDoc(q)) return `${location.origin}${searchDocHref(q)}`;
-      return null;
-    }
-    if (isSearchPath(location.pathname)) return `${location.origin}${base}search/`;
-    return `${location.origin}${homeHref(activeTag)}`;
-  };
-
   const writeUrl = (mode: HistoryMode): void => {
     if (applyingHistory) return;
     const next = buildPath();
@@ -205,59 +189,12 @@ export function initDirectory(): void {
     return (card.dataset.tags ?? "").split("\t").includes(tag);
   };
 
-  const shareTitle = (): string => {
+  const pageTitle = (): string => {
     const q = activeQuery();
     if (q) return hasSearchDoc(q) ? `「${q}」的搜索 · ${catalogTitle}` : catalogTitle;
     if (activeTag) return `${activeTag} · ${catalogTitle}`;
     if (isSearchPath(location.pathname)) return `搜索 · ${catalogTitle}`;
     return catalogTitle;
-  };
-
-  const sharePaste = (): string | null => {
-    const url = shareUrl();
-    if (!url) return null;
-    return `${shareTitle()}\n${url}`;
-  };
-
-  const idleShareName = (): string => {
-    if (shareUrl() === null) return "此搜索没有可分享的卡片";
-    const q = activeQuery();
-    if (q && hasSearchDoc(q)) return `复制「${q}」搜索页的标题和链接`;
-    if (activeTag) return `复制「${activeTag}」的标题和链接`;
-    return "复制标题和链接";
-  };
-
-  const syncShareAvailability = (): void => {
-    if (!share) return;
-    const ok = shareUrl() !== null;
-    share.hidden = !ok;
-    share.classList.toggle("is-unavailable", !ok);
-    share.toggleAttribute("aria-disabled", !ok);
-    if (!ok) share.setAttribute("aria-hidden", "true");
-    else share.removeAttribute("aria-hidden");
-    if (share.textContent === shareIdleLabel || share.textContent === "请手动复制") {
-      share.setAttribute("aria-label", idleShareName());
-    }
-  };
-
-  const hideShareFallback = (): void => {
-    if (shareFallback) shareFallback.hidden = true;
-  };
-
-  const showShareFallback = (text: string): void => {
-    if (!shareFallback || !shareText) return;
-    shareFallback.hidden = false;
-    shareText.value = text;
-    shareText.focus();
-    shareText.select();
-  };
-
-  const resetShareChrome = (): void => {
-    hideShareFallback();
-    if (!share) return;
-    share.textContent = shareIdleLabel;
-    share.setAttribute("aria-label", idleShareName());
-    if (shareStatus) shareStatus.textContent = "";
   };
 
   const updateDocumentTitle = (rawQuery: string): void => {
@@ -266,7 +203,7 @@ export function initDirectory(): void {
       document.title = `「${q}」的搜索 · ${catalogTitle}`;
       return;
     }
-    document.title = shareTitle();
+    document.title = pageTitle();
   };
 
   const apply = (): void => {
@@ -274,8 +211,6 @@ export function initDirectory(): void {
     const query = isActiveQuery(normalizeQuery(rawQuery)) ? normalizeQuery(rawQuery) : "";
     let visible = 0;
 
-    hideShareFallback();
-    if (share?.textContent === "请手动复制") resetShareChrome();
     searchWrap?.classList.toggle("has-query", Boolean(rawQuery));
 
     for (const card of cards) {
@@ -326,13 +261,8 @@ export function initDirectory(): void {
         : query || activeTag
           ? `当前显示 ${visible} 条`
           : defaultCountLabel;
-    if (resultCount) resultCount.textContent = countText;
     announceCount(countText, liveImmediate);
 
-    if (share && share.textContent === shareIdleLabel) {
-      share.setAttribute("aria-label", idleShareName());
-    }
-    syncShareAvailability();
     updateDocumentTitle(rawQuery);
     syncToolbarOffset();
     syncPlaceholder();
@@ -445,30 +375,6 @@ export function initDirectory(): void {
       setTag(suggest.dataset.suggestTag ?? "", "push");
     });
   }
-
-  let shareTimer = 0;
-  share?.addEventListener("click", async () => {
-    const titled = sharePaste();
-    hideShareFallback();
-    window.clearTimeout(shareTimer);
-    if (!titled) {
-      if (shareStatus) shareStatus.textContent = "此搜索没有可分享的卡片";
-      share.setAttribute("aria-label", "此搜索没有可分享的卡片");
-      return;
-    }
-    try {
-      await navigator.clipboard.writeText(titled);
-      share.textContent = "已复制";
-      share.setAttribute("aria-label", "已复制");
-      if (shareStatus) shareStatus.textContent = "";
-      shareTimer = window.setTimeout(() => resetShareChrome(), 2200);
-    } catch {
-      if (shareStatus) shareStatus.textContent = "";
-      showShareFallback(titled);
-      share.textContent = "请手动复制";
-      share.setAttribute("aria-label", "剪贴板不可用，请手动全选下面的文本。");
-    }
-  });
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {

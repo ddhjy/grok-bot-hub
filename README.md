@@ -1,81 +1,61 @@
 # Grok Bot 导航
 
-非官方的 Grok Bot 资源导航。内容写在 Git 里，网站只负责给人看。
+非官方的 Grok Bot 中文目录。Git 管内容，网站只负责给人看。
 
 **本站与 xAI、SpaceXAI、Cursor 均无隶属、赞助或合作关系。**
 
 在线阅读：<https://ddhjy.github.io/grok-bot-hub/>
 
-## Grok Bot 是什么（也不是什么）
-
-Grok Bot 是 2026-08-11 由 xAI/SpaceXAI 与 Cursor 推出的 always-on AI 队友：每个账号有一台持久云电脑（浏览器、文件、终端），合上笔记本它也继续干活。
-
-它**不是**：
-
-- grok.com 上的聊天窗口
-- Grok Imagine
-- 一篇 Grok 4.x 模型评测
-
-如果你要找的是模型、生图或网页聊天，请离开本站，去对应产品页。
-
-## Git 管内容，网站给人看
-
-- 目录的唯一数据源是 [`data/catalog.json`](data/catalog.json)
-- 静态前端读这份 JSON，按分区做成可搜索的卡片目录
-- 增删改条目 = 改 JSON 并发拉取请求，不必改页面结构
-
-条目结构：
-
-```json
-{
-  "id": "docs-get-started",
-  "title": "安装与第一次交接",
-  "url": "https://docs.x.ai/grok-bot/get-started",
-  "blurb": "说明如何安装桌面端并用 Cursor 账号创建第一个 Bot。",
-  "section": "official",
-  "tags": ["文档", "上手"]
-}
-```
-
-`blurb` 必须是**一句中文**，以中文句号「。」结尾。`section` 只能是：
-
-| id | 中文 |
-| --- | --- |
-| `official` | 官方资源 |
-| `tutorials` | 教程 |
-| `cases` | 实战案例 |
-| `skills` | 技能/插件/MCP |
-| `reviews` | 评测对比 |
-| `alternatives` | 开源替代 |
-| `community` | 社区与坑 |
-
-质量要求、范围和拉取请求流程见 [CONTRIBUTING.zh.md](CONTRIBUTING.zh.md)。
-
-## 本地开发
+## 五分钟上手
 
 需要 Node.js 22。
 
 ```bash
+git clone https://github.com/ddhjy/grok-bot-hub.git
+cd grok-bot-hub
 npm install
-npm run dev
+npm run dev          # 打开 http://localhost:4321/grok-bot-hub/
 ```
 
-默认打开 <http://localhost:4321/grok-bot-hub/>。
+试着添加一条目录条目——打开 `data/catalog.json`，在 `entries` 数组末尾追加：
+
+```json
+{
+  "id": "my-first-entry",
+  "added": "2026-08-28",
+  "title": "我的第一条",
+  "url": "https://example.com",
+  "blurb": "用一句中文说清为什么要点这条链接。",
+  "section": "tutorials",
+  "tags": ["上手"]
+}
+```
+
+运行校验：
 
 ```bash
-npm run validate   # 校验目录 JSON
-npm run build      # 校验 + 生产构建
-npm run preview    # 预览 dist
+npm run validate     # 通过了再提交
 ```
 
-站点发布在 GitHub Pages，仓库用户为 `ddhjy`，仓库名为 `grok-bot-hub`，站点根路径是 `/grok-bot-hub/`。构建由 [GitHub Actions](.github/workflows/pages.yml) 完成。
+如果只想浏览或改前端，跳过 `catalog.json`，直接跑 `npm run dev`。
+
+## 文档地图
+
+本仓库的文档按 [Divio 四象限](https://docs.divio.com/documentation-system/) 组织：
+
+| 象限 | 文件 | 读谁 |
+| --- | --- | --- |
+| **Tutorial** 入门引导 | 本文件上方「五分钟上手」 | 第一次 clone 的人 |
+| **How-to** 操作指南 | [CONTRIBUTING.zh.md](CONTRIBUTING.zh.md) | 要提拉取请求的贡献者 |
+| **Reference** 技术参考 | [CATALOG.zh.md](CATALOG.zh.md) | 写 JSON 或改校验脚本的人 |
+| **Explanation** 设计解释 | [PRODUCT.md](PRODUCT.md) | 想理解决策理由的人 |
 
 ## 许可
 
 - 站点代码（页面、样式、脚本）：[MIT](LICENSE)，Copyright 2026 KAI ddhjy
 - 目录数据（`data/catalog.json`）：[CC0 1.0](LICENSE-CATALOG)
 
-## 致谢与边界
+## 致谢
 
 链接种子参考了 [RongleCat/awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot)（CC0 清单）以及 `docs.x.ai/grok-bot`、`cursor.com/help/grok-bot` 中已核验可打开的官方文档。本站重写了中文说明，不复制其品牌物料、微信群二维码或线下活动信息。
 
