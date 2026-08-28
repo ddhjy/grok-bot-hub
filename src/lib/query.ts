@@ -15,17 +15,8 @@ export const QUERY_EXPAND: Record<string, string[]> = {
   anquan: ["安全"],
 };
 
-/** A typed section name opens that partition, not a synonym dump. */
-export const SECTION_QUERY: Record<string, string> = {
-  技能: "skills",
-  教程: "tutorials",
-  官方资源: "official",
-  实战案例: "cases",
-  评测对比: "reviews",
-  开源替代: "alternatives",
-  社区与坑: "community",
-  观点与实测: "takes",
-};
+/** @deprecated Section chips are gone; kept empty so old call sites compile. */
+export const SECTION_QUERY: Record<string, string> = {};
 
 const DENY_BEFORE = /(?:而不是|不是把|伪装成|不要把|并非|并不是)\s*$/;
 const LIST_SEP = /[,，、/|]/;
@@ -96,7 +87,6 @@ export interface QueryExtras {
 /**
  * Title/alias/tag hits, plus the typed query in the blurb.
  * One-letter Latin does not search (Cursor contains s; every URL is https).
- * A section name such as 技能 is that partition, plus a skill-titled official row.
  */
 export function matchesQuery(
   primary: string,
@@ -105,14 +95,6 @@ export function matchesQuery(
   extras: QueryExtras = {},
 ): boolean {
   if (!isActiveQuery(query)) return true;
-  const sectionHit = SECTION_QUERY[query];
-  if (sectionHit) {
-    if (extras.section === sectionHit) return true;
-    if (query === "技能" && extras.section === "official" && fieldMatches(primary, query)) {
-      return true;
-    }
-    return false;
-  }
   if (fieldMatches(primary, query)) return true;
   if (!isLatinTokenQuery(query) && fieldMatches(blurb, query) && !isListContext(blurb, query)) {
     return true;

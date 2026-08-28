@@ -3,9 +3,9 @@ import Base from "../layouts/Base.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Directory from "../components/Directory.astro";
-import { displayTitle, visibleOnDefaultGrid } from "../lib/catalog";
+import { displayTitle, allEntriesNewest } from "../lib/catalog";
 
-const visibleEntries = visibleOnDefaultGrid();
+const visibleEntries = allEntriesNewest();
 const visibleTotal = visibleEntries.length;
 
 const jsonLd = {
@@ -30,18 +30,7 @@ const jsonLd = {
 >
   <Header />
   <main id="main" tabindex="-1">
-    <section class="hero">
-      <div class="wrap">
-        <h1>常驻云电脑队友的<span class="keep-phrase">中文目录</span></h1>
-        <p class="tagline">
-          给要上手 Grok Bot 的人：本页从安装到<span class="keep-phrase">第一个 Bot</span>，{visibleTotal} 条已核验链接。<span class="keep-phrase">必读坑在社区与坑</span>。
-        </p>
-        <p class="lede">
-          Grok Bot 是 2026年8月11日由 xAI 与 Cursor 推出的全天候云电脑队友。本目录不收录 grok.com
-          聊天、Grok Imagine 生图，也不收录只评 Grok 4.x 模型的文章。
-        </p>
-      </div>
-    </section>
+    <h1 class="visually-hidden">Grok Bot 目录</h1>
     <Directory />
   </main>
   <Footer />

@@ -50,7 +50,7 @@ const hideTitle = Boolean(pin?.hideTitle);
     !pin && entry.tags && entry.tags.length > 0 && (
       <div class="tags">
         {entry.tags.map((tag) => (
-          <span class="tag">{tag}</span>
+          <span class="tag" data-tag={tag}>{tag}</span>
         ))}
       </div>
     )

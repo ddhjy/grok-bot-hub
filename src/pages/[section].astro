@@ -1,41 +1,12 @@
 ---
-import Base from "../layouts/Base.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import Directory from "../components/Directory.astro";
-import {
-  SECTION_IDS,
-  SECTION_OG,
-  sectionDisplayName,
-  type SectionId,
-} from "../lib/catalog";
+import { SECTION_IDS } from "../lib/catalog";
 
 export function getStaticPaths() {
   return SECTION_IDS.map((section) => ({ params: { section } }));
 }
 
-const section = Astro.params.section as SectionId;
-const label = sectionDisplayName(section);
-const og = SECTION_OG[section];
-const title = og?.title ?? `${label} · Grok Bot 目录`;
-const description = og?.description ?? "常驻云电脑队友的中文目录。";
+const home = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+return Astro.redirect(home, 308);
 ---
-
-<Base
-  title={title}
-  description={description}
-  ogImage={og?.image}
-  ogImageAlt={og?.imageAlt}
->
-  <Header />
-  <main id="main" tabindex="-1">
-    <section class="hero hero-section">
-      <div class="wrap">
-        <h1>{label}</h1>
-        <p class="tagline">{description}</p>
-      </div>
-    </section>
-    <Directory initialSection={section} />
-  </main>
-  <Footer showHome />
-</Base>

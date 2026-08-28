@@ -1,184 +1,74 @@
 ---
 import {
+  allEntriesNewest,
   catalog,
-  displayTitle,
-  displayBlurb,
-  indexLabel,
-  officialRestBuckets,
+  catalogTagStats,
   searchPrimary,
   searchBlurb,
   searchUrl,
-  hostnameOf,
-  hostTone,
-  DEMOTE_START_IDS,
-  DEMOTE_UNLESS_SEARCH,
-  OFFICIAL_CLUSTERS,
   formatZhDate,
-  isHiddenOnDefaultGrid,
-  isCaseTake,
-  visibleOnDefaultGrid,
-  visibleInSection,
-  casePinned,
-  caseGroups,
-  caseTakes,
-  caseSalesLead,
-  caseSalesSplit,
-  caseSalesRanked,
-  caseOpsLead,
-  caseOpsSplit,
-  casesCanvasCount,
-  isCasesRestEntry,
-  communityLead,
-  communityRestRanked,
-  communityRestExtra,
-  skillLead,
-  skillRestRanked,
-  chipLabel,
   shareQueries,
-  shareSectionQueryPairs,
-  hubChipItems,
-  queryHitsInSection,
-  sortByAdded,
-  compareAdded,
   type CatalogEntry,
-  type SectionId,
-  type HubSectionId,
 } from "../lib/catalog";
 import { isActiveQuery, matchesQuery, normalizeQuery } from "../lib/query";
 import CatalogCard from "./CatalogCard.astro";
 
 interface Props {
-  initialSection?: HubSectionId;
   searchPage?: boolean;
   initialQuery?: string;
+  initialTag?: string;
 }
 
-const { initialSection, searchPage = false, initialQuery = "" } = Astro.props;
+const { searchPage = false, initialQuery = "", initialTag = "" } = Astro.props;
 const base = import.meta.env.BASE_URL.endsWith("/")
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;
-const visibleTotal = visibleOnDefaultGrid().length;
+const entries = allEntriesNewest();
+const tags = catalogTagStats();
 const updated = formatZhDate(catalog.updated);
-const pinnedCases = casePinned();
-const groupedCases = caseGroups();
-const takeCases = sortByAdded(caseTakes(), "new");
-const salesLead = caseSalesLead();
-const salesSplit = caseSalesSplit();
-const salesRankedPins = caseSalesRanked();
-const pitLead = communityLead();
-const pitRanked = communityRestRanked();
-const pitExtra = sortByAdded(communityRestExtra(), "new");
-const opsLead = caseOpsLead();
-const opsSplit = caseOpsSplit();
-const skillLeadCard = skillLead();
-const skillRest = [...skillRestRanked()].sort((a, b) => compareAdded(a.entry, b.entry, "new"));
 const documentedQueries = shareQueries();
-const sectionQueryDocs = shareSectionQueryPairs()
-  .map((item) => `${item.section}\t${item.q}`)
-  .join("\n");
-const chipItems = hubChipItems();
 const activeInitialQuery = isActiveQuery(normalizeQuery(initialQuery)) ? normalizeQuery(initialQuery) : "";
 const emptySearchPage = searchPage && !activeInitialQuery;
-const casesVisible = casesCanvasCount();
-const cardHeading = "h3";
-const ClusterHeading = initialSection ? "h2" : "h3";
-const opsRest = sortByAdded(opsSplit.rest, "new");
-const salesRest = sortByAdded(salesSplit.rest, "new");
-const engEntries = sortByAdded(groupedCases.find((group) => group.id === "eng")?.entries ?? [], "new");
-
-function startAttr(entry: CatalogEntry): string | undefined {
-  return DEMOTE_START_IDS.has(entry.id) ? "true" : undefined;
-}
-
-function demoteAttr(entry: CatalogEntry): string | undefined {
-  return DEMOTE_UNLESS_SEARCH.has(entry.id) ? "ios" : undefined;
-}
-
-function ssrHidden(entry: CatalogEntry): boolean | undefined {
-  if (emptySearchPage) return true;
-  if (activeInitialQuery) {
-    const hit = matchesQuery(searchPrimary(entry), searchBlurb(entry), activeInitialQuery, {
-      url: searchUrl(entry),
-      section: entry.section,
-    });
-    if (!hit) return true;
-    if (initialSection === "takes") return isCaseTake(entry) ? undefined : true;
-    if (isCaseTake(entry) && initialSection === "cases") return true;
-    if (initialSection && initialSection !== "takes" && entry.section !== initialSection) return true;
-    return undefined;
-  }
-  if (DEMOTE_UNLESS_SEARCH.has(entry.id)) return true;
-  if (DEMOTE_START_IDS.has(entry.id)) {
-    return initialSection ? entry.section !== initialSection : true;
-  }
-  if (isCaseTake(entry) && initialSection === "cases") return true;
-  if (initialSection === "takes") return isCaseTake(entry) ? undefined : true;
-  if (initialSection && initialSection !== "takes" && entry.section !== initialSection) return true;
-  if (initialSection === "cases" && isCasesRestEntry(entry)) return true;
-  return isHiddenOnDefaultGrid(entry) || undefined;
-}
-
-function restAttr(entry: CatalogEntry): string | undefined {
-  return initialSection === "cases" && isCasesRestEntry(entry) ? "true" : undefined;
-}
 
 function cardAttrs(entry: CatalogEntry) {
+  const hiddenBySearch =
+    emptySearchPage ||
+    (activeInitialQuery
+      ? !matchesQuery(searchPrimary(entry), searchBlurb(entry), activeInitialQuery, {
+          url: searchUrl(entry),
+          section: entry.section,
+        })
+      : false);
+  const hiddenByTag = initialTag ? !(entry.tags ?? []).includes(initialTag) : false;
   return {
     "data-card": true,
     "data-id": entry.id,
     "data-added": entry.added ?? "",
     "data-section": entry.section,
+    "data-tags": (entry.tags ?? []).join("\t"),
     "data-search": searchPrimary(entry),
     "data-search-blurb": searchBlurb(entry),
     "data-search-url": searchUrl(entry),
-    "data-in-start-path": startAttr(entry),
-    "data-demote": demoteAttr(entry),
-    "data-case-take": isCaseTake(entry) ? "true" : undefined,
-    "data-cases-rest": restAttr(entry),
-    hidden: ssrHidden(entry) || undefined,
+    hidden: hiddenBySearch || hiddenByTag || undefined,
   };
 }
 
-/** Heading/grid on this page. Start-path rows only count on their section page. */
-function sectionTally(id: SectionId): number {
-  if (initialSection === id) return visibleInSection(id).length;
-  return visibleOnDefaultGrid(id).length;
+function tagHref(tag: string): string {
+  if (!tag) return base;
+  const url = new URL(base, "https://ddhjy.github.io");
+  url.searchParams.set("tag", tag);
+  return `${url.pathname}${url.search}`;
 }
 
-/** Chip number is the document behind the click, not hidden rows. */
-function chipCount(id: "all" | HubSectionId): number {
-  if (id === "all") return visibleTotal;
-  if (id === "takes") return takeCases.length;
-  if (id === "cases") return casesVisible;
-  return visibleInSection(id).length;
-}
-
-function showChipCount(id: "all" | HubSectionId): boolean {
-  return id !== "community";
-}
-
-function chipHref(id: "all" | HubSectionId): string {
-  return id === "all" ? base : `${base}${id}/`;
-}
-
-function groupHasVisible(entries: CatalogEntry[]): boolean {
-  return entries.some((entry) => !ssrHidden(entry));
-}
+const visibleNow = entries.filter((entry) => !cardAttrs(entry).hidden).length;
 ---
 
 <div
-  class:list={[
-    "directory",
-    initialSection && "is-section-page",
-    searchPage && "is-search-page",
-    activeInitialQuery && "is-searching",
-  ]}
+  class:list={["directory", searchPage && "is-search-page", activeInitialQuery && "is-searching"]}
   data-directory
   data-base={base}
-  data-page-section={initialSection ?? ""}
   data-search-page={searchPage ? "true" : undefined}
   data-search-docs={documentedQueries.join("\n")}
-  data-section-docs={sectionQueryDocs}
 >
   <div class="toolbar">
     <div class="wrap toolbar-inner">
@@ -201,52 +91,48 @@ function groupHasVisible(entries: CatalogEntry[]): boolean {
         />
         <kbd aria-hidden="true">/</kbd>
       </div>
-      <div class="filters-wrap">
-        <div class="filters" role="group" aria-label="按分区筛选" data-filters>
-          {
-            chipItems.map((chip) => (
-              <a
-                class="filter"
-                href={chipHref(chip.id)}
-                data-filter={chip.id}
-                data-label={chip.label}
-                aria-pressed={(initialSection ? initialSection : "all") === chip.id ? "true" : "false"}
-              >
-                <span class:list={["chip-text", chip.id === "community" && "keep-phrase"]}>
-                  <span class="chip-full">{chip.label}</span>
-                  {chip.short !== chip.label && <span class="chip-short">{chip.short}</span>}
-                </span>
-                {showChipCount(chip.id) && (
-                  <span class="count" data-count data-dest-count={chipCount(chip.id)}>
-                    {chipCount(chip.id)}
-                  </span>
-                )}
-              </a>
-            ))
-          }
-        </div>
-      </div>
-      <div class="sort-ctrl" data-sort-group role="group" aria-label="按收录时间排序">
-        <button type="button" class="sort-btn" data-sort-value="new" aria-pressed="true">最新收录</button>
-        <button type="button" class="sort-btn" data-sort-value="old" aria-pressed="false">最早收录</button>
-      </div>
     </div>
   </div>
 
   <div class="wrap">
+    <div class="filters-wrap">
+      <div class="filters" role="group" aria-label="按标签筛选" data-filters>
+        <a
+          class="filter"
+          href={base}
+          data-filter=""
+          data-label="全部"
+          aria-pressed={initialTag ? "false" : "true"}
+        >
+          <span class="chip-text">全部</span>
+          <span class="count" data-count data-dest-count={entries.length}>{entries.length}</span>
+        </a>
+        {
+          tags.map((item) => (
+            <a
+              class="filter"
+              href={tagHref(item.tag)}
+              data-filter={item.tag}
+              data-label={item.tag}
+              aria-pressed={initialTag === item.tag ? "true" : "false"}
+            >
+              <span class="chip-text">{item.tag}</span>
+              <span class="count" data-count data-dest-count={item.count}>
+                {item.count}
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
     <div class="status-row">
       <span data-result-count>
         {emptySearchPage
           ? "输入关键词开始搜索"
-          : activeInitialQuery && initialSection
-            ? `当前显示 ${queryHitsInSection(initialSection, activeInitialQuery).length} 条`
-            : initialSection === "cases"
-              ? `当前显示 ${casesVisible} 条`
-              : initialSection === "takes"
-                ? `当前显示 ${takeCases.length} 条`
-                : initialSection
-                  ? `当前显示 ${sectionTally(initialSection as SectionId)} 条`
-                  : `共 ${visibleTotal} 条`}
+          : activeInitialQuery || initialTag
+            ? `当前显示 ${visibleNow} 条`
+            : `共 ${entries.length} 条`}
       </span>
       <span class="visually-hidden" data-result-live aria-live="polite" aria-atomic="true"></span>
       <div class="status-actions">
@@ -258,23 +144,14 @@ function groupHasVisible(entries: CatalogEntry[]): boolean {
           <span>剪贴板不可用，请手动全选复制：</span>
           <textarea data-share-text readonly rows="4"></textarea>
         </label>
-        {updated && <span>更新于 {updated}</span>}
+        {updated && <span>按收录时间倒序 · 更新于 {updated}</span>}
       </div>
     </div>
-
-    <nav class="start-path" data-start-path aria-label="从这里开始" hidden={initialSection || searchPage ? true : undefined}>
-      <p class="start-kicker">从这里开始</p>
-      <p class="start-lead">本页能看到安装和第一个 Bot。<span class="keep-phrase">必读坑在社区与坑</span>，点进去先读，不必先跳去英文站点。</p>
-      <div class="start-actions">
-        <a class="start-jump" href={`${base}official/`} data-start-section="official">看官方入门</a>
-        <a class="start-jump" href={`${base}community/`} data-start-section="community">看社区与坑</a>
-      </div>
-    </nav>
 
     <div class="empty" data-empty hidden={emptySearchPage ? undefined : true}>
       <p class="empty-title" data-empty-title>{emptySearchPage ? "输入关键词" : "没有匹配的条目"}</p>
       <p class="empty-copy" data-empty-copy>
-        {emptySearchPage ? "在目录里搜标题、别名和分区。" : "换个词试试，或清空筛选。"}
+        {emptySearchPage ? "在目录里搜标题、别名和标签。" : "换个词试试，或清空筛选。"}
       </p>
       <div class="empty-actions">
         <button type="button" class="btn-primary" data-clear-search>清空搜索</button>
@@ -282,449 +159,19 @@ function groupHasVisible(entries: CatalogEntry[]): boolean {
       </div>
       <p class="empty-suggest">
         试试
-        <button type="button" data-suggest="坑">坑</button>
-        <button type="button" data-suggest="技能" data-suggest-section="skills">技能</button>
-        <button type="button" data-suggest="定价">定价</button>
+        <button type="button" data-suggest-tag="坑">坑</button>
+        <button type="button" data-suggest-tag="文档">文档</button>
+        <button type="button" data-suggest-tag="插件">插件</button>
       </p>
     </div>
 
-    {
-      catalog.sections.map((section) => {
-        const isOfficial = section.id === "official";
-        const isCases = section.id === "cases";
-        const isCommunity = section.id === "community";
-        const entries = sortByAdded(catalog.entries.filter((entry) => entry.section === section.id && !isCaseTake(entry)), "new");
-        const sectionVisible = sectionTally(section.id as SectionId);
-        return (
-          <section
-            class="section-block"
-            id={section.id}
-            data-section-block={section.id}
-            hidden={initialSection && initialSection !== section.id ? true : undefined}
-          >
-            {
-              !initialSection && (
-                <div class="section-head">
-                  <h2>{chipLabel(section)}</h2>
-                </div>
-              )
-            }
-            {isOfficial ? (
-              <div class="cluster-grid">
-                {OFFICIAL_CLUSTERS.map((cluster) => {
-                  const buckets = officialRestBuckets(cluster.id);
-                  const featured = sortByAdded(buckets.featured, "new");
-                  const short = sortByAdded(buckets.short, "new");
-                  const extra = sortByAdded(buckets.extra, "new");
-                  const restVisible = [...short, ...extra].filter((entry) => !ssrHidden(entry)).length;
-                  const extraVisible = extra.filter((entry) => !ssrHidden(entry)).length;
-                  const featuredVisible = featured.filter((entry) => !ssrHidden(entry)).length;
-                  const clusterVisible = featuredVisible + restVisible;
-                  return (
-                    <div class="cluster" data-cluster={cluster.id} hidden={clusterVisible === 0 || undefined}>
-                      <ClusterHeading class="cluster-label">{cluster.label}</ClusterHeading>
-                      <ul class="doc-list">
-                        {featured.map((entry) => (
-                          <li>
-                            <a
-                              class="doc-row"
-                              href={entry.url}
-                              {...cardAttrs(entry)}
-                              rel="noopener noreferrer"
-                              target="_blank"
-                            >
-                              <span class="doc-kicker">
-                                <span class="host-line">
-                                  <span class:list={["host-mark", `tone-${hostTone(hostnameOf(entry.url))}`]} aria-hidden="true">
-                                    {hostnameOf(entry.url).slice(0, 1)}
-                                  </span>
-                                  <span>{hostnameOf(entry.url)}</span>
-                                </span>
-                                <span class="card-cta" aria-hidden="true">↗</span>
-                              </span>
-                              <span class="doc-title">{displayTitle(entry)}</span>
-                              <span class="doc-blurb">{displayBlurb(entry)}</span>
-                              <span class="visually-hidden">（新窗口打开）</span>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                      {short.length + extra.length > 0 && (
-                        <nav class="doc-index-wrap" data-cluster-rest-wrap hidden={restVisible === 0 || undefined}>
-                          <p class="cluster-index-label" data-rest-label>
-                            更多文档
-                          </p>
-                          <ul class="doc-index" data-cluster-rest>
-                            {short.map((entry) => (
-                              <li>
-                                <a
-                                  class="doc-row doc-index-link"
-                                  href={entry.url}
-                                  {...cardAttrs(entry)}
-                                  rel="noopener noreferrer"
-                                  target="_blank"
-                                >
-                                  <span class="doc-kicker">
-                                    <span class="host-line">
-                                      <span class:list={["host-mark", `tone-${hostTone(hostnameOf(entry.url))}`]} aria-hidden="true">
-                                        {hostnameOf(entry.url).slice(0, 1)}
-                                      </span>
-                                      <span>{hostnameOf(entry.url)}</span>
-                                    </span>
-                                    <span class="card-cta" aria-hidden="true">↗</span>
-                                  </span>
-                                  <span class="doc-title doc-title-index">{indexLabel(entry)}</span>
-                                  <span class="doc-title doc-title-full">{displayTitle(entry)}</span>
-                                  <span class="doc-blurb">{displayBlurb(entry)}</span>
-                                  <span class="visually-hidden">（新窗口打开）</span>
-                                </a>
-                              </li>
-                            ))}
-                          </ul>
-                          {extra.length > 0 && (
-                            <details class="doc-index-more" data-rest-extra hidden={extraVisible === 0 || undefined}>
-                              <summary>其余文档</summary>
-                              <ul class="doc-index">
-                                {extra.map((entry) => (
-                                  <li>
-                                    <a
-                                      class="doc-row doc-index-link"
-                                      href={entry.url}
-                                      {...cardAttrs(entry)}
-                                      rel="noopener noreferrer"
-                                      target="_blank"
-                                    >
-                                      <span class="doc-kicker">
-                                        <span class="host-line">
-                                          <span class:list={["host-mark", `tone-${hostTone(hostnameOf(entry.url))}`]} aria-hidden="true">
-                                            {hostnameOf(entry.url).slice(0, 1)}
-                                          </span>
-                                          <span>{hostnameOf(entry.url)}</span>
-                                        </span>
-                                        <span class="card-cta" aria-hidden="true">↗</span>
-                                      </span>
-                                      <span class="doc-title doc-title-index">{indexLabel(entry)}</span>
-                                      <span class="doc-title doc-title-full">{displayTitle(entry)}</span>
-                                      <span class="doc-blurb">{displayBlurb(entry)}</span>
-                                      <span class="visually-hidden">（新窗口打开）</span>
-                                    </a>
-                                  </li>
-                                ))}
-                              </ul>
-                            </details>
-                          )}
-                        </nav>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            ) : isCases ? (
-              <div class="cases-board" data-cases-board>
-                <div
-                  class="case-pinned-wrap"
-                  data-case-pinned
-                  hidden={pinnedCases.every((pin) => ssrHidden(pin.entry)) || undefined}
-                >
-                  {initialSection === "cases" && !activeInitialQuery && (
-                    <ClusterHeading class="case-group-label">先看这篇</ClusterHeading>
-                  )}
-                  {!initialSection && (
-                    <p class="case-lead">先看这篇：有名字、能跟完。电脑操作、销售、工程就在下面。</p>
-                  )}
-                  {initialSection === "cases" && !activeInitialQuery && (
-                    <p class="case-lead">中文里把内容流水线写完的一篇。下面每组一篇能跟完的。</p>
-                  )}
-                  <div class="grid pin-grid">
-                    {pinnedCases.map((pin) => (
-                      <CatalogCard entry={pin.entry} attrs={cardAttrs(pin.entry)} pin={pin} heading={cardHeading} />
-                    ))}
-                  </div>
-                </div>
-                {initialSection === "cases" ? (
-                  <div class="cases-page-lists">
-                    <section
-                      class="case-open-group"
-                      data-case-open="ops"
-                      hidden={
-                        !groupHasVisible([
-                          ...(opsLead ? [opsLead.entry] : []),
-                          ...opsSplit.ranked,
-                          ...opsRest,
-                        ]) || undefined
-                      }
-                    >
-                      <ClusterHeading class="case-group-label">电脑操作</ClusterHeading>
-                      {opsLead && !activeInitialQuery && (
-                        <div class="grid pin-grid">
-                          <CatalogCard
-                            entry={opsLead.entry}
-                            attrs={cardAttrs(opsLead.entry)}
-                            pin={opsLead}
-                            heading={cardHeading}
-                          />
-                        </div>
-                      )}
-                      <div class="grid">
-                        {activeInitialQuery && opsLead && (
-                          <CatalogCard
-                            entry={opsLead.entry}
-                            attrs={cardAttrs(opsLead.entry)}
-                            heading={cardHeading}
-                          />
-                        )}
-                        {opsSplit.ranked
-                          .filter((entry) => entry.id !== opsLead?.entry.id)
-                          .map((entry) => (
-                            <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                          ))}
-                        {opsRest.map((entry) => (
-                          <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                        ))}
-                      </div>
-                    </section>
-                    <section
-                      class="case-open-group"
-                      data-case-open="sales"
-                      hidden={!groupHasVisible([...salesSplit.ranked, ...salesRest]) || undefined}
-                    >
-                      <ClusterHeading class="case-group-label">销售与编制</ClusterHeading>
-                      {!activeInitialQuery && (
-                        <div class="grid pin-grid">
-                          {salesRankedPins.map((pin) => (
-                            <CatalogCard
-                              entry={pin.entry}
-                              attrs={cardAttrs(pin.entry)}
-                              pin={pin}
-                              heading={cardHeading}
-                            />
-                          ))}
-                        </div>
-                      )}
-                      <div class="grid">
-                        {activeInitialQuery &&
-                          salesRankedPins.map((pin) => (
-                            <CatalogCard
-                              entry={pin.entry}
-                              attrs={cardAttrs(pin.entry)}
-                              heading={cardHeading}
-                            />
-                          ))}
-                        {salesRest.map((entry) => (
-                          <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                        ))}
-                      </div>
-                    </section>
-                    <section
-                      class="case-open-group"
-                      data-case-open="eng"
-                      hidden={!groupHasVisible(engEntries) || undefined}
-                    >
-                      <ClusterHeading class="case-group-label">工程</ClusterHeading>
-                      <div class="grid">
-                        {engEntries.map((entry) => (
-                          <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                        ))}
-                      </div>
-                    </section>
-                  </div>
-                ) : (
-                  groupedCases.map((group) => {
-                    const isSales = group.id === "sales";
-                    const isOps = group.id === "ops";
-                    const summaryLabel = isSales
-                      ? `销售与编制 · 先看 ${salesLead?.name ?? "Price Foulger"}`
-                      : isOps
-                        ? `电脑操作 · 先看 ${opsLead?.name ?? "Debbie"}`
-                        : group.label;
-                    const salesRanked = isSales ? salesSplit.ranked : [];
-                    const salesRest = isSales ? salesSplit.rest : [];
-                    const opsRanked = isOps ? opsSplit.ranked : [];
-                    const opsRest = isOps ? opsSplit.rest : [];
-                    return (
-                      <details class="case-group" data-case-group={group.id}>
-                        <summary>
-                          {summaryLabel}
-                          {isSales || isOps ? (
-                            <span class="count visually-hidden" data-group-count>
-                              {group.entries.length}
-                            </span>
-                          ) : (
-                            <span class="count" data-group-count>
-                              {group.entries.length}
-                            </span>
-                          )}
-                        </summary>
-                        {isSales ? (
-                          <div class="sales-board">
-                            <div class="grid">
-                              {salesRanked.map((entry) => (
-                                <CatalogCard
-                                  entry={entry}
-                                  attrs={cardAttrs(entry)}
-                                  pin={entry.id === salesLead?.entry.id ? salesLead : undefined}
-                                  heading={cardHeading}
-                                />
-                              ))}
-                            </div>
-                            {salesRest.length > 0 && (
-                              <details class="sales-extra" data-sales-extra>
-                                <summary>
-                                  其余销售
-                                  <span class="count" data-sales-extra-count>
-                                    {salesRest.length}
-                                  </span>
-                                </summary>
-                                <div class="grid">
-                                  {salesRest.map((entry) => (
-                                    <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                                  ))}
-                                </div>
-                              </details>
-                            )}
-                          </div>
-                        ) : isOps ? (
-                          <div class="sales-board">
-                            <div class="grid pin-grid">
-                              {opsRanked.map((entry) => (
-                                <CatalogCard
-                                  entry={entry}
-                                  attrs={cardAttrs(entry)}
-                                  pin={entry.id === opsLead?.entry.id ? opsLead : undefined}
-                                  heading={cardHeading}
-                                />
-                              ))}
-                            </div>
-                            {opsRest.length > 0 && (
-                              <details class="sales-extra" data-ops-extra>
-                                <summary>
-                                  其余电脑操作
-                                  <span class="count" data-ops-extra-count>
-                                    {opsRest.length}
-                                  </span>
-                                </summary>
-                                <div class="grid">
-                                  {opsRest.map((entry) => (
-                                    <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                                  ))}
-                                </div>
-                              </details>
-                            )}
-                          </div>
-                        ) : (
-                          <div class="grid">
-                            {group.entries.map((entry) => (
-                              <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                            ))}
-                          </div>
-                        )}
-                      </details>
-                    );
-                  })
-                )}
-              </div>
-            ) : isCommunity ? (
-              <div class="community-board">
-                {
-                  pitLead && (
-                    <div class="community-lead" data-community-lead>
-                      <CatalogCard
-                        entry={pitLead.entry}
-                        attrs={cardAttrs(pitLead.entry)}
-                        pin={{ ...pitLead, hideTitle: true }}
-                        heading={cardHeading}
-                      />
-                    </div>
-                  )
-                }
-                <ol class="community-rank" data-community-rank>
-                  {pitRanked.map((item, index) => (
-                    <li class="community-rank-item">
-                      <span class="community-rank-n" aria-hidden="true">
-                        {index + 1}
-                      </span>
-                      <CatalogCard
-                        entry={item.entry}
-                        attrs={cardAttrs(item.entry)}
-                        pin={{ ...item, hideTitle: true }}
-                        heading={cardHeading}
-                      />
-                    </li>
-                  ))}
-                </ol>
-                {pitExtra.length > 0 && (
-                  <details class="community-extra" data-community-extra>
-                    <summary>
-                      其余现场
-                      <span class="count">{pitExtra.length}</span>
-                    </summary>
-                    <div class="grid">
-                      {pitExtra.map((entry) => (
-                        <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                      ))}
-                    </div>
-                  </details>
-                )}
-              </div>
-            ) : section.id === "skills" ? (
-              <div class="skills-board" data-skills-board>
-                {
-                  skillLeadCard && (
-                    <div class="skills-lead" data-skills-lead>
-                      <div class="grid pin-grid">
-                        <CatalogCard
-                          entry={skillLeadCard.entry}
-                          attrs={cardAttrs(skillLeadCard.entry)}
-                          pin={{ mark: skillLeadCard.mark, tone: skillLeadCard.tone, reason: skillLeadCard.reason }}
-                          heading={cardHeading}
-                        />
-                      </div>
-                    </div>
-                  )
-                }
-                <div class="grid">
-                  {skillRest.map((item) => (
-                    <CatalogCard
-                      entry={item.entry}
-                      attrs={cardAttrs(item.entry)}
-                      pin={{ mark: item.mark, tone: item.tone, reason: item.reason }}
-                      heading={cardHeading}
-                    />
-                  ))}
-                </div>
-              </div>
-            ) : (
-              <div class="grid">
-                {entries.map((entry) => (
-                  <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-                ))}
-              </div>
-            )}
-          </section>
-        );
-      })
-    }
-
-    <section
-      class="section-block"
-      data-takes-block
-      hidden={initialSection && initialSection !== "takes" ? true : undefined}
-    >
+    <div class="feed">
       {
-        !initialSection && (
-          <div class="section-head">
-            <h2>观点与实测</h2>
-          </div>
-        )
+        entries.map((entry) => (
+          <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading="h2" />
+        ))
       }
-      <div class="grid">
-        {
-          takeCases.map((entry) => (
-            <CatalogCard entry={entry} attrs={cardAttrs(entry)} heading={cardHeading} />
-          ))
-        }
-      </div>
-    </section>
+    </div>
   </div>
 </div>
 

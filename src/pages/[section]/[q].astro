@@ -1,56 +1,15 @@
 ---
-import fs from "node:fs";
-import path from "node:path";
-import Base from "../../layouts/Base.astro";
-import Header from "../../components/Header.astro";
-import Footer from "../../components/Footer.astro";
-import Directory from "../../components/Directory.astro";
-import {
-  SECTION_IDS,
-  SECTION_OG,
-  canonicalShareQuery,
-  sectionDisplayName,
-  sectionSearchTitle,
-  sectionSearchDescription,
-  shareSectionQueryPairs,
-  sectionQueryOgFile,
-  type SectionId,
-} from "../../lib/catalog";
+import { shareSectionQueryPairs } from "../../lib/catalog";
 
 export function getStaticPaths() {
   return shareSectionQueryPairs()
     .filter((item) => item.section !== "takes")
-    .filter((item) => SECTION_IDS.includes(item.section as SectionId))
     .map((item) => ({ params: { section: item.section, q: item.q } }));
 }
 
-const section = Astro.params.section as SectionId;
-const raw = decodeURIComponent(Astro.params.q ?? "");
-const q = canonicalShareQuery(raw);
-const label = sectionDisplayName(section);
-const title = sectionSearchTitle(section, q);
-const description = sectionSearchDescription(section, q);
-const ogName = sectionQueryOgFile(section, q);
-const ogExists = fs.existsSync(path.join(process.cwd(), "public", ogName));
-const ogImage = ogExists ? ogName : (SECTION_OG[section]?.image ?? "og.png");
+const home = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const q = Astro.params.q ?? "";
+return Astro.redirect(`${home}search/${encodeURIComponent(q)}/`, 308);
 ---
-
-<Base
-  title={title}
-  description={description}
-  ogImage={ogImage}
-  ogImageAlt={`${title}，非官方`}
-  noindex
->
-  <Header />
-  <main id="main" tabindex="-1">
-    <section class="hero hero-section">
-      <div class="wrap">
-        <h1>{label}</h1>
-        <p class="tagline">{description}</p>
-      </div>
-    </section>
-    <Directory initialSection={section} initialQuery={q} />
-  </main>
-  <Footer showHome />
-</Base>
