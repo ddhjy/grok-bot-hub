@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "sections": [
     {
       "id": "official",
@@ -5374,6 +5374,624 @@
         "Erwan",
         "Cloud Agent",
         "junior developer"
+      ]
+    },
+    {
+      "id": "bili-supergrok-onboard",
+      "added": "2026-09-01",
+      "title": "小白上手：普通 SuperGrok 也能进 Grok Bot",
+      "url": "https://www.bilibili.com/video/BV1cqtH6vEJh",
+      "blurb": "普通 SuperGrok 刚放开入口，他从开机引导录到「Grok Bot has its own computer」，想看门槛降下来后第一步长什么样就看这条。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "视频"
+      ],
+      "aliases": [
+        "Bilibili",
+        "SuperGrok",
+        "BV1cqtH6vEJh"
+      ]
+    },
+    {
+      "id": "forum-ios-always-allow",
+      "added": "2026-09-01",
+      "title": "员工：iOS 没有「始终允许」，要在本机桌面开",
+      "url": "https://forum.cursor.com/t/authorization-death-by-1000-clicks/170087",
+      "blurb": "手机上每次操作只能点一次批准、发新消息就清掉，必须在那台 Mac 的桌面应用把「本机执行」改成始终允许并保持在线，iOS 才会跟着免批准。",
+      "section": "tutorials",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "iOS",
+        "Always allow",
+        "本机执行"
+      ]
+    },
+    {
+      "id": "forum-fastmail-save",
+      "added": "2026-09-01",
+      "title": "云电脑 Chrome 点 Fastmail 规则保存，一条请求都不发",
+      "url": "https://forum.cursor.com/t/grok-bot-fastmail-filters-rules-save-is-a-silent-no-op-chrome-on-the-box/170018",
+      "blurb": "员工让改走 Fastmail API 写 Sieve，网页 Save 零请求、GTK 文件选择器也点不动，这台电脑上的邮件 MCP 助手读写还正常。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "Fastmail",
+        "Sieve",
+        "Chrome"
+      ]
+    },
+    {
+      "id": "forum-review-bugbot",
+      "added": "2026-09-01",
+      "title": "员工：Bot 拉起的 Cloud Agent 带不上 /review-bugbot",
+      "url": "https://forum.cursor.com/t/review-bugbot-is-missing-on-cloud-agents-launched-from-grok-bot/170096",
+      "blurb": "斜杠命令只在 Agents 页、IDE 或 CLI 创建时挂上，Bot 开出来的任务事后补不了；要审 PR 得自己去 cursor.com/agents 新开一条并写上 /review-bugbot。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Bugbot",
+        "Cloud Agent",
+        "/review-bugbot"
+      ]
+    },
+    {
+      "id": "forum-drain-cursor-credit",
+      "added": "2026-09-01",
+      "title": "员工：Bot 周额度用尽会接着啃 Cursor 余额",
+      "url": "https://forum.cursor.com/t/grok-bot-draining-cursor-credit-pool/169982",
+      "blurb": "没派 Cloud Agent 也会溢：周额度用尽先啃积分再进 On-Demand，侧栏模型是服务端自选；快满就暂停，仪表盘把限额设成 $0。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "On-Demand",
+        "Cursor credit",
+        "周额度"
+      ]
+    },
+    {
+      "id": "forum-dns-cursorvm-refused",
+      "added": "2026-09-01",
+      "title": "运营商 DNS 拒答 cursorvm 子域，IPv6 还会盖掉 1.1.1.1",
+      "url": "https://forum.cursor.com/t/grok-bot-0-30-0-windows-setup-fails-with-cant-reach-your-computer-all-network-checks-pass/170035",
+      "blurb": "员工让测 nslookup test123.us8.cursorvm.com：apex 通、子域 Query refused 就是解析器在拦；只改 IPv4 DNS 不够，路由器 RA 推的 IPv6 DNS 仍会抢走查询。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Windows",
+        "cursorvm",
+        "DNS",
+        "IPv6"
+      ]
+    },
+    {
+      "id": "forum-partial-state-relogin",
+      "added": "2026-09-01",
+      "title": "员工：连不上先别 Reset，Windows 先退出再登录",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-stuck-in-partial-state-reset-failed-existing-cloud-computer-unreachable/170006",
+      "blurb": "「部分状态」多半是客户端会话丢了，云电脑还在；帖主按员工说的退出登录再登回来就接上，先在任务管理器杀干净残留进程。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Windows",
+        "Reset",
+        "部分状态"
+      ]
+    },
+    {
+      "id": "forum-wrangler-im-done",
+      "added": "2026-09-01",
+      "title": "员工：盒子授权提醒不会自己收，要点「我做完了」",
+      "url": "https://forum.cursor.com/t/grok-bot-wrangler-box-auth-reminder-stays-stuck-after-auth-already-succeeded-via-another-path/170052",
+      "blurb": "Wrangler 在云电脑上换路登成功、部署也跑完了，右侧「等你授权」仍卡着；点卡片上的 I am done, continue，或随便回一句，侧栏 Waiting for you 才会清。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "插件"
+      ],
+      "aliases": [
+        "Wrangler",
+        "I am done",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "grokrouter",
+      "added": "2026-09-01",
+      "title": "GrokRouter：官方桌面端可逆接到 Codex / OpenRouter",
+      "url": "https://github.com/promptadvisers/grokrouter",
+      "blurb": "仅认 Grok Bot 0.30.0 的 Mac 面板给单个助手换脑，云电脑、文件和审批边界不动，一键还原官方推理。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GrokRouter",
+        "Codex",
+        "OpenRouter",
+        "0.30.0"
+      ]
+    },
+    {
+      "id": "anuar-admin-mcp",
+      "added": "2026-09-01",
+      "title": "Anuar：手机接远程 MCP，让 Grok Bot 当不睡觉的教务助理",
+      "url": "https://medium.com/@anuar_harb/i-hired-an-admin-assistant-that-never-sleeps-cursor-mcp-and-grok-bot-running-my-platform-4d10af95c76a",
+      "blurb": "自有平台不让 Bot 点界面，改走 HTTP MCP 登记学员和出周报，并写明共享云电脑不是安全边界、写操作必须确认。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "多Bot",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Anuar",
+        "MCP",
+        "教务"
+      ]
+    },
+    {
+      "id": "avid-hedge-seven",
+      "added": "2026-09-01",
+      "title": "Avid：一人对冲研究台七岗模板，只做情报不下单",
+      "url": "https://x.com/Av1dlive/status/2094461481517773042",
+      "blurb": "他放出 Skew、Nexus、Receipts 等七个可安装模板和一条总提示词，岗与岗按图交接，数字必须带出处，最后一拍仍是人。",
+      "section": "cases",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "Avid",
+        "Skew",
+        "对冲"
+      ]
+    },
+    {
+      "id": "benn-how-i-grok-bot",
+      "added": "2026-09-01",
+      "title": "Benn Garnish：先雇幕僚长和收件箱，差点让编制没读规格就开跑",
+      "url": "https://howigrokbot.substack.com/p/how-i-grok-bot",
+      "blurb": "他按 SpaceXAI 的信任曲线先雇幕僚长和 Inbox，差点让幕僚长在他读完规格前就发动 /goal，并附可一键加入的公开 Bot。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Benn Garnish",
+        "Inbox",
+        "/goal",
+        "Substack"
+      ]
+    },
+    {
+      "id": "bobby-job-apply-sleep",
+      "added": "2026-09-01",
+      "title": "Bobby：睡着时让 Grok Bot 按评分自动投软件岗",
+      "url": "https://dev.to/bobbyhalljr/i-let-grok-bot-apply-to-software-engineering-jobs-while-i-was-sleeping-n62",
+      "blurb": "每四小时例程搜岗、打分、确认页才算投出，敏感题和验证码停下来等人，申请账本写进记忆以免重复投同一家。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "排障",
+        "运营"
+      ],
+      "aliases": [
+        "Bobby",
+        "求职",
+        "routine"
+      ]
+    },
+    {
+      "id": "chase-cos-stripe",
+      "added": "2026-09-01",
+      "title": "Chase：幕僚长能代发邮件刷卡，工程岗各挂一台 Cursor",
+      "url": "https://x.com/itsmechase/status/2094452204211949723",
+      "blurb": "他的幕僚长用 Stripe Link 下单、每天从邮件和 LinkedIn 更新像我一样写技能，社交岗早扫数据还能剪短视频，三个工程岗各自连一块 Cursor 云工作区以免串台。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "跑腿"
+      ],
+      "aliases": [
+        "Chase",
+        "Stripe Link"
+      ]
+    },
+    {
+      "id": "clearmud-five-guides",
+      "added": "2026-09-01",
+      "title": "Clearmud：官方五篇岗位指南逐条上机，哪些真能跑、哪些要整套工具",
+      "url": "https://www.youtube.com/watch?v=HAU0Eo5gI4g",
+      "blurb": "他把多项目群聊、移动端开发、设计闭环、GTM 和产品岗指南各抽一条可测动作，当场看哪些只靠浏览器、哪些要接满公司工具。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "销售",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "Clearmud",
+        "GTM",
+        "官方指南"
+      ]
+    },
+    {
+      "id": "cwm-cursor-plugin",
+      "added": "2026-09-01",
+      "title": "Cloud World Model 插件：托管 MCP 上仿真多云架构",
+      "url": "https://github.com/canvascloudai/cwm-cursor-plugin",
+      "blurb": "Grok Bot 插件市场一键指向托管 HTTP，匿名九工具能建拓扑、打流量和故障，不必在云电脑起本地 MCP。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "Cloud World Model",
+        "Canvas",
+        "MCP"
+      ]
+    },
+    {
+      "id": "dawood-citation-outreach",
+      "added": "2026-09-01",
+      "title": "Dawood：六个岗做引用外联，专盯模型已经在读的页面",
+      "url": "https://x.com/dawoodkhan254/status/2094451439573881015",
+      "blurb": "他把 CrowdReply 的引用外联拆成 Scout、Finder、Writer、Closer、Watcher 加幕僚长，提示词和模板都贴出来，发信和花钱仍要人点头。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "多Bot"
+      ],
+      "aliases": [
+        "Dawood",
+        "CrowdReply",
+        "引用外联"
+      ]
+    },
+    {
+      "id": "firstmate",
+      "added": "2026-09-01",
+      "title": "Firstmate：编制决策写入 git，聊天记忆不再当档案",
+      "url": "https://github.com/matteoantoci/firstmate",
+      "blurb": "把整份 PROMPT.md 贴进司令岗描述，船员只向它汇报，决定落到仓库，新岗上岗从日志冷启动。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "Firstmate",
+        "PROMPT.md",
+        "git"
+      ]
+    },
+    {
+      "id": "grok-bot-mcp-connector",
+      "added": "2026-09-01",
+      "title": "共享收件箱 MCP：两个 Bot 互发信并门铃叫醒",
+      "url": "https://github.com/chipherndon/grok-bot-mcp-connector",
+      "blurb": "专用信使岗用 send/inbox，Worker 落信后 POST 对方 webhook 例程，不把互聊塞进日常助手。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "MCP",
+        "webhook",
+        "Cloudflare Worker"
+      ]
+    },
+    {
+      "id": "hn-jessica-squad",
+      "added": "2026-09-01",
+      "title": "Jessica：六名 Grok Bot 组班，周六把库存站推进生产",
+      "url": "https://news.ycombinator.com/item?id=49509728",
+      "blurb": "周五装上后她配了幕僚、市场、QA、开发、基建和工程经理六名 Bot，周六一天就上线了导入和自定义登录域。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "Jessica Temporal",
+        "HN"
+      ]
+    },
+    {
+      "id": "morgan-token-context",
+      "added": "2026-09-01",
+      "title": "Morgan：12 岗还在烧额度，多半是上下文和截图在吃",
+      "url": "https://x.com/morganlinton/status/2094413837290369028",
+      "blurb": "他把岗拆成原子任务、大活丢给后台或云代理、用连接器别让岗一页页截图，例程改事件触发并写明没有更新就闭嘴。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Morgan Linton",
+        "上下文",
+        "screenshot"
+      ]
+    },
+    {
+      "id": "moritz-multi-roster",
+      "added": "2026-09-01",
+      "title": "Moritz：多编制并行，项目频道加 Notion 看板再写成技能",
+      "url": "https://www.youtube.com/watch?v=xXZR9RgMxTc",
+      "blurb": "他不用单线程聊所有项目，而是给每个项目开频道、复用项目经理岗，并把建编制流程写成技能现场再开一个新项目。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Moritz",
+        "Notion"
+      ]
+    },
+    {
+      "id": "nate-herk-2hr-course",
+      "added": "2026-09-01",
+      "title": "Nate Herk：两小时从零搭编制，邮箱岗、ClickUp 和模板还能卖",
+      "url": "https://www.youtube.com/watch?v=4hKJ9X6rGFo",
+      "blurb": "他按上下文、连接、能力和节奏四件套现场建邮箱岗，把活记进 ClickUp，再接 Composio 和 Slack 例行，最后把模板打包成对外服务。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "销售",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Nate Herk",
+        "ClickUp",
+        "Composio"
+      ]
+    },
+    {
+      "id": "note-amazon-battery-buyer",
+      "added": "2026-09-01",
+      "title": "让 Buyer 岗在亚马逊买电池：无连接器也能下单，第二岗直接用上登录",
+      "url": "https://note.com/bright_dietes994/n/n82358ddd9a06",
+      "blurb": "Amazon 没有连接器，作者用实验账号和 Kyash 预付卡在共享 VM 浏览器里买电池，第一岗登录后第二岗未登录也能下单，浏览器路径一次都没弹审批卡。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "排障",
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "Amazon",
+        "Kyash",
+        "Buyer",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-gymnopedic-quota-myth",
+      "added": "2026-09-01",
+      "title": "五十美元花光就死是假的：周额度写稿五天见底，拆岗也写不好日文",
+      "url": "https://note.com/gymnopedic/n/nf534ec923c47",
+      "blurb": "对照官方拆穿 X 上复制帖；作者自己写邮件和查资料一周就把周框用完，拆岗并不能把日文写好，后来把 Claude Code 和 Codex 装进那台共享 Linux。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "gymnopedic",
+        "日文",
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "phosphen-template-walkthrough",
+      "added": "2026-09-01",
+      "title": "Phosphen：模板上线三天，从一岗一技能走到编制",
+      "url": "https://x.com/phosphenq/status/2094434543319032248",
+      "blurb": "他把一岗、一次演示存技能、例程触发、四类审批锁死、插件优先于浏览器、以及模板不带登录态这些坑按步骤写完，并点名 loops、Master 等现成分享页。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "排障",
+        "插件"
+      ],
+      "aliases": [
+        "Phosphen",
+        "templates",
+        "loops"
+      ]
+    },
+    {
+      "id": "poteto-verify-skill",
+      "added": "2026-09-01",
+      "title": "Lauren：pstack 验证技能，让 Grok Bot 自己验收再交云代理",
+      "url": "https://x.com/poteto/status/2094457600259842065",
+      "blurb": "她把做 Bot 的验收经验收成插件，装上后用 /poteto-mode 派云代理改功能、拍屏当证据，编制里还塞了会教你造岗的 Dr Eggbot。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Lauren",
+        "pstack",
+        "poteto",
+        "Dr Eggbot"
+      ]
+    },
+    {
+      "id": "proton-mail-mcp",
+      "added": "2026-09-01",
+      "title": "Proton Mail MCP：云电脑被刷后从 pass 拉回邮箱栈",
+      "url": "https://github.com/elderibeiro/proton-mail-mcp-grokbot",
+      "blurb": "本地 Bridge 加 stdio 包装，密码不进 argv，默认只拟稿，虚拟机重建后一条脚本拉起 supervisord。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Proton Mail",
+        "Bridge",
+        "MCP",
+        "pass"
+      ]
+    },
+    {
+      "id": "rajkandi-third-migration",
+      "added": "2026-09-01",
+      "title": "Raj Kandi：第三次搬家，从 OpenClaw、Hermes 迁到 Grok Bot",
+      "url": "https://rajkandi.substack.com/p/the-third-migration",
+      "blurb": "他不再给自托管编制当平台运维，把电话岗迁到共享云电脑后第一次不用半夜盯日志就能量到结果。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Raj Kandi",
+        "OpenClaw",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "recallsmith",
+      "added": "2026-09-01",
+      "title": "RecallSmith：每个 Bot 三层私有经验记忆",
+      "url": "https://github.com/koreysmith123/recallsmith",
+      "blurb": "把仓库丢给新助手让它自装 PostgreSQL/pgvector，按具体、结构、普遍三层检索过往，子岗各有独立命名空间。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "RecallSmith",
+        "pgvector",
+        "grok-memory"
+      ]
+    },
+    {
+      "id": "reddit-contentdrips-ig",
+      "added": "2026-09-01",
+      "title": "r/GrokBot：接 Contentdrips MCP 后出图写文案，排进 Instagram",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w3ajif/grokbot_created_social_media_graphic_wrote/",
+      "blurb": "作者只丢一句接 Contentdrips MCP 就拿到 token，随后让 Bot 做图、写 caption、把帖排到 Instagram 和 LinkedIn。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "销售",
+        "运营"
+      ],
+      "aliases": [
+        "Contentdrips",
+        "Instagram",
+        "MCP"
+      ]
+    },
+    {
+      "id": "reddit-job-bot-loop",
+      "added": "2026-09-01",
+      "title": "r/GrokBot：求职岗自填开放题还循环再投，关浏览器也停不住",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w3081y/had_a_really_bad_experience_with_grokbot/",
+      "blurb": "软件岗求职 Bot 搜职位还行，却会擅自提交开放题并反复投同一家，关 Chrome 立刻重开，最后只能重置云电脑。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "求职",
+        "Chrome"
+      ]
+    },
+    {
+      "id": "reddit-routines-need-app",
+      "added": "2026-09-01",
+      "title": "r/grok：不打开 Mac 客户端，云上 Routines 就不跑",
+      "url": "https://www.reddit.com/r/grok/comments/1w3gqtu/grok_bot_not_running_routines_when_the_app_is_not/",
+      "blurb": "作者以为例程在云端关电脑也会执行，结果不打开 Mac 上的 Grok Bot 应用，排好的 Routines 就不动。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Routines",
+        "Mac"
+      ]
+    },
+    {
+      "id": "shann-cli-dispatch",
+      "added": "2026-09-01",
+      "title": "Shann：把已付费的 CLI 装进云电脑，让 Bot 当调度员",
+      "url": "https://x.com/shannholmberg/status/2094465363035746510",
+      "blurb": "他给了一段现成提示词：在云电脑装 Herdr 和 Codex、Cursor、Grok CLI，Bot 只负责任务分发和验收，重活走各家订阅额度，关盖子也继续跑。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "Shann",
+        "Codex",
+        "Grok CLI",
+        "Herdr"
+      ]
+    },
+    {
+      "id": "zenn-tinyboard-lead-dev",
+      "added": "2026-09-01",
+      "title": "Lead 岗把 TinyBoard 丢给 Dev 再交给 Cloud Agent：人不用中间传话也能出 PR",
+      "url": "https://zenn.dev/tec/articles/e80342f74bab19",
+      "blurb": "在 macOS 上建 Lead 与 Dev 两岗，Dev 把 Next.js 任务板交给 Cursor Cloud Agent 写到 Pull Request；小项目其实直接找 Cloud Agent 更简单，多岗分工才值得上 Bot。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "TinyBoard",
+        "Cloud Agent",
+        "Zenn",
+        "日文"
       ]
     }
   ]
