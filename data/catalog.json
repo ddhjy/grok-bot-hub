@@ -6013,6 +6013,40 @@
         "Shepherd",
         "牧羊人"
       ]
+    },
+    {
+      "id": "grokbots-best",
+      "added": "2026-09-01",
+      "title": "grokbots.best：可导入的 Grok Bot 模板橱窗",
+      "url": "https://grokbots.best/",
+      "blurb": "公开的 Bot 模板目录，按工作、编程、研究分类，点进去能直接导入自己的 Grok Bot。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "grokbots.best",
+        "The best Grok Bots"
+      ]
+    },
+    {
+      "id": "xiaohu-xai-bot-guides",
+      "added": "2026-09-01",
+      "title": "小互：五支内部团队怎么把 Grok Bot 拼成一套操作系统",
+      "url": "https://x.com/xiaohu/status/2094667136451191130",
+      "blurb": "中文拆解 xAI 五篇内部实践：多项目管理、六 Bot 做手游、设计原型、Enterprise GTM、从收件箱到交付；重点是岗位怎么分、别越权、哪些事留给人。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手",
+        "工程"
+      ],
+      "aliases": [
+        "小互",
+        "xiaohu",
+        "指南集"
+      ]
     }
   ]
 }
