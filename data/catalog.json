@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "sections": [
     {
       "id": "official",
@@ -6046,6 +6046,520 @@
         "小互",
         "xiaohu",
         "指南集"
+      ]
+    },
+    {
+      "id": "elon-bot-token-reset",
+      "added": "2026-09-02",
+      "title": "Elon：全体 Grok Bot 用户再送一次额度重置",
+      "url": "https://x.com/elonmusk/status/2094813795742847123",
+      "blurb": "马斯克宣布给所有 Bot 用户再清一次 token，楼下有人贴出额度打满截图，正好把云电脑上没做完的活赶完。",
+      "section": "official",
+      "cluster": "billing",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Elon",
+        "额度重置",
+        "token reset"
+      ]
+    },
+    {
+      "id": "x-bot-outlook-onedrive",
+      "added": "2026-09-02",
+      "title": "官方：Outlook、日历和 OneDrive 插件上了",
+      "url": "https://x.com/bot/status/2094543253811183943",
+      "blurb": "岗可以直接读写微软邮箱、日历和网盘，产品组成员楼下贴了三个插件安装地址。",
+      "section": "official",
+      "cluster": "computer",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "Outlook",
+        "OneDrive",
+        "Calendar",
+        "Microsoft"
+      ]
+    },
+    {
+      "id": "forum-vpn-sso-passkey",
+      "added": "2026-09-02",
+      "title": "员工：云电脑加不进公司 VPN，别让 Bot 自己装客户端",
+      "url": "https://forum.cursor.com/t/vpn-sso-passkey-and-yubikey-within-grokbot/170148",
+      "blurb": "内网 Jira 够不着时走 Atlassian 连接器或让你接管浏览器登 SSO，YubiKey 在设置里开硬件密钥，本机执行才能借你电脑上的 VPN。",
+      "section": "tutorials",
+      "tags": [
+        "排障",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "VPN",
+        "SSO",
+        "YubiKey",
+        "passkey"
+      ]
+    },
+    {
+      "id": "xiaomo-mac-warp-x",
+      "added": "2026-09-02",
+      "title": "小墨：M 芯片 Mac 装 Bot，接 WARP 再打通 X 插件",
+      "url": "https://x.com/xiaomovps/status/2094596141765857596",
+      "blurb": "从资格、登录、云电脑出口到手动补 X 开发者账号一路截图，MCP 读回自己的帖子后后台还到了两百四十美元免费额度。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "小墨",
+        "WARP",
+        "X",
+        "xiaomovps"
+      ]
+    },
+    {
+      "id": "nate-herk-concepts",
+      "added": "2026-09-02",
+      "title": "Nate Herk：二十五条编制概念，从记忆、云电脑到岗对岗交接",
+      "url": "https://www.youtube.com/watch?v=NyfYxpXiw_0",
+      "blurb": "把模板与记忆、云电脑、技能例行、Webhook 触发和岗对岗交接拆成二十五条，最后讲用量监控，免得编制一开就看不见在干什么。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "视频",
+        "上手"
+      ],
+      "aliases": [
+        "Nate Herk"
+      ]
+    },
+    {
+      "id": "masao-linux-always-on",
+      "added": "2026-09-02",
+      "title": "まさお：真正强的是付费档自带的常驻 Linux 机",
+      "url": "https://www.youtube.com/watch?v=ADYYGLTV6oI",
+      "blurb": "对照自己囤 Mac mini 的做法，指出付费档就有一台常驻 Linux，多岗分目录、登录共用，里面再跑 Claude Code 和 Codex，还能接 Tailscale 自己 SSH。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "まさお",
+        "日文",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "lingxi-five-engineers",
+      "added": "2026-09-02",
+      "title": "Lingxi：五个工程岗加 Jenny，一人盯两百个云代理",
+      "url": "https://x.com/lingxi/status/2094493172516966781",
+      "blurb": "SpaceXAI 工程师把 Baltata、Shaoruru 等岗写出来：派 Cursor 云代理、Notion 盯 PR、每晚审计，自己开会睡觉时代码还在合。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "Lingxi",
+        "Jenny",
+        "SpaceXAI"
+      ]
+    },
+    {
+      "id": "sabrina-marketing-four",
+      "added": "2026-09-02",
+      "title": "Sabrina：四个营销岗接手四千万播放那套技能",
+      "url": "https://x.com/Sabrina_Ramonov/status/2094833331183759612",
+      "blurb": "她把七个 Claude 技能拆进策划、写手、审核、发布四个岗，共用频道交接，发 Instagram 轮播仍要她点头。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "销售"
+      ],
+      "aliases": [
+        "Sabrina",
+        "Blotato",
+        "Instagram"
+      ]
+    },
+    {
+      "id": "note-stock-buyer",
+      "added": "2026-09-02",
+      "title": "青岛：Stock 盯 Notion 备品台账，Buyer 才去亚马逊下单",
+      "url": "https://note.com/bright_dietes994/n/ndbef55c17552",
+      "blurb": "人只改已批准状态、聊天里不用说去买；无人 Routine 却能直接下单，还踩过运费没算进上限、指示栏被缩成英文的坑。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿",
+        "排障"
+      ],
+      "aliases": [
+        "青岛",
+        "Notion",
+        "Amazon",
+        "日文"
+      ]
+    },
+    {
+      "id": "reddit-ubuntu-telegram",
+      "added": "2026-09-02",
+      "title": "r/GrokBot：头几小时建编制就烧掉四分之一额度，还能从 Ubuntu 虚拟机打 Telegram",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w3favg/current_experience_on_grokbot_in_the_first_few/",
+      "blurb": "作者把 Bot 关在 NAS 上的 Ubuntu 虚拟机和 Tailscale 里，只建团队和家规就烧掉四分之一周额度，却用 BotFather 让它能主动 ping 自己。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "Ubuntu",
+        "Telegram",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "reddit-solo-founder-roster",
+      "added": "2026-09-02",
+      "title": "r/GrokBot：市场负责人带四个下属 Bot，财务法务销售调研也上云电脑",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w1hkx3/grokbot_for_solo_founders_or_small_team_owners/p77tdpz/",
+      "blurb": "品牌、社媒、网站、竞品各有一岗，财务和法务另设负责人，编码外包 Claude、研究外包 Gemini，作者说这套编制还能再撑一年再雇人。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "销售"
+      ],
+      "aliases": [
+        "solo founder"
+      ]
+    },
+    {
+      "id": "gojiberryai-sales-os",
+      "added": "2026-09-02",
+      "title": "GojiberryAI Sales OS：十三岗外呼编制，默认只拟稿不发",
+      "url": "https://github.com/romangojiberryAI/gojiberryai-sales-os",
+      "blurb": "市场插件装上十三名销售同事和托管 MCP，先猎意向、核 ICP、再写 LinkedIn，没喊 autonomous 就不会发出去。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "销售",
+        "插件"
+      ],
+      "aliases": [
+        "GojiberryAI",
+        "LinkedIn",
+        "MCP"
+      ]
+    },
+    {
+      "id": "grok-bot-vision",
+      "added": "2026-09-02",
+      "title": "Vision：把手机摄像头帧当 MCP 图像给 Bot 看",
+      "url": "https://github.com/kenarakelian1/grok-bot-vision",
+      "blurb": "start_camera 开本机页，手机经 HTTPS 隧道推 JPEG，look_camera 把最新帧当图像内容，文件投递只是备选。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "Vision",
+        "MCP",
+        "camera"
+      ]
+    },
+    {
+      "id": "grok-bot-telegram-bridge",
+      "added": "2026-09-02",
+      "title": "Telegram 私聊桥：云电脑里把主人消息转给现有 Bot",
+      "url": "https://github.com/liush2yuxjtu/grok-bot-telegram-private-bridge",
+      "blurb": "桥只跑在共享云电脑、只认配对主人，经回环网关把私聊交给现有会话，只回最终答复，笔记本不开端口。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Telegram",
+        "MCP"
+      ]
+    },
+    {
+      "id": "grokbot-body",
+      "added": "2026-09-02",
+      "title": "GrokBot Body：给某一个 Bot 接上 iPhone 云台身体",
+      "url": "https://github.com/rowline/grokbot-body",
+      "blurb": "自备 Worker 门铃叫醒绑定岗，手机听、说、转头、拍照，原话进对话框，xAI 音色密钥留在手机不过云。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "DockKit",
+        "iPhone",
+        "Cloudflare Worker"
+      ]
+    },
+    {
+      "id": "foreman",
+      "added": "2026-09-02",
+      "title": "Foreman：编制看板不许猜，完成必须过独立评分",
+      "url": "https://github.com/Archive228/foreman",
+      "blurb": "用 git 声明船员并对 gbot 对账，看板最差优先且无指标就不写健康，规格哈希钉死后工人自己改不了目标。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Archive228",
+        "gbot"
+      ]
+    },
+    {
+      "id": "nervegna-designers",
+      "added": "2026-09-02",
+      "title": "Nervegna：给设计师和产品团队的诚实评测，对照 Cowork、Hermes 与 OpenClaw",
+      "url": "https://nervegna.substack.com/p/grok-bot-for-designers-and-product",
+      "blurb": "他把托管产品和自托管 harness 拆开，点出整编制共用一台已登录云电脑既不是安全边界也会让岗与岗互相污染。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "Cowork",
+        "Hermes",
+        "OpenClaw",
+        "设计"
+      ]
+    },
+    {
+      "id": "khe-hy-surprisingly-good",
+      "added": "2026-09-02",
+      "title": "Khe Hy：Grok Bot 出乎意料地好，手机过关、云电脑仍卡密码",
+      "url": "https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good",
+      "blurb": "他用幕僚长接上 Gmail、日历和 Notion 后通过伸手就用测试，也记下云电脑粘贴密码卡顿、健身房站点反复掉线。",
+      "section": "reviews",
+      "tags": [
+        "插件",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Khe Hy",
+        "reach test"
+      ]
+    },
+    {
+      "id": "bridgemind-vs-hermes",
+      "added": "2026-09-02",
+      "title": "BridgeMind：对照 Hermes，测站、派 Cursor、清两万四千封未读",
+      "url": "https://www.youtube.com/watch?v=ur9exlUGxhY",
+      "blurb": "他让幕僚长只接一条线，隔离 Linux 机测站、把活甩给 Cursor 出 PR，还清掉两万四千封未读，结论是界面赢、Hermes 才能动本机。",
+      "section": "reviews",
+      "tags": [
+        "工程",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "BridgeMind",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "orcdev-is-crazy",
+      "added": "2026-09-02",
+      "title": "OrcDev：每天真在用，并讲清它没把 OpenClaw 和 Hermes 打死",
+      "url": "https://www.youtube.com/watch?v=CA_QZrD4OnM",
+      "blurb": "他对照零配置云电脑同事和可自托管、可换模型的 Hermes 与 OpenClaw，并复盘扫地机器人和内部同事那批现场用例。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "OrcDev",
+        "OpenClaw",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "forum-ulta-google-login",
+      "added": "2026-09-02",
+      "title": "员工：Google 登录不跟 cookie 走，导入 Chrome 还没上",
+      "url": "https://forum.cursor.com/t/grokbot-cursor-integration-with-ulta/169985",
+      "blurb": "代理浏览器只稳传 cookie，Google 把会话放在 localStorage，重建电脑就会掉登录；设置里没有从 Chrome 导入 cookie，那是还没放出来的功能。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Google",
+        "Ulta",
+        "cookie"
+      ]
+    },
+    {
+      "id": "forum-linux-local-exec",
+      "added": "2026-09-02",
+      "title": "员工：Linux 桌面 0.30.0 本机执行坏了，先开钥匙串",
+      "url": "https://forum.cursor.com/t/grokbot-linux-execution-on-local-computer-not-working/170157",
+      "blurb": "已知问题、下一版桌面会修；修好前装好并解锁 gnome-keyring 或 KWallet，彻底退出再开，助手才写得进机器身份。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Linux",
+        "gnome-keyring",
+        "KWallet"
+      ]
+    },
+    {
+      "id": "forum-windows-leftover-daemon",
+      "added": "2026-09-02",
+      "title": "员工：Windows 托盘退出，再杀残留 local-exec-daemon",
+      "url": "https://forum.cursor.com/t/new-report-windows-leftover-daemon-on-0-30-0/170121",
+      "blurb": "关窗口不够，托盘选 Quit，任务管理器清掉 Grok Bot 和 local-exec-daemon，再等大约一分钟重新注册。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Windows",
+        "local-exec-daemon"
+      ]
+    },
+    {
+      "id": "forum-macos-stuck-free",
+      "added": "2026-09-02",
+      "title": "员工：免费 Cursor 套餐会卡在「正在设置」，根本没开云电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-0-30-0-stuck-on-setting-up-your-grok-bot-on-macos/169981",
+      "blurb": "后台查过不是网络也不是 VPN，免费账号没有 Grok Bot 权限就不会创建托管机；要 Pro 或绑上 SuperGrok，退出后换有权限的号再登。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "macOS",
+        "Cursor 免费"
+      ]
+    },
+    {
+      "id": "forum-shared-team-roster",
+      "added": "2026-09-02",
+      "title": "员工：分享 Bot 只是复制，模板带不走记忆",
+      "url": "https://forum.cursor.com/t/shared-grok-bot-team-across-teammates-same-roster-separate-chats/169904",
+      "blurb": "每个席位一台电脑一份编制，分享会立刻分叉；模板刚上线但不带实时记忆和聊天记录，真正多人共用同一批 Bot 还在做。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "模板",
+        "编制"
+      ]
+    },
+    {
+      "id": "qiita-cloud-pc-cli",
+      "added": "2026-09-02",
+      "title": "石坂：把自研 CLI 装进云电脑，黑屏先怪错原因次日自己更正",
+      "url": "https://qiita.com/ishizakahiroshi/items/9818ab40e7a30e42cba7",
+      "blurb": "SuperGrok 最便宜档也带一台 Debian 云电脑；作者把 many-ai-cli 装进去后 Claude Code 窗一片黑，第二天用实机日志更正真因并记下重建会清掉 apt 包、没有 systemd。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Qiita",
+        "日文",
+        "many-ai-cli",
+        "Debian"
+      ]
+    },
+    {
+      "id": "qiita-tailscale-ssh",
+      "added": "2026-09-02",
+      "title": "石坂：沙箱里才能复现的 bug，没有 SSH 时只能当传书鸽",
+      "url": "https://qiita.com/ishizakahiroshi/items/6a9edc768efea629bf07",
+      "blurb": "云电脑没有 RDP 也没有 SSH，作者只能在本机和 Bot 之间来回粘贴输出；真因是显示过滤器在回车后插入 ESC 把行抹掉，后来用 Tailscale SSH 打进沙箱才看得到生日志。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Qiita",
+        "Tailscale",
+        "日文"
+      ]
+    },
+    {
+      "id": "reddit-cursor-upgrade-loop",
+      "added": "2026-09-02",
+      "title": "r/cursor：老 Pro 套餐邮件写已含 Grok Bot，网页登录却循环让你再升级",
+      "url": "https://www.reddit.com/r/cursor/comments/1w3q28o/anyone_having_issues_with_the_grok_bot/",
+      "blurb": "仍按每月五百次计费的 Cursor Pro 从客户端登录被踢去网页，网页又提示 upgrade to pro，点回去只回到普通仪表盘。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Pro"
+      ]
+    },
+    {
+      "id": "reddit-two-weeks-changelog",
+      "added": "2026-09-02",
+      "title": "r/GrokBot：两周更新，免费试用、模板分享、Link 付款、Linux 和微软插件",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w41odc/everything_new_in_grok_bot_from_the_past_two_weeks/",
+      "blurb": "把每档 Grok 与 Cursor 都带 Bot、模板可分享、能用 Link 付款、Linux 回来了、Outlook 日历 OneDrive 已上收成一张可点清单。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "changelog"
+      ]
+    },
+    {
+      "id": "yunta-channel-quota",
+      "added": "2026-09-02",
+      "title": "Yun-Ta：额度不够就新开频道，做完再关掉",
+      "url": "https://x.com/yunta_tsai/status/2094459957848797332",
+      "blurb": "Tesla AI 工程师让 Bot 给专项任务另开频道、结束就关，要复用就把复盘写进仓库，Elon 回复说自动省额度很快会上。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Yun-Ta",
+        "Tesla"
       ]
     }
   ]
