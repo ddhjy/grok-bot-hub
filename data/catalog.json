@@ -5993,6 +5993,26 @@
         "Zenn",
         "日文"
       ]
+    },
+    {
+      "id": "xangus-shepherd-herdr",
+      "added": "2026-09-01",
+      "title": "Angus：把五个 Agent 塞进牧羊人，少烧 Grok Bot 周额度",
+      "url": "https://x.com/XAngus/status/2094619313802264929",
+      "blurb": "在云电脑装 Herdr 的 Shepherd，再塞 Claude、Codex、Grok、Cursor、Antigravity；任务按特长和剩余额度分发甚至并行，Bot 自己少烧周额度。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "XAngus",
+        "Angus",
+        "Herdr",
+        "Shepherd",
+        "牧羊人"
+      ]
     }
   ]
 }
