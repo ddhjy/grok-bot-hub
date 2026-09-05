@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "sections": [
     {
       "id": "official",
@@ -8351,6 +8351,666 @@
         "GitLab",
         "Debian",
         "o_devvy"
+      ]
+    },
+    {
+      "id": "xai-bot-marketplace",
+      "added": "2026-09-06",
+      "title": "官方 Bot 市场：69 只可一键导入的岗位",
+      "url": "https://x.ai/bot/marketplace",
+      "blurb": "九类、四十三位作者放出六十九只公开岗，外呼、砍价、招聘协调都能点 Add 拷进编制，不必从空白写设定。",
+      "section": "official",
+      "tags": [
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "Marketplace",
+        "x.ai"
+      ]
+    },
+    {
+      "id": "xai-procurement",
+      "added": "2026-09-06",
+      "title": "官方采购实录：Haggle Bot 一周抠出十万美元",
+      "url": "https://x.ai/news/grok-bot-procurement",
+      "blurb": "接到 Ramp、合同和用量后，空座、月付 SKU 和办公耗材比价合计超过十万美元，供应商邮件仍要人批。",
+      "section": "official",
+      "tags": [
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "Haggle",
+        "Ramp"
+      ]
+    },
+    {
+      "id": "youtube-cursor-product-roster",
+      "added": "2026-09-06",
+      "title": "Cursor 工坊：产品编制从调研写到出稿，幕僚长盯消息再把语音模式 RFC 交给 Cloud Agents",
+      "url": "https://www.youtube.com/watch?v=x5OawRpQxII",
+      "blurb": "他们按幕僚长、分析、PM、设计和工程经理分岗，小时级清收件箱并盯 X 插件安装量，Pete 把调研写成语音模式 RFC，Pixel 往同一份 Notion 塞 Figma 稿，Emily 拆票交给 Cloud Agents。",
+      "section": "official",
+      "tags": [
+        "工程",
+        "多Bot",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Cursor",
+        "Cloud Agents",
+        "Notion"
+      ]
+    },
+    {
+      "id": "forum-rpm-direct",
+      "added": "2026-09-06",
+      "title": "员工：官网 Linux RPM 链失效，改直链或 yum 源",
+      "url": "https://forum.cursor.com/t/unable-to-download-grok-bot-rpm-package/170637",
+      "blurb": "下载页两条 RPM 还指着旧文件名会 Access Denied；员工贴了 0.39.0 的 x64/arm64 直链，也可以加 downloads.cursor.com 的 yum 源用 dnf install grok-bot。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "电脑"
+      ],
+      "aliases": [
+        "RPM",
+        "yum",
+        "Linux"
+      ]
+    },
+    {
+      "id": "note-kaze-manual-skill",
+      "added": "2026-09-06",
+      "title": "别一上来就挂 Routine：三页官方更新先做成「手动→Skill→定时」",
+      "url": "https://note.com/kaze_kun/n/n61e053d6f58e",
+      "blurb": "Kaze 用三个免登录更新页走完手动任务、Skill、再挂平日 8:30 Routine，并写明全岗共一台云电脑、Test run 会真去打开网页。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Kaze",
+        "Routine"
+      ]
+    },
+    {
+      "id": "youtube-adriana-spanish",
+      "added": "2026-09-06",
+      "title": "Adriana Rangel：西语一小时走完建岗、插件、例行、录屏教活和打包分享",
+      "url": "https://www.youtube.com/watch?v=pyoeJvI1pQ4",
+      "blurb": "她从零建第一岗、接插件、设无人值守例行，再讲编制数量怎么控用量、记忆怎么管、手机上干活，以及把屏幕操作录成技能并打包给别人装。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "插件",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Adriana Rangel"
+      ]
+    },
+    {
+      "id": "youtube-zinho-four",
+      "added": "2026-09-06",
+      "title": "Zinho：从零装起再抄四套岗位，先只读调研再放到外联",
+      "url": "https://www.youtube.com/watch?v=_JYh3tgJzVw",
+      "blurb": "他用 Cursor 账号登录后打开云电脑里的 Chrome，先建只读调研岗练手，再给一岗真正外联权限，并强调一岗一事、全账号共用一台电脑。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "销售",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "Zinho"
+      ]
+    },
+    {
+      "id": "robin-chief-prompt",
+      "added": "2026-09-06",
+      "title": "Robin Delta：可直接粘贴的幕僚长章程，七百多人收藏",
+      "url": "https://x.com/heyrobinai/status/2096197570070778030",
+      "blurb": "他把目标、共用频道、不可逆动作要人点头、每周最多改一条编制写成一段可复制的幕僚长提示词，楼下还有人补了省额度的改法。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Robin Delta",
+        "幕僚长"
+      ]
+    },
+    {
+      "id": "grok-fleet-lessons",
+      "added": "2026-09-06",
+      "title": "Grok 编制省额度手册：只分诊，不让 Bot 自己砸代码",
+      "url": "https://github.com/jasonpalmer1/grok-fleet-lessons",
+      "blurb": "和 Claude 舰队并肩跑 Grok Bot 的现场规矩：助手只做分诊和状态变更，真出货走 Cloud Agents，群聊禁止回执，周用量约 8% 就另开幕僚长对话、绝不删旧窗。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "计费"
+      ],
+      "aliases": [
+        "jasonpalmer1",
+        "Cloud Agents"
+      ]
+    },
+    {
+      "id": "note-matsuda-handoff-gap",
+      "added": "2026-09-06",
+      "title": "规则写进 GitHub 不等于生效：选题岗选完本命，明早 Routine 还是不交接",
+      "url": "https://note.com/matsudakz/n/n5fa27eb7345d",
+      "blurb": "松田给 Shorts 选题岗加了「选完交给事实确认」，连停两天才发现 GitHub 设计稿改了、每天九点的 Routine 本体没改到。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "松田",
+        "matsudakz",
+        "Routine"
+      ]
+    },
+    {
+      "id": "note-matsuda-secretary",
+      "added": "2026-09-06",
+      "title": "没写职务的咨询岗，自己长成了组织秘书",
+      "url": "https://note.com/matsudakz/n/nc1fa2cd89282",
+      "blurb": "十四岗里唯一没定成果物的咨询岗，后来自己去查 GitHub 权限、跨队核对 Routine 停摆、替人盯用量，把未分派的活收成秘书岗。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "排障"
+      ],
+      "aliases": [
+        "松田",
+        "matsudakz"
+      ]
+    },
+    {
+      "id": "linkedin-conrado-ceo",
+      "added": "2026-09-06",
+      "title": "Conrado de Sa：让 Grok Bot 自己长出 CEO，后台跑 PM、外呼和收件箱",
+      "url": "https://www.linkedin.com/posts/conradodesa_o-grok-bot-simplesmente-criou-um-agente-activity-7498838440793350144-2-t9",
+      "blurb": "侧栏里 PM 管 backlog、外呼和付费投放自己跑、邮件 Bot 分拣打标签，CEO Bot 只把卡点和冲刺优先级交回聊天。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "销售"
+      ],
+      "aliases": [
+        "Conrado de Sa"
+      ]
+    },
+    {
+      "id": "reddit-survey-whopper",
+      "added": "2026-09-06",
+      "title": "r/GrokBot：把汉堡王收据调查丢给 Bot，半小时后拿回免费皇堡券",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w7dt58/my_grok_bot_completes_surveys_for_free_stuff_well/",
+      "blurb": "作者刚装上找不到活干，把小票上的问卷交给云电脑代填，三十分钟后 Bot 把兑换链接发了回来。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "Whopper",
+        "Burger King"
+      ]
+    },
+    {
+      "id": "haggle-bot",
+      "added": "2026-09-06",
+      "title": "Haggle Bot：从 Ramp 账单抠空座，还价稿你自己发",
+      "url": "https://x.ai/bot/marketplace/bots/haggle-bot",
+      "blurb": "对照实时花销找出空座、重复订和更便宜的替代，供应商还价写好等你点头，花钱、签字、外发一律停手。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "Haggle",
+        "Ramp"
+      ]
+    },
+    {
+      "id": "x-ryenski-door",
+      "added": "2026-09-06",
+      "title": "Ryan Heneise：幕僚长自己招探客岗，还排出上门路线并占上日历",
+      "url": "https://x.com/ryenski_dev/status/2096253857223373304",
+      "blurb": "他把打法、理想客户和目标丢给幕僚长，岗自己招来探客、运营和策略，筛出匹配客户、排出敲门路线再把时间写进日历。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "Ryan Heneise",
+        "ryenski"
+      ]
+    },
+    {
+      "id": "x-orcdev-mobile-pr",
+      "added": "2026-09-06",
+      "title": "OrcDev：手机上一句话，三岗自己开浏览器测后台再提 PR",
+      "url": "https://x.com/orcdev/status/2096277235317592304",
+      "blurb": "他对着手机说「去测我的后台」，三个工程岗自己打开浏览器找 bug 并开 PR，截图里编制已经排在侧栏。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "OrcDev"
+      ]
+    },
+    {
+      "id": "x-xiaoduoya-spark",
+      "added": "2026-09-06",
+      "title": "小朵：云电脑点浏览器比 Codex 稳，先拿来给抖音续火花",
+      "url": "https://x.com/xiaoduoya_/status/2096146206766625213",
+      "blurb": "他嫌产品还是毛坯、没有 Codex 那套轮椅流程，但云电脑点浏览器又快又稳，先拿来做了抖音续火花，再也不靠自己每天记得点。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "跑腿",
+        "上手"
+      ],
+      "aliases": [
+        "小朵",
+        "xiaoduoya",
+        "抖音"
+      ]
+    },
+    {
+      "id": "youtube-brandon-15",
+      "added": "2026-09-06",
+      "title": "Brandon Charleson：二十二分钟拉起十五岗，Eve 总控、邮差对账、Talia 抓闲置订阅",
+      "url": "https://www.youtube.com/watch?v=O2vgG9sf7CI",
+      "blurb": "他现场立 Eve 总控、邮差扫全部收件箱、Talia 抓闲置订阅，岗之间对 Stripe 收据，并装自写用量 CLI，还提醒全岗共用文件系统、客户隔离会漏。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "销售",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "Brandon Charleson",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "youtube-eric-siu-ten",
+      "added": "2026-09-06",
+      "title": "Eric Siu：十套真在赚钱的岗，试播 Reel、AEO、领英外联和 GitHub FirstMate",
+      "url": "https://www.youtube.com/watch?v=0qRlQ935B3A",
+      "blurb": "他把编制按代理公司来摆，现场走 Instagram 试播、自主 SEO/AEO、领英外联、短视频放量和招聘，再用 FirstMate 扫 GitHub，并强调人工审批和外发模板。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营",
+        "工程",
+        "视频"
+      ],
+      "aliases": [
+        "Eric Siu",
+        "FirstMate",
+        "AEO"
+      ]
+    },
+    {
+      "id": "youtube-jinrui-stocks",
+      "added": "2026-09-06",
+      "title": "金睿：当场建选股岗，六市场各挑五档并吐出三十档 PDF",
+      "url": "https://www.youtube.com/watch?v=Mvh2c-5ck84",
+      "blurb": "他用 SuperGrok Plus 把选股岗接到投资资讯站，纠正它只做单市场的误解后，按同一规则从台美港中韩日各选五档并产出完整 PDF，额度与 Grok Build 分开算。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "金睿",
+        "SuperGrok"
+      ]
+    },
+    {
+      "id": "kiin-linkedin-ads",
+      "added": "2026-09-06",
+      "title": "Kiin LinkedIn Ads：预览确认后再改投放",
+      "url": "https://github.com/Adriman2/kiin-cursor-plugin",
+      "blurb": "Grok Bot / Cursor 插件接到托管 MCP，能读花费点进，改预算、暂停广告必须先预览再确认，OAuth 动态注册，密钥不进配置。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "销售"
+      ],
+      "aliases": [
+        "Kiin",
+        "LinkedIn Ads",
+        "Adriman2"
+      ]
+    },
+    {
+      "id": "grokbot-home-assistant",
+      "added": "2026-09-06",
+      "title": "Home Assistant 插件：云电脑调灯，局域网 IP 走不通",
+      "url": "https://github.com/gokivego/grokbot-home-assistant",
+      "blurb": "stdio MCP 跑在 Grok Bot 共享电脑上调 HA REST，云端解析不了家里的 192.168 和 .local，要用 Tailscale MagicDNS 或 Nabu Casa，开关灯必须等人点头。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "跑腿"
+      ],
+      "aliases": [
+        "Home Assistant",
+        "Tailscale",
+        "gokivego"
+      ]
+    },
+    {
+      "id": "canvas-registrar",
+      "added": "2026-09-06",
+      "title": "Canvas Registrar：先算你还能冲到几分，变了才发消息",
+      "url": "https://github.com/ndunl075/grok-bot---cursor-hackathon",
+      "blurb": "把 dist/registrar 技能包贴进 Grok Bot，它按权重算出你还能拿到的最高分，作业或公告变了才开口，安装前用假 Bearer 打出 401 证明云电脑真能出站。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "Canvas",
+        "ndunl075"
+      ]
+    },
+    {
+      "id": "convoy",
+      "added": "2026-09-06",
+      "title": "Convoy：一个 MCP 线程当项目记忆，把活 hop 给本机 CLI",
+      "url": "https://github.com/Deploy-Forward/convoy",
+      "blurb": "Grok 市场插件指向 convoy.bot/mcp，命名线程当共享记忆，把活 hop 到 Windows 本机已有 CLI，写钩子前会先探测命令能否跑，失败就拒绝落盘。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "Convoy",
+        "Deploy-Forward"
+      ]
+    },
+    {
+      "id": "x-austen-multi-model",
+      "added": "2026-09-06",
+      "title": "Austen Allred：把 Grok、Claude Code 和 Codex 关进同一岗互相抬杠",
+      "url": "https://x.com/Austen/status/2096238185760350233",
+      "blurb": "他把让模型互相反驳的习惯做成可装技能，岗会在云电脑里同时拉起 Grok、Claude Code 和 Codex，吵到达成共识才交差。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Austen Allred",
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "latent-space-mcateer",
+      "added": "2026-09-06",
+      "title": "Dan McAteer：五天实测——Grok Bot 有 OpenClaw 的编程力，开箱却像一台 MacBook",
+      "url": "https://www.latent.space/p/grok-bot",
+      "blurb": "他把插件一键登录、Freshdesk 十五分钟巡检和云端 Claude Code 编制对照 OpenClaw：共享电脑不是安全边界，工程周边岗好用、写 PR 还轮不到它。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "插件",
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Dan McAteer",
+        "Latent Space",
+        "OpenClaw",
+        "Freshdesk"
+      ]
+    },
+    {
+      "id": "reddit-expensive-secretary",
+      "added": "2026-09-06",
+      "title": "r/cursor：用 Grok Bot 当全职秘书，Pro 周额度两天打满、加十美元两小时烧完",
+      "url": "https://www.reddit.com/r/cursor/comments/1w7j1ue/grok_bot_is_expensive/",
+      "blurb": "作者让 Bot 管多邮箱日历、排程、IT 和物流，二十美元 Pro 两天用尽周额度，再加十美元按量两小时就空，怀疑六十美元档也不够撑。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "运营"
+      ]
+    },
+    {
+      "id": "linkedin-sven-week",
+      "added": "2026-09-06",
+      "title": "Sven Böttger：用了一周，觉得它比 Claude Cowork / ChatGPT Work 更好上手",
+      "url": "https://www.linkedin.com/posts/sven-boettger_i-have-been-using-grok-bot-for-a-week-it-activity-7495549250400010241-vir-",
+      "blurb": "关盖不停、群聊里 Bot 互相交活，但 Cursor Ultra 200 美元还加超额用量，登录态全堆同一台云机，敏感系统他劝先别接。",
+      "section": "reviews",
+      "tags": [
+        "上手",
+        "计费",
+        "电脑",
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "Sven Böttger",
+        "Claude Cowork"
+      ]
+    },
+    {
+      "id": "juejin-swallow-pc",
+      "added": "2026-09-06",
+      "title": "Grok Bot 正在吞掉电脑：买 Mac mini 给 Agent 用可以先缓缓",
+      "url": "https://juejin.cn/post/7681489628257320994",
+      "blurb": "本地风扇狂转后把抓取整理丢上共享云电脑，两个 Bot 分屏幕收 YouTube 片头，合上笔记本也不必为 Agent 加购 Mac mini。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "掘金",
+        "Mac mini"
+      ]
+    },
+    {
+      "id": "youtube-kunpeng-rakazo",
+      "added": "2026-09-06",
+      "title": "鲲鹏Talk：开源替身 Rakazo 本地 Docker 部署，多岗共用浏览器终端还能换模型",
+      "url": "https://www.youtube.com/watch?v=fSXPteGfmaU",
+      "blurb": "他把 Rakazo 当能自己托管的 Grok Bot：Docker 起一台可操作桌面，岗可接 Claude、GPT 或本地模型，敏感操作走人审，审计进自己的日志。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "鲲鹏Talk",
+        "Rakazo",
+        "Docker"
+      ]
+    },
+    {
+      "id": "forum-supergrok-vs-heavy",
+      "added": "2026-09-06",
+      "title": "员工：SuperGrok 和 Heavy 跑 Bot 只差额度，模型一样",
+      "url": "https://forum.cursor.com/t/grok-bot-supergrok-vs-heavy-any-performance-difference-beyond-usage/170664",
+      "blurb": "员工确认两档用同一套一线模型，Heavy 不保证更快排队或电脑动作；绑任一档只给 Grok Bot 加用量、不改 Cursor 套餐，八月底那套 Heavy 送 Ultra 已经作废。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "SuperGrok",
+        "Heavy"
+      ]
+    },
+    {
+      "id": "forum-windows-acl-crash",
+      "added": "2026-09-06",
+      "title": "员工：Windows 秒崩是安装目录缺沙箱 ACL",
+      "url": "https://forum.cursor.com/t/grok-bot-0-28-0-and-0-43-0-windows-instant-launch-crash-int3-in-v8-jit-grok-bot-786cdd6/170691",
+      "blurb": "启动一秒无窗口就退，不是 V8 坏了，是 AppData 安装目录继承了包 SID 却没给 S-1-15-2-1/2 读执行权；给 Grok Bot 文件夹补上这两条后不用启动参数也能进登录。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Windows",
+        "ACL",
+        "V8"
+      ]
+    },
+    {
+      "id": "forum-surfshark-unreachable",
+      "added": "2026-09-06",
+      "title": "员工：本机显示已连却暂时不可达，杀软把回包拖过 10 秒",
+      "url": "https://forum.cursor.com/t/grok-bot-0-43-windows-local-pc-shows-connected-but-commands-fail-with-temporarily-unreachable/170683",
+      "blurb": "0.43 本机列表绿着、命令却报 temporarily unreachable，是 Surfshark 实时防护扫 %TEMP% 里的 PowerShell 脚本把回包拖到 11 秒、代理只等 10 秒；把 %APPDATA%\\Grok Bot 和可执行文件加入排除再开防护。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Surfshark",
+        "Windows"
+      ]
+    },
+    {
+      "id": "forum-graphrag-brick",
+      "added": "2026-09-06",
+      "title": "员工：GraphRAG 把内存打满会像砖机，Reset 别连点",
+      "url": "https://forum.cursor.com/t/grokbot-bricked-wont-reset/170689",
+      "blurb": "员工查过不是磁盘满，是向量索引把云电脑内存打爆连带系统服务一起挂；Reset 当天要近一小时，连点会从头计时，工作文件会回来但 apt/pip 要重装，回来先 free -h 再小批量跑。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "GraphRAG",
+        "Reset"
+      ]
+    },
+    {
+      "id": "coolak-policy-denied",
+      "added": "2026-09-06",
+      "title": "SuperGrok Heavy 被 policy_denied：.ru 邮箱过不了 Cursor 挂钩",
+      "url": "https://github.com/COOLak/cursor-grok-bot-policy-denied",
+      "blurb": "套餐写明含 Bot，X 授权成功后 Cursor 回调却返回 policy_denied；客服说两边邮箱必须一致，用同一 .ru 地址新建 Cursor 账号这条路仍然被挡。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "计费",
+        "安全"
+      ],
+      "aliases": [
+        "COOLak",
+        "policy_denied"
+      ]
+    },
+    {
+      "id": "reddit-ios-multiaccount",
+      "added": "2026-09-06",
+      "title": "r/GrokBot：iOS/iPad 1.6.0 开始滚动放出多账号切换",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w7r0xe/multiaccount_for_grok_bot_is_rolling_out_to_ios/",
+      "blurb": "同一台手机或平板可以登录多套 Grok 身份，方便把工作号和个人号拆开跑 Bot，官方还在收安装反馈。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "iOS",
+        "iPad"
+      ]
+    },
+    {
+      "id": "reddit-send-feedback-poteto",
+      "added": "2026-09-06",
+      "title": "r/GrokBot：报 Bug 请走应用内 Send Feedback，正文里写上 poteto 三连",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1w7r7ly/how_to_report_grok_bot_bugs/",
+      "blurb": "官方说论坛发帖不够，要在 App 里点 Send Feedback，并可让 Bot 代发；反馈里写上 poteto poteto poteto 才会进调查队列。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "poteto",
+        "Send Feedback"
+      ]
+    },
+    {
+      "id": "x-laughing-two-quotas",
+      "added": "2026-09-06",
+      "title": "Laughing：Premium+ 的 SuperGrok 额度和 Grok Bot 额度是两套账",
+      "url": "https://x.com/0xLaughing/status/2096143239262703960",
+      "blurb": "四张截图把白送的云电脑、grok.com 的 SuperGrok 额度和 Grok Bot 额度拆开，两边互不占用，别把两套额度混着用。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "Laughing",
+        "SuperGrok",
+        "Premium+"
+      ]
+    },
+    {
+      "id": "youtube-ai2roi-rules",
+      "added": "2026-09-06",
+      "title": "ai2roi：九分钟十五条开局规矩，删岗后文件和登录会话还在",
+      "url": "https://www.youtube.com/watch?v=bnGTowwp44I",
+      "blurb": "他点明删掉一岗只会拿掉例行，工作区文件和已登录浏览器还留着，并强调全岗共用一台云电脑、密码别进聊天、先试跑再上日程。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "电脑",
+        "上手",
+        "视频"
+      ],
+      "aliases": [
+        "ai2roi"
       ]
     }
   ]
