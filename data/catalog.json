@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "sections": [
     {
       "id": "official",
@@ -13238,6 +13238,484 @@
       ],
       "aliases": [
         "context"
+      ]
+    },
+    {
+      "id": "x-thomas-discord-gateway",
+      "added": "2026-09-14",
+      "title": "Thomas：别用轮询 Discord，Gateway 叫醒才不烧额度",
+      "url": "https://x.com/ThomasUmstattd/status/2098844639142814186",
+      "blurb": "实测三十分钟轮询会把周额度烧光，正确做法是在云电脑上挂 discord.js Gateway，只在被 @ 时 POST webhook 叫醒，并避开同一 token 双开 Gateway 导致的 401。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "计费",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Discord",
+        "discord.js",
+        "Gateway",
+        "Thomas Umstattd"
+      ]
+    },
+    {
+      "id": "department-grok-bot-playbook",
+      "added": "2026-09-14",
+      "title": "Department Playbook：23 岗 IT 编制，工单当账本，人点头才动",
+      "url": "https://github.com/ericbrianpearson/department-grok-bot-playbook",
+      "blurb": "可粘贴人设从编排岗加三个专员起步，工单当事系统、特权动作必须人答 yes/no/hold，仓库只是文档没有现成 Bot。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手",
+        "工程"
+      ],
+      "aliases": [
+        "Department",
+        "playbook"
+      ]
+    },
+    {
+      "id": "youtube-airdev-beginner",
+      "added": "2026-09-14",
+      "title": "Airdev：从零组订阅审计、盯站、幕僚和项目经理四只岗",
+      "url": "https://www.youtube.com/watch?v=c9_SR0d1LLk",
+      "blurb": "他对照 OpenClaw 的装机门槛后当场建岗：接银行流水查续费、让岗开浏览器取消订阅，再配上盯站、幕僚和项目经理。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "Airdev",
+        "OpenClaw"
+      ]
+    },
+    {
+      "id": "youtube-riley-email-card",
+      "added": "2026-09-14",
+      "title": "Riley Brown：给岗独立邮箱和 Link 虚拟卡，邮件一到就去亚马逊下单",
+      "url": "https://www.youtube.com/watch?v=9lsnEn0tih4",
+      "blurb": "他用 AgentMail webhook 把来信变成例行，再接 Stripe Link 虚拟卡，邮件触发后岗去亚马逊下单，手机上点头才扣款。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "跑腿",
+        "安全",
+        "视频"
+      ],
+      "aliases": [
+        "Riley Brown",
+        "AgentMail",
+        "Stripe Link"
+      ]
+    },
+    {
+      "id": "note-ryosuke-tax-firm",
+      "added": "2026-09-14",
+      "title": "会计事务所把税研／记账岗立上：电车里用手机审 Grok Bot 的月结",
+      "url": "https://note.com/ryosuke0807/n/n41334e0b66c4",
+      "blurb": "税研岗和客户岗互相派活，月结分录也丢给 Bot；上周还慢，用熟后速度追上 Claude，电车里就能审成果。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "运营"
+      ],
+      "aliases": [
+        "日文",
+        "税研"
+      ]
+    },
+    {
+      "id": "note-kyuuri-morning-brief",
+      "added": "2026-09-14",
+      "title": "调查／参谋／写稿三岗群聊：Chromebook 晨报由 Bot 自己吵完再交稿",
+      "url": "https://note.com/kyuuri/n/nac3c3ed05065",
+      "blurb": "平日早晨 X 岗扫 Chromebook／Google 帖，参谋和写稿岗自己争论选题；人只丢过一次「每条新闻一份 Google 文档加封面」。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "日文",
+        "Chromebook"
+      ]
+    },
+    {
+      "id": "note-tomosta-workspace-email",
+      "added": "2026-09-14",
+      "title": "给 Grok Bot 单独开 Workspace 邮箱：水野新当助理，Drive 写稿不碰主账号",
+      "url": "https://note.com/tomosta/n/n128590d8f055",
+      "blurb": "不愿把私人 Gmail 交给插件，就当招新员工一样开域名邮箱；助理、写稿、设计、儿童站和销售岗共用这套独立登录。",
+      "section": "cases",
+      "tags": [
+        "安全",
+        "插件",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "日文",
+        "Workspace",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "reddit-solar-farm",
+      "added": "2026-09-14",
+      "title": "r/GrokBot：家用光伏并网申请交给 Bot 画电气图并核对现场",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wf3xjv/solar_farm_application/",
+      "blurb": "电力公司三次拒件后每次罚一百美元，作者让一只 Bot 做调研、画电气单线图和场地图，再列拍照清单核对间距与设备顺序，准备提前一周提交。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "跑腿"
+      ],
+      "aliases": [
+        "solar"
+      ]
+    },
+    {
+      "id": "x-liam-one-on-ones",
+      "added": "2026-09-14",
+      "title": "Liam：幕僚长每周给各岗做一对一，能改的自己改",
+      "url": "https://x.com/liam_fallen/status/2099082070756675821",
+      "blurb": "他让幕僚长按周问各岗做了什么、哪里翻车、缺什么、该改什么，能修的当场修，其余才交回本人，帖里有编制截图。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Liam"
+      ]
+    },
+    {
+      "id": "x-katie-yoto-ebay",
+      "added": "2026-09-14",
+      "title": "Katie Miller：让岗在英国 eBay 买绝版 Yoto 卡再转运回华盛顿",
+      "url": "https://x.com/KatieMiller/status/2099148494577578109",
+      "blurb": "她让岗在英国 eBay 下单绝版星球大战 Yoto 卡，先建英国地址收货再转到华盛顿，本人只负责最后拍板。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "Katie Miller",
+        "Yoto",
+        "eBay"
+      ]
+    },
+    {
+      "id": "x-morph-btc-desk",
+      "added": "2026-09-14",
+      "title": "morph：六岗接力 BTC 涨跌盘，超限才要本人签字",
+      "url": "https://x.com/morpphhhaw/status/2099138669118361624",
+      "blurb": "他把发现、定价、仓位、成交、记账和否决拆成六岗传同一张票，关盖后继续跑，超限额或离开五分钟窗口才要本人签字，并附视频。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "安全",
+        "视频"
+      ],
+      "aliases": [
+        "morph",
+        "BTC"
+      ]
+    },
+    {
+      "id": "youtube-jinrui-revenue",
+      "added": "2026-09-14",
+      "title": "G股团长金睿：六只岗盯六市场，退回两稿才交出三十档营收爆发报告",
+      "url": "https://www.youtube.com/watch?v=nl18Yc9rkmY",
+      "blurb": "他把风控、基本面、筹码和新闻岗丢进同一群聊，连续打回两版不合格稿，才拿到台美日陆港韩各五档、共十四页的可核验清单。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "金睿",
+        "G股团长"
+      ]
+    },
+    {
+      "id": "youtube-untapped-five-jobs",
+      "added": "2026-09-14",
+      "title": "Ai Untapped：五只谁都能跑的岗，落地价猎手和带出处的调研员",
+      "url": "https://www.youtube.com/watch?v=BVq547NV3L4",
+      "blurb": "他按落地价跨国比价、带出处核事实再配三只日常岗，回答「我到底能拿它干什么」而不是再讲一遍装机。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "销售",
+        "视频"
+      ],
+      "aliases": [
+        "Ai Untapped"
+      ]
+    },
+    {
+      "id": "adspirer-plugin",
+      "added": "2026-09-14",
+      "title": "Adspirer：Google/Meta/TikTok 广告走托管 MCP，新计划默认暂停",
+      "url": "https://github.com/Adspirer/adspirer-cursor-plugin",
+      "blurb": "浏览器 OAuth 连上 Google、Meta、TikTok 等广告户，新计划默认暂停，改预算和出价必须你点头，插件里不放密钥。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "销售",
+        "运营"
+      ],
+      "aliases": [
+        "Adspirer",
+        "MCP"
+      ]
+    },
+    {
+      "id": "optionkrafter-plugin",
+      "added": "2026-09-14",
+      "title": "OptionKrafter：十三种期权回测，Bot 真下单做不到",
+      "url": "https://github.com/optionkrafter/agent-plugin",
+      "blurb": "插件市场或 MCP 地址接上后用 Google 登录，只能读策略和开历史回测，看不到支付方式也下不了真单。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "OptionKrafter",
+        "MCP"
+      ]
+    },
+    {
+      "id": "chiaro-plugin",
+      "added": "2026-09-14",
+      "title": "Chiaro：在 Bot 里做 SOC 2 就绪检查，证据提交仍要你批准",
+      "url": "https://github.com/Chiaro-HQ/cursor-plugin",
+      "blurb": "插件市场搜 Chiaro，浏览器登录后 Bot 做 SOC 2 范围和缺项，命令与提交证据都停在你面前。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全",
+        "工程"
+      ],
+      "aliases": [
+        "Chiaro",
+        "SOC 2",
+        "MCP"
+      ]
+    },
+    {
+      "id": "x-unicode-ten-repos",
+      "added": "2026-09-14",
+      "title": "unicode：市场没上的十个仓库，给岗补接口、记忆和账单",
+      "url": "https://x.com/unicodef1wn/status/2099192376833003786",
+      "blurb": "他用一分多钟视频点出市场没有的免费 API、n8n、文档转写、跨岗记忆和按次计费仓库，避免岗去点网页或等月底账单才知道花了多少。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "计费",
+        "视频",
+        "多Bot"
+      ],
+      "aliases": [
+        "unicode",
+        "n8n"
+      ]
+    },
+    {
+      "id": "forum-1password-mcp",
+      "added": "2026-09-14",
+      "title": "员工：1Password 这类本机 MCP 在云电脑上根本起不来",
+      "url": "https://forum.cursor.com/t/grok-bot-cannot-spawn-1password-mcp-1password-mcp-enoent/168358",
+      "blurb": "员工说 Grok Bot 跑在共享云电脑而不是你的 Mac，依赖本机 1Password.app 的 stdio 插件会 spawn ENOENT；改用远程 HTTP/SSE 或目录里的连接器，本机密码库只能走云浏览器。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "1Password",
+        "MCP",
+        "ENOENT"
+      ]
+    },
+    {
+      "id": "reddit-liking-grok-bot",
+      "added": "2026-09-14",
+      "title": "r/cursor：Grok Bot 像 Claude Cowork，但额度跟 Cursor 分开",
+      "url": "https://www.reddit.com/r/cursor/comments/1we45u2/i_am_liking_grok_bot/",
+      "blurb": "作者拿它写文案、做调研和杂事，觉得比 Claude Cowork 多一摊独立额度；楼下有人用 Todoist 日计划接 Notion 和 Exa 写博客，也有人抱怨 Bot 仍会吃 Cursor 额度。",
+      "section": "reviews",
+      "tags": [
+        "工程",
+        "计费"
+      ],
+      "aliases": [
+        "Claude Cowork",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "youtube-van-did-chatgpt",
+      "added": "2026-09-14",
+      "title": "Van Did This：五件事让他关掉 ChatGPT——云电脑关盖还在跑",
+      "url": "https://www.youtube.com/watch?v=cW1uuX5ayTc",
+      "blurb": "他把岗队、共用 Linux 桌面、浏览器登录和关盖不停工对照聊天窗口，关盖后岗还在跑才是他关掉 ChatGPT 的原因。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Van Did This",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "note-sunwood-chief-groups",
+      "added": "2026-09-14",
+      "title": "OpenMausBot 让 Chief 自己开实现／QA 群：29 秒建好，整员替换会忘自己的 ID",
+      "url": "https://note.com/sunwood_ai_labs/n/n4151d78d7c18",
+      "blurb": "对话让参谋建两个房间并改名换成员；set_members 因工具不返回自身 ID 被拒，人补 ID 后 24 秒才恢复编制。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "OpenMausBot",
+        "sunwood_ai_labs",
+        "日文"
+      ]
+    },
+    {
+      "id": "forum-token-isolated-env",
+      "added": "2026-09-14",
+      "title": "员工：安全卡片里的令牌进不了独立窗口里的 Bot 进程",
+      "url": "https://forum.cursor.com/t/token-not-available-in-grok-bot-environment/171441",
+      "blurb": "员工说卡片显示已保存、其实只写进电脑主环境，独立窗口里新开的 shell 拿不到；别反复重填，把密钥写成电脑上的文件，或另开一个新 Bot 再派活。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "secrets",
+        "token"
+      ]
+    },
+    {
+      "id": "forum-chrome-polling",
+      "added": "2026-09-14",
+      "title": "员工：云电脑 Chrome 没关的标签会一直打你的接口",
+      "url": "https://forum.cursor.com/t/a-persistent-cursor-browser-generated-high-frequency-requests-against-my-cloudflare-worker/171434",
+      "blurb": "员工核对 Signature-Agent 是 cursorusercontent.com：健康检查页在 Grok Bot 云电脑 Chrome 里开着就会自己轮询；去「打开电脑」关掉标签或停掉每五分钟的例程，不行再 Reset。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Chrome",
+        "Cloudflare",
+        "Signature-Agent"
+      ]
+    },
+    {
+      "id": "forum-quota-silent",
+      "added": "2026-09-14",
+      "title": "员工：Bot 全员哑火不是电脑挂了，是周额度打满且桌面不提示",
+      "url": "https://forum.cursor.com/t/grok-bot-isn-t-responding-in-any-bot/171464",
+      "blurb": "员工核对电脑没坏：周额度用尽后每条消息和例程都会被拒，Windows 桌面还不弹警告，看起来像死机；别点 Reset，去设置里看 Usage，等到重置或打开按量付费。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Windows",
+        "Reset",
+        "Usage"
+      ]
+    },
+    {
+      "id": "note-frontier-logs-remain",
+      "added": "2026-09-14",
+      "title": "岗删了，对话日志还在：实测 601 条、239MB",
+      "url": "https://note.com/frontiernote/n/na714faf67b21",
+      "blurb": "列表能看见就还没清干净；作者按条数和体积核对，不信「重建就没了」，也不写日志正文。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "日文",
+        "FrontierNote"
+      ]
+    },
+    {
+      "id": "note-frontier-connectors-remain",
+      "added": "2026-09-14",
+      "title": "插件看起来还在，可调用操作为零",
+      "url": "https://note.com/frontiernote/n/n771007658e64",
+      "blurb": "删岗后连接器仍出现在列表里，点进去却一个操作都调不了；外观残留不等于还能用。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "日文",
+        "FrontierNote"
+      ]
+    },
+    {
+      "id": "reddit-catalogued-857",
+      "added": "2026-09-14",
+      "title": "r/GrokBot：盘点 857 只 Bot，八成作者做完第一只就停了",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wfc5n8/i_catalogued_857_grok_bots_80_of_the_builders/",
+      "blurb": "作者两周里数到 534 人做出 857 只 Bot，其中 425 人只做一只；工程类 158、助手/生活/创意合计 442，多数人把它当下午试用的私人助理而不是常驻团队。",
+      "section": "community",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "r/GrokBot"
+      ]
+    },
+    {
+      "id": "reddit-shock-syndrome",
+      "added": "2026-09-14",
+      "title": "r/GrokBot：三十刀试爽后加到一百、再被要五百刀 token 的额度休克",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wexhal/grok_bot_shock_syndrome/",
+      "blurb": "作者从三十美元玩到一百美元组起虚拟团队，隔天像被换了钥匙进不去；楼下有人用额度管家 Bot 掐掉夜间空转，也有人让 Bot 走 OpenRouter 便宜模型。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "OpenRouter"
       ]
     }
   ]
