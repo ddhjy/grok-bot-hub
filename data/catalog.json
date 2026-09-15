@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "sections": [
     {
       "id": "official",
@@ -14331,6 +14331,513 @@
       "aliases": [
         "0.51.0",
         "blankspeaker"
+      ]
+    },
+    {
+      "id": "x-bot-galaxy-day1",
+      "added": "2026-09-16",
+      "title": "官方：Galaxy 第一天，三人用 Grok Bot 现场开公司",
+      "url": "https://x.com/bot/status/2099890276315848743",
+      "blurb": "官方账号宣布 Matt Palmer、Lauren Tan、Roshan Sadanani 从调研、计划和产品开播，并有工程、产品和创始人专场。",
+      "section": "official",
+      "tags": [
+        "上手",
+        "视频",
+        "多Bot"
+      ],
+      "aliases": [
+        "Galaxy",
+        "Matt Palmer",
+        "Lauren Tan"
+      ]
+    },
+    {
+      "id": "movez-ten-steps",
+      "added": "2026-09-16",
+      "title": "0xMovez：十步把 Grok Bot 从安装推到专岗群聊",
+      "url": "https://movez.substack.com/p/grok-bot-agents-how-to-automate-your",
+      "blurb": "从幕僚岗写清永远不发信的边界，插件一次连全账号，登录墙把屏幕交回给你点完再继续，演示一遍存成例行，专岗进群聊只在不可逆处停下来等人。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "0xMovez",
+        "Substack"
+      ]
+    },
+    {
+      "id": "zenn-suwash-operating-system",
+      "added": "2026-09-16",
+      "title": "諏訪：把 Grok Bot 当工作团队，Harness／Loop／Graph／审批落到岗上",
+      "url": "https://zenn.dev/suwash/articles/grok-bot-operating-system_20260910",
+      "blurb": "收集、核对、写稿拆给不同岗，Skill 和 Routine 写死成果物路径和重试上限，外发前必须把改什么摊给人看。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "安全",
+        "工程"
+      ],
+      "aliases": [
+        "諏訪",
+        "Zenn",
+        "日文",
+        "Harness"
+      ]
+    },
+    {
+      "id": "x-overlabor-teach-skill",
+      "added": "2026-09-16",
+      "title": "overlabor：桌面版教学录像一遍就能收成技能",
+      "url": "https://x.com/overlabor77/status/2099872631159689553",
+      "blurb": "他打开教学录像，把 Bitwarden 指到自建服并停在主密码前，岗直接生成可复用技能，楼下贴出完整步骤。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "上手",
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "Bitwarden",
+        "教学录像"
+      ]
+    },
+    {
+      "id": "reddit-insta-flow-queue",
+      "added": "2026-09-16",
+      "title": "r/GrokBot：两只 Bot 用 Flow 出片、Notion 排队，一天发两次 Instagram",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wgfa76/i_automated_my_insta_page/",
+      "blurb": "一只按品牌用 Google Flow 生成视频，另一只存进 Drive 再写入 Notion 队列，靠浏览器会话省掉复杂登录，每天定时发帖。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "视频",
+        "多Bot"
+      ],
+      "aliases": [
+        "r/GrokBot",
+        "Instagram",
+        "Google Flow",
+        "Notion"
+      ]
+    },
+    {
+      "id": "x-freeze-galaxy-notes",
+      "added": "2026-09-16",
+      "title": "X Freeze：让岗边看 Galaxy 直播边截图做笔记",
+      "url": "https://x.com/XFreeze/status/2099904422977413501",
+      "blurb": "他把直播丢给岗实时跟看、摘重点、抓截图，人只盯自己关心的段落，帖里有云电脑跟播画面。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "X Freeze",
+        "Galaxy"
+      ]
+    },
+    {
+      "id": "x-xuxing-antigravity",
+      "added": "2026-09-16",
+      "title": "爱天地雨：把 Antigravity 装进云电脑，省 Grok Bot 额度",
+      "url": "https://x.com/xuxing0727/status/2099808985654415729",
+      "blurb": "他把 Google Antigravity CLI 装进岗的云电脑，改掉中国地区并扫码验证后，日常搜料写文档改走 Google Pro 额度。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "Antigravity",
+        "Google Pro"
+      ]
+    },
+    {
+      "id": "youtube-calvin-five-bots",
+      "added": "2026-09-16",
+      "title": "Calvin Hollywood：五只岗替他干活，Monja 自己砍掉一千欧以下的合作",
+      "url": "https://www.youtube.com/watch?v=Xfgsd1uBOJ8",
+      "blurb": "Nico 全天扫 X、Susi 配 Tony 做帖、语音备忘录直接成稿，Monja 拒掉低于一千欧的合作，Miguel 规划朝圣之路，最后打开笔记本合上仍在跑的云电脑。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "销售",
+        "跑腿",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "Calvin Hollywood",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "forum-slack-private-invite",
+      "added": "2026-09-16",
+      "title": "员工：私密 Slack 频道要先 /invite @Cursor，测试运行过了也不代表例程能醒",
+      "url": "https://forum.cursor.com/t/grok-bot-slack-routine-trigger-never-fires-while-test-run-and-slack-return-both-work/171676",
+      "blurb": "员工核对频道是私密的、Cursor Slack 应用不在里面，消息根本没送到例程；测试运行不走 Slack、回帖走的是另一套插件，先在频道里邀请 @Cursor 等一分钟再发触发词。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Slack",
+        "Routine",
+        "@Cursor"
+      ]
+    },
+    {
+      "id": "kleap-grok-plugin",
+      "added": "2026-09-16",
+      "title": "Kleap 插件：Bot 改站、发布、看搜索，扣费和绑域要你点头",
+      "url": "https://github.com/kleaphq/kleap-grok-plugin",
+      "blurb": "浏览器 OAuth 接托管 MCP，过审后侧栏搜 Kleap，扣额度、绑域名、删除都要你点头，密钥不进插件。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "Kleap",
+        "MCP",
+        "OAuth"
+      ]
+    },
+    {
+      "id": "lovelio-grok-bot",
+      "added": "2026-09-16",
+      "title": "Lovelio 招聘台：按美欧澳区接 MCP，别认证错区",
+      "url": "https://github.com/brettiredale/lovelio-grok-bot",
+      "blurb": "插件市场装好后只认证你工区所在的 US、EU 或 ANZ 连接器，Bot 可搜候选人、推流程和记入职，权限和操作日志跟 Lovelio 网页同一套。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "销售"
+      ],
+      "aliases": [
+        "Lovelio",
+        "MCP",
+        "ATS"
+      ]
+    },
+    {
+      "id": "grok-clawbot",
+      "added": "2026-09-16",
+      "title": "grok-clawbot：个人微信走腾讯官方 iLink，不是逆向网页版",
+      "url": "https://github.com/huaerye23/grok-clawbot",
+      "blurb": "绑定后独立 monitor 零 token 保活，入站 webhook 叫醒 Bot 再 wechat_send，助手回合里禁止再拉更新，凭证放本机目录不进 git。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "微信",
+        "iLink",
+        "ClawBot"
+      ]
+    },
+    {
+      "id": "hermes-grok-bridge",
+      "added": "2026-09-16",
+      "title": "Hermes 桥：Tailscale 上用 SSH 或 :8642 把 Hermes 接进 Bot",
+      "url": "https://github.com/shagghiesuperstar/hermes-grok-bridge",
+      "blurb": "两套接法都不带你的主机和密钥，只走私网禁止 Funnel，账号级 MCP 对所有 Bot 可见，别让 Bot 往 Hermes 记忆插件里写。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Hermes",
+        "Tailscale",
+        "MCP"
+      ]
+    },
+    {
+      "id": "glasser-plugin",
+      "added": "2026-09-16",
+      "title": "Glasser：公司调研和邮箱核验走你自己的 Workspace 余额",
+      "url": "https://github.com/Alyson1215/glasser-plugin",
+      "blurb": "浏览器连自己的 Workspace 再跑付费数据，仓库带三个可粘贴岗说明书，分享模板不含作者登录，提示里的花钱上限服务器不会强制执行。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "销售"
+      ],
+      "aliases": [
+        "Glasser",
+        "MCP"
+      ]
+    },
+    {
+      "id": "adamanz-grok-bot-skill",
+      "added": "2026-09-16",
+      "title": "Grok Bot Skill：终端列队友、发话、建岗，不点桌面",
+      "url": "https://github.com/adamanz/grok-bot-skill",
+      "blurb": "macOS 已登录桌面端时用本机会话列 Bot、等回复或新建岗，不走 Cursor Cloud Agents API，也不打印令牌和网关地址。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "macOS",
+        "CLI",
+        "Skill"
+      ]
+    },
+    {
+      "id": "grok-bot-team-design",
+      "added": "2026-09-16",
+      "title": "任意岗设计法：先定活再决定拆不拆，不默认要大总管",
+      "url": "https://github.com/sanyoii/grok-bot-team-design",
+      "blurb": "繁中 Skill 从工作结果写 name、title、description、交接和停止条件，只出设定稿不替你建 Bot，原生 Skill 导入尚未实测。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "繁中",
+        "Skill",
+        "Codex"
+      ]
+    },
+    {
+      "id": "growthexe-26-templates",
+      "added": "2026-09-16",
+      "title": "Growth.exe：二十六只可偷的 Grok Bot 模板，从夜间审计到 Figma Bro",
+      "url": "https://growthexe.substack.com/p/26-grok-bot-templates-worth-stealing",
+      "blurb": "每条都附 x.ai/bot 分享链接，覆盖工程、销售、盯页和视频剪辑，作者强调抄的是一件事做到底的工作流而不是再养一只万能助手。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "销售"
+      ],
+      "aliases": [
+        "Growth.exe",
+        "Figma Bro",
+        "模板"
+      ]
+    },
+    {
+      "id": "x-wonder-plugin",
+      "added": "2026-09-16",
+      "title": "Wonder：官方插件上架，岗能在实时画布上改设计",
+      "url": "https://x.com/usewonder/status/2099896411823219063",
+      "blurb": "他们宣布插件已进 Grok Bot，岗可在直播画布上试布局、改风格并一起打磨设计，帖里有演示视频。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Wonder"
+      ]
+    },
+    {
+      "id": "x-john-agentcall",
+      "added": "2026-09-16",
+      "title": "John：技能让岗加入 Google Meet、Teams 和 Zoom",
+      "url": "https://x.com/johnxpattern/status/2099924251319152707",
+      "blurb": "他把进会、说话和共享屏幕做成可装进任意模板的技能，GitHub 仓库可引用，并已提 PR 进插件市场。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "AgentCall",
+        "Google Meet",
+        "Zoom",
+        "Teams"
+      ]
+    },
+    {
+      "id": "reddit-linux-flatpak",
+      "added": "2026-09-16",
+      "title": "r/GrokBot：把官方 Linux AppImage 打成非官方 Flatpak",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wflhvl/grok_bot_on_linux_via_flatpak_unofficial_package/",
+      "blurb": "作者从官方渠道取出 AppImage，打成 Fedora、Arch、Ubuntu 都能装的开源 Flatpak，方便没有原生包的发行版落地桌面客户端。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "r/GrokBot",
+        "Linux",
+        "Flatpak",
+        "AppImage"
+      ]
+    },
+    {
+      "id": "note-taichi-chatgpt-work",
+      "added": "2026-09-16",
+      "title": "Grok Bot 对 ChatGPT Work：雇一群有名字的同事，还是把活交给最强的一个人",
+      "url": "https://note.com/taichi_endoh/n/n9e1a3cb98dec",
+      "blurb": "多岗群聊、常设云电脑对上可选模型和 WebMCP；医院里有患者信息的画面两边都不能碰，补贴收集才适合拆岗。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "安全",
+        "计费"
+      ],
+      "aliases": [
+        "日文",
+        "ChatGPT Work",
+        "WebMCP"
+      ]
+    },
+    {
+      "id": "note-taichi-hospital-security",
+      "added": "2026-09-16",
+      "title": "云电脑在美国、删岗登录还在：从官方安全文档看 Grok Bot 能不能进医院",
+      "url": "https://note.com/taichi_endoh/n/n2bd64e79351e",
+      "blurb": "美国云电脑、Teams 没有审计日志、删岗不清会话，他把安全文档翻成医疗现场能不能碰的判断。",
+      "section": "reviews",
+      "tags": [
+        "安全",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "日文",
+        "医院",
+        "安全文档"
+      ]
+    },
+    {
+      "id": "nervegna-mac-studio",
+      "added": "2026-09-16",
+      "title": "Nervegna：Mac Studio 对账 Grok Bot 月席，把 Hermes 个人环迁到定额",
+      "url": "https://nervegna.substack.com/p/mac-studio-vs-200month-for-ai-whats",
+      "blurb": "他把 Hermes 上服务自己的那四分之一按量账单换成约一百欧元的 Grok Bot 席，并写明迁的是套件不是模型：失败模式和救援成本没一起搬走就不算便宜。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "Nervegna",
+        "Mac Studio",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "reddit-buy-voice",
+      "added": "2026-09-16",
+      "title": "r/GrokBot：走 grok.com 买觉得贵，但语音工作流比 OpenClaw 好上手",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wh63th/where_is_the_best_place_route_to_buy_grokbot/p9ztuo0/",
+      "blurb": "对比 Cursor 价觉得吃亏，却发现语音成了最爱：对着 Bot 口述就能出活，从 OpenClaw 那种步步要技术的坑里逃出来。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "上手"
+      ],
+      "aliases": [
+        "r/GrokBot",
+        "OpenClaw",
+        "grok.com"
+      ]
+    },
+    {
+      "id": "youtube-jay-hermes-four",
+      "added": "2026-09-16",
+      "title": "Jay Choi：对照 Hermes 机器人模式后，现场搭出四只自己干活的岗",
+      "url": "https://www.youtube.com/watch?v=sKI2x3WvBLA",
+      "blurb": "Grok Bot 出后三天 Hermes 跟进机器人模式，他拆价格、装机和每岗一台云电脑的差别，再亲手组四只岗让它们自己交接。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "Jay Choi",
+        "Hermes",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "forum-false-healthy-reset",
+      "added": "2026-09-16",
+      "title": "员工：电脑报健康其实卡死，桌面 Reset 这次对了，手机要划掉重开",
+      "url": "https://forum.cursor.com/t/grokbot-failing-to-respond/171698",
+      "blurb": "员工说云电脑对内报健康、对外全失败所以不会自动换机；桌面 Reset 保住了花名册和文件，手机还显示连不上时把 App 划掉重开一次就会接到新电脑。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Reset",
+        "Take over"
+      ]
+    },
+    {
+      "id": "reddit-passwords-exit-ip",
+      "added": "2026-09-16",
+      "title": "r/GrokBot：密码怎么交给 Bot——独立 1Password、代登屏幕、出口改走本机",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wgk74j/grokbot_and_passwords/",
+      "blurb": "有人给 Bot 单独开 1Password 库，有人自己接管屏幕代登；新开关能把云电脑出口改走你的 IP，而不是数据中心地址。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "r/GrokBot",
+        "1Password"
+      ]
+    },
+    {
+      "id": "reddit-discord-poll-quota",
+      "added": "2026-09-16",
+      "title": "r/GrokBot：每十分钟刷 Discord 一晚烧掉月度额度的百分之五",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wgzeo4/discord_pings/",
+      "blurb": "Webhook 和手机 Slack 都没接通，Bot 只能轮询私有频道；评论建议改用 Cloudflare Worker 或 Hermes 脚本触发，别让云电脑空转刷页。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障",
+        "插件"
+      ],
+      "aliases": [
+        "r/GrokBot",
+        "Discord",
+        "Webhook"
+      ]
+    },
+    {
+      "id": "reddit-add-account",
+      "added": "2026-09-16",
+      "title": "r/GrokBot：公司企业版和副业个人 Bot 没法同时开着",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wgrjnx/separate_grokbot_accounts/",
+      "blurb": "企业账号不能塞进副业任务，来回登出很烦；有人指出设置里连点两次名字会出现 Add account，可以并列登录多个账号。",
+      "section": "community",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "r/GrokBot",
+        "Add account"
       ]
     }
   ]

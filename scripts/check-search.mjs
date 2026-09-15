@@ -112,9 +112,10 @@ assert(!install.includes("debbie-get-started"), "安装 hits Debbie 上手文 vi
 const slack = hits("Slack");
 assert(slack.includes("cursor-help-connect-plugins"), "Slack misses 连接插件");
 assert(slack.includes("usecarly-slack"), "Slack misses Slack 工作区");
+assert(slack.includes("forum-slack-private-invite"), "Slack misses 私密频道例程");
 assert(!slack.includes("cigar-coupon-outreach"), "Slack hits cigar via blurb list");
 assert(!slack.includes("grok-bot-discord"), "Slack hits Discord deny-phrase");
-assert(slack.length === 2, `Slack should be plugin + tutorial, got ${slack.length}: ${slack.join(",")}`);
+assert(slack.length === 3, `Slack should be plugin + tutorial + private-invite, got ${slack.length}: ${slack.join(",")}`);
 
 const skill = hits("技能");
 assert(skill.includes("docs-skills-routines"), "技能 misses 技能与例程");
