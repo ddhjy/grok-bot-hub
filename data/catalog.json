@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "sections": [
     {
       "id": "official",
@@ -17970,6 +17970,514 @@
         "YouTube",
         "Karine Lago",
         "葡语"
+      ]
+    },
+    {
+      "id": "note-ralphtan-shared",
+      "added": "2026-09-22",
+      "title": "并非每个 Bot 一台电脑：按原文核对并行、登录共享和安全边界",
+      "url": "https://note.com/ralphtan/n/nf89471a49f74",
+      "blurb": "同一账号的 Bot 可以同时开工，但浏览器登录、文件和命令行凭证全员共用，密码要本人接手输入，删掉 Bot 也清不掉云电脑上的会话。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-viola-ten",
+      "added": "2026-09-22",
+      "title": "浏览器每点一下都在读截图：十段把用量压住的委托写法",
+      "url": "https://note.com/vast_viola153/n/nff6433bb700d",
+      "blurb": "连接器能取的就别开画面，因为逐步截图会比接口贵上几十倍，文末那十条还要求失败三次就停，对话里只回三行要点。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "medium-contextbolt-seo",
+      "added": "2026-09-22",
+      "title": "David Hamilton：云电脑够不到本机 MCP，把掉点击收成周一例程",
+      "url": "https://medium.com/@david_71351/give-grok-bot-live-seo-data-then-run-one-useful-routine-cc115daad49b",
+      "blurb": "云电脑碰不到笔记本上的 MCP，得在对话里交公开 HTTPS 地址并先核对工具，再把 Search Console 掉点击的对照收成周一早上的例程，数据服务额度和 Bot 用量分开算。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "ContextBolt",
+        "Search Console",
+        "MCP"
+      ]
+    },
+    {
+      "id": "youtube-sorla-inbox",
+      "added": "2026-09-22",
+      "title": "Sorla：二十美元档先建信箱岗，行销琐事交给云端例行",
+      "url": "https://www.youtube.com/watch?v=qL8alDehpBs",
+      "blurb": "她从登录做到现场建一个只管信箱的岗，并把广告巡查、排名监测和留言整理拆成不同角色，关掉电脑后云端仍会接着跑。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "运营",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Sorla",
+        "繁体中文"
+      ]
+    },
+    {
+      "id": "youtube-gabry-seven",
+      "added": "2026-09-22",
+      "title": "Gabry：大约二十一欧元档上，七件不再亲手做的活",
+      "url": "https://www.youtube.com/watch?v=7ARRMNcnQAM",
+      "blurb": "意大利语片按每月大约二十一欧元，把他不再亲手做的七件事交给云端岗，适合先看价格再决定要不要养编制的人。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "GabrySolution",
+        "意大利文"
+      ]
+    },
+    {
+      "id": "forum-raster-svg",
+      "added": "2026-09-22",
+      "title": "员工：改现成示意图别让 Bot 猜像素，先换成 SVG 或 draw.io",
+      "url": "https://forum.cursor.com/t/grok-bot-simple-image-track-geometry-edit-unreliable/172484",
+      "blurb": "员工说 Bot 改栅格图是先估坐标再写脚本，要对齐曲线就会画歪，把原件换成 SVG、Inkscape 或 draw.io 再让它改线，几何才按得上。",
+      "section": "tutorials",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "SVG",
+        "draw.io"
+      ]
+    },
+    {
+      "id": "coreware-qa-roster",
+      "added": "2026-09-22",
+      "title": "QA 编制入库：存活探测只留一个总指挥，生产站默认旁观",
+      "url": "https://github.com/elo-coreware/grok-bot-skills",
+      "blurb": "人格、技能和例程都放进公开仓库，工作日存活探测只由当前总指挥发送以免双份打扰，周末停，生产站没有明确吩咐就不得改动。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "Coreware",
+        "Gene Kranz"
+      ]
+    },
+    {
+      "id": "note-tsuchine-crm",
+      "added": "2026-09-22",
+      "title": "没交 CRM 手册，只让 Grok Bot 先看画面再把商谈记录填进去",
+      "url": "https://note.com/tsuchine_ai/n/n91806b87c184",
+      "blurb": "手机上把文字稿丢过去，云端浏览器会自己找输入框，但数据中心 IP 会被 403 挡住，同名存进网盘还会变成另一份文件。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "CRM"
+      ]
+    },
+    {
+      "id": "note-sato-pig",
+      "added": "2026-09-22",
+      "title": "养猪经营者的花名册：会计收发票、跑腿购物，一天吃掉约四成周额度",
+      "url": "https://note.com/satotakuei/n/n47fbbd62bd84",
+      "blurb": "图面工作把 Codex 额度烧光后，他在约六十美元的 Cursor Plus 上让会计 Bot 收发票、跑腿 Bot 去购物，猛用一天就吃掉约四成周额度。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Codex"
+      ]
+    },
+    {
+      "id": "note-laai-stand",
+      "added": "2026-09-22",
+      "title": "没学过 CAD，让 Grok Bot 在云电脑上改出约 64 毫米的相机支架",
+      "url": "https://note.com/laai/n/na1cdad901204",
+      "blurb": "云电脑里的模型可以转着看并指出沟被封死，后来改用公开的 GoPro 兼容座只加短脚，大约 64 毫米的支架已经成形，打印机还没买。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "GoPro"
+      ]
+    },
+    {
+      "id": "mitaimon-ishitani-207",
+      "added": "2026-09-22",
+      "title": "いしたに #207：付了 Cursor 套餐才让 Grok Bot 盯着编辑器跑新闻信",
+      "url": "https://mitaimon.com/ishitani-works-%E3%81%BE%E3%81%A8%E3%82%81%E3%83%AC%E3%82%BF%E3%83%BC-207-%E3%81%A8%E3%81%AB%E3%81%8B%E3%81%8F%E4%B8%80%E5%BA%A6cursor%E3%82%92%E5%8B%95%E3%81%8B%E3%81%97%E3%81%9F%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7-%E3%81%93%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AC%E3%82%BF%E3%83%BC%E3%81%AE%E5%8D%8A%E8%87%AA%E5%8B%95%E5%8C%96%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F-8d3037230c68",
+      "blurb": "钱花在 Cursor 套餐上却从没打开过编辑器，于是用 Grok Bot 盯着仓库里的 Cursor 半自动写新闻信，定时任务右上角的 Test 并不会像正式跑那样把结果通知回来。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "日文",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "substack-ikjot-reels",
+      "added": "2026-09-22",
+      "title": "Ikjot：一只 Grok Bot 经 MCP 跑无脸短视频，从爆款钩子写到成片",
+      "url": "https://ikjotjuneja.substack.com/p/i-gave-my-grok-bot-one-instagram",
+      "blurb": "他让 Bot 经 MCP 接上自己的 Faceless 和 Flick，从已经跑赢的短视频抽出停留理由再写成脚本和成片，自己只挑要发的并把结果回灌下一轮。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Instagram",
+        "MCP",
+        "Faceless"
+      ]
+    },
+    {
+      "id": "youtube-nick-factory",
+      "added": "2026-09-22",
+      "title": "Nick Miller：在 Agent Conf 用 Grok Bot 演示软件工厂",
+      "url": "https://www.youtube.com/watch?v=iHmBg0N7EOA",
+      "blurb": "他在 Agent Conf 2026 讲怎么用 Cursor、xAI 和 Grok Bot 搭一条能把活做完的软件工厂。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Agent Conf",
+        "Callstack"
+      ]
+    },
+    {
+      "id": "youtube-schramm-daily",
+      "added": "2026-09-22",
+      "title": "Steve Schramm：自托管养不起之后，岗团队接走大约九成五日常",
+      "url": "https://www.youtube.com/watch?v=aOXODMSJB1k",
+      "blurb": "他把收件箱和跟进从需要天天喂的自托管代理换成 Grok Bot，这些岗现在接着大约九成五的日常，而不是只做演示。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Steve Schramm"
+      ]
+    },
+    {
+      "id": "youtube-max-whatsapp",
+      "added": "2026-09-22",
+      "title": "Max Del Vita：客服从 Claude Code 搬到 Grok Bot，WhatsApp 进产品待办",
+      "url": "https://www.youtube.com/watch?v=I992ep0ozmc",
+      "blurb": "物业软件创始人让岗读客户群里的截图、报错和需求，对照 Linear 与 GitHub 再决定什么该进待办。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "工程",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Symplehost",
+        "WhatsApp"
+      ]
+    },
+    {
+      "id": "grokbot-cursor-bridge",
+      "added": "2026-09-22",
+      "title": "Cursor Agent 桥：Bot 只留两个 MCP 工具，装不上就拒绝启动",
+      "url": "https://github.com/kdriedger/grokbot-cursor-bridge",
+      "blurb": "云端 Bot 当聊天入口，本机 cursor-agent 出答案，网关只暴露 cursor_ask 和 cursor_status，安装脚本不代你填公网域名。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "安全"
+      ],
+      "aliases": [
+        "MCP",
+        "cursor-agent"
+      ]
+    },
+    {
+      "id": "postedly-mail",
+      "added": "2026-09-22",
+      "title": "Postedly：寄信、传真和手写卡先报价，付款必须回浏览器点头",
+      "url": "https://github.com/soxoa/postedly-cursor-plugin",
+      "blurb": "插件用浏览器 OAuth 接到托管 MCP，只负责传文件、拿报价和查订单，安装或连上账号都不会自动付款寄出。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "Postedly",
+        "OAuth"
+      ]
+    },
+    {
+      "id": "vertebrae-meetings",
+      "added": "2026-09-22",
+      "title": "Vertebrae：会议逐字稿只读进 Bot，三个工具都不能改笔记",
+      "url": "https://github.com/vertebrae-ai/vertebrae-plugin",
+      "blurb": "让 Grok Bot 接上托管 MCP 后只能列会议、搜索和读全文，安装不带密钥，也不会改你的会议记录。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "Vertebrae",
+        "MCP"
+      ]
+    },
+    {
+      "id": "inoculum-cdp",
+      "added": "2026-09-22",
+      "title": "inoculum：云电脑按 Bot 分浏览器配置和 CDP 端口",
+      "url": "https://github.com/sourman/inoculum",
+      "blurb": "内置浏览器没有 CDP，这个 CLI 按 Bot 身份分开 Chromium 配置和端口，端口落在 9300 到 9499，登录态留在各自的用户目录。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "CDP",
+        "Chromium"
+      ]
+    },
+    {
+      "id": "x-eric-four-agents",
+      "added": "2026-09-22",
+      "title": "Eric Siu：四家代理各干一件真业务，日常司机仍是 Grok Bot",
+      "url": "https://x.com/ericosiu/status/2100977666665124340",
+      "blurb": "剪视频、找演讲、打电话和看流量各试了一家之后，他留下 Grok Bot，因为例程跑得住，电话结果能回听，笔记也能写进 CRM。",
+      "section": "reviews",
+      "tags": [
+        "销售",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Eric Siu",
+        "Muse",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "youtube-marketingpod-four",
+      "added": "2026-09-22",
+      "title": "Marketingpod：Claude、Manus、Grok Bot 和 OpenClaw，谁能做完营销活",
+      "url": "https://www.youtube.com/watch?v=Mnl3r5vXLFQ",
+      "blurb": "丹麦语片把 Claude、Manus、Grok Bot 和 OpenClaw 放在一起，看谁能把营销活做完。",
+      "section": "reviews",
+      "tags": [
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "OpenClaw",
+        "丹麦语"
+      ]
+    },
+    {
+      "id": "youtube-attekita-three",
+      "added": "2026-09-22",
+      "title": "Attekita：OpenClaw 2.0、Hermes 2.0 和 Grok Bot 怎么选",
+      "url": "https://www.youtube.com/watch?v=5R8xQ7rBJ6o",
+      "blurb": "葡语片把这三家常驻代理放在一起对照，适合还在云端省事和自己养主机之间犹豫的人。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Hermes",
+        "OpenClaw",
+        "葡语"
+      ]
+    },
+    {
+      "id": "youtube-thursdai-three",
+      "added": "2026-09-22",
+      "title": "ThursdAI：Grok Bot、Meta Muse 和 Instinct，谁值得天天用",
+      "url": "https://www.youtube.com/watch?v=fpvAPgwtBtg",
+      "blurb": "这期把三款助手放在同一张桌子上比较，帮你判断云端同事和个人助手该不该占同一个位子。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "ThursdAI",
+        "Muse",
+        "Instinct"
+      ]
+    },
+    {
+      "id": "tecadrise-bot",
+      "added": "2026-09-22",
+      "title": "TecAdRiseBot：开源本机多 Agent 替代，应用开着例程才跑",
+      "url": "https://github.com/tecadrise-ai/TecAdRiseBot",
+      "blurb": "基于 Cursor SDK 的本机多 Agent 桌面端，每个 Agent 有自己的工作目录和定时例程，应用没开着例程就不会响，也不是官方客户端。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor SDK"
+      ]
+    },
+    {
+      "id": "forum-server-transcripts",
+      "added": "2026-09-22",
+      "title": "员工：聊天记录改在服务端，电脑上的转录目录空着是正常的",
+      "url": "https://forum.cursor.com/t/grok-bot-forever-box-agent-transcripts-mirror-never-created-server-agent-proxy-transcript-tail-connecterror/172494",
+      "blurb": "员工说 forever box 上的转录目录和本地索引为空不是镜像坏了，健康检查改用 ReadTranscript，应用内搜索仍只读本地副本所以会是空的。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "ReadTranscript"
+      ]
+    },
+    {
+      "id": "forum-account-plugins",
+      "added": "2026-09-22",
+      "title": "员工：Bot 的插件会进 Cursor，吃掉编码额度的是它拉起的云代理",
+      "url": "https://forum.cursor.com/t/grok-bot-shared-plugins-and-mcp-servers-are-wasting-tokens-in-cursor-code/172478",
+      "blurb": "员工说连接器按账号打通，关掉也是全账号一起关，编码请求只带工具名清单，Bot 自己的对话走单独周额度，它为写代码拉起的云代理才计入 Cursor 套餐。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "MCP",
+        "Cloud Agent"
+      ]
+    },
+    {
+      "id": "forum-one-vault",
+      "added": "2026-09-22",
+      "title": "员工：1Password 只留「Shared with Grok Bot」这一个只读金库",
+      "url": "https://forum.cursor.com/t/1password-vault-only-access-in-grokbot/172524",
+      "blurb": "员工说那次授权只是大约十分钟不活动或上锁就失效的一次性会话，用来新建只读服务账号，想少交密码就把登录项挪进这个金库，其余保险箱 Bot 看不见，每次填充仍要你在自己设备上批准。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "1Password"
+      ]
+    },
+    {
+      "id": "forum-repo-cloud-agent",
+      "added": "2026-09-22",
+      "title": "员工：Grok Bot 不挂本地仓库，改代码会交给云代理交回分支",
+      "url": "https://forum.cursor.com/t/read-only-project-access-for-secondary-agents-grok-bot-doc-subagents/171545",
+      "blurb": "员工把边界说死了，Bot 不会直接改你电脑上的仓库，仓库任务交给云代理交回分支或 PR，只读看代码要另接权限收窄的 GitHub 连接器，本机每次读、写、跑命令仍要单独批准。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "Cloud Agent",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "forum-label-gone",
+      "added": "2026-09-22",
+      "title": "员工：Mac 0.57 故意去掉标签芯片，iOS 还能改且没删数据",
+      "url": "https://forum.cursor.com/t/agent-label-chip-not-showing-anymore-mac-v0-57-1/172461",
+      "blurb": "员工确认桌面版 0.57 拿掉标签栏是在重做侧边栏描述，不是丢了设置，已经写过的标签还在，手机版暂时仍能显示和编辑。",
+      "section": "community",
+      "tags": [
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "iOS",
+        "macOS"
+      ]
+    },
+    {
+      "id": "x-huangyihe-build",
+      "added": "2026-09-22",
+      "title": "huangyihe：轻量搜 X 走云电脑里的 Grok Build，插件积分留给批量",
+      "url": "https://x.com/huangyihe/status/2101991927197679677",
+      "blurb": "单帖核实和临时检索装在云电脑上的 Grok Build 更省，日筛、常驻监测和要落库的批量才值得开会扣积分的 X 插件。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "X",
+        "Grok Build"
       ]
     }
   ]
