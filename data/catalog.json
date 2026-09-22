@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "sections": [
     {
       "id": "official",
@@ -18478,6 +18478,478 @@
       "aliases": [
         "X",
         "Grok Build"
+      ]
+    },
+    {
+      "id": "forum-origin-merge",
+      "added": "2026-09-23",
+      "title": "员工：Origin 命令行只能查 PR，合并还得你自己做",
+      "url": "https://forum.cursor.com/t/merging-prs-in-origin-with-grok-bot/172592",
+      "blurb": "云电脑上的 origin 被故意做成只读，改 PR 和合并都不会从岗里直接做，所以会退回浏览器；要少绕路就让云代理开非草稿 PR，合并去 cursor.com/codebase 点按钮，或在你自己的机器上跑 origin pr merge。",
+      "section": "tutorials",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "Origin",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-video-alac",
+      "added": "2026-09-23",
+      "title": "员工：封面视频别做几 GB 的 ProRes，H.264 加 ALAC 才能从聊天送出",
+      "url": "https://forum.cursor.com/t/grok-bot-multi-gb-review-video-undeliverable-still-aac-goes-silent-in-quicktime/172600",
+      "blurb": "聊天视频大约卡在 200MB，拷到 Mac 只收小文件，网盘也传不了大二进制，ProRes 会留在云电脑上；静帧改成 H.264、音频改成 ALAC 的 mov 能压到大约 32MB 直接发出，QuickTime 中途无声先别用一帧配 AAC。",
+      "section": "tutorials",
+      "tags": [
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "ALAC",
+        "QuickTime",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "grokbot-nixos",
+      "added": "2026-09-23",
+      "title": "在 NixOS 上跑官方 Grok Bot：登录链接要等应用装进系统",
+      "url": "https://github.com/aijorgenson/grokbot-nixos",
+      "blurb": "这条 flake 用 FHS 环境包住官方 AppImage，只 nix run 的话 grokbot 和 sand 登录链接回不到窗口，装上模块之后跳转才接得住。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "上手",
+        "排障"
+      ],
+      "aliases": [
+        "NixOS",
+        "AppImage"
+      ]
+    },
+    {
+      "id": "substack-morhous-six",
+      "added": "2026-09-23",
+      "title": "Jeff Morhous：把 Grok Bot 当私人助理的六条原则",
+      "url": "https://www.ai-supremacy.com/p/a-guide-to-grok-bot-2026-autonomous-teammate-systems",
+      "blurb": "他先把自己的工程通讯录划成一块试验田，多名岗共用一台云电脑、各管一种指令，长期状态放到 Todoist，而不是指望一条越来越长的对话记住三周前的决定。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "Todoist",
+        "Jeff Morhous",
+        "Substack"
+      ]
+    },
+    {
+      "id": "youtube-nuno-one-prompt",
+      "added": "2026-09-23",
+      "title": "Nuno Tavares：一句提示让协调岗自己配出整支团队",
+      "url": "https://www.youtube.com/watch?v=HazsXJgRdr0",
+      "blurb": "完整安装片里他把一句提示交给协调岗，让它自己拉起运营、营销、研究和销售，并从先审批讲到每天早上的收件箱简报。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Nuno Tavares"
+      ]
+    },
+    {
+      "id": "youtube-changge-zero",
+      "added": "2026-09-23",
+      "title": "畅哥AI：零基础跑通云电脑、多岗协作和 Cursor 联动",
+      "url": "https://www.youtube.com/watch?v=zuLy7xjjUUA",
+      "blurb": "中文入门从建岗讲到改本地文件、让云电脑自己干活、多岗一起做业务，以及把开发交给 Cursor。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "电脑",
+        "多Bot",
+        "工程",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "畅哥AI"
+      ]
+    },
+    {
+      "id": "xai-support-scale",
+      "added": "2026-09-23",
+      "title": "官方：客服工单涨了 175%，人没加，活交给 Grok Bot",
+      "url": "https://x.ai/news/grok-bot-customer-support",
+      "blurb": "客服工单涨了百分之一百七十五却没加人，岗从进线预排查和几乎全部退款做到临近超时才改派，人改去守要拍板的单，每周还会收到一份回复哪里不行的汇总。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "SpaceXAI",
+        "Plain",
+        "客服"
+      ]
+    },
+    {
+      "id": "note-ef-uniqlo",
+      "added": "2026-09-23",
+      "title": "优衣库、GU、无印新片提醒：两个频道并进一个 Bot，链抽不到就闭嘴",
+      "url": "https://note.com/ef_english_diary/n/n99d5e3dd8ed0",
+      "blurb": "每晚九点只盯两个频道的公开 RSS，判定过线且能抽出商品链才出声，无印那期一次带出十八条带价链接，闲聊和没有店铺链接的回则直接沉默。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "日文",
+        "YouTube RSS",
+        "无印良品"
+      ]
+    },
+    {
+      "id": "note-fk-seven-days",
+      "added": "2026-09-23",
+      "title": "老师让 Grok Bot 和 Genspark 各跑七天早报：留下的是改稿和核对",
+      "url": "https://note.com/lush_quail8536/n/n86409fa58abf",
+      "blurb": "两边都交齐了七天中学生新闻，改完选题规则第二天就会变，但交出来的 Word 还不能直接印，画面上的周用量百分之二也不是这七天的总和。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "计费",
+        "上手"
+      ],
+      "aliases": [
+        "日文",
+        "Genspark"
+      ]
+    },
+    {
+      "id": "reddit-home-inventory",
+      "added": "2026-09-23",
+      "title": "r/GrokBot：拍下父母整栋房子，让 Bot 做出搬家处置表",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wmq6j6/home_inventory_help_downsizing/",
+      "blurb": "他把大约三百五十张房间照片和自写技能交给岗，一小时后拿到按房间列出的估价、去留建议和转卖文案，兄弟姐妹可以在表上加列认领。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "插件"
+      ],
+      "aliases": [
+        "r/GrokBot"
+      ]
+    },
+    {
+      "id": "substack-eda-five",
+      "added": "2026-09-23",
+      "title": "Eda Akturk：每天真在用的五个 Grok Bot，理财岗差点退掉保险",
+      "url": "https://edatweets.substack.com/p/the-5-grok-bots-i-actually-use",
+      "blurb": "她用每月三十美元养了日程、理财、Substack 选题、X 书签和安静邮件五名每天开口的岗，理财那位还差点因为看不懂楼宇条款去退掉租房保险。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿",
+        "计费"
+      ],
+      "aliases": [
+        "Eda Akturk",
+        "Substack"
+      ]
+    },
+    {
+      "id": "substack-nyc-build-night",
+      "added": "2026-09-23",
+      "title": "纽约营销搭建夜：提案、空位和竞品注册，都是岗先做完的",
+      "url": "https://compileinstyle.substack.com/p/the-proposal-an-ai-agent-wrote-before",
+      "blurb": "那场活动里，Grace 的 Pipeline Operator 没等吩咐就按客户旧物料写完开心果奶品牌提案，主讲人还讲清了浏览器自动化为什么烧额度，以及幕僚岗会变成账单上最贵的一行。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "Substack",
+        "Pipeline Operator"
+      ]
+    },
+    {
+      "id": "x-sawyer-tesla",
+      "added": "2026-09-23",
+      "title": "Sawyer：特斯拉语音里让 Grok Bot 下单，目前只对 Heavy 开放",
+      "url": "https://x.com/SawyerMerritt/status/2102432181666590951",
+      "blurb": "Model Y 里没有单独的 Bot 应用，现有的 Grok 语音就能让岗订亚马逊、收邮件和改日历，这套能力目前只对 SuperGrok Heavy 开放，连接器则人人都能用。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "Tesla",
+        "SuperGrok Heavy",
+        "Sawyer Merritt"
+      ]
+    },
+    {
+      "id": "x-fagan-sleeper",
+      "added": "2026-09-23",
+      "title": "Fagan：Grok Bot 替他打完一场梦幻橄榄球选秀",
+      "url": "https://x.com/thejustinfagan/status/2102419898571825304",
+      "blurb": "联盟规则和选人哲学先写成岗能读的底稿，Sleeper 不给写入接口就改由电脑在网页上点，旁边还有守卫岗拦住选错和重复点击。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Sleeper",
+        "Fagan"
+      ]
+    },
+    {
+      "id": "youtube-jansen-geo",
+      "added": "2026-09-23",
+      "title": "Jansen Lu：用 Grok Bot 做品牌 GEO 审核，核对有没有被 AI 提到",
+      "url": "https://www.youtube.com/watch?v=oXMmy0bQCZ8",
+      "blurb": "他按购买场景让岗去问 ChatGPT 和 Gemini 会不会提到指定品牌，再把结果收成一块可以核对的看板。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "GEO",
+        "繁体中文"
+      ]
+    },
+    {
+      "id": "youtube-andy-research",
+      "added": "2026-09-23",
+      "title": "Andy Stapleton：文献、基金和挑刺审稿，研究岗怎么分工",
+      "url": "https://www.youtube.com/watch?v=n77OfQ7kGt8",
+      "blurb": "文献岗每天早上扫新论文，基金岗找美国和欧洲的机会，研究助理把稿子先交给故意挑剔的审稿岗。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "视频",
+        "上手"
+      ],
+      "aliases": [
+        "YouTube",
+        "Andy Stapleton"
+      ]
+    },
+    {
+      "id": "grokbot-cdp",
+      "added": "2026-09-23",
+      "title": "从桌面端 CDP 操作云电脑：聊天之外的第二条入口",
+      "url": "https://github.com/DaizeDong/grokbot-cdp",
+      "blurb": "官方没有云主机 API，这个库改挂桌面端 Electron 里那路 noVNC，截屏、点击和跑命令的数字都是对着一台真 Bot 量出来的，不是照着文档猜的。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "CDP",
+        "noVNC"
+      ]
+    },
+    {
+      "id": "pebble-index-bridge",
+      "added": "2026-09-23",
+      "title": "Pebble 戒指转写送进例程：表单和 JSON 对不上就会 415",
+      "url": "https://github.com/Zhigre/pebble-index-bridge",
+      "blurb": "Index 01 用 multipart 推语音转写，Grok Bot 例程只收 JSON，直连会被拒；这道自托管桥负责改格式，并把例程密钥留在服务器上。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Pebble",
+        "Index 01"
+      ]
+    },
+    {
+      "id": "grokbot-larkfeishu",
+      "added": "2026-09-23",
+      "title": "飞书消息进出 Grok Bot：代发走官方 MCP，入站只能轮询",
+      "url": "https://github.com/nszhsl/grokbot-larkfeishu",
+      "blurb": "飞书新消息不会立刻叫醒岗，入站要靠例程每隔十来分钟去拉历史，延迟就是轮询间隔，别把它当成即时客服通道。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "飞书",
+        "Lark",
+        "MCP"
+      ]
+    },
+    {
+      "id": "pointpaste-grok",
+      "added": "2026-09-23",
+      "title": "PointPaste：点中页面上的一块，再贴给 Grok Bot",
+      "url": "https://github.com/patmccormick/pointpaste-for-grok-bot",
+      "blurb": "在 Brave、Chrome 或 Edge 里选中元素，剪贴板里是网址、CSS 路径和版面提示，扩展只在你按下快捷键时工作，不会把页面送到外部服务器。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "PointPaste",
+        "Chrome"
+      ]
+    },
+    {
+      "id": "grok-bot-fleet-config",
+      "added": "2026-09-23",
+      "title": "舰队配置包：把多 Bot 编制导出时剥掉密钥和房间号",
+      "url": "https://github.com/tommy-ca/grok-bot-fleet-config",
+      "blurb": "插件、岗、技能和脚本可以收成一份配置包，先干跑再导入另一账号，密钥、房间编号和操作者姓名不会打进包里。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "fleet-config"
+      ]
+    },
+    {
+      "id": "cos-codex-bridge",
+      "added": "2026-09-23",
+      "title": "幕僚长本地 MCP：把整段活交给 Codex，排队不算已经开工",
+      "url": "https://github.com/AV-Labs-Co/cos-codex-bridge",
+      "blurb": "幕僚长能新建 Codex 项目、送出完整提示并接着同一会话查进度或取消，回执把已排队和已开工拆开，交接时不会把没跑的当成跑完。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Codex",
+        "MCP",
+        "Chief of Staff"
+      ]
+    },
+    {
+      "id": "bullpen-rs",
+      "added": "2026-09-23",
+      "title": "自托管 Bullpen：沿用一 Bot 一电脑，模型和花费自己管",
+      "url": "https://github.com/surreal1st/bullpen-rs",
+      "blurb": "客户和财务数据不进 Grok Bot 的人，可以用这套 Rust 自托管队友：每只 Bot 仍有自己的常驻 Linux 和浏览器，模型走自己的钥匙，便宜任务不上浮，人不在看就自动收紧权限。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "计费",
+        "安全"
+      ],
+      "aliases": [
+        "Bullpen",
+        "Rust"
+      ]
+    },
+    {
+      "id": "forum-ultra-ceiling",
+      "added": "2026-09-23",
+      "title": "员工：Ultra 之上没有更高 Bot 档，周额度按用量而不是条数扣",
+      "url": "https://forum.cursor.com/t/grok-bot-usage-too-low-even-on-cursor-ultra/172584",
+      "blurb": "Ultra 之上没有更高的 Bot 档，Cursor 和 SuperGrok 的池子也不能叠，一周额度没有公开的美元换算；想看真实花费就打开按量并设月度上限，重活交给云代理记在 Cursor 套餐上，每个任务用聊天列表顶部的加号新开一条。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Ultra",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-cert-pearson",
+      "added": "2026-09-23",
+      "title": "员工：连上 100.60.17.13 却拿到别人的证书时别重置电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-keeps-reconnecting-api2-cursor-sh-resolves-to-100-60-17-13-which-presents-a-certificate-for-devapi-english-com/172578",
+      "blurb": "这台云电脑本身是好的，外网访问那个地址证书正常，办公室却拿到 Pearson 的证书，多半是防火墙误处理了 100 开头的地址段；先用热点顶着，两边做 traceroute，别去 Reset。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Pearson",
+        "api2.cursor.sh",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-routines-morning",
+      "added": "2026-09-23",
+      "title": "员工：清晨例程不是没醒，是在队列里晚了二三十分钟",
+      "url": "https://forum.cursor.com/t/grok-bot-routines-dont-wake-up-at-the-beginning-of-a-new-day/172545",
+      "blurb": "定时其实触发了，只是全站在排队，美西清晨五点到九点常晚二十到四十五分钟，直接喊叫醒子代理才能插队；要紧的晨报改到美西四点半前，并让迟到的侦察兵回一句跳过，错开十分钟没用。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "Routines",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-windows-chrome-quit",
+      "added": "2026-09-23",
+      "title": "员工：Windows 本地拷文件再控 Chrome 就闪退，先给进程加白名单",
+      "url": "https://forum.cursor.com/t/grok-bot-0-57-1-windows-app-quits-under-local-shell-copyfrombox-chrome-ui-idle-stays-up/172549",
+      "blurb": "空闲时本机 Shell 能连着数小时，一做拷文件再拉起 Chrome 窗口就消失且没有崩溃转储；员工判断是安全软件杀掉了没有托盘的进程，用管理员给程序和临时目录加排除后再跑一遍就能验证。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Windows",
+        "CopyFromBox",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "reddit-ultra-two-x",
+      "added": "2026-09-23",
+      "title": "r/cursor：同样一周的 Grok Bot 用量，从 Pro+ 升到 Ultra 只大约变成两倍",
+      "url": "https://www.reddit.com/r/cursor/comments/1wnh7fv/ultra_looks_like_about_2_the_grok_bot_week_of_pro/",
+      "blurb": "他把打满的六十美元 Pro+ 那一周原样带到两百美元的 Ultra，用量表只走到大约一半，价目表上的三倍和二十倍写的是编辑器，不是这只 Bot。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Ultra",
+        "Pro+",
+        "r/cursor"
       ]
     }
   ]
