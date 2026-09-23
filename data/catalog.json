@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "sections": [
     {
       "id": "official",
@@ -18950,6 +18950,369 @@
         "Ultra",
         "Pro+",
         "r/cursor"
+      ]
+    },
+    {
+      "id": "youtube-matt-sept23",
+      "added": "2026-09-24",
+      "title": "Matt Palmer：9 月 23 日更新，行内草稿、换账号和桌面分流",
+      "url": "https://www.youtube.com/watch?v=RZM18yozIVs",
+      "blurb": "两分多钟按秒演示语音和 1Password 之外的新入口：聊天里填表、邮件和 Slack 先改草稿、切换账号，以及把云电脑流量改走你自己的桌面。",
+      "section": "official",
+      "tags": [
+        "插件",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "Matt Palmer",
+        "1Password",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "x-bot-native-google",
+      "added": "2026-09-24",
+      "title": "官方：Slides、Sheets、Docs 改成直连，断线重连降到零点七秒",
+      "url": "https://x.com/bot/status/2102532697960956074",
+      "blurb": "同一串更新里谷歌三件套改成原生连接，邮件可以读并附上文件，桌面断线重连从大约 60 秒降到 0.7 秒，唤醒笔记本和切回云电脑画面也快了一个数量级。",
+      "section": "official",
+      "tags": [
+        "插件",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "@bot",
+        "Google Docs"
+      ]
+    },
+    {
+      "id": "reddit-tesla-costco",
+      "added": "2026-09-24",
+      "title": "r/GrokBot：在特斯拉里交代一句，云端 Bot 把 Costco 折扣站发上了线",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wnmxr8/publishing_a_live_website_from_my_tesla_grok_bot/",
+      "blurb": "车机里的 Grok 接到搭折扣站的任务后，同一个账号下的 Grok Bot 把页面发到了线上，帖里留了这个 Bot 的公开链接。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "跑腿"
+      ],
+      "aliases": [
+        "Tesla",
+        "Costco",
+        "r/GrokBot"
+      ]
+    },
+    {
+      "id": "medium-shihab-day",
+      "added": "2026-09-24",
+      "title": "Shihabudeen：一组 Grok Bot 过夜收线索，早上只看一份站会",
+      "url": "https://medium.com/@labbams4u/how-i-run-my-day-with-a-team-of-grok-bots-da1d8bf79263",
+      "blurb": "早上只打开一份站会，夜里线索已经落成 CSV，Slack 和 Jira 被收成工单，内容、学校外联和获客分岗跑，WhatsApp 试过之后又被他自己拆掉。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "销售"
+      ],
+      "aliases": [
+        "Medium"
+      ]
+    },
+    {
+      "id": "note-fx-paper",
+      "added": "2026-09-24",
+      "title": "月 60 美元做出外汇模拟盘，实盘下单按钮它不替你按",
+      "url": "https://note.com/fit_liger6928/n/nb2471fcf142a",
+      "blurb": "Cursor Pro+ 上大约一小时写出外汇模拟程序，真金白银的买卖点击和把程序外传都被它拒绝，最后一击仍留给人。",
+      "section": "cases",
+      "tags": [
+        "安全",
+        "电脑",
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "FX"
+      ]
+    },
+    {
+      "id": "x-garvin-coverage",
+      "added": "2026-09-24",
+      "title": "Garvin：工程主管岗派活，凌晨四点另有一岗只补测试",
+      "url": "https://x.com/garvinechan/status/2102797657563349143",
+      "blurb": "主管岗盯着 Cursor 云端代理昼夜赶工，改完要用 Playwright 录一段演示贴进 PR，覆盖率岗则每天凌晨四点只负责把测试往上抬，他自己说这套还在早期。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Playwright",
+        "Cursor Cloud Agent"
+      ]
+    },
+    {
+      "id": "x-pat-verbs",
+      "added": "2026-09-24",
+      "title": "Pat：幕僚长贴出整张编制，发版、花钱和上架都要人写出动词",
+      "url": "https://x.com/paturious/status/2102818492114244039",
+      "blurb": "写作、上架、构建、测试和法律各占一岗，沉默不算批准，测试档在他写下 LIVE 之前一直算测试，花钱和提交也单独卡死。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "App Store"
+      ]
+    },
+    {
+      "id": "x-felix-monalisa",
+      "added": "2026-09-24",
+      "title": "Felix Lee：设计岗读数据出三稿，人点头之后才进工程",
+      "url": "https://x.com/felixleezd/status/2102808184155246699",
+      "blurb": "他用 Mono Lisa 一周交出一百次设计实验，岗读数据后出三轮取舍，人先闸住再进工程，Paper、Amplitude 和 Linear 接在同一条过夜循环里。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "Mono Lisa",
+        "Paper",
+        "Linear"
+      ]
+    },
+    {
+      "id": "youtube-school-team",
+      "added": "2026-09-24",
+      "title": "数位叙事力：用 Grok Bot 编一支学校团队，一起备课再办校庆",
+      "url": "https://www.youtube.com/watch?v=qNqy3ixSSpE",
+      "blurb": "他把子岗、技能和云端资料夹编成校园班子，现场让它们一起备《爱莲说》的课，再跨处室商量校庆。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "上手",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "繁体中文"
+      ]
+    },
+    {
+      "id": "youtube-grocery-email",
+      "added": "2026-09-24",
+      "title": "教一个岗去 Instamart 买菜，另一个岗把小票发到邮箱",
+      "url": "https://www.youtube.com/watch?v=oq1MD8pFQiw",
+      "blurb": "第二集把下单路径存成技能，买菜岗和邮箱岗在群里对完库存与价格，货到付款下单后再把收据寄进邮箱。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Instamart",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "wingman",
+      "added": "2026-09-24",
+      "title": "Wingman：云端 Grok Bot 连本机 Codex，批准仍留在桌上",
+      "url": "https://github.com/juangurdian/wingman",
+      "blurb": "桥只听 127.0.0.1，要先用 Cloudflare 或 Tailscale 隧道，Bot 才能列会话、读记录、插话和打断，沙箱弹窗不会被远程放行，也接不上你已经开着的终端。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "安全"
+      ],
+      "aliases": [
+        "Codex",
+        "Claude Code",
+        "MCP"
+      ]
+    },
+    {
+      "id": "agent-cookie-sync",
+      "added": "2026-09-24",
+      "title": "把 Chrome 已登录的网站交给云电脑，但别碰 Google、Meta 和 X",
+      "url": "https://github.com/markfulton/agent-cookie-sync",
+      "blurb": "扩展每十五分钟把 Cookie 写到本机文件夹，Bot 再用调试端口注进自己的 Chrome，同一账号的 Bot 共用这些登录态，导出文件要当密码库看。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Chrome",
+        "CDP",
+        "Muse"
+      ]
+    },
+    {
+      "id": "grok-scout",
+      "added": "2026-09-24",
+      "title": "OpenScout：用 OAuth 把本机编程代理接进 Grok Bot",
+      "url": "https://github.com/arach/grok-scout",
+      "blurb": "市场上架还在审，现在就能加自定义 MCP，不用把钥匙贴进对话，机器不在线会返回 node_unreachable，而且同一 Cursor 账号下的 Bot 共用这条连接。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "OpenScout",
+        "OAuth",
+        "MCP"
+      ]
+    },
+    {
+      "id": "odoo-mcp",
+      "added": "2026-09-24",
+      "title": "Odoo 记账连接器：写入要单独打开，过账和删除都没有",
+      "url": "https://github.com/bethesna-dev/odoo-mcp",
+      "blurb": "供应商账单、银行流水和 Stripe 手续费拆成技能，Bot 默认只能读，写入开关打开后也只能建草稿和改字段，过账冲销仍要人在 Odoo 里做。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营",
+        "安全"
+      ],
+      "aliases": [
+        "Odoo",
+        "Stripe",
+        "MCP"
+      ]
+    },
+    {
+      "id": "grok-bot-biblemate",
+      "added": "2026-09-24",
+      "title": "圣经研读技能装进云电脑：经文从本地库取，不许现编",
+      "url": "https://github.com/eliranwong/grok-bot-biblemate",
+      "blurb": "完整技能落到云电脑的 agent-data，斜杠命令只挂薄加载器，没指定译本时英文用 CSB、中文用和合本，整份报告写回仓库再附进对话。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "BibleMate",
+        "CSB",
+        "和合本"
+      ]
+    },
+    {
+      "id": "groknode",
+      "added": "2026-09-24",
+      "title": "Grok Node：把 0.18 桌面端的推理和沙箱搬回自己的 Mac",
+      "url": "https://github.com/tyonger-stack/GrokNode",
+      "blurb": "对话可以改走本机 Codex 登录或 OpenRouter，代码在应用自管的 Docker 里跑，不覆盖已经装好的官方 App，遥测和自动更新默认关掉。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "macOS",
+        "Docker",
+        "OpenRouter"
+      ]
+    },
+    {
+      "id": "rome-os",
+      "added": "2026-09-24",
+      "title": "Rome：可自托管的常驻代理，对照表写清和 Grok Bot 的差别",
+      "url": "https://github.com/rome-os/rome",
+      "blurb": "对照表里 Grok Bot 靠共享云电脑和例程干活，Rome 把重复动作收成可自托管的应用代码，Docker 只绑本机 7663，谁先打开谁就能做完开通向导。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Docker",
+        "Muse",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "forum-fleet-1500",
+      "added": "2026-09-24",
+      "title": "员工：电商舰队一周多花约 1500 美元，是整段聊天被反复重读",
+      "url": "https://forum.cursor.com/t/1-500-in-one-week-running-a-grok-bot-fleet-expected-or-a-bug/172705",
+      "blurb": "员工核对过没有异常循环，忙的岗每一步都要重读大约八到九万 token 的整段历史，约三分之一回合只是岗在互相叫醒，所以每个任务用侧边栏加号新开聊天、档案里禁止回执乒乓，并把每 8 分钟和每 30 分钟的例程拉长。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Notion"
+      ]
+    },
+    {
+      "id": "forum-split-horizon",
+      "added": "2026-09-24",
+      "title": "员工：「流量改走这台电脑」只转发公网，内网地址会被掐掉",
+      "url": "https://forum.cursor.com/t/grok-bot-route-traffic-through-this-computer-fails-for-split-horizon-internal-dev-hosts/172715",
+      "blurb": "这个开关只转发公网地址，桌面把主机名解析成 192.168、10 或 172.16 段时会在 CONNECT 返回 200 之后掐掉 TLS，会话计数却照样增加，内网验收要改到已允许本机执行的桌面 Shell 或浏览器。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "split-horizon",
+        "Windows",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-init-stuck",
+      "added": "2026-09-24",
+      "title": "员工：新账号云电脑没完成首次启动，应用里的重置救不了",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-cannot-initialize-new-account/172725",
+      "blurb": "员工说第一次启动没完成时应用里的 Reset 和 Update 都结束不了，岗名也因为要经这台电脑同步而对不上，服务端重建之后从菜单栏或托盘彻底退出再开，楼主确认这样就起来了。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "macOS",
+        "iOS",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-fleet-stall",
+      "added": "2026-09-24",
+      "title": "员工：全员一起不回话先别 Reset，恢复后要从托盘彻底退出",
+      "url": "https://forum.cursor.com/t/grok-bots-not-responding-yet-again/172371",
+      "blurb": "员工说全员沉默是服务端停摆，通常会自己恢复，别 Reset 或 Recover 以免丢掉还没同步的内容，看起来恢复之后要从菜单栏彻底退出再开，仍不说话就右键该岗复制 Conversation ID 回报。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "Conversation ID",
+        "Cursor Forum"
       ]
     }
   ]
