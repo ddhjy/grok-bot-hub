@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "sections": [
     {
       "id": "official",
@@ -19313,6 +19313,441 @@
       "aliases": [
         "Conversation ID",
         "Cursor Forum"
+      ]
+    },
+    {
+      "id": "youtube-support-workshop",
+      "added": "2026-09-25",
+      "title": "官方客服场：十四天内的订阅可以取消并退款，内部规程不外泄",
+      "url": "https://www.youtube.com/watch?v=BSB--jUnx9U",
+      "blurb": "用户运营工程师在 Galaxy 现场用工单、Stripe 和 Slack 演示，未满十四天的订阅真的取消并退款，超期的只婉拒，内部规程没有说给客户。",
+      "section": "official",
+      "tags": [
+        "运营",
+        "插件",
+        "安全",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Stripe",
+        "Galaxy"
+      ]
+    },
+    {
+      "id": "youtube-engineers-workshop",
+      "added": "2026-09-25",
+      "title": "官方工程场：三周做出移动版，人离开后 Slack 消息也能开工",
+      "url": "https://www.youtube.com/watch?v=zCqmTSF2ctg",
+      "blurb": "SpaceXAI 工程师 Lingxi 在 Galaxy 讲他怎样只用岗在大约三周里做出移动版，云端编程代理会在 Slack 消息到来、人已离开电脑时自己开工。",
+      "section": "official",
+      "tags": [
+        "工程",
+        "电脑",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Lingxi",
+        "Slack",
+        "Galaxy"
+      ]
+    },
+    {
+      "id": "note-gentosya-slack",
+      "added": "2026-09-25",
+      "title": "对方全是 Bot 的 Slack：屏幕分开，登录和文件仍是同一台",
+      "url": "https://note.com/gentosya/n/n4a90ec92886a",
+      "blurb": "群里用提及把活交给常驻同事，关电脑他们也会接着做，各岗有自己的屏幕，但浏览器登录和下载下来的文件仍是全员共用的那一台。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "note",
+        "Slack",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-fuji-first-job",
+      "added": "2026-09-25",
+      "title": "第一件活先停在人能核对的输入稿，本机 Excel 宏这台云电脑跑不了",
+      "url": "https://note.com/fuji_kaihatsu/n/n2ad5ad8f7a6d",
+      "blurb": "受注誊写的例子先停在人能对上原单的输入稿，文中写明这还不是已上线的交付，本机 Excel 宏这台云电脑跑不了，和 Hermes 比的是谁把环境备好。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "运营",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "Hermes",
+        "Excel"
+      ]
+    },
+    {
+      "id": "substack-opc-charter",
+      "added": "2026-09-25",
+      "title": "一人公司的六份岗位说明：插件连一次，群聊稿要等人点头",
+      "url": "https://technologiee.substack.com/p/how-to-build-a-one-person-company-0b5",
+      "blurb": "外联、内容、工程和账本被写成六份可粘贴的岗位说明，插件连一次就整队共用，群聊里的稿子在你点头之前不能发出去。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "agent-daily",
+      "added": "2026-09-25",
+      "title": "三个 Bot 把早报、晚报和招聘雷达交进同一仓库",
+      "url": "https://github.com/skyiimaple/agent-daily",
+      "blurb": "9 月 24 日的早报、晚报和社招雷达都已按机器人提交，文件头写明来源是 grok-bot，站点只渲染 content 里的 Markdown。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "VitePress",
+        "GitHub Pages"
+      ]
+    },
+    {
+      "id": "x-mattceras-meetings",
+      "added": "2026-09-25",
+      "title": "Matt：岗读完感兴趣的往来再约时间，他说昨天约上 18 场",
+      "url": "https://x.com/mattceras/status/2103175234446622794",
+      "blurb": "他把外联工具的登录交到云电脑，先读完标成感兴趣的往来再学异议和约时间，只有按理想客户打分合格的才起草，他说昨天这样约上了 18 场。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "上手"
+      ],
+      "aliases": [
+        "CRM",
+        "Calendly"
+      ]
+    },
+    {
+      "id": "x-clayton-split",
+      "added": "2026-09-25",
+      "title": "Clayton：工作岗和私人岗隔开机密，起床前两边收据已经对完",
+      "url": "https://x.com/claytoncorreia/status/2102798569833222274",
+      "blurb": "两岗并行并做了隔离，工作岗只能叫私人岗在日历上占住早晨而不说出会议内容，起床前两边邮箱里的收据已经对过。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "安全",
+        "跑腿"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "x-brucky-send",
+      "added": "2026-09-25",
+      "title": "Brucky：调研和邮件可以过夜，发送键留在人这边",
+      "url": "https://x.com/danikkk_wqs/status/2103137860249387321",
+      "blurb": "早报能对上来源却抓了一条对他没用的文档变更之后，他把公司和收件人调研、个性化邮件留在过夜流程里，每封都落成必须人审的草稿，旧研究只当上下文不当事实。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "CRM"
+      ]
+    },
+    {
+      "id": "youtube-scheuer-gtm",
+      "added": "2026-09-25",
+      "title": "协调岗带获客班子跑外联，图和文案仍不如 Claude Code",
+      "url": "https://www.youtube.com/watch?v=yl5qmbNoWlw",
+      "blurb": "他让协调岗接上 Oxygen 和 Notion，把外联、未回消息草稿和内容日历拆给专岗，这场 LinkedIn 外联他报了大约五成五的回复率，但缩略图和文案他仍觉得 Claude Code 与 Codex 更好。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Oxygen",
+        "Notion",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-tesla-lunch",
+      "added": "2026-09-25",
+      "title": "车里让协调岗买午餐和球：三明治下了，扣错卡，球停在购物车",
+      "url": "https://www.youtube.com/watch?v=hMVB1N7nbnQ",
+      "blurb": "他在车里让协调岗经 DoorDash 买俱乐部三明治，中途要手输密码和验证码，还扣到了另一张卡，体育用品店的球进了购物车，结账却一直没完成。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "排障",
+        "安全",
+        "视频"
+      ],
+      "aliases": [
+        "Tesla",
+        "DoorDash",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "guanchao",
+      "added": "2026-09-25",
+      "title": "观潮：导入跨市场简报时不带走作者持仓",
+      "url": "https://github.com/junit/guanchao-research-workbench",
+      "blurb": "公开模板只复制技能、例行和可公开记忆，入门一次只问一个问题，也不许编造仓位数量，加减仓倾向必须标成非投资建议，这个仓库里没有行情接口。",
+      "section": "skills",
+      "tags": [
+        "上手"
+      ],
+      "aliases": [
+        "观潮"
+      ]
+    },
+    {
+      "id": "coba-skills",
+      "added": "2026-09-25",
+      "title": "Coba：例行太密、空跑和长对话挂摘要会被点名",
+      "url": "https://github.com/samleeson/Coba-Skills",
+      "blurb": "体检只给出 Bot、例行和一句改法，密于每小时的定时、挂在长聊天上的常驻摘要，以及没写明没变化就安静的空跑都会被标出，没让改之前不会动别人的例程。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "routine-healthcheck"
+      ]
+    },
+    {
+      "id": "grokmax",
+      "added": "2026-09-25",
+      "title": "GrokMax：能更便宜做完的事不送给 Grok Bot",
+      "url": "https://github.com/M4G3LL4N0/grokmax",
+      "blurb": "能更便宜做完的事先走本地或别的执行器，超预算的 Grok Bot 路线会拒绝而不是假装做完，省下的用量在你导入实测之前只标成代理值。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "Node"
+      ]
+    },
+    {
+      "id": "grokbot-call-bridge",
+      "added": "2026-09-25",
+      "title": "通话桥：总机只负责叫醒，正文不经它转发",
+      "url": "https://github.com/kitepon/grokbot-bridge",
+      "blurb": "本机代理和队友用同一个会话号直接收发，总机只传递地址和会话号，唤醒钩子没配或失败时通话仍会建立，但成员回复并不保证会回来。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "MCP",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "yaps-plugin",
+      "added": "2026-09-25",
+      "title": "Yaps：录音和字幕默认在你的电脑上处理",
+      "url": "https://github.com/richawo/yaps-plugin",
+      "blurb": "走本机时要先允许在本地电脑执行，导出只写新文件，装到云电脑时若命令行还没有无头登录，技能会在向你要邮箱之前停住。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "Yaps"
+      ]
+    },
+    {
+      "id": "x-picsart-plugin",
+      "added": "2026-09-25",
+      "title": "Picsart 官方插件进了市场，装上产线前先钉版本",
+      "url": "https://x.com/0xbobaaa/status/2103099542983913568",
+      "blurb": "插件带 23 个技能和两个 MCP，Grok Bot 走同一套市场，以前要手接的生图、视频和广告变体现在一行命令就能装，但源仓库几乎没人压测，进产线前要先钉死版本。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Picsart",
+        "MCP"
+      ]
+    },
+    {
+      "id": "youtube-ontology-stack",
+      "added": "2026-09-25",
+      "title": "空白账号装上组织模型模板，连接器只装不把凭证给岗看",
+      "url": "https://www.youtube.com/watch?v=D1X0xKkR48c",
+      "blurb": "他从零安装市集里的组织模型模板，用一段口语化的创始人自述确认流程图，再让抽取、指标和瓶颈诊断各就各位，连接器要在你自己的账号上登录，凭证留在保险库里不给岗看。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "Ontology Stack",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "brok-pot-harness",
+      "added": "2026-09-25",
+      "title": "Grokbot Harness：默认构建关掉厂商登录和计费",
+      "url": "https://github.com/river-li/brok-pot-harness",
+      "blurb": "默认 local 构建会关掉厂商登录、计费、云端开通和远端同步，项目目录可以挂进沙箱，桌面目前只在 Intel macOS 上验证过，完整语音通话还没列为已完成功能。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "Docker",
+        "Intel macOS"
+      ]
+    },
+    {
+      "id": "forum-usage-not-models",
+      "added": "2026-09-25",
+      "title": "员工：Bot 周额度用不完，也不能补给 Cursor 模型",
+      "url": "https://forum.cursor.com/t/grok-bot-usage-to-models/172897",
+      "blurb": "员工说剩下来的 Bot 周额度不能挪去 Cursor 模型，Cursor 用尽时把编码交给 Bot 在它自己的电脑上做，那笔才从 Bot 周额度扣，而不是去开云端编程代理。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Ultra"
+      ]
+    },
+    {
+      "id": "forum-always-allow-text",
+      "added": "2026-09-25",
+      "title": "员工：「始终允许」只是文字指令，同类删邮件还会再弹卡",
+      "url": "https://forum.cursor.com/t/auto-review-still-prompts-after-always-allowed-standing-approval/172859",
+      "blurb": "员工说 Always allow 不会变成按工具的硬权限，同类垃圾箱动作仍会再要一次，到自动审批里写宽一点的「把 Gmail 邮件移到垃圾箱」并设自动允许，再删掉窄规则，因为列表满了会挤掉旧的，冲突时「先问」优先。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Auto-review",
+        "Gmail",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-plaid-unreleased",
+      "added": "2026-09-25",
+      "title": "员工：Plaid 理财插件还没放出来，银行网页也会拦云电脑登录",
+      "url": "https://forum.cursor.com/t/plaid-financing-and-connecting-credit-cards/172846",
+      "blurb": "目录里闪过的 Finance/Plaid 是未发布功能漏进界面，显示已添加也不会出现在 MCP 状态里，花旗这类银行把云电脑当成陌生设备会卡住，隐私模式开着时应用内反馈也确实不可用。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Plaid",
+        "Privacy Mode",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-screen-058",
+      "added": "2026-09-25",
+      "title": "员工：0.58.0 把电脑画面收进岗名，点顶栏再点预览",
+      "url": "https://forum.cursor.com/t/bots-screen-view-disappeared/172836",
+      "blurb": "右上角显示器按钮并没有坏掉，0.58.0 把它折进聊天顶栏正中的岗名，点开设置面板后点返回详情，顶部实时预览再点一下就是完整电脑，Mac 也可用 Cmd+Shift+I。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "上手"
+      ],
+      "aliases": [
+        "0.58.0",
+        "macOS",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-android-samsung-login",
+      "added": "2026-09-25",
+      "title": "员工：三星 Android 卡在「等待浏览器」时先关掉省电再换 Chrome",
+      "url": "https://forum.cursor.com/t/grok-bot-android-login-stuck-on-waiting-for-browser/172774",
+      "blurb": "Chromebook 能登、手机登完浏览器却停在等待浏览器时，把 Grok Bot 电池设成不受限、从深度休眠名单拿掉，浏览器一显示全部完成立刻用多任务切回应用，默认还是三星浏览器就先改成 Chrome 再试一次。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "上手"
+      ],
+      "aliases": [
+        "Samsung",
+        "Android",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-sixty-bots",
+      "added": "2026-09-25",
+      "title": "员工：一上午新建约 60 个岗加群聊，Ultra 周额度就掉了四成",
+      "url": "https://forum.cursor.com/t/grok-bot-usage-billing/172769",
+      "blurb": "Ultra 上 Bot 周额度跟 Cursor 用量分开，这一早新建大约 60 个岗再开几个群聊就吃掉约 43%，每个收到消息的岗都会自己跑一轮，所以删掉不用的岗、一件事放在一个岗里用子代理，不够再去仪表盘打开按量。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "Ultra",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "x-vildanden-card",
+      "added": "2026-09-25",
+      "title": "野鸭：只要 Markdown 备份，岗却把工作流做成下不了架的 Bot",
+      "url": "https://x.com/vildanden_ai/status/2103108835666002128",
+      "blurb": "他只要一份 Markdown 好搬去别的工具做备份，岗却做成一张公开发布的 Bot 卡片，里面夹着他自己的方法，发出去才发现不能下架，个人信息有没有一起出去他当时没看清。",
+      "section": "community",
+      "tags": [
+        "安全"
+      ],
+      "aliases": [
+        "Muse",
+        "X"
       ]
     }
   ]

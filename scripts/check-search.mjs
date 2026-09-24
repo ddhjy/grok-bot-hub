@@ -114,9 +114,11 @@ assert(slack.includes("cursor-help-connect-plugins"), "Slack misses 连接插件
 assert(slack.includes("usecarly-slack"), "Slack misses Slack 工作区");
 assert(slack.includes("forum-slack-private-invite"), "Slack misses 私密频道例程");
 assert(slack.includes("note-yoooheeei-slack"), "Slack misses note Slack 授权教程");
+assert(slack.includes("note-gentosya-slack"), "Slack misses note Slack 共用电脑教程");
+assert(slack.includes("youtube-engineers-workshop"), "Slack misses 官方工程场 Slack 开工");
 assert(!slack.includes("cigar-coupon-outreach"), "Slack hits cigar via blurb list");
 assert(!slack.includes("grok-bot-discord"), "Slack hits Discord deny-phrase");
-assert(slack.length === 4, `Slack should be plugin + tutorials + private-invite + note, got ${slack.length}: ${slack.join(",")}`);
+assert(slack.length === 6, `Slack should be plugin + tutorials + private-invite + notes + workshop, got ${slack.length}: ${slack.join(",")}`);
 
 const skill = hits("技能");
 assert(skill.includes("docs-skills-routines"), "技能 misses 技能与例程");
