@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "sections": [
     {
       "id": "official",
@@ -19748,6 +19748,482 @@
       "aliases": [
         "Muse",
         "X"
+      ]
+    },
+    {
+      "id": "vibecoding-god-setup",
+      "added": "2026-09-26",
+      "title": "一句话让 Lead 在云电脑上装好 Claude Code 和 Jev",
+      "url": "https://github.com/Argona7/vibecoding-god-setup",
+      "blurb": "你只对名叫 Lead 的 Bot 发一句克隆指令，它就在自己的云电脑上装 Claude Code 和 Jev，并再拉起 Designer、Checker、Scout；登录只在它的屏幕上点授权，密钥不会进聊天，Claude 的登录放在 /workspace/config/claude 里以便电脑更新后还在。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Claude Code",
+        "Jev",
+        "Lead"
+      ]
+    },
+    {
+      "id": "note-happy-evernote",
+      "added": "2026-09-26",
+      "title": "问了一天就改成交活：别人的日历看不见，Evernote 却捞出上千张图",
+      "url": "https://note.com/happy_spirea5214/n/n350c875e3888",
+      "blurb": "日历只开了只读共享，Bot 照样看不到别人的行程，而 Evernote 的官方连接一次捞出大约一千零八十二张带图笔记，Unity 6 里角色不动则是把 Active Input Handling 改成 Both。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Evernote",
+        "Unity"
+      ]
+    },
+    {
+      "id": "forum-x-posting-frozen",
+      "added": "2026-09-26",
+      "title": "云浏览器按日程发帖和回复后，X 账号被冻成永久只读",
+      "url": "https://forum.cursor.com/t/grok-bots-x-assistant-ran-browser-automated-posting-and-replies-without-warning-about-xs-automation-rules-and-the-account-was-frozen/172989",
+      "blurb": "有人让助手在云电脑浏览器里周一三五发原创、周二四回复热帖并逐条批准，全程没有人提醒平台的自动化规则；9 月 25 日三次带图上传返回 403 后当晚仍被安排重试，账号随即被永久只读，员工还在查。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "403",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "medium-hawkeye-lanes",
+      "added": "2026-09-26",
+      "title": "Hawkeye 协议：Grok Bot 只做分流和审批，重活改走本机与云电脑",
+      "url": "https://hawkeye.medium.com/the-hawkeye-protocol-grok-bot-friends-73f953805f6c",
+      "blurb": "对话配额紧的时候，前台 Bot 只分诊、写短草稿，并卡住发信、花钱、改 CRM 和发布的审批，分类器先定车道，深研和写代码再落到本机 Hermes、文件已经在上面的 Grok Bot 云电脑，或仓库云代理。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Hawkeye",
+        "Hermes",
+        "Jev"
+      ]
+    },
+    {
+      "id": "note-dahlia-voice-door",
+      "added": "2026-09-26",
+      "title": "能开口下单了，常用入口仍只留总参谋一个",
+      "url": "https://note.com/open_dahlia2783/n/n1fd9d5290d13",
+      "blurb": "语音通话和语音备忘上线后，作者仍只让总参谋接活，专业 Bot 收到旁路指令就停手并只回一行，对外发布还是要人亲口说发出去。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "上手",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "语音"
+      ]
+    },
+    {
+      "id": "note-laai-printed",
+      "added": "2026-09-26",
+      "title": "不会 CAD 的人把支架印了出来：插接发虚，就改口令换成螺丝",
+      "url": "https://note.com/laai/n/n98b34e4244da",
+      "blurb": "六十一岁的作者仍不用鼠标画线，只口头让 Bot 改图；机位支架印出来后插接发虚就改成螺丝，印章手柄的卡锁也是嵌合失败后再改到能卡住。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Bambu"
+      ]
+    },
+    {
+      "id": "note-batashige-screens",
+      "added": "2026-09-26",
+      "title": "两千张图里挑崩坏：Grok Bot 花了近六十美元，人眼还是不能省",
+      "url": "https://note.com/batashige/n/nc4f652929cda",
+      "blurb": "他让 Grok Bot 从两千多张图里先挑明显崩坏的，花了将近六十美元，判定仍不能当成可以刊登，标成通过的也不能当成已经看过。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "计费",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "substack-khe-ari",
+      "added": "2026-09-26",
+      "title": "用 Grok Bot 做人脉提醒：只在你能帮上忙时才敲门",
+      "url": "https://khemaridh.substack.com/p/using-personal-agents-for-professional",
+      "blurb": "名叫 Ari 的例行任务扫 Gmail 和 Granola，链接整理员给发出去的文章打标签，但 iMessage 进不去只能另走 Codex，每三十条建议里他只动手一条。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "Khe Hy",
+        "Ari",
+        "Notion"
+      ]
+    },
+    {
+      "id": "substack-lars-zendesk",
+      "added": "2026-09-26",
+      "title": "好几只岗同时登录 Zendesk，大约两小时后会话被锁",
+      "url": "https://larsklander.substack.com/p/nine-bots-and-one-computer",
+      "blurb": "他让好几只岗同时用浏览器登录同一套 Zendesk 之后账号被判成多地登录而锁会话，于是这条活改走 API 密钥，锁是过了大约两小时才出现的。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "工程",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "Zendesk",
+        "Lars Klander"
+      ]
+    },
+    {
+      "id": "x-pat-desk-dialect",
+      "added": "2026-09-26",
+      "title": "Pat 的幕僚长：台账里长出一套只有内部听得懂的短令",
+      "url": "https://x.com/paturious/status/2103544544650580045",
+      "blurb": "幕僚长岗替他清点了 87 份台账：沉默不算批准，最新盖章压过聊天记录，报告结尾的「Did not Submit」出现了 180 次，外人按日常英语去读就会把权限读反。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "Chief of Staff"
+      ]
+    },
+    {
+      "id": "x-vasco-backlinks",
+      "added": "2026-09-26",
+      "title": "Vasco：外链过夜交给岗，做完回报 Slack",
+      "url": "https://x.com/vascoabm/status/2103501646688891116",
+      "blurb": "同一件他曾付给自由职业者 295 美元的外链活，岗这几天自己找站、注册、核验邮箱并提交，结果回报到 Slack，他报已经挂上 DR20、DR40 和 DR76 的域名。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "Slack"
+      ]
+    },
+    {
+      "id": "youtube-stan-clay",
+      "added": "2026-09-26",
+      "title": "Clay 每天把在招的公司交给岗：十天三千五百封外联",
+      "url": "https://www.youtube.com/watch?v=t6Uln9CuqgE",
+      "blurb": "他用 Clay 每天捞正在招聘 GTM 工程师的公司，交给岗归类并写外联，感兴趣的回复实时进 Slack，片里的看板是十天联系三千五百三十五人、三百一十三封回复、其中九十七封表示感兴趣。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "插件",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "Clay",
+        "Stan Stojanovic",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "grokbot-meter",
+      "added": "2026-09-26",
+      "title": "macOS 菜单栏只读 Grok Bot 官方周用量",
+      "url": "https://github.com/nuno/grokbot-meter",
+      "blurb": "菜单栏只显示官方周用量、今日条数和重置倒计时，不自己估上限；第一次读周用量会向钥匙串要 Grok Bot 的加密密钥，选「始终允许」等于以后别的程序也能借系统自带的 security 读到它。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "menu bar",
+        "macOS",
+        "Keychain"
+      ]
+    },
+    {
+      "id": "wassenger-plugin",
+      "added": "2026-09-26",
+      "title": "Wassenger：用自己的 WhatsApp 号码先问再发",
+      "url": "https://github.com/wassengerhq/cursor-plugin",
+      "blurb": "在 Grok Bot 插件里搜到 Wassenger、粘贴自己的 API 密钥就能连上托管 MCP；发出去的是这个号码的真消息，发送或删除之前会先停下来问你，二十四小时窗外的群发要走已批准的模板。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "销售",
+        "运营"
+      ],
+      "aliases": [
+        "Wassenger",
+        "WhatsApp",
+        "MCP"
+      ]
+    },
+    {
+      "id": "grok-bot-builder-architect",
+      "added": "2026-09-26",
+      "title": "Bot 建筑师：按一个残酷岗位拆队友，可分享模板不能带密钥",
+      "url": "https://github.com/AN3S-CREATE/grok-bot-builder-architect",
+      "blurb": "先分清常驻云电脑队友、Grok Build 命令行和只有说明的公开分享，再按审批边界拆花名册；可分享模板里不能带密钥，从模板继承的例行要等主人回复 RUN 才许跑。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "上手",
+        "插件"
+      ],
+      "aliases": [
+        "Grok Bot Builder",
+        "SKILL"
+      ]
+    },
+    {
+      "id": "grok-codex-app-handoff",
+      "added": "2026-09-26",
+      "title": "锁屏仍醒着时，把已授权的一句交给本机 Codex",
+      "url": "https://github.com/ccmxigua/grok-codex-app-handoff",
+      "blurb": "默认只把你授权的那一句交给本机 codex app-server，做完再打开同一个对话；Mac 睡着、掉线或脚本哈希对不上就停，不会为了保险再发第二次。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "Codex",
+        "macOS",
+        "app-server"
+      ]
+    },
+    {
+      "id": "grok-bot-team-builder",
+      "added": "2026-09-26",
+      "title": "组队技能：分区只能在创建 Bot 时放进去",
+      "url": "https://github.com/stevederico/grok-bot-team-builder",
+      "blurb": "首席幕僚一次只问一个问题，并且只在创建时把研究、软件和市场队友放进已经存在的分区；它认定没有新建分区或事后挪位的工具，Standup 频道最多六个成员，ImproveBots 默认不进这个频道。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "Chief of Staff",
+        "Standup",
+        "ImproveBots"
+      ]
+    },
+    {
+      "id": "x-jenny-stylist",
+      "added": "2026-09-26",
+      "title": "Jenny：衣橱整理岗做成了可安装模板，出图前先把短提示交给你",
+      "url": "https://x.com/JennyMarquis/status/2103539133826146461",
+      "blurb": "手机里的衣服照片会被收成带货号的目录，试穿、对比和打包都在同一只可安装的岗里完成，生成图片或视频之前会先把短提示交给你点头。",
+      "section": "skills",
+      "tags": [
+        "跑腿",
+        "上手"
+      ],
+      "aliases": [
+        "Fashion Stylist",
+        "Imagine",
+        "模板"
+      ]
+    },
+    {
+      "id": "youtube-jing-video-factory",
+      "added": "2026-09-26",
+      "title": "做片流水线拆开：技能、Notion 和例行各管一格",
+      "url": "https://www.youtube.com/watch?v=RhvQlOWpgfI",
+      "blurb": "他把做片按判断高低和重复高低切开，高重复低判断的扫评论和跨工具交接交给岗的技能、Notion 模板和定时任务，剪辑仍先选定引擎再沉淀成可复用配方。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Notion",
+        "YouTube",
+        "Jing Shi"
+      ]
+    },
+    {
+      "id": "substack-maio-300",
+      "added": "2026-09-26",
+      "title": "三百美元的 Grok Bot 小队只开会不交货，他退回 Hermes",
+      "url": "https://anthonymaio.substack.com/p/i-paid-300-for-grokbot-hermes-beat",
+      "blurb": "研究和写稿各有专员，几天里只有进度汇报没有能发出去的成品，本机 MCP 还得先开公网隧道，他在交稿前退掉了每月 300 美元的订阅。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "Hermes",
+        "ngrok",
+        "Pieces"
+      ]
+    },
+    {
+      "id": "youtube-three-airbnb",
+      "added": "2026-09-26",
+      "title": "同一句滑雪民宿请求，Instinct、岗和 Muse 各跑一遍",
+      "url": "https://www.youtube.com/watch?v=6IxiArssGvg",
+      "blurb": "同一段 Bear Valley 周末、睡三人、要有电车充电桩的订房要求丢给 Instinct、岗和 Muse，岗给出浏览器和地图截图，但当时没有爱彼迎登录，订不下去，还得在它的电脑上重新登录。",
+      "section": "reviews",
+      "tags": [
+        "跑腿",
+        "电脑",
+        "排障",
+        "视频"
+      ],
+      "aliases": [
+        "Instinct",
+        "Muse",
+        "Airbnb",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "toolboxmd-openbot",
+      "added": "2026-09-26",
+      "title": "OpenBot：一台共享电脑，每个 Bot 一块屏幕",
+      "url": "https://github.com/toolboxmd/openbot",
+      "blurb": "自托管时只起一个带 Chrome 的桌面容器，第二个 Bot 是同一容器里的另一块屏幕，对话走宿主机上的 Codex；启动脚本还在，不代表合上笔记本或休眠之后还会继续干。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "OpenBot",
+        "Docker",
+        "Codex"
+      ]
+    },
+    {
+      "id": "forum-duplicate-desktop-removed",
+      "added": "2026-09-26",
+      "title": "员工：桌面 0.57 起故意拿掉复制，干净开聊改走手机或交接文件",
+      "url": "https://forum.cursor.com/t/duplicate-bot-missing/172938",
+      "blurb": "长对话每回合都会重读整段历史，员工确认 Duplicate 从桌面菜单是 0.57 故意拿掉的，文档还没改；手机里点 More 再点 Duplicate 会保留人设、设置、技能、例程和头像，但不带聊天记录、记忆和附件，桌面则让原岗把交接摘要写进 /workspace 再新建，而且只是隐藏旧岗并不会停掉它的例程。",
+      "section": "community",
+      "tags": [
+        "上手",
+        "计费"
+      ],
+      "aliases": [
+        "Duplicate",
+        "0.57",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-delilah-deleted",
+      "added": "2026-09-26",
+      "title": "员工改口：Delilah 是在 Grok App 里删掉的，不是登出弄丢，别重置电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-delilah-still-exists-bot-id-641a7c54-but-chat-will-not-send-and-both-windows-and-iphone-lost-her-after-sign-out-reattach-to-the-existing-computer-do-not-reset/172862",
+      "blurb": "员工先当成登出时电脑暂时不可用导致的空花名册，查日志后改口称 Delilah 于美西时间 9 月 20 日凌晨约 4:31 在 Grok App 中被删除，缓存里的聊天还能打开但新消息只会显示未送达，云电脑一直没被重置，所以不要点 Reset 也不要新建替身。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Delilah",
+        "Grok App",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-slack-unlink",
+      "added": "2026-09-26",
+      "title": "员工：免费旧号占着 Slack 时，发 @Cursor settings 就能解绑",
+      "url": "https://forum.cursor.com/t/cursor-slack-account-switch/172712",
+      "blurb": "不必删掉旧的免费 Cursor 账号，也不必为了解绑去订 Pro；在装了 Cursor 的频道或私聊里发送 @Cursor settings 并确认 Unlink Slack Account，再用浏览器登录要绑定的账号重新连接，因为 Slack 会挂到当前网页登录的那个账号上。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Slack",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-github-plugin-delisted",
+      "added": "2026-09-26",
+      "title": "下架后的 GitHub 插件显示已连接却没有任何工具，卸也卸不掉",
+      "url": "https://forum.cursor.com/t/grok-bot-delisted-github-plugin-48677658-cant-be-uninstalled-or-reconfigured-and-shows-connected-with-0-tools-after-a-401/172955",
+      "blurb": "有人装过的 GitHub 市场插件 48677658 下架后仍显示已连接，工具数却是 0、个人访问令牌为空、接口返回 401；按插件卸载会说找不到这个 id，按 MCP 服务器卸载又要求先卸掉该插件，设置页也进不去，帖里还没有员工给出解法。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "GitHub",
+        "48677658",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "youtube-aspinall-one-bot",
+      "added": "2026-09-26",
+      "title": "先写透一个运营岗：Codex 桌面应用消失了，终端里的 Claude Code 还在",
+      "url": "https://www.youtube.com/watch?v=uQdFZBl63Vg",
+      "blurb": "他大部分活先交给一个运营岗，专岗按需再挂；云电脑里的 Codex 桌面应用不见了，终端里的 Claude Code 还在，X 搜索连接器也失败了，但同一个搜索在 Grok 应用里还能用。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Codex",
+        "Claude Code",
+        "YouTube"
       ]
     }
   ]
