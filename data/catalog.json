@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "sections": [
     {
       "id": "official",
@@ -21279,6 +21279,633 @@
       "aliases": [
         "Kacper",
         "YouTube"
+      ]
+    },
+    {
+      "id": "forum-computer-update-idle",
+      "added": "2026-09-29",
+      "title": "帮助页写了可以预约更新云电脑，这个按钮在账号上还没出现",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-updates-is-there-an-automatic-or-scheduled-option/173167",
+      "blurb": "员工澄清，设置里的自动更新开关和电脑配置里的 autoUpdateWhenIdleOptIn 只更新 Grok Bot 客户端，不更新那台共享云电脑；电脑要闲到休眠才会自己更新，好几个助手挤在同一台上几乎等不到这个空隙，现在只能在安静时段自己按更新，用 iPhone 也能按。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "autoUpdateWhenIdleOptIn",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "botskills-community-manager",
+      "added": "2026-09-29",
+      "title": "社区经理 Bot 别登录 Discord：只读导出、私密草稿、零公开发帖",
+      "url": "https://botskills.sh/blog/grok-bot-community-manager",
+      "blurb": "把 Discord 登进共享云电脑后，账号上其他 Bot 也会继承这个社区身份；过夜热度应只读你导出的 CSV，密钥和注入指令不拟回复，公开频道一个字都不发。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "Discord",
+        "botskills"
+      ]
+    },
+    {
+      "id": "medium-solopreneur-five",
+      "added": "2026-09-29",
+      "title": "一人公司的五 Bot 编制：只起草不外发，周额度要自己记",
+      "url": "https://medium.com/@a_siamtanis/grok-bot-for-solopreneurs-the-5-bot-roster-that-can-replace-a-547-month-tool-stack-prompts-4356baee7614",
+      "blurb": "收件、竞品、账本、内容和跟进各挂一个 Bot，共用同一台云电脑，信和钱只出草稿，删掉 Bot 也清不掉登录和文件，周额度官方不公布数字，所以第一周要自己记下来。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手",
+        "安全",
+        "计费"
+      ],
+      "aliases": [
+        "Medium",
+        "solopreneur"
+      ]
+    },
+    {
+      "id": "note-yamato-boundaries",
+      "added": "2026-09-29",
+      "title": "收费、共享电脑和安全边界：把九月官方口径收成一条上手顺序",
+      "url": "https://note.com/yamato_ai_otaku/n/n61ff59f58a2a",
+      "blurb": "同一账号的 Bot 共用一台电脑，删掉某个 Bot 也不会清掉上面的登录和文件，周配额用完还可能按量计费，这些边界按 2026 年 9 月的官方口径排成了先只读再自动化的顺序。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "计费",
+        "安全",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "やまと",
+        "note"
+      ]
+    },
+    {
+      "id": "youtube-palmer-social",
+      "added": "2026-09-29",
+      "title": "社媒周报不用再导出：工作日八点改表，周五交摘要",
+      "url": "https://www.youtube.com/watch?v=m2M3pOEL5dE",
+      "blurb": "岗每个工作日从 X、LinkedIn 和 YouTube 拉粉丝和指标，早上八点写入表格，周五再交一份摘要，提示词和表格也做成了可分享模板。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Matt Palmer",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-tim-outreach",
+      "added": "2026-09-29",
+      "title": "冷外联一小时：总管分活、地图扩名单、战役存成技能",
+      "url": "https://www.youtube.com/watch?v=RyfZTXiVkgc",
+      "blurb": "他把获客拆给总管和专岗，先按理想客户收数，再用地图和相似公司扩名单，用 lemlist 找出决策人后，把多渠道冷邮件存成技能。",
+      "section": "tutorials",
+      "tags": [
+        "销售",
+        "插件",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Tim Yakubson",
+        "lemlist",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-aimaster-five",
+      "added": "2026-09-29",
+      "title": "五只岗当场建完：早报、收件技能，群聊里自己交接",
+      "url": "https://www.youtube.com/watch?v=j0Pqe8c07vY",
+      "blurb": "画面里一次建出早间调研、带自定义技能的收件、报表、调度和写稿，其中两只在群聊里自己把活交过去，中间不用人再打字转述。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "AI Master",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "substack-michael-week11",
+      "added": "2026-09-29",
+      "title": "周报：把命令行装进虚拟电脑接着写，20 美元档一天烧掉七到八成周额度",
+      "url": "https://prowebengineer.substack.com/p/21-11",
+      "blurb": "这周他靠 Grok Bot 同时推进好几件开发，杂指令也能被接住，出门就把 Claude Code 和 Codex 装进虚拟电脑当第二台机器，浏览器里的基础设施设置也交出去，但 20 美元档一天就吃掉一周额度的七到八成，于是升到 80 美元档。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "迈克尔",
+        "Claude Code",
+        "Codex",
+        "Substack"
+      ]
+    },
+    {
+      "id": "zenn-bug-factory",
+      "added": "2026-09-29",
+      "title": "把一次修缺陷拉长，结果先搭出一座软件工厂",
+      "url": "https://zenn.dev/kou2kkkt/articles/10b13eef3b0046",
+      "blurb": "作者让 Grok Bot 跨仓库、日志和浏览器查缺陷，大约三天里实现变快了，人却变成下班后仍在逐条确认的最后队列。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Zenn",
+        "Kousuke Kikuchi"
+      ]
+    },
+    {
+      "id": "reddit-cast-continuity",
+      "added": "2026-09-29",
+      "title": "r/GrokBot：出片前先让一只 Bot 卡住角色连续性",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wsjvl1/we_gate_flow_generation_on_cast_continuity_before/",
+      "blurb": "多 Bot 房间里有一只专门做静帧质检，发现货架上多出来的兔子摆件就判失败并拦住 Flow，避免把连续性错误放大成更贵的视频生成。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "多Bot"
+      ],
+      "aliases": [
+        "Flow",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-tiktok-drafts",
+      "added": "2026-09-29",
+      "title": "r/GrokBot：每天把 TikTok 幻灯片投进草稿箱，人只负责审和发布",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1ws72dx/bot_for_marketing/",
+      "blurb": "有人每天让 Bot 按不同主题做好 TikTok 幻灯片并投进草稿箱，自己只在 App 里审一下、配上声音再发，并补充这是走已获批准应用的 MCP，Bot 不能自己登录 TikTok。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "TikTok",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-weekly-meals",
+      "added": "2026-09-29",
+      "title": "r/GrokBot：一周菜单写进共享日历，买菜前家人可以否决",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wrx609/grok_bot_writes_my_weekly_meals_into_apple/",
+      "blurb": "Bot 读促销传单并守住预算排一周晚餐，作者的应用再把菜单放上共享日历、把采购清单放进提醒事项，家人可以在买菜前说不。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Apple 日历",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-github-memory",
+      "added": "2026-09-29",
+      "title": "r/GrokBot：用 GitHub 仓库当 ChatGPT 和 Grok Bot 的共享记忆",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wrvgkz/grok_bot_and_chatgpt_sharing_memories_on_github/",
+      "blurb": "作者让日常用的 ChatGPT 和负责生意的 Grok Bot 把重要事项写进同一个 GitHub 仓库互相读取，跟帖有人用同样的仓库当大脑，文件则另放网盘。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "ChatGPT",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-dj-att-bill",
+      "added": "2026-09-29",
+      "title": "DJ：账单岗登进 AT&T，月费少了 100 美元",
+      "url": "https://x.com/congressdj/status/2104396032285229548",
+      "blurb": "Bill 会读账单和用量、找更便宜的套餐和漏掉的抵扣，还能去跟 AT&T 的在线客服谈；另一人用同一只岗先砍掉闲置的车载线和两块手表流量，还没谈忠诚折扣就少了大约 70 美元。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "AT&T",
+        "Bill"
+      ]
+    },
+    {
+      "id": "youtube-sbai-three-posts",
+      "added": "2026-09-29",
+      "title": "一条新闻做成三条帖，成稿前的判断仍留在人手里",
+      "url": "https://www.youtube.com/watch?v=L0GnfSEZ70U",
+      "blurb": "内容岗把一条新闻做成 X 帖、LinkedIn 帖和 Instagram 轮播，他刻意把决定内容好不好的那一步留在自己手里，避免自动化直接吐出空话。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Science Based AI",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-heison-hk",
+      "added": "2026-09-29",
+      "title": "香港老师不用翻墙：只跟总管要出题和活动海报",
+      "url": "https://www.youtube.com/watch?v=3wucBLadU0o",
+      "blurb": "港卡就能付款，他只对总管说自己是谁，岗组好队之后交来时事题目，以及一套活动策划和宣传海报。",
+      "section": "cases",
+      "tags": [
+        "上手",
+        "运营",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "Heison",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-cooperson-phone",
+      "added": "2026-09-29",
+      "title": "给岗一个真号码：日历、邮件和不想打的电话",
+      "url": "https://www.youtube.com/watch?v=jCpLinBex3o",
+      "blurb": "他给岗接上真实电话号码，让它管任务、日历和 Gmail，并代打他不想打的电话，这个 Jarvis 模板可以一键装进账号。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Jason Cooperson",
+        "Jarvis",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "forum-1password-long-url",
+      "added": "2026-09-29",
+      "title": "1Password 只报 delivery outcome is unknown：一条超长网址会卡死整个保险库",
+      "url": "https://forum.cursor.com/t/grokbot-1password/173142",
+      "blurb": "员工查到，共享给 Bot 的保险库里只要有一条网站栏超过两千字符的登录项，整次连接就会失败，界面却只给这句笼统报错；找不到那一条时把条目先移空再连接、连上后再搬回去即可，发帖人按这个做通了，每次失败留下的名为 Grok Bot agents 加日期的服务账号也可以删掉。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "1Password",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-plaid-add-account",
+      "added": "2026-09-29",
+      "title": "Finance 插件连上第一家银行后，第二家要点账户列表下面的 Add Account",
+      "url": "https://forum.cursor.com/t/plaid-multiple-banks/173151",
+      "blurb": "员工说每家银行都要单独走一次 Plaid，连接记在 Finance 账号上而不是插件安装记录里，所以卸掉重装既不会清掉已连的 Chase，也不会再弹出选银行窗口；在已连接账户下面点 Add Account 才能加 Schwab，一次会话里勾选多家目前还不行。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "Plaid",
+        "Finance",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-inkbox-not-found",
+      "added": "2026-09-29",
+      "title": "定时任务报 MCP 服务器找不到，Inkbox 状态却仍是已连接、51 个工具",
+      "url": "https://forum.cursor.com/t/grok-bot-inkbox-mcp-shows-connected-with-51-tools-but-agent-gets-mcp-server-not-found/173208",
+      "blurb": "员工确认不是本地授权掉了：9 月 28 日清晨的一次服务端变更让部分定时和后台回合启动时拿不到任何连接器，状态页仍写着已连接，重启 MCP 也没用；修复大约在美东时间 6:15 推完，一条 iMessage 提醒因此晚了约两小时。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Inkbox",
+        "iMessage",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "ado-grok",
+      "added": "2026-09-29",
+      "title": "在 Bot 自己的电脑上连 Azure DevOps 工单和流水线",
+      "url": "https://github.com/SIMPL-Automation/ado-grok",
+      "blurb": "工单、拉取请求和流水线走微软官方的本地 MCP，原始访问令牌贴进插件安全栏后由 Bot 自己的电脑做 Base64，默认不用在笔记本上装 Azure CLI。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "安全"
+      ],
+      "aliases": [
+        "Azure DevOps",
+        "ADO"
+      ]
+    },
+    {
+      "id": "grokbot-mcp-sync",
+      "added": "2026-09-29",
+      "title": "把 Grok Bot 的 webhook 回调收成可以等待的 MCP 结果",
+      "url": "https://github.com/YunosukeYoshino/grokbot-mcp",
+      "blurb": "Cloudflare Worker 用一次 Durable Object 等回调再把答案交回 MCP 客户端，假回调在读正文之前就返回 403，每分钟和每日提问超过上限时也不会再去打 webhook。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "计费"
+      ],
+      "aliases": [
+        "Cloudflare Workers",
+        "MCP"
+      ]
+    },
+    {
+      "id": "grok-bot-event-bridge",
+      "added": "2026-09-29",
+      "title": "两只 Bot 靠本机 JSONL 叫醒，而不是轮询 Helper",
+      "url": "https://github.com/tqd118/grok-bot-event-bridge",
+      "blurb": "同事那只 Bot 只要往主人电脑上的 JSONL 追加一行，本机文件监听就会用 webhook 叫醒 Helper 的例行任务，因为 Helper 并没有可以从外面直接提问的入口。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "JSONL",
+        "Helper"
+      ]
+    },
+    {
+      "id": "omarchy-grok-bot-tray",
+      "added": "2026-09-29",
+      "title": "Linux 上关窗不掉线：托盘看管 Grok Bot 桌面端",
+      "url": "https://github.com/sunny0826/omarchy-grok-bot-tray",
+      "blurb": "关掉窗口后进程会退出，监督服务大约一两秒到三秒内把它重新拉起并藏进 Hyprland 专用工作区，每日更新还要求安装包的 SHA-256 对上仓库里钉死的校验才肯换上。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Omarchy",
+        "Hyprland"
+      ]
+    },
+    {
+      "id": "grok-bot-hardening-team",
+      "added": "2026-09-29",
+      "title": "六只 Bot 分头查容器风险，严重项才提交草稿修复",
+      "url": "https://github.com/ritvikindupuri/grok-bot-container-hardening-team",
+      "blurb": "指挥官把仓库拆给镜像、集群、密钥、运行时和供应链五只专家，它们只读代码并把密钥打码，只有高危和严重问题才由云端代理开草稿拉取请求，你不批准就不会合并。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "安全",
+        "工程"
+      ],
+      "aliases": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "grokbot2claw",
+      "added": "2026-09-29",
+      "title": "用一次已批准的 Mac Shell 把话交给本机 OpenClaw",
+      "url": "https://github.com/AndreaGriffiths11/grokbot2claw",
+      "blurb": "每次只发一条命令，本机回环上的短命服务用一次性令牌把选定 OpenClaw 代理的回复送回标准输出，发信方改不了目标代理或参数，跑完也不留常驻进程。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "OpenClaw",
+        "Mac Shell"
+      ]
+    },
+    {
+      "id": "tenten-jev-contract",
+      "added": "2026-09-29",
+      "title": "Grok Bot 接 Jev：本机插件测通了，云端加载仍要另验",
+      "url": "https://developer.tenten.co/grok-bot-jev-decision-layer",
+      "blurb": "本机插件目录里跑通的 MCP，Grok Bot 仍要改走 Cursor 面板或市场才加载得上，Jev 返回的选择也不能在缺文件时当成完工。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "工程",
+        "安全"
+      ],
+      "aliases": [
+        "Jev",
+        "Tenten"
+      ]
+    },
+    {
+      "id": "substack-token-yield",
+      "added": "2026-09-29",
+      "title": "Bot 小队的产出账：只打分、只提议，新 Bot 默认先不加",
+      "url": "https://rolandozubiran.substack.com/p/the-token-yield-of-a-bot-fleet",
+      "blurb": "日历、家办和运营都挤在同一账号后，他放进一只每日产出官，用被接受的成品除以消耗给现有指令打分，只提议删改、不改写别的 Bot，新 Bot 默认不加，也别把这台共用云电脑当成 Muse 那种隔离机。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "计费",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Fleet Improver",
+        "Muse",
+        "Substack"
+      ]
+    },
+    {
+      "id": "x-talos-clickup",
+      "added": "2026-09-29",
+      "title": "Talos：ClickUp 用薄封装，日历接开源 iCloud MCP",
+      "url": "https://x.com/TalosDreams/status/2104602440754491393",
+      "blurb": "官方连接只通一半时，他的岗按 ClickUp 公开的 REST 写了只覆盖要用功能的 Python 薄封装，日历则接上 IceyWu 的 icloud-calendar-mcp，两处都不用他亲手配，到现在还稳。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "X",
+        "ClickUp",
+        "icloud-calendar-mcp"
+      ]
+    },
+    {
+      "id": "forum-projects-vs-bot",
+      "added": "2026-09-29",
+      "title": "员工划界：仓库里的长活用 Cursor Projects，跨网站的活留给 Grok Bot",
+      "url": "https://forum.cursor.com/t/grok-bot-vs-cursor-projects/171375",
+      "blurb": "员工把两边拆开：Projects 绑着一个仓库，协调员自己不写代码、只把活派给云端代理并攒共享上下文，适合跨好几个拉取请求的功能、迁移或整站；Grok Bot 则是有名字、角色和一台带浏览器的云电脑的长期同事，强项是跳出仓库、在别的网站和应用里做多步工作，两边目前并不直接共享上下文。",
+      "section": "reviews",
+      "tags": [
+        "工程",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Projects",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "x-dugu-three-clouds",
+      "added": "2026-09-29",
+      "title": "duguqiankun：新加坡实测，眼下能直接上手的只有 Grok Bot",
+      "url": "https://x.com/Dugu_Qiankun/status/2104629446418579630",
+      "blurb": "他主要拿云电脑跑测试和十几路调研，按机器、桌面和新加坡能不能用比了三家：Grok Bot 实测 8 核 15G 126G、sudo 免密，每个岗一块可接管的桌面且最多 50 个并行，但重置会回滚，周额度不公开还烧得快，Cloudflare 验证也会一直转圈。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "Muse",
+        "Cue"
+      ]
+    },
+    {
+      "id": "dostigus",
+      "added": "2026-09-29",
+      "title": "自建家庭常驻队友：模型和日程都留在你的机器上",
+      "url": "https://github.com/dostigus/dostigus",
+      "blurb": "聊天、技能和日程落在你自己机器的 SQLite 里，模型用你的 OpenRouter 或其他密钥，还能把一只正在用的 Bot 导出成包再套到另一只上，作者写明这还不是应用商店。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Dostigus",
+        "OpenRouter"
+      ]
+    },
+    {
+      "id": "forum-unpaid-all-mute",
+      "added": "2026-09-29",
+      "title": "所有 Bot 同时无法回复时，先查未付账单，别急着重置电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-bot-failed-to-respond-after-update-and-reset-please-rebind-agent-computer/173176",
+      "blurb": "员工核对后这台云电脑、岗和聊天记录都在，全员同时报 Bot failed to respond、更新和重置也没用，更常见的是账号有未付发票，应用却不说是付款问题；到 cursor.com/dashboard 用同一个登录付清后，回复通常几分钟内就会回来。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-attachment-reconnect",
+      "added": "2026-09-29",
+      "title": "文字能发、图片却停在「重连后再发送」：附件要先上传到云电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-chat-image-file-attachments-fail-to-send-3-pcs-since-2026-09-26-text-ok/173187",
+      "blurb": "员工解释纯文本直接进服务器，粘贴或拖进去的图片和文件要先传到云电脑，电脑从 9 月 26 日左右无响应后附件就会卡在 Will send after reconnecting，设置里的 Backup not ready 是同一状态；他们已按最后一份快照重建，再遇到时用 Recover，不要用 Reset，以免丢掉近期的岗和文件。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-cert-partial-state",
+      "added": "2026-09-29",
+      "title": "连不上电脑且重置报不完整状态时，先看 api2.cursor.sh 的证书是谁签发的",
+      "url": "https://forum.cursor.com/t/grok-bot-cant-reach-your-computer-for-7-days-since-update-recover-and-reset-failed-partial-state/173136",
+      "blurb": "员工核对后云电脑、岗和文件都在，别再点 Reset；这台 Windows 从更新后就连不出去，所以重试、恢复、重置和应用内反馈一起失败，登出后左下角名字还会变成问号，用浏览器打开 api2.cursor.sh 看锁图标，签发者应是 Amazon，若显示杀毒软件名字就把 Grok Bot 从 HTTPS 扫描里排除，或改用关掉代理的手机热点，从 x.ai/bot 重装也不会动云电脑上的数据。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "api2.cursor.sh",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "reddit-ondemand-hello",
+      "added": "2026-09-29",
+      "title": "r/cursor：周额度打满后按量还有余额，问候失败且不扣费",
+      "url": "https://www.reddit.com/r/cursor/comments/1wsey8b/grok_bot_weekly_100_ondemand_has_39_left_hello/",
+      "blurb": "Cursor Pro 上四只共用云电脑的 Bot 在周额度用尽后全部停住，界面只说连不上电脑，按量余额却不扣；跟帖认为是云电脑卡住了，建议在设置里做一次恢复而不是重置，再开新对话试一句问候。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "On-Demand",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-barrett-timezone",
+      "added": "2026-09-29",
+      "title": "霹雳游侠：关掉「启用本机时区」，云电脑才回到自己的时区",
+      "url": "https://x.com/BarrettDream/status/2104631903060128029",
+      "blurb": "云电脑上的 Claude 明明是美国时间，界面却警告 Asia/Shanghai，是因为开了「启用本机时区」，关掉后机器才会用回本来的时区。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "Asia/Shanghai"
       ]
     }
   ]
