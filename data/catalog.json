@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "sections": [
     {
       "id": "official",
@@ -21906,6 +21906,509 @@
       "aliases": [
         "X",
         "Asia/Shanghai"
+      ]
+    },
+    {
+      "id": "x-n2parko-team-bots",
+      "added": "2026-09-30",
+      "title": "n2parko：Team Bots 把岗从单人编制变成全队共用的同事",
+      "url": "https://x.com/n2parko/status/2104663299485020568",
+      "blurb": "SpaceXAI 把共享岗做成多人模式，全队共用一只 Bot，记忆分全局和个人，Slack 里就能叫，内部已经在用数据岗 Databot、工程岗、品牌把关的营销岗，以及会进 Salesforce 找线索的销售助理。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "销售",
+        "工程"
+      ],
+      "aliases": [
+        "Team Bots",
+        "n2parko",
+        "Slack",
+        "Databot"
+      ]
+    },
+    {
+      "id": "x-benln-ten-days",
+      "added": "2026-09-30",
+      "title": "Ben Lang：过去十天接上语音、表格、Plaid 和 1Password",
+      "url": "https://x.com/benln/status/2104573315860042004",
+      "blurb": "SpaceXAI 的人把这十天的更新列成一张单子：语音模式和语音备忘、Plaid、幻灯片表格文档的原生连接、1Password、回复更快、桌面端 53 项性能修复，以及大约多出一成的有效用量。",
+      "section": "official",
+      "tags": [
+        "插件",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "Ben Lang",
+        "Plaid",
+        "1Password"
+      ]
+    },
+    {
+      "id": "youtube-grok-sales",
+      "added": "2026-09-30",
+      "title": "官方工作坊：销售工程师每天在用的三个 Grok Bot",
+      "url": "https://www.youtube.com/watch?v=tpDfoh5qPF8",
+      "blurb": "Cursor 现场工程师拿自己的日程演示三个 Bot，包括对外通话前整理客户案例幻灯片，以及随时接管那台云电脑。",
+      "section": "official",
+      "tags": [
+        "销售",
+        "多Bot",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Grok"
+      ]
+    },
+    {
+      "id": "substack-rakhul-five",
+      "added": "2026-09-30",
+      "title": "五人营销小组的十一段提示：共用电脑、插件和一次吃掉的周额度",
+      "url": "https://rakhulkarthick.substack.com/p/i-ran-a-marketing-team-of-5-ai-agents",
+      "blurb": "按顺序贴完这十一段提示，总管会带起调研、写手、设计师和审核，不合品牌的图会被打回两次才交到他手里，20 美元档这一趟吃掉试用周额度的 63%，而且插件连上后所有 Bot 共用同一套登录。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "多Bot",
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "youtube-nuno-eight",
+      "added": "2026-09-30",
+      "title": "用满 50 小时后的 8 个技巧：语音、Composio、1Password 与小组",
+      "url": "https://www.youtube.com/watch?v=CUxn_kTrc1o",
+      "blurb": "给每个 Bot 单独开语音，用一次 Composio 登录接上大约一千五百个应用，再用 1Password 服务账号和云电脑去开 Claude Design，并靠记住点击把用量压下来。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "插件",
+        "多Bot",
+        "安全",
+        "视频"
+      ],
+      "aliases": [
+        "Composio",
+        "1Password",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-kacper-teach",
+      "added": "2026-09-30",
+      "title": "把最无聊的早课交给 Grok Bot：Teach a Task 只录约 20 秒",
+      "url": "https://www.youtube.com/watch?v=77R_BYZ1SvI",
+      "blurb": "每天往 Skool 发简报时，先把步骤写成文字、只录大约 20 秒点击，再在对话里改技能并写上禁止事项，最后才挂成例行任务。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "运营",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "Teach a Task",
+        "Skool",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-rex-finish",
+      "added": "2026-09-30",
+      "title": "GPT 只给步骤，Grok Bot 把事做完：分类文件、对收据、填表和比价",
+      "url": "https://www.youtube.com/watch?v=juF7DjxFv1w",
+      "blurb": "按材料、任务、约束、验收交办后，看它自己下载招生文件、核对表格收据、填写同意书，并让另一个 Bot 同时比价再拉群盘日程。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Rex"
+      ]
+    },
+    {
+      "id": "medium-content-gate",
+      "added": "2026-09-30",
+      "title": "内容组每天出稿，人不过目就不许发出去",
+      "url": "https://mrzacsmith.medium.com/build-a-multi-agent-content-team-that-creates-daily-and-waits-for-your-approval-fdd2d2fb0e05",
+      "blurb": "作者每天用协调 Bot，加上文案、制图、Blotato 提交、幕僚和数据分析几个窄职责 Bot 跑社媒，定时例行自己转，但没他点头就不能发出去。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Blotato",
+        "Medium"
+      ]
+    },
+    {
+      "id": "substack-growth-bobs",
+      "added": "2026-09-30",
+      "title": "六位数订阅业务的增长小组：Bot 只起草，发出去仍要人点",
+      "url": "https://theindiepreneur.substack.com/p/i-built-growth-team-out-agents-here-exactly-works",
+      "blurb": "他把 WriteStack 的增长拆成编排官和一排渠道 Bot，草稿、审批和做完后的交接都在看板上流转，邮件、短视频和合作私信仍然只有他本人能发出去。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "销售"
+      ],
+      "aliases": [
+        "WriteStack",
+        "Substack"
+      ]
+    },
+    {
+      "id": "reddit-mint-tracker",
+      "added": "2026-09-30",
+      "title": "r/GrokBot：用 Plaid 和网页登录把 Bot 当成记账本",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wswy2i/grokbot_as_a_mint_personal_finance_tracker/",
+      "blurb": "作者用 Plaid 和网页登录把交易记进表格，让 Bot 分出循环扣款、大额支出、待付账单和净值，再从邮件里把航班写进对应交易，并按最新应还金额把还款提醒放上日历。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "Plaid",
+        "Mint",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-mike-tesla-pdf",
+      "added": "2026-09-30",
+      "title": "Mike P：车上喊一声，岗就把家里的 PDF 搬进 OneDrive",
+      "url": "https://x.com/mikepat711/status/2104884691769713009",
+      "blurb": "通勤时他不用摸手机，直接让车里的 Grok 叫岗从 Mac 下载目录挪 4 份 PDF 到 OneDrive，再让 Claude Code 按销售资料夹和既有文风先出一版行业演示稿，到工位只改不从头做。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑",
+        "销售"
+      ],
+      "aliases": [
+        "Tesla",
+        "X",
+        "OneDrive"
+      ]
+    },
+    {
+      "id": "youtube-paras-company",
+      "added": "2026-09-30",
+      "title": "把公司流程搬进 Grok Bot：只跟 CEO Bot 说话，内容、运营和财务各自干活",
+      "url": "https://www.youtube.com/watch?v=odmNSRUUhjo",
+      "blurb": "一次请求就路由出提词稿、模拟交易进度和跨平台活动漏斗，并讲清套餐用量以及哪些结果必须人工复核。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube"
+      ]
+    },
+    {
+      "id": "forum-gmail-redirect",
+      "added": "2026-09-30",
+      "title": "员工：Gmail 连接器会把信里的链接存成 Google 跳转",
+      "url": "https://forum.cursor.com/t/grok-bot-gmail-connector-user-gmail-rewrites-every-link-into-google-com-url-redirects-on-create-draft-and-send-message/173321",
+      "blurb": "员工确认这出在连接器本身，五封测试草稿里纯文本和 HTML 链接都会被存成 google.com/url，自己在网页里写的信则保持原样，带链接的客户信先让 Bot 把正文留在聊天里，发送前由你在网页里补上。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Gmail",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-mcpservers-field",
+      "added": "2026-09-30",
+      "title": "员工：插件清单里的 mcpServers 是认的，装上却不能登录就卸掉再装",
+      "url": "https://forum.cursor.com/t/grok-bot-cursor-cloud-agents-not-respecting-mcpservers-optional-field/173273",
+      "blurb": "员工说 Grok Bot 和云端代理都认这个字段，不必把配置改回仓库根目录的 mcp.json，真正卡住的是安装时偶发没把连接器注册上，卸掉等几分钟再添加后发帖人已经能登录。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障",
+        "工程"
+      ],
+      "aliases": [
+        "mcpServers",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "ids-team-windows",
+      "added": "2026-09-30",
+      "title": "八只 Bot 盯 Windows 入侵，改动必须你在本机批准",
+      "url": "https://github.com/ritvikindupuri/grok-bot-intrusion-detection-team",
+      "blurb": "七个专员只读进程、监听端口、自启动、日志、文件、Agent 配置和诱饵，每天只报相对基线的变化，修复命令写在发现里，但只有你在这台电脑上点头后指挥官才会执行。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "IDS",
+        "Windows"
+      ]
+    },
+    {
+      "id": "xiaomei-signal",
+      "added": "2026-09-30",
+      "title": "像素信号灯影子随钟点转向，单击把 Grok Bot 叫到前台",
+      "url": "https://github.com/rw174655-ux/xiaomei-signal",
+      "blurb": "macOS 桌面灯每秒读一次状态文件，绿是在推进、黄是在等你、红是卡住，单击会把 Grok Bot 叫到前台，监视只认主进程，所以 Helper 还没退时灯也不会一直亮着。",
+      "section": "skills",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "XiaomeiSignal",
+        "macOS"
+      ]
+    },
+    {
+      "id": "grok-bot-discord-bridge",
+      "added": "2026-09-30",
+      "title": "Discord 默认拒绝所有人，过白名单才打到云电脑",
+      "url": "https://github.com/matthew-rutledge-dev/grok-bot-discord-bridge",
+      "blurb": "频道消息要先过机器人、服务器、用户、角色和频道几道门，映射表那一行没启用就不会打到 Bot 电脑的 1340 端口，干完活再凭令牌把回复贴回原来的频道，作者写明还没放真实 token、服务先别启动。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "Discord"
+      ]
+    },
+    {
+      "id": "discord-grok-bot-oss",
+      "added": "2026-09-30",
+      "title": "没有官方 Discord 进线时，用插件读频道并只回点名",
+      "url": "https://github.com/stevederico/discord-grok-bot-oss",
+      "blurb": "同一个插件能列服务器、按频道名读最近消息，并在最近一百条里做子串搜索，若要别人点名才回话，就在 Bot 自己的电脑上另开 Gateway，并用服务器和频道白名单把它关在选定房间里，作者写明目前只跑过单测、还没对真实服务器试过。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Discord"
+      ]
+    },
+    {
+      "id": "money-watchdog",
+      "added": "2026-09-30",
+      "title": "只读收件箱抓偷偷扣款，邮件没写金额就不报能省多少",
+      "url": "https://github.com/Grryp-LLC/money-watchdog",
+      "blurb": "它不发信、不点邮件里的链接，省下的钱只按信里写明的金额估算，出海报前会抹掉邮箱、网址和卡号片段，抹不干净就拒绝出图，没事的日子也不会来吵你。",
+      "section": "skills",
+      "tags": [
+        "跑腿",
+        "安全"
+      ],
+      "aliases": [
+        "Money Watchdog"
+      ]
+    },
+    {
+      "id": "windows-grok-bot-tray",
+      "added": "2026-09-30",
+      "title": "Windows 上按关闭会直接退出，补丁让它缩进系统托盘",
+      "url": "https://github.com/gmzoztr/grok-bot-tray",
+      "blurb": "官方桌面端没有关闭进托盘，这个可逆补丁会跟着压缩后的变量名走，客户端一更新只要再跑一次安装脚本就能重新打上，窗口藏起时点桌面快捷方式会把原窗口叫回来而不是再开一份。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Windows",
+        "tray"
+      ]
+    },
+    {
+      "id": "kalshi-mcp",
+      "added": "2026-09-30",
+      "title": "Kalshi 默认藏起下单工具，只有财务那只 Bot 能关掉安全模式",
+      "url": "https://github.com/akashnaren/kalshi-mcp",
+      "blurb": "安全模式开着时工具列表里没有下单、撤单、改单和减仓，找机会的调用只读不落单，只有财务那台主机关掉安全模式并重启后这些工具才出现，而且每笔仍要显式确认并卡在单笔和相关性上限里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Kalshi"
+      ]
+    },
+    {
+      "id": "meet-linux-bridge",
+      "added": "2026-09-30",
+      "title": "四条虚拟声卡把 Bot 的语音接进 Linux 上的 Google Meet",
+      "url": "https://github.com/nyfeblade/meet-linux-bridge",
+      "blurb": "输出和回采分成两套设备，Meet 的麦克风不要选成只该在 Grok 设置里用的那一路，装好后要用远端与会者真的听见 Bot 说话才算接上。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "PipeWire",
+        "Meet",
+        "Linux"
+      ]
+    },
+    {
+      "id": "reddit-eleven-orgs",
+      "added": "2026-09-30",
+      "title": "r/GrokBot：三天直播的 11 套 Bot 编制可以一行导入",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wsynsf/11_agent_org_charts_from_the_3_days_grokbot/",
+      "blurb": "作者把直播里一闪而过的队伍整理成 11 张组织图、58 个角色和定时例程，销售开发那套由参谋长带着邮件、六个数据源和可扩编的执行 Bot，对话里贴一行导入就能按图把队伍搭起来。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-pjvann-threat-hunt",
+      "added": "2026-09-30",
+      "title": "Paul Vann：威胁猎手和情报岗一起盯针对 Agent 的漏洞",
+      "url": "https://x.com/pjvann/status/2104994776705560857",
+      "blurb": "他让岗接上 X 的 MCP，用免费 OpenCTI 大约每天写入针对 Agent 的恶意包、漏洞和已披露利用，再由威胁情报岗把新规则交给 Wazuh 上的猎手，两边互相通报新的可疑指标，帖里还挂了两份可装的模板。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "OpenCTI",
+        "Wazuh",
+        "X"
+      ]
+    },
+    {
+      "id": "medium-silent-routine",
+      "added": "2026-09-30",
+      "title": "三天试用：例行决定不发消息，到点仍会把 Bot 叫醒一轮",
+      "url": "https://medium.com/@jeffyjclaceyycom/my-first-read-on-grok-bot-promising-agent-ux-one-big-constraint-8116bf4d62eb",
+      "blurb": "作者用只有假数据的小 MCP 让 Bot 建了技能并排了一次例行，后来装上的连接器开始报认证类错误，而例行即便决定不发消息，到点仍会把 Bot 叫醒算一轮。",
+      "section": "reviews",
+      "tags": [
+        "插件",
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Medium",
+        "MCP"
+      ]
+    },
+    {
+      "id": "medium-warmwind-cost",
+      "added": "2026-09-30",
+      "title": "和 Warmwind 对过账：共享电脑拆开名字也隔不开",
+      "url": "https://bluetickconsultants.medium.com/what-ai-digital-coworkers-actually-cost-and-where-they-fail-dee0a4ff4f56",
+      "blurb": "Grok Bot 没有单独标价、超额按 Grok 4.6的 token 计价，和按小时卖屏幕操作的 Warmwind 放在一起看，长流程会把单步准确率乘崩，同一账号的 Bot 还共用登录和文件。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "安全",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Warmwind",
+        "Medium"
+      ]
+    },
+    {
+      "id": "forum-browser-helper",
+      "added": "2026-09-30",
+      "title": "能截图却点不了：截图工具只读，点击要另叫电脑操作助手",
+      "url": "https://forum.cursor.com/t/loss-of-browser-control/173319",
+      "blurb": "员工说这只 Bot 的电脑操作助手仍在且账号正常，只是它不再去调用，所以更新云电脑和重启应用都不会把点击找回来，在对话里让它用 Task 工具的 computerUse 打开网页并点一下，做完前别再发消息。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "computerUse",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-midtask-restart",
+      "added": "2026-09-30",
+      "title": "做到一半再发一条消息，电脑助手会停掉并从头再来",
+      "url": "https://forum.cursor.com/t/grok-bot-incompetent-today/173242",
+      "blurb": "员工解释窗口不停刷新、像是不听已经定好的指令，是因为任务进行中每来一条新消息都会把电脑助手停掉再启动，把整件事和结束标准写进同一条，在它说做完之前不要再发。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-voice-latency",
+      "added": "2026-09-30",
+      "title": "通话里像是卡住，任务其实几秒就做完，只是口头结果晚到",
+      "url": "https://forum.cursor.com/t/grok-bot-voice-channel-latency-silent-hang-after-tools-complete/172844",
+      "blurb": "员工核对当晚的 Notion 日历条目几秒内就写上了，慢的是把口头结果送回通话，并建议 iPhone 上保持前台、屏幕亮着再等，发帖人随后补充自己大部分时间都在盯着前台，后台并不是唯一情况。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Notion",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "substack-shared-session",
+      "added": "2026-09-30",
+      "title": "共用会话是同事不是沙箱：把登录交给 Bot 之前先划清界限",
+      "url": "https://catalyxt.substack.com/p/a-shared-session-is-a-coworker-not",
+      "blurb": "已经坐在共用云电脑登录里的 Bot 对外用的是你的名字，点了允许也收不回已经发出的邮件或转账，所以不能把它当成可以随便试炸的沙箱。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack"
       ]
     }
   ]
