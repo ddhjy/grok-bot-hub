@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "sections": [
     {
       "id": "official",
@@ -22409,6 +22409,560 @@
       ],
       "aliases": [
         "Substack"
+      ]
+    },
+    {
+      "id": "forum-1password-google-popup",
+      "added": "2026-10-01",
+      "title": "1Password 填不进 Google 登录弹窗，接管屏幕手输一次即可",
+      "url": "https://forum.cursor.com/t/grok-bot-wont-login-to-google-account-using-1password/173423",
+      "blurb": "员工确认这是正在跟踪的问题：Google 叠在 Ramp 上的小登录窗不算完整表单，1Password 填不进密码；Bot 把屏幕交还给你时自己在弹窗里输一次并完成两步验证，交还后浏览器通常会保住这次 Google 会话，下次「使用 Google 登录」往往只需选账号。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "1Password"
+      ]
+    },
+    {
+      "id": "forum-team-cloud-credits",
+      "added": "2026-10-01",
+      "title": "进了团队后，Grok Bot 拉起的云端代理只走团队额度",
+      "url": "https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419",
+      "blurb": "员工说进了团队之后，Grok Bot 拉起的云端代理一律记在团队席位上，没有开关能改回个人套餐；你看到的 team cloud credits 是建环境时一次性促销额度、会先于席位内含用量消耗，用完后自动改走席位额度，若坚持要记到个人套餐只能换一个不在团队里的 Cursor 账号来跑 Bot。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-desktop-offline-rebuild",
+      "added": "2026-10-01",
+      "title": "云电脑连不上且重置无效时，只能等服务端重建",
+      "url": "https://forum.cursor.com/t/hey-guys-the-desctop-from-grok-bot-is-offline-for-2-days-and-i-cant-do-anything-with-it/173388",
+      "blurb": "发帖人说 Bot 在云电脑上装了免费 VPN 之后整台机器连了两天，员工核对后确认电脑还在跑但连不上、应用内 Retry/Recover/Reset 都出不去，已从服务端重建并保留岗、文件和登录；彻底退出 Grok Bot 再打开，桌面视图一两分钟内应能连上。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-1password-filled-empty",
+      "added": "2026-10-01",
+      "title": "1Password 显示已填充但密码栏是空的：页面拒填后 Bot 会清掉",
+      "url": "https://forum.cursor.com/t/grok-bot-shared-1password-autofill-says-filled-but-password-stays-empty-instagram/173365",
+      "blurb": "员工说 Instagram、Letterboxd 这类登录页会拒收 1Password 自动填入的密码，随后 Bot 出于安全把密码栏清掉，卡片却仍显示 Filled；保险库本身没问题，可改让 Bot 弹出聊天里的安全登录表单由你填写（Bot 看不到密码），或接管云电脑手登一次并完成验证码，之后会话会留在浏览器里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "1Password"
+      ]
+    },
+    {
+      "id": "forum-ios-webhook-url",
+      "added": "2026-10-01",
+      "title": "iOS 仍看不到 webhook 地址，先去桌面 Routines 面板复制",
+      "url": "https://forum.cursor.com/t/grok-bot-ios-show-the-webhook-url-for-webhook-triggered-routines/173373",
+      "blurb": "员工说在手机例程详情里复制 webhook 地址、密钥和 Authorization 头正在做，近期更新再看；在此之前仍只能打开桌面应用的 Routines 面板，点开对应 webhook 例程才能复制这三项。",
+      "section": "tutorials",
+      "tags": [
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "iOS"
+      ]
+    },
+    {
+      "id": "forum-ahrefs-429",
+      "added": "2026-10-01",
+      "title": "Ahrefs 连接器卡在 429：重装也过不了认证",
+      "url": "https://forum.cursor.com/t/grokbot-ahref-connector-rate-limited/173206",
+      "blurb": "员工确认 Ahrefs 在打开登录页之前就把 Grok Bot 的准备请求限流成 429，界面上的 SyntaxError 只是错误文本没被格式化；这不是你这边能修的，卸掉重装、再加一个账号或反复点 Authenticate 目前都过不去。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Ahrefs"
+      ]
+    },
+    {
+      "id": "tin-can",
+      "added": "2026-10-01",
+      "title": "TinCan：两台各自的 Grok 用 git 发件箱对聊",
+      "url": "https://github.com/carol-to-albina/tin-can",
+      "blurb": "官方还不让两个人进同一聊天，这个插件让每人只往自己的 outbox 追加一行，push 叫醒对方的 Bot，对方先问过你才接活，演示站用 OpenRouter 顶替真 Bot。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "TinCan"
+      ]
+    },
+    {
+      "id": "gb2gpt",
+      "added": "2026-10-01",
+      "title": "gb2gpt：从普通 ChatGPT 对话叫醒你的 Grok Bot 编队",
+      "url": "https://github.com/EdmundLimBoEn/gb2gpt",
+      "blurb": "本机一个无依赖 Python 桥把开发者模式 MCP 接到一只名叫 gb2gpt 的中继 Bot，它再用 Bot 间消息问你的参谋长，晚到的回复只能轮询同一工单而不能塞进已经空闲的聊天。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "gb2gpt"
+      ]
+    },
+    {
+      "id": "grok-bot-learning",
+      "added": "2026-10-01",
+      "title": "grok-bot-learning：共享电脑上的证据课，审过才能召回",
+      "url": "https://github.com/matthiasroder/grok-bot-learning",
+      "blurb": "装在 Bot 共用的那台电脑上，领域课默认要策展人审过别的 Bot 才能召回，受保护的 Bot 课只留本地，启用前必须先用官方资料和例行工具验证并试过还原。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ]
+    },
+    {
+      "id": "dots-vs-grok-bot",
+      "added": "2026-10-01",
+      "title": "dots-vs-grok-bot：Dots 押单参谋，Grok Bot 把云电脑挂在账号上",
+      "url": "https://github.com/beamnxw/dots-vs-grok-bot",
+      "blurb": "以 2026-09-29 为快照，把 OpenAI Dots 的单代理云机和 Grok Bot 账号共享一台电脑、含 9 月 28 日 Team Bots 的编制并排，作者写明这是未经同行评审的工作论文。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Dots"
+      ]
+    },
+    {
+      "id": "foss-bot",
+      "added": "2026-10-01",
+      "title": "foss-bot：用 Claude Code 与 Codex 自建 Grok Bot 式小队",
+      "url": "https://github.com/dyl-joseph/foss-bot",
+      "blurb": "参谋长只拆工验收不改产品代码，队员在各自 microVM 里开浏览器，登录只用你已有的 ChatGPT 和 Claude 订阅，仓库自己不读也不写 API 密钥。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "FOSS Bot"
+      ]
+    },
+    {
+      "id": "agent-handoff-bridge",
+      "added": "2026-10-01",
+      "title": "agent-handoff-bridge：Codex、Dots 与六只 Grok Bot 共用带审批的任务房",
+      "url": "https://github.com/1ststepai/agent-handoff-bridge",
+      "blurb": "自托管 MCP 给每只 Bot 单独令牌，角色交接要先存检查点，合并、上线、花钱和对外发信都停在人工门，两边都不能绕过各自产品的审批。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "插件",
+        "工程"
+      ]
+    },
+    {
+      "id": "hn-team-bots",
+      "added": "2026-10-01",
+      "title": "xAI 上线 Team Bots：全队共用一只岗，Slack 里就能叫",
+      "url": "https://news.ycombinator.com/item?id=49908197",
+      "blurb": "配好文件、插件和凭证后把 Bot 分享给全队，对话仍各自私密，SpaceXAI 内部已用它写客户晨报、在工程频道开云端代理合 PR。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "销售",
+        "工程"
+      ],
+      "aliases": [
+        "Hacker News",
+        "Team Bots"
+      ]
+    },
+    {
+      "id": "hn-jjcm-split-bots",
+      "added": "2026-10-01",
+      "title": "jjcm：商务岗和私人岗各一只，记忆不串还能拉云端代理",
+      "url": "https://news.ycombinator.com/item?id=49899033",
+      "blurb": "重度用户把业务和私人记忆拆开后互不串台，每只 Bot 自带电脑还能拉起云端代理并行改代码，端到端大约一小时、推理账单涨了两三倍。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "工程",
+        "计费"
+      ],
+      "aliases": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "hn-qingcharles-deals",
+      "added": "2026-10-01",
+      "title": "qingcharles：一只 Bot 每天扫两三次错价和离谱折扣",
+      "url": "https://news.ycombinator.com/item?id=49900770",
+      "blurb": "有人养了一只专门盯购物清单错价和离谱折扣的 Bot，一天汇报两三次，问还能怎么让这些家伙帮自己省钱。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "运营"
+      ],
+      "aliases": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "hn-jasode-openclaw-cloud",
+      "added": "2026-10-01",
+      "title": "jasode：Grok Bot 把 OpenClaw 那套长驻代理做成零安装云电脑",
+      "url": "https://news.ycombinator.com/item?id=49906751",
+      "blurb": "有人把 Dots、Muse 和 Grok Bot 看成给普通人的全天候助手：把 OpenClaw、Hermes 在自建机器上的长驻代理，改成不用自己装机的云虚拟机。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "Hacker News",
+        "OpenClaw"
+      ]
+    },
+    {
+      "id": "medium-14-bot-company",
+      "added": "2026-10-01",
+      "title": "十四个 Bot 的小公司，Pro 周额度大约一小时烧完",
+      "url": "https://hardik-sheth.medium.com/i-built-a-14-bot-company-in-grok-bot-what-worked-what-burned-my-quota-and-when-id-skip-it-40643bc87742",
+      "blurb": "CEO Bot 把班子拆进最多六人的频道来派活，Pro 的周额度大约一小时就被并行角色烧完，写在职责里的禁令也挡不住同一台云电脑上的登录和文件。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "安全",
+        "电脑"
+      ]
+    },
+    {
+      "id": "note-openbot-copilotkit",
+      "added": "2026-10-01",
+      "title": "同名的好几个 OpenBot：要对着 Grok Bot 那种云电脑，自托管该选 CopilotKit 这一支",
+      "url": "https://note.com/sunwood_ai_labs/n/nbce51e8dc365",
+      "blurb": "商用 Grok Bot 要把登录和文件放进别人的云电脑，而直接把家用主机交给 OpenClaw 又挡不住误操作，CopilotKit 的 OpenBot 用每 Bot 一只隔离浏览器和工区把这两头都避开。",
+      "section": "alternatives",
+      "tags": [
+        "安全",
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "note.com",
+        "OpenBot",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-ajitatsu-write-send",
+      "added": "2026-10-01",
+      "title": "先把「写」和「发出去」拆开，再把派活交给 AI：九月的现场笔记",
+      "url": "https://note.com/ajitatsu/n/nfbbea7c41c24",
+      "blurb": "小说正文和カクヨム的设定留在写作侧，X 和 note 的外发只经 Grok Bot 的司令塔派下去，担当中途停住时人还是得盯着屏幕把指令补回去。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "上手"
+      ],
+      "aliases": [
+        "note.com",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-satotakuei-pig-farm",
+      "added": "2026-10-01",
+      "title": "续记 Grok Bot：三天用完 60 美元档之后，猪场日常改在手机上做",
+      "url": "https://note.com/satotakuei/n/n8dc479f265b4",
+      "blurb": "Cursor 的 60 美元档三天就见底，升到 200 美元后额度也没觉得厚多少，但邮件、图纸和应用修改已经能在猪场现场用手机接着做，电脑一天只开得了两小时。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "电脑",
+        "工程",
+        "跑腿"
+      ],
+      "aliases": [
+        "note.com",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-korg-aws-aib",
+      "added": "2026-10-01",
+      "title": "学习 Bot 一次只啃一道题：碎片时间备考 AWS AIB 刚好够用",
+      "url": "https://note.com/korg_lab/n/n618dd633e0e4",
+      "blurb": "英语练习题不整库搬走，只把眼前这一道译成日文并讲清选项，同一个学习 Bot 在安卓手机和 iPad 上都能在通勤间隙接着做，答案仍由人来定。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "电脑"
+      ],
+      "aliases": [
+        "note.com",
+        "日文",
+        "AWS"
+      ]
+    },
+    {
+      "id": "note-kiyone-football-club",
+      "added": "2026-10-01",
+      "title": "在足球俱乐部上班的人，实际在用的那些 AI",
+      "url": "https://note.com/kiyone/n/nccedbc6c0128",
+      "blurb": "草坪浇水刈割、赞助方案和柬埔寨足协的高棉语公函拆给不同 Bot，球员转会这种必须当天打通协会的联络仍然只能找人。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "销售",
+        "跑腿"
+      ],
+      "aliases": [
+        "note.com",
+        "日文"
+      ]
+    },
+    {
+      "id": "reddit-voice-screenfree",
+      "added": "2026-10-01",
+      "title": "r/GrokBot：不看屏幕只靠语音派活，四件事还做不到",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wu5yqy/voice_mode_feedback_i_tried_a_herstyle_screenfree/",
+      "blurb": "有人按电影《她》的方式全程只靠语音派活，结果回复有长停顿、通话接不上聊天里的上下文、几件并行任务只能靠脑子记，而且每句都塞太满，想把语音当主界面前可以先看这四条卡点。",
+      "section": "community",
+      "tags": [
+        "上手",
+        "排障"
+      ],
+      "aliases": [
+        "r/GrokBot"
+      ]
+    },
+    {
+      "id": "reddit-chatgpt-on-box",
+      "added": "2026-10-01",
+      "title": "r/GrokBot：在云电脑登录 ChatGPT，把查货从 Bot 额度里挪走",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wu0xkq/chatgpt_through_grok_bot_possible/",
+      "blurb": "店主想让参谋长转问 ChatGPT 去找希腊牛至批发，楼里的做法是在云电脑浏览器登录 ChatGPT、Claude 和 Gemini，由参谋长收简报，研究和出图走各家订阅，从而少烧 Grok Bot 额度。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "r/GrokBot"
+      ]
+    },
+    {
+      "id": "reddit-agent-endgame",
+      "added": "2026-10-01",
+      "title": "r/GrokBot：专用云电脑把 Grok Bot 与 OpenClaw、Claude Code 分成两代",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1wthhuu/a_possible_endgame_for_ai_agents/",
+      "blurb": "作者把 Grok Bot 和 Meta Muse 放进常驻 Agent 加一台自带浏览器的云电脑这一格，对照仍占着你自己终端或 Mac mini 的 Claude Code 和 OpenClaw，并问终点会不会是能改自己系统的云端 Agent。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "r/GrokBot"
+      ]
+    },
+    {
+      "id": "v2ex-cloud-pc-compare",
+      "added": "2026-10-01",
+      "title": "Grok Bot 和 OpenClaw、Dots、Muse 差在哪：云电脑谁更强",
+      "url": "https://www.v2ex.com/t/1245711",
+      "blurb": "回帖把 Grok Bot 的云电脑排在 ChatGPT 和 Muse 前面，并对照 OpenClaw 讲了全托管沙盒、上手门槛和浏览器操作为什么更适合普通人。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "V2EX"
+      ]
+    },
+    {
+      "id": "x-mattyp-team-plaid",
+      "added": "2026-10-01",
+      "title": "Matt Palmer：团队共享岗、Plaid 管账，通话被打断也能接上",
+      "url": "https://x.com/mattyp/status/2105345158162063493",
+      "blurb": "这段官方演示按时间点走了三件事：团队可以建共享岗，财务能用 Plaid 查账和管账，语音通话时岗会翻聊天记录，中途被打断也能接着说下去。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "Matt Palmer"
+      ]
+    },
+    {
+      "id": "x-mike-tesla-game",
+      "added": "2026-10-01",
+      "title": "Mike P：特斯拉里说一句话，岗拉起云代理做出三关游戏",
+      "url": "https://x.com/mikepat711/status/2105304302797373661",
+      "blurb": "通勤时他只用车里的语音让 Grok Bot 去叫 Cursor 云端代理，做出三关加一个 Boss 的 8-bit 游戏，连手机版都自己带上了，他只改了一句把按钮放大。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑"
+      ]
+    },
+    {
+      "id": "x-andrew-ugc-crm",
+      "added": "2026-10-01",
+      "title": "Andrew：达人合作从筛播放量到写进 CRM，岗自己跑完",
+      "url": "https://x.com/andrewxroas/status/2105281054361694613",
+      "blurb": "他让岗管 UGC 合作：按 TikTok 和 Instagram 的播放量预筛达人、自己去联系、签约后写进 CRM，再持续看表现，中间不用人守着。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "销售"
+      ]
+    },
+    {
+      "id": "x-satya-motionbot",
+      "added": "2026-10-01",
+      "title": "satyaxbt：丢进产品网址，MotionBot 交回成片宣传片",
+      "url": "https://x.com/satyaXBT/status/2105238473888423966",
+      "blurb": "他用自己改过的岗给 Pendle 做了宣传片：给出产品网址和想要的调子之后，岗会研究网站、取素材、做动效和配乐、渲染并自己审一遍，最后交回 MP4。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "插件"
+      ],
+      "aliases": [
+        "MotionBot"
+      ]
+    },
+    {
+      "id": "x-pjvann-launchbot",
+      "added": "2026-10-01",
+      "title": "Paul Vann：LaunchBot 先研究同类发布，再盯你这条帖的互动",
+      "url": "https://x.com/pjvann/status/2105353400892227884",
+      "blurb": "SpaceXAI 的人放出一个给创始人用的岗模板，会先看同类发布为什么成，再审你的视频、图片、网站和文案，帖子发出后继续盯实时互动，而且这只岗今天在用自己做发布。",
+      "section": "skills",
+      "tags": [
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "LaunchBot",
+        "Paul Vann"
+      ]
+    },
+    {
+      "id": "youtube-team-plaid-interrupt",
+      "added": "2026-10-01",
+      "title": "两分钟更新：团队共享 Bot、用 Plaid 查花费，以及通话中可以打断",
+      "url": "https://www.youtube.com/watch?v=9G4SoVI5AC8",
+      "blurb": "已经开着 Bot 的人可以用这两分钟确认团队共享、账务连接和语音打断改了什么，里面没有逐步操作。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "插件"
+      ]
+    },
+    {
+      "id": "youtube-first-inbox-bot",
+      "added": "2026-10-01",
+      "title": "第一次配收件 Bot：云电脑、插件市场、用量，以及和 OpenClaw 的差别",
+      "url": "https://www.youtube.com/watch?v=qI0LbAkqQ_c",
+      "blurb": "想照着界面做第一只收件 Bot 的人，可以看职位怎么写、例行任务怎么来、用量怎么压，但讲到线索管理时有一段是 HubSpot 赞助。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "电脑",
+        "插件",
+        "计费"
+      ]
+    },
+    {
+      "id": "youtube-week-four-bots",
+      "added": "2026-10-01",
+      "title": "一周分工：运营、拍摄、邮件和家务各交给一只 Bot",
+      "url": "https://www.youtube.com/watch?v=1Ip_7oZVO94",
+      "blurb": "客户和家务同时堆着的人，可以看到这些岗位怎么拆开、品牌合作邮件怎么先筛再决定，片中的四千美元只是作者自己的估算。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "跑腿"
+      ]
+    },
+    {
+      "id": "youtube-five-bots-ship",
+      "added": "2026-10-01",
+      "title": "一张产品图、五只 Bot：看它们能否自己把网站做到上线",
+      "url": "https://www.youtube.com/watch?v=lHFbRtHRMKM",
+      "blurb": "怀疑多 Bot 只会互相聊天的人，可以看研究到部署有没有真正交出一个上线页面，免费额度和好不好用要等到片尾。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "计费"
+      ]
+    },
+    {
+      "id": "youtube-shared-box-handoff",
+      "added": "2026-10-01",
+      "title": "多 Bot 共用一台云电脑：交接、导入和自动批准以谁为准",
+      "url": "https://www.youtube.com/watch?v=4O12jbOMtvM",
+      "blurb": "打算一次开好几只的人，可以先搞清登录和文件是整账号共用的、手机怎样把文章丢进去，以及两条自动批准冲突时听哪条。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "安全"
+      ]
+    },
+    {
+      "id": "youtube-outreach-to-grok",
+      "added": "2026-10-01",
+      "title": "外联流程从 Claude Code 搬到 Grok Bot 的一场现场课",
+      "url": "https://www.youtube.com/watch?v=XZPJ_83pOqA",
+      "blurb": "还在用 Claude Code 做外联的人，可以看送达和代理动作怎么被盯住、点子怎么收成草稿，但这是直播演示，不是一份已经跑完的客户名单。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营"
       ]
     }
   ]
