@@ -905,6 +905,14 @@ export function shanghaiTodayIso(now = new Date()): string {
   return y && m && d ? `${y}-${m}-${d}` : "";
 }
 
+const SHANGHAI_DAY_MS = 24 * 60 * 60 * 1000;
+
+function shanghaiDayMs(iso?: string): number | undefined {
+  if (!iso || !/^(\d{4})-(\d{2})-(\d{2})$/.test(iso)) return undefined;
+  const ms = Date.parse(`${iso}T00:00:00+08:00`);
+  return Number.isFinite(ms) ? ms : undefined;
+}
+
 function shanghaiDayDiff(added: string, today: string): number | undefined {
   const addedMs = shanghaiDayMs(added);
   const todayMs = shanghaiDayMs(today);
@@ -924,19 +932,20 @@ export function formatAddedLabel(iso?: string, todayIso?: string): string {
   return `${Number(match[2])}月${Number(match[3])}日`;
 }
 
+/** True when `added` falls on the catalog update day or the two days before it. */
+export function isNewlyAdded(added?: string, updated?: string): boolean {
+  const addedMs = shanghaiDayMs(added);
+  const updatedMs = shanghaiDayMs(updated);
+  if (addedMs === undefined || updatedMs === undefined) return false;
+  const diffDays = (updatedMs - addedMs) / SHANGHAI_DAY_MS;
+  return diffDays >= 0 && diffDays <= 2;
+}
+
 export function formatAddedShort(iso?: string): string {
   if (!iso) return "";
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
   if (!match) return iso;
   return `${Number(match[2])}月${Number(match[3])}日`;
-}
-
-const SHANGHAI_DAY_MS = 24 * 60 * 60 * 1000;
-
-function shanghaiDayMs(iso?: string): number | undefined {
-  if (!iso || !/^(\d{4})-(\d{2})-(\d{2})$/.test(iso)) return undefined;
-  const ms = Date.parse(`${iso}T00:00:00+08:00`);
-  return Number.isFinite(ms) ? ms : undefined;
 }
 
 export function addedSearchText(entry: CatalogEntry): string {
