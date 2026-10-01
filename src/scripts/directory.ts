@@ -1,20 +1,7 @@
-import { formatAddedLabel, shanghaiTodayIso, type AddedSort } from "../lib/catalog";
+import { formatAddedLabel, shanghaiTodayIso } from "../lib/catalog";
 import { isActiveQuery, matchesQuery, normalizeQuery } from "../lib/query";
 
 type HistoryMode = "replace" | "push";
-
-const SORT_KEY = "hub-sort";
-
-function parseSort(value: string | null): AddedSort | null {
-  if (value === "new" || value === "old") return value;
-  return null;
-}
-
-function addedStamp(iso: string | undefined): number | undefined {
-  if (!iso || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return undefined;
-  const ms = Date.parse(`${iso}T00:00:00+08:00`);
-  return Number.isFinite(ms) ? ms : undefined;
-}
 
 export function initDirectory(): void {
   const root = document.querySelector<HTMLElement>("[data-directory]");
@@ -37,14 +24,6 @@ export function initDirectory(): void {
   const emptyCopy = root.querySelector<HTMLElement>("[data-empty-copy]");
   const resultLive = root.querySelector<HTMLElement>("[data-result-live]");
   const toolbar = root.querySelector<HTMLElement>(".toolbar");
-  const sortButtons = [...root.querySelectorAll<HTMLButtonElement>("[data-sort-value]")];
-  const shareButton = root.querySelector<HTMLButtonElement>("[data-share]");
-  const shareStatus = root.querySelector<HTMLElement>("[data-share-status]");
-  const shareFallback = root.querySelector<HTMLElement>("[data-share-fallback]");
-  const shareText = root.querySelector<HTMLTextAreaElement>("[data-share-text]");
-
-  let addedSort: AddedSort = "new";
-  let shareResetTimer = 0;
 
   const catalogTitle = "Grok Bot 目录";
   const defaultCountLabel = `共 ${cards.length} 条`;
@@ -108,45 +87,21 @@ export function initDirectory(): void {
   };
 
   const searchDocHref = (q: string): string => {
-    return withSort(`${base}search/${encodeURIComponent(canonicalShareQuery(q))}/`);
-  };
-
-  const readStoredSort = (): AddedSort => {
-    try {
-      return parseSort(localStorage.getItem(SORT_KEY)) ?? "new";
-    } catch {
-      return "new";
-    }
-  };
-
-  const persistSort = (sort: AddedSort): void => {
-    try {
-      localStorage.setItem(SORT_KEY, sort);
-    } catch {
-      /* private mode */
-    }
-  };
-
-  const withSort = (href: string): string => {
-    const url = new URL(href, location.origin);
-    if (addedSort === "old") url.searchParams.set("sort", "old");
-    else url.searchParams.delete("sort");
-    url.hash = "";
-    return `${url.pathname}${url.search}`;
+    return `${base}search/${encodeURIComponent(canonicalShareQuery(q))}/`;
   };
 
   const homeHref = (tag = "", q = ""): string => {
     const url = new URL(base, location.origin);
     if (tag) url.searchParams.set("tag", tag);
     if (q) url.searchParams.set("q", q);
-    return withSort(url.href);
+    return `${url.pathname}${url.search}`;
   };
 
   const searchHref = (q: string): string => {
     if (q && hasSearchDoc(q)) return searchDocHref(q);
     const url = new URL(`${base}search/`, location.origin);
     if (q) url.searchParams.set("q", q);
-    return withSort(url.href);
+    return `${url.pathname}${url.search}`;
   };
 
   const activeQuery = (): string => {
@@ -156,27 +111,21 @@ export function initDirectory(): void {
 
   const tagHref = (tag: string): string => homeHref(tag, "");
 
-  const sortFromParams = (params: URLSearchParams, fallback: AddedSort): AddedSort => {
-    if (!params.has("sort")) return fallback;
-    return parseSort(params.get("sort")) ?? "new";
-  };
-
-  const readUrl = (sortFallback: AddedSort): { tag: string; q: string; searchPage: boolean; sort: AddedSort } => {
+  const readUrl = (): { tag: string; q: string; searchPage: boolean } => {
     const params = new URLSearchParams(location.search);
     const searchPage = isSearchPath(location.pathname);
     const pathQuery = queryFromSearchPath(location.pathname);
     const q = pathQuery || (params.get("q") ?? "");
     const tag = searchPage ? "" : (params.get("tag") ?? "");
-    const sort = sortFromParams(params, sortFallback);
-    return { tag, q, searchPage, sort };
+    return { tag, q, searchPage };
   };
 
   const buildPath = (): string => {
     const q = activeQuery();
     if (isSearchPath(location.pathname)) {
       const pathQ = queryFromSearchPath(location.pathname);
-      if (q && pathQ && canonicalShareQuery(q) === canonicalShareQuery(pathQ)) return withSort(location.pathname);
-      if (!q) return withSort(`${base}search/`);
+      if (q && pathQ && canonicalShareQuery(q) === canonicalShareQuery(pathQ)) return location.pathname;
+      if (!q) return `${base}search/`;
       return searchHref(q);
     }
     if (q) return searchHref(q);
@@ -189,7 +138,7 @@ export function initDirectory(): void {
     if (next === `${location.pathname}${location.search}` && !location.hash) return;
     const dest = new URL(next, location.origin);
     dest.hash = "";
-    const state = { tag: activeTag, q: (search?.value ?? "").trim(), sort: addedSort };
+    const state = { tag: activeTag, q: (search?.value ?? "").trim() };
     if (mode === "push") history.pushState(state, "", dest.href);
     else history.replaceState(state, "", dest.href);
   };
@@ -236,96 +185,6 @@ export function initDirectory(): void {
     }
   };
 
-  const syncSortButtons = (): void => {
-    for (const button of sortButtons) {
-      const on = button.dataset.sortValue === addedSort;
-      button.setAttribute("aria-pressed", on ? "true" : "false");
-    }
-  };
-
-  const compareCards = (a: HTMLElement, b: HTMLElement): number => {
-    const left = addedStamp(a.dataset.added);
-    const right = addedStamp(b.dataset.added);
-    if (left === undefined && right === undefined) return 0;
-    if (left === undefined) return 1;
-    if (right === undefined) return -1;
-    if (left === right) return 0;
-    const cmp = left < right ? -1 : 1;
-    return addedSort === "old" ? cmp : -cmp;
-  };
-
-  const sortCardNodes = (): void => {
-    const feed = root.querySelector<HTMLElement>(".feed");
-    if (!feed) return;
-    const nodes = [...feed.children].filter(
-      (node): node is HTMLElement => node instanceof HTMLElement && node.hasAttribute("data-card"),
-    );
-    const sorted = nodes.slice().sort(compareCards);
-    for (let i = 0; i < nodes.length; i += 1) {
-      if (nodes[i] !== sorted[i]) {
-        const frag = document.createDocumentFragment();
-        for (const node of sorted) frag.appendChild(node);
-        feed.appendChild(frag);
-        return;
-      }
-    }
-  };
-
-  const currentShareUrl = (): string => `${location.origin}${location.pathname}${location.search}`;
-
-  const resetShareChrome = (): void => {
-    if (shareButton) {
-      shareButton.textContent = "复制链接";
-      shareButton.setAttribute("aria-label", "复制标题和链接");
-    }
-    if (shareStatus) shareStatus.textContent = "";
-  };
-
-  const hideShareFallback = (): void => {
-    if (!shareFallback || !shareText) return;
-    shareFallback.hidden = true;
-    shareText.value = "";
-  };
-
-  const markCopied = (): void => {
-    hideShareFallback();
-    if (shareButton) {
-      shareButton.textContent = "已复制";
-      shareButton.setAttribute("aria-label", "已复制");
-    }
-    if (shareStatus) shareStatus.textContent = "已复制";
-    window.clearTimeout(shareResetTimer);
-    shareResetTimer = window.setTimeout(() => {
-      if (shareFallback && !shareFallback.hidden) return;
-      resetShareChrome();
-    }, 2400);
-  };
-
-  const showShareFallback = (payload: string): void => {
-    window.clearTimeout(shareResetTimer);
-    if (shareButton) {
-      shareButton.textContent = "请手动复制";
-      shareButton.setAttribute("aria-label", "请手动复制");
-    }
-    if (shareStatus) shareStatus.textContent = "剪贴板不可用，请手动全选下面的文本。";
-    if (!shareFallback || !shareText) return;
-    shareText.value = payload;
-    shareFallback.hidden = false;
-    shareText.focus();
-    shareText.select();
-  };
-
-  const copyShare = async (): Promise<void> => {
-    const payload = `${document.title}\n${currentShareUrl()}`;
-    try {
-      if (!navigator.clipboard?.writeText) throw new Error("no-clipboard");
-      await navigator.clipboard.writeText(payload);
-      markCopied();
-    } catch {
-      showShareFallback(payload);
-    }
-  };
-
   const cardHasTag = (card: HTMLElement, tag: string): boolean => {
     if (!tag) return true;
     return (card.dataset.tags ?? "").split("\t").includes(tag);
@@ -357,7 +216,6 @@ export function initDirectory(): void {
   };
 
   const apply = (): void => {
-    sortCardNodes();
     const rawQuery = search?.value.trim() ?? "";
     const query = isActiveQuery(normalizeQuery(rawQuery)) ? normalizeQuery(rawQuery) : "";
     let visible = 0;
@@ -418,7 +276,6 @@ export function initDirectory(): void {
     syncToolbarOffset();
     syncPlaceholder();
     setPressed();
-    syncSortButtons();
   };
 
   const setTag = (tag: string, mode: HistoryMode = "push"): void => {
@@ -429,9 +286,7 @@ export function initDirectory(): void {
   };
 
   const restoreFromLocation = (): void => {
-    const next = readUrl("new");
-    addedSort = next.sort;
-    persistSort(addedSort);
+    const next = readUrl();
     if (next.q && !next.searchPage && hasSearchDoc(next.q)) {
       location.replace(searchDocHref(next.q));
       return;
@@ -453,7 +308,7 @@ export function initDirectory(): void {
   const resetAll = (): void => {
     if (search) search.value = "";
     if (isSearchPath(location.pathname)) {
-      location.assign(withSort(base));
+      location.assign(base);
       return;
     }
     activeTag = "";
@@ -466,7 +321,7 @@ export function initDirectory(): void {
   const clearSearch = (): void => {
     if (search) search.value = "";
     if (isSearchPath(location.pathname)) {
-      location.assign(withSort(`${base}search/`));
+      location.assign(`${base}search/`);
       return;
     }
     liveImmediate = true;
@@ -514,22 +369,6 @@ export function initDirectory(): void {
     liveImmediate = true;
     apply();
     writeUrl("push");
-  });
-
-  for (const button of sortButtons) {
-    button.addEventListener("click", () => {
-      const next = parseSort(button.dataset.sortValue ?? null);
-      if (!next || next === addedSort) return;
-      addedSort = next;
-      persistSort(addedSort);
-      liveImmediate = true;
-      apply();
-      writeUrl("replace");
-    });
-  }
-
-  shareButton?.addEventListener("click", () => {
-    void copyShare();
   });
 
   root.querySelector("[data-reset]")?.addEventListener("click", resetAll);
@@ -583,9 +422,7 @@ export function initDirectory(): void {
     applyingHistory = false;
   });
 
-  const initial = readUrl(readStoredSort());
-  addedSort = initial.sort;
-  persistSort(addedSort);
+  const initial = readUrl();
   if (initial.q && !initial.searchPage && hasSearchDoc(initial.q)) {
     location.replace(searchDocHref(initial.q));
     return;

@@ -1,5 +1,5 @@
 ---
-import { catalog, displayBlurb, displayTitle, formatAddedLabel, hostnameOf, hostTone, isNewlyAdded, type CatalogEntry, type PinTone } from "../lib/catalog";
+import { displayBlurb, displayTitle, formatAddedLabel, hostnameOf, hostTone, type CatalogEntry, type PinTone } from "../lib/catalog";
 
 interface Props {
   entry: CatalogEntry;
@@ -23,7 +23,6 @@ const Heading = heading;
 const named = Boolean(pin?.name);
 const hideHost = named || Boolean(pin?.mark);
 const hideTitle = Boolean(pin?.hideTitle);
-const fresh = isNewlyAdded(entry.added, catalog.updated);
 ---
 
 <a class:list={["card", pin && "card-pin"]} href={entry.url} {...attrs} rel="noopener noreferrer" target="_blank">
@@ -51,11 +50,8 @@ const fresh = isNewlyAdded(entry.added, catalog.updated);
     !pin && ((entry.tags && entry.tags.length > 0) || entry.added) && (
       <div class="tags">
         {entry.added && (
-          <span class="card-meta">
-            <span class="card-added" data-added={entry.added}>
-              {formatAddedLabel(entry.added)}
-            </span>
-            {fresh && <span class="badge-new">新</span>}
+          <span class="card-added" data-added={entry.added}>
+            {formatAddedLabel(entry.added)}
           </span>
         )}
         {entry.tags?.map((tag) => (
@@ -66,10 +62,7 @@ const fresh = isNewlyAdded(entry.added, catalog.updated);
   }
   {
     pin && entry.added && (
-      <div class="card-meta">
-        <span class="card-added" data-added={entry.added}>{formatAddedLabel(entry.added)}</span>
-        {fresh && <span class="badge-new">新</span>}
-      </div>
+      <div class="card-added" data-added={entry.added}>{formatAddedLabel(entry.added)}</div>
     )
   }
   <span class="visually-hidden">（新窗口打开）</span>
