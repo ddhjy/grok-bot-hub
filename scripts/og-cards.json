@@ -34,6 +34,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-阿石OMP.png",
+    "badge": "非官方 · 搜索",
+    "title": "「阿石OMP」的搜索",
+    "footer": "具名编制是多余还是下一步：把 Agent 拆成三个阶段来看",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-阿石OMP-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「阿石OMP」的搜索",
+    "footer": "具名编制是多余还是下一步：把 Agent 拆成三个阶段来看",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-阿提哈德.png",
     "badge": "非官方 · 搜索",
     "title": "「阿提哈德」的搜索",
@@ -82,7 +116,7 @@
       236,
       220
     ],
-    "kicker": "202个结果"
+    "kicker": "204个结果"
   },
   {
     "file": "og-q-安全-official.png",
@@ -133,7 +167,7 @@
       244,
       236
     ],
-    "kicker": "27个结果"
+    "kicker": "28个结果"
   },
   {
     "file": "og-q-安全-skills.png",
@@ -167,7 +201,7 @@
       234,
       228
     ],
-    "kicker": "26个结果"
+    "kicker": "27个结果"
   },
   {
     "file": "og-q-安全-alternatives.png",
@@ -1187,7 +1221,7 @@
       236,
       220
     ],
-    "kicker": "76个结果"
+    "kicker": "77个结果"
   },
   {
     "file": "og-q-编制-official.png",
@@ -1272,7 +1306,7 @@
       234,
       228
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-编制-alternatives.png",
@@ -1442,7 +1476,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-菜单栏-skills.png",
@@ -1459,7 +1493,7 @@
       232,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-菜单栏-community.png",
@@ -1561,7 +1595,7 @@
       236,
       220
     ],
-    "kicker": "439个结果"
+    "kicker": "446个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -1595,7 +1629,7 @@
       240,
       224
     ],
-    "kicker": "73个结果"
+    "kicker": "74个结果"
   },
   {
     "file": "og-q-插件-cases.png",
@@ -1612,7 +1646,7 @@
       244,
       236
     ],
-    "kicker": "63个结果"
+    "kicker": "64个结果"
   },
   {
     "file": "og-q-插件-skills.png",
@@ -1629,7 +1663,7 @@
       232,
       236
     ],
-    "kicker": "220个结果"
+    "kicker": "224个结果"
   },
   {
     "file": "og-q-插件-reviews.png",
@@ -1646,7 +1680,7 @@
       234,
       228
     ],
-    "kicker": "15个结果"
+    "kicker": "16个结果"
   },
   {
     "file": "og-q-插件-alternatives.png",
@@ -2734,7 +2768,7 @@
       236,
       220
     ],
-    "kicker": "250个结果"
+    "kicker": "257个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -2751,7 +2785,7 @@
       236,
       228
     ],
-    "kicker": "14个结果"
+    "kicker": "15个结果"
   },
   {
     "file": "og-q-定价-tutorials.png",
@@ -2768,7 +2802,7 @@
       240,
       224
     ],
-    "kicker": "30个结果"
+    "kicker": "31个结果"
   },
   {
     "file": "og-q-定价-cases.png",
@@ -2785,7 +2819,7 @@
       244,
       236
     ],
-    "kicker": "39个结果"
+    "kicker": "41个结果"
   },
   {
     "file": "og-q-定价-skills.png",
@@ -2802,7 +2836,7 @@
       232,
       236
     ],
-    "kicker": "13个结果"
+    "kicker": "14个结果"
   },
   {
     "file": "og-q-定价-reviews.png",
@@ -2819,7 +2853,7 @@
       234,
       228
     ],
-    "kicker": "45个结果"
+    "kicker": "47个结果"
   },
   {
     "file": "og-q-定价-alternatives.png",
@@ -3040,7 +3074,7 @@
       236,
       220
     ],
-    "kicker": "106个结果"
+    "kicker": "110个结果"
   },
   {
     "file": "og-q-额度-official.png",
@@ -3057,7 +3091,7 @@
       236,
       228
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-额度-tutorials.png",
@@ -3074,7 +3108,7 @@
       240,
       224
     ],
-    "kicker": "12个结果"
+    "kicker": "13个结果"
   },
   {
     "file": "og-q-额度-cases.png",
@@ -3091,7 +3125,7 @@
       244,
       236
     ],
-    "kicker": "12个结果"
+    "kicker": "13个结果"
   },
   {
     "file": "og-q-额度-skills.png",
@@ -3108,7 +3142,7 @@
       232,
       236
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-额度-reviews.png",
@@ -3159,7 +3193,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-额度重置-official.png",
@@ -3176,7 +3210,7 @@
       236,
       228
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-发布稿.png",
@@ -3550,7 +3584,7 @@
       236,
       220
     ],
-    "kicker": "16个结果"
+    "kicker": "17个结果"
   },
   {
     "file": "og-q-岗位-official.png",
@@ -3618,7 +3652,7 @@
       232,
       236
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-岗位-reviews.png",
@@ -3941,7 +3975,7 @@
       236,
       220
     ],
-    "kicker": "九个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-购物-tutorials.png",
@@ -3975,7 +4009,7 @@
       244,
       236
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-购物-reviews.png",
@@ -4315,7 +4349,7 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-歸藏-cases.png",
@@ -4338,7 +4372,7 @@
     "file": "og-q-歸藏-reviews.png",
     "badge": "非官方 · 评测对比",
     "title": "「歸藏」的搜索",
-    "footer": "歸藏",
+    "footer": "歸藏 · 歸藏",
     "accent": [
       28,
       25,
@@ -4349,7 +4383,7 @@
       234,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-过夜.png",
@@ -4961,7 +4995,7 @@
       236,
       220
     ],
-    "kicker": "九个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-机票-cases.png",
@@ -4978,7 +5012,7 @@
       244,
       236
     ],
-    "kicker": "八个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-机票-reviews.png",
@@ -5012,7 +5046,7 @@
       236,
       220
     ],
-    "kicker": "八个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-即刻-cases.png",
@@ -5046,7 +5080,7 @@
       234,
       228
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-计费.png",
@@ -5063,7 +5097,7 @@
       236,
       220
     ],
-    "kicker": "250个结果"
+    "kicker": "257个结果"
   },
   {
     "file": "og-q-计费-official.png",
@@ -5080,7 +5114,7 @@
       236,
       228
     ],
-    "kicker": "14个结果"
+    "kicker": "15个结果"
   },
   {
     "file": "og-q-计费-tutorials.png",
@@ -5097,7 +5131,7 @@
       240,
       224
     ],
-    "kicker": "31个结果"
+    "kicker": "32个结果"
   },
   {
     "file": "og-q-计费-cases.png",
@@ -5114,7 +5148,7 @@
       244,
       236
     ],
-    "kicker": "39个结果"
+    "kicker": "41个结果"
   },
   {
     "file": "og-q-计费-skills.png",
@@ -5131,7 +5165,7 @@
       232,
       236
     ],
-    "kicker": "13个结果"
+    "kicker": "14个结果"
   },
   {
     "file": "og-q-计费-reviews.png",
@@ -5148,7 +5182,7 @@
       234,
       228
     ],
-    "kicker": "45个结果"
+    "kicker": "47个结果"
   },
   {
     "file": "og-q-计费-alternatives.png",
@@ -5199,7 +5233,7 @@
       236,
       220
     ],
-    "kicker": "20个结果"
+    "kicker": "21个结果"
   },
   {
     "file": "og-q-记忆-tutorials.png",
@@ -5268,6 +5302,23 @@
       228
     ],
     "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-记忆-alternatives.png",
+    "badge": "非官方 · 开源替代",
+    "title": "「记忆」的搜索",
+    "footer": "Clawds",
+    "accent": [
+      36,
+      92,
+      102
+    ],
+    "paper": [
+      232,
+      242,
+      242
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-记忆-community.png",
@@ -5437,7 +5488,7 @@
       236,
       220
     ],
-    "kicker": "16个结果"
+    "kicker": "17个结果"
   },
   {
     "file": "og-q-交接-official.png",
@@ -5506,6 +5557,23 @@
       236
     ],
     "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-交接-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「交接」的搜索",
+    "footer": "Slack 交接、内容流和共享岗：Dots、Grok Bot 和 Muse 放进业务里比",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-交接-community.png",
@@ -5658,7 +5726,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-脚本-tutorials.png",
@@ -5690,6 +5758,23 @@
     "paper": [
       236,
       244,
+      236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-脚本-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「脚本」的搜索",
+    "footer": "1Password 填不进 Vercel 预览站：每个子域都算独立站点",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
       236
     ],
     "kicker": "一个结果"
@@ -7936,7 +8021,7 @@
       236,
       220
     ],
-    "kicker": "282个结果"
+    "kicker": "287个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -8004,7 +8089,7 @@
       232,
       236
     ],
-    "kicker": "31个结果"
+    "kicker": "32个结果"
   },
   {
     "file": "og-q-排障-reviews.png",
@@ -8055,7 +8140,7 @@
       232,
       226
     ],
-    "kicker": "199个结果"
+    "kicker": "203个结果"
   },
   {
     "file": "og-q-啤酒.png",
@@ -8803,7 +8888,7 @@
       236,
       220
     ],
-    "kicker": "15个结果"
+    "kicker": "16个结果"
   },
   {
     "file": "og-q-群聊-official.png",
@@ -8860,7 +8945,7 @@
     "file": "og-q-群聊-alternatives.png",
     "badge": "非官方 · 开源替代",
     "title": "「群聊」的搜索",
-    "footer": "OpenGrokBot（Z4YT0N）：本机群聊公司，合盖就停",
+    "footer": "OpenGrokBot（Z4YT0N）：本机群聊公司，合盖就停 · Clawds",
     "accent": [
       36,
       92,
@@ -8871,7 +8956,7 @@
       242,
       242
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-群聊-community.png",
@@ -9262,7 +9347,7 @@
       236,
       220
     ],
-    "kicker": "11个结果"
+    "kicker": "12个结果"
   },
   {
     "file": "og-q-沙箱-tutorials.png",
@@ -9330,7 +9415,7 @@
       242,
       242
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-沙箱-community.png",
@@ -10044,7 +10129,7 @@
       236,
       220
     ],
-    "kicker": "九个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-十二-tutorials.png",
@@ -10078,7 +10163,7 @@
       244,
       236
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-十二-reviews.png",
@@ -11523,7 +11608,7 @@
       236,
       220
     ],
-    "kicker": "27个结果"
+    "kicker": "28个结果"
   },
   {
     "file": "og-q-团队-official.png",
@@ -11557,7 +11642,7 @@
       240,
       224
     ],
-    "kicker": "八个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-团队-cases.png",
@@ -13121,7 +13206,24 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
+  },
+  {
+    "file": "og-q-巡检-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「巡检」的搜索",
+    "footer": "Maran",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-巡检-cases.png",
@@ -13376,7 +13478,7 @@
       236,
       220
     ],
-    "kicker": "24个结果"
+    "kicker": "25个结果"
   },
   {
     "file": "og-q-一周-official.png",
@@ -13427,7 +13529,7 @@
       244,
       236
     ],
-    "kicker": "八个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-一周-reviews.png",
@@ -13733,7 +13835,7 @@
       236,
       220
     ],
-    "kicker": "19个结果"
+    "kicker": "20个结果"
   },
   {
     "file": "og-q-用量-official.png",
@@ -13750,7 +13852,7 @@
       236,
       228
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-用量-tutorials.png",
@@ -14124,7 +14226,7 @@
       236,
       220
     ],
-    "kicker": "147个结果"
+    "kicker": "150个结果"
   },
   {
     "file": "og-q-云电脑-official.png",
@@ -14158,7 +14260,7 @@
       240,
       224
     ],
-    "kicker": "25个结果"
+    "kicker": "26个结果"
   },
   {
     "file": "og-q-云电脑-cases.png",
@@ -14192,7 +14294,7 @@
       232,
       236
     ],
-    "kicker": "26个结果"
+    "kicker": "27个结果"
   },
   {
     "file": "og-q-云电脑-reviews.png",
@@ -14243,7 +14345,7 @@
       232,
       226
     ],
-    "kicker": "43个结果"
+    "kicker": "44个结果"
   },
   {
     "file": "og-q-云电脑-takes.png",
@@ -14566,7 +14668,7 @@
       236,
       220
     ],
-    "kicker": "37个结果"
+    "kicker": "38个结果"
   },
   {
     "file": "og-q-账号-official.png",
@@ -14617,7 +14719,7 @@
       244,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-账号-skills.png",
@@ -15076,7 +15178,7 @@
       236,
       220
     ],
-    "kicker": "38个结果"
+    "kicker": "40个结果"
   },
   {
     "file": "og-q-周额度-official.png",
@@ -15110,7 +15212,7 @@
       240,
       224
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-周额度-cases.png",
@@ -15127,7 +15229,7 @@
       244,
       236
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-周额度-skills.png",
@@ -15263,7 +15365,24 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-自定义 MCP-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「自定义 MCP」的搜索",
+    "footer": "把 Bot 自己加的自定义 MCP 分给同事：先发成团队 Bot",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-自定义 MCP-skills.png",
@@ -15909,7 +16028,7 @@
       236,
       220
     ],
-    "kicker": "13个结果"
+    "kicker": "15个结果"
   },
   {
     "file": "og-q-Slack-official.png",
@@ -15960,7 +16079,7 @@
       244,
       236
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-Slack-skills.png",
@@ -15976,6 +16095,23 @@
       246,
       232,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-Slack-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「Slack」的搜索",
+    "footer": "Slack 交接、内容流和共享岗：Dots、Grok Bot 和 Muse 放进业务里比",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
     ],
     "kicker": "一个结果"
   },
