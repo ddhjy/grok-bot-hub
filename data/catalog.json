@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "sections": [
     {
       "id": "official",
@@ -24207,6 +24207,443 @@
       "title": "云电脑一更新，要授权的软件会把定时任务卡住",
       "url": "https://x.com/kDolphin/status/2106015696035745922",
       "blurb": "他这边云电脑更新很勤，多数软件岗会自己重装，但要人工授权的程序会停住，定时任务也就跟着卡住。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "x-wonder-quota-moves",
+      "added": "2026-10-04",
+      "title": "运维岗额度见底：贵的脑子只做判断，巡检改成脚本先筛",
+      "url": "https://x.com/work_wonder/status/2106370749292581374",
+      "blurb": "他用一组岗同时管云电脑和家里的 Mac Mini，写代码交给便宜模型，没异常就不唤醒，云电脑短暂失联则先等半小时让本机自己拉起服务。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "工程",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "Mac Mini"
+      ]
+    },
+    {
+      "id": "youtube-stream-deck-key",
+      "added": "2026-10-04",
+      "title": "一颗键选岗、对焦和急停：用 Stream Deck 指挥 Grok Bot",
+      "url": "https://www.youtube.com/watch?v=wSrUTbY0xJE",
+      "blurb": "每天重复敲同一句的人，可以看他把选岗、输入焦点和语音收成一颗键，以及改动系统和设置时怎样把最后一次回车留在自己手里。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "电脑",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "YouTube",
+        "roompine",
+        "Stream Deck"
+      ]
+    },
+    {
+      "id": "note-seven-bots-rebuild",
+      "added": "2026-10-04",
+      "title": "七个 Grok Bot 一起开会，所以收成只跟一只说话",
+      "url": "https://note.com/regal_rabbit2673/n/na3e75bcd5305",
+      "blurb": "连休里建了调研、写作、购物等 7 个 Bot，群聊一句「整理这周要做的事」换来三份几乎一样的待办，使用量也一起被吃掉，后来只跟负责分派的那一只说话才安静下来。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Note"
+      ]
+    },
+    {
+      "id": "substack-butlion-eight",
+      "added": "2026-10-04",
+      "title": "独立开发者的八人 Grok Bot 班子：周报、收款和出图各管一摊",
+      "url": "https://justinbutlion.substack.com/p/how-to-use-grok-bot-solopreneur-guide-examples",
+      "blurb": "他把幕僚长、市场和财务拆开，周一群聊里分析岗拼周报、幕僚长发出，出图只留给设计师，Stripe 只让幕僚长和财务碰。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "Substack",
+        "Justin Butlion"
+      ]
+    },
+    {
+      "id": "github-da-nang-one-job",
+      "added": "2026-10-04",
+      "title": "岘港聚会：一只 Bot 只做一件事，对外发信只留一个口",
+      "url": "https://github.com/tibor-src/grok-bot-meetup-da-nang-2026",
+      "blurb": "2026 年 10 月 3 日岘港这场分享按分享者正在用的旅行、硬件、账本和邮件编制，要求每只 Bot 只留一件工作、例行检查没有变化就保持安静，对外发信只交给 Max，而且要他点头之后才发一次。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "GitHub",
+        "岘港"
+      ]
+    },
+    {
+      "id": "x-mike-appointment-cards",
+      "added": "2026-10-04",
+      "title": "Mike：预约留在聊天里点选，几秒后邮件和日历就到了",
+      "url": "https://x.com/mikepat711/status/2106446528218820689",
+      "blurb": "隔了几周再订预约，选项以卡片留在对话里点选，几秒后邮件和日历就到了，人不用再被拉进云电脑。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "x-logan-driveway-voice",
+      "added": "2026-10-04",
+      "title": "Logan：停在车道上用语音清完待办、邮件和 Slack",
+      "url": "https://x.com/LoganARobison/status/2106359041349841361",
+      "blurb": "他下班停在车道上用语音让岗读 Notion 未完成事项、改期、发日历邀请、归档邮件，并按已有规程回 Slack，最后还用 X Money 转了一笔。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Notion"
+      ]
+    },
+    {
+      "id": "x-kevin-calgary-connectors",
+      "added": "2026-10-04",
+      "title": "Kevin：聚会后两天，编制接上邮件、日历和 Linear",
+      "url": "https://x.com/kkaminsk/status/2106439291291443532",
+      "blurb": "卡尔加里聚会后两天，他把岗接到邮件、日历、Teams、两家网盘、Linear 和短信，并写明这些岗共用一台云电脑、同一套文件和登录态。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "安全",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Linear"
+      ]
+    },
+    {
+      "id": "youtube-tatkal-ticket",
+      "added": "2026-10-04",
+      "title": "开售高峰里用手机盯着云电脑：Grok Bot 订回两张确认的 Tatkal 火车票",
+      "url": "https://www.youtube.com/watch?v=pzGYOA2wVcg",
+      "blurb": "要在拥挤网页上抢限时票的人，可以看他在手机上跟着云电脑重试、自己重新登录并批准电子钱包付款，以及两张确认座位和电子票怎样回到聊天里。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "IRCTC"
+      ]
+    },
+    {
+      "id": "grok-bot-gateway",
+      "added": "2026-10-04",
+      "title": "外部脚本借官方 Webhook 呼叫任意 Grok Bot，回执通道自己选",
+      "url": "https://github.com/dimpurr/grok-bot-gateway",
+      "blurb": "别的程序只通过一只网关 Bot 的官方 Webhook 就能列出全部 Bot、分页读对话并发消息，需要结果时再改走 GitHub、回调、隧道或 Tailscale，小时费用到顶或停止开关打开后客户端就不再呼叫。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Webhook"
+      ]
+    },
+    {
+      "id": "grokbot-menubar-state",
+      "added": "2026-10-04",
+      "title": "macOS 菜单栏看哪只 Grok Bot 在忙，并看本周用量",
+      "url": "https://github.com/djui/grokbot",
+      "blurb": "这只原生菜单栏程序靠无障碍权限显示谁在工作、谁在等你、谁失败了，以及本周用量、套餐和重置时间，本地时间线只记下这些状态变化。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "macOS"
+      ]
+    },
+    {
+      "id": "latch-mac-self-heal",
+      "added": "2026-10-04",
+      "title": "本机心跳停了就重新打开 Mac 上的 Grok Bot",
+      "url": "https://github.com/wildcard/latch-mac-local-exec-self-heal",
+      "blurb": "这只登录项在 Mac 上看到主进程不在、心跳超过一百八十秒、启动结果不是就绪，或同一个心跳时间戳停了至少一百二十秒，就会重新打开 Grok Bot，判断依据全部来自本机就绪信号。",
+      "section": "skills",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "macOS"
+      ]
+    },
+    {
+      "id": "grokbot-export-local",
+      "added": "2026-10-04",
+      "title": "把 Grok Bot 聊天从本机数据或正在运行的客户端导出",
+      "url": "https://github.com/TysikGG/grokbot-export",
+      "blurb": "在 macOS 上它从应用数据目录里的会话块解出聊天、时间、附件和花名册，需要更全的记录时再连上正在运行的客户端，把本地只留两百条的上限后面的内容补齐，并可用自带网页打开导出的 JSON。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "macOS"
+      ]
+    },
+    {
+      "id": "sparks-grokbot-kit",
+      "added": "2026-10-04",
+      "title": "Sparks 人脉参谋：读邮箱和日历，下一步等你批准",
+      "url": "https://github.com/edklinger/sparks-grokbot-kit",
+      "blurb": "新建一只名为 Sparks 的 Bot 并贴上开场白后，它会把最新发行包解到 ~/sparks，读邮箱、日历、WhatsApp 和 LinkedIn，把介绍、重联和承诺画成轨道图，演示人物是虚构的，真正要发出的内容会停在你批准之前。",
+      "section": "skills",
+      "tags": [
+        "运营",
+        "上手"
+      ],
+      "aliases": [
+        "GitHub",
+        "Sparks"
+      ]
+    },
+    {
+      "id": "youtube-omnigraph-branch",
+      "added": "2026-10-04",
+      "title": "行业早报先落在分支上：Grok Bot 装上 Omnigraph 再提议入库",
+      "url": "https://www.youtube.com/watch?v=kOCoe02H1r8",
+      "blurb": "想让早报先被人看过再进主图谱的人，可以看 Grok Bot 用技能装上 Omnigraph，以及另一只岗每个工作日早上把新闻提议到自己的分支。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube",
+        "Omnigraph"
+      ]
+    },
+    {
+      "id": "devto-who-owns-computer",
+      "added": "2026-10-04",
+      "title": "同一账号一台云电脑：Dots、Muse 与 Grok Bot 的隔离差在哪",
+      "url": "https://dev.to/slawanextlevels/openai-dots-meta-muse-grok-bot-who-owns-your-ai-agents-computer-25ll",
+      "blurb": "同一账号里的 Bot 共用浏览器会话和文件，读邮件的和准备转账的坐在同一台云电脑上，想把权限隔开就得另开账号。",
+      "section": "reviews",
+      "tags": [
+        "安全",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Dev.to",
+        "Dots",
+        "Muse"
+      ]
+    },
+    {
+      "id": "x-ph4ble-four-jobs",
+      "added": "2026-10-04",
+      "title": "四个常驻代理怎么分工：重活给 Grok Bot，跑腿给 Muse",
+      "url": "https://x.com/ph4ble/status/2106445339960168545",
+      "blurb": "四个他都在重度用，Grok Bot 适合拆开的多岗知识工作，订位填表更适合 Muse，便宜档的用量也撑不满一整天。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "计费",
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "Muse",
+        "Dots",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "youtube-vlad-lipsync",
+      "added": "2026-10-04",
+      "title": "同一条素材、同一套剪辑栈：Grok Bot 把口型剪坏了",
+      "url": "https://www.youtube.com/watch?v=y7AtuKGmz6g",
+      "blurb": "想把粗剪交给云电脑的人，可以看同一段素材在 Whisper、ffmpeg 和 Remotion 上比下来，Grok Bot 在口型、空镜位置和把句子剪到一半这几处的结果。",
+      "section": "reviews",
+      "tags": [
+        "视频",
+        "工程"
+      ],
+      "aliases": [
+        "YouTube",
+        "Remotion"
+      ]
+    },
+    {
+      "id": "youtube-ichigo-dots",
+      "added": "2026-10-04",
+      "title": "改一笔预约：不必单为 Dots 升到每月一百美元",
+      "url": "https://www.youtube.com/watch?v=fhz4i0stpKQ",
+      "blurb": "月费卡在 Dots 一百美元这一档的人，可以对照两边的操作画面，看登录之后权限落在哪，以及他用 Grok Bot 把同一笔预约核对到了哪一步。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "Dots"
+      ]
+    },
+    {
+      "id": "discalaves",
+      "added": "2026-10-04",
+      "title": "Discalaves：本地模型，每名员工一只隔离的 Linux 桌面",
+      "url": "https://github.com/discajapon/discalaves",
+      "blurb": "这个开源桌面应用用你机器上的模型派活，每名员工待在单独的 Debian 容器里，桌面是 XFCE，自带终端和 Chromium，只能看到自己的目录，你还能打开画面看它正在做什么。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Discalaves",
+        "Ollama"
+      ]
+    },
+    {
+      "id": "forum-reprovision-16gb",
+      "added": "2026-10-04",
+      "title": "云电脑从约126GB被重配成16GB并立刻写满",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-reprovisioned-from-126gb-to-16gb-and-immediately-100-full-ticket-t-g55930/173656",
+      "blurb": "10月3日多名用户的云电脑被换成与根目录共用的16GB overlay，基础镜像几乎占满、Disk Saver扩不了，支持也说重置不保证能回到原先大约126GB。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-silent-sep28-rollback",
+      "added": "2026-10-04",
+      "title": "没人按更新或重置，云电脑隔夜回滚丢掉三天文件",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-silently-restored-to-a-sep-28-snapshot-overnight-3-days-of-box-files-sep-29-oct-1-lost-no-update-reset-pressed/173623",
+      "blurb": "一台共享云电脑在10月2日零点自行重启后，工作区、技能、转录和连接器密钥目录的时间戳一起回到9月28日晚，9月29日至10月1日写下的文件几乎全没了。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-four-lost-browser",
+      "added": "2026-10-04",
+      "title": "10个Bot里4个丢掉浏览器操作，旧电脑副本让重置失败",
+      "url": "https://forum.cursor.com/t/grok-bot-4-of-my-10-agents-lost-computer-use-browser-tool-reset-fails-in-a-loop-ticket-t-g45278-stuck-only-bot-replies/173686",
+      "blurb": "同一账号上有4个Bot从10月1日起只能截图和跑命令，另外6个仍能点浏览器；工程师说旧的电脑副本挡住了重置，在对方发话前不要再按。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-gmail-null-mime",
+      "added": "2026-10-04",
+      "title": "Gmail 连接器发出的信带上“--null”边界",
+      "url": "https://forum.cursor.com/t/grok-bot-gmail-send-emails-arrive-with-broken-null-mime-boundary/173684",
+      "blurb": "用 Gmail 连接器发信时，Gmail 已发送里看起来是纯文本，严格解析的收件方却看到边界写成“--null”的原文，只发 HTML 则会变成空白信。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "forum-activity-task-failed",
+      "added": "2026-10-04",
+      "title": "定时例行只报 Activity task failed，机器上没有失败原因",
+      "url": "https://forum.cursor.com/t/grok-bot-scheduled-routines-fail-with-activity-task-failed-no-reason-shown/173672",
+      "blurb": "10月2日三个不同 Bot 的定时例行在云电脑正常时只留下“Activity task failed”，运行记录不在机器上，稍后手动重跑同一个例行又能成功。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-plaid-codes-never-arrive",
+      "added": "2026-10-04",
+      "title": "Plaid 绑 CIBC 和沃尔玛卡时银行验证码一直不来",
+      "url": "https://forum.cursor.com/t/grok-bot-finance-plaid-bank-verification-codes-never-arrive-two-institutions/173651",
+      "blurb": "Finance 里走 Plaid 登录 CIBC 和沃尔玛奖励万事达后，页面要银行验证码，短信和邮件都不来，同一账号直接登录银行本身是正常的。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Plaid"
+      ]
+    },
+    {
+      "id": "x-yz-chow-route-off",
+      "added": "2026-10-04",
+      "title": "网页打不开时，先关掉「经此电脑转发流量」",
+      "url": "https://x.com/yz_chow/status/2106303416146514081",
+      "blurb": "他在电脑设置里用红框标出「经此电脑转发流量」，这个开关一开，云电脑里的网页就会打不开。",
       "section": "community",
       "tags": [
         "电脑",
