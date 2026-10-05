@@ -116,7 +116,7 @@
       236,
       220
     ],
-    "kicker": "210个结果"
+    "kicker": "213个结果"
   },
   {
     "file": "og-q-安全-official.png",
@@ -150,7 +150,7 @@
       240,
       224
     ],
-    "kicker": "45个结果"
+    "kicker": "46个结果"
   },
   {
     "file": "og-q-安全-cases.png",
@@ -184,7 +184,7 @@
       232,
       236
     ],
-    "kicker": "45个结果"
+    "kicker": "46个结果"
   },
   {
     "file": "og-q-安全-reviews.png",
@@ -235,7 +235,7 @@
       232,
       226
     ],
-    "kicker": "47个结果"
+    "kicker": "48个结果"
   },
   {
     "file": "og-q-安全边界.png",
@@ -1000,7 +1000,7 @@
       236,
       220
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-比价-tutorials.png",
@@ -1023,7 +1023,7 @@
     "file": "og-q-比价-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「比价」的搜索",
-    "footer": "Bindu",
+    "footer": "Bindu · Bot 自己比价并约好了一台 Mac mini，人只去取机",
     "accent": [
       46,
       92,
@@ -1034,7 +1034,7 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-比价-skills.png",
@@ -1428,6 +1428,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-不确定体验局.png",
+    "badge": "非官方 · 搜索",
+    "title": "「不确定体验局」的搜索",
+    "footer": "不确定体验局 · 把第一只 Grok Bot 当员工招：五栏岗位说明、无聊的第一件事、试用期跑三次",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-不确定体验局-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「不确定体验局」的搜索",
+    "footer": "不确定体验局 · 把第一只 Grok Bot 当员工招：五栏岗位说明、无聊的第一件事、试用期跑三次",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "两个结果"
+  },
+  {
     "file": "og-q-部分状态.png",
     "badge": "非官方 · 搜索",
     "title": "「部分状态」的搜索",
@@ -1595,7 +1629,7 @@
       236,
       220
     ],
-    "kicker": "457个结果"
+    "kicker": "464个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -1629,7 +1663,7 @@
       240,
       224
     ],
-    "kicker": "75个结果"
+    "kicker": "76个结果"
   },
   {
     "file": "og-q-插件-cases.png",
@@ -1663,7 +1697,7 @@
       232,
       236
     ],
-    "kicker": "231个结果"
+    "kicker": "234个结果"
   },
   {
     "file": "og-q-插件-reviews.png",
@@ -1680,7 +1714,7 @@
       234,
       228
     ],
-    "kicker": "16个结果"
+    "kicker": "18个结果"
   },
   {
     "file": "og-q-插件-alternatives.png",
@@ -1714,7 +1748,7 @@
       232,
       226
     ],
-    "kicker": "49个结果"
+    "kicker": "50个结果"
   },
   {
     "file": "og-q-插件市场.png",
@@ -2377,7 +2411,7 @@
       236,
       220
     ],
-    "kicker": "71个结果"
+    "kicker": "72个结果"
   },
   {
     "file": "og-q-登录-official.png",
@@ -2496,7 +2530,7 @@
       232,
       226
     ],
-    "kicker": "26个结果"
+    "kicker": "27个结果"
   },
   {
     "file": "og-q-登录帮助.png",
@@ -2785,7 +2819,7 @@
       236,
       220
     ],
-    "kicker": "263个结果"
+    "kicker": "267个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -2836,7 +2870,7 @@
       244,
       236
     ],
-    "kicker": "42个结果"
+    "kicker": "43个结果"
   },
   {
     "file": "og-q-定价-skills.png",
@@ -2853,7 +2887,7 @@
       232,
       236
     ],
-    "kicker": "16个结果"
+    "kicker": "18个结果"
   },
   {
     "file": "og-q-定价-reviews.png",
@@ -2870,7 +2904,7 @@
       234,
       228
     ],
-    "kicker": "49个结果"
+    "kicker": "50个结果"
   },
   {
     "file": "og-q-定价-alternatives.png",
@@ -3346,13 +3380,13 @@
       236,
       220
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-繁中-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「繁中」的搜索",
-    "footer": "Kadela Tsai：Grok Bot Galaxy 第一天全程（繁中字幕）",
+    "footer": "Kadela Tsai：Grok Bot Galaxy 第一天全程（繁中字幕） · 例行建好不算完",
     "accent": [
       90,
       64,
@@ -3363,7 +3397,7 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-繁中-cases.png",
@@ -3533,7 +3567,24 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-附件-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「附件」的搜索",
+    "footer": "群聊里让 Bot 把电脑上的 PDF 和图片当附件卡片发出去",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-附件-community.png",
@@ -3601,7 +3652,7 @@
       236,
       220
     ],
-    "kicker": "17个结果"
+    "kicker": "18个结果"
   },
   {
     "file": "og-q-岗位-official.png",
@@ -3635,7 +3686,7 @@
       240,
       224
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-岗位-cases.png",
@@ -4927,7 +4978,7 @@
       236,
       220
     ],
-    "kicker": "16个结果"
+    "kicker": "17个结果"
   },
   {
     "file": "og-q-会话-official.png",
@@ -4995,7 +5046,7 @@
       232,
       226
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-机票.png",
@@ -5114,7 +5165,7 @@
       236,
       220
     ],
-    "kicker": "263个结果"
+    "kicker": "267个结果"
   },
   {
     "file": "og-q-计费-official.png",
@@ -5165,7 +5216,7 @@
       244,
       236
     ],
-    "kicker": "42个结果"
+    "kicker": "43个结果"
   },
   {
     "file": "og-q-计费-skills.png",
@@ -5182,7 +5233,7 @@
       232,
       236
     ],
-    "kicker": "16个结果"
+    "kicker": "18个结果"
   },
   {
     "file": "og-q-计费-reviews.png",
@@ -5199,7 +5250,7 @@
       234,
       228
     ],
-    "kicker": "49个结果"
+    "kicker": "50个结果"
   },
   {
     "file": "og-q-计费-alternatives.png",
@@ -5743,7 +5794,7 @@
       236,
       220
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-脚本-tutorials.png",
@@ -5794,7 +5845,7 @@
       232,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-教务.png",
@@ -6562,6 +6613,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-快捷指令.png",
+    "badge": "非官方 · 搜索",
+    "title": "「快捷指令」的搜索",
+    "footer": "快捷指令把微信聊天、截图和录音收进知识库 Bot",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-快捷指令-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「快捷指令」的搜索",
+    "footer": "快捷指令把微信聊天、截图和录音收进知识库 Bot",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-鲲鹏Talk.png",
     "badge": "非官方 · 搜索",
     "title": "「鲲鹏Talk」的搜索",
@@ -7069,7 +7154,7 @@
       236,
       220
     ],
-    "kicker": "36个结果"
+    "kicker": "37个结果"
   },
   {
     "file": "og-q-浏览器-official.png",
@@ -7188,7 +7273,7 @@
       232,
       226
     ],
-    "kicker": "12个结果"
+    "kicker": "13个结果"
   },
   {
     "file": "og-q-浏览器测试.png",
@@ -7494,7 +7579,7 @@
       236,
       220
     ],
-    "kicker": "42个结果"
+    "kicker": "43个结果"
   },
   {
     "file": "og-q-模板-official.png",
@@ -7562,7 +7647,7 @@
       232,
       236
     ],
-    "kicker": "20个结果"
+    "kicker": "21个结果"
   },
   {
     "file": "og-q-模板-reviews.png",
@@ -7613,7 +7698,7 @@
       236,
       220
     ],
-    "kicker": "30个结果"
+    "kicker": "32个结果"
   },
   {
     "file": "og-q-模型-cases.png",
@@ -7647,7 +7732,7 @@
       232,
       236
     ],
-    "kicker": "六个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-模型-reviews.png",
@@ -7851,7 +7936,7 @@
       236,
       220
     ],
-    "kicker": "58个结果"
+    "kicker": "59个结果"
   },
   {
     "file": "og-q-幕僚长-official.png",
@@ -7885,7 +7970,7 @@
       240,
       224
     ],
-    "kicker": "18个结果"
+    "kicker": "19个结果"
   },
   {
     "file": "og-q-幕僚长-cases.png",
@@ -8038,7 +8123,7 @@
       236,
       220
     ],
-    "kicker": "299个结果"
+    "kicker": "307个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -8055,7 +8140,7 @@
       236,
       228
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-排障-tutorials.png",
@@ -8072,7 +8157,7 @@
       240,
       224
     ],
-    "kicker": "18个结果"
+    "kicker": "20个结果"
   },
   {
     "file": "og-q-排障-cases.png",
@@ -8157,7 +8242,7 @@
       232,
       226
     ],
-    "kicker": "213个结果"
+    "kicker": "218个结果"
   },
   {
     "file": "og-q-啤酒.png",
@@ -8905,7 +8990,7 @@
       236,
       220
     ],
-    "kicker": "16个结果"
+    "kicker": "17个结果"
   },
   {
     "file": "og-q-群聊-official.png",
@@ -8939,7 +9024,7 @@
       240,
       224
     ],
-    "kicker": "七个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-群聊-cases.png",
@@ -9177,7 +9262,7 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-容器-skills.png",
@@ -9193,6 +9278,23 @@
       246,
       232,
       236
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-容器-alternatives.png",
+    "badge": "非官方 · 开源替代",
+    "title": "「容器」的搜索",
+    "footer": "Grokked Bot：开源队友的电脑是你自己的 Linux 容器",
+    "accent": [
+      36,
+      92,
+      102
+    ],
+    "paper": [
+      232,
+      242,
+      242
     ],
     "kicker": "一个结果"
   },
@@ -10707,7 +10809,7 @@
       236,
       220
     ],
-    "kicker": "15个结果"
+    "kicker": "16个结果"
   },
   {
     "file": "og-q-试用-official.png",
@@ -10730,7 +10832,7 @@
     "file": "og-q-试用-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「试用」的搜索",
-    "footer": "데키랩",
+    "footer": "데키랩 · 把第一只 Grok Bot 当员工招：五栏岗位说明、无聊的第一件事、试用期跑三次",
     "accent": [
       90,
       64,
@@ -10741,7 +10843,7 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-试用-cases.png",
@@ -11492,6 +11594,40 @@
     "kicker": "一个结果"
   },
   {
+    "file": "og-q-铁柱.png",
+    "badge": "非官方 · 搜索",
+    "title": "「铁柱」的搜索",
+    "footer": "快捷指令把微信聊天、截图和录音收进知识库 Bot",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-铁柱-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「铁柱」的搜索",
+    "footer": "快捷指令把微信聊天、截图和录音收进知识库 Bot",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-通用技能.png",
     "badge": "非官方 · 搜索",
     "title": "「通用技能」的搜索",
@@ -11625,7 +11761,7 @@
       236,
       220
     ],
-    "kicker": "28个结果"
+    "kicker": "29个结果"
   },
   {
     "file": "og-q-团队-official.png",
@@ -11659,7 +11795,7 @@
       240,
       224
     ],
-    "kicker": "九个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-团队-cases.png",
@@ -11914,7 +12050,7 @@
       236,
       220
     ],
-    "kicker": "八个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-网关-cases.png",
@@ -11948,7 +12084,7 @@
       232,
       236
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-网关-alternatives.png",
@@ -11999,7 +12135,24 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "八个结果"
+  },
+  {
+    "file": "og-q-微信-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「微信」的搜索",
+    "footer": "快捷指令把微信聊天、截图和录音收进知识库 Bot",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-微信-cases.png",
@@ -12033,7 +12186,7 @@
       232,
       236
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-文档总览.png",
@@ -12084,7 +12237,7 @@
       236,
       220
     ],
-    "kicker": "22个结果"
+    "kicker": "23个结果"
   },
   {
     "file": "og-q-文件-official.png",
@@ -12118,7 +12271,7 @@
       240,
       224
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-文件-cases.png",
@@ -13886,7 +14039,7 @@
       236,
       220
     ],
-    "kicker": "22个结果"
+    "kicker": "23个结果"
   },
   {
     "file": "og-q-用量-official.png",
@@ -13954,7 +14107,7 @@
       232,
       236
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-用量-community.png",
@@ -14277,7 +14430,7 @@
       236,
       220
     ],
-    "kicker": "155个结果"
+    "kicker": "161个结果"
   },
   {
     "file": "og-q-云电脑-official.png",
@@ -14311,7 +14464,7 @@
       240,
       224
     ],
-    "kicker": "26个结果"
+    "kicker": "28个结果"
   },
   {
     "file": "og-q-云电脑-cases.png",
@@ -14345,7 +14498,7 @@
       232,
       236
     ],
-    "kicker": "27个结果"
+    "kicker": "28个结果"
   },
   {
     "file": "og-q-云电脑-reviews.png",
@@ -14362,7 +14515,7 @@
       234,
       228
     ],
-    "kicker": "23个结果"
+    "kicker": "24个结果"
   },
   {
     "file": "og-q-云电脑-alternatives.png",
@@ -14396,7 +14549,7 @@
       232,
       226
     ],
-    "kicker": "47个结果"
+    "kicker": "49个结果"
   },
   {
     "file": "og-q-云电脑-takes.png",
@@ -14872,7 +15025,24 @@
       236,
       220
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-知识库-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「知识库」的搜索",
+    "footer": "快捷指令把微信聊天、截图和录音收进知识库 Bot",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-知识库-cases.png",
@@ -16079,7 +16249,7 @@
       236,
       220
     ],
-    "kicker": "17个结果"
+    "kicker": "18个结果"
   },
   {
     "file": "og-q-Slack-official.png",
@@ -16153,7 +16323,7 @@
     "file": "og-q-Slack-reviews.png",
     "badge": "非官方 · 评测对比",
     "title": "「Slack」的搜索",
-    "footer": "Slack 交接、内容流和共享岗：Dots、Grok Bot 和 Muse 放进业务里比",
+    "footer": "Slack 交接、内容流和共享岗：Dots、Grok Bot 和 Muse 放进业务里比 · dots 和 Grok Bot 谁适合新手：云电脑、在 Bot 里叫 Codex、freee 做账和 Slack 互传",
     "accent": [
       28,
       25,
@@ -16164,7 +16334,7 @@
       234,
       228
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-Slack-community.png",
