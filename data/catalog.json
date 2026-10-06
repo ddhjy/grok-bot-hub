@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "sections": [
     {
       "id": "official",
@@ -25359,6 +25359,326 @@
       "aliases": [
         "Cursor Forum",
         "1Password"
+      ]
+    },
+    {
+      "id": "grok-bot-fedora",
+      "added": "2026-10-07",
+      "title": "用官方 deb 在 Fedora 上打出 Grok Bot 的 RPM",
+      "url": "https://github.com/FALCONFOX64/grok-bot-fedora",
+      "blurb": "把下载好的 amd64 deb 交给脚本，生成的 RPM 会装到 /opt 并加上菜单项和 grok-bot 命令，没有 dnf 源，下次升级要换新的 deb 再打一次包。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "GitHub",
+        "Fedora"
+      ]
+    },
+    {
+      "id": "youtube-ten-templates",
+      "added": "2026-10-07",
+      "title": "官方市场先装这十只：Eggbot、外联、通话跟进、竞品和信用卡额度",
+      "url": "https://www.youtube.com/watch?v=CPSdYMwO77w",
+      "blurb": "不想从空白岗位写起的人，可以按这期从官方市场导入 Eggbot、行政助手、外联、通话跟进、竞品监视等十只模板，换上自己的记忆和 CRM，再让 Eggbot 把任意模板改成自己的岗。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "销售"
+      ],
+      "aliases": [
+        "YouTube"
+      ]
+    },
+    {
+      "id": "harish-ops-colony",
+      "added": "2026-10-07",
+      "title": "二十个 Bot 的三维值班沙盘",
+      "url": "https://github.com/hello-harishkumartn/harish-ops-colony",
+      "blurb": "沙盘按每三十秒一次的快照点亮正在干活的机器人，侧栏是晨间简报、交易值班和会前半小时提醒，花名册分成加密货币、求职安置、投资和股票研究四张桌子。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "note-korg-receipts",
+      "added": "2026-10-07",
+      "title": "收据照片一丢给 Grok Bot，支出表就整理完了",
+      "url": "https://note.com/korg_lab/n/nafad7126bb59",
+      "blurb": "北海道旅行只把收据照片和口头补上的现金、PASMO 交给 Grok Bot，同一笔信用卡不会记两次，每个行程文件夹里只留一张按日期排好的支出表。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "substack-wangshuyi-whiteboard",
+      "added": "2026-10-07",
+      "title": "用量烧光以后，白板手绘改由同一台云电脑上的 Codex 来画",
+      "url": "https://wangshuyi.substack.com/p/fd6",
+      "blurb": "云电脑里已经登着 YouTube，官方字幕没用上就改成下载再转写，自带额度见底后把马克笔动画交给同一台机器上的 Codex，中文克隆声走 MiniMax，水印从「老登」改成「玉树芝兰」。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "x-nat-school-roster",
+      "added": "2026-10-07",
+      "title": "学校运营的 Bot 编制：两小时起草邮件，夜里盯报错",
+      "url": "https://x.com/nateliason/status/2107515748193026301",
+      "blurb": "Nat Eliason 写下还在跑的学校编制：幕僚长清早上的未闭环、大约每两小时把邮件做成待批草稿，会后写进 Notion、Linear 和 Todoist，离线例行盯 Sentry 并动手修，进度数字不许编。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "工程"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "youtube-matt-daily-print",
+      "added": "2026-10-07",
+      "title": "晨间简报打到自家打印机：日历、X 书签和锻炼 Bot 经 Mac 出纸",
+      "url": "https://www.youtube.com/watch?v=zRNY93MtwFs",
+      "blurb": "SpaceXAI 的 Matt Palmer 把日历、X 书签和锻炼 Bot 收成一页晨报，云电脑借他正在用的 Mac 在早上 6:45 打到打印机，他还没单独配一台常开的小主机。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "YouTube"
+      ]
+    },
+    {
+      "id": "grokbot-g2",
+      "added": "2026-10-07",
+      "title": "用 Even G2 眼镜跟自己的 Grok Bot 说话",
+      "url": "https://github.com/SergioAppen/grokbot-g2",
+      "blurb": "中继跑在你自己的电脑上，经官方 BDK 接到已有的 Bot，眼镜上可以翻会话、按住说话，也能先看见正忙的那个在做什么，再排一句近况询问。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Even G2"
+      ]
+    },
+    {
+      "id": "cli-anything-grokbot",
+      "added": "2026-10-07",
+      "title": "用本机命令行操作已登录的 Grok Bot 桌面",
+      "url": "https://github.com/ilovebamboo/cli-anything-grokbot",
+      "blurb": "调试端口只听 127.0.0.1:9337，默认先演练不执行，可以列开会话、发出文字并等待回复，聊天命令会动到你正在看的那个窗口，基线对着桌面端 0.66.0。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "grokbot-telemetry",
+      "added": "2026-10-07",
+      "title": "共享云电脑上每五分钟扫一遍的观测循环",
+      "url": "https://github.com/owenservera/grokbot-telemetry",
+      "blurb": "采集脚本在云电脑里循环记录命令、进程和会话痕迹并尝试同步回仓库，密钥会打成占位符，对话结束后循环还在，整机重启后要再启动一次。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "grok-bot-tray-linux",
+      "added": "2026-10-07",
+      "title": "Linux 关掉窗口后，Grok Bot 还留在托盘里",
+      "url": "https://github.com/yelenkovsky/grok-bot-tray",
+      "blurb": "这只和已收的 Windows、Omarchy 托盘不同：用户级 systemd 在图形会话里拉起桌面端，关掉窗口进程还在，状态图标负责显示或退出，Hyprland 还能把窗口丢进看不见的暂存区。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "GitHub",
+        "Linux"
+      ]
+    },
+    {
+      "id": "x-scout-circles",
+      "added": "2026-10-07",
+      "title": "只读的 X 圈子侦察模板，两次试跑各花三分钱出头",
+      "url": "https://x.com/GrokBotRadar/status/2107394940737294796",
+      "blurb": "这个只读的 X Scout 模板会画出互动最多的圈子并附上来源，作者在两个账号上各花了 0.0336 和 0.0328 美元跑通，而且它不会发帖、点赞、关注或发私信。",
+      "section": "skills",
+      "tags": [
+        "运营",
+        "上手"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "youtube-jobtread-muse",
+      "added": "2026-10-07",
+      "title": "工地流程对打：Grok Bot 花了 37 美元没什么成果，免费的 Muse 跑完 JobTread",
+      "url": "https://www.youtube.com/watch?v=t0J5g4RXMWE",
+      "blurb": "做工程承包、想知道付费代理值不值的人，可以看他在 JobTread 上把报价跟进和本地材料比价分别交给 Grok Bot 和免费的 Muse，付了 37 美元的那只几乎没交出成品，免费的那只把当月计划和跟进邮件做完。",
+      "section": "reviews",
+      "tags": [
+        "运营",
+        "计费",
+        "跑腿"
+      ],
+      "aliases": [
+        "YouTube"
+      ]
+    },
+    {
+      "id": "arjav-nest",
+      "added": "2026-10-07",
+      "title": "Nest：本地常驻的内容小组，当作 Grok Bot 的开源对照",
+      "url": "https://github.com/arjav1181/nest",
+      "blurb": "浏览器里的控制台连着 FastAPI 大脑，有风险的动作先进入审批收件箱；本机装了 Hermes 并配上模型密钥才会按这个循环干活，否则界面走内置的演示回路。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "forum-dns-resolver-timeout",
+      "added": "2026-10-07",
+      "title": "云电脑内置 DNS 超时，更新一直显示文件还没准备好",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-dns-dead-198-18-0-53-times-out-update-unavailable-files-arent-ready/173903",
+      "blurb": "内置解析器 198.18.0.53 对所有域名超时，但直连公网 IP 和 8.8.8.8 仍有响应，网页、pip 与 GitHub CLI 会一起挂掉，楼主先让首席助理改了 DNS 才把仓库推上去。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-chat-stuck-sidebar",
+      "added": "2026-10-07",
+      "title": "电脑重启后主聊天像卡死，回复其实已经在侧边栏",
+      "url": "https://forum.cursor.com/t/my-grok-bot-seems-to-be-stuck/173860",
+      "blurb": "员工核对后发现每条消息大约一分钟内就已回复，只是云电脑反复重启后主对话区没有刷新，换一个 Bot 再点回来或重开应用就能看到，不必去更新或重置电脑。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-screenshot-load-guard",
+      "added": "2026-10-07",
+      "title": "共享云电脑被闲置浏览器打满后，截图会误报正在填写密码",
+      "url": "https://forum.cursor.com/t/desktop-take-over-stuck-on-connecting-screenshot-blocked-by-credential-fill-guard-during-high-cpu-load-on-a-shared-box/173731",
+      "blurb": "多个 Bot 各自留着隔夜 Chrome 标签时，8 核负载能到 70 以上，截图那句无法确认没有在填已存密码是安全检查超时而不是真的填了密码，员工建议先把闲置标签开成空白页，负载高时不要按更新。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-ios-blank-reopen",
+      "added": "2026-10-07",
+      "title": "iPhone 点进 Bot 经常是一片空白对话，强退重开才看得到记录",
+      "url": "https://forum.cursor.com/t/grok-bot-ios-opening-a-bot-often-shows-a-completely-blank-conversation-only-force-quitting-and-reopening-the-app-fixes-it/173776",
+      "blurb": "员工确认对话其实已经下发到 App，只是没画出来，后退或干等不会恢复，iOS 1.13.1 上目前只能强制退出再打开，这和 Windows 上滚动就能修好的花屏不是同一件事。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-rtl-exit-fullscreen",
+      "added": "2026-10-07",
+      "title": "Windows 希伯来语全屏云桌面找不到返回聊天的按钮",
+      "url": "https://forum.cursor.com/t/windows-full-agent-computer-view-has-no-way-back-to-chat/173791",
+      "blurb": "界面用从右到左的语言时，退出全屏的按钮会移到左上角并被系统窗口按钮挡住，把语言改成英文后按钮回到右上角，发帖人按这个步骤已经能回到聊天。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-route-hostname-eof",
+      "added": "2026-10-07",
+      "title": "打开「流量走这台电脑」后，按域名连接会假成功然后 TLS 断开",
+      "url": "https://forum.cursor.com/t/on-grok-bot-s-cloud-computer-https-through-the-shared-sand-connect-proxy-127-0-0-1-8791-fastly-prod-xai-1-fails-when-connect-uses-my-public-hostname-but-succeeds-when-connect-uses-that-host-s-literal-public-ip/173542",
+      "blurb": "回环上的 127.0.0.1:8791 不是云电脑共用出口，而是桌面中继，按域名 CONNECT 会立刻返回 200 接着 TLS 意外结束，通常是你自己电脑的 DNS 或 VPN 没解析到公网地址，关掉该开关后编造的域名应变成 502。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-image-aspect-dropped",
+      "added": "2026-10-07",
+      "title": "Grok Bot 生图会丢掉宽高比，成片永远是 1280×720",
+      "url": "https://forum.cursor.com/t/generateimage-accepts-aspect-ratio-but-sand-drops-it-always-returns-1280x720-jpeg/173363",
+      "blurb": "员工确认请求里的 9:16、3:4 或 1:1 在送出前就被丢掉，成片永远是横版 1280×720 的 JPEG，文件名却可能以 .png 结尾，目前只能先裁切横图。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
       ]
     }
   ]
