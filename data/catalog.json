@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "sections": [
     {
       "id": "official",
@@ -26041,6 +26041,522 @@
       "aliases": [
         "X",
         "mail.grokbot.com"
+      ]
+    },
+    {
+      "id": "x-bot-shopify",
+      "added": "2026-10-09",
+      "title": "官方：接上 Shopify 后可以查订单、跟库存并改商品",
+      "url": "https://x.com/bot/status/2108228871938359347",
+      "blurb": "官方账号宣布接上 Shopify 之后，可以让 Bot 查订单、跟库存，并把商品信息改到最新。",
+      "section": "official",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "youtube-whats-new-1",
+      "added": "2026-10-09",
+      "title": "官方工作坊：主动草稿不扣用量，团队 Bot 进 Slack 并用语音叫起整队",
+      "url": "https://www.youtube.com/watch?v=i-7F2EpQOhc",
+      "blurb": "想确认主动干活会不会扣用量的人，可以看 SpaceXAI 的产品和工程师演示主 Bot 不建例行任务就送来草稿、提醒和会前准备，现场把团队 Bot 接到 Slack，再用语音把整队叫起来。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "插件",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Slack",
+        "主 Bot"
+      ]
+    },
+    {
+      "id": "x-dan-bot-email",
+      "added": "2026-10-09",
+      "title": "Dan：让 Bot 领自己的邮箱，来信就能触发任务",
+      "url": "https://x.com/KettlebellDan/status/2108265747361214724",
+      "blurb": "X 员工 Dan 说现在可以直接让 Bot 自己领一个邮箱，把收据、待办或饮食记录寄到这个地址就会触发对应任务，不用再挂每小时去扫收件箱的例程。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "KettlebellDan",
+        "mail.grokbot.com"
+      ]
+    },
+    {
+      "id": "x-tspy-pi-openrouter",
+      "added": "2026-10-09",
+      "title": "在云电脑上装 Pi Agent，把任务转给 OpenRouter 免费模型",
+      "url": "https://x.com/tspy/status/2108243004465263080",
+      "blurb": "yishan 让 Grok Bot 在云电脑里装好 Pi Agent 并配上 OpenRouter，由 Bot 把任务交给当天的免费模型，再把结果交回来。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "X",
+        "Pi Agent",
+        "OpenRouter"
+      ]
+    },
+    {
+      "id": "youtube-77-x-team",
+      "added": "2026-10-09",
+      "title": "从 Eggbot 拉起社媒小队：总管派活，云端电脑排程发 X",
+      "url": "https://www.youtube.com/watch?v=Z3ghSHtu8dk",
+      "blurb": "想合上电脑还有人管账号的人，可以看他用 Eggbot 生出笔记员，再让总管把捞热点、选题、写帖和数据看板派给不同 Bot，由云端电脑排程发出去。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "运营",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Eggbot",
+        "七七行销笔记"
+      ]
+    },
+    {
+      "id": "youtube-renshen-notion",
+      "added": "2026-10-09",
+      "title": "Notion 留言叫醒 Bot：Worker 中转 webhook，写代码的额度另算",
+      "url": "https://www.youtube.com/watch?v=c0tjDNQQb7I",
+      "blurb": "想让 Notion 留言自动叫醒某只 Bot 的人，可以跟着他把例行任务、Cloudflare Worker 中转和权限验证走完，并看清额度留在 Grok Bot，还是把写代码交给 Cursor 云端或外部编程代理。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "工程",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "人蔘",
+        "Notion",
+        "Cloudflare Worker"
+      ]
+    },
+    {
+      "id": "youtube-berman-twelve",
+      "added": "2026-10-09",
+      "title": "十二件家务：省钱、特斯拉、清电脑，以及叫 Uber 和 DoorDash",
+      "url": "https://www.youtube.com/watch?v=BsNHg6cNjZE",
+      "blurb": "还在挑第一件可交给 Bot 的日常的人，可以按章节看他做省钱、特斯拉助手、清电脑、家庭 Bot，以及叫 Uber 和 DoorDash。",
+      "section": "tutorials",
+      "tags": [
+        "跑腿",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matthew Berman"
+      ]
+    },
+    {
+      "id": "youtube-chromebook-desktop",
+      "added": "2026-10-09",
+      "title": "Chromebook 装桌面版：安卓客户端没有文件系统和终端",
+      "url": "https://www.youtube.com/watch?v=-MxPNUjl7LI",
+      "blurb": "只有 Chromebook 的人可以看安卓版缺少文件系统和终端时，怎样改用 ChromeOS 的 Linux 环境装上能传文件、带终端的桌面版。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "上手",
+        "排障",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Chromebook",
+        "ChromeOS"
+      ]
+    },
+    {
+      "id": "prime-directive",
+      "added": "2026-10-09",
+      "title": "两个 Grok Bot 分工写代码，合并必须你亲自点头",
+      "url": "https://github.com/smfworks/prime-directive",
+      "blurb": "导入 Builder Prime 和 Gatekeeper Prime 两套模板就能跑这条审查回路，两边若共用同一个 GitHub 账号就无法正式批准，你点头之后的合并会锁在当时那个提交上。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Builder Prime",
+        "Gatekeeper Prime"
+      ]
+    },
+    {
+      "id": "devto-claude-controls-bot",
+      "added": "2026-10-09",
+      "title": "没有公开接口：用 webhook 例程让 Claude Code 把活交给 Grok Bot",
+      "url": "https://dev.to/danmercede/how-i-have-claude-code-control-grok-bot-there-is-no-api-14oh",
+      "blurb": "公开文档里没有能直接叫醒 Bot 的接口，作者只能靠 webhook 例程让 Claude Code 派活，回复写进本机 outbox 才算回来，而打开始终允许等于把整队 Bot 的本机执行权交给持有密钥的人。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "DEV",
+        "Claude Code",
+        "webhook"
+      ]
+    },
+    {
+      "id": "note-seisei-cli-relay",
+      "added": "2026-10-09",
+      "title": "在共享云电脑里装上 Codex 和 Claude，群聊里点名就能换一家模型",
+      "url": "https://note.com/seisei_ai_1st/n/n769c13ee26c4",
+      "blurb": "传话 Bot 只把群里的请求转给同一台电脑上的 Codex CLI 或 Claude CLI，作者用这个组合把近三天的 49 条帖子收成表，两边交叉审完、人点头之后才做短视频。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Codex",
+        "Claude"
+      ]
+    },
+    {
+      "id": "jike-guizang-morning-video",
+      "added": "2026-10-09",
+      "title": "歸藏：云电脑每天早上交一份约 90 秒的 AI 早报视频",
+      "url": "https://m.okjike.com/originalPosts/6ac77659cfb5d08b3eee87fe",
+      "blurb": "整段提示词就在帖里，复制后它会在云电脑上收资讯、写简报、渲染讲解视频，试跑通过再挂到每天早上 9 点。",
+      "section": "tutorials",
+      "tags": [
+        "视频",
+        "上手",
+        "电脑"
+      ],
+      "aliases": [
+        "即刻",
+        "歸藏"
+      ]
+    },
+    {
+      "id": "x-rassailor-order",
+      "added": "2026-10-09",
+      "title": "一句改期，Bot 对过发票、采购单和水单再起草客户邮件",
+      "url": "https://x.com/rassailor/status/2108221352641741264",
+      "blurb": "做中国采购的 Elvis 只说把订单改到十月、佣金按发货日记，Bot 对过形式发票、采购单和银行水单，指出定金日期差了一天，还建了佣金台账并把客户邮件放进 Gmail 草稿。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "x-joexiii-workspaces",
+      "added": "2026-10-09",
+      "title": "每个客户一个 Cursor 工作区，工具拆不开就派云端代理",
+      "url": "https://x.com/j03xiii/status/2108008087965806894",
+      "blurb": "joexiii 用 Bot 写工单、管待办并记工时，每个客户单独一个带 MCP 的 Cursor 工作区，Bot 不能按工具隔离时，就让对应的客户 Bot 到那个工作区里起一个代理去跑。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "Cursor",
+        "MCP"
+      ]
+    },
+    {
+      "id": "youtube-tarek-seven",
+      "added": "2026-10-09",
+      "title": "七只 Bot 实做：代投 Bayt 职位、按 SEC 规范答题，单次会话吃掉一截周用量",
+      "url": "https://www.youtube.com/watch?v=-buIHAMS7Kg",
+      "blurb": "想看总管加专员能不能交成品的人，可以看他让 Bot 在 Bayt 上提交职位、按 SEC 规范指出条款，并在同一次会话里把周用量从三成用到近四成。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "工程",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Bayt",
+        "SEC"
+      ]
+    },
+    {
+      "id": "note-seisei-image-team",
+      "added": "2026-10-09",
+      "title": "三个 Bot 分工后，图片检查和发到 X 几乎自己跑完",
+      "url": "https://note.com/seisei_ai_1st/n/n82844c6629b2",
+      "blurb": "生成、逐张判合格、过关才发帖被拆进同一个群，干杯图里缠在一起的手被检查岗拦住，过关的才由投稿岗发到 X。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "X"
+      ]
+    },
+    {
+      "id": "refactoring-five-bots",
+      "added": "2026-10-09",
+      "title": "五个云端同事取代一台 Mac mini 上的总管",
+      "url": "https://refactoring.fm/p/my-agents-are-moving-to-the-cloud",
+      "blurb": "Luca Rossi 停掉 Mac mini 上的 OpenClaw 和 Hermes 总管，改用五个共用云电脑的 Grok Bot：Brian 出日程简报，Karn 做产品分流，Edith 管稿件日历，Sponsy 跟赞助，Grow 把广告来的订阅导入 Substack。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Refactoring",
+        "Luca Rossi",
+        "Mac mini"
+      ]
+    },
+    {
+      "id": "grok-cursor-link",
+      "added": "2026-10-09",
+      "title": "让 Grok Bot 读到 Cursor 里正在进行的对话",
+      "url": "https://github.com/ZAKOVAI/grok-cursor-link",
+      "blurb": "本机钩子只把提示、回复和回合状态写成本地日志，不记工具调用，云端代理也不会触发钩子，Bot 必须开着本地执行自己来拉。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "jevgb",
+      "added": "2026-10-09",
+      "title": "给 Grok Bot 加一层省额度的任务分流和账本",
+      "url": "https://github.com/SuperfastSimon/jevgb",
+      "blurb": "接在已有的 Jev 路由后面，把编码任务收成给 Grok Build 的短简报，并用账本把路由器自己的开销算进去，而不是只许诺能省。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "GitHub",
+        "Jev",
+        "Grok Build"
+      ]
+    },
+    {
+      "id": "grokbot-bridge-plugin",
+      "added": "2026-10-09",
+      "title": "用签名 webhook 把 Grok Bot 接到你自己的应用",
+      "url": "https://github.com/imbavirus/grokbot-bridge-plugin",
+      "blurb": "用一条签名 webhook 把 Grok Bot 接到你自己的应用，注册后每只 Bot 拿到专属令牌和名字，还能在应用托管的群里互相点名，仓库里是安装提示和命令行，服务端要你自己按协议去接。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "webhook"
+      ]
+    },
+    {
+      "id": "ostack",
+      "added": "2026-10-09",
+      "title": "让 Grok Bot 和 Claude Project 通过 webhook 对讲",
+      "url": "https://github.com/hugo-hsi-dev/ostack",
+      "blurb": "仓库主体是把 pstack 改名为 onyo 的分叉，多出来的桥让 Grok Bot 把话发到单独的 Claude Project，再由 webhook 收回回复，密钥不能进聊天。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude",
+        "pstack"
+      ]
+    },
+    {
+      "id": "grokbot-info-board",
+      "added": "2026-10-09",
+      "title": "多只 Grok Bot 把简报贴到同一块看板",
+      "url": "https://github.com/Aelieth/grokbot-info-board",
+      "blurb": "多只 Bot 把简报贴到同一块看板，看板只收 JSON 卡片，不连券商也不存凭证。",
+      "section": "skills",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "calico",
+      "added": "2026-10-09",
+      "title": "用桌面小屏看 Grok Bot 是在忙、闲着还是卡住",
+      "url": "https://github.com/newtosh/calico",
+      "blurb": "例程把开工、做完或卡住 POST 到局域网伴侣的 webhook，屏幕再来轮询，v0.1 的托盘应用面向 Linux，同一网络默认可读状态，写入才要令牌。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Linux"
+      ]
+    },
+    {
+      "id": "bili-jenny-pick-agent",
+      "added": "2026-10-09",
+      "title": "珍妮丁丁：Muse、Grok Bot、dots、Cue 怎么选个人助理",
+      "url": "https://www.bilibili.com/video/BV1dLHC6qEQP",
+      "blurb": "已经有 Codex 的人，可以按生活和工作场景、上手难度、现有订阅和数据控制，对照 Grok Bot 跟 Muse、dots、Cue 该不该再开一台常驻助理。",
+      "section": "reviews",
+      "tags": [
+        "上手",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "Muse",
+        "dots",
+        "Cue"
+      ]
+    },
+    {
+      "id": "forum-oct8-rollback",
+      "added": "2026-10-09",
+      "title": "云电脑两次悄悄回滚，官方让先拷走文件再切回",
+      "url": "https://forum.cursor.com/t/grok-bot-cloud-computer-rolled-back-twice-losing-work-human-review-needed-t-g83821/174060",
+      "blurb": "10 月 8 日云电脑两次回到更早快照、视频渲染丢了约两小时，官方承认是服务端问题并已恢复一版，先彻底退出再打开、暂停 Bot、把文件拷出电脑，在 10 月 15 日前回复才会切回最新工作，期间不要点重置、恢复或更新。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "T-G83821"
+      ]
+    },
+    {
+      "id": "forum-mcp-missing-version",
+      "added": "2026-10-09",
+      "title": "复用 MCP 会话时丢掉协议版本头，工具调用会空 400",
+      "url": "https://forum.cursor.com/t/grok-bot-remote-mcp-requests-omit-mcp-protocol-version-on-reused-sessions-causing-empty-http-400/174114",
+      "blurb": "官方确认复用已有 MCP 会话时不会带上 MCP-Protocol-Version，严格服务端会回空正文的 400，重连没用，把服务端更新到能接受缺这个头的版本就能先恢复工具调用。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "MCP"
+      ]
+    },
+    {
+      "id": "forum-mac-mini-idle",
+      "added": "2026-10-09",
+      "title": "Mac mini 空闲后本机电脑掉线，要点窗口才会回来",
+      "url": "https://forum.cursor.com/t/grok-bot-0-68-1-on-mac-mini-local-computer-drops-while-idle-and-does-not-self-heal/174109",
+      "blurb": "官方把这和八月的 helper 问题分开：锁屏或窗口在后台约 10 分钟后本机连接进入待机，Bot 需要时不会自己唤醒，先把窗口留在前台，并在机器放在安全处时关掉闲置锁屏。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Mac mini"
+      ]
+    },
+    {
+      "id": "forum-hk-no-reply",
+      "added": "2026-10-09",
+      "title": "香港网络上 Bot 全部未能回复，重置没用",
+      "url": "https://forum.cursor.com/t/grok-bot-0-68-1-bot-failed-to-respond-after-reset-sends-get-requestid-but-no-assistant-reply/174090",
+      "blurb": "10 月 8 日晚起香港等地短消息能领到 requestId 却写不出回复，官方说是区域侧故障、电脑和历史都在，不要重置或新建 Bot，同帖里有人改连台湾 VPN 后立刻恢复。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "VPN"
+      ]
+    },
+    {
+      "id": "forum-sand-host-memory",
+      "added": "2026-10-09",
+      "title": "云电脑 host 进程吃满内存时，更新会谎称已是最新",
+      "url": "https://forum.cursor.com/t/memory-bleeding/174021",
+      "blurb": "官方核对后是 sand-host 自己占了约 15 GB，更新要电脑先响应所以停在已是最新，出路是从卡住前几分钟的快照重置，自装软件可能要再装一遍。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "sand-host"
+      ]
+    },
+    {
+      "id": "forum-auth-desktop-refresh",
+      "added": "2026-10-09",
+      "title": "登录走 xAI 还是 Cursor，会话列表会多出云电脑刷新",
+      "url": "https://forum.cursor.com/t/cursor-authentication-options-through-web-ide-or-grok-bot/174100",
+      "blurb": "官方写明 Grok Bot 通常走 accounts.x.ai，编辑器和命令行走 Cursor 自己的登录，云电脑大约每 30 分钟刷新一次登录，会在设置里多出 Desktop App 条目，撤销后只要电脑还在跑就会再出现。",
+      "section": "community",
+      "tags": [
+        "上手",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "accounts.x.ai"
       ]
     }
   ]

@@ -130,9 +130,10 @@ assert(slack.includes("agents-slack-bridge"), "Slack misses Agents Slack Bridge"
 assert(slack.includes("youtube-geboku-dots-freee"), "Slack misses geboku dots/freee Slack 互传");
 assert(slack.includes("youtube-matt-oct7"), "Slack misses Matt 10-07 Slack 团队");
 assert(slack.includes("x-lauren-one-bot"), "Slack misses Lauren 日历+Slack 主 Bot");
+assert(slack.includes("youtube-whats-new-1"), "Slack misses 10-08 官方工作坊 Slack");
 assert(!slack.includes("cigar-coupon-outreach"), "Slack hits cigar via blurb list");
 assert(!slack.includes("grok-bot-discord"), "Slack hits Discord deny-phrase");
-assert(slack.length === 20, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren, got ${slack.length}: ${slack.join(",")}`);
+assert(slack.length === 21, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren + whats-new-1, got ${slack.length}: ${slack.join(",")}`);
 
 const skill = hits("技能");
 assert(skill.includes("docs-skills-routines"), "技能 misses 技能与例程");
