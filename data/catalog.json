@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "sections": [
     {
       "id": "official",
@@ -25679,6 +25679,368 @@
       ],
       "aliases": [
         "Cursor Forum"
+      ]
+    },
+    {
+      "id": "x-elon-best-backend",
+      "added": "2026-10-08",
+      "title": "马斯克：Grok Bot 会按任务改用最可能做成的后端",
+      "url": "https://x.com/elonmusk/status/2107724314451878104",
+      "blurb": "马斯克说 SpaceX 之后会按单项任务给 Grok Bot 选最可能出结果的后端，点名包括 Claude Opus 5.5、Midjourney、Suno 以及其他主流接口。",
+      "section": "official",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "X",
+        "Opus",
+        "Midjourney",
+        "Suno"
+      ]
+    },
+    {
+      "id": "x-eric-0681",
+      "added": "2026-10-08",
+      "title": "0.68.1：幻灯片、格式化邮件，云电脑屏幕升到 1920×1200",
+      "url": "https://x.com/ericzakariasson/status/2107887770937283028",
+      "blurb": "SpaceXAI 的 Eric Zakariasson 放出 0.68.1：Bot 可以一起做幻灯片并交成 PowerPoint 或 Google Slides，草稿卡片能直接发格式化邮件，一对一聊天会用该 Bot 的颜色，电脑操作改到 1920×1200。",
+      "section": "official",
+      "tags": [
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "X",
+        "0.68.1",
+        "Eric Zakariasson"
+      ]
+    },
+    {
+      "id": "youtube-matt-oct7",
+      "added": "2026-10-08",
+      "title": "10 月 7 日官方更新：主 Bot、Slack 团队、语音和插件搜索",
+      "url": "https://www.youtube.com/watch?v=gdsNKSWOSyo",
+      "blurb": "SpaceXAI 的 Matt Palmer 把 10 月 7 日这批更新过一遍：主 Bot 会自己翻插件和待办提议下一步，工程侧能看拉取请求卡片和操作录像，团队 Bot 能装进 Slack 接着做长帖，还能语音通话并用 Command K 搜插件。",
+      "section": "official",
+      "tags": [
+        "工程",
+        "插件",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer"
+      ]
+    },
+    {
+      "id": "x-lauren-one-bot",
+      "added": "2026-10-08",
+      "title": "先接日历和 Slack，一个主 Bot 先用起来",
+      "url": "https://x.com/poteto/status/2107830403549831186",
+      "blurb": "SpaceXAI 的 Lauren 建议第一次先接上日历、Slack、工单、CRM 和网盘，让主 Bot 独自做完日常工作，要按客户或外联拆岗时再去 Bot 市场或找 Dr Eggbot。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "X",
+        "Lauren",
+        "主 Bot"
+      ]
+    },
+    {
+      "id": "youtube-grok-bot-101",
+      "added": "2026-10-08",
+      "title": "官方入门工作坊：从第一个 Bot 到现场做贴纸",
+      "url": "https://www.youtube.com/watch?v=8xXhE25vJZY",
+      "blurb": "SpaceXAI 的现场工程师和部署经理把基础走一遍，从建出第一个 Bot 讲到一组 Bot 当场设计、投票并找来贴纸，中间把做一次 Google 表单的流程收成可复用技能。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Grok Bot 101"
+      ]
+    },
+    {
+      "id": "youtube-takibi-assign",
+      "added": "2026-10-08",
+      "title": "任务一指派就叫醒那只 Bot：Takibi 看板用 webhook 拉起五岗",
+      "url": "https://www.youtube.com/watch?v=re6E9uoXL4A",
+      "blurb": "他给产品、写手、设计、市场和客服每只 Bot 单独档案，看板上的任务被指派时用 webhook 叫醒对应的那只，再用提及把下一步从产品经理 Bot 交出去。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "Takibi",
+        "webhook"
+      ]
+    },
+    {
+      "id": "youtube-mametaro-x-news",
+      "added": "2026-10-08",
+      "title": "官方 X 连接器收科技趋势：早七点采集、傍晚算热度、周一出周报",
+      "url": "https://www.youtube.com/watch?v=gL0za7_iZ6g",
+      "blurb": "想让 Bot 盯着 X 上的科技讨论的人，可以看他怎样用官方 X 连接器配上 Cursor SDK，把每天早上 7 点收趋势、傍晚 6 点半算话题热度、每周一生成汇总文章收成自己的新闻站。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube",
+        "X 连接器"
+      ]
+    },
+    {
+      "id": "x-aleiah-suggestions-free",
+      "added": "2026-10-08",
+      "title": "主 Bot 先开口的建议不计入额度",
+      "url": "https://x.com/AleiahLock/status/2107854210188329336",
+      "blurb": "Aleiah 写明从 10 月 1 日起主 Bot 主动提出能接手的活不计入额度，她自己的 Bot 会先指出下午两点被订了三次，Matt Palmer 换航班后 Bot 还发现 Uber 仍订在旧航段上。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "主 Bot"
+      ]
+    },
+    {
+      "id": "grokbot-to-codex",
+      "added": "2026-10-08",
+      "title": "把只读任务从 Grok Bot 派到本机 Codex",
+      "url": "https://github.com/semantic-craft/grokbot-to-codex",
+      "blurb": "桥接只听本机并自带令牌，Grok Bot 用私有技能把只读任务交给已登录的 Codex，再主动把结果拉回来，线程释放后才能在官方桌面端接着看，完成后不会自动推送。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex"
+      ]
+    },
+    {
+      "id": "mia-telegram-bridge",
+      "added": "2026-10-08",
+      "title": "Telegram 入站用 webhook 叫醒 Grok Bot",
+      "url": "https://github.com/mia-oc/grokbot-telegram-bridge",
+      "blurb": "本机监听把 Telegram 入站更新落成假脱机并先发一条可编辑进度草稿，webhook 例程醒来后用和应用里相同的工作旁白改这条草稿，答完先删掉草稿再发正式消息。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Telegram"
+      ]
+    },
+    {
+      "id": "pi-grokbot-import",
+      "added": "2026-10-08",
+      "title": "把 Grok Bot 公开模板导入 Pi",
+      "url": "https://github.com/Shixuuu/pi-grokbot-import",
+      "blurb": "用 Cursor 会话可以把公开模板里的技能、例程、记忆和插件收成 Pi 能装的包，没登录时只能拿到分享页上的元数据，Pi 没有例程引擎，原来的日程会变成提示词模板。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Pi"
+      ]
+    },
+    {
+      "id": "grokbot-jev-skills",
+      "added": "2026-10-08",
+      "title": "十个技能把小决定交给 Jev，失败就按退路继续",
+      "url": "https://github.com/fal3/grokbot-jev-skills",
+      "blurb": "搜索取舍、邮件分拣、客服分诊和定时要不要出声都走固定的 jev 命令，缺密钥、超时或回复坏了就按写明的退路继续，安装脚本只在 Bot 的技能目录已经存在时才复制文件。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Jev"
+      ]
+    },
+    {
+      "id": "usage-rings",
+      "added": "2026-10-08",
+      "title": "Mac 圆环查看 Grok Bot 周额度",
+      "url": "https://github.com/hayashiii-ghub/usage-rings",
+      "blurb": "小组件只读本机 Cursor 会话库，向 api2.cursor.sh 查询 Grok Bot 的周额度，不会刷新令牌，按量计费账号和企业共享额度池不在读取范围内。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "macOS"
+      ]
+    },
+    {
+      "id": "jike-guizang-backends",
+      "added": "2026-10-08",
+      "title": "歸藏：Opus 不能手选，Midjourney 和 Suno 还没上线",
+      "url": "https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d",
+      "blurb": "他把马斯克「最佳模型」的说法拆开：有些任务已经由 Opus 5.5 驱动但不能手选，Midjourney 和 Suno 还没进线上。",
+      "section": "reviews",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "即刻",
+        "歸藏"
+      ]
+    },
+    {
+      "id": "youtube-three-same-jobs",
+      "added": "2026-10-08",
+      "title": "三件同样的活对打：订行程、做一条片、连开四小时咖啡公司",
+      "url": "https://www.youtube.com/watch?v=fbm5LevEJyI",
+      "blurb": "还在 Dots、Muse 和 Grok Bot 之间挑的人，可以看他把订蒙特利尔行程、做一条 YouTube，以及让代理连续经营四小时咖啡公司这三件同样的活分别交出去，并比较费用、上手和只有 Grok Bot 做得到的部分。",
+      "section": "reviews",
+      "tags": [
+        "跑腿",
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "YouTube",
+        "Dots",
+        "Muse"
+      ]
+    },
+    {
+      "id": "grok-bot-018-windows",
+      "added": "2026-10-08",
+      "title": "Windows 优先的 Grok Bot 0.18 非官方重建",
+      "url": "https://github.com/Hjgyhfyh/grok-bot-0.18-reconstructed",
+      "blurb": "未登录时协调器从本地账号槽启动，推理可以改指向兼容 OpenAI 的接口，随包启动器会关掉遥测、分析和更新检查，渲染器的花名册门在未登录时仍然会挡住。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Windows",
+        "0.18"
+      ]
+    },
+    {
+      "id": "forum-first-boot-stuck",
+      "added": "2026-10-08",
+      "title": "新云电脑第一次启动没完成，更新和删除都会卡住",
+      "url": "https://forum.cursor.com/t/grok-bot-0-68-1-macos-cant-reach-computer-delete-fails-update-does-nothing/173950",
+      "blurb": "员工确认这和你的网络无关：电脑第一次启动没跑完，所以屏幕打不开、删除会报检查网络、更新没有进度，聊天仍能回，反复点更新、重置、重装或重新登录都不会让它起来。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "0.68.1"
+      ]
+    },
+    {
+      "id": "forum-host-cpu-steal",
+      "added": "2026-10-08",
+      "title": "云电脑几乎空闲仍极慢，是宿主机在抢 CPU",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-very-slow-high-cpu-steal-and-i-o-stalls-while-idle/173995",
+      "blurb": "10 月 7 日美中时间早上约 7 点起，多台云电脑几乎没有本机进程时负载仍到几十、Chrome 也不响应，员工确认是底层宿主机忙，更新只恢复了磁盘大小，继续在上面排查会把套餐额度耗掉。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-shell-tailscale",
+      "added": "2026-10-08",
+      "title": "Shell 全部挂起时，改用读文件检查 bash 启动脚本",
+      "url": "https://forum.cursor.com/t/grok-bot-shared-computer-fully-wedged-since-2026-10-05-shell-dead-update-recover-reset-all-fail-please-reprovision/173881",
+      "blurb": "员工说凡是要新开进程的操作会在每台新电脑上再次卡住，所以更新和重置清不掉，楼主改用读文件发现交互式 bash 每次启动都会跑一段拉起 Tailscale 的脚本。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "forum-linux-webhook-chip",
+      "added": "2026-10-08",
+      "title": "Linux 0.68.1 的例程列表里点不开 Webhook 地址",
+      "url": "https://forum.cursor.com/t/grok-bot-webhooks-dont-appear-on-desktop-linux-version/173891",
+      "blurb": "员工确认点详情列表已经打不开存放 POST 地址、密钥和 Authorization 头的那一页，临时办法是点聊天里已创建例程那一行的芯片，或让 Bot 把应用内链接发回来。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "插件"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Linux",
+        "webhook"
+      ]
+    },
+    {
+      "id": "forum-storage-desktop-start",
+      "added": "2026-10-08",
+      "title": "桌面停在正在启动，先彻底退出再打开",
+      "url": "https://forum.cursor.com/t/grok-bots-computer-is-stuck-on-starting-desktop-with-cant-reach-grok-bots-screen-attachments-wont-download-and-the-mobile-app-shows-send-after-reconnect-with-no-response/173788",
+      "blurb": "员工核对这批账号后认为是云电脑存储不够、桌面没启动完，附件因此下不来，存储补上之后要从菜单栏或系统托盘彻底退出再打开，不必去点更新或重置。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "x-tianle-native-mail",
+      "added": "2026-10-08",
+      "title": "原生邮箱还在内测，功能开关默认是关的",
+      "url": "https://x.com/TianleLyd/status/2107811742587777475",
+      "blurb": "按公开步骤没领到 mail.grokbot.com 邮箱后，他在客户端里看到 native:email 和邮箱详情页，但 grok_bot_agent_mail 与多邮箱开关默认关闭，地址上限不到十个，收信指向 Amazon SES 美东。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "mail.grokbot.com"
       ]
     }
   ]

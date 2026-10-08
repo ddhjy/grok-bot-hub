@@ -1629,7 +1629,7 @@
       236,
       220
     ],
-    "kicker": "466个结果"
+    "kicker": "476个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -1646,7 +1646,7 @@
       236,
       228
     ],
-    "kicker": "18个结果"
+    "kicker": "19个结果"
   },
   {
     "file": "og-q-插件-tutorials.png",
@@ -1663,7 +1663,7 @@
       240,
       224
     ],
-    "kicker": "76个结果"
+    "kicker": "79个结果"
   },
   {
     "file": "og-q-插件-cases.png",
@@ -1697,7 +1697,7 @@
       232,
       236
     ],
-    "kicker": "236个结果"
+    "kicker": "240个结果"
   },
   {
     "file": "og-q-插件-reviews.png",
@@ -1748,7 +1748,7 @@
       232,
       226
     ],
-    "kicker": "50个结果"
+    "kicker": "52个结果"
   },
   {
     "file": "og-q-插件市场.png",
@@ -2819,7 +2819,7 @@
       236,
       220
     ],
-    "kicker": "269个结果"
+    "kicker": "273个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -2870,7 +2870,7 @@
       244,
       236
     ],
-    "kicker": "44个结果"
+    "kicker": "45个结果"
   },
   {
     "file": "og-q-定价-skills.png",
@@ -2887,7 +2887,7 @@
       232,
       236
     ],
-    "kicker": "18个结果"
+    "kicker": "19个结果"
   },
   {
     "file": "og-q-定价-reviews.png",
@@ -2904,7 +2904,7 @@
       234,
       228
     ],
-    "kicker": "51个结果"
+    "kicker": "52个结果"
   },
   {
     "file": "og-q-定价-alternatives.png",
@@ -2938,7 +2938,7 @@
       232,
       226
     ],
-    "kicker": "105个结果"
+    "kicker": "106个结果"
   },
   {
     "file": "og-q-抖音.png",
@@ -3125,7 +3125,7 @@
       236,
       220
     ],
-    "kicker": "112个结果"
+    "kicker": "114个结果"
   },
   {
     "file": "og-q-额度-official.png",
@@ -3176,7 +3176,7 @@
       244,
       236
     ],
-    "kicker": "13个结果"
+    "kicker": "14个结果"
   },
   {
     "file": "og-q-额度-skills.png",
@@ -3193,7 +3193,7 @@
       232,
       236
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-额度-reviews.png",
@@ -4417,7 +4417,7 @@
       236,
       220
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-歸藏-cases.png",
@@ -4451,7 +4451,7 @@
       234,
       228
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-过夜.png",
@@ -5114,7 +5114,7 @@
       236,
       220
     ],
-    "kicker": "九个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-即刻-cases.png",
@@ -5148,7 +5148,7 @@
       234,
       228
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-计费.png",
@@ -5165,7 +5165,7 @@
       236,
       220
     ],
-    "kicker": "269个结果"
+    "kicker": "273个结果"
   },
   {
     "file": "og-q-计费-official.png",
@@ -5216,7 +5216,7 @@
       244,
       236
     ],
-    "kicker": "44个结果"
+    "kicker": "45个结果"
   },
   {
     "file": "og-q-计费-skills.png",
@@ -5233,7 +5233,7 @@
       232,
       236
     ],
-    "kicker": "18个结果"
+    "kicker": "19个结果"
   },
   {
     "file": "og-q-计费-reviews.png",
@@ -5250,7 +5250,7 @@
       234,
       228
     ],
-    "kicker": "51个结果"
+    "kicker": "52个结果"
   },
   {
     "file": "og-q-计费-alternatives.png",
@@ -5284,7 +5284,7 @@
       232,
       226
     ],
-    "kicker": "104个结果"
+    "kicker": "105个结果"
   },
   {
     "file": "og-q-记忆.png",
@@ -5794,7 +5794,7 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-脚本-tutorials.png",
@@ -5846,6 +5846,23 @@
       236
     ],
     "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-脚本-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「脚本」的搜索",
+    "footer": "Shell 全部挂起时，改用读文件检查 bash 启动脚本",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-教务.png",
@@ -6899,7 +6916,7 @@
       236,
       220
     ],
-    "kicker": "26个结果"
+    "kicker": "27个结果"
   },
   {
     "file": "og-q-例程-official.png",
@@ -7001,7 +7018,7 @@
       232,
       226
     ],
-    "kicker": "11个结果"
+    "kicker": "12个结果"
   },
   {
     "file": "og-q-连不上.png",
@@ -7579,7 +7596,7 @@
       236,
       220
     ],
-    "kicker": "44个结果"
+    "kicker": "45个结果"
   },
   {
     "file": "og-q-模板-official.png",
@@ -7647,7 +7664,7 @@
       232,
       236
     ],
-    "kicker": "22个结果"
+    "kicker": "23个结果"
   },
   {
     "file": "og-q-模板-reviews.png",
@@ -7698,7 +7715,7 @@
       236,
       220
     ],
-    "kicker": "32个结果"
+    "kicker": "33个结果"
   },
   {
     "file": "og-q-模型-cases.png",
@@ -7749,7 +7766,7 @@
       234,
       228
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-模型-alternatives.png",
@@ -8123,7 +8140,7 @@
       236,
       220
     ],
-    "kicker": "315个结果"
+    "kicker": "321个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -8242,7 +8259,7 @@
       232,
       226
     ],
-    "kicker": "225个结果"
+    "kicker": "231个结果"
   },
   {
     "file": "og-q-啤酒.png",
@@ -9330,7 +9347,7 @@
       236,
       220
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-入门-official.png",
@@ -9364,7 +9381,7 @@
       240,
       224
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-软件工厂.png",
@@ -11761,7 +11778,7 @@
       236,
       220
     ],
-    "kicker": "29个结果"
+    "kicker": "30个结果"
   },
   {
     "file": "og-q-团队-official.png",
@@ -11778,7 +11795,7 @@
       236,
       228
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-团队-tutorials.png",
@@ -12237,7 +12254,7 @@
       236,
       220
     ],
-    "kicker": "24个结果"
+    "kicker": "26个结果"
   },
   {
     "file": "og-q-文件-official.png",
@@ -12305,7 +12322,7 @@
       232,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-文件-community.png",
@@ -12322,7 +12339,7 @@
       232,
       226
     ],
-    "kicker": "14个结果"
+    "kicker": "15个结果"
   },
   {
     "file": "og-q-文件与结果.png",
@@ -14158,7 +14175,7 @@
       236,
       220
     ],
-    "kicker": "29个结果"
+    "kicker": "30个结果"
   },
   {
     "file": "og-q-邮箱-tutorials.png",
@@ -14243,7 +14260,7 @@
       232,
       226
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-语音.png",
@@ -14260,7 +14277,7 @@
       236,
       220
     ],
-    "kicker": "23个结果"
+    "kicker": "24个结果"
   },
   {
     "file": "og-q-语音-official.png",
@@ -14277,7 +14294,7 @@
       236,
       228
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-语音-tutorials.png",
@@ -14447,7 +14464,7 @@
       236,
       220
     ],
-    "kicker": "165个结果"
+    "kicker": "168个结果"
   },
   {
     "file": "og-q-云电脑-official.png",
@@ -14464,7 +14481,7 @@
       236,
       228
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-云电脑-tutorials.png",
@@ -14566,7 +14583,7 @@
       232,
       226
     ],
-    "kicker": "51个结果"
+    "kicker": "53个结果"
   },
   {
     "file": "og-q-云电脑-takes.png",
@@ -15365,7 +15382,7 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-周报-tutorials.png",
@@ -15382,7 +15399,7 @@
       240,
       224
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-周报-cases.png",
@@ -15416,7 +15433,7 @@
       236,
       220
     ],
-    "kicker": "40个结果"
+    "kicker": "41个结果"
   },
   {
     "file": "og-q-周额度-official.png",
@@ -15473,7 +15490,7 @@
     "file": "og-q-周额度-skills.png",
     "badge": "非官方 · 技能",
     "title": "「周额度」的搜索",
-    "footer": "菜单栏电量条",
+    "footer": "菜单栏电量条 · Mac 圆环查看 Grok Bot 周额度",
     "accent": [
       110,
       58,
@@ -15484,7 +15501,7 @@
       232,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-周额度-reviews.png",
@@ -15519,6 +15536,74 @@
       226
     ],
     "kicker": "25个结果"
+  },
+  {
+    "file": "og-q-主 Bot.png",
+    "badge": "非官方 · 搜索",
+    "title": "「主 Bot」的搜索",
+    "footer": "Aaron · 四项更新",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "六个结果"
+  },
+  {
+    "file": "og-q-主 Bot-official.png",
+    "badge": "非官方 · 官方资源",
+    "title": "「主 Bot」的搜索",
+    "footer": "10 月 7 日官方更新：主 Bot、Slack 团队、语音和插件搜索",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      247,
+      236,
+      228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-主 Bot-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「主 Bot」的搜索",
+    "footer": "Aaron · 四项更新",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-主 Bot-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「主 Bot」的搜索",
+    "footer": "创始人只跟主 Bot 说话：起床前日程、收件箱和数字都已排好 · 主 Bot 先开口的建议不计入额度",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-注音.png",
@@ -16266,7 +16351,7 @@
       236,
       220
     ],
-    "kicker": "18个结果"
+    "kicker": "20个结果"
   },
   {
     "file": "og-q-Slack-official.png",
@@ -16283,7 +16368,7 @@
       236,
       228
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-Slack-tutorials.png",
@@ -16300,7 +16385,7 @@
       240,
       224
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-Slack-cases.png",
@@ -16385,7 +16470,7 @@
       236,
       220
     ],
-    "kicker": "九个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-X 插件-official.png",
@@ -16453,7 +16538,7 @@
       232,
       236
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-X 插件-community.png",
@@ -16471,6 +16556,57 @@
       226
     ],
     "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-X 连接器.png",
+    "badge": "非官方 · 搜索",
+    "title": "「X 连接器」的搜索",
+    "footer": "X 运营配 GA4 · 官方 X 连接器收科技趋势：早七点采集、傍晚算热度、周一出周报",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-X 连接器-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「X 连接器」的搜索",
+    "footer": "官方 X 连接器收科技趋势：早七点采集、傍晚算热度、周一出周报",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-X 连接器-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「X 连接器」的搜索",
+    "footer": "X 运营配 GA4",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-お寿司.png",
