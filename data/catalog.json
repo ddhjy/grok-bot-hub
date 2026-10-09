@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "sections": [
     {
       "id": "official",
@@ -26557,6 +26557,495 @@
       "aliases": [
         "Cursor Forum",
         "accounts.x.ai"
+      ]
+    },
+    {
+      "id": "x-bot-own-email",
+      "added": "2026-10-10",
+      "title": "官方：Bot 有了自己的邮箱，能注册、联系和约时间",
+      "url": "https://x.com/bot/status/2108609764766908772",
+      "blurb": "官方宣布 Bot 可以领自己的邮箱去注册服务、联系商家或约时间，今天起开口向 Bot 要或在 X 上点名即可，团队账号要管理员先打开。",
+      "section": "official",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "@bot",
+        "邮箱"
+      ]
+    },
+    {
+      "id": "x-tiezhu-quota-twelve",
+      "added": "2026-10-10",
+      "title": "铁柱：十二招省周额度的话，可以直接贴给 Bot",
+      "url": "https://x.com/cgnot996/status/2108504325609984233",
+      "blurb": "他把看图拉片和写长代码挪出主对话，把没变化也汇报的定时改成脚本发现变动才叫醒，并写明按量付费和 grok.com 加量包都补不上 Bot 的周额度。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "铁柱",
+        "cgnot996",
+        "周额度"
+      ]
+    },
+    {
+      "id": "x-tiezhu-x-credits",
+      "added": "2026-10-10",
+      "title": "铁柱：X API 积分留给发文，搜索改走 Bot 自带额度",
+      "url": "https://x.com/cgnot996/status/2108578465519927425",
+      "blurb": "这篇长文是他让 Grok Bot 经 X API 发出的，大约花了 0.2 美元，他把领到的一百美元积分留给自动发文和读取收藏，日常检索改走 Bot 自带的搜索额度。",
+      "section": "tutorials",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "铁柱",
+        "X API"
+      ]
+    },
+    {
+      "id": "youtube-nate-two-upgrades",
+      "added": "2026-10-10",
+      "title": "Nate Herk：两处升级立刻改用法，原生搜 X，手机里跑 Claude Code",
+      "url": "https://www.youtube.com/watch?v=MgvwZaDPCs4",
+      "blurb": "还在给 X 连接器付接口费用的人，可以看他改用原生搜索、重排技能，并用自己的订阅让 Bot 里的 Claude Code 从手机打开项目。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "Nate Herk"
+      ]
+    },
+    {
+      "id": "youtube-masaou-x-voice",
+      "added": "2026-10-10",
+      "title": "まさお：边说话边搜 X，用 from 和点赞数筛帖",
+      "url": "https://www.youtube.com/watch?v=ZgQ9MXfNqys",
+      "blurb": "想知道语音里的 X 搜索能筛到什么的人，可以看他把每天约一千次的额度用在自己哪条帖子在涨，并听到例行任务、漏信提醒和任务改走 Opus。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "YouTube",
+        "まさお"
+      ]
+    },
+    {
+      "id": "youtube-ai4all-five",
+      "added": "2026-10-10",
+      "title": "粤语五招：共用 /ws、三只 Bot 同时下视频，群聊做成轮播",
+      "url": "https://www.youtube.com/watch?v=8T9FQTdOWrk",
+      "blurb": "云端电脑要和自己的机器对文件的人，可以看 /ws 怎么当同步夹，三只 Bot 怎样并行下载社媒视频，以及群聊怎样把一条 YouTube 做成轮播。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "AI4All"
+      ]
+    },
+    {
+      "id": "youtube-chromebook-update",
+      "added": "2026-10-10",
+      "title": "Chromebook 上的 Grok Bot 更新要自己在 Linux 终端装",
+      "url": "https://www.youtube.com/watch?v=lK-3GfiYY2E",
+      "blurb": "桌面版已经装在 ChromeOS Linux 里的人，可以看应用只弹出有新版本之后，怎样查当前版本、用包管理器升级，以及软件源晚一天才跟上时该怎么办。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "YouTube",
+        "Chromebook",
+        "ChromeOS"
+      ]
+    },
+    {
+      "id": "substack-jaden-three-bots",
+      "added": "2026-10-10",
+      "title": "三个岗位就够：品牌、账单和杂事 Bot 只起草，发送要你点头",
+      "url": "https://jadenversluis.substack.com/p/i-built-a-3-bot-ai-ops-team-heres",
+      "blurb": "品牌合作、退订和杂事拆成三个 Bot，提示词可以直接贴进去，它们可以起草，发送、取消和花钱都要等你明确点头。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "运营",
+        "销售"
+      ],
+      "aliases": [
+        "Jaden Versluis",
+        "Substack"
+      ]
+    },
+    {
+      "id": "grokbot-agent-bots",
+      "added": "2026-10-10",
+      "title": "让 Grok Bot 调度你电脑上的编程代理，合并仍等你点头",
+      "url": "https://github.com/reichenbach/grokbot-agent-bots",
+      "blurb": "每只编程代理单独成岗，只在你批准的本地目录里开自己的分支，推送和合并留到你点头之后，回报里写明改了什么、测了什么、还等你拍板的决定。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "youtube-snapper-client-team",
+      "added": "2026-10-10",
+      "title": "六只 Bot 管接案：预览留言写成 Codex 提示，改代码前要批准",
+      "url": "https://www.youtube.com/watch?v=PrgCa46MgdE",
+      "blurb": "想把预览站留言收成开发任务的人，可以看编排 Bot 翻 Vercel、接案和网站 PM 写成 Codex 提示，并在改代码、发布和联系客户之前停下来等批准。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube",
+        "Snapper AI"
+      ]
+    },
+    {
+      "id": "youtube-emanuele-support",
+      "added": "2026-10-10",
+      "title": "客服 Bot 一天扫两遍 X：分拣缺陷和建议，小修交给 Cursor",
+      "url": "https://www.youtube.com/watch?v=jFRqTSRZRQI",
+      "blurb": "想让产品口碑自己变成工单的人，可以抄他的提示：每十二小时把提到应用的帖子分成缺陷、功能和夸奖，去重后开 GitHub issue，小改动再写成给 Cursor 的请求。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "工程"
+      ],
+      "aliases": [
+        "YouTube",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "jike-guizang-repo-trailer",
+      "added": "2026-10-10",
+      "title": "歸藏：让 Grok Bot 读 GitHub 仓库并交回宣传片",
+      "url": "https://m.okjike.com/originalPosts/6ac91cccbd0563695bc934c1",
+      "blurb": "他把自己的 GitHub 仓库交给 Grok Bot，云电脑直接交回一条宣传片，打开帖就能看成品。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "工程"
+      ],
+      "aliases": [
+        "即刻",
+        "歸藏"
+      ]
+    },
+    {
+      "id": "jike-guizang-notion-board",
+      "added": "2026-10-10",
+      "title": "歸藏：十五分钟用 Grok Bot 在 Notion 搭好自媒体看板",
+      "url": "https://m.okjike.com/originalPosts/6ac8e87dcfb5d08b3e1443b3",
+      "blurb": "拖了很久的自媒体数据，他跟 Grok Bot 在 Notion 里花十五分钟搭成看板，过程就写在这条帖里。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "即刻",
+        "歸藏",
+        "Notion"
+      ]
+    },
+    {
+      "id": "jike-beiguo-wechat-brief",
+      "added": "2026-10-10",
+      "title": "北国桑麻：微信里的 Grok Bot 总结邵艾伦访谈孙宇",
+      "url": "https://m.okjike.com/originalPosts/6ac897cacfb5d08b3e0bcc5b",
+      "blurb": "接进微信的 Grok Bot 把邵艾伦访谈孙宇收成一份摘要，原帖里能看到它交回来的内容。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "即刻",
+        "微信"
+      ]
+    },
+    {
+      "id": "v2ex-poteto-thousand-prs",
+      "added": "2026-10-10",
+      "title": "译文：poteto 用 Grok Bot 例行任务供料，一个月送出 1000 个 PR",
+      "url": "https://www.v2ex.com/t/1247474",
+      "blurb": "poteto 把 Grok Bot 例行任务当成外环，去收 Slack 报障、X 上的抱怨和新功能点子，再交给云端代理在人离线后继续合进那一千个 PR。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "V2EX",
+        "poteto",
+        "pstack"
+      ]
+    },
+    {
+      "id": "substack-liftoff-tradeops",
+      "added": "2026-10-10",
+      "title": "交易台交给 Grok Bot 跑：能备草稿单，扣扳机仍要你自己",
+      "url": "https://liftoffai.substack.com/p/i-gave-11-ai-agents-my-trading-desk",
+      "blurb": "他把交易运营放在每月 30 美元的 Grok Bot 上，总管负责分活，军需官只能把定量的草稿单放进券商，真正下单仍要他自己扣扳机。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "TradeOps"
+      ]
+    },
+    {
+      "id": "jike-guizang-morning-install",
+      "added": "2026-10-10",
+      "title": "歸藏：把 AI 早报视频收成可一键安装的 Bot",
+      "url": "https://m.okjike.com/reposts/6ac8fb6ebd0563695bc5b8ff",
+      "blurb": "早报视频那套流程已经被收成可安装的 Bot，帖里的分享链接能直接加到自己的账号。",
+      "section": "skills",
+      "tags": [
+        "视频",
+        "上手"
+      ],
+      "aliases": [
+        "即刻",
+        "歸藏"
+      ]
+    },
+    {
+      "id": "protbot",
+      "added": "2026-10-10",
+      "title": "给无人值守的 Grok Bot 单独准备 Proton 邮箱和密码库",
+      "url": "https://github.com/pdphillips/protbot",
+      "blurb": "邮件只连这台电脑上的 Bridge，账号密码不进仓库，发信要先打开写入开关并命中收件人白名单，口令库放在该账号所有 Bot 共用的云电脑上。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Proton"
+      ]
+    },
+    {
+      "id": "sato-agent",
+      "added": "2026-10-10",
+      "title": "给 Grok Bot 的云电脑装一只有花费上限的链上钱包",
+      "url": "https://github.com/satohubai/sato-agent",
+      "blurb": "链、每笔和滚动 24 小时上限都要你先写上才会签名，放宽限额会记进账本，同一台云电脑上的其他 Bot 也能读到这只钱包的密钥文件。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "x402"
+      ]
+    },
+    {
+      "id": "freetoken-bots",
+      "added": "2026-10-10",
+      "title": "在 Grok Bot 云电脑上把小活分流给免费模型",
+      "url": "https://github.com/derekwalldevin-wen/freetoken-bots",
+      "blurb": "免费模型名单要靠云电脑上每天早上的扫描才保持有效，同步命令先停在预览，OpenCode 服务只听本机回环地址。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "OpenCode"
+      ]
+    },
+    {
+      "id": "omarchy-grokbot-usage",
+      "added": "2026-10-10",
+      "title": "在 Omarchy 状态栏对照 Grok Bot 本周额度的匀速线",
+      "url": "https://github.com/songlairui/omarchy-grokbot-usage",
+      "blurb": "插件只读本机 Cursor 登录库去查和桌面端同一块周额度，刷新失败时保留上次读数并变暗，弹出曲线用一条匀速虚线标出本周是不是烧得偏快。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Omarchy"
+      ]
+    },
+    {
+      "id": "grok-spotify-bot",
+      "added": "2026-10-10",
+      "title": "在特斯拉上用 Grok Bot 改 Spotify 歌单并随时撤销",
+      "url": "https://github.com/bigc5012/grok-spotify-bot",
+      "blurb": "导入 Tesla DJ 模板之后，云电脑上的一条标准库脚本就能把正在播的歌加进或移出指定歌单，撤销会按原位置放回去，多台设备同时在线时优先把播放交给特斯拉。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "GitHub",
+        "Spotify",
+        "Tesla"
+      ]
+    },
+    {
+      "id": "substack-computer-offboard",
+      "added": "2026-10-10",
+      "title": "离职清单漏掉的那台云电脑：会话还在，设备清单上没有",
+      "url": "https://seldondance.substack.com/p/a-computer-of-its-own",
+      "blurb": "同一账号上的 Bot 共用一台不进设备管理的 Linux 云电脑，停用公司账号并不会清掉它浏览器里已经登着的业务系统。",
+      "section": "reviews",
+      "tags": [
+        "安全",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "MDM"
+      ]
+    },
+    {
+      "id": "substack-dots-first-week",
+      "added": "2026-10-10",
+      "title": "第一周怎么选：Grok Bot 编小组，Dots 只留一个总管",
+      "url": "https://fullstackagents.substack.com/p/grok-bot-and-dots-a-beginners-guide",
+      "blurb": "有名字的 Bot 仍共用一台电脑和同一批连接器，研究员看得到写手看得到的登录，第一周只用审批和自动复查跑通一件事，七天之后再加第二个岗位。",
+      "section": "reviews",
+      "tags": [
+        "上手",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack",
+        "Dots"
+      ]
+    },
+    {
+      "id": "substack-allow-ask-first",
+      "added": "2026-10-10",
+      "title": "「始终允许」撞上「先询问」时，先问的规则胜出",
+      "url": "https://seldondance.substack.com/p/allow-always-deny-once",
+      "blurb": "两条规则都命中时先询问胜出，自动放行也要等自动复查没有别的理由拦住才会继续，开着自动复查时被放行的动作仍会过一遍审查。",
+      "section": "reviews",
+      "tags": [
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Auto-review"
+      ]
+    },
+    {
+      "id": "orgbots",
+      "added": "2026-10-10",
+      "title": "在自己的机器上跑一支各有屏幕的开源 Bot 团队",
+      "url": "https://github.com/Vishnu-KV-S/orgbots",
+      "blurb": "一条 Docker 命令就能在你自己的机器上拉起共享浏览器、审批和审计，每只 Bot 占一个持久标签页，跑到一半被杀掉也可以按效果日志续上。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Docker",
+        "Orgbots"
+      ]
+    },
+    {
+      "id": "forum-routines-oct8-failed",
+      "added": "2026-10-10",
+      "title": "定时例程集体失败，状态页显示已恢复的是另一件事",
+      "url": "https://forum.cursor.com/t/all-grok-bot-routines-failed-to-run/174125",
+      "blurb": "10 月 8 日英国时间中午起，高负载把定时例程先拖慢再标成失败，状态页上的已恢复指的是另一个故障，例程保持开启即可，漏跑不会补，直接让 Bot 动手做仍然立刻执行。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "运营"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Routines"
+      ]
+    },
+    {
+      "id": "forum-routines-oct8-queue",
+      "added": "2026-10-10",
+      "title": "例程时间看起来提前，其实是上一档迟到，备用例程也排同一条队",
+      "url": "https://forum.cursor.com/t/grok-bot-scheduled-routines-firing-late-early-or-not-at-all-all-day-oct-8-primary-backup-both-missed/174142",
+      "blurb": "看起来提前发出的那次，其实是上一档终于排出来，某一次还卡在队列里时下一档会被直接跳过，晚十几分钟的备用例程和主例程排在同一条队列里所以顶不上，手动运行不会被这套延迟拦住。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "运营"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Routines"
+      ]
+    },
+    {
+      "id": "forum-safety-filter-history",
+      "added": "2026-10-10",
+      "title": "安全过滤盯上一段历史后，这个 Bot 之后每句话都会失败",
+      "url": "https://forum.cursor.com/t/grok-bot-primary-bot-silent-bot-failed-to-respond-since-oct-8-other-bots-ok-restart-this-bots-runner-only-do-not-reset/174138",
+      "blurb": "官方查过这个 Bot 的运行器并没有卡住，从某一刻起安全过滤把整段对话历史判成敏感内容，之后每条新消息都连着历史被拒，界面只写笼统的未能回复，重置也没用，应用里还不能只删掉被拦的那一段。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-computer-sleep-recover",
+      "added": "2026-10-10",
+      "title": "云电脑睡过去没醒来，更新会一直等，该用恢复",
+      "url": "https://forum.cursor.com/t/grok-bot-pro-all-agents-can-t-reach-their-computer-update-won-t-run-because-agents-won-t-stop/174170",
+      "blurb": "官方核对后这台电脑是早上进入睡眠后没有正常醒来，更新因此无法开始，看起来像 Bot 一直停不下来，恢复会用睡前备份把 Bot、文件和登录装回去，自己装上的软件需要重装，这一次不要改走重置。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
       ]
     }
   ]
