@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "sections": [
     {
       "id": "official",
@@ -28992,6 +28992,22 @@
       "aliases": [
         "GitHub",
         "0.70.2"
+      ]
+    },
+    {
+      "id": "grok-bot-wiki-directory",
+      "added": "2026-10-15",
+      "title": "Grok Bot Wiki：英文社区模板目录",
+      "url": "https://www.grokbotwiki.com/bots",
+      "blurb": "想按任务找公开 Grok Bot 模板的人可按类别浏览并回到原分享页，这是独立非官方英文目录，页面与链接核对不等于模板实测。",
+      "section": "community",
+      "tags": [
+        "上手"
+      ],
+      "aliases": [
+        "Grok Bot Wiki",
+        "grokbotwiki",
+        "Grok Bot templates"
       ]
     }
   ]
