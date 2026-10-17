@@ -137,7 +137,9 @@ assert(!slack.includes("cigar-coupon-outreach"), "Slack hits cigar via blurb lis
 assert(!slack.includes("grok-bot-discord"), "Slack hits Discord deny-phrase");
 assert(slack.includes("substack-jamespember-slack"), "Slack misses James Pember Slack");
 assert(slack.includes("substack-bank-slack-leak"), "Slack misses 只读银行发进公司 Slack");
-assert(slack.length === 25, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren + whats-new-1 + hn-slack-same-name + forum-slack-handoff-owner + jamespember + bank-slack, got ${slack.length}: ${slack.join(",")}`);
+assert(slack.includes("youtube-ship-code-scale"), "Slack misses 官方工坊 Slack 九十分钟修 bug");
+assert(slack.includes("substack-sischool-exception"), "Slack misses Team Bot 经 Slack 把客户特例记成全队规矩");
+assert(slack.length === 27, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren + whats-new-1 + hn-slack-same-name + forum-slack-handoff-owner + jamespember + bank-slack + ship-code-scale + team-exception, got ${slack.length}: ${slack.join(",")}`);
 
 const skill = hits("技能");
 assert(skill.includes("docs-skills-routines"), "技能 misses 技能与例程");
