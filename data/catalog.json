@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "sections": [
     {
       "id": "official",
@@ -33308,6 +33308,496 @@
       "aliases": [
         "note",
         "X 订阅"
+      ]
+    },
+    {
+      "id": "bili-role-quiet",
+      "added": "2026-10-22",
+      "title": "五只 Bot 进群不抢答：主职、三条不做，和通勤追问到成片",
+      "url": "https://www.bilibili.com/video/BV1EtnP6AEm7",
+      "blurb": "五个 Bot 一进群就一起回话时，他把每个岗写成主职、三条不做的事、交付物和何时闭嘴，把改过的群规则粘进设定并用三条测试消息自检，再拿通勤追问到成片这条流水线让人每步只做一个决定。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "运营",
+        "上手",
+        "视频"
+      ],
+      "aliases": [
+        "Bilibili"
+      ]
+    },
+    {
+      "id": "bili-kacper-three-cli",
+      "added": "2026-10-22",
+      "title": "Kacper：把 Claude Code、Codex 和 Grok Build 装进云电脑做整站",
+      "url": "https://www.bilibili.com/video/BV1JLnE6qEKh",
+      "blurb": "他把这三套命令行装进 Bot 自己的电脑并用已有订阅登录，让它们合做一家上门汽车美容店的整站，Grok Bot 的周用量只从 43% 挪到 44%，还讲了谁付钱、手机改仓库，以及共用登录要先问一声。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "Bilibili",
+        "Kacper Rutkiewicz"
+      ]
+    },
+    {
+      "id": "note-vertical-four",
+      "added": "2026-10-22",
+      "title": "四条对话把六分钟横视频剪成 36.7 秒竖版",
+      "url": "https://note.com/heyk1njo/n/n83a282f05459",
+      "blurb": "只许用附件里的原片、配乐和字体，第一轮只交文稿和剪辑表，四轮之后竖屏成片 36.7 秒，多出来的约 4 秒废镜头是按成片时间轴上的秒数点名才去掉的。",
+      "section": "tutorials",
+      "tags": [
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "note-paiours-desk",
+      "added": "2026-10-22",
+      "title": "只留一个窗口：Grok Bot 当总台，编码和审查分给别人",
+      "url": "https://note.com/paiours/n/ndefe96e4c557",
+      "blurb": "这只叫 MotherAI 的 Bot 在家用 Mac mini 上按条审批去调两个 Claude 账号和 Codex，用量写进标题每小时刷新，B 账号周额度到 92% 就把编码全交给 A。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "note",
+        "MotherAI",
+        "PaiOurs"
+      ]
+    },
+    {
+      "id": "dsh-box-worker",
+      "added": "2026-10-22",
+      "title": "Grok Bot 只拆活和验收，便宜模型在云电脑上洗订单",
+      "url": "https://github.com/diginno-net/grokbot-dsh-orchestrator-vn",
+      "blurb": "作者让 Grok Bot 只做拆活和验收，清洗两百行订单交给云电脑上的便宜模型，10 月 21 日实测大约一百一十一秒、花费约 0.017 美元。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "forum-rules-window",
+      "added": "2026-10-22",
+      "title": "写进文件的家规不会自动生效，记忆只带着最近几千个字符",
+      "url": "https://forum.cursor.com/t/grok-bot-fails-to-follow-tightened-and-verified-standing-rules/175615",
+      "blurb": "员工解释每个 Bot 只把自己记忆里最新的几千个字符放进每一轮，变长的规则会把旧条款挤出视野，电脑上的规则文件要 Bot 真的去打开才会被看到，路由器拿到专员结果时也不会自动对照规则，想硬停某类动作只能在设置的自动审查里加「先问一声」。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-vault-ten",
+      "added": "2026-10-22",
+      "title": "1Password 一个服务账号只能挂一个金库，分开建最多十个",
+      "url": "https://forum.cursor.com/t/1password-integration-now-limited-to-one-vault-per-service-account/175543",
+      "blurb": "员工说每个 1Password 连接本来就只绑定一个金库，能读多个金库的服务账号会被拒绝，想分开保管财务和团队登录就为每个金库各建一个只读服务账号，连接时选服务账号令牌逐个粘贴，最多十个，Bot 会同时看到这些金库里的登录项。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "1Password"
+      ]
+    },
+    {
+      "id": "x-fankai-tencent",
+      "added": "2026-10-22",
+      "title": "范凯：给 Grok Bot 外挂一台国内腾讯云主机",
+      "url": "https://x.com/fankaishuoai/status/2112918077067166046",
+      "blurb": "他让 Jarvis 登录自己的国内腾讯云主机，借固定出口 IP 去开那些认地址的公网服务、抓国内数据发公众号，并把要一直跑的进程放在这台机器上，跑完用 Webhook 把休眠中的 Bot 叫醒。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "工程",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "腾讯云",
+        "Jarvis"
+      ]
+    },
+    {
+      "id": "youtube-ashi-wa-group",
+      "added": "2026-10-22",
+      "title": "阿石：把 Grok Bot 接进公司 WhatsApp 群，同事直接问哪天有空",
+      "url": "https://www.youtube.com/watch?v=L4HPiPtzkpA",
+      "blurb": "日历接在 Bot 上之后，同事在群里问档期，它就靠定时任务的 Webhook 回空档，但运行记录只能到手机 App 里查。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "运营",
+        "上手",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "阿石OMP",
+        "WhatsApp"
+      ]
+    },
+    {
+      "id": "bili-lauren-dune",
+      "added": "2026-10-22",
+      "title": "Lauren Tan：验证技能、Benny 复现 bug，和代号 Dune 的限制",
+      "url": "https://www.bilibili.com/video/BV1YinV6mEJv",
+      "blurb": "她讲自己怎么先让 agent 跑代码和抓 trace 来证明改对了，再把经验收成带评测的技能，用内部的 Benny 自动复现 bug，并给 Grok Bot 定了一套叫 Dune 的限制：不用 useEffect、不写会把口头禁令抄进去的注释。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Bilibili",
+        "Lauren Tan",
+        "Dune",
+        "Benny"
+      ]
+    },
+    {
+      "id": "medium-mochi-wix",
+      "added": "2026-10-22",
+      "title": "一天把配偶的美食博客从 Wix 迁到 WordPress",
+      "url": "https://medium.com/@megh571/i-handed-my-spouses-food-blog-to-an-ai-it-moved-off-wix-in-a-day-fe273baaf2aa",
+      "blurb": "他把基于 Grok Bot、自带电脑的 Mochi 派去迁站，对方搬完 33 篇文章、188 张图和 24 份食谱印刷页，付款和上线前会先停下来问一声。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "Medium",
+        "Mochi",
+        "WordPress"
+      ]
+    },
+    {
+      "id": "note-sion-gig",
+      "added": "2026-10-22",
+      "title": "应征草稿交给 Grok Bot，五百字体验稿扣完到手 390 日元",
+      "url": "https://note.com/sion4649/n/nf41819fc3644",
+      "blurb": "找外包单和写应征稿交给 Bot，本人只核对再自己投，云工作上 500 字体验稿被录用，他答了四个问题并手改后交付，扣完手续费到手 390 日元。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "CrowdWorks"
+      ]
+    },
+    {
+      "id": "jike-sky-clickpath",
+      "added": "2026-10-22",
+      "title": "sky陈天：方案留在云电脑，重复点测改派 Cursor 云代理",
+      "url": "https://m.okjike.com/originalPosts/6ad45219756bbb6658b56e35",
+      "blurb": "一千美元旧套餐里 Grok Bot 额度和 Cursor 分开算，方案仍由云电脑上的 Claude Code 写成 PLAN.md，重复点测改走 Cursor 云代理并截图，Codex 只挡必须修的问题，测试专家只留复杂的多账号权限核对。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "即刻",
+        "sky陈天"
+      ]
+    },
+    {
+      "id": "reddit-mini-outsource",
+      "added": "2026-10-22",
+      "title": "旧 Mac mini 当桥：Grok Bot 派活，Claude 写代码，Codex 审过再合并",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xbqn0x/outsource_outsource_outsource/",
+      "blurb": "作者把用了十年的 Mac mini 用 SSH 接到 Grok Bot，代码交给 Claude 写、Codex 通过后再合并，Bot 自己不再写代码，这套加上 Muse 已经在撑一门生意。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Reddit",
+        "Mac mini"
+      ]
+    },
+    {
+      "id": "reddit-oslo-ipad",
+      "added": "2026-10-22",
+      "title": "奥斯陆退休者只用 iPad，让 Grok Bot 核对链接并更新工具站",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xb0ted/use_case_a_retiree_in_oslo_built_a_whole_website/",
+      "blurb": "一位不会编程的退休者只用 iPad，让 Grok Bot 核对几百个链接、标出已关站的工具并更新网站，每次改动仍由他自己看过再批准。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-wavegod-audit",
+      "added": "2026-10-22",
+      "title": "另做一只 Bot 审计例程，没有新活就让它们继续睡",
+      "url": "https://x.com/wavegod/status/2112961302767493490",
+      "blurb": "他让这只 Bot 把「有没有新活」可以精确判断的例程改成先跑小脚本，0 就继续睡、10 才叫醒、20 代表脚本坏了也要醒，第一轮在 13 只 Bot 的 20 条例程里有 2 条过了零风险，其中 1 条已经上线，发信、付钱和发帖一律不交给脚本。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "forum-slack-unbound",
+      "added": "2026-10-22",
+      "title": "同事只在 Slack 里使唤 Bot，个人连接答不了没绑账号的人",
+      "url": "https://forum.cursor.com/t/grok-bot-ultra-unreliable-for-business-use-credit-balance-load-failure-slack-drops-router-bot-degradation-under-load-insufficient-native-memory-project-task-tracking/175613",
+      "blurb": "一家公司让从不打开 Grok Bot 的同事在 Slack 里写稿、核价和做合规，背后用自建监听把消息打进 webhook，再由大约十四个 Bot 分工，员工说个人 Bot 只回答主人，团队 Bot 按被回答那个人自己的额度计费，没有未绑定同事走主人账号的开关。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Slack"
+      ]
+    },
+    {
+      "id": "note-watchlater-grit",
+      "added": "2026-10-22",
+      "title": "同样啃一千二百条待看，Grok Bot 比 Claude Code 更不放弃",
+      "url": "https://note.com/s_s_p_y/n/nc4ef984a0fcd",
+      "blurb": "1221 条稍后观看里，Claude Code 连着被拦、做到 51 条就停，Grok Bot 被拦一百多次仍隔一阵再试，大约 33 小时拿到 677 条并摘要了其中 613 条，写这篇时已经到 930 条、818 条摘要。",
+      "section": "reviews",
+      "tags": [
+        "视频",
+        "跑腿"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "note-dots-one-poster",
+      "added": "2026-10-22",
+      "title": "投稿从 dots 搬回 Grok Bot，两只 Bot 抢了同一单",
+      "url": "https://note.com/r1250_gs/n/nf3caafbe270e",
+      "blurb": "10 月 13 日起，X、Instagram、Shorts 和讲解视频改由 Grok Bot 的云电脑每天自动发，17 日发现两只 Bot 拿着同一条发布任务同日又跑了一遍，因为这一台电脑上的登录和文件是全体共用的，之后改成只留一只发帖。",
+      "section": "reviews",
+      "tags": [
+        "运营",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "dots"
+      ]
+    },
+    {
+      "id": "grokbot-kit-wake",
+      "added": "2026-10-22",
+      "title": "编码代理做完或要权限时，只叫醒派出它的那只 Bot",
+      "url": "https://github.com/rodrigo-pasini/grokbot-kit",
+      "blurb": "这套工具包包住 OpenCode、Claude Code 和 Codex 的运行，只在做完、失败或停在权限提示时，去打派出任务的那只 Grok Bot 的例行 webhook。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "nuncio-grokbot-cli",
+      "added": "2026-10-22",
+      "title": "让 Claude Code 或 Codex 用命令行和 MCP 驱动你的 Bot",
+      "url": "https://github.com/Nuncio-hq/grokbot-cli",
+      "blurb": "装上这个命令后，别的编程代理可以沿用本机 Grok Bot 的登录，列出 Bot、回答审批、雇新 Bot，并管理技能和例行。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP"
+      ]
+    },
+    {
+      "id": "send-to-grok-bot",
+      "added": "2026-10-22",
+      "title": "在 X 帖子上点一下，把内容送进 Grok Bot 例行",
+      "url": "https://github.com/jamespendry/send-to-grok-bot",
+      "blurb": "浏览器扩展和 iPhone 分享菜单给每条帖子加发送按钮，接到你自己的例行 webhook 后，回复会回到 Grok Bot 的聊天里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "GitHub",
+        "Chrome"
+      ]
+    },
+    {
+      "id": "grokbot-box-heal",
+      "added": "2026-10-22",
+      "title": "云电脑被重置或休眠后，把 Tailscale 和软件基线装回去",
+      "url": "https://github.com/heyalchang/grokbot-box-heal",
+      "blurb": "平台更新会清掉盒子里的软件和 Tailscale 状态，这套脚本用 /workspace 里的离线备份把主机名、节点和常用包装回去，并踢掉休眠后卡住大约十五分钟的死连接。",
+      "section": "skills",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "forum-preflight-skill",
+      "added": "2026-10-22",
+      "title": "删除、外发或付款前，先让 Bot 做完四项不可逆预检",
+      "url": "https://forum.cursor.com/t/free-skill-a-preflight-check-before-your-grok-bots-delete-send-or-pay/175522",
+      "blurb": "有人的 Bot 把一笔一个月前已还清的贷款放进了再次付款名单，于是贴出一份可直接存成技能文件的免费检查：动手前要核对精确对象、把范围收成一件事、写明怎么撤回，并且金额必须回到收据或页面而不是聊天记忆，检查通过本身也不等于已经获准。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "reddit-home-browse",
+      "added": "2026-10-22",
+      "title": "云端 IP 被拦后，开源 MCP 改走家里网络浏览",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xaf1ij/my_cloud_bots_kept_getting/",
+      "blurb": "云端 IP 抓亚马逊和新闻站会吃 Cloudflare 的 403，这个开源 MCP 改用家里 Tailscale 机器代为浏览并继承登录会话，接到 Grok Bot 的自定义连接器时还要在前面加一层公网 HTTPS 隧道。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Reddit",
+        "Tailscale",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "noid-bot",
+      "added": "2026-10-22",
+      "title": "noid：开源常驻小队共用一台电脑，危险动作在手机上点允许",
+      "url": "https://github.com/noid-one/noid-bot",
+      "blurb": "每只 Bot 有自己的会话，主 Bot 盯着其他人，共用的桌面电脑跑在你自己的机器上，危险动作要在手机上点允许，中途重启也能接着做。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Pi"
+      ]
+    },
+    {
+      "id": "forum-host-pause",
+      "added": "2026-10-22",
+      "title": "云电脑没人用就会连内存带磁盘暂停，定时进程叫不醒它",
+      "url": "https://forum.cursor.com/t/grok-bot-bots-computer-paused-by-the-host-for-9-5-h-overnight-no-crash-inside-the-vm-plus-repeated-5-120-min-pauses/175562",
+      "blurb": "员工确认云电脑在没有 Bot 正在干活、也没有人开着应用时会过几分钟连内存带磁盘一起暂停，WhatsApp 同步、cron 和 rclone 这类进程不算活动，所以会跟着冻住，过夜的活要改成例行任务来叫醒它，Bot 自己起的命令最多撑大约 30 分钟，重置也改变不了这个行为。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-attach-locked",
+      "added": "2026-10-22",
+      "title": "聊天附件删不掉，那句暂时不可用其实是永久拒绝",
+      "url": "https://forum.cursor.com/t/grok-bot-cant-delete-chat-attachments-resource-temporarily-unavailable/175530",
+      "blurb": "员工说对话里上传的文件放在 Bot 只能读不能改的保护区，所以命令行、桌面文件管理和清空内容都会失败，报错 Resource temporarily unavailable 并不是过一会儿能重试的故障，目前没有按文件删除的办法，删掉整个 Bot 会一并清掉这些上传，但聊天记录也没了。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-card-greyout",
+      "added": "2026-10-22",
+      "title": "点了一张操作卡片，前面还没回答的卡片会一起变灰",
+      "url": "https://forum.cursor.com/t/grok-bot-answering-one-action-card-greys-out-the-others/175601",
+      "blurb": "员工说 Bot 同时只保留一个未回答的问题，例行任务或其他 Bot 插进来发出新卡片后，你点了较新的那张，更早的卡片就会变灰关掉，这时直接在对话里打出答案它仍会照做，不必让它把卡片重发一遍。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "x-hongfa-subtasks",
+      "added": "2026-10-22",
+      "title": "十小时用量拆开：近九成 token 花在后台子任务",
+      "url": "https://x.com/hongfaqiu/status/2112965984097337715",
+      "blurb": "他把设置里导出的用量 CSV 交回 Grok Bot，十小时里 8915 次调用、约 11.5 亿 token，聊天只占约一成，近九成花在后台子任务上，下一条则要求子任务别空转超过五分钟、上下文在约 12 万 token 收口，并限制每只助手同时只开两个子任务。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "X"
       ]
     }
   ]
