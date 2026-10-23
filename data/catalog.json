@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "sections": [
     {
       "id": "official",
@@ -34402,6 +34402,491 @@
       ],
       "aliases": [
         "Reddit"
+      ]
+    },
+    {
+      "id": "forum-profile-stall",
+      "added": "2026-10-24",
+      "title": "启动文件里的后台循环会让每条命令空等 840 秒",
+      "url": "https://forum.cursor.com/t/grok-bot-shell-dead-since-oct-22-every-command-stalls-840s-bashrc-unreadable-profile-autostart-loop-update-reset-dont-help/175866",
+      "blurb": "员工确认启动文件里那行后台自启会占住命令输出，每条命令都要空等 840 秒才超时，更新和重置都会把这行带回来，用 CopyFromBox 改完再拷回后若更新显示已是最新就不会重启，常驻程序应改由例行任务启动。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "CopyFromBox"
+      ]
+    },
+    {
+      "id": "jike-phone-apps",
+      "added": "2026-10-24",
+      "title": "歸藏：手机连接应用已能交日历、通讯录、位置和苹果家庭",
+      "url": "https://m.okjike.com/originalPosts/6adad93bcfb5d08b3ef173f0",
+      "blurb": "手机设置的连接应用里已经能把日历、通讯录和位置交给 Bot，苹果家庭也能连上但作者还不确定能不能控制设备，健康数据仍然没有。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "插件"
+      ],
+      "aliases": [
+        "即刻",
+        "歸藏"
+      ]
+    },
+    {
+      "id": "youtube-matt-team",
+      "added": "2026-10-24",
+      "title": "Matt Palmer：把营销审核岗做成全队副本，Slack 里就能审",
+      "url": "https://www.youtube.com/watch?v=A3-qLhe46Dw",
+      "blurb": "营销审核这条只挂改稿和审稿两个技能，做成团队副本之后同事能在 Slack 或微软 Teams 里点名它，每人对话分开，例行、密钥、技能、记忆和云电脑会跟着走，目前只对 Teams 与 Enterprise 方案开放。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer",
+        "Team Bot"
+      ]
+    },
+    {
+      "id": "x-danny-brokers",
+      "added": "2026-10-24",
+      "title": "Danny：Grok Bot 清掉全家的数据经纪商信息后，垃圾电话归零",
+      "url": "https://x.com/DThompsonDev/status/2113389792960319650",
+      "blurb": "他让 Bot 按各州注册表删掉自己和妻子在数据经纪商上的资料，几天后垃圾电话停了，收件箱堆满删除回执，回复里的提示要求先给草稿再发送、不准上传证件。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "data broker"
+      ]
+    },
+    {
+      "id": "note-moeka-week",
+      "added": "2026-10-24",
+      "title": "两周里用分身 Bot 管邮件草稿、请客菜单和旅行预订",
+      "url": "https://note.com/moekasunokasu/n/nec884076bfd9",
+      "blurb": "10月9日开始用的两周里，献立 Bot 会记下客人过敏和上次做过的菜再排除，并按超市货架拆采购单，旅行 Bot 则把行程写入 TimeTree，问酒店有没有牙刷时不用自己去翻预订邮件。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "TimeTree"
+      ]
+    },
+    {
+      "id": "note-marikka-li",
+      "added": "2026-10-24",
+      "title": "LinkedIn 担当每天记一行，六天粉丝从 580 到 661",
+      "url": "https://note.com/marikkadayo/n/n933e0144cf01",
+      "blurb": "LinkedIn 担当大约每天早上十点记一行粉丝和连接数，10月14日到20日粉丝从580增到661，有两天浏览器登的是空账号，漏记被写成未取得而不是零。",
+      "section": "cases",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "LinkedIn"
+      ]
+    },
+    {
+      "id": "zenn-kyto-devin",
+      "added": "2026-10-24",
+      "title": "按仓库拆 Bot 做个人开发，写代码改走 Devin",
+      "url": "https://zenn.dev/kyto64/articles/ai-bot-dev-env",
+      "blurb": "统括 Bot 管共同规则，各仓库、选题和这篇 Zenn 稿各有一只 Grok Bot，Cursor 云代理和 Grok Bot 共用额度后写代码改由各 Bot 去开 Devin 的 API 会话，人只看意图和危险改动。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Zenn",
+        "Devin"
+      ]
+    },
+    {
+      "id": "note-labelmake",
+      "added": "2026-10-24",
+      "title": "搁置的印刷标签站重新交给 GrokBot 盯邮件、收款和报错",
+      "url": "https://note.com/kyohei_dev/n/n512cd835d89d",
+      "blurb": "labelmake 的担当每隔几小时读 Gmail 并起草回复，Stripe 从 Firebase 扩展迁到 Cloud Functions 时由 GrokBot 盯日志，作者用自己的账号走了两遍订阅、取消和退款，两边事件差分为0才切换。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "Stripe",
+        "labelmake"
+      ]
+    },
+    {
+      "id": "note-tanaka-issue",
+      "added": "2026-10-24",
+      "title": "把 Grok Bot、dots 和 Muse 拉进同一条 GitHub 议题里改组织方案",
+      "url": "https://note.com/tanaka936/n/n2f773e7a90e4",
+      "blurb": "同一条 GitHub Issue 里，Grok Bot、dots 和 Muse 先各自说明能做什么，随后发现 Muse 每写一条评论仍要人点批准，自动互相应答作者写明还在验证。",
+      "section": "cases",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "Muse",
+        "dots"
+      ]
+    },
+    {
+      "id": "reddit-samsung-tv",
+      "added": "2026-10-24",
+      "title": "给三星电视接上自建连接器后，Grok Bot 可以自己打开 YouTube",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xdjty2/conect%C3%A9_grok_bot_a_mi_tv_samsung_y_ahora_le_pido",
+      "blurb": "Mac mini 上三个函数分别负责打开 YouTube、按键和查询状态，三星 AU7000 要靠网络唤醒才能开机，搜索只能在屏幕键盘上逐字敲，主机一旦睡眠整条链路就断。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "Reddit",
+        "Samsung"
+      ]
+    },
+    {
+      "id": "reddit-skill-six",
+      "added": "2026-10-24",
+      "title": "六个 Grok Bot 分工维护开源技能目录",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xdedgo/i_run_6_grok_bots_as_a_small_team_they_help",
+      "blurb": "工程 Bot 按工作日盯仓库，并用 Cursor 云代理做过一次安全复查、跟了加固提交，另一次研究把测不可信技能的沙箱定成不放密钥、单个仓库花费硬顶 1 美元。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-refund-358",
+      "added": "2026-10-24",
+      "title": "对过旧账和保单后，Grok Bot 帮作者追回 358.57 英镑",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xcqrta/positives_with_grok_bot_after_moaning_earlier",
+      "blurb": "它从两个银行账户里对出 2024 年误付给会计师、本属另一客户的 240 英镑，又发现东西卖掉后保险没改，补上出售证明后拿到 119 英镑退款，两封邮件都是人改完才发出。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "devto-alpaca-week",
+      "added": "2026-10-24",
+      "title": "把五十美元交给 Grok Bot 实盘一周：eToro 被拦后改走 Alpaca",
+      "url": "https://dev.to/axagen/i-let-an-ai-bot-trade-real-money-for-a-week-results-50-live-20k-paper-3l2f",
+      "blurb": "云电脑浏览器登录 eToro 被判可疑活动后，他改用 Alpaca 接口把 50 美元交给 Grok Bot 实盘一周，净亏 0.38 美元，一万模拟股票亏 88 美元，加密模拟大约跌 2.7%。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "DEV",
+        "Alpaca",
+        "eToro"
+      ]
+    },
+    {
+      "id": "grokbot-inbox",
+      "added": "2026-10-24",
+      "title": "Bot 收件箱浏览器：正文留在链接片段里本地打开",
+      "url": "https://github.com/mascarock/grokbot-inbox",
+      "blurb": "Bot 只读导出自己的邮箱并回一条链接，页面在浏览器里解开片段里的压缩内容，服务器看不到正文，超长时再改发文件。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "grokbot-discord-slash",
+      "added": "2026-10-24",
+      "title": "Discord 斜杠命令经 Cloudflare 转给 Grok Bot 例行",
+      "url": "https://github.com/hunvreus/grokbot-discord",
+      "blurb": "Cloudflare Worker 负责 Discord 的签名校验、三秒应答和延迟回复，再把斜杠指令交给例行 webhook，名单之外的人叫不醒 Bot。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Discord",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "grokbot-jarvis",
+      "added": "2026-10-24",
+      "title": "Jarvis：让 Grok Bot 看着屏幕操作你的 Mac",
+      "url": "https://github.com/pinjun99/Grokbot_Jarvis",
+      "blurb": "这台 Mac 上的连接器给 Bot 截图、鼠标、键盘和打开应用的能力，每次动作都先过你设的权限，该确认时会弹窗。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Mac",
+        "MCP"
+      ]
+    },
+    {
+      "id": "tesla-grokbot",
+      "added": "2026-10-24",
+      "title": "只读 Tesla 连接器：电量、充电和每周里程",
+      "url": "https://github.com/naoiseirwin/Tesla-Grokbot-Connector",
+      "blurb": "连接器跑在你自己的 Bot 电脑上，车子睡着时用上次快照回答，不为此唤醒，锁车和开空调默认不在这个服务里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "GitHub",
+        "Tesla"
+      ]
+    },
+    {
+      "id": "chief-of-staff-kit",
+      "added": "2026-10-24",
+      "title": "幕僚水管：聊天推进例行，外发先等你批准",
+      "url": "https://github.com/markmcnair/chief-of-staff-kit",
+      "blurb": "Beeper 桌面和 Mac 信息里的新消息会交给 Grok Bot 的 webhook 例行，拟好的回复只有标成已批准才会真正发出。",
+      "section": "skills",
+      "tags": [
+        "跑腿",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Beeper"
+      ]
+    },
+    {
+      "id": "grok-esp32-sdk",
+      "added": "2026-10-24",
+      "title": "ESP32 上的非官方 Grok Bot 组件",
+      "url": "https://github.com/RongleCat/grok-bot-esp32-sdk",
+      "blurb": "给 ESP-IDF 工程用的 C++ 组件能在设备上登录、列出 Bot 并分段收下回复，头像参数与桌面端对齐，图像渲染不在组件里。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "ESP32"
+      ]
+    },
+    {
+      "id": "vesper-bridge",
+      "added": "2026-10-24",
+      "title": "Vesper：用 Grok Bot 监督本机编程代理",
+      "url": "https://github.com/Vedant817/vesper-grok-bot-bridge",
+      "blurb": "Bot 经连接器启动编程 CLI，在隔开的 git 工作区里续同一会话，你收下结果之前要先看到真实跑过的验证。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP"
+      ]
+    },
+    {
+      "id": "krea-grok-plugin",
+      "added": "2026-10-24",
+      "title": "Krea：在 Grok Bot 里直接出图和出视频",
+      "url": "https://x.ai/bot/plugin/70800059",
+      "blurb": "市场页上这一条由 Krea 发布，点进去就能加到 Grok Bot，出图和出视频都走它的创作套件。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "视频"
+      ],
+      "aliases": [
+        "Krea",
+        "Cursor Marketplace"
+      ]
+    },
+    {
+      "id": "x-yanqing-skills",
+      "added": "2026-10-24",
+      "title": "写技能时，常驻说明会压过技能，Bot 还懒得翻页",
+      "url": "https://x.com/YanqingCheng/status/2113572103685394613",
+      "blurb": "他调复杂模板时记下四条：任务默认被丢给后台帮手，常驻说明每轮都在而技能要 Bot 自己点开，描述显得又长又复杂就会被跳过，点开后也常常只读第一页。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "youtube-sv101",
+      "added": "2026-10-24",
+      "title": "硅谷101：彭政讲数字团队、长期委托，以及和 Muse、Instinct 的入口差别",
+      "url": "https://www.youtube.com/watch?v=ARocqV7DtC8",
+      "blurb": "SpaceXAI 设计师彭政在对谈里拆开长期委托，人成了瓶颈之后数字团队怎样分工、记忆怎样交接，并和 Muse、Instinct 的入口放在一起看。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "硅谷101",
+        "彭政"
+      ]
+    },
+    {
+      "id": "hermes-office",
+      "added": "2026-10-24",
+      "title": "Hermes Office：自己电脑上可验收的 CLI 团队",
+      "url": "https://github.com/severusgao/hermes-office",
+      "blurb": "在 Linux 上用 Hermes 搭一位主任和多名原生 CLI 员工，复杂任务先出计划等你确认，干活的人不能给自己的结果做审计。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "forum-host-oom",
+      "added": "2026-10-24",
+      "title": "依赖装在工作目录外面，备份会多到换不了新电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-unusable-host-process-leaks-memory-until-its-killed-update-doesnt-replace-machine-ticket-t-i16486/175816",
+      "blurb": "员工说宿主进程会随文件数量把内存吃满，更新必须等备份做完才换机器，内存不够时备份完不成就会留在原机，node_modules、dist、build 只有放在 /workspace 里才不逐个文件备份。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "工程"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-partial-keeps",
+      "added": "2026-10-24",
+      "title": "重置失败报半成品时，旧电脑和文件还在",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-stuck-in-partial-state-after-reset-failed/175848",
+      "blurb": "员工说云电脑一换新，头几分钟里的命令会挂大约 14 分钟，所以聊天还能回、画面却出不来，重置失败时那句半成品是把没拷完的新电脑扔掉，原来的电脑连同 Bot、文件和登录都留着。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-win-cert-store",
+      "added": "2026-10-24",
+      "title": "公司笔记本即使用热点，安全软件仍会拦 Grok Bot",
+      "url": "https://forum.cursor.com/t/not-able-to-create-bots-blank-screen-v28-windows/170239",
+      "blurb": "员工说公司电脑上的安全软件离开办公室、改用手机热点也仍会检查流量，所以个人电脑正常而公司电脑一片空白，Grok Bot 现在会信任 Windows 证书存储里这些工具装上的证书，IT 可以按文档里的 TLS 检查代理来放行。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Windows",
+        "TLS"
+      ]
+    },
+    {
+      "id": "forum-spawn-eperm",
+      "added": "2026-10-24",
+      "title": "Windows 本地命令报 spawn EPERM，要连残留进程一起退出",
+      "url": "https://forum.cursor.com/t/grok-bot-0-70-2-windows-local-exec-keeps-dropping-temporarily-unreachable-on-a-high-latency-direct-connection-only-stable-with-vpn/174579",
+      "blurb": "员工说 0.72 起慢链路断一下之后会继续送回已经跑完的本地命令结果，升到 0.75 后发帖人不再出现暂时不可达，若报的是 spawn EPERM，则是 Windows 在命令启动前就拒绝了它，彻底退出并清掉残留进程再打开，通常能再跑一段时间。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Windows"
+      ]
+    },
+    {
+      "id": "x-xchat-wipe",
+      "added": "2026-10-24",
+      "title": "接入 X Chat 会一次导入全部 Bot，在那边删除会连本体一起删掉",
+      "url": "https://x.com/testerlabor/status/2113685835816096093",
+      "blurb": "他把账号连上 X Chat 之后，四十三只 Bot 被全部加进会话，而在 X Chat 里删掉一只，会把这只 Bot 和全部聊天记录从各处一起清掉。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "X Chat"
+      ]
+    },
+    {
+      "id": "note-ms-closed",
+      "added": "2026-10-24",
+      "title": "电脑合上后，说好周三中午发的稿拖到周四",
+      "url": "https://note.com/ms20000202609/n/ndb9609a1cdda",
+      "blurb": "发 note 走的是用户自己的电脑，10月21日中午电脑关着，备好的稿拖到22日12:48才发出，改从 GitHub Actions 发了四次，后三次仍然失败。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "GitHub Actions"
       ]
     }
   ]
