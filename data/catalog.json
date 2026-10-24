@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "sections": [
     {
       "id": "official",
@@ -34887,6 +34887,507 @@
       "aliases": [
         "note",
         "GitHub Actions"
+      ]
+    },
+    {
+      "id": "forum-team-bot-where",
+      "added": "2026-10-25",
+      "title": "普通新建只会做出个人 Bot，团队 Bot 在新对话底部",
+      "url": "https://forum.cursor.com/t/team-bot-creation-single-account-transitioned-to-team-account/175925",
+      "blurb": "员工说个人方案在第二个人接受邀请后就能建团队 Bot，应用里的新建按钮永远只建个人 Bot，要从新对话底部的团队 Bot 进入创建，完成后先只有自己能看到，设置结束会出现发布给团队的卡片，仪表盘上的加号只负责打开已登录的桌面应用。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "zenn-m5paper-firebase",
+      "added": "2026-10-25",
+      "title": "早晚把日历和新闻写上电子纸，一行最多十八个字",
+      "url": "https://zenn.dev/nananauno/articles/050a516fc2869c",
+      "blurb": "大约 7:30 只读日历、21:00 从网页和官方 X 收三到五条能核实的消息，经 Firebase 只准改显示用的那份 JSON，电子纸一行最多十八个全角字，作者用代码数行数，因为只吩咐模型经常超。",
+      "section": "tutorials",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "Zenn",
+        "M5PaperMono",
+        "Firebase"
+      ]
+    },
+    {
+      "id": "note-aibot-file-handoff",
+      "added": "2026-10-25",
+      "title": "四只 Grok Bot 把材料和配图放进同一台电脑的文件里写 note",
+      "url": "https://note.com/aibot_lab/n/n4111f6cee2a3",
+      "blurb": "调研、配图、校对和执笔各一只，材料写进共享电脑上的文件再交接，校对要求改掉一句会被读成真实读者感想的话，群里互相道谢也因为费额度被停掉。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "AIボット活用ラボ"
+      ]
+    },
+    {
+      "id": "x-yarchi-manual",
+      "added": "2026-10-25",
+      "title": "用了一个月后写成的实地手册：登录、技能、例行和审批",
+      "url": "https://x.com/undefinedKi/status/2113972662506541522",
+      "blurb": "他按自己经营 X 账号和代理公司的顺序写下每一步该点哪里：有连接器的先连上，没有的用接手屏幕登录而不是把密码贴进聊天，任务先存成技能再改成例行，并写明例行发出的审批大约十分钟过期，欧盟、英国和澳大利亚等地的账号 @bot 不会响应。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "X",
+        "Yarchi"
+      ]
+    },
+    {
+      "id": "youtube-fussa-sales",
+      "added": "2026-10-25",
+      "title": "电话里建起销售组，重活交给云电脑上的 Codex",
+      "url": "https://www.youtube.com/watch?v=pqaYbn5DGUA",
+      "blurb": "这期让上司 Bot 当场造出下属并拉群，一通电话就能拉起 YouTube 五人组和销售组，缩略图这类重活放进云电脑里的 Codex 或 Claude Code，手机上也能接着改。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "销售"
+      ],
+      "aliases": [
+        "YouTube",
+        "fussa"
+      ]
+    },
+    {
+      "id": "forum-vault-once",
+      "added": "2026-10-25",
+      "title": "密码库只做一次 CSV 导入，1Password 要另接连接器",
+      "url": "https://forum.cursor.com/t/grok-bot-vault-live-two-way-sync-with-other-password-managers/175964",
+      "blurb": "员工说从 1Password、Bitwarden 等导入 CSV 只是一次性拷贝，之后两边的修改都不会互相同步，密码库本身会在 Grok Bot 的桌面和手机之间保持一致，要让 Bot 直接用 1Password 里的最新登录，得在桌面版连接器里单独连接，那条连接不写入密码库，也不写回 1Password。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "1Password",
+        "Vault"
+      ]
+    },
+    {
+      "id": "bili-quota-errands",
+      "added": "2026-10-25",
+      "title": "一个月五千元额度拆开：界面代订家政、挂号和买药",
+      "url": "https://www.bilibili.com/video/BV1RmHN6wEtt",
+      "blurb": "一个月五千元额度被拆成个人、公司和日常工作三块，接口接不上美团和携程就改走界面，暂停充电宝计费、约家政、挂号买药和查健身支出都是已经跑过的活。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "多Bot",
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "Bilibili"
+      ]
+    },
+    {
+      "id": "note-tanaka-cancel",
+      "added": "2026-10-25",
+      "title": "二十年旧账号交给 1Password，停刊和退订先只让 Grok Bot 试",
+      "url": "https://note.com/tanaka936/n/n39f310e08e72",
+      "blurb": "Muse 的 1Password 还没开通，作者改用 Grok Bot 逐次批准登录，停掉无用邮件并退订部分闲置服务，密码不进对话，初期也不含通行密钥。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "安全",
+        "插件"
+      ],
+      "aliases": [
+        "note",
+        "1Password",
+        "tanaka936"
+      ]
+    },
+    {
+      "id": "zenn-yufuyu-week",
+      "added": "2026-10-25",
+      "title": "棒球速报、漫画更新和收紧权限的 Cloudflare，Premium 用了一周",
+      "url": "https://zenn.dev/yufuyu/articles/b9abe2ac2e02ee",
+      "blurb": "中日龙和中央联盟的速报、午休前的不定期漫画、早晚的 AI 雷达各一只，Cloudflare Access 只开了改策略需要的权限，Premium 大约一周后作者觉得再叠着写代码额度会紧。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "Zenn",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "reddit-deep-dive",
+      "added": "2026-10-25",
+      "title": "自建 Deep Dive：研究结论要带来源链接和置信度",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xczeob/deep_dive_a_deepresearch_grok_bot_i_built_that",
+      "blurb": "它先复述问题再分头去读政府文件、论文和论坛原文，关键说法尽量用两个独立来源对过，结论按高中低标把握，答完先给两三句，再附上能打开的链接和还没核实的点。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "Reddit",
+        "Deep Dive"
+      ]
+    },
+    {
+      "id": "reddit-exam-titles",
+      "added": "2026-10-25",
+      "title": "考试站改名后，让 Grok Bot 改标题并补练习题",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xdvswf/using_grok_bot_to_update_my_stale_website",
+      "blurb": "考试名称变了，作者让它配合 SEO 和写作工具改页面标题，并调用别的模型补练习题，这个站现在每月大约三十美元广告花费，想看订阅费能不能被多出来的收入盖住。",
+      "section": "cases",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "substack-nz-macro",
+      "added": "2026-10-25",
+      "title": "两个定时例行，把美股宏观风险收成早上的日报",
+      "url": "https://fallfallingfallen.substack.com/p/grok-bot",
+      "blurb": "一位在新西兰、不会写代码的美股新手用 Grok Bot 的云端电脑跑两个例行，奥克兰时间早上约 8:07 送出头条、入场风险温度计，以及一张来自 FRED、multpl、财经站和美联储官网的指标表，免费部分写到指标清单和微信长图为止。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "上手"
+      ],
+      "aliases": [
+        "Substack",
+        "FRED"
+      ]
+    },
+    {
+      "id": "substack-dataforseo-audit",
+      "added": "2026-10-25",
+      "title": "SEO 专员连上 DataForSEO，三轮审计交给 Cursor",
+      "url": "https://justinbutlion.substack.com/p/training-ground-quicksand-product-feedback",
+      "blurb": "在一份生意近况里，他把 DataForSEO 接到 Grok Bot 的 SEO 专员上，用 Lighthouse 接口跑了三轮站内审计，约八小时里把七类修复交给 Cursor，另外用市场和分析 Bot 的群聊给通讯写了三十天转向计划。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "DataForSEO",
+        "Justin Butlion"
+      ]
+    },
+    {
+      "id": "x-nori-video-factory",
+      "added": "2026-10-25",
+      "title": "幕僚长的云电脑装上视频工厂，Higgsfield 却登进了免费号",
+      "url": "https://x.com/uelitonsantos/status/2114054456056701295",
+      "blurb": "他把自建的视频剪辑流水线装进幕僚长 Nori 的云电脑，用 whisper.cpp 换掉有许可证的转录工具，并记下 Higgsfield 连接器会跟错 Google 账号，无痕窗口授权后才能把四天后到期、还剩 653 点的额度花在备用镜头和封面上。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "Higgsfield",
+        "Nori"
+      ]
+    },
+    {
+      "id": "youtube-etsy-printful",
+      "added": "2026-10-25",
+      "title": "真店实测：一张图做成 Etsy 在售商品，含海报、标签和样机",
+      "url": "https://www.youtube.com/watch?v=CbYSlE6CeDE",
+      "blurb": "他们把正在经营的 Printful 加 Etsy 按需印刷店交给 Bot，它放大原图、做好海报草稿、登录 Etsy 填上十三个标签并上传六张样机，开头的设计很差，中途也卡过几次。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "Etsy",
+        "Printful"
+      ]
+    },
+    {
+      "id": "team-handoff-skill",
+      "added": "2026-10-25",
+      "title": "把反复的大活拆成靠文件交接的 Bot 团队",
+      "url": "https://github.com/ThreeArisesAll/grok-bot-team-builder",
+      "blurb": "这份技能会先判断值不值得组队，点头后按一人一事建好 Bot 和交接文件，人只守决策点，仓库里还留着一支三人周报的试跑记录。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "grokbox-restic",
+      "added": "2026-10-25",
+      "title": "Bot 云电脑的加密时光机备份",
+      "url": "https://github.com/dorukardahan/grokbox",
+      "blurb": "Bot 云电脑会搬家也会回滚，这套脚本把工作目录加密快照到你自己的网盘，并在文件突然变少变旧时停止上传。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "restic"
+      ]
+    },
+    {
+      "id": "kindle-courier",
+      "added": "2026-10-25",
+      "title": "Kindle 信使：把公开文章和视频收成电子书再寄出",
+      "url": "https://github.com/george988/kindle-courier",
+      "blurb": "公开模板能把文章、帖子和视频字幕收成校验过的电子书寄到 Kindle，寄出前核对已批准的收件地址，邮箱发出和设备上真收到分成两种状态。",
+      "section": "skills",
+      "tags": [
+        "跑腿",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Kindle"
+      ]
+    },
+    {
+      "id": "bot-beacons",
+      "added": "2026-10-25",
+      "title": "Windows 桌面 Bot 灯标：有事才亮",
+      "url": "https://github.com/SnazzyGaz/bot-beacons",
+      "blurb": "不用开着 Grok Bot 窗口，每个 Bot 在 Windows 桌面上有一盏小灯，有事才发光并给出一行摘要，你也可以从气泡里直接回一句。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Windows"
+      ]
+    },
+    {
+      "id": "grokctl",
+      "added": "2026-10-25",
+      "title": "从终端把任务交给桌面里的 Bot",
+      "url": "https://github.com/lucasjsbarbosa/grokctl",
+      "blurb": "Claude Code 或 Codex 可以用命令让本机已登录的桌面端切换 Bot、送出任务并读回结果，调试端口开着时这台电脑上的任何程序都能控制它。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "grokctl"
+      ]
+    },
+    {
+      "id": "claudia-promises",
+      "added": "2026-10-25",
+      "title": "Claudia：盯住承诺、早上催你的幕僚 Bot",
+      "url": "https://github.com/kbanc85/claudia-grokbot",
+      "blurb": "装上这个公开模板后，它会从邮件、日历和通话里记下你欠别人和别人欠你的承诺，逾期前先提醒，对外发送必须你在对话里点头。",
+      "section": "skills",
+      "tags": [
+        "运营",
+        "跑腿"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claudia"
+      ]
+    },
+    {
+      "id": "youtube-renshen-codex",
+      "added": "2026-10-25",
+      "title": "主管视角：Grok Bot 是一队可以交办的下属，Codex 更像自己上手做",
+      "url": "https://www.youtube.com/watch?v=q_WN1voTXkU",
+      "blurb": "他用公司和个人两个账号、一共二十多个 Bot 做对照，实机演示跨账号交办和看板，并讲额度为什么不能每次靠猜，以及自己再搭一层调度时人会先变成这队 Bot 的 IT。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "计费",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube",
+        "人蔘"
+      ]
+    },
+    {
+      "id": "forum-inode-reset",
+      "added": "2026-10-25",
+      "title": "重置卡在 50%：git worktree 把文件数撑到两百多万",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-reset-stuck-at-50-shell-unresponsive-disk-inodes-full/176024",
+      "blurb": "员工核对每次重置都会新建一台电脑再拷回存档，这两百多万个文件大多来自 git worktree，拷到大约七成、体积才约 35GB 就没有新文件的空位，于是停在 Starting Grok Bot computer 并失败，旧电脑仍留着，继续点重置或更新只会再走同一条失败的拷贝。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "工程"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-merge-paused",
+      "added": "2026-10-25",
+      "title": "合并账号时云电脑会暂停，文件会拷到新账号",
+      "url": "https://forum.cursor.com/t/grok-bot-cloud-computer-stuck-starting-please-check-account-merge-linking/175957",
+      "blurb": "员工说合并把 Grok Bot 从旧账号搬过去时会暂停云电脑并拷文件，这段时间聊天还能回，但凡要用到电脑的操作都会被拒并显示还在启动，重启也没用，合并完成后 Bot、对话和电脑文件都在并入的那个账号上。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-cred-service",
+      "added": "2026-10-25",
+      "title": "后台服务停了以后，浏览器和截图会被登录检查直接拒绝",
+      "url": "https://forum.cursor.com/t/grok-bot-browser-and-screenshot-blocked-by-saved-credential-error-update-does-nothing/175929",
+      "blurb": "员工说每次浏览器或截图前都要后台服务确认没有在填已保存的登录，这台机器的服务从 10 月 22 日早上起不再应答，检查就失败关闭，更新也靠同一服务先保存文件所以会拒绝换机，壳和文件仍能用，应先把项目推走再走恢复或重置。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-win-reinstall",
+      "added": "2026-10-25",
+      "title": "Windows 更新写到一半，这台电脑上的 Grok Bot 会没了",
+      "url": "https://forum.cursor.com/t/grok-bot-desktop-app-wont-launch-on-one-windows-pc-after-todays-update/175946",
+      "blurb": "员工说 Windows 安装包会先删旧版本再写入新版本，点了重启更新却没有重新打开时，这台电脑就没有能用的程序，重开机没用，重新下载安装即可，不要删除 AppData 里的 Grok Bot 文件夹，云端 Bot 和云电脑不受影响。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Windows"
+      ]
+    },
+    {
+      "id": "grokbot-wake-relay",
+      "added": "2026-10-25",
+      "title": "Webhook 连打叠跑时的合并唤醒中继",
+      "url": "https://github.com/si4ai/grokbot-wake-relay",
+      "blurb": "实测连续五次 webhook 会叠出五个同时在跑的冷启动，这个中继把忙时攒下的事件合成一次唤醒，并带上上一轮的交接备注。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "GitHub",
+        "webhook"
+      ]
+    },
+    {
+      "id": "reddit-rule-ignored",
+      "added": "2026-10-25",
+      "title": "个人指令刚写上，幕僚长两分钟后就没点名交办",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xddv1f/my_assistant_broke_a_rule_at_the_very_top_of_its",
+      "blurb": "作者要求幕僚长把任务点名交给持续集成 Bot，它却自己开了一个没有主人的后台检查，被追问后承认规则一直写在只能用手机应用编辑的个人指令里，只是没照做。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-ig-scramble",
+      "added": "2026-10-25",
+      "title": "云电脑浏览器往 Instagram 评论框打字会把词序打乱",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xcr3pl/box_browser_scrambles_typed_text_in_instagram",
+      "blurb": "「item through the」会变成「thei temt hrough」，前两三个词还正常，逐词停顿、暂停短视频和改发图片帖都没用，Reddit 和 X 的输入框却正常，回复里有人建议改成先复制再粘贴。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Reddit",
+        "Instagram"
+      ]
+    },
+    {
+      "id": "reddit-named-gmail",
+      "added": "2026-10-25",
+      "title": "三个 Gmail 连接器，Bot 却说一次只能读一个",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xd1r5i/can_grok_bot_monitor_and_manage_multiple_gmail",
+      "blurb": "作者给三个邮箱各接了一次 Gmail 连接器，Bot 仍坚持要读另一家的信就必须先断开这一家，下面有人说连接器可以给多个账号分别起名，其中一位同时接着四个 Gmail 和三个 Outlook。",
+      "section": "community",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "Reddit",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "x-minli-x-login",
+      "added": "2026-10-25",
+      "title": "桌面能用、手机登不上：删掉显示免费的 Cursor 账号，再用 X 登录",
+      "url": "https://x.com/MinLiBuilds/status/2114010237686665712",
+      "blurb": "订阅三周、工单排了一周多之后，他在手机上改用购买订阅的那个 X 账号登录，避开 Gmail 验证码和 Google 一键登录，并在无痕窗口里删掉头像已同步、却仍显示免费的那个 Cursor 账号。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "实践哥"
       ]
     }
   ]
