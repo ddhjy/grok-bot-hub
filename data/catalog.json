@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "sections": [
     {
       "id": "official",
@@ -36438,6 +36438,352 @@
       "aliases": [
         "X",
         "webhook"
+      ]
+    },
+    {
+      "id": "youtube-whats-new-oct27",
+      "added": "2026-10-28",
+      "title": "官方更新：10月27日的页面、加密保险库和苹果应用",
+      "url": "https://www.youtube.com/watch?v=3Edjn34IuzQ",
+      "blurb": "想跟上这周变化的人，可以看 Matt Palmer 这支七分四十四秒：分析结果做成可分享的页面，密码和地址加密进保险库、由它代填进网页而读不到明文，1Password 更好用，并接上 Apple 家庭、提醒、定位、通讯录、闹钟和日历。",
+      "section": "official",
+      "tags": [
+        "插件",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer",
+        "Pages",
+        "Vault"
+      ]
+    },
+    {
+      "id": "x-bot-sales-shared",
+      "added": "2026-10-28",
+      "title": "官方：销售运营的三只共享 Bot 改 CRM、出报价并审非标条款",
+      "url": "https://x.com/bot/status/2115130760009273501",
+      "blurb": "官方账号贴出销售运营组自建的三只共享 Bot，Account Intel 在通话后更新 CRM，Quote 准备提案和订单，Deal 审查非标条款并把例外送去审批。",
+      "section": "official",
+      "tags": [
+        "销售",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "CRM"
+      ]
+    },
+    {
+      "id": "zenn-pr-review-deploy",
+      "added": "2026-10-28",
+      "title": "用 Cloudflare Worker 把 PR 交给 Grok Bot 审完，合并后再发开发版",
+      "url": "https://zenn.dev/unsoluble_sugar/articles/grok-bot-pr-review-dev-deploy",
+      "blurb": "Origin 的 PR webhook 经 Cloudflare Worker 验签后只把编号交给汇总 Bot 的例行任务，审的是 npm 检查、未发布名称、生产地址、内容安全策略和大文件，合并后把最新 main 快照重发到开发环境并做对比、冒烟和截图，合并和上生产仍由人拍板。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "插件"
+      ],
+      "aliases": [
+        "Zenn",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "substack-aimaker-second-brain",
+      "added": "2026-10-28",
+      "title": "用 ChatGPT Dot 和三只 Grok Bot 管 Mac 上的 Obsidian 第二大脑",
+      "url": "https://aimaker.substack.com/p/grok-bot-chatgpt-dot-ai-second-brain",
+      "blurb": "ChatGPT 里的 Dot 白天收链接和语音，Reader、Librarian、Checker 三只 Grok Bot 共用这台 Mac 上的 Obsidian 库，第一小时为了建文件夹连按了十一次只允许一次，Checker 被排在凌晨三点后又自己加了一班二十三点，连续五晚因为没人醒着点允许而没跑成，亲手放行后抓到两条引用对不上出处的说法。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Obsidian",
+        "ChatGPT Dot"
+      ]
+    },
+    {
+      "id": "hn-conf-scan",
+      "added": "2026-10-28",
+      "title": "HN：按工具拆专岗，下载先安检，锁在门外就让另一台机器连回去",
+      "url": "https://news.ycombinator.com/item?id=50260895",
+      "blurb": "brightball 按第三方工具拆专岗并让它们互相群聊，Obsidian 那只在指定机器上经 Dropbox 写日志，安全扫描 Bot 先把文件下到它自己那台在 SpaceX 的电脑上扫完别人才能用，出差被锁在一台机器外时，另一台机器上的 Bot 用 Tailscale 临时授权连回去重启了卡住的进程，另有十四只只为他办了多年的一场会务。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "安全",
+        "运营"
+      ],
+      "aliases": [
+        "Hacker News",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "devto-learning-games",
+      "added": "2026-10-28",
+      "title": "和 Grok Bot 做完一个 1102 页的免费儿童学习站",
+      "url": "https://dev.to/learnwithgames/how-i-built-a-curriculum-mapped-learning-games-site-with-astro-seeded-generators-and-50-test-files-fhb",
+      "blurb": "learnwith.games 有 216 个面向 4 到 11 岁的免费学习游戏、一共 1102 页，托管在 Cloudflare Pages 免费档，代码在 GitHub，没有租服务器、没有数据库、没有广告也没有 cookie，作者写明是和 Grok Bot 一起做完并跑起来的。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "运营"
+      ],
+      "aliases": [
+        "dev.to",
+        "Cloudflare Pages"
+      ]
+    },
+    {
+      "id": "devto-shop-six",
+      "added": "2026-10-28",
+      "title": "网店六只 Bot 头两天：广告删了，验证码和共用登录会卡住",
+      "url": "https://dev.to/axagen/i-set-up-grok-bot-as-a-team-of-ai-agents-for-my-web-shop-first-days-and-what-broke-4a38",
+      "blurb": "他把网店拆成老板、Facebook 主页、广告、选品、速卖通找货和修站六只 Bot，工作日 10 点和 16 点自动发新品，广告 Bot 删掉了旧广告，但验证码和超时的登录要人手点完，而且登一次账号其他 Bot 也能用这个登录。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "销售"
+      ],
+      "aliases": [
+        "dev.to",
+        "Facebook"
+      ]
+    },
+    {
+      "id": "note-four-games",
+      "added": "2026-10-28",
+      "title": "个人游戏工作室十天发出四款：Grok Bot 当窗口",
+      "url": "https://note.com/unsoluble_sugar/n/n8b8216883915",
+      "blurb": "星影用 Grok Bot 当窗口，策划研究、每款游戏的实现、门户、宣传和分析分头干活，十天在门户上发出四款浏览器小游戏，自己留下选题、试玩反馈、合并和是否上生产。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "星影"
+      ]
+    },
+    {
+      "id": "reddit-hvac-roster",
+      "added": "2026-10-28",
+      "title": "暖通自控小公司大约二十只 Bot：警报升级，采购单互相传",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xgrf08/i_run_about_two_dozen_ai_bots_for_my_family_and/",
+      "blurb": "一家小型暖通和楼宇自控公司的老板养了大约二十只各干一件事的 Bot，警报 Bot 从三月起记下大约 2100 条警报，周日早上教堂锅炉和风机一起响就会升级，报价 Bot 用单独账号，工单邮件负责分发，采购告诉财务每一张采购单，收据和发票喂给现金预测，家里的账单交给财务。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "跑腿"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-plumber-voice",
+      "added": "2026-10-28",
+      "title": "水管工的留言和短信，交给 Bot 值了一周前台",
+      "url": "https://x.com/BrianRoemmele/status/2115137540890263705",
+      "blurb": "水管工朋友把 Google Voice 的来电留言和短信交给 Grok Bot 一周，100 通里它约了时间、发了短信和邮件，并处理了 18 起紧急情况，对照的是原先每月大约 500 美元、还经常漏消息的人工留言服务。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Google Voice"
+      ]
+    },
+    {
+      "id": "substack-wangshuyi-walk",
+      "added": "2026-10-28",
+      "title": "走在路上交代一句，夜里把科普片和生图规矩办完",
+      "url": "https://wangshuyi.substack.com/p/825",
+      "blurb": "王树义把 Grok Bot 当秘书，夜里它指挥别的助手做完霸王龙和翼龙讲解片，第二天交回带预览链接的清单，早上他用语音改了生图规矩，它让别的助手改技能、跑测试并复核，已审过的翼龙片不重做，刚开拍的沧龙片先停。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "跑腿",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "王树义"
+      ]
+    },
+    {
+      "id": "agent-hub",
+      "added": "2026-10-28",
+      "title": "Mac 状态板：只读 Codex、Claude 和 Grok Bot，点开就回到原对话",
+      "url": "https://github.com/sagezhzhz/agent-hub",
+      "blurb": "这块 macOS 状态板只读 Codex、Claude、Grok Bot、WorkBuddy 和 Cursor 云端代理的本地记录，点卡片用 grokbot:// 打开原来的对话，截图用的是内置演示数据。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "macOS"
+      ]
+    },
+    {
+      "id": "grok-relay",
+      "added": "2026-10-28",
+      "title": "Windows 公开测试：Grok Bot 和 Codex 桌面原对话互相传话",
+      "url": "https://github.com/w-yyh/grok-relay",
+      "blurb": "Windows 上的公开测试版让 Grok Bot 和已经打开的 Codex Desktop 线程互相发明文，发送回执只表示进了队列，两边都留在原来的线程里，不是官方产品。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex Desktop"
+      ]
+    },
+    {
+      "id": "herdr-grokbot-notify",
+      "added": "2026-10-28",
+      "title": "编码代理提问、做完或退出时，用 webhook 叫醒 Grok Bot",
+      "url": "https://github.com/zeke1031031/herdr-grokbot-notify",
+      "blurb": "herdr 插件在编码代理需要你、做完一轮或退出时向 Grok Bot 发一条叫醒，密钥只填进隐藏输入框，命令是 herdr plugin install zeke1031031/herdr-grokbot-notify --ref v0.4.0。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "herdr"
+      ]
+    },
+    {
+      "id": "devto-5dive",
+      "added": "2026-10-28",
+      "title": "5dive：合上笔记本仍在自己的服务器上交接的开源替代",
+      "url": "https://dev.to/lodar/5dive-an-open-source-grok-bot-alternative-38o2",
+      "blurb": "作者在自己公司那台 5dive 机器上写这篇，Claude Code 和 Codex 共用一份任务单互相交接，手机丢下任务就能合上笔记本，MIT 的 bash 核心让你自备模型，1GB 服务器就能先跑。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "dev.to",
+        "5dive"
+      ]
+    },
+    {
+      "id": "forum-title-merge",
+      "added": "2026-10-28",
+      "title": "10月26日起头衔并进名字，改回去会被下次同步盖掉",
+      "url": "https://forum.cursor.com/t/grok-bot-bot-title-auto-merged-into-name-reverting-gets-undone/176295",
+      "blurb": "头衔字段正在退役，10月26日已有头衔被并成「名字 · 头衔」，只要头衔还在，改回纯名字会在下次同步时再被拼回去，想要干净名字就清空头衔，角色要出现在侧栏就写进名字。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Colin"
+      ]
+    },
+    {
+      "id": "forum-instructions-hidden",
+      "added": "2026-10-28",
+      "title": "详情面板不再显示个人 Bot 指令，要看和改只能让它自己读出来",
+      "url": "https://forum.cursor.com/t/restore-editable-grok-bot-instructions/176397",
+      "blurb": "十月上旬保存的指令当时没进每轮上下文，十月中旬已修好且不必更新应用，但新版详情面板在桌面和当前手机版都不再展示个人 Bot 指令，眼下只能让它原文读出已存描述，再用你给的全文替换并在保存前先展示完整新版本。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-bg-fifty",
+      "added": "2026-10-28",
+      "title": "后台任务大约 50 分钟会被判中断，用编号续跑会重新计时",
+      "url": "https://forum.cursor.com/t/grok-bot-background-tasks-keep-getting-interrupted-mid-run/176282",
+      "blurb": "官方回复后台任务大约只有 50 分钟，到点会被报成结束前被打断，用编号续跑会另开一个窗口，编号被截短时还会失败，长编译可以改成 nohup 或 tmux 写日志再回来看，也可以拆成都能在时限内跑完的阶段。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Colin"
+      ]
+    },
+    {
+      "id": "forum-err-empty",
+      "added": "2026-10-28",
+      "title": "浏览器全站 ERR_EMPTY_RESPONSE 时，先在 Shell 里停掉出口隧道",
+      "url": "https://forum.cursor.com/t/grok-bots-browser-fails-on-every-site-with-err-empty-response-since-25-oct-ultra-ticket-t-i40833/176333",
+      "blurb": "10月25日起有 Ultra 用户的浏览器打开任何网站都是 ERR_EMPTY_RESPONSE，连谷歌首页也一样，Shell 和 11 项体检仍通过，官方判断是浏览器用的本地代理停了，更新电脑和来回开关流量转发都没用，可以在 Shell 里停掉 sand-egress-tunnel，几秒内应会再拉起一个。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "T-I40833"
+      ]
+    },
+    {
+      "id": "forum-host-credential",
+      "added": "2026-10-28",
+      "title": "浏览器报无法确认没有填入已存凭据，多半是宿主服务第一次没启动",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-host-service-down-since-oct-25-saved-credential-error-reset-fails-no-egress-ticket-t-i36143/176355",
+      "blurb": "Nick_van_der_Kloor 在 10月25日新建的云电脑上，浏览器、截图和保存密钥都会报无法确认没有把已存凭据填进浏览器，Shell 和文件仍可用，更新和重置换不掉这台机器，官方说这台电脑看起来没有备份、重建多半会从空的开始，他确认做过完整备份，官方挪走之后截图、后台服务和网络都恢复了。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "T-I36143"
+      ]
+    },
+    {
+      "id": "forum-two-boxes",
+      "added": "2026-10-28",
+      "title": "共享电脑重置后命令挂满约 14 分钟，官方查到开了两台云电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-shared-computer-frozen-since-10-23-after-reset-shell-and-file-reads-hang-about-14-min-and-update-and-reset-both-fail-t-i28766/176129",
+      "blurb": "Navarre_Valdivieso 这台共享云电脑在 10月23日下午约 5:24（山地时间）重置后连 echo ok 都要挂大约 14 分钟，侧栏显示无法从休眠唤醒，聊天、连接器、记忆和新建代理仍可用，更新和重置都失败，Colin 在 10月26日说有些用户同时开着两台电脑，次日上午约 10:26 他的命令回到毫秒级，人工清理还在收尾，工单 T-I12076、T-I39180 和 T-127498 仍冻着。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "T-I28766"
       ]
     }
   ]
