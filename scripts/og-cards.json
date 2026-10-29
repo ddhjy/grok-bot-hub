@@ -133,7 +133,7 @@
       236,
       220
     ],
-    "kicker": "303个结果"
+    "kicker": "307个结果"
   },
   {
     "file": "og-q-安全-official.png",
@@ -167,7 +167,7 @@
       240,
       224
     ],
-    "kicker": "63个结果"
+    "kicker": "65个结果"
   },
   {
     "file": "og-q-安全-cases.png",
@@ -252,7 +252,7 @@
       232,
       226
     ],
-    "kicker": "73个结果"
+    "kicker": "75个结果"
   },
   {
     "file": "og-q-安全边界.png",
@@ -779,7 +779,7 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-保险-official.png",
@@ -802,7 +802,7 @@
     "file": "og-q-保险-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「保险」的搜索",
-    "footer": "Kacper",
+    "footer": "Kacper · 结账时 Bot 看不见卡号：0.75.5 版保险库写明全账号共用",
     "accent": [
       90,
       64,
@@ -813,7 +813,7 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-保险-cases.png",
@@ -1935,7 +1935,7 @@
       236,
       220
     ],
-    "kicker": "636个结果"
+    "kicker": "640个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -1969,7 +1969,7 @@
       240,
       224
     ],
-    "kicker": "102个结果"
+    "kicker": "103个结果"
   },
   {
     "file": "og-q-插件-cases.png",
@@ -2003,7 +2003,7 @@
       232,
       236
     ],
-    "kicker": "333个结果"
+    "kicker": "336个结果"
   },
   {
     "file": "og-q-插件-reviews.png",
@@ -2717,7 +2717,7 @@
       236,
       220
     ],
-    "kicker": "87个结果"
+    "kicker": "88个结果"
   },
   {
     "file": "og-q-登录-official.png",
@@ -2785,7 +2785,7 @@
       232,
       236
     ],
-    "kicker": "16个结果"
+    "kicker": "17个结果"
   },
   {
     "file": "og-q-登录-reviews.png",
@@ -3159,7 +3159,7 @@
       236,
       220
     ],
-    "kicker": "381个结果"
+    "kicker": "385个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -3210,7 +3210,7 @@
       244,
       236
     ],
-    "kicker": "72个结果"
+    "kicker": "73个结果"
   },
   {
     "file": "og-q-定价-skills.png",
@@ -3227,7 +3227,7 @@
       232,
       236
     ],
-    "kicker": "35个结果"
+    "kicker": "36个结果"
   },
   {
     "file": "og-q-定价-reviews.png",
@@ -3261,7 +3261,7 @@
       242,
       242
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-定价-community.png",
@@ -3278,7 +3278,7 @@
       232,
       226
     ],
-    "kicker": "136个结果"
+    "kicker": "137个结果"
   },
   {
     "file": "og-q-东京黑客松.png",
@@ -4060,13 +4060,13 @@
       236,
       220
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-附件-tutorials.png",
     "badge": "非官方 · 教程",
     "title": "「附件」的搜索",
-    "footer": "群聊里让 Bot 把电脑上的 PDF 和图片当附件卡片发出去",
+    "footer": "群聊里让 Bot 把电脑上的 PDF 和图片当附件卡片发出去 · 云端 Grok Bot 经 Reason Network 把带附件的指令推进手头 Mac 的 Claude Code",
     "accent": [
       90,
       64,
@@ -4077,7 +4077,7 @@
       240,
       224
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-附件-community.png",
@@ -5658,7 +5658,7 @@
       236,
       220
     ],
-    "kicker": "25个结果"
+    "kicker": "26个结果"
   },
   {
     "file": "og-q-会话-official.png",
@@ -5726,7 +5726,7 @@
       232,
       236
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-会话-reviews.png",
@@ -5930,7 +5930,7 @@
       236,
       220
     ],
-    "kicker": "380个结果"
+    "kicker": "384个结果"
   },
   {
     "file": "og-q-计费-official.png",
@@ -5981,7 +5981,7 @@
       244,
       236
     ],
-    "kicker": "72个结果"
+    "kicker": "73个结果"
   },
   {
     "file": "og-q-计费-skills.png",
@@ -5998,7 +5998,7 @@
       232,
       236
     ],
-    "kicker": "34个结果"
+    "kicker": "35个结果"
   },
   {
     "file": "og-q-计费-reviews.png",
@@ -6032,7 +6032,7 @@
       242,
       242
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-计费-community.png",
@@ -6049,7 +6049,7 @@
       232,
       226
     ],
-    "kicker": "135个结果"
+    "kicker": "136个结果"
   },
   {
     "file": "og-q-记忆.png",
@@ -8021,7 +8021,7 @@
       236,
       220
     ],
-    "kicker": "38个结果"
+    "kicker": "39个结果"
   },
   {
     "file": "og-q-例行-official.png",
@@ -8089,7 +8089,7 @@
       232,
       236
     ],
-    "kicker": "14个结果"
+    "kicker": "15个结果"
   },
   {
     "file": "og-q-例行-reviews.png",
@@ -9415,7 +9415,7 @@
       236,
       220
     ],
-    "kicker": "462个结果"
+    "kicker": "466个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -9534,7 +9534,7 @@
       232,
       226
     ],
-    "kicker": "342个结果"
+    "kicker": "346个结果"
   },
   {
     "file": "og-q-彭政.png",
@@ -10316,7 +10316,7 @@
       236,
       220
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-求职-cases.png",
@@ -10333,7 +10333,7 @@
       244,
       236
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-求职-community.png",
@@ -12628,7 +12628,7 @@
       236,
       220
     ],
-    "kicker": "47个结果"
+    "kicker": "48个结果"
   },
   {
     "file": "og-q-手机-official.png",
@@ -12747,7 +12747,7 @@
       232,
       226
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-手机端.png",
@@ -13580,7 +13580,7 @@
       236,
       220
     ],
-    "kicker": "47个结果"
+    "kicker": "48个结果"
   },
   {
     "file": "og-q-团队-official.png",
@@ -13699,7 +13699,7 @@
       232,
       226
     ],
-    "kicker": "九个结果"
+    "kicker": "十个结果"
   },
   {
     "file": "og-q-团队设计.png",
@@ -16385,7 +16385,7 @@
       236,
       220
     ],
-    "kicker": "38个结果"
+    "kicker": "39个结果"
   },
   {
     "file": "og-q-用量-official.png",
@@ -16436,7 +16436,7 @@
       244,
       236
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-用量-skills.png",
@@ -16640,7 +16640,7 @@
       236,
       220
     ],
-    "kicker": "38个结果"
+    "kicker": "39个结果"
   },
   {
     "file": "og-q-语音-official.png",
@@ -16708,7 +16708,7 @@
       232,
       236
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-语音-reviews.png",
@@ -16878,7 +16878,7 @@
       236,
       220
     ],
-    "kicker": "241个结果"
+    "kicker": "243个结果"
   },
   {
     "file": "og-q-云电脑-official.png",
@@ -16980,7 +16980,7 @@
       242,
       242
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-云电脑-community.png",
@@ -16997,7 +16997,7 @@
       232,
       226
     ],
-    "kicker": "82个结果"
+    "kicker": "83个结果"
   },
   {
     "file": "og-q-云电脑-takes.png",
@@ -17354,7 +17354,7 @@
       236,
       220
     ],
-    "kicker": "66个结果"
+    "kicker": "67个结果"
   },
   {
     "file": "og-q-账号-official.png",
@@ -17388,7 +17388,7 @@
       240,
       224
     ],
-    "kicker": "11个结果"
+    "kicker": "12个结果"
   },
   {
     "file": "og-q-账号-cases.png",
@@ -18187,7 +18187,7 @@
       236,
       220
     ],
-    "kicker": "11个结果"
+    "kicker": "12个结果"
   },
   {
     "file": "og-q-主 Bot-official.png",
@@ -18221,7 +18221,7 @@
       240,
       224
     ],
-    "kicker": "三个结果"
+    "kicker": "四个结果"
   },
   {
     "file": "og-q-主 Bot-cases.png",
@@ -18765,7 +18765,7 @@
       236,
       220
     ],
-    "kicker": "12个结果"
+    "kicker": "13个结果"
   },
   {
     "file": "og-q-Debbie-tutorials.png",
@@ -18799,7 +18799,7 @@
       244,
       236
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-Debbie-skills.png",

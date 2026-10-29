@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "sections": [
     {
       "id": "official",
@@ -37132,6 +37132,335 @@
         "Cursor Forum",
         "Grok App",
         "T-H86141"
+      ]
+    },
+    {
+      "id": "forum-brief-to-agent",
+      "added": "2026-10-30",
+      "title": "简报不用手抄：每只 Bot 都能派 Cursor 云代理，做完带着记录回来",
+      "url": "https://forum.cursor.com/t/official-connector-so-grok-bots-can-send-briefs-directly-to-cursor-agents-and-receive-reports-back/176544",
+      "blurb": "员工确认每只 Grok Bot 都能把写好的简报交给 Cursor 云代理，做完会带着报告、记录和分支或拉取请求被叫醒，也能接着给同一个代理发后续；要跑在自己的电脑上先用 agent worker start 挂好工人再按名字派，已保存的云代理环境可以代替仓库名，由例行任务拉起的代理主聊天暂时还跟不了后续。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Cloud Agent"
+      ]
+    },
+    {
+      "id": "forum-sidebar-section",
+      "added": "2026-10-30",
+      "title": "侧边栏分区就能把主 Bot 和帮手收成一组",
+      "url": "https://forum.cursor.com/t/grok-bot-sub-bots-nested-under-a-main-bot-in-the-sidebar/176404",
+      "blurb": "员工说右键 Bot 选移到新分区，已有分区则选移入，就能折叠一组帮手，主 Bot 也可以按分区名字把新 Bot 直接建进去；置顶的主 Bot 会留在列表顶端，要跟帮手待在一起先取消置顶，缩进在主 Bot 下面和整组共享记忆还没做。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "zenn-reason-network",
+      "added": "2026-10-30",
+      "title": "云端 Grok Bot 经 Reason Network 把带附件的指令推进手头 Mac 的 Claude Code",
+      "url": "https://zenn.dev/jtcc/articles/reason-network-p2p-claude-code-push",
+      "blurb": "作者从云端 Linux（grokbot-box）发出邀请，经新加坡中继约 298 到 303 毫秒往返，带附件的指令在 426 毫秒内推进手头 Mac 上待命的 Claude Code，隐藏路径会在 1 到 5 毫秒内被拒绝；安装脚本一回车会装上商业版命令行，分开的 Claude 配置要各自登记 MCP，邀请必须由一直在线的云端机器发出。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑",
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Zenn",
+        "Reason Network",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "youtube-vault-unseen",
+      "added": "2026-10-30",
+      "title": "结账时 Bot 看不见卡号：0.75.5 版保险库写明全账号共用",
+      "url": "https://www.youtube.com/watch?v=1hv9ZsnQ6mQ",
+      "blurb": "10 月 23 日的 0.75.5版把登录、银行卡和联系方式放进设置里的保险库，秘密只填进页面、卡只留末四位，全账号每只 Bot 都能用、不能只给其中一只，共享 Bot 要改走 Secrets；帮助页写不必每次批准用卡，三天后的更新日志却写每次购买仍要你点头，两套说法没有对上。",
+      "section": "tutorials",
+      "tags": [
+        "安全"
+      ],
+      "aliases": [
+        "YouTube",
+        "Vault"
+      ]
+    },
+    {
+      "id": "devto-debbie-hire-voice",
+      "added": "2026-10-30",
+      "title": "一个早上让求职页开口：只准照着页面和简历回答",
+      "url": "https://dev.to/debs_obrien/my-hire-me-page-can-talk-how-i-built-and-tested-a-voice-agent-2ibn",
+      "blurb": "她让 Grok Bot 在一个早上把求职页接上 ElevenLabs 语音接待，只准根据页面和简历里的事实回答，护栏一开始没开、是她回头让 Bot 补上的，上线一天半就有 111 段对话。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "dev.to",
+        "Debbie O'Brien",
+        "ElevenLabs"
+      ]
+    },
+    {
+      "id": "zenn-prompt-recipe",
+      "added": "2026-10-30",
+      "title": "把 Grok Bot 当第一次点界面的人，prompt-recipe 收到 0.3.0",
+      "url": "https://zenn.dev/mt4110/articles/prompt-recipe-ux-grokbot-codex",
+      "blurb": "作者让 Grok Bot 在自己电脑上打开浏览器预览，以第一次使用者走完登记、勾选和复制，把点一行已选就会消失写成带验收条件的指示交给 Codex，两轮改完后再把 Mac 实机录屏给 Bot 看，才补上默认快捷键会撞上 Spotlight 的问题。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "Zenn",
+        "Codex",
+        "prompt-recipe"
+      ]
+    },
+    {
+      "id": "youtube-jj-three-chores",
+      "added": "2026-10-30",
+      "title": "每月 30 美元的三件杂事：对账、健保补缴、发票入账",
+      "url": "https://www.youtube.com/watch?v=bOlv3Iz_A70",
+      "blurb": "银行存款对不上时，它几分钟指出被改过的历史传票；又从邮件里挑出逾期健保通知，赶上宽限期免掉滞纳金，并把扫描发票、登录表格、做分录到云端归档串成一次做完。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "上手"
+      ],
+      "aliases": [
+        "YouTube"
+      ]
+    },
+    {
+      "id": "youtube-kacper-three-cli",
+      "added": "2026-10-30",
+      "title": "把 Claude Code、Codex 和 Grok Build 装进 Bot 的电脑，贴膜站做完用量只多一点",
+      "url": "https://www.youtube.com/watch?v=8dxzMgr2tow",
+      "blurb": "他用已经在付的订阅把 Claude Code、Codex 和 Grok Build 装进 Grok Bot 自己的电脑，不另配 API 密钥，做出一个移动贴膜小店网站，Grok Bot 只当经理，周用量从第一条提示到做完只从 43% 走到 44%。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "bot-codex-delegate",
+      "added": "2026-10-30",
+      "title": "让 Grok Bot 把 Codex 交给常驻服务，做完再被叫醒",
+      "url": "https://github.com/realTaki/bot-codex-delegate",
+      "blurb": "云电脑上常驻一个只听本机的 Codex 服务，前台等待让机器在干活时不睡，Bot 大约每十三分钟才花一次轻量调用，中途还能改方向或打断。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex"
+      ]
+    },
+    {
+      "id": "grokbot-voice-meeting",
+      "added": "2026-10-30",
+      "title": "几个 Grok Bot 和你开一场语音会，你一插话全员停下",
+      "url": "https://github.com/RussGuo/grokbot-voice-meeting",
+      "blurb": "发起的 Bot 在自己的 Linux 电脑上拉起会议室并回一个加入链接，你一开口所有 Bot 都停下，该问本人的事先问本人，会后对每条承诺做确认、改正或撤回，仓库不会自己改 Bot 的记忆。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "LiveKit"
+      ]
+    },
+    {
+      "id": "grokbot-dispatch",
+      "added": "2026-10-30",
+      "title": "编码代理一句话把任务派进 Grok Bot 的例行任务",
+      "url": "https://github.com/fenfenxu/grokbot-dispatch",
+      "blurb": "本地没有常驻进程，没配过就先吐出一段可粘贴提示词，让 Bot 自己建只有 webhook 触发的例行任务；Bot 多时只留一个总调度，再按名字转给队友。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "webhook"
+      ]
+    },
+    {
+      "id": "agent-relay",
+      "added": "2026-10-30",
+      "title": "Windows 托盘接着已登录的 Grok Bot，用同一个会话号连续问",
+      "url": "https://github.com/wangsen2020/grok-bot-bridge",
+      "blurb": "一个自带托盘的 Windows 程序连上已登录的桌面端，选中现有 Bot 后用同一个会话号接着问，服务默认只开在本机。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "AgentRelay"
+      ]
+    },
+    {
+      "id": "moyubot",
+      "added": "2026-10-30",
+      "title": "摸鱼 Bot：对照 Grok Bot 的开源桌面同事，云电脑用完就睡",
+      "url": "https://github.com/whitemoono/moyubot",
+      "blurb": "多个 Bot 共用一台按需开机的云主机，平时挂起，要看远程桌面或动手才唤醒，画图走供应商接口不必把电脑叫醒。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "GitHub",
+        "MoyuBot",
+        "InstaBox"
+      ]
+    },
+    {
+      "id": "opencrewbot",
+      "added": "2026-10-30",
+      "title": "在自己电脑上搭一支 Grok Bot 式小队：OpenCrewBot 开源上手",
+      "url": "https://dev.to/studio1hq/build-your-own-grok-bot-a-step-by-step-guide-4138",
+      "blurb": "不想按月租云电脑的人可以在本机跑这套 MIT 应用，侧边栏每个联系人都是一只带记忆和审批的 Bot，房间里 Scout、Quill、Atlas 会拆活，密钥可先不填、用脚本回复把界面走通。",
+      "section": "alternatives",
+      "tags": [
+        "上手",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "dev.to",
+        "OpenCrewBot",
+        "MIT"
+      ]
+    },
+    {
+      "id": "forum-team-local-off",
+      "added": "2026-10-30",
+      "title": "团队 Bot 只用创建者的本机，同事对话里按钮是关的",
+      "url": "https://forum.cursor.com/t/team-bot-cant-use-a-teammates-local-computer-reports-it-offline/176605",
+      "blurb": "员工确认同事自己的对话里，团队 Bot 拿不到她或创建者的本机，权限按钮是故意关掉的，因为同事控制不了这只 Bot 的指令和技能，界面上的电脑离线并不表示她的电脑没连上；每人要在自己的电脑上跑步骤，就把角色说明和技能抄进各自的个人 Bot。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Team Bot"
+      ]
+    },
+    {
+      "id": "forum-shell-silent-miss",
+      "added": "2026-10-30",
+      "title": "本机后台命令结束后，Bot 经常不会被叫醒",
+      "url": "https://forum.cursor.com/t/grok-bot-local-execution-background-shell-exits-but-agent-chat-often-not-woken-silent-miss/176625",
+      "blurb": "员工让短任务留在同一回合里用盖住全程的等待时间盯完，长任务继续靠自己对账，或在任务结束后给 Bot 发一条消息让它去读结果，并已记下想要一条像云代理那样的完成回调。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-iphone-fast-default",
+      "added": "2026-10-30",
+      "title": "手机一打开，云代理默认会被改成 Grok 4.7 高速",
+      "url": "https://forum.cursor.com/t/account-agent-defaults-keep-reverting-to-500k-context-high-fast-every-other-week/176521",
+      "blurb": "员工查到 iPhone 上的 Cursor 在加载模型列表时会改写已保存的云代理默认，把仪表盘上的 256K、高推理、关闭高速换成 Grok 4.7高速，之后 Grok Bot 拉起的云代理也走这档，对得上用量突然跳升；在仪表盘重新保存后，下一次打开手机再核对一次，或派活时向 Bot 点名模型。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Grok 4.7"
+      ]
+    },
+    {
+      "id": "forum-update-button-stays",
+      "added": "2026-10-30",
+      "title": "更新按钮还在，云电脑其实已经重建完了",
+      "url": "https://forum.cursor.com/t/grok-bot-update-bots-computer-says-its-updating-then-drops-back-to-the-update-button-and-never-updates/176548",
+      "blurb": "员工核对 10 月 28 日傍晚那几次更新已经把电脑重建并带走了文件，按钮在完成后仍会留在设置里，连按没有必要；其中一次刚从睡眠醒来、文件还没保存就被跳过，页面上的电脑睡着了属于把流量从这台电脑转出去的那项设置，醒来后会自己接上。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-classify-four-cards",
+      "added": "2026-10-30",
+      "title": "分类失败时允许规则对不上，等待卡最多四张",
+      "url": "https://forum.cursor.com/t/grok-bot-auto-review-kept-failing-on-every-action-after-xais-status-email-marked-the-outage-resolved/176546",
+      "blurb": "员工核对 10 月 28 日晚自动审查比状态邮件里的恢复又多失灵到大约美东 6 点 56 分，分类调用本身失败时任何允许规则都匹配不上，动作会按住等人处理，同一只 Bot 同时最多四张等待卡，把卡点掉那句等待太多才会消失，大约 6 点 59 分之后已按正常审查。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Auto-review"
+      ]
+    },
+    {
+      "id": "forum-reset-archive-big",
+      "added": "2026-10-30",
+      "title": "存档比新电脑大时，Reset 会在替换前停下",
+      "url": "https://forum.cursor.com/t/blocked-by-security-classifier-reset-failed/176547",
+      "blurb": "员工说明再按 Reset 也过不去，是因为这台电脑存下来的文件比一台新电脑装得下的还大，替换还没开始就停了；当时删不掉暂存目录是自动审查服务在报错，审查恢复后可以由 Bot 去删，空间仍不够就只能在确认整机清空之后重来。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
       ]
     }
   ]
