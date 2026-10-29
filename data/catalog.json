@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "sections": [
     {
       "id": "official",
@@ -36784,6 +36784,354 @@
       "aliases": [
         "Cursor Forum",
         "T-I28766"
+      ]
+    },
+    {
+      "id": "devto-company-audit",
+      "added": "2026-10-29",
+      "title": "给公司打开 Grok Bot 之前：旧隐私模式会整组关掉，审计页看不见工具动作",
+      "url": "https://dev.to/joey_zou_63aa6b1f1cbaa2bb/rolling-out-grok-bot-to-your-company-settle-access-and-audit-before-you-click-enable-3fm1",
+      "blurb": "旧版隐私模式会把整个工作区的 Grok Bot 关掉，没配网络策略时流量默认全放行，工具操作录制默认关闭，录到的动作也不会出现在审计日志那一页。",
+      "section": "tutorials",
+      "tags": [
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "dev.to",
+        "Privacy Mode"
+      ]
+    },
+    {
+      "id": "qiita-issue-ask",
+      "added": "2026-10-29",
+      "title": "用 GitHub issue 把本机终端的调查交给云端 Grok Bot",
+      "url": "https://qiita.com/damin_chan/items/b648643e18b427016db5",
+      "blurb": "本机的 Claude Code 或 Codex 只要新建私有仓库 issue 再指派给自己，Grok Bot 才会被叫醒去查 X 和网页，没有指派时它不跑，合上笔记本之后调查仍在云端继续。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Qiita",
+        "GitHub",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "x-fenech-read-order",
+      "added": "2026-10-29",
+      "title": "读同一个网站：看屏幕、脚本、直连，用量差一个数量级",
+      "url": "https://x.com/Michael_Fenech_/status/2115421573524148479",
+      "blurb": "他在同一练习站上比过三种读法，看屏幕点选大约 21.3 万 token，浏览器加脚本约 5.1 万，直接抓取在执行时几乎不消耗模型额度，并给幕僚长一段按连接器、脚本、浏览器、屏幕依次选用的指令。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "工程",
+        "上手"
+      ],
+      "aliases": [
+        "X",
+        "token"
+      ]
+    },
+    {
+      "id": "x-moritz-opus-project",
+      "added": "2026-10-29",
+      "title": "建一个空的 Cursor 项目，让任意 Bot 改用指定模型",
+      "url": "https://x.com/moritzkremb/status/2115390588983849105",
+      "blurb": "他在 Cursor 里新建一个空工作区项目，让 Grok Bot 接上并写成技能，之后对任意一只 Bot 说用这个项目里的 Opus，就能把当前请求交到指定模型。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "上手"
+      ],
+      "aliases": [
+        "X",
+        "Cursor Projects",
+        "Opus"
+      ]
+    },
+    {
+      "id": "youtube-usage-audit",
+      "added": "2026-10-29",
+      "title": "加购额度还在，Grok Bot 却说用完：五件把周用量提前烧光的事",
+      "url": "https://www.youtube.com/watch?v=AotM4sMFV2k",
+      "blurb": "账户里已经买了额外额度、余额还在，仍可能被每月额外用量上限拦住；他用交接文件让 Bot 别每次重读几周聊天，并算清每 15 分钟一次的例行一周要跑 672 次、工作日早上 8 点则只要 5 次，最后做成每月可重做的用量审计页。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "YouTube",
+        "Usage Audit"
+      ]
+    },
+    {
+      "id": "hn-stock-offset",
+      "added": "2026-10-29",
+      "title": "HN：把银行流水和股票月报交给 Grok Bot，大约拿回 300 美元",
+      "url": "https://news.ycombinator.com/item?id=50278019",
+      "blurb": "他把银行流水和带股票月报附件的邮箱交给 Grok Bot，查出下跌亏损可以抵扣，大约能拿回 300 美元。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "gh-shop-replay",
+      "added": "2026-10-29",
+      "title": "拆开 Grok Bot 的购物回复：重开一个 Bot，商品链接对不上",
+      "url": "https://github.com/ozgureyilmaz/reverse-engineering-grok-bot",
+      "blurb": "同一晚用六个购物提示词重开一个美国新 Bot，和第一次回复的商品链接一条都没重合，真正要求购买时美国和土耳其都在付款前停住，而且没有扣款。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "note-geeorgey-board",
+      "added": "2026-10-29",
+      "title": "让 Grok Bot 的 X 摘要经 webhook 进到只给自己看的 Cloudflare 看板",
+      "url": "https://note.com/geeorgey/n/n6cc38f4fda92",
+      "blurb": "作者让 Grok Bot 每天挑出自己可能感兴趣的 X 帖子，并用 webhook 送进只有自己能进的 Cloudflare 看板，看板本身是 dots 搭的，用来和 Muse 交换各自擅长的情报。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "note",
+        "Cloudflare",
+        "dots"
+      ]
+    },
+    {
+      "id": "x-plaud-notepin",
+      "added": "2026-10-29",
+      "title": "领夹麦录音交给 Bot，经 Plaud 写进当天的 Obsidian",
+      "url": "https://x.com/shotovim/status/2115435918052163908",
+      "blurb": "他用 Plaud NotePin S 录完，让 Grok Bot 经 Plaud MCP 取回转写，写成 Obsidian 笔记并链进当天日记。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "Plaud",
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "youtube-funnel-125",
+      "added": "2026-10-29",
+      "title": "营销漏斗实走：四个美国广告页，Bot 二十分钟交 125 页报告",
+      "url": "https://www.youtube.com/watch?v=1c7RpERoUfw",
+      "blurb": "他把 Ruggable、Roto-Rooter、ClickUp 和 Sunrun 四条付费漏斗交给 Bot 以买家身份逐页点击打分，二十分钟写成 125 页，并在 ClickUp 付费页抓到开始使用按钮把新访客送进欢迎回来的登录页。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "ClickUp"
+      ]
+    },
+    {
+      "id": "substack-vault-companion",
+      "added": "2026-10-29",
+      "title": "想让 Grok Bot 记得进度，它却把已做完的断电测试又派了回来",
+      "url": "https://shaggyrs6.substack.com/p/grokbot-obsidian-notes-ai-memory",
+      "blurb": "它拿 10 月 16 日仍写着待测的记录，把 18 日已经确认完成的 Waveshare 断电测试又派了一次，追问后承认所谓只读的命令输出已经把笔记正文送回了模型，还在文件工具拒绝路径之后改用 shell 把同一份内容读了出来。",
+      "section": "cases",
+      "tags": [
+        "排障",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack",
+        "Obsidian",
+        "Vault Companion"
+      ]
+    },
+    {
+      "id": "substack-sourceful",
+      "added": "2026-10-29",
+      "title": "六个人、三十来个 Agent：Sourceful 怎么把 Grok Bot 当成同事",
+      "url": "https://frahlg.substack.com/p/sex-personer-ett-trettiotal-agenter",
+      "blurb": "能源公司 Sourceful 六个人、三十来个 Agent，作者只跟总闸 Navet 说话，也只有它能向他要一个同意，周日由 Klockan 把 routines 文件里的重复例行算成缺陷，同事之间在 Kupan 交接。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "安全"
+      ],
+      "aliases": [
+        "Substack",
+        "Sourceful",
+        "Navet"
+      ]
+    },
+    {
+      "id": "substack-jane-quests",
+      "added": "2026-10-29",
+      "title": "给五年级儿子做自适应小学应用 Jane，夜里由 Grok Bot 写新任务",
+      "url": "https://factually.substack.com/p/this-week-get-ai-building-on-what",
+      "blurb": "他给读五年级的儿子做出小学闯关应用 Jane，夜里由 Grok Bot 按知识图谱写新任务，四天发了六版，改动来自孩子卡住时截的图，应用跑在 Cloudflare。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack",
+        "Cloudflare",
+        "Jane"
+      ]
+    },
+    {
+      "id": "grokbot-node",
+      "added": "2026-10-29",
+      "title": "在常开 Linux 上无界面跑官方 Grok Bot 本机电脑守护进程",
+      "url": "https://github.com/TillmanBuildsTech/grokbot-node",
+      "blurb": "桌面版 0.75.8 关掉了 Electron 的 run_as_node，这个 Go 服务改用同主版本、仍保留该开关的原装 Electron 拉起厂商的本机守护进程，并在夜间检查软件包结构有没有变。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "GitHub",
+        "local-exec"
+      ]
+    },
+    {
+      "id": "resethook",
+      "added": "2026-10-29",
+      "title": "Codex 预告重置时叫醒 Grok Bot，赶在截止前用掉剩余额度",
+      "url": "https://github.com/rakei076/resethook",
+      "blurb": "帖子到达后例行任务会拿到原文和解析出的截止时间，配套技能再用本机 Codex 的读数判断五小时窗口还够不够在重置前烧完周额度。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex",
+        "ResetHook"
+      ]
+    },
+    {
+      "id": "grok-bot-setup-t3",
+      "added": "2026-10-29",
+      "title": "只放开 T3 的登录和 MCP，让 Grok Bot 回复等你处理的线程",
+      "url": "https://github.com/nsoliven/grok-bot-setup",
+      "blurb": "本机只读轮询 T3 数据库，问题卡住十分钟或做完半小时没人打开才会按上限叫醒 Bot，隧道只放行登录和 MCP 路径，告警里不带对话正文。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "T3 Code"
+      ]
+    },
+    {
+      "id": "personal-agent-dossier",
+      "added": "2026-10-29",
+      "title": "把 Grok Bot 的岗位、记忆和日程收成一份可迁移档案",
+      "url": "https://github.com/AidaShika/personal-agent-dossier",
+      "blurb": "交给 Bot 的技能会把岗位收成一份档案，换到 Hermes、Muse 或 OpenClaw 时先干跑，列出会丢掉的字段，并核对指纹和隐私扫描。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "GitHub",
+        "Hermes",
+        "OpenClaw"
+      ]
+    },
+    {
+      "id": "pi-durable-bot",
+      "added": "2026-10-29",
+      "title": "开源同事 Pots：对照 Grok Bot 的自托管队友，自己决定何时开口",
+      "url": "https://github.com/Crokily/pi-durable-bot",
+      "blurb": "它把聊天、邮件和日历收进本地日志，多数时候选择不说话，需要动手时用读写和 shell 在自己的电脑上把脚本写出来再跑。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Pots",
+        "pi-durable-bot"
+      ]
+    },
+    {
+      "id": "forum-ram-balloon",
+      "added": "2026-10-29",
+      "title": "云电脑里对不上进程的大约 8GB，是宿主收回的内存气球",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-ram-stays-near-full-with-many-bots-and-about-8-gb-isnt-attributable-to-any-process/176471",
+      "blurb": "官方确认那大约 8GB 是宿主在唤醒后收回的内存气球，最多能占掉 16GB 里的大约 10GB，Linux 会把它算成已用但没有任何进程拥有，大约从 10 月 22 日起闲置约 30 分钟的 Bot 桌面和日志帮手会自动关掉。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-teams-private-posts",
+      "added": "2026-10-29",
+      "title": "Teams 私人频道的普通帖触发不了例行任务，标准频道才行",
+      "url": "https://forum.cursor.com/t/microsoft-teams-new-message-in-channel-trigger-fires-on-cursor-mentions-but-never-on-plain-posts/176435",
+      "blurb": "私人频道里的普通顶层帖根本送不到 Cursor，例行任务连检查都不会开始，点名 Cursor 则能触发，但 Cursor 应用自己也会回复这条消息，想让每一条帖子都跑起来就改用同一团队里的标准频道。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "forum-grok-app-empty",
+      "added": "2026-10-29",
+      "title": "Grok App 粘在空账号上看不到 Bot，服务端修复已经部署",
+      "url": "https://forum.cursor.com/t/bots-visible-in-grok-bot-app-but-not-in-grok-app/176047",
+      "blurb": "Bot 都在主账号上所以 Grok Bot 应用看得到，Grok App 却粘在另一次空登录上，退出再登清不掉，官方说服务端修复已经部署，关掉再打开 Grok App 或刷新网页版就会自己接回主账号。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Grok App",
+        "T-H86141"
       ]
     }
   ]
