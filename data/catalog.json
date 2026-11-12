@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "sections": [
     {
       "id": "official",
@@ -42561,6 +42561,393 @@
       "aliases": [
         "Cursor Forum",
         "Playwright"
+      ]
+    }
+,
+    {
+      "id": "youtube-trusting-grok-bot",
+      "added": "2026-11-13",
+      "title": "Matt Palmer：权限卡、审查代理，以及 Bot 为什么读不到密码",
+      "url": "https://www.youtube.com/watch?v=B-2yDmwe2uw",
+      "blurb": "始终询问和不再询问分成两张卡，审查代理按明文规则拦住动作，安全表单和 1Password 只把字段名交给 Bot，密码和卡号由浏览器填入，Bot 自己读不到。",
+      "section": "official",
+      "tags": [
+        "安全",
+        "插件"
+      ],
+      "aliases": [
+        "Matt Palmer",
+        "1Password",
+        "权限"
+      ]
+    },
+    {
+      "id": "x-bot-1-0",
+      "added": "2026-11-13",
+      "title": "官方：Grok Bot 1.0，Bot 可分享，也能进 Slack、Teams 和会议",
+      "url": "https://x.com/bot/status/2120582957782200586",
+      "blurb": "1.0 把 Bot 做成可以分享给同事的队友，能在 Slack 和 Teams 里交接，也能被拉进会议，并且会越用越会帮忙。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "Grok Bot 1.0",
+        "Teams"
+      ]
+    },
+    {
+      "id": "x-parker-voice-speed",
+      "added": "2026-11-13",
+      "title": "官方：对话里就能改嗓音和语速，外呼也跟着变",
+      "url": "https://x.com/parker__conrad/status/2120682648251027852",
+      "blurb": "负责语音的 Parker Conrad 说现在直接跟 Bot 说就能换嗓音和语速，外呼共用这套设置，档位也更多，他们还在减少通话里被打断的次数。",
+      "section": "official",
+      "tags": [
+        "上手"
+      ],
+      "aliases": [
+        "Parker Conrad",
+        "语音"
+      ]
+    },
+    {
+      "id": "youtube-kacper-1-0",
+      "added": "2026-11-13",
+      "title": "Kacper：在自己的账号上走过 1.0 的六项升级",
+      "url": "https://www.youtube.com/watch?v=g0RBpu4R2ng",
+      "blurb": "他当场走了 Mac 上的 iMessage、用 Tailscale 连回自己的电脑、Bot 进会议、系统分享菜单、礼物购物和邮件草稿附件，用量面板能看出哪只 Bot 最费。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "跑腿",
+        "计费"
+      ],
+      "aliases": [
+        "Kacper",
+        "Tailscale",
+        "iMessage"
+      ]
+    },
+    {
+      "id": "grok-bot-studio-setup",
+      "added": "2026-11-13",
+      "title": "用工作卡搭起四只传话 Bot 的工作室",
+      "url": "https://github.com/kuostve/grok-bot-studio-setup",
+      "blurb": "总管把 Markdown 卡片从收件箱派到进行中再验收，传话 Bot 只能在卡片底部往下追加一行，遇到登录或付款会停下来等你自己在终端做完。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手",
+        "工程"
+      ],
+      "aliases": [
+        "工作室"
+      ]
+    },
+    {
+      "id": "forum-rename-group-chat",
+      "added": "2026-11-13",
+      "title": "群聊可以原地改名，不用拆掉重开",
+      "url": "https://forum.cursor.com/t/grok-bot-rename-a-group-chat-directly-without-creating-a-new-one/177982",
+      "blurb": "员工确认桌面版在侧栏右键群聊就能原地改名，手机上从对话顶部打开群资料再改 Name，不必新建群、把 Bot 重新拉进来，再逐个改指令里的群编号。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "群聊"
+      ]
+    },
+    {
+      "id": "youtube-cafe-reservations",
+      "added": "2026-11-13",
+      "title": "Matt Palmer：校队邮件改两边日历，订位取消会自己往前挪",
+      "url": "https://www.youtube.com/watch?v=zdtvpmblYdg",
+      "blurb": "学校发来的校队邮件会由 Bot 读完并改两边家长的日历，他自己还让 Bot 盯订位网站，过了两天把预订往前挪好，再通知他接手完成。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "运营"
+      ],
+      "aliases": [
+        "Matt Palmer"
+      ]
+    },
+    {
+      "id": "x-kingbenqi-trade-review",
+      "added": "2026-11-13",
+      "title": "只读复盘教练：成交对照 Martin Luk 的十四条规则",
+      "url": "https://x.com/kingbenqi/status/2120908899406819690",
+      "blurb": "kingbenqi 用只读方式经 Flex 拉 IBKR 成交，按十四条规则逐笔检查止损和仓位，报告放进 Notion，并生成能在 K 线上标出进出场的 Pine 脚本，不下单也不荐股。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "IBKR",
+        "TradingView",
+        "Notion"
+      ]
+    },
+    {
+      "id": "reddit-breakfast-devsecops",
+      "added": "2026-11-13",
+      "title": "早饭时用语音把漏洞清单推进到测试和部署",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xubuwk/this_really_is_the_secret_sauce_devsecops_and_mssp/",
+      "blurb": "做早饭时他用语音把五六份开源漏洞清单收成当日前十，一部分 Git 更新、测试和部署可以全程口述推完，每个仓库一只 Bot，另有市场 Bot 把清单做成图发到 X 和领英。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "id": "reddit-month-household",
+      "added": "2026-11-13",
+      "title": "一个月后：账单、用车、探视日和餐单分给一组 Bot",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xuaq36/i_understand_the_frustration_that_many_of_you_have/",
+      "blurb": "用了一个月，预算 Bot 会和记录保养的用车 Bot 对接，日历按探视日安排亲子活动并盯学校，另外还有按日餐单和一块 LCARS 风格的生活看板。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "多Bot"
+      ]
+    },
+    {
+      "id": "jike-qilu-game-scan",
+      "added": "2026-11-13",
+      "title": "七鹿：同一天扫出的新游戏，每条都带分数和热度",
+      "url": "https://m.okjike.com/originalPosts/6ae49ccf1fa0b9d2f6ce0d36",
+      "blurb": "同一天扫出来的新游戏都标了分数、展示量和能不能嵌进页面，点进去能看到 Bot 做选词雷达时交回来的原件。",
+      "section": "cases",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "即刻"
+      ]
+    },
+    {
+      "id": "note-jj-dev-secretary",
+      "added": "2026-11-13",
+      "title": "个人开发秘书：额度看板和早晚会，周额度把看门任务自己停掉",
+      "url": "https://note.com/dear_crocus4885/n/n2d921bcabb94",
+      "blurb": "Bot 用浏览器把各家 AI 订阅和 GitHub Actions 的剩余额度收成一块看板，早上交甘特和待决、晚上收回进度，新闻还经 NotebookLM 做成 PDF 送进 Slack，直到周额度用尽，连看额度的定时任务也停了。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "NotebookLM"
+      ]
+    },
+    {
+      "id": "note-haioka-one-door",
+      "added": "2026-11-13",
+      "title": "一个企划六只 Bot，后来改成只跟队长说话",
+      "url": "https://note.com/haioka_rio/n/n1aa1c46fe374",
+      "blurb": "四只专员曾占掉当周用量六成以上，允许跨过队长直接找专员之后来回变多，11 月 10 日改成只跟队长说、专员互不直接交谈。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费"
+      ]
+    },
+    {
+      "id": "note-eden-claude-watch",
+      "added": "2026-11-13",
+      "title": "视频留在 Mac 上的 Claude，Eden 两小时读一次线程",
+      "url": "https://note.com/yt_hottarakashi/n/n163d6819aab9",
+      "blurb": "名叫 Eden 的 Bot 用自己的电脑只读各项目的专用线程，靠一份状态文件记住已报、已解决和过期，11 月 8 日傍晚到 11 日早上通知了 17 次、沉默了 13 次，许可卡片默认不点。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "视频",
+        "工程"
+      ],
+      "aliases": [
+        "Eden",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "bili-lauren-aie",
+      "added": "2026-11-13",
+      "title": "Lauren Tan：把烂代码炼成能上线的（AIE CODE 中英精译）",
+      "url": "https://www.bilibili.com/video/BV1roWD6zEFL",
+      "blurb": "她讲团队怎样用代码库约束、可执行检查和运行时验证，把上个月大约一万一千个生产 PR 的回滚压到大约 0.5%，并让 Bot 拉起 Cursor 工程、测 bug、开修复 PR。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "Lauren Tan",
+        "AIE CODE"
+      ]
+    },
+    {
+      "id": "younglark-grokbot-x",
+      "added": "2026-11-13",
+      "title": "不改安装包，给桌面端加上图片批注和跨 Bot 状态条",
+      "url": "https://github.com/younglark/grokbot-x",
+      "blurb": "调试端口只绑在本机回环地址，图片编辑导出只落到本地文件、不会写回对话，右侧状态条只读取页面里已有的名册，额度不在名册里时面板保持空白。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "grokbot-x",
+        "EditHere"
+      ]
+    },
+    {
+      "id": "grokbot-proxy",
+      "added": "2026-11-13",
+      "title": "Windows 上让 Grok Bot 走 SOCKS5 或 HTTP 代理",
+      "url": "https://github.com/AM-QAQ/grokbot-proxy",
+      "blurb": "补丁只进入 Grok Bot 自己的进程，安装目录可写时不用管理员权限，软件更新后可用自带脚本把补丁装回去，认不出的 version.dll 会原样留着。",
+      "section": "skills",
+      "tags": [
+        "排障",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "SOCKS5",
+        "代理"
+      ]
+    },
+    {
+      "id": "phone-pilot",
+      "added": "2026-11-13",
+      "title": "在 Windows 上给手机模板接上 iPhone 和 Android",
+      "url": "https://github.com/xthemarketmaker-cmyk/phone-pilot",
+      "blurb": "脚本在你自己的电脑上给 Phone Pilot 模板调用，iPhone 需用你的 Apple ID 签署 WebDriverAgent，免费账号的签名只维持 7 天，手机要处于已解锁状态，体检命令只报告问题、不去按屏幕。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "跑腿"
+      ],
+      "aliases": [
+        "Phone Pilot",
+        "WebDriverAgent"
+      ]
+    },
+    {
+      "id": "proof-carrying-replies",
+      "added": "2026-11-13",
+      "title": "公开回复先过证明门，整段放权不能代替逐条确认",
+      "url": "https://github.com/Harisanthosh/proof-carrying-replies",
+      "blurb": "这套技能要求公开回复或团队频道消息带上绑死原文的证书，并再对这段原文做一次确认，线程超过 30 分钟或已有 30 条回复时 Bot 保持沉默，作者用 11 月 11 日至 12 日交出的 7 条回复回放，其中 5 条过不了这道门。",
+      "section": "skills",
+      "tags": [
+        "安全",
+        "插件"
+      ],
+      "aliases": [
+        "证明"
+      ]
+    },
+    {
+      "id": "forum-fastmail-undefined",
+      "added": "2026-11-13",
+      "title": "iOS 上 Fastmail 邮件卡片把正文显示成 undefined",
+      "url": "https://forum.cursor.com/t/grok-bot-ios-fastmail-email-card-renders-the-body-as-the-literal-text-undefined/178200",
+      "blurb": "员工确认纯 HTML 邮件会让 Fastmail 的 read_email 把 bodyText 交成字符串 undefined，卡片只是原样画出这个结果，搜索预览里往往还有正文，要全文时可以让 Bot 在自己的电脑上打开 Fastmail 网页。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Fastmail",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-forced-update-079",
+      "added": "2026-11-13",
+      "title": "关掉自动更新也挡不住下载，旧客户端过期后只能升级",
+      "url": "https://forum.cursor.com/t/grok-bot-0-79-3-windows-forced-update-breaks-working-0-78-x-client-automatic-updates-off-does-not-prevent-download/177868",
+      "blurb": "员工确认没有受支持的回退或按账号豁免，稳定版一换代就会停在必须更新，自动更新开关只决定人离开时要不要自己重启去装，关掉仍会把新包下到临时目录，服务端让 Bot 更谨慎、把开发交给云端这些变化退回旧版也不会消失。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "0.79.3",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "x-webhook-bot-chatter",
+      "added": "2026-11-13",
+      "title": "Bot 互聊仍在吃额度，官方让先看 By Bot",
+      "url": "https://x.com/Aluminumwraith/status/2120893713463357832",
+      "blurb": "有人贴用量图问 Bot 互聊是不是还在烧周额度，Matt Palmer 让先打开 By Bot 看，楼下有人改成 webhook 按需叫醒后，互聊占比从大约三到五成掉到一到两个百分点。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "By Bot",
+        "webhook"
+      ]
+    },
+    {
+      "id": "reddit-aaa-quote-mixup",
+      "added": "2026-11-13",
+      "title": "代问 AAA 车险，三次电话把夫妻资料说混",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xtprpc/grok_phone_calls_are_still_uncooked/",
+      "blurb": "保险 Bot 第一次还能照着逐字稿向 AAA 问车险报价，补上各车里程后再打就把本人和配偶的资料说串，事先写好的报价材料也没拦住。",
+      "section": "community",
+      "tags": [
+        "跑腿",
+        "排障"
+      ],
+      "aliases": [
+        "AAA"
+      ]
+    },
+    {
+      "id": "note-fukurou-five-bans",
+      "added": "2026-11-13",
+      "title": "一句「别自己发」被扩成五条禁令，说明栏在界面里找不到",
+      "url": "https://note.com/fukurou_builds/n/n8016aef18955",
+      "blurb": "作者只在建队那句话末尾写了不要擅自发帖，草稿 Bot 被要求发布时只给了带文案的 X 打开链接，追问后贴出界面上没有入口的说明，把禁令扩成不发帖、不回复、不点赞、不转发、不发私信。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "多Bot"
+      ]
+    },
+    {
+      "id": "note-tailscale-personal-tag",
+      "added": "2026-11-13",
+      "title": "Tailscale 入网后，个人网打标签会把 Bot 终端立刻断开",
+      "url": "https://note.com/htnl/n/n7fbef5677a78",
+      "blurb": "插件说明把公司 tailnet 的收窄写成 custom:grokbot 姿态属性并声明它不是标签，个人 tailnet 则沿用成员自己的权限，未关闭的工单记下个人网上打标签会让终端马上断开。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Tailscale"
       ]
     }
   ]

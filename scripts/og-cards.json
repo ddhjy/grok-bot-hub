@@ -133,7 +133,7 @@
       236,
       220
     ],
-    "kicker": "352个结果"
+    "kicker": "356个结果"
   },
   {
     "file": "og-q-安全-official.png",
@@ -150,7 +150,7 @@
       236,
       228
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-安全-tutorials.png",
@@ -201,7 +201,7 @@
       232,
       236
     ],
-    "kicker": "82个结果"
+    "kicker": "83个结果"
   },
   {
     "file": "og-q-安全-reviews.png",
@@ -252,7 +252,7 @@
       232,
       226
     ],
-    "kicker": "89个结果"
+    "kicker": "91个结果"
   },
   {
     "file": "og-q-安全边界.png",
@@ -405,7 +405,7 @@
       236,
       220
     ],
-    "kicker": "17个结果"
+    "kicker": "18个结果"
   },
   {
     "file": "og-q-安装-official.png",
@@ -456,7 +456,7 @@
       232,
       236
     ],
-    "kicker": "四个结果"
+    "kicker": "五个结果"
   },
   {
     "file": "og-q-安装-reviews.png",
@@ -796,7 +796,7 @@
       236,
       220
     ],
-    "kicker": "八个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-保险-official.png",
@@ -870,7 +870,7 @@
     "file": "og-q-保险-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「保险」的搜索",
-    "footer": "1Password 连接器更新后，共享保险库登录项不能再用",
+    "footer": "1Password 连接器更新后，共享保险库登录项不能再用 · 代问 AAA 车险，三次电话把夫妻资料说混",
     "accent": [
       154,
       40,
@@ -881,7 +881,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-北国桑麻.png",
@@ -1952,7 +1952,7 @@
       236,
       220
     ],
-    "kicker": "713个结果"
+    "kicker": "721个结果"
   },
   {
     "file": "og-q-插件-official.png",
@@ -1969,7 +1969,7 @@
       236,
       228
     ],
-    "kicker": "27个结果"
+    "kicker": "28个结果"
   },
   {
     "file": "og-q-插件-tutorials.png",
@@ -2003,7 +2003,7 @@
       244,
       236
     ],
-    "kicker": "86个结果"
+    "kicker": "87个结果"
   },
   {
     "file": "og-q-插件-skills.png",
@@ -2020,7 +2020,7 @@
       232,
       236
     ],
-    "kicker": "380个结果"
+    "kicker": "384个结果"
   },
   {
     "file": "og-q-插件-reviews.png",
@@ -2071,7 +2071,7 @@
       232,
       226
     ],
-    "kicker": "85个结果"
+    "kicker": "87个结果"
   },
   {
     "file": "og-q-插件市场.png",
@@ -2516,6 +2516,142 @@
     "kicker": "两个结果"
   },
   {
+    "file": "og-q-代理.png",
+    "badge": "非官方 · 搜索",
+    "title": "「代理」的搜索",
+    "footer": "Srikanth · Erwan",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "54个结果"
+  },
+  {
+    "file": "og-q-代理-official.png",
+    "badge": "非官方 · 官方资源",
+    "title": "「代理」的搜索",
+    "footer": "官方进阶课 · Matt Palmer：权限卡、审查代理，以及 Bot 为什么读不到密码",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      247,
+      236,
+      228
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-代理-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「代理」的搜索",
+    "footer": "Srikanth · Erwan",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "七个结果"
+  },
+  {
+    "file": "og-q-代理-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「代理」的搜索",
+    "footer": "Lingxi · Alex Finn",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "九个结果"
+  },
+  {
+    "file": "og-q-代理-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「代理」的搜索",
+    "footer": "Lauren · OpenScout",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
+    ],
+    "kicker": "14个结果"
+  },
+  {
+    "file": "og-q-代理-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「代理」的搜索",
+    "footer": "Eric Siu · jasode",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
+    ],
+    "kicker": "四个结果"
+  },
+  {
+    "file": "og-q-代理-alternatives.png",
+    "badge": "非官方 · 开源替代",
+    "title": "「代理」的搜索",
+    "footer": "Rome · r/VibeCodeDevs：Hotline 把类似 Grok Bot 的一屋子代理做成可自托管",
+    "accent": [
+      36,
+      92,
+      102
+    ],
+    "paper": [
+      232,
+      242,
+      242
+    ],
+    "kicker": "七个结果"
+  },
+  {
+    "file": "og-q-代理-community.png",
+    "badge": "非官方 · 社区与坑",
+    "title": "「代理」的搜索",
+    "footer": "r/cursor · 员工",
+    "accent": [
+      154,
+      40,
+      28
+    ],
+    "paper": [
+      248,
+      232,
+      226
+    ],
+    "kicker": "11个结果"
+  },
+  {
     "file": "og-q-代码库.png",
     "badge": "非官方 · 搜索",
     "title": "「代码库」的搜索",
@@ -2570,7 +2706,7 @@
     "file": "og-q-代替.png",
     "badge": "非官方 · 搜索",
     "title": "「代替」的搜索",
-    "footer": "二〇二六年代替盘点",
+    "footer": "二〇二六年代替盘点 · 公开回复先过证明门，整段放权不能代替逐条确认",
     "accent": [
       194,
       59,
@@ -2580,6 +2716,23 @@
       245,
       236,
       220
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-代替-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「代替」的搜索",
+    "footer": "公开回复先过证明门，整段放权不能代替逐条确认",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -3091,7 +3244,7 @@
       236,
       220
     ],
-    "kicker": "30个结果"
+    "kicker": "31个结果"
   },
   {
     "file": "og-q-订阅-official.png",
@@ -3142,7 +3295,7 @@
       244,
       236
     ],
-    "kicker": "八个结果"
+    "kicker": "九个结果"
   },
   {
     "file": "og-q-订阅-skills.png",
@@ -3193,7 +3346,7 @@
       236,
       220
     ],
-    "kicker": "439个结果"
+    "kicker": "443个结果"
   },
   {
     "file": "og-q-定价-official.png",
@@ -3227,7 +3380,7 @@
       240,
       224
     ],
-    "kicker": "72个结果"
+    "kicker": "73个结果"
   },
   {
     "file": "og-q-定价-cases.png",
@@ -3244,7 +3397,7 @@
       244,
       236
     ],
-    "kicker": "87个结果"
+    "kicker": "89个结果"
   },
   {
     "file": "og-q-定价-skills.png",
@@ -3312,7 +3465,7 @@
       232,
       226
     ],
-    "kicker": "143个结果"
+    "kicker": "144个结果"
   },
   {
     "file": "og-q-东京黑客松.png",
@@ -3533,7 +3686,7 @@
       236,
       220
     ],
-    "kicker": "176个结果"
+    "kicker": "178个结果"
   },
   {
     "file": "og-q-额度-official.png",
@@ -3584,7 +3737,7 @@
       244,
       236
     ],
-    "kicker": "28个结果"
+    "kicker": "29个结果"
   },
   {
     "file": "og-q-额度-skills.png",
@@ -3652,7 +3805,7 @@
       232,
       226
     ],
-    "kicker": "75个结果"
+    "kicker": "76个结果"
   },
   {
     "file": "og-q-额度重置.png",
@@ -4537,6 +4690,57 @@
       236
     ],
     "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-工作室.png",
+    "badge": "非官方 · 搜索",
+    "title": "「工作室」的搜索",
+    "footer": "Ryan Perry · 个人游戏工作室十天发出四款：Grok Bot 当窗口",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-工作室-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「工作室」的搜索",
+    "footer": "用工作卡搭起四只传话 Bot 的工作室",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-工作室-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「工作室」的搜索",
+    "footer": "Ryan Perry · 个人游戏工作室十天发出四款：Grok Bot 当窗口",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-公网 IP.png",
@@ -5947,7 +6151,7 @@
       236,
       220
     ],
-    "kicker": "32个结果"
+    "kicker": "33个结果"
   },
   {
     "file": "og-q-即刻-tutorials.png",
@@ -5981,7 +6185,7 @@
       244,
       236
     ],
-    "kicker": "16个结果"
+    "kicker": "17个结果"
   },
   {
     "file": "og-q-即刻-skills.png",
@@ -6049,7 +6253,7 @@
       236,
       220
     ],
-    "kicker": "438个结果"
+    "kicker": "442个结果"
   },
   {
     "file": "og-q-计费-official.png",
@@ -6083,7 +6287,7 @@
       240,
       224
     ],
-    "kicker": "73个结果"
+    "kicker": "74个结果"
   },
   {
     "file": "og-q-计费-cases.png",
@@ -6100,7 +6304,7 @@
       244,
       236
     ],
-    "kicker": "87个结果"
+    "kicker": "89个结果"
   },
   {
     "file": "og-q-计费-skills.png",
@@ -6168,7 +6372,7 @@
       232,
       226
     ],
-    "kicker": "142个结果"
+    "kicker": "143个结果"
   },
   {
     "file": "og-q-记忆.png",
@@ -6780,7 +6984,7 @@
       236,
       220
     ],
-    "kicker": "18个结果"
+    "kicker": "19个结果"
   },
   {
     "file": "og-q-脚本-tutorials.png",
@@ -6831,7 +7035,7 @@
       232,
       236
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-脚本-alternatives.png",
@@ -8531,7 +8735,7 @@
       236,
       220
     ],
-    "kicker": "58个结果"
+    "kicker": "59个结果"
   },
   {
     "file": "og-q-浏览器-official.png",
@@ -8582,7 +8786,7 @@
       244,
       236
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-浏览器-skills.png",
@@ -9092,7 +9296,7 @@
       236,
       220
     ],
-    "kicker": "49个结果"
+    "kicker": "50个结果"
   },
   {
     "file": "og-q-模板-official.png",
@@ -9160,7 +9364,7 @@
       232,
       236
     ],
-    "kicker": "25个结果"
+    "kicker": "26个结果"
   },
   {
     "file": "og-q-模板-reviews.png",
@@ -9653,7 +9857,7 @@
       236,
       220
     ],
-    "kicker": "533个结果"
+    "kicker": "537个结果"
   },
   {
     "file": "og-q-排障-official.png",
@@ -9721,7 +9925,7 @@
       232,
       236
     ],
-    "kicker": "45个结果"
+    "kicker": "46个结果"
   },
   {
     "file": "og-q-排障-reviews.png",
@@ -9772,7 +9976,7 @@
       232,
       226
     ],
-    "kicker": "401个结果"
+    "kicker": "404个结果"
   },
   {
     "file": "og-q-彭政.png",
@@ -10642,6 +10846,125 @@
     "kicker": "两个结果"
   },
   {
+    "file": "og-q-权限.png",
+    "badge": "非官方 · 搜索",
+    "title": "「权限」的搜索",
+    "footer": "Indra · Matt Palmer：上手 Grok Bot，权限规则和多岗串到 Notion",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "十个结果"
+  },
+  {
+    "file": "og-q-权限-official.png",
+    "badge": "非官方 · 官方资源",
+    "title": "「权限」的搜索",
+    "footer": "Matt Palmer：权限卡、审查代理，以及 Bot 为什么读不到密码",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      247,
+      236,
+      228
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-权限-tutorials.png",
+    "badge": "非官方 · 教程",
+    "title": "「权限」的搜索",
+    "footer": "Matt Palmer：上手 Grok Bot，权限规则和多岗串到 Notion",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-权限-cases.png",
+    "badge": "非官方 · 实战案例",
+    "title": "「权限」的搜索",
+    "footer": "Cursor Pro 刚开权限：Udemy 竞品、解约订阅、扫 X 三条一起丢 · 棒球速报、漫画更新和收紧权限的 Cloudflare，Premium 用了一周",
+    "accent": [
+      46,
+      92,
+      64
+    ],
+    "paper": [
+      236,
+      244,
+      236
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-权限-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「权限」的搜索",
+    "footer": "员工 · 编码代理做完或要权限时，只叫醒派出它的那只 Bot",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
+    ],
+    "kicker": "两个结果"
+  },
+  {
+    "file": "og-q-权限-reviews.png",
+    "badge": "非官方 · 评测对比",
+    "title": "「权限」的搜索",
+    "footer": "r/GrokBot · 月 20 美元搭 24 小时 AI 团队：共享电脑、权限停线与竞品对照",
+    "accent": [
+      28,
+      25,
+      22
+    ],
+    "paper": [
+      236,
+      234,
+      228
+    ],
+    "kicker": "三个结果"
+  },
+  {
+    "file": "og-q-权限-takes.png",
+    "badge": "非官方 · 观点与实测",
+    "title": "「权限」的搜索",
+    "footer": "Indra",
+    "accent": [
+      90,
+      64,
+      24
+    ],
+    "paper": [
+      246,
+      240,
+      224
+    ],
+    "kicker": "一个结果"
+  },
+  {
     "file": "og-q-群聊.png",
     "badge": "非官方 · 搜索",
     "title": "「群聊」的搜索",
@@ -10656,7 +10979,7 @@
       236,
       220
     ],
-    "kicker": "24个结果"
+    "kicker": "25个结果"
   },
   {
     "file": "og-q-群聊-official.png",
@@ -10690,7 +11013,7 @@
       240,
       224
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-群聊-cases.png",
@@ -13053,7 +13376,7 @@
       236,
       220
     ],
-    "kicker": "60个结果"
+    "kicker": "61个结果"
   },
   {
     "file": "og-q-手机-official.png",
@@ -13121,7 +13444,7 @@
       232,
       236
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-手机-reviews.png",
@@ -14379,7 +14702,24 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
+  },
+  {
+    "file": "og-q-外呼-official.png",
+    "badge": "非官方 · 官方资源",
+    "title": "「外呼」的搜索",
+    "footer": "官方",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      247,
+      236,
+      228
+    ],
+    "kicker": "一个结果"
   },
   {
     "file": "og-q-外呼-tutorials.png",
@@ -15195,7 +15535,7 @@
       236,
       220
     ],
-    "kicker": "五个结果"
+    "kicker": "六个结果"
   },
   {
     "file": "og-q-下载-official.png",
@@ -15252,7 +15592,7 @@
     "file": "og-q-下载-community.png",
     "badge": "非官方 · 社区与坑",
     "title": "「下载」的搜索",
-    "footer": "官网写免费试，Windows 下载却把人绕进信用卡墙",
+    "footer": "官网写免费试，Windows 下载却把人绕进信用卡墙 · 关掉自动更新也挡不住下载，旧客户端过期后只能升级",
     "accent": [
       154,
       40,
@@ -15263,7 +15603,7 @@
       232,
       226
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-岘港.png",
@@ -15314,7 +15654,7 @@
       236,
       220
     ],
-    "kicker": "六个结果"
+    "kicker": "七个结果"
   },
   {
     "file": "og-q-线程-official.png",
@@ -15337,7 +15677,7 @@
     "file": "og-q-线程-cases.png",
     "badge": "非官方 · 实战案例",
     "title": "「线程」的搜索",
-    "footer": "和 Dots 分着用",
+    "footer": "和 Dots 分着用 · 视频留在 Mac 上的 Claude，Eden 两小时读一次线程",
     "accent": [
       46,
       92,
@@ -15348,7 +15688,7 @@
       244,
       236
     ],
-    "kicker": "一个结果"
+    "kicker": "两个结果"
   },
   {
     "file": "og-q-线程-skills.png",
@@ -17286,7 +17626,7 @@
       236,
       220
     ],
-    "kicker": "44个结果"
+    "kicker": "46个结果"
   },
   {
     "file": "og-q-语音-official.png",
@@ -17303,7 +17643,7 @@
       236,
       228
     ],
-    "kicker": "七个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-语音-tutorials.png",
@@ -17337,7 +17677,7 @@
       244,
       236
     ],
-    "kicker": "15个结果"
+    "kicker": "16个结果"
   },
   {
     "file": "og-q-语音-skills.png",
@@ -17898,7 +18238,7 @@
       236,
       220
     ],
-    "kicker": "19个结果"
+    "kicker": "20个结果"
   },
   {
     "file": "og-q-账单-tutorials.png",
@@ -17932,7 +18272,7 @@
       244,
       236
     ],
-    "kicker": "七个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-账单-skills.png",
@@ -18000,7 +18340,7 @@
       236,
       220
     ],
-    "kicker": "73个结果"
+    "kicker": "74个结果"
   },
   {
     "file": "og-q-账号-official.png",
@@ -18034,7 +18374,7 @@
       240,
       224
     ],
-    "kicker": "12个结果"
+    "kicker": "13个结果"
   },
   {
     "file": "og-q-账号-cases.png",
@@ -18135,6 +18475,40 @@
       248,
       232,
       226
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-证明.png",
+    "badge": "非官方 · 搜索",
+    "title": "「证明」的搜索",
+    "footer": "公开回复先过证明门，整段放权不能代替逐条确认",
+    "accent": [
+      194,
+      59,
+      34
+    ],
+    "paper": [
+      245,
+      236,
+      220
+    ],
+    "kicker": "一个结果"
+  },
+  {
+    "file": "og-q-证明-skills.png",
+    "badge": "非官方 · 技能",
+    "title": "「证明」的搜索",
+    "footer": "公开回复先过证明门，整段放权不能代替逐条确认",
+    "accent": [
+      110,
+      58,
+      74
+    ],
+    "paper": [
+      246,
+      232,
+      236
     ],
     "kicker": "一个结果"
   },
@@ -18442,7 +18816,7 @@
       236,
       220
     ],
-    "kicker": "15个结果"
+    "kicker": "16个结果"
   },
   {
     "file": "og-q-终端-official.png",
@@ -18544,7 +18918,7 @@
       232,
       226
     ],
-    "kicker": "两个结果"
+    "kicker": "三个结果"
   },
   {
     "file": "og-q-重连.png",
@@ -18782,7 +19156,7 @@
       236,
       220
     ],
-    "kicker": "60个结果"
+    "kicker": "61个结果"
   },
   {
     "file": "og-q-周额度-official.png",
@@ -18833,7 +19207,7 @@
       244,
       236
     ],
-    "kicker": "十个结果"
+    "kicker": "11个结果"
   },
   {
     "file": "og-q-周额度-skills.png",
@@ -19887,7 +20261,7 @@
       236,
       220
     ],
-    "kicker": "33个结果"
+    "kicker": "34个结果"
   },
   {
     "file": "og-q-Slack-official.png",
@@ -19904,7 +20278,7 @@
       236,
       228
     ],
-    "kicker": "七个结果"
+    "kicker": "八个结果"
   },
   {
     "file": "og-q-Slack-tutorials.png",
