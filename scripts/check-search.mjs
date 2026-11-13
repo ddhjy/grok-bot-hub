@@ -145,7 +145,9 @@ assert(slack.includes("note-ren-slack-paths"), "Slack misses note 三条 Slack �
 assert(slack.includes("forum-slack-dm-fail"), "Slack misses Slack 私信在读到之前就失败");
 assert(slack.includes("forum-slack-empty-vm"), "Slack misses Slack 会话落在空虚拟机");
 assert(slack.includes("x-bot-1-0"), "Slack misses 1.0 可分享进 Slack");
-assert(slack.length === 34, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren + whats-new-1 + hn-slack-same-name + forum-slack-handoff-owner + jamespember + bank-slack + ship-code-scale + team-exception + forum-slack-unbound + matt-team + slack-grok-bridge + note-ren-slack-paths + forum-slack-dm-fail + forum-slack-empty-vm + x-bot-1-0, got ${slack.length}: ${slack.join(",")}`);
+assert(slack.includes("youtube-meet-team-bots"), "Slack misses 官方 Team Bot 工作坊 Mimi");
+assert(slack.includes("forum-solo-team-share"), "Slack misses 一人团队邀不到 Slack");
+assert(slack.length === 36, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren + whats-new-1 + hn-slack-same-name + forum-slack-handoff-owner + jamespember + bank-slack + ship-code-scale + team-exception + forum-slack-unbound + matt-team + slack-grok-bridge + note-ren-slack-paths + forum-slack-dm-fail + forum-slack-empty-vm + x-bot-1-0 + youtube-meet-team-bots + forum-solo-team-share, got ${slack.length}: ${slack.join(",")}`);
 
 const skill = hits("技能");
 assert(skill.includes("docs-skills-routines"), "技能 misses 技能与例程");
