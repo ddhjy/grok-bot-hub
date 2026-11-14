@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "sections": [
     {
       "id": "official",
@@ -43393,6 +43393,515 @@
       ],
       "aliases": [
         "X"
+      ]
+    },
+    {
+      "id": "x-sam-usage-lift",
+      "added": "2026-11-15",
+      "title": "同一档方案大约多出 7% 用量，例行任务最多再多 15%",
+      "url": "https://x.com/SamSokolin/status/2121303079803089179",
+      "blurb": "负责 Grok Bot 的 Sam Sokolin 说，这周上线的执行框架优化能让同一档方案大约多出 7% 用量，例行任务最多再多 15%。",
+      "section": "official",
+      "cluster": "billing",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "X",
+        "Sam Sokolin"
+      ]
+    },
+    {
+      "id": "bili-wechat-plugins",
+      "added": "2026-11-15",
+      "title": "两个插件接上后台数据、微信群聊和 Bot 记忆",
+      "url": "https://www.bilibili.com/video/BV1bUWi6UEZb",
+      "blurb": "系列第四集把后台数据、微信群聊和 Bot 记忆收成两个插件，十一分钟可以接到自己的编制里。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "bili-comfy-short",
+      "added": "2026-11-15",
+      "title": "把 ComfyUI 装进云电脑，短剧流程交给 Bot",
+      "url": "https://www.bilibili.com/video/BV1UEs56XExP",
+      "blurb": "黄益贺把 ComfyUI 部署到一直开着的云电脑上，短剧里麻烦的工作流由 Bot 跑，人只盯内容。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "ComfyUI",
+        "黄益贺"
+      ]
+    },
+    {
+      "id": "forum-parked-task",
+      "added": "2026-11-15",
+      "title": "搁下的任务不会自己继续，要等新消息或例程叫醒",
+      "url": "https://forum.cursor.com/t/grok-bot-now-following-through-with-tasks/177734",
+      "blurb": "员工确认搁下的任务会一直停着，哪怕刚说过马上继续，只有新消息或例程能叫醒，11 月 5 日起连不上模型还会丢掉手头那一段，到 11 月 9 日上午才缓和。",
+      "section": "tutorials",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "jike-feishu-wake",
+      "added": "2026-11-15",
+      "title": "飞书有人回了，用云电脑脚本或 Webhook 把 Bot 叫醒",
+      "url": "https://m.okjike.com/reposts/6af806fa0ee16426611f46eb",
+      "blurb": "同事在飞书里回了验证码或审批之后原来的会话接不上，许涵之用云电脑里跑完就停的脚本，或用 Webhook 例行，把对应的 Grok Bot 重新叫醒。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "即刻",
+        "飞书",
+        "许涵之"
+      ]
+    },
+    {
+      "id": "note-reason-consent",
+      "added": "2026-11-15",
+      "title": "经 Reason 转述「本人已同意」，改规则仍要本人点头",
+      "url": "https://note.com/tourutanji/n/n3a4ae4c5eeb5",
+      "blurb": "Claude 经 Reason 传话时，Grok Bot 不把转述的「本人已经同意」当成批准，仍会停下来等本人点头才把规则写进去。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "Reason",
+        "Muse"
+      ]
+    },
+    {
+      "id": "reddit-game-stats",
+      "added": "2026-11-15",
+      "title": "关掉游戏就把结算截图寄给 Bot，写成可钉在主屏的生涯数据",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xw63kw/i_made_grok_bot_autotrack_stats_for_mobile_games/",
+      "blurb": "手柄上按一下把结算截图存下来，关掉游戏后快捷指令打包寄到 Bot 自己的邮箱，例行任务读图去重，再写进可以钉在主屏幕上的统计页。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-oneshot-watch",
+      "added": "2026-11-15",
+      "title": "一次性盯梢：查到或到点就通知，然后删掉例行",
+      "url": "https://x.com/adamliftsalot/status/2121655526841053224",
+      "blurb": "Adam 把周日上午的盯梢写成会自我销毁的例行，每 30 分钟只查几个指定记者有没有说某球员出场，查到或到 11 点半就通知一次并删掉任务，免得没有截止的巡查一直空转吃额度。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "计费"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "bili-world-execute",
+      "added": "2026-11-15",
+      "title": "只给原曲，Bot 在云电脑里做出 World.Execute(me)",
+      "url": "https://www.bilibili.com/video/BV1VtsV6ZEv3",
+      "blurb": "只给原曲就让 Bot 在云电脑里自己搜词、设计和出片，简介记下 S 档一周额度怎么被烧掉，以及中途更换干活模型会把成片做崩。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "bili-gpt-refund",
+      "added": "2026-11-15",
+      "title": "申请页和拒信都走死后，Bot 把 100 美元 GPT 套餐退了回来",
+      "url": "https://www.bilibili.com/video/BV1mcWz6EEg6",
+      "blurb": "客服连着拒绝、邮件几十秒就自动拒掉之后，Bot 来回跟了几轮，直到官方书面确认这档 100 美元套餐全额退款。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "medium-car-mesh",
+      "added": "2026-11-15",
+      "title": "一张车展照片，云电脑上做成可拖动的三维场景",
+      "url": "https://medium.com/@amitsrivastava115/how-i-turned-one-photo-of-a-car-into-a-3d-scene-with-grok-bot-in-87-seconds-b13cf24642a0",
+      "blurb": "全程没自己开终端，只靠对话让 Bot 在没有 GPU 的云电脑上估深度、补洞、导出网格并渲出环绕视频，文中写了每一步耗时和三处第一次做坏的地方。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "Medium"
+      ]
+    },
+    {
+      "id": "note-qrozier-nineday",
+      "added": "2026-11-15",
+      "title": "十二个发稿 Bot 实跑九天：发出去了，也停过",
+      "url": "https://note.com/qrozier/n/nb6dda3cdba05",
+      "blurb": "一个人公司用十二个有名字的 Bot 发了九天稿，哪条渠道停了、质量门放过什么、人还要盯多久，都按当天记录写着。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "note-eiken-cbt",
+      "added": "2026-11-15",
+      "title": "英检三级报名：选考场、传证件照，直到便利店付款通知",
+      "url": "https://note.com/rumia_dev/n/n63e1285d03a0",
+      "blurb": "报名只补了一句「CBT」，云电脑接着选了最晚的周日下午、核对住址、上传证件照，并收到便利店缴费指引。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "reddit-wanderway",
+      "added": "2026-11-15",
+      "title": "导航 App 的两只 Bot：上架和客服要人点头，营销只有 X 例行能自己发",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xvua90/i_run_two_grok_bot_agents_on_my_iphone_and_mac/",
+      "blurb": "构建 Bot 管打包、TestFlight 和要你点头的客服草稿，营销 Bot 只有早晚那条受限的 X 例行能自己发，Mac 版刚上架时是一条会自己关掉的巡查先发现的。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Reddit",
+        "TestFlight"
+      ]
+    },
+    {
+      "id": "reddit-frameio-desk",
+      "added": "2026-11-15",
+      "title": "视频公司已经让 Bot 管 Frame.io、归档、邮件和发票",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xvfnjw/grok_bot_for_video_editing_motion_design_etc/",
+      "blurb": "作者已经分开让 Bot 整理 Frame.io、把六十天没动静的项目归档、给客户邮件归类并开发票，剪辑和动画整套还留在人这边。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "运营"
+      ],
+      "aliases": [
+        "Reddit",
+        "Frame.io"
+      ]
+    },
+    {
+      "id": "substack-imessage-crm",
+      "added": "2026-11-15",
+      "title": "短信当 CRM：每天两次只读 Mac 消息，记下承诺",
+      "url": "https://moxiegtm.substack.com/p/how-to-replace-your-crm-with-your",
+      "blurb": "这套安排每天两次只读 Mac 上的 iMessage 和 WhatsApp，把人物关系、计划和答应过的事写进 Bot 记忆，原始对话和敏感话题留在本机。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "安全"
+      ],
+      "aliases": [
+        "Substack",
+        "iMessage",
+        "WhatsApp"
+      ]
+    },
+    {
+      "id": "youtube-lauren-lightcone",
+      "added": "2026-11-15",
+      "title": "YC Lightcone：专才小队、放权，以及每月大约四千个 PR",
+      "url": "https://www.youtube.com/watch?v=JpJUHOe8bDo",
+      "blurb": "Lauren Tan 在 YC 的 Lightcone 里讲专才 Bot 怎么分工、怎么在公司里共享、Bot 之间怎么交接，以及测试和仓库护栏怎样撑住每月大约四千个拉取请求。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "YouTube",
+        "Lauren Tan",
+        "YC"
+      ]
+    },
+    {
+      "id": "youtube-coinbase-book",
+      "added": "2026-11-15",
+      "title": "Coinbase 的交易 Bot：盯英伟达新闻、每周再平衡，模拟盘在云电脑上搭",
+      "url": "https://www.youtube.com/watch?v=91J3eaBH6no",
+      "blurb": "Coinbase 的 AI 产品负责人把连接器权限收在一个投资组合里，演示下单前盯英伟达新闻、每周再平衡，并用 Bot 自己的电脑补上平台没有的模拟盘，同时设了单笔上限和 24 小时限额。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "YouTube",
+        "Coinbase"
+      ]
+    },
+    {
+      "id": "emil-grok-discord",
+      "added": "2026-11-15",
+      "title": "Discord 提及或私信交给例行，做完再贴回原消息",
+      "url": "https://github.com/emilkallioniemi/grok-bot-discord",
+      "blurb": "官方没有 Discord 入站，这套桥把频道提及和私信交给例行 Webhook，Bot 再用自建连接器把答复贴回原消息，单条例行每小时最多 200 次，超过 2000 字会拆开，而且它能读到这个机器人看得到的每一个频道。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "Discord",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "grok-cursor-bruecke",
+      "added": "2026-11-15",
+      "title": "手机上的 Grok Bot 指挥 Windows 里的 Cursor 窗口",
+      "url": "https://github.com/Cahja90/grok-cursor-bruecke",
+      "blurb": "这条只在本机跑的命令行按窗口句柄把提示词打进 Cursor 并等做完，真正发送必须带 --ja，逐步模式停在发送前，自主模式要计划里写明 autonom，窗口标题对不上就中止这一项。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "omarchy-voice-wake",
+      "added": "2026-11-15",
+      "title": "在 Omarchy 上喊 Hey 加名字，打开对应 Bot 的语音",
+      "url": "https://github.com/johnatfreecoffee/omarchy-voice-wake",
+      "blurb": "唤醒词在本机听完才用 grokbot:// 打开那个代理并去点语音按钮，输入框里还有未发送草稿就不会点，语音解锁每次开机都要先打一次密码，而且只在写进名单的 Wi-Fi 上开放。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Omarchy"
+      ]
+    },
+    {
+      "id": "fileguard-static",
+      "added": "2026-11-15",
+      "title": "在 Bot 自己的电脑上静态查文件，全程不运行",
+      "url": "https://github.com/fish-blossom/fileguard",
+      "blurb": "第一次对话把静态扫描引擎装到这台 Linux 云电脑的 /workspace/fileguard，之后用 fg 查文件、下载地址和 npm 或 PyPI 包，结论只会是 BLOCK、HIGH_RISK、INCOMPLETE、NO_FINDINGS、ERROR 之一，而且不挂 MCP、也不运行被检文件。",
+      "section": "skills",
+      "tags": [
+        "安全",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Fileguard"
+      ]
+    },
+    {
+      "id": "pickletime-early",
+      "added": "2026-11-15",
+      "title": "订匹克球场的例行提前醒，躲开迟到的十到三十七分钟",
+      "url": "https://github.com/kapadias/pickletime-grokbot",
+      "blurb": "球场正午放出，例行却可能晚 10 到 37 分钟，所以每天 11 点 15 分先起来干等到 11 点 57 分，再让云端电脑上的 Chrome 冲刺，登录只走保密卡片，彩排模式会在点保存之前停下。",
+      "section": "skills",
+      "tags": [
+        "跑腿",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "note-seasons-bars",
+      "added": "2026-11-15",
+      "title": "问一句额度怎样，Grok、Codex、Claude 的剩余变成表情条",
+      "url": "https://note.com/seasons7/n/n1c20b32e1acf",
+      "blurb": "重活交给 Codex 或 Claude 之前，先在共享电脑上跑一条几乎不调用模型的命令，三边周额度会变成绿黄红的十格条。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "qiita-hermes-front",
+      "added": "2026-11-15",
+      "title": "开发入口放在 Grok Bot：额度和速率顶满后，全自动并行没跑稳",
+      "url": "https://qiita.com/yukurust/items/d18aad7dd4c4ad1b1191",
+      "blurb": "开发入口放在 Grok Bot 时用量和速率很快顶满，换成 Hermes 自动桥之后，权限隔离和重复触发让全自动并行没能稳定跑完。",
+      "section": "reviews",
+      "tags": [
+        "工程",
+        "计费"
+      ],
+      "aliases": [
+        "Qiita",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "x-inpi-browser",
+      "added": "2026-11-15",
+      "title": "商标检索让 Bot 自己翻网页，一次近 6% 周额度",
+      "url": "https://x.com/soareschr/status/2121649390959882548",
+      "blurb": "巴西商标律师让 Bot 直接在 INPI 网站做在先检索，一次就烧掉近 6% 周额度，改成由 GPT 技能按固定参数检索、Bot 只负责下指令后，七次检索最多只用了 2%。",
+      "section": "reviews",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "X",
+        "INPI"
+      ]
+    },
+    {
+      "id": "youtube-openmaus-move",
+      "added": "2026-11-15",
+      "title": "额度烧太快就换 OpenmausBot：迁移设置、多模型和浏览器实测",
+      "url": "https://www.youtube.com/watch?v=quxbydoCIiw",
+      "blurb": "这场实测把现有 Grok Bot 设置迁到开源的 OpenmausBot，按任务换 Claude、ChatGPT 或 Grok，再让它自己开浏览器登 Threads，并用 Notion 和 Gmail 把信寄出去。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "YouTube",
+        "OpenmausBot"
+      ]
+    },
+    {
+      "id": "forum-github-empty-file",
+      "added": "2026-11-15",
+      "title": "内置 GitHub 读文件把空文件收成 status 200，JSON 有时还被解析掉",
+      "url": "https://forum.cursor.com/t/grok-bot-cursor-github-get-file-contents-returns-status-200-for-empty-files-and-sometimes-parsed-json-instead-of-raw-bytes/178397",
+      "blurb": "每日技能镜像例程在 11 月 14 日连续三次踩中同一连接器，0 字节文件只返回 status 200 的空壳，部分 json 被解析成对象因而对不上 blob SHA，同一次运行里的 md 和 jsonc 仍是原文。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "forum-1password-x-login",
+      "added": "2026-11-15",
+      "title": "换成 X 登录后，1Password 仍绑在已经进不去的旧账号",
+      "url": "https://forum.cursor.com/t/grok-bot-1password-stuck-on-old-account-after-switching-sign-in-method-already-connected-to-another-grok-bot-account/178358",
+      "blurb": "同一邮箱从 Cursor 登录改走 X 之后，新账号连接会报这个 1Password 已绑在另一个 Grok Bot 账号上，而所有登录都进了新账号，旧连接从 11 月 5 日起拆不掉。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "1Password"
+      ]
+    },
+    {
+      "id": "forum-d-drive-shell",
+      "added": "2026-11-15",
+      "title": "D 盘仍被文件工具拒绝，Bot 还不执行员工允许的 Shell",
+      "url": "https://forum.cursor.com/t/grok-bot-copytobox-read-refuse-d-paths-outside-the-allowed-local-exec-root-while-shell-works/176555",
+      "blurb": "员工 11 月 13 日重申本机读取和复制只到 C 盘用户目录、D 盘没有白名单、改用 Shell 不算绕过，次日仍有人贴出 Bot 在读被拒后拒绝执行这条 Shell，理由是不能突破访问边界。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-public-client-id",
+      "added": "2026-11-15",
+      "title": "Public 券商登录拒绝 Grok Bot 的 client_id",
+      "url": "https://forum.cursor.com/t/public-brokerage-connection-fails-in-grok-bot-oauth-client-id-error/177652",
+      "blurb": "员工说从 10 月下旬起就是 Public 的登录页在进账号之前就拒绝 Grok Bot 的应用身份，重连和对齐邮箱都没用，楼主后来新建了一把 API key 才重新连上。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Public"
+      ]
+    },
+    {
+      "id": "x-ultra-not-synced",
+      "added": "2026-11-15",
+      "title": "付了 Ultra 八天，订阅还没同步进 Grok Bot",
+      "url": "https://x.com/shankarv78/status/2121660300596502535",
+      "blurb": "Shankar Vasudevan 11 月 6 日购买的 Ultra 到 11 月 14 日仍未同步到 Cursor 和 Grok Bot，客服在 13 日确认是后端同步故障，当周用量却已经用到 75%。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "Ultra"
       ]
     }
   ]
