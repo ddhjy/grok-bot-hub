@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "sections": [
     {
       "id": "official",
@@ -43902,6 +43902,441 @@
       "aliases": [
         "X",
         "Ultra"
+      ]
+    },
+    {
+      "id": "youtube-matt-whats-new",
+      "added": "2026-11-16",
+      "title": "官方：1.0 把现有 Bot 一键变成团队同事，并能进会开工",
+      "url": "https://www.youtube.com/watch?v=kjlDV-vf0-A",
+      "blurb": "Team 与 Enterprise 可以把现有 Bot 直接变成 Team Bot 并放进 Slack，说一声就能进 Meet、Zoom 或 Teams 在会议聊天里答问，早间例行还会自己到连接器里找能开工的活。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer",
+        "Grok Bot 1.0"
+      ]
+    },
+    {
+      "id": "bili-page-notion",
+      "added": "2026-11-16",
+      "title": "云电脑休眠之后，用 Page 打开结果，再在 Notion 里批注",
+      "url": "https://www.bilibili.com/video/BV1ZgsE6yEqU",
+      "blurb": "云电脑一休眠就不好找产物时，作者改用 Page 直接打开结果，再把上下文放进 Notion 做多轮批注，后半段是他自己的口述、录制和分发。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "电脑"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "bili-store-five",
+      "added": "2026-11-16",
+      "title": "把正在用的交易 Bot 收成模板，标价 5 美元上架",
+      "url": "https://www.bilibili.com/video/BV1vvWe6SE5C",
+      "blurb": "作者把自己的交易工作流收成公开模板，走完打包到 Bot Store 上架并标价 5 美元，片中提示词和模板写在说明里。",
+      "section": "tutorials",
+      "tags": [
+        "销售",
+        "上手"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "Bot Store"
+      ]
+    },
+    {
+      "id": "qiita-menu-buyer",
+      "added": "2026-11-16",
+      "title": "二十分钟从收件箱拆出菜单员和采购员",
+      "url": "https://qiita.com/junko105106/items/dbf759f029e31a5fa325",
+      "blurb": "给助手起名并连上 Gmail 与 Outlook 之后，未读被收成要回的信和带日期的事，再拆出菜单员和采购员，每天 17 点左右把该补的菜送进聊天，发送仍停在你手里。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "Qiita"
+      ]
+    },
+    {
+      "id": "youtube-brock-fifty",
+      "added": "2026-11-16",
+      "title": "五十分钟七层课：从开口派活到内容小队和压额度",
+      "url": "https://www.youtube.com/watch?v=bH2x8jtHyXM",
+      "blurb": "Brock 按自己每天用来跑业务的七层往上走，讲一个 Bot 挂多个账号、购物卡片、把流程收成 Bot 和内容小队，结尾给了压低额度的做法。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Brock Mesarich"
+      ]
+    },
+    {
+      "id": "devto-factory-pair",
+      "added": "2026-11-16",
+      "title": "两只定时 Bot 分工找活和写规格，人只批规格并合并",
+      "url": "https://dev.to/rickjms/two-grok-bots-one-software-factory-how-my-lab-finds-and-builds-its-own-work-2n0h",
+      "blurb": "Scout 每天只把过了五道关的想法写成带 ready-for-builder 的目标，Builder 到中午才拆规格和工单，作者只在批准规格和合并拉取请求时插手。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "DEV"
+      ]
+    },
+    {
+      "id": "qiita-secretary-direct",
+      "added": "2026-11-16",
+      "title": "秘书全包中转失败了：单任务直接找专员",
+      "url": "https://qiita.com/natume_nat/items/a28379412e679afed151",
+      "blurb": "所有请求都先经秘书转述时，细活会被摘要掉、用量算两遍，Bot 之间也容易传丢，作者改成单任务直达专员，只把跨角色的事和定时检查留给秘书。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Qiita"
+      ]
+    },
+    {
+      "id": "note-edge-startup",
+      "added": "2026-11-16",
+      "title": "只说电脑卡，Bot 查出 45 条 Edge 开机自启",
+      "url": "https://note.com/sion4649/n/n51982a778416",
+      "blurb": "内存和硬盘都够用，拖慢的是 45 条 Edge 开机启动和游戏结束时出错的 NVIDIA App，删除前会先问，并先做好可以回退的备份。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "reddit-wifi-qos",
+      "added": "2026-11-16",
+      "title": "Bot 整理了家里的 Wi-Fi：分组、优先队列，电视不再卡",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xwg0gb/grok_bot_organized_my_wifi_network_and_fixed_my/",
+      "blurb": "它已经改完设备名、分组和优先队列，父母的电视不再卡，跟帖里有人给网络 Bot 接了 Ubiquiti 的接口密钥，让它读配置并改路由。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "substack-kane-podcast",
+      "added": "2026-11-16",
+      "title": "播客录完交给 Bot：转写排期，早饭前排好二十条社媒",
+      "url": "https://kanesimms.substack.com/p/the-people-in-the-middle",
+      "blurb": "录完后作者把文件夹和标题、封面的想法交给 Bot，由它做完转写、上传和排期，再交给短视频和简报 Bot，人改文案并在早饭前批准大约二十条社媒稿。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "视频",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Kane Simms"
+      ]
+    },
+    {
+      "id": "wechat-bed-lecture",
+      "added": "2026-11-16",
+      "title": "躺床把长推交给 Bot：云电脑补背景并渲讲解视频",
+      "url": "https://mp.weixin.qq.com/s/1afnn-WeU4KvD03lqSIv2w",
+      "blurb": "躺在床上把看不懂的英文长推丢给 Bot，它在自己的云电脑上补背景、交回 43 页中文讲义，并渲出一支 3 分 19 秒、18 个镜头的动效讲解。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "微信",
+        "歸藏"
+      ]
+    },
+    {
+      "id": "grok-bot-tui",
+      "added": "2026-11-16",
+      "title": "非官方终端客户端，接着 Mac 上已登录的 Grok Bot",
+      "url": "https://github.com/Kuanyeah/grok-bot-tui",
+      "blurb": "桌面登录目前只认已经打开并登录的 macOS 客户端，加 --mock 可以离线看演示，图片会先上传再发送，若要把命令装成全局的 grok，得先确认这个名字没有被别的工具占用。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "TUI"
+      ]
+    },
+    {
+      "id": "photon-imessage",
+      "added": "2026-11-16",
+      "title": "用短信跟现有的 Grok Bot 对话，追问留在同一条 iMessage",
+      "url": "https://github.com/BrianSeong99/photon-grok-relay",
+      "blurb": "Webhook 回执只说明这轮已经开始，回答要靠 Mac 上的中继按请求编号送回原来的短信，例行任务经常带不上前文，所以中继会补上同一条线程最近的四轮对话。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "iMessage",
+        "Photon"
+      ]
+    },
+    {
+      "id": "claude-grok-webhook",
+      "added": "2026-11-16",
+      "title": "让 Claude Code 用例行 Webhook 把文字任务交给桌面版 Bot",
+      "url": "https://github.com/AI-Driven-R-D-Dept/grokbot-webhook",
+      "blurb": "在 macOS 上装好这个非官方插件后，对 Claude Code 说一声就能把摘要或查资料交给桌面版 Bot，作者用 1.0.3 试短问题时来回大约 11 到 17 秒，这个 Webhook 没有写进公开文档。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "note-mcp-57min",
+      "added": "2026-11-16",
+      "title": "同一份 Skills 接到 Grok Bot，授权卡了 57 分钟",
+      "url": "https://note.com/tetumemo/n/nc68796cef6c7",
+      "blurb": "作者把 GitHub 上的 Skills 经 Cloudflare 上的 MCP 接到 Grok Bot，57 分钟里先后卡在回调地址不在允许名单、确认页放了 13 分钟才点而这页 10 分钟就过期，以及浏览器拦住中途跳转。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "note",
+        "MCP"
+      ]
+    },
+    {
+      "id": "substack-osaru-phone",
+      "added": "2026-11-16",
+      "title": "手机对 Bot 说一句，おさる技能在自己的 Mac 上出稿",
+      "url": "https://osaruproducer.substack.com/p/ai-20grok-bot",
+      "blurb": "先把本机的 Claude Code 连上おさる MCP，再在手机里对 Grok Bot 说要哪一种稿并点一次允许，技能就在自己的 Mac 上跑完，草稿送回对话并留在本机文件夹。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack",
+        "おさる"
+      ]
+    },
+    {
+      "id": "x-gopuff-checkout",
+      "added": "2026-11-16",
+      "title": "聊天里组 Gopuff 订单，按下付款后同一轮继续",
+      "url": "https://x.com/KimFull/status/2121984754199245131",
+      "blurb": "KimFull 把 11 月 11 日的 Gopuff 连接器收成可照做的步骤，并补上同一天也适用于台湾的购物规则：折扣码只能用你或工具给的，按下付款后被拦住的结账会在同一次执行里继续并带回订单号。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "Gopuff"
+      ]
+    },
+    {
+      "id": "youtube-johnny-skip-plan",
+      "added": "2026-11-16",
+      "title": "付钱之前看档位：四只 Bot 在 Premium 做一天研究就会见底",
+      "url": "https://www.youtube.com/watch?v=k4_5EGi_GpY",
+      "blurb": "Johnny Nel 把免费到 Ultra 对齐到同一条每周额度，Premium 大约只有 Ultra 用量的百分之八，四只 Bot 在这一档做一天研究加搭建就会见底。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "Johnny Nel"
+      ]
+    },
+    {
+      "id": "youtube-muse-outage",
+      "added": "2026-11-16",
+      "title": "Muse 中断之后：Grok Bot 同时接下五六个邮箱",
+      "url": "https://www.youtube.com/watch?v=oE80AYkRqlg",
+      "blurb": "Muse 出故障后作者改用 Grok Bot 查五六个邮箱，回复先起草好等他按发送，Claude Duet 当时只能连上其中一个地址。",
+      "section": "reviews",
+      "tags": [
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "YouTube",
+        "Muse"
+      ]
+    },
+    {
+      "id": "forum-feedback-data-share",
+      "added": "2026-11-16",
+      "title": "反馈报「隐私模式」时，要开的是数据共享开关",
+      "url": "https://forum.cursor.com/t/grok-bot-repeatedly-fails-to-wake-reply-on-nov-13-false-privacy-mode-block-on-feedback/178298",
+      "blurb": "内置反馈连续报 privacy mode，并指向并不存在的 Help 菜单，11 月 15 日查到是 iOS 数据共享里的 Improve Grok Bot and more 自己关掉了，打开后下一分钟就恢复。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-tmp-approval",
+      "added": "2026-11-16",
+      "title": "没人守着时，往云电脑临时目录写文件也会把审批卡推到手机",
+      "url": "https://forum.cursor.com/t/grok-bot-ios-auto-review-pushes-approval-cards-for-harmless-tmp-writes-on-the-bot-computer/178420",
+      "blurb": "技能同步例程在共享云电脑的 /tmp 写探测文件，会把允许终端命令的卡片推到没打开聊天的 iPhone，人不点就一直等，次日手写的允许规则也没拦住下一张同类卡片。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-ios-allow-stale",
+      "added": "2026-11-16",
+      "title": "手机上点允许仍说审批已失效，卡片看起来却还活着",
+      "url": "https://forum.cursor.com/t/grok-bot-ios-auto-review-allow-tap-fails-with-couldnt-send-your-answer-request-stale-expired-or-not-authorized/178440",
+      "blurb": "11 月 15 日清晨那张仍显示暂不和允许、状态还写着正在处理的自动审批卡，一点允许就弹出请求已过期、失效或未授权，云电脑上的临时文件写入因此停住。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-rule-card-abort",
+      "added": "2026-11-16",
+      "title": "别的 Bot 一插话，规则确认卡会被掐掉并误判成不是你的会话",
+      "url": "https://forum.cursor.com/t/grok-bot-auto-review-rule-change-card-proposerulechange-is-aborted-or-refused-when-an-agent-message-arrives-in-the-owners-own-chat/178434",
+      "blurb": "主人在自己的一对一聊天里刚答应一条允许规则，另一只 Bot 的消息同时到达，确认卡只返回已中止，重试还被拒成规则变更只给主人自己的会话，最后只能去设置里手写。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-path-session-split",
+      "added": "2026-11-16",
+      "title": "同一条本地路径别的会话能读，这个会话却被判在允许根之外",
+      "url": "https://forum.cursor.com/t/grok-bot-1-1-0-local-file-access-inconsistency-same-path-accessible-in-some-sessions-but-refused-in-others/178419",
+      "blurb": "Windows 客户端 1.1.0 在全部允许下仍把 K 盘已授权的技能文件判到本机执行根之外，别的会话却能读同一路径，改走命令行也被 Bot 拒绝。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "devto-sleep-pair",
+      "added": "2026-11-16",
+      "title": "云电脑半夜会被暂停：两组错开的定时任务把它维持在线",
+      "url": "https://dev.to/haoyi/grok-bot-might-be-staying-online-for-good-now-4g9a",
+      "blurb": "员工说过没有 Bot 或应用真正占用时主机会暂停，作者用两组相隔约 20 分钟、各含两段 sleep 600 的定时任务，把机器维持到整夜在线。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "DEV"
+      ]
+    },
+    {
+      "id": "note-connector-refuse",
+      "added": "2026-11-16",
+      "title": "连接器说明一读，这个 Bot 就拒绝再用浏览器登录",
+      "url": "https://note.com/lunakagi/n/nb81992257f5c",
+      "blurb": "同一个连接器任务，一个 Bot 把说明理解成禁止再用云浏览器登录，死活不改回原来的做法，旁边的 Bot 却照常做，作者导出设定后新建 Bot，并把定期任务、指示全文和中途决定另存到聊天之外。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "插件"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "reddit-super-pool",
+      "added": "2026-11-16",
+      "title": "Super 年付把 Cursor 和 Grok Bot 收进同一个周额度",
+      "url": "https://www.reddit.com/r/cursor/comments/1xwdf2h/switched_to_the_super_plan_for_25x_usage_and_i/",
+      "blurb": "从 60 美元月付升到 Super 并一次付了一年之后，原先分开的 Cursor 额度和 Grok Bot 额度合成一个周池，模型额度也没了，作者已经去信要求退回旧套餐。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Reddit",
+        "Super"
+      ]
+    },
+    {
+      "id": "x-mail-not-grant",
+      "added": "2026-11-16",
+      "title": "信里写「立刻删除」，也不算你授权",
+      "url": "https://x.com/KimFull/status/2121954781010821371",
+      "blurb": "KimFull 点明自动审查只认聊天里的原话：别人邮件或网页里的删除、寄信和付款不算许可，例行或并非当面要求寄出的信会先停在草稿。",
+      "section": "community",
+      "tags": [
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "Auto Review"
       ]
     }
   ]
