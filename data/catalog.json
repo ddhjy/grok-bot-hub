@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "sections": [
     {
       "id": "official",
@@ -44830,6 +44830,411 @@
       "aliases": [
         "X",
         "Bitwarden",
+        "1Password"
+      ]
+    },
+    {
+      "id": "x-gmail-wake",
+      "added": "2026-11-18",
+      "title": "空邮箱的定时检查会把周额度吃掉",
+      "url": "https://x.com/WierdAcres/status/2122745202301346067",
+      "blurb": "weirdAcres 的主 Bot 一到点查 Gmail，空收件箱也会拉起整段记忆把周额度吃掉，于是改成几乎没有记忆的小邮箱 Bot，并让 Gmail 只把重要发件人转到 Bot 自己的收件箱，有新信才叫醒例程。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "substack-314e-prune",
+      "added": "2026-11-18",
+      "title": "每月按产出清点 Bot，别凭名字删除",
+      "url": "https://abhilashrout.substack.com/p/prune-bot-fleet-monthly",
+      "blurb": "314e 有一只名叫 New Bot、看着是空的，其实在给监测组做每周抓取，删掉监测就会断，于是每月由参谋 Bot 按真实产出、重复岗位和依赖出清单，只提案，删除仍由人拍板。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "314e"
+      ]
+    },
+    {
+      "id": "substack-gh-unsigned",
+      "added": "2026-11-18",
+      "title": "内置 GitHub 建不了库，命令行也还没登录",
+      "url": "https://fieldnotesongrokbot.substack.com/p/the-command-line-used-to-be-a-maze",
+      "blurb": "项目 Bot 请另一个 Bot 建私有仓库时，对方先查到内置 GitHub 工具建不了库、共享电脑上的命令行也还没登录，于是把自己建库或先放到别的代码托管这两条路交还给人，没有自己硬做。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "x-elisa-discord",
+      "added": "2026-11-18",
+      "title": "五步把现有 Grok Bot 接进 Discord",
+      "url": "https://x.com/eeelistar/status/2122673616840229120",
+      "blurb": "Elisa 从开发者后台建应用、打开消息内容意图，到把 token 放进现有 Grok Bot 的安全输入并邀请进服务器，用来盯频道更新和回答社群问题。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Discord",
+        "Elisa"
+      ]
+    },
+    {
+      "id": "note-haioka-disk",
+      "added": "2026-11-18",
+      "title": "二十个 Bot 共用 128GB：写完即删，早九点才清扫",
+      "url": "https://note.com/haioka_rio/n/na5737dc248e0",
+      "blurb": "11月13日一次总清理误删了还没发出去的作业之后，约20个 Bot 共用的128GB磁盘改成写完即删，只在早九点且剩余不足20GB时由一个 Bot 清扫，16日第二次清掉的约9GB里约8.75GB是浏览器临时文件。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "note",
+        "灰冈"
+      ]
+    },
+    {
+      "id": "zenn-sakutto-bot",
+      "added": "2026-11-18",
+      "title": "手机上吩咐 Grok Bot，翻译扩展才提交商店",
+      "url": "https://zenn.dev/jammaru_lab/articles/sakutto-local-llm-chrome-extension",
+      "blurb": "Sakutto 的开发改成手机上吩咐 Grok Bot：它去收评论和 X 上的反馈、开 GitHub Issue、叫云端代理写和审，实机看过才合并并提交商店，Firefox 版 11月10日清晨送审、13日才公开。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "Zenn",
+        "Sakutto"
+      ]
+    },
+    {
+      "id": "substack-fake-8tb",
+      "added": "2026-11-18",
+      "title": "假 8TB 硬盘只保住约 32GB",
+      "url": "https://fieldnotesongrokbot.substack.com/p/the-8-tb-drive-that-wasnt",
+      "blurb": "名叫 Model Archive 的 Grok Bot 给本地模型归档时，格式化失败后自己写了跨盘标记脚本，读回发现标称 8TB 的盘只在大约 32GB 以内保住数据，269 个项目文件已先备份才去退货。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "substack-314e-triggers",
+      "added": "2026-11-18",
+      "title": "三张研究表合成一份每周可联系的账户清单",
+      "url": "https://abhilashrout.substack.com/p/weekly-account-trigger-list",
+      "blurb": "314e 的并购、高管变动和社媒监听原先各写一张表，现在一个 Grok Bot 每周按顺序读完，只留 30 天内且来源链接仍有效的信号并合成同一账户，起草之后真正发信仍等人批准。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "314e"
+      ]
+    },
+    {
+      "id": "substack-power-button",
+      "added": "2026-11-18",
+      "title": "测试全绿，地下室音响却只剩一个电源键",
+      "url": "https://fieldnotesongrokbot.substack.com/p/the-room-that-only-had-a-power-button",
+      "blurb": "家里五房间音响控制台由一个 Bot 写、另一个每天早上只读巡检，最老接收器的能力描述被解析成零条指令，而测试用的模拟器恰好写成解析器期望的形状，所以自动化测试一直是绿的。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "x-email-meter",
+      "added": "2026-11-18",
+      "title": "三十五只邮件社 Bot，周六傍晚额度见底",
+      "url": "https://x.com/DaveMiz/status/2122710291716755947",
+      "blurb": "DaveMiz 给邮件社的三十多只 Grok Bot 连记七天用量，工程师、审稿、设计和 SEO 四只吃掉约七成，五次定时任务空手而归，专门改其他 Bot 的那只从 3% 涨到 23%，他把构建和检查挪到自己 Mac 上的任务运行器。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "x-webjuice-ceo",
+      "added": "2026-11-18",
+      "title": "SEO 代理只跟前台 CEO Bot 说话",
+      "url": "https://x.com/webjuice_ie/status/2122746499423510950",
+      "blurb": "Michal Barus 的 Webjuice 用一只 CEO Bot 当分诊前台，每个客户站一只项目 Bot，Search Console、广告和 Notion 等走 MCP，代码在 Mac mini 上只出草稿 PR，发出、发布和合并都要他亲手打字同意。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "插件"
+      ],
+      "aliases": [
+        "X",
+        "Webjuice"
+      ]
+    },
+    {
+      "id": "x-moose-linux",
+      "added": "2026-11-18",
+      "title": "孩子们的无界面 Linux 里住着一只驼鹿 Bot",
+      "url": "https://x.com/KurtAlexander/status/2122744966082396228",
+      "blurb": "Kurtis Alexander 把 Grok Bot 接到孩子们那台没有图形界面的 Linux 上，让它扮成电脑里的驼鹿查功课、提醒刷牙睡觉，并用 moose-mail 传话，许下的游戏或音乐会在第二天早上出现。",
+      "section": "cases",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "X",
+        "moose-mail"
+      ]
+    },
+    {
+      "id": "medium-splat-pelican",
+      "added": "2026-11-18",
+      "title": "高斯泼溅收成 23 个工具，本地模型 184 步画出骑车鹈鹕",
+      "url": "https://medium.com/@b.terryjack/a-3d-pelican-riding-a-bicycle-aec504263988",
+      "blurb": "作者让 Grok Bot 把一套形状和渲染收成带 23 个工具的 MCP，本机模型在大约 54 分钟里走了 184 步，画出骑车的鹈鹕，结束时大约 14460 个点，而且没从四个方向看过就不能收工。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "插件"
+      ],
+      "aliases": [
+        "Medium",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "github-discord-bridge",
+      "added": "2026-11-18",
+      "title": "Discord 白名单桥：频道里 @ 到的问题才进 Grok Bot",
+      "url": "https://github.com/pj-99/grokbot-discord-bridge",
+      "blurb": "桥接进程跑在 Bot 自己的电脑上，服务器、频道、用户三个白名单空一个就拒绝启动，六十秒内超过三次会标成限流，确认卡仍然只在 Grok Bot 里出现。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Discord"
+      ]
+    },
+    {
+      "id": "github-d-drive",
+      "added": "2026-11-18",
+      "title": "给 Windows 版 1.2.0 放宽本机读盘根目录",
+      "url": "https://github.com/noobhackerTOT/grok-bot-local-exec",
+      "blurb": "在 Windows 版 1.2.0 上，D 盘的 Read 不再报超出本机执行根目录，但安装会关掉安装包完整性校验，官方更新盖掉改动后要重打，也可以用当时留下的备份还原。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "local-exec"
+      ]
+    },
+    {
+      "id": "github-postern",
+      "added": "2026-11-18",
+      "title": "云电脑连不上邮局时，用自建邮件 MCP 代读代发",
+      "url": "https://github.com/Rexios80/postern",
+      "blurb": "邮件密码留在 Google 机密管理里，Bot 只持有可吊销令牌；不配置 SMTP 就只能读不能发，Outlook 与 Microsoft 365 因不再接受 IMAP 密码登录而用不了。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "GitHub",
+        "Postern",
+        "MCP"
+      ]
+    },
+    {
+      "id": "github-ask-grok-bots",
+      "added": "2026-11-18",
+      "title": "别的 AI 可以发一次性质询，叫醒你的 Grok Bot 群",
+      "url": "https://github.com/sasa-mkwy/ask-grok-bots",
+      "blurb": "提问经 webhook 例程进群，回答凭该次咨询的令牌回传；Bot 没醒时按 20、40、80 分钟重发至多三次，只有明确的 4xx 拒绝才算这次失败。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP"
+      ]
+    },
+    {
+      "id": "github-codex-hud",
+      "added": "2026-11-18",
+      "title": "把一条 Grok Bot 私聊配对到本机 Codex 线程",
+      "url": "https://github.com/Alex-Liu-airjelly/grok-codex-hud-bridge",
+      "blurb": "同一句测试话投两次只会进配对的 Codex 线程一次，服务只听本机回环，远程工具也不能改去别的线程；作者在 macOS 与 Agent HUD 0.6.5 上用真实 Bot 对过。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex",
+        "Agent HUD"
+      ]
+    },
+    {
+      "id": "reddit-browser-18",
+      "added": "2026-11-18",
+      "title": "浏览器基准 100 项只过 18 项，一次烧掉周额度 87%",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xym8dg/grok_bot_passed_18100_tasks_in_my_browser_agent/",
+      "blurb": "同一套真实网站任务只给一次机会，30 美元档通过 18 个并吃掉当周额度的 87%，作者对照的自建浏览器方案大约只要 2 美元。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "forum-skill-sync-30",
+      "added": "2026-11-18",
+      "title": "新技能进了目录，文件却要大约半小时才写到 Bot 电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-new-skill-saved-with-updateskill-shows-in-the-catalog-but-takes-30-min-to-reach-the-bot-computer/178607",
+      "blurb": "UpdateSkill 报成功后每只 Bot 的技能目录会立刻列出新技能，但写到云电脑是另一步，电脑还在醒时会漏掉，内容完全相同的再次保存不会重新复制，员工说先让 Bot 在电脑上跑一条命令，再带一小处修改保存。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "UpdateSkill"
+      ]
+    },
+    {
+      "id": "forum-vpn-intranet",
+      "added": "2026-11-18",
+      "title": "盒子上的 VPN 已通，浏览器仍因不在放行名单打不开公司内网",
+      "url": "https://forum.cursor.com/t/grok-bot-browser-cant-reach-private-intranet-hosts-over-a-box-vpn-not-allowlisted-shell-can/178655",
+      "blurb": "自 11 月 6 日起，Bot 电脑上的 OpenConnect 已经连上且 Shell 经隧道访问内网门户能返回 200，同一私网地址在浏览器里却被出口代理以 not_allowlisted 拒绝，更新电脑和最近的本机回环修复都没有改变这个结果。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "OpenConnect"
+      ]
+    },
+    {
+      "id": "forum-oom-16gb",
+      "added": "2026-11-18",
+      "title": "一只 Bot 两分钟吃光 16GB，共享电脑的命令挂了十二小时",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-unresponsive-again-12-hours-same-as-t-j29182-previous-thread-request-backend-recovery-hold-off-on-reset/178590",
+      "blurb": "11 月 17 日这台共享电脑的命令会挂起超过十二小时，员工查到是当天约 13:22 启动的一个任务在两分钟内占满将近 16GB 内存，原样再跑还会锁死，需要让 Bot 用 ulimit -v 限制虚拟内存或把任务拆成小块。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "note-home-wiped",
+      "added": "2026-11-18",
+      "title": "共享规则只写了收拾一下，视频 Bot 把本机主目录整份删掉",
+      "url": "https://note.com/tetumemo/n/n2219112e6c42",
+      "blurb": "视频担当的 Bot 按共享规则去收拾 grokbot-tmp，删除命令被套了两层后目标路径变空，又开着始终允许，结果在 2026 年 10 月 30 日 17:38 把本机主目录连同桌面、下载和 GitHub 密钥一起清掉。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "tetumemo"
+      ]
+    },
+    {
+      "id": "reddit-migrate-57",
+      "added": "2026-11-18",
+      "title": "57 个 Grok Bot 换个人账号，模板复制不了聊天和记忆",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xyflz5/moving_60_grok_bot_assistants_to_a_new_account/",
+      "blurb": "工作号可能缩减用量，作者让一个迁移 Bot 把每条例行任务的提示词、记忆、完整聊天记录和技能备份到 Google Drive，并写出重建步骤，模板本身带不走聊天和记忆。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-keypass-wipe",
+      "added": "2026-11-18",
+      "title": "平台里的密钥会隔几天被清掉，网盘上的 KeyPass 还会被写回旧值",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xy3qjo/secrets_management/",
+      "blurb": "用了大约一个月的人发现平台保存的密钥会无故消失，改把 KeyPass 放在共享 Google Drive 后，Bot 又会用更旧的值覆盖回去，作者理解官方密钥管理只认 1Password。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Reddit",
+        "KeyPass",
         "1Password"
       ]
     }
