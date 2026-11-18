@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "sections": [
     {
       "id": "official",
@@ -45235,6 +45235,350 @@
       "aliases": [
         "Reddit",
         "KeyPass",
+        "1Password"
+      ]
+    },
+    {
+      "id": "substack-314e-search-audit",
+      "added": "2026-11-19",
+      "title": "开搜索广告前，先让 Bot 逐句引用竞品落地页",
+      "url": "https://abhilashrout.substack.com/p/audit-competitor-search-landing-pages",
+      "blurb": "314e 在投放前让一个 Grok Bot 按关键词找出落地页并填表，标题、价格和证明数字只能引自它读过的页面，它也写明自己看不到实时广告，最后该主打什么仍由人判断。",
+      "section": "tutorials",
+      "tags": [
+        "销售",
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "314e"
+      ]
+    },
+    {
+      "id": "substack-314e-newsletter",
+      "added": "2026-11-19",
+      "title": "日报拆成写稿 Bot 和审计 Bot，审计的不许动稿",
+      "url": "https://abhilashrout.substack.com/p/daily-newsletter-two-bots",
+      "blurb": "这份 Newsletter 就是这么产出来的，Maker 按成文规矩写稿、出图并放进编辑器，Mentor 只回报违规原句并把修改交回 Maker，通过后排到印度时间早上九点，登录验证码只在立刻发布时才会出现。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "314e"
+      ]
+    },
+    {
+      "id": "x-jake-webhooks",
+      "added": "2026-11-19",
+      "title": "别的代理写完 PR，webhook 才叫醒下一只 Bot",
+      "url": "https://x.com/jakewarix/status/2122933417293582451",
+      "blurb": "Jake Warix 用 PR 上的 WRAP-UP 评论把编程代理的收尾交给负责浏览器验收的 Bot，不能写稿的 Bub 只盖 PASS 或 HOLD，决策卡片一提交、Notion 一来任务就按 webhook 叫醒该干活的那一只。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "webhook"
+      ]
+    },
+    {
+      "id": "substack-bunker-466",
+      "added": "2026-11-19",
+      "title": "第 466 期节目笔记同题交卷，用量减半后仍留着热备份",
+      "url": "https://jamingo.substack.com/p/i-need-an-ai-agent-to-help-me-with",
+      "blurb": "《Boomer Bunker》第 466 期的节目笔记分别交给 Grok Bot 上的 Nell、Claude 和 Cast Magic，再由 Meta Muse 打分，十四页签的提词表只被读到首页，周用量被砍半之后 Nell 仍每月写一版不发布的笔记以免备份冷掉。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "x-coldiq-split",
+      "added": "2026-11-19",
+      "title": "一次做成的交给 Claude Code，来信和感兴趣线索才叫醒 Grok Bot",
+      "url": "https://x.com/MichLieben/status/2123103792040456664",
+      "blurb": "ColdIQ 让每只 Grok Bot 只干一件事并共用一台云电脑，感兴趣的线索用 Instantly 的 webhook 送进 Slack 等人批准，周额度用尽后走预充值，并因为有一只 LinkedIn Bot 自己把整篇发出去而把发帖改成先问人。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "X",
+        "ColdIQ"
+      ]
+    },
+    {
+      "id": "jike-errands",
+      "added": "2026-11-19",
+      "title": "一人公司把写稿、上架和提现交给互相找活的 Grok Bot",
+      "url": "https://m.okjike.com/originalPosts/6aed2e6c320fd7e1b597d5e8",
+      "blurb": "写稿 Bot 会自己去问选题 Bot 和要公司资料，几百个技能上架从一两周收成几小时，微信读书传书和一笔卡住两三年的公众号四百元提现也是它在后台做完的。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "即刻"
+      ]
+    },
+    {
+      "id": "reddit-macmini-videos",
+      "added": "2026-11-19",
+      "title": "基础款 Mac mini 上，Grok Bot 同时指挥 Claude、Codex 并剪三条长视频",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xzgj43/grokbot_on_mac_mini_m4_base_controlling_claude/",
+      "blurb": "人在手机和 MacBook 上下指令，M4 Mac mini 负责生成和剪辑，三条二十多分钟的成片一起跑时先把内存顶满。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "github-slack-presence",
+      "added": "2026-11-19",
+      "title": "给 Grok Bot 一个只接收白名单提及的 Slack 身份",
+      "url": "https://github.com/PastaPastaPasta/grokbot-slack-presence",
+      "blurb": "常驻中继把白名单里的提及和私信，连同整段线程、频道最近二十条和搜索结果交给 webhook 例程，回帖或翻归档再走只监听本机的 MCP，暴露在公网的进程只持有机器人令牌。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "github-raycast-cache",
+      "added": "2026-11-19",
+      "title": "在 Raycast 里按编号给本机已登录的 Grok Bot 发消息",
+      "url": "https://github.com/dcbuild3r/grok-bot-raycast-extension",
+      "blurb": "扩展按置顶和最近活跃从 Mac 版应用的本地缓存列出 Bot，聊天窗每两秒刷新最近消息，收件人核对不上时要先在 Grok Bot 里打开那条对话，发送还需要给 Raycast 辅助功能权限。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Raycast"
+      ]
+    },
+    {
+      "id": "github-devteam-rollback",
+      "added": "2026-11-19",
+      "title": "一条消息编成开发三人组，指令试运行失败就回滚",
+      "url": "https://github.com/alexzah-droid/GrokBotDevTeam",
+      "blurb": "现有 Bot 留下当主管，只再创建负责实现和独立验收的两位，改指令要先试运行、失败就回到上一版，这几位能读到彼此的文件，应放在没有工作密钥的另一台电脑上。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "github-deskpet",
+      "added": "2026-11-19",
+      "title": "每个 Grok Bot 一只桌面宠物，只报状态不传对话",
+      "url": "https://github.com/junlee30/grokbot-deskpet",
+      "blurb": "配对之后 Bot 只上传加密的短状态，Mac 桌面上每个 Bot 一只像素宠物，能看出谁在想、谁在干、谁在等你，未签名的应用要在访达里右键打开。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "github-ghook",
+      "added": "2026-11-19",
+      "title": "把 Gmail 推送按规则送到 Grok Bot 的 webhook",
+      "url": "https://github.com/helv-io/ghook",
+      "blurb": "把例程网址和密钥用一个空格贴进目标表单就能填好 Grok Bot 预设，默认载荷只有发件人、主题和摘要，正文要另勾，重复的同一封信不会再投一次。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Gmail"
+      ]
+    },
+    {
+      "id": "zenn-muse-16",
+      "added": "2026-11-19",
+      "title": "十六个常驻 Bot 的实测：交易参谋只在急变时出声",
+      "url": "https://zenn.dev/mmmot/articles/83a7275e9e2de8",
+      "blurb": "作者拿 2026 年 10 月 10 日到 11 月 18 日的本地用量，十六个 Bot、五百多次往来、三十四次例程，交易参谋在工作日早上八点一刻前交三行，交易时段每小时只在急变时出声，自建的 Next.js 应用经 webhook 把图像诊断交给 Bot。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "Zenn"
+      ]
+    },
+    {
+      "id": "x-kaggii-claims",
+      "added": "2026-11-19",
+      "title": "对照官网，病毒帖里六条赚钱说法只站住云电脑",
+      "url": "https://x.com/Kaggii_/status/2123100789883224277",
+      "blurb": "作者把一条没给链接的睡觉也赚钱帖对着 xAI 自己的页面核对，订阅之外用量另算、对外邮件要人点头才发，每晚自动产出一页和第三个月进账 217 美元都找不到出处。",
+      "section": "reviews",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "github-open-grok-android",
+      "added": "2026-11-19",
+      "title": "自带浏览器的安卓多 Bot 复刻，模型钥匙自己带",
+      "url": "https://github.com/CoworkLab/open-grok-bot",
+      "blurb": "这是非官方的安卓开源仿品，手机上同时最多开四个 Gecko 浏览器会话，付款、发信、公开发帖和删除都可以单独要求确认，密钥放进系统密钥库，模型请求从手机直接发到你填写的接口。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "forum-identity-split",
+      "added": "2026-11-19",
+      "title": "个人号改成团队后拆不回两套环境，新 Premium 也加不出第二套 Bot",
+      "url": "https://forum.cursor.com/t/how-can-i-separate-personal-and-business-cursor-x-authentication-identities/178712",
+      "blurb": "用个人 X 建号再改成团队并换成公司邮箱后仍是同一批 Bot，员工确认账号不能拆、Bot 和记忆不能搬家，同一邮箱上的新 Premium 不会另开环境，加席位被拒有时是风控在到银行之前就拦下，账单国家停在第一张卡。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-video-link-15",
+      "added": "2026-11-19",
+      "title": "接着上一轮做视频分析，十五分钟后只剩 Activity task failed",
+      "url": "https://forum.cursor.com/t/grok-bot-video-analysis-fails-with-activity-task-failed-and-no-diagnostic-details/178716",
+      "blurb": "24 秒、720×1280 的修订版本地能完整解码，两次分析却只有一句失败，员工核对是 Bot 沿用了上一轮、临时链接大约十五分钟过期，让它重新开一轮分析或把视频发到新聊天即可。",
+      "section": "community",
+      "tags": [
+        "视频",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-passkey-touchid",
+      "added": "2026-11-19",
+      "title": "通行密钥窗口停在「正在唤醒安全密钥」，Touch ID 根本不会弹出",
+      "url": "https://forum.cursor.com/t/security-key-passkey-request-hangs-forever-on-waking-your-security-key/178670",
+      "blurb": "Bot 在网页登录碰到安全密钥时只认插上的硬件钥匙，苹果密码和 Touch ID 不会出现，关掉设置里的使用硬件安全密钥后改走密码，或在弹窗里选 Deny，窗口才不会空转大约两分钟。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Touch ID"
+      ]
+    },
+    {
+      "id": "forum-sharepoint-404",
+      "added": "2026-11-19",
+      "title": "SharePoint 在 Cursor 里 404，这条集成目前只跑在 Grok Bot",
+      "url": "https://forum.cursor.com/t/sharepoint-plugin-404/178675",
+      "blurb": "仪表盘显示 SharePoint 已连接，编辑器里的接口却在微软登录之前就返回 404，员工确认这条集成眼下只走 Grok Bot，要在编辑器里读库可先在 SharePoint 把库加进 OneDrive 快捷方式。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "SharePoint"
+      ]
+    },
+    {
+      "id": "forum-vpn-file-send",
+      "added": "2026-11-19",
+      "title": "Mac 上某些 VPN 会让 Bot 发到聊天的文件被存储端拒收",
+      "url": "https://forum.cursor.com/t/grok-bot-agent-computer-freezes-repeatedly-446-freezes-since-oct-30-and-file-sending-broken-since-last-2-updates/178737",
+      "blurb": "往聊天里发文件被拒和客户端版本无关，Mac 走特定 VPN 时存储端会直接拒绝，给 Grok Bot 做分流、发送时暂停 VPN 或改用手机应用即可，电脑从 11 月 5 日起有 Bot 在用时命令是正常的，几分钟没人用就会休眠，11 月 17 日白天则是额度用尽。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "substack-script-wakes",
+      "added": "2026-11-19",
+      "title": "空检查省不掉唤醒：脚本只能在 Bot 起来之后才跑",
+      "url": "https://simonslooten.substack.com/p/we-tested-a-claim-about-skipped-wakes",
+      "blurb": "这个三十多个 Bot 的团队试用了市场插件 Script This Routine，审计曾估计每周能少唤醒参谋约二十、四十或六十次，核对后发现例行任务没有唤醒前的步骤，空结果只会让已经开始的那一轮变短。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "插件"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "reddit-1p-personal-vault",
+      "added": "2026-11-19",
+      "title": "Grok Bot 用 1Password 应用内批准取登录时，只能看到个人保险库",
+      "url": "https://www.reddit.com/r/1Password/comments/1xzluhf/new_ai_assistant_integration_only_sees/",
+      "blurb": "新流程不会把密码明文交给 Bot，但公司保险库都读不到，而且每取一次登录都要在手机上再点一次同意。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Reddit",
         "1Password"
       ]
     }
