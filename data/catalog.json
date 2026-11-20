@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "sections": [
     {
       "id": "official",
@@ -46104,6 +46104,549 @@
       "aliases": [
         "Reddit",
         "Instagram"
+      ]
+    },
+    {
+      "id": "youtube-spacexsi-students",
+      "added": "2026-11-21",
+      "title": "官方校园工作坊：用 Dr Eggbot 招邮件分拣 Bot，再串上日历",
+      "url": "https://www.youtube.com/watch?v=mykpZ18bkGk",
+      "blurb": "SpaceXSI 的 Ria 当场让 Dr Eggbot 建出邮件分拣 Bot，教它一项技能并学她的写法，再交给日历 Bot 挑出五个最紧的截止日期，学生 Sangini 则把求职、Canvas 学习指南、订餐、打电话和每日新闻拆给不同的 Bot。",
+      "section": "official",
+      "tags": [
+        "上手",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "YouTube",
+        "SpaceXSI",
+        "Dr Eggbot"
+      ]
+    },
+    {
+      "id": "forum-skill-router-leaves",
+      "added": "2026-11-21",
+      "title": "把技能拆成路由和叶子，实测少加载近一半",
+      "url": "https://forum.cursor.com/t/making-grok-bot-skills-cheaper-and-more-reliable-eight-measured-tricks-plus-what-native-support-could-do/178929",
+      "blurb": "把只有每条任务都要遵守的规则留在 SKILL.md，分支写成按需打开的叶子文件，作者按真实文件数过词，修图那条少加载近一半，四条重叠技能的描述从 131 词压到 39 词，记忆检索还会截断超过 500 个字符的条目。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "SKILL.md"
+      ]
+    },
+    {
+      "id": "github-wechat-cf-guide",
+      "added": "2026-11-21",
+      "title": "微信消息用 Cloudflare 推给 Grok Bot，空闲时不再轮询烧额度",
+      "url": "https://github.com/cailish-0425/grokbot-wechat-cloudflare-guide",
+      "blurb": "来消息才经 Cloudflare Worker 触发 Grok Bot 例程，Mac 和云电脑都不用为了收微信醒着，先配 Webhook 再扫码会把闹钟锁死大约 14 分钟，回传时 Python 默认标识还会被 Cloudflare 直接 403。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "GitHub",
+        "Cloudflare",
+        "微信"
+      ]
+    },
+    {
+      "id": "substack-deepai-inbox",
+      "added": "2026-11-21",
+      "title": "关电脑之后：幕僚长 /inbox、静默例程和不耗额度的脚本",
+      "url": "https://thedeepailab.substack.com/p/grok-bot-13-intermediate-techniques",
+      "blurb": "主 Bot 打一次 /inbox 就把各 Bot 等你拍板的事收成一张清单，到点自己跑的检查可以没事不通知，已经定型的步骤还能改成不耗额度的脚本。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Substack",
+        "深度AI研究所"
+      ]
+    },
+    {
+      "id": "bili-windows-nas",
+      "added": "2026-11-21",
+      "title": "不会装机，让 Grok Bot 把 Windows 主机改成 NAS",
+      "url": "https://www.bilibili.com/video/BV1kysE6HEWg",
+      "blurb": "没有装机经验的人让 Grok Bot 按六步带完配置核对、Cloudreve、穿透隧道和 18T 硬盘挂载，把一台游戏主机收成可远程用的家用 NAS。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "跑腿"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "Cloudreve"
+      ]
+    },
+    {
+      "id": "github-defuse-meetups",
+      "added": "2026-11-21",
+      "title": "五个 Grok Bot 约学生见面：私人限制先汇合，漏了就不发到群里",
+      "url": "https://github.com/RyanFDing/defuse",
+      "blurb": "预算、过敏和空闲各自私聊，场地和时间只按去掉姓名后的汇合限制来排，带出金额、忌口或人数的草稿会被拦住，到不了群聊。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Defuse"
+      ]
+    },
+    {
+      "id": "devto-agent-page-notes",
+      "added": "2026-11-21",
+      "title": "网页在给代理下命令：发文时 Bot 把它们带了回来",
+      "url": "https://dev.to/sambrovda/websites-are-leaving-notes-for-ai-agents-my-bots-found-them-26n3",
+      "blurb": "11 月 12 日他让 Grok Bot 去 Hashnode、Indie Hackers 和 Product Hunt 发文，页面里写给代理的说明被当成资料而不是命令，Bot 只把可疑指令带回来，公开内容仍要他逐条点头。",
+      "section": "cases",
+      "tags": [
+        "安全",
+        "运营"
+      ],
+      "aliases": [
+        "dev.to",
+        "Sam Brovda"
+      ]
+    },
+    {
+      "id": "devto-eleven-bot-arch",
+      "added": "2026-11-21",
+      "title": "十一人 Bot 编队：一台共享电脑、共用连接器，代码不克隆进来",
+      "url": "https://dev.to/ikerbuilds/the-architecture-of-my-ai-bot-fleet-one-computer-shared-connectors-and-bots-that-message-each-2ohi",
+      "blurb": "收件、日历、写作和部署拆成十一个各管一事的 Bot，交接靠同一台云电脑上的文件，令牌留在连接器后端不进对话，写代码则另开 Cursor 云端代理，不把仓库克隆进这台共享机器。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "dev.to",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "note-dadion-send-button",
+      "added": "2026-11-21",
+      "title": "三个 Bot 分工干了一周：发出去之前的按钮仍由自己按",
+      "url": "https://note.com/dadion123/n/n6e7fe3c5aa87",
+      "blurb": "11 月 14 日到 20 日，巡查、写提案和写稿的三只都停在发送之前，作者自己发出 6 份提案，X 自动发帖被连停 6 天后改成一键链接，Upwork 页面里的隐藏指令只记进日志、没有照做。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "Upwork"
+      ]
+    },
+    {
+      "id": "note-haioka-usage-why",
+      "added": "2026-11-21",
+      "title": "周额度到顶之后：按花在什么上拆开约二十个 Bot",
+      "url": "https://note.com/haioka_rio/n/nab0e6a58bb2d",
+      "blurb": "11 月 19 日早上大约 20 个 Bot 的周额度已经用尽、下次重置是 22 日，做应用那只 28% 的用量里有 15% 是互聊并在当天停掉，图像先出三张样张再改脚本批量，怪谈视频只重做错位的那一格。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "substack-manual-page",
+      "added": "2026-11-21",
+      "title": "研究 Bot 只交回说明书那一页，没有就明说不知道",
+      "url": "https://fieldnotesongrokbot.substack.com/p/page-123-how-i-stopped-digging-through",
+      "blurb": "名为 Research 的 Bot 在后台翻三台接收器的说明书，分别回报壁纸菜单在第 123、115 和 98 页，并写明较新型号的手册里没有这项所以它不知道，而不是猜一个。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Substack",
+        "Research"
+      ]
+    },
+    {
+      "id": "x-maehashi-freee",
+      "added": "2026-11-21",
+      "title": "freee 记账拆成收票和做账两个 Bot",
+      "url": "https://x.com/Maehashi1992/status/2123838119824736462",
+      "blurb": "Maehashi 发现 freee 远程 MCP 还不能传文件，于是收收据的 Bot 只用收窄权限的 API 上传，做账的 Bot 走 MCP 出方案，人只在聊天里点头，两边权限也因此分开。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "freee"
+      ]
+    },
+    {
+      "id": "substack-bot-inbox-handoff",
+      "added": "2026-11-21",
+      "title": "额度见底前，Grok Bot 把步骤写进 Bot Inbox 交给别的模型",
+      "url": "https://solopreneurcode.substack.com/p/my-ai-stack-solopreneur",
+      "blurb": "他的 Grok Bot 用大约 100 美元的 Super 方案，长任务会撞上额度，于是把五步里的大约三步写进 Notion 的 Bot Inbox 交给别的模型，做完标 Done，卡住就退回，人不用守在中间。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "Notion",
+        "Bot Inbox"
+      ]
+    },
+    {
+      "id": "youtube-holiday-fare",
+      "added": "2026-11-21",
+      "title": "圣诞机票实测：Grok Bot 选的票比同一分钟的 Google Flights 贵 100 美元",
+      "url": "https://www.youtube.com/watch?v=cfEfRzrQKVI",
+      "blurb": "作者把坦帕往返纽约、12 月 23 日至 26 日、含一件托运行李的真实行程交给 Bot，它报出美联航直飞纽瓦克含行李 748 美元，同一分钟 Google Flights 上美航直飞拉瓜迪亚含行李 648 美元的班次没有出现在它的候选里。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "YouTube",
+        "Google Flights"
+      ]
+    },
+    {
+      "id": "youtube-elle-media-bots",
+      "added": "2026-11-21",
+      "title": "一人媒体公司的 11 只 Grok Bot：各管一摊，以及哪里会坏",
+      "url": "https://www.youtube.com/watch?v=5XZ1zHwOqMw",
+      "blurb": "Elle Mills 让总管 Avery 收下播客制作、收件箱日程、博客、YouTube、Pinterest、Threads 和 LinkedIn 各一只专职 Bot 的结果，并讲清这套没有员工的编制实际卡住的地方。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "Elle Mills",
+        "Avery"
+      ]
+    },
+    {
+      "id": "youtube-van-bot-office",
+      "added": "2026-11-21",
+      "title": "给 31 只 Grok Bot 搭一座会自己报状态的 3D 办公室",
+      "url": "https://www.youtube.com/watch?v=rQmu_PxHtkI",
+      "blurb": "Van 把 31 只 Bot 的在岗情况做成托管在 Cloudflare 上的免费 3D 办公室，由 Bot 自己上报是否卡住，片尾还看了其他用户用同一条提示词搭出来的办公室。",
+      "section": "cases",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "Van Did This",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "youtube-chris-pokemon",
+      "added": "2026-11-21",
+      "title": "19 只宝可梦排班：一个月 30 美元档怎么分工和控权限",
+      "url": "https://www.youtube.com/watch?v=LlHgMif9C_8",
+      "blurb": "加密克里斯用每月 30 美元档把早报、选题、Gmail 和日程拆给不同助手，交易助手只拿到有限的币安权限，新加坡漫游账单在他回复「执行」后退回 136 港币，周五总管还会自查额度为什么提前见底。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "跑腿"
+      ],
+      "aliases": [
+        "YouTube",
+        "加密克里斯"
+      ]
+    },
+    {
+      "id": "reddit-mausbot-offload",
+      "added": "2026-11-21",
+      "title": "用 MausBot 和 Cursor CLI 把编码从 Grok Bot 额度里挪走",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y0uh7i/grokbot_mausbot_cursor_a_pretty_useful_way_to/",
+      "blurb": "楼主让 Grok Bot 只做计划和复查，写代码交给走 Cursor CLI 的 MausBot，日常任务走旧版 Ultra 里的 Grok 4.7 池，更难的活留给 Claude 那一池，从而少烧 Grok Bot 自己的额度。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "工程",
+        "插件"
+      ],
+      "aliases": [
+        "Reddit",
+        "MausBot",
+        "Cursor CLI"
+      ]
+    },
+    {
+      "id": "github-whatsapp-asleep",
+      "added": "2026-11-21",
+      "title": "WhatsApp 长连接放在小主机，Grok Bot 云电脑可以继续睡",
+      "url": "https://github.com/mrtalhim/grok-bot-whatsapp-mcp",
+      "blurb": "进线经例程 webhook 叫醒 Bot，查消息和回复走 Cloudflare Zero Trust 后面的 MCP，长连接留在一台小主机上，不必为了保住 WhatsApp 每隔几分钟把云电脑唤醒。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "GitHub",
+        "WhatsApp",
+        "MCP"
+      ]
+    },
+    {
+      "id": "github-x-voice",
+      "added": "2026-11-21",
+      "title": "Windows 本地唤醒词发起 Grok Bot 语音，录音不离开这台电脑",
+      "url": "https://github.com/OMDZL/x-voice",
+      "blurb": "官方没有开始语音的热键，这个小程序只在本机听唤醒词，消息框里要先出现 x-voice 才会点开始语音，对不上、已经在通话，或框里已有你自己的文字时它什么都不点。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Windows",
+        "x-voice"
+      ]
+    },
+    {
+      "id": "github-booking-tools",
+      "added": "2026-11-21",
+      "title": "餐厅只查空位，健身房订课前要你点头且不能取消",
+      "url": "https://github.com/samtucker/grokbot-booking-tools",
+      "blurb": "SevenRooms 和 OpenTable 这边只列出可订和需申请的时段，不会下单，健身房订课用的登录放在被忽略的本地文件里，工具本身取消不了，缺席可能被馆方收费，所以订之前要你点头。",
+      "section": "skills",
+      "tags": [
+        "跑腿",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "OpenTable",
+        "SevenRooms"
+      ]
+    },
+    {
+      "id": "x-obsidian-headless-sync",
+      "added": "2026-11-21",
+      "title": "Obsidian 官方插件进 Grok Bot，多只 Bot 经一只同步读写",
+      "url": "https://x.com/the123456ai/status/2123817719552409965",
+      "blurb": "小满贴出 Obsidian 给 Grok Bot 的官方插件，同一套开源 Agent Skills 也能装进 Codex、Cursor 和 Claude Code，多个 Bot 共用一个库时由一只跑 Headless Sync、其余经它读写。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "X",
+        "Obsidian",
+        "Headless Sync"
+      ]
+    },
+    {
+      "id": "bili-assistant-shape",
+      "added": "2026-11-21",
+      "title": "Grok Bot：最好的个人助理形态，以及三处硬伤",
+      "url": "https://www.bilibili.com/video/BV13tyWz7Ean",
+      "blurb": "作者拿自己一句指令让三个 Bot 在群里把活派完的经历，讲清聊天界面、云电脑和开箱即用为什么顺手，也把额度、共享电脑不算隔离、不能自选模型说成三处硬伤。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "计费",
+        "安全"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "hn-placebench-score",
+      "added": "2026-11-21",
+      "title": "地点问答横测：评论称 Grok Bot 在常驻助手里垫底",
+      "url": "https://news.ycombinator.com/item?id=50578044",
+      "blurb": "11 月 20 日这条评论把营业时间、末班车这类地点问题拿去横比常驻助手，作者称 Dots 最好、Grok Bot 最差，仓库记分表里 Grok Bot 为 73 分，与 Muse、Claude Duet、Instinct 的置信区间重叠，只有 Dots 在 95% 置信度上更高。",
+      "section": "reviews",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Hacker News",
+        "PlaceBench",
+        "Dots"
+      ]
+    },
+    {
+      "id": "bili-deepseek-taskboard",
+      "added": "2026-11-21",
+      "title": "为了平替 Grok Bot，我开源了自己使用的 DeepSeek Harness Bot",
+      "url": "https://www.bilibili.com/video/BV1AtsY68Ech",
+      "blurb": "作者把自用的多 Bot 开源成跑在自己电脑上的任务板，一棒做完带着交接说明交给下一棒，花钱或对外发送之前会先停下来问你。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "DeepSeek Harness"
+      ]
+    },
+    {
+      "id": "note-orca-bots",
+      "added": "2026-11-21",
+      "title": "免费开源的 Orca Bot：坐在自己电脑上，并和 Grok Bot 的云电脑对照",
+      "url": "https://note.com/dora_ailab/n/n1fe746b14685",
+      "blurb": "作者在 Mac 上先雇了早间秘书、回信草稿和会议记录三体，记忆落在能直接打开的文件里，回信只写到 Gmail 草稿，大脑沿用已有的 Claude Code、Codex 或 Cursor，并对照 Grok Bot 那台合上笔记本仍在云端工作、月 30 美元起、同一账号的 Bot 还共用一台电脑的方案。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "Orca",
+        "Stably AI"
+      ]
+    },
+    {
+      "id": "reddit-klex-selfhost",
+      "added": "2026-11-21",
+      "title": "可自托管的开源替代 Klex：能换模型，并接 Slack、GitHub 和 Linear",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y12ffw/an_open_source_grok_bot_alternative_you_can_use/",
+      "blurb": "Klex 的维护者在 r/GrokBot 贴出了可自托管、能换模型，并接 Slack、GitHub、Linear 和 Google 会议的仓库，评论里有人指出 Mistral 目录没登记带视觉的模型时，选它看图会被直接拒绝。",
+      "section": "alternatives",
+      "tags": [
+        "工程",
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Reddit",
+        "Klex"
+      ]
+    },
+    {
+      "id": "forum-collab-learnings",
+      "added": "2026-11-21",
+      "title": "协作者提议的团队学习到不了负责人的待审",
+      "url": "https://forum.cursor.com/t/shared-bot-collaborator-cant-propose-team-learnings-for-owner-review/178932",
+      "blurb": "共享 Bot 的协作者让它记一条全团队规则时会被当场拒绝，请求进不了负责人知识页的待审，管理里没有对应开关，改成提议团队技能才会停在待审里等人点头。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-screen-public-dns",
+      "added": "2026-11-21",
+      "title": "看不了屏幕但命令正常：给 Mac 换公共 DNS",
+      "url": "https://forum.cursor.com/t/grok-bot-computers-cant-reach-screen-on-every-bot-for-5-days-in-box-screen-service-is-running-t-k31560/178858",
+      "blurb": "员工核对这台电脑不用重置，看屏幕走的地址和聊天不是同一条，Mac 常用网络解析失败，在系统设置的 Wi-Fi 或以太网里加上 1.1.1.1 和 1.0.0.1，或改成 8.8.8.8 和 8.8.4.4，再完全退出应用重开即可。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "DNS"
+      ]
+    },
+    {
+      "id": "forum-disk-temp-expand",
+      "added": "2026-11-21",
+      "title": "磁盘写满后 Bot 不再回应，临时扩到 256GB 再清回约 100GB",
+      "url": "https://forum.cursor.com/t/disk-usage-at-100-and-grok-bot-not-responding-anymore/178922",
+      "blurb": "员工把写满后完全不回应的云电脑临时迁到 256GB 盘，并用填满前几分钟的存档找回文件，当时已经到大约 125GB，标准盘大约 128GB，得让 Bot 列出最大的目录并清到大约 100GB，这块更大的盘不会一直留着。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-box-venv-routine",
+      "added": "2026-11-21",
+      "title": "常驻进程扛不过休眠和换机，用例行把看门狗拉起来",
+      "url": "https://forum.cursor.com/t/grok-bot-box-frequent-reboots-and-overnight-freezes-break-24-7-background-services/178665",
+      "blurb": "员工说过夜停住是云电脑休眠、重启是没人干活时换上新镜像，名叫 venv 的目录更新后不会带走，把依赖清单放进工作区再用例行补装并拉起，要全天在线的看门狗应放到别的主机。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "reddit-docusign-workaround",
+      "added": "2026-11-21",
+      "title": "Grok Bot 接 DocuSign 卡在开发者密钥，有人改走网页或 DocuSeal",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y0r4ih/grok_bot_x_docusign/",
+      "blurb": "有人想让 Bot 给客户发 DocuSign 签字，卡在要密钥和开发者账号，跟帖说连接器不好用可以改走网页，正式信封的生产密钥还得先通过 DocuSign 的接口考试，非企业也可以看看 DocuSeal。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障",
+        "运营"
+      ],
+      "aliases": [
+        "Reddit",
+        "DocuSign",
+        "DocuSeal"
+      ]
+    },
+    {
+      "id": "x-neovyk-quota-ask",
+      "added": "2026-11-21",
+      "title": "改保险库安全并砍例程，一问烧掉周额度两成三",
+      "url": "https://x.com/neovyk/status/2123832945593180162",
+      "blurb": "Vítor 让 Grok Bot 换成新的保险库安全设置、再把例程减下来省额度，这一问就吃掉 Pro 周额度的 23%。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "X"
       ]
     }
   ]
