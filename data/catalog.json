@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "sections": [
     {
       "id": "official",
@@ -47191,6 +47191,485 @@
         "dev.to",
         "NewCore",
         "主动消息"
+      ]
+    },
+    {
+      "id": "forum-routine-sdk-oom",
+      "added": "2026-11-23",
+      "title": "例程在跑代码前就把全部连接器装进同一次会话",
+      "url": "https://forum.cursor.com/t/grok-bot-all-routines-failing-since-nov-20-with-register-sdk-modules-it-was-stopped-ticket-t-k98643/178996",
+      "blurb": "官方解释例行任务会把账号上所有连接器装进同一次代码会话，连接太多就会在代码运行前把内存打满并报 register SDK modules: it was stopped，聊天仍正常，先断开用不上的连接再让一条例行任务试跑。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "插件"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "T-K98643"
+      ]
+    },
+    {
+      "id": "forum-computer-still-starting",
+      "added": "2026-11-23",
+      "title": "命令层停了，聊天却正常：云电脑已换成新的",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-stuck-on-still-starting-up-since-20-nov-t-k93318/178992",
+      "blurb": "官方确认执行命令和读文件的那一层在 11 月 20 日晚停了，机器已换成新电脑并恢复了稍早的文件，工作区外的依赖目录可能要重新安装，聊天和连接器当时一直是好的。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "T-K93318"
+      ]
+    },
+    {
+      "id": "forum-route-browser-only",
+      "added": "2026-11-23",
+      "title": "「流量经过这台电脑」只管浏览器，终端仍从云端出去",
+      "url": "https://forum.cursor.com/t/grok-bot-route-traffic-through-this-computer-not-routing-bot-computer-traffic-since-23-oct-ticket-open-6-weeks-with-no-human-reply/178977",
+      "blurb": "官方说明这个开关只管 Bot 电脑的浏览器，curl 和脚本仍从云端出去，内网只认自家 IP 时要把那一步改到浏览器里做，或让 Bot 直接在你的 Mac 上执行。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "T-G97503"
+      ]
+    },
+    {
+      "id": "forum-x-chat-hide-bots",
+      "added": "2026-11-23",
+      "title": "关掉 X 私信里的「显示全部 Bot」，别在 X 里删除它们",
+      "url": "https://forum.cursor.com/t/grok-bot-opt-out-of-bot-messages-and-notifications-in-x-chat/178966",
+      "blurb": "关掉 X 私信顶部的「显示全部 Bot」后收件箱只留主 Bot，其余 Bot 不再增加未读和通知，主 Bot 可以静音，但不要在 X 里删除它们，否则会把 Bot 本身删掉。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "X Chat"
+      ]
+    },
+    {
+      "id": "github-grok-bot-aidlc",
+      "added": "2026-11-23",
+      "title": "一份规格交给现有 Bot，在你的 Mac 上建起十人软件工厂",
+      "url": "https://github.com/noa-ps/grok-bot-aidlc",
+      "blurb": "规格和团队就绪页要一起交给已经登录的那只 Bot，它才会在你的 Mac、GitHub 和 Notion 上建完全部十只 Bot 和例程，系统权限弹窗仍要你自己点允许。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Software Factory"
+      ]
+    },
+    {
+      "id": "note-tsumugu-quota-split",
+      "added": "2026-11-23",
+      "title": "几小时吃掉六成周额度之后，巡检从半小时改成一天五次",
+      "url": "https://note.com/tsumugu_app/n/n38fe449c5a0b",
+      "blurb": "从 Ultra 降到 Premium 后几小时就吃掉六成周额度，作者把白天巡检从每 30 分钟一次改成 9 点到 21 点的五次，验收改看自动测试的截图和数据库，规格只出要点，把额度留给短决策和高风险判断。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "note",
+        "Antigravity"
+      ]
+    },
+    {
+      "id": "x-alan-waha-whatsapp",
+      "added": "2026-11-23",
+      "title": "不另买连接器，把 WhatsApp 秘书装进 Grok Bot 的云电脑",
+      "url": "https://x.com/oalanicolas/status/2124549138867978662",
+      "blurb": "11 月 21 日四个找优惠的 Bot 用十六分钟把 WAHA 装上他自己的号码，第二天从近七天约两百条对话里找出十三个还在等回复的人，每条发出去之前都要先批准原文，这不是官方接口，群发有封号风险。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "WAHA",
+        "WhatsApp"
+      ]
+    },
+    {
+      "id": "x-desmond-week-lasts",
+      "added": "2026-11-23",
+      "title": "让一周额度撑到周日：五处改法，周六那条先等你点头",
+      "url": "https://x.com/DesmondDreckett/status/2124545133609623874",
+      "blurb": "Desmond 把空转例行改成跟着业务节奏走，能用 Gmail 连接器的地方就不再打开网页点选，同一收件箱只留一个主人，周六那条提示会先列出改动，等你同意才执行。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "Desmond Dreckett"
+      ]
+    },
+    {
+      "id": "youtube-nimrod-t3-voice",
+      "added": "2026-11-23",
+      "title": "开车只用语音：五分钟让 Grok Bot 把话转给 T3 Code",
+      "url": "https://www.youtube.com/watch?v=i7VfwYm0meo",
+      "blurb": "开车时不用碰键盘，Grok Bot 会去开 T3 Code 的新线程并把编程代理的问题带回来，大约五分钟可以按命令行或 Tailscale 加 MCP 两条路接上。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "T3 Code",
+        "Nimrod"
+      ]
+    },
+    {
+      "id": "youtube-obsidian-airport-clip",
+      "added": "2026-11-23",
+      "title": "凭一句线索找回剪藏，核对原文后再写进当天日记",
+      "url": "https://www.youtube.com/watch?v=mcwiGZYvE9w",
+      "blurb": "他只记得机场有个机器人代客泊车，官方插件就在库里找回那篇剪藏，对过原文后，再经本地命令审批把链接写进当天日记的 Brain Dump，本地这么用不必另订同步。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "substack-aspinall-cli-restart",
+      "added": "2026-11-23",
+      "title": "桌面版一重启就没了，命令行才留在 Grok Bot 的电脑上",
+      "url": "https://johnaspinallsr.substack.com/p/stop-running-your-ai-tools-independently",
+      "blurb": "云电脑上的 Codex 桌面版重启后消失，命令行安装会留下来，做完的图还在同一台电脑上，再点名交给领英或通讯的 Bot。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "timeline-place-symbiosis",
+      "added": "2026-11-23",
+      "title": "到离事件交给 Grok Bot：午饭改状态，超市按饭局写清单",
+      "url": "https://timeline.place/guides/grok-bot-symbiosis",
+      "blurb": "周五 12 时 18 分离开办公室后，它把状态改成午饭外出直到 13 时 15 分，并把两支打开的拉取请求变基到主分支再重跑不稳定的检查，走进超市前又按周六四位朋友的饭局写出鲈鱼、茴香和白葡萄酒的清单，第一周吵到差点删掉，后来改成默认沉默，一周 34 次停留里只响 6 次。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Hacker News",
+        "Timeline",
+        "Marcel Marais"
+      ]
+    },
+    {
+      "id": "note-iruka-jazz",
+      "added": "2026-11-23",
+      "title": "收工喝一杯：Grok Bot 把四十年代爵士做成一条 YouTube",
+      "url": "https://note.com/akagyu/n/nff36a07beb4e",
+      "blurb": "出差电工只定夜晚的气氛，系列企划、画面、频道图和上传都交给 Grok Bot，自己从 Suno 成曲里留下能循环放的慢摇摆，第一集是二十首雨夜爵士。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "Suno"
+      ]
+    },
+    {
+      "id": "zenn-naga-bot-split",
+      "added": "2026-11-23",
+      "title": "三十多个 Bot 分管杂务，晨报看不见聊天里的日历",
+      "url": "https://zenn.dev/naga1021/articles/ai-bots-role-split",
+      "blurb": "日历 Bot 把材料发在聊天里，晨报例程却看不见那次对话，于是它们自己改成用共享文件交接，作者有三十多个全叫「くん」的 Grok Bot 分管邮件、钓鱼记录和独立开发杂务。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "跑腿"
+      ],
+      "aliases": [
+        "Zenn"
+      ]
+    },
+    {
+      "id": "reddit-ai-tycoon-ten-hours",
+      "added": "2026-11-23",
+      "title": "两天十小时，Grok Bot 调度 Claude 和 Codex 互审做出可玩游戏",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y26p80/built_a_playable_browser_game_in_10_hours_ai/",
+      "blurb": "作者自己留在中间审批，让 Grok Bot 同时开着 Claude 和 Codex 命令行互相看对方的改动，两天大约十小时从零做出一个能在电脑上玩的 AI 大亨网页游戏，并写明还很早、不是来卖成品。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "Reddit",
+        "Claude",
+        "Codex"
+      ]
+    },
+    {
+      "id": "youtube-joel-agency-30",
+      "added": "2026-11-23",
+      "title": "一人社媒代理跑了 30 天：开票、回评和找没装像素的广告主",
+      "url": "https://www.youtube.com/watch?v=2u6wp4M4Oak",
+      "blurb": "他把财务开票、社媒排程、每周一三五回复谷歌评论，以及专门找没装 Meta 像素的广告主拆给不同的 Bot，称一人社媒代理月入一万五千美元、零员工，并从迪拜签下一位一千五百美元的百慕大客户。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "Joel Blackman"
+      ]
+    },
+    {
+      "id": "youtube-morita-doctor-day",
+      "added": "2026-11-23",
+      "title": "医生的一天：缩略图、私信和排片都等他说 OK 才发出",
+      "url": "https://www.youtube.com/watch?v=U4-RoNNn4LA",
+      "blurb": "这位医生把早上看缩略图、中午只捞写给自己的消息、傍晚核对视频和社媒排期、晚上整理电脑都交给 Bot，发出和公开之前都要等他自己说 OK。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube"
+      ]
+    },
+    {
+      "id": "substack-night-watchman",
+      "added": "2026-11-23",
+      "title": "守夜 Bot 只看不改，密钥只报位置",
+      "url": "https://fieldnotesongrokbot.substack.com/p/things-that-go-bump-in-the-repo-a",
+      "blurb": "它凌晨两点巡仓库是否公开、外链授权和共用云电脑上的登录，发现恢复手机号被改、一处已保存的改动署名里留着真名和由此拼出的邮箱，密钥只报位置不复述，安静的夜晚只回一行审计干净。",
+      "section": "cases",
+      "tags": [
+        "安全",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack",
+        "Night Watchman"
+      ]
+    },
+    {
+      "id": "substack-remix-qa-bot",
+      "added": "2026-11-23",
+      "title": "参谋长嫌现成测试模板不贴身，自己组出清晨五点的走查",
+      "url": "https://fieldnotesongrokbot.substack.com/p/dont-hire-the-bot-remix-it-how-i",
+      "blurb": "市场目录里两份 QA 模板不会家用音响和只读硬件，参谋长按每天走查加通过或失败另写岗位，清晨五点跑完把复现步骤、截图和日报交进私有仓库。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "substack-weekend-botherder",
+      "added": "2026-11-23",
+      "title": "一个周末从零拉起一群 Bot，七份需求文档同时交卷",
+      "url": "https://fieldnotesongrokbot.substack.com/p/my-weekend-as-a-botherder",
+      "blurb": "周日一句让文档 Bot 三分钟对上七个仓库，标出两个空仓库和一对像重复的实验，七个云端代理各交一份需求文档的拉取请求，描述只追加，合并仍要人点头。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "github-jonty-grokbot-mcp",
+      "added": "2026-11-23",
+      "title": "Claude Desktop 复用本机登录态，查看状态不会叫醒云电脑",
+      "url": "https://github.com/0xJonty/grokbot-mcp",
+      "blurb": "八个工具里查看状态不会叫醒云电脑，创建和修改默认只出预览，发出的消息只回一次回执且不会自动重发，签到过期时打开 App 即可续上，刷新令牌留在本机应用里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude Desktop",
+        "MCP"
+      ]
+    },
+    {
+      "id": "github-wechat-local-export",
+      "added": "2026-11-23",
+      "title": "只读本机微信：置顶聊天先试跑，语音按顺序合成一条",
+      "url": "https://github.com/delu543/wechat-local-export",
+      "blurb": "Mac 上先给 Grok Bot 完全磁盘访问，密钥只写入本人可读的私有文件，试跑要加 --dry-run 才不会推进游标，多条语音会按说话顺序合成一条 MP4。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "微信"
+      ]
+    },
+    {
+      "id": "github-grok-puck",
+      "added": "2026-11-23",
+      "title": "桌上圆屏就是一只 Grok Bot：按住说话，回复由它念出来",
+      "url": "https://github.com/e-roy/grok-puck",
+      "blurb": "圆屏跟着应用里的头像形状和颜色变化，按住说话、松手后文字进到同一只 Bot，语音走你自己的兼容接口，桥接放在一台常开机器上并套 Cloudflare Tunnel，固件 0.6.0 已在 11 月 13 日发布。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Grok Puck"
+      ]
+    },
+    {
+      "id": "note-taka-muse-files",
+      "added": "2026-11-23",
+      "title": "秘书用了一周：网盘一次理完，闹钟却响不了手机",
+      "url": "https://note.com/taka_0627/n/n76c47170d8af",
+      "blurb": "作者让 Grok Bot 一次理完约 500GB、1300 个 OneDrive 文件并交回没被要求的 Excel，同时写明它只能在聊天里到点提醒，不能直接响 iPhone 闹钟，对照的 Muse 要把同一批文件拆成八段。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "Muse",
+        "OneDrive"
+      ]
+    },
+    {
+      "id": "note-iruka-muse-mt5",
+      "added": "2026-11-23",
+      "title": "同一件事交给 Muse 和 Grok Bot：回测做完，自动买卖被它自己否掉",
+      "url": "https://note.com/akagyu/n/nd9873b14d67e",
+      "blurb": "干了二十二年通信工程的作者用两天对照记下，Grok Bot 能在他自己的电脑上跑 MT5，把黄金策略最好的八个月利润因子 1.57 拿到后四个月对成 0.58，并在一开始就说先别用于自动买卖。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "Muse",
+        "MT5"
+      ]
+    },
+    {
+      "id": "reddit-onedrive-vs-duet",
+      "added": "2026-11-23",
+      "title": "改同一份表格：Grok Bot 能覆盖 OneDrive 原文件，Duet 常另存一份",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y26bb5/grokbot_v_claude_duet/",
+      "blurb": "用得更久的人发现 Grok Bot 可以在 OneDrive 里改完 Excel 还存回原文件，换到 Google Drive 就会复制出一堆旧版本，Claude Duet 两边最近也开始另存。",
+      "section": "reviews",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "Reddit",
+        "OneDrive",
+        "Claude Duet"
+      ]
+    },
+    {
+      "id": "devto-agents-not-employees",
+      "added": "2026-11-23",
+      "title": "别把 Agent 当员工：一篇文章拆给四个 Bot，交接比干活还贵",
+      "url": "https://dev.to/fengzhiyonggeo/wei-shi-yao-bie-ba-agent-dang-yuan-gong--31k0",
+      "blurb": "作者跟着「AI 员工」把发一篇文章拆给四个 Agent，任务书和等链接的时间比干活还多，后来改成先交给一个主 Agent，只在并行调查或干净审核时才拆开。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "dev.to"
+      ]
+    },
+    {
+      "id": "github-telegram-ai-box",
+      "added": "2026-11-23",
+      "title": "用自己的订阅在 Telegram 里搭一台不休眠的云电脑",
+      "url": "https://github.com/chaslab/telegram-ai-box",
+      "blurb": "菜单里可以换模型、看额度何时刷新，登录和验证码用 /desk 自己点那台带 Chrome 的云桌面，机器人拥有服务器最高权限，只给自己用，密码也不要发在对话里。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "计费",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Telegram",
+        "Chas"
+      ]
+    },
+    {
+      "id": "youtube-hermes-bot-kit",
+      "added": "2026-11-23",
+      "title": "开源插件把 Hermes 桌面做成 Grok Bot 的样子",
+      "url": "https://www.youtube.com/watch?v=OWHE9vBcuLM",
+      "blurb": "周额度不够用时可以装这个开源插件，让 Hermes 的桌面聊天、卡片和一键协作长得像 Grok Bot，背后换成自己选的模型，作者估计按他的用法另买额度要两千到四千美元。",
+      "section": "alternatives",
+      "tags": [
+        "计费",
+        "插件"
+      ],
+      "aliases": [
+        "YouTube",
+        "Hermes",
+        "hermes-bot-kit"
       ]
     }
   ]
