@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "sections": [
     {
       "id": "official",
@@ -47670,6 +47670,481 @@
         "YouTube",
         "Hermes",
         "hermes-bot-kit"
+      ]
+    },
+    {
+      "id": "youtube-matt-nov23",
+      "added": "2026-11-24",
+      "title": "官方更新：11月23日代订酒店、Tailscale 上的 MCP 和逐项授权",
+      "url": "https://www.youtube.com/watch?v=TNPIQ7lCLBY",
+      "blurb": "Matt Palmer 这期按行程让 Bot 去酒店网站找房并代订，机票还在陆续开放，Tailscale 能碰到家里的 MCP，每个连接器工具也能单独设成始终允许、自动审核、需要批准或拦截。",
+      "section": "official",
+      "tags": [
+        "跑腿",
+        "插件",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer"
+      ]
+    },
+    {
+      "id": "note-jiriki-auto-review",
+      "added": "2026-11-24",
+      "title": "多数操作不会停下来问你：审批卡只认你自己的那句话",
+      "url": "https://note.com/jiriki_ai/n/n6d4c6ebffb6a",
+      "blurb": "自动审查看过之后会放行大多数操作，只有它判定要确认时才弹出允许一次、始终允许或拒绝，邮件和网页里的文字也不会被当成你的指令，想卡住的那一步得写进你自己的那句话。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "Auto Review"
+      ]
+    },
+    {
+      "id": "reddit-gb-claude-handoff",
+      "added": "2026-11-24",
+      "title": "业务侧 Grok Bot 和 Claude Code 之间，别人实际在用的交接",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y3gnda/grok_bot_claude_code_handoff/",
+      "blurb": "有人把 Claude 和 Codex 装在 Bot 电脑上分别写和审，也有人用 GitHub Issue 标签或 Slack 频道让两边按例行轮询交接，免得自己夹在中间传话。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Reddit",
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "bilibili-single-writer",
+      "added": "2026-11-24",
+      "title": "三个 Bot 协作时，谁来改那份主稿",
+      "url": "https://www.bilibili.com/video/BV11LWw6VESC",
+      "blurb": "资料员、撰稿员和核对员交接同一份主稿时，同一轮只让一个人写入，群里看不到批准卡就要回到原来那个会话去批。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "note-wiz-morning-draft",
+      "added": "2026-11-24",
+      "title": "早上只收一封选题，发布按钮还在人手里",
+      "url": "https://note.com/wiz_note/n/n64028ee45db3",
+      "blurb": "从 11 月 20 日起作者大约八点只收到一封笔记选题，点了编号才交给写稿 Bot 存草稿，在本人说出发布之前没有人去按公开键。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "note-mochi-template-usage",
+      "added": "2026-11-24",
+      "title": "三个模板加 Canva 插件装上的当晚，周用量从 36% 抬到一半",
+      "url": "https://note.com/mochirepo/n/n00d6ff252da4",
+      "blurb": "11 月 11 日晚大约两分钟装上三个官方模板和 Canva 插件后，作者先停掉附带的两条例行，并记下当晚周用量从 36.4% 抬到 50.5%，这数字里还混着别的工作。",
+      "section": "cases",
+      "tags": [
+        "插件",
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "Canva"
+      ]
+    },
+    {
+      "id": "note-shinpei-team-off",
+      "added": "2026-11-24",
+      "title": "互相传话把周额度烧到九成，作者拆掉了 Grok Bot 小队",
+      "url": "https://note.com/s_s_p_y/n/n4c5564abc049",
+      "blurb": "笔记选题、稍后观看和书签三只 Bot 互相商量再交给对外窗口的编队被拆掉了，因为 Bot 之间传话几乎每周都把额度用到九成。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "reddit-hvac-schedule",
+      "added": "2026-11-24",
+      "title": "住宅暖通的 Bot 能跑派单和收款，排班加订设备仍会塌",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y2vkuj/grok_virtually_runs_my_entire_residential_hvac/",
+      "blurb": "派单、新线索、上门预约、催款和合同已经分给不同 Bot，排班和订设备拆成四个角色仍会误读规则，回复建议把工种、配件和工期放进表里校验，模型只填结构化字段。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-cfo-monthly-pay",
+      "added": "2026-11-24",
+      "title": "虚拟卡放进保险库，只让财务 Bot 按月付账单",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y3ds3n/getting_your_bot_to_pay/",
+      "blurb": "有人把虚拟卡放进保险库并且只授权财务 Bot，月初例行付款前会先发一条早上通知，而不是每笔都等人点同意，用下来说没有出过问题。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "安全"
+      ],
+      "aliases": [
+        "Reddit",
+        "Vault"
+      ]
+    },
+    {
+      "id": "x-ytsfred-no-middleman",
+      "added": "2026-11-24",
+      "title": "九个 Bot 别只跟幕僚长说话：派活、本地代理和地铁上点授权",
+      "url": "https://x.com/ytsfred123456/status/2124878910286368800",
+      "blurb": "水哥用幕僚长、调研、写作、规划和信息流搭了九个 Bot 之后，改成幕僚长只派活，本地写代码交给 T3 Code，人在地铁上则用 UU 远程去点本机授权弹窗。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "X",
+        "T3 Code",
+        "UU远程"
+      ]
+    },
+    {
+      "id": "youtube-nate-bill-call",
+      "added": "2026-11-24",
+      "title": "三十个日常用法：谈降账单，再到自己公司的 Bot 团队",
+      "url": "https://www.youtube.com/watch?v=sVrmhD99BJk",
+      "blurb": "Nate Herk 把三十个别人真实跑过的用法分成四档，其中一档是让 Bot 打完客服电话、把账单从每月 84 美元谈到 45 美元，并在成交前停下来等人批准。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "Nate Herk"
+      ]
+    },
+    {
+      "id": "v2ex-openwrt-mcp",
+      "added": "2026-11-24",
+      "title": "手机让 Bot 动自己的电脑：无人编译固件，兼职后台先出计划",
+      "url": "https://www.v2ex.com/t/1259167",
+      "blurb": "回帖里有人用手机让同一账号的 Bot 去动自己的电脑，有人让它无人值守编译带网络配置的 OpenWrt 固件并自动升级，也有人把兼职后台收成最小 MCP，写入前先出计划再确认。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "V2EX",
+        "OpenWrt"
+      ]
+    },
+    {
+      "id": "substack-album-limit",
+      "added": "2026-11-24",
+      "title": "专辑封面变少，是 Bot 自己设了只留最新四百张",
+      "url": "https://fieldnotesongrokbot.substack.com/p/the-disappearing-album-art",
+      "blurb": "电台封面看起来变薄，是因为队友把电视图限制在最新四百张，问清全部上限并拿掉之后才发现，做一张封面本身不花 token，走的是免费的封面查询。",
+      "section": "cases",
+      "tags": [
+        "排障",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "Substack",
+        "Field Notes"
+      ]
+    },
+    {
+      "id": "github-paper-to-chinese",
+      "added": "2026-11-24",
+      "title": "把 arXiv 的 LaTeX 源码在云电脑里译成中文 PDF",
+      "url": "https://github.com/Lum1104/paper-to-chinese",
+      "blurb": "把仓库交给云电脑上的 Bot，它会下载论文源码包，术语表先落盘，再按文件写回，公式和引用留在原地，最后用 XeLaTeX 编出能扫读的中文版。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "arXiv"
+      ]
+    },
+    {
+      "id": "github-x-via-grokbot",
+      "added": "2026-11-24",
+      "title": "编码代理借用现有 Grok Bot 订阅去搜 X",
+      "url": "https://github.com/davidYichengWei/x-via-grokbot",
+      "blurb": "问题走官方 Webhook 例程，由 Bot 检索公开帖并带回原帖链接，回传经 ntfy 端到端加密，中转服务器只能看到密文。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP",
+        "ntfy"
+      ]
+    },
+    {
+      "id": "github-agentbridge",
+      "added": "2026-11-24",
+      "title": "Mac 上让 Claude Code 和 Grok Bot 对谈，每段都要你点头",
+      "url": "https://github.com/musi27/agentbridge",
+      "blurb": "本机桥通过中继让云端 Bot 和 Mac 上的 Claude Code 对谈，开场和加长回合都要你在原生许可框里确认，未回答的确认十分钟后作废。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "github-telegram-grok-wake",
+      "added": "2026-11-24",
+      "title": "用 Telegram Serverless 叫醒 Grok Bot，云电脑不用一直轮询",
+      "url": "https://github.com/Eniggman/telegram-grok-wake",
+      "blurb": "中间层把 Telegram 的密钥头换成例程要的 Bearer，只放行私聊白名单，再用大约三十分钟的回复令牌把答案送回同一条聊天，云电脑不用一直轮询。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Telegram"
+      ]
+    },
+    {
+      "id": "github-grok-bots-cli",
+      "added": "2026-11-24",
+      "title": "终端里先读完市场 Bot 的技能和例程全文再决定导入",
+      "url": "https://github.com/nusquama/grok-bots-cli",
+      "blurb": "导入按钮背后的公开配方可以整篇打出技能、例程和记忆，请求只去已知主机，疑似密钥换成占位符，技能要求把配方正文当资料来读。",
+      "section": "skills",
+      "tags": [
+        "上手",
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Marketplace"
+      ]
+    },
+    {
+      "id": "github-skyrim-mod-kit",
+      "added": "2026-11-24",
+      "title": "上古卷轴模组助手：Grok Bot 先只读再改你的 Windows 电脑",
+      "url": "https://github.com/JezebelGraves/Grok-Modders-Kit-for-Skyrim",
+      "blurb": "Bot 待在自己的 Linux 云电脑上，经 Tailscale 和 SSH 连你的 Windows 装机电脑，先只读排出一份修复清单，改动要你批准，并用校验和与回滚副本兜住。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Skyrim",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "github-grok-export-tool",
+      "added": "2026-11-24",
+      "title": "额度用完前，把 Grok Bot 的花名册和全文对话导出到本地",
+      "url": "https://github.com/LofiSu/grok-export-tool",
+      "blurb": "额度用完、身边又只有手机时，这个不用 API 密钥的本地工具会从已登录的浏览器读出每个 Bot 的花名册、完整对话和附件，存成 JSONL 与 Markdown，好让别的助手接着干。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "LofiSu"
+      ]
+    },
+    {
+      "id": "youtube-sharbel-same-tasks",
+      "added": "2026-11-24",
+      "title": "同一组任务实测：Grok Bot 和 Hermes 怎么分，Dots、Muse、Duet 排在哪",
+      "url": "https://www.youtube.com/watch?v=mGnWFfMBvm0",
+      "blurb": "Sharbel 把 ChatGPT Dots、Meta Muse、Claude Duet、Grok Bot 和 Hermes 放在一起排完，再让 Grok Bot 和 Hermes 做同一组三件活，浏览器和 X 上的事交给 Grok Bot，日程和业务数据留在自己 Mac mini 上的 Hermes。",
+      "section": "reviews",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "Sharbel",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "bilibili-recall-four",
+      "added": "2026-11-24",
+      "title": "办公助手发错了还能收回吗：豆包工作、WorkBuddy、Grok Bot、Kiro Crew",
+      "url": "https://www.bilibili.com/video/BV1gYyxzQEXQ",
+      "blurb": "用整理本周纪要再发给参会人这件发出去就收不回的活量过四家，能撤回的只有文件，Grok Bot 名下所有 Bot 还共用一台云电脑。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "WorkBuddy",
+        "Kiro"
+      ]
+    },
+    {
+      "id": "github-jaryn-bot",
+      "added": "2026-11-24",
+      "title": "自托管的个人 AI 同事，每只 Bot 一台容器电脑",
+      "url": "https://github.com/ct-jaryn/jaryn-bot",
+      "blurb": "每只 Bot 有自己的容器电脑，会话、记忆和凭据留在你的服务器上，换模型时按任务和每日预算封顶，危险动作要先审批。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "jaryn-bot"
+      ]
+    },
+    {
+      "id": "bilibili-openbot-migrate",
+      "added": "2026-11-24",
+      "title": "额度烧完之后，把 Grok Bot 迁到本地 OpenBot",
+      "url": "https://www.bilibili.com/video/BV1FyyHzZEfV",
+      "blurb": "周额度提前用尽、只能干等重置时，原来的 Bot 可以一键迁到自己电脑上的 OpenBot，其中说一句话就在画布上长出整条工作流是云端这边没有的。",
+      "section": "alternatives",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "OpenBot"
+      ]
+    },
+    {
+      "id": "forum-x-sub-shared-pool",
+      "added": "2026-11-24",
+      "title": "额度用尽后按量扣费，一次任务就能超过一美元",
+      "url": "https://forum.cursor.com/t/expensive-tasks-after-toppping-up/179015",
+      "blurb": "员工说明 X 订阅里 Grok Bot、Grok 和 Cursor（含 Bugbot）共用一个周额度，用尽后按实际 token 扣充值，买额度时可能顺手打开自动续充，一小时后再扣 5 美元，可在账单页关掉或设月度上限。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Auto Top-up"
+      ]
+    },
+    {
+      "id": "forum-vault-no-reveal",
+      "added": "2026-11-24",
+      "title": "Bot 写进保险库的密码保存后就再也看不见",
+      "url": "https://forum.cursor.com/t/grok-bot-vault-add-a-show-password-eye-toggle/176066",
+      "blurb": "员工说明桌面端保险库保存后不会再把密码显示出来，手机 1.18 起保存前可以看一眼，11 月 23 日有人指出 Bot 自己生成的注册密码因此也取不回来，只能去网站重置。",
+      "section": "community",
+      "tags": [
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Vault"
+      ]
+    },
+    {
+      "id": "forum-email-immutable",
+      "added": "2026-11-24",
+      "title": "改不了登录邮箱，学校或公司邮箱停了 Bot 也带走",
+      "url": "https://forum.cursor.com/t/please-let-us-change-the-email-on-our-cursor-grok-bot-account/174007",
+      "blurb": "多位付费用户卡在同一件事上：登录邮箱不能改，学校或公司邮箱一停，或者用了苹果隐藏邮箱收不到 Bot 的信，养熟的 Bot、记忆和例程就没法整包迁走，删号重来会把它们清掉。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "reddit-auto-topup-80",
+      "added": "2026-11-24",
+      "title": "买 20 美元加量包，被改成低于 5 美元就自动续充",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y35s2k/stupid_me/",
+      "blurb": "楼主本想一次性加 20 美元撑到额度重置，结账被改成余额低于 5 美元就自动充值，邮箱里累到大约 80 美元，找客服退未用额度被拒。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-redtbolt-deleted-bot",
+      "added": "2026-11-24",
+      "title": "干净的一周里一天用掉 15.3%：几乎全被一只 Bot 吃掉",
+      "url": "https://x.com/redtbolt/status/2124924704419185023",
+      "blurb": "他从周六下午量到周日下午，一天用掉约 15.3%，按 Bot 拆开后发现几乎全被一只吃完，闲着的几只在界面上还被标成了 Deleted Bot。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "X",
+        "Deleted Bot"
       ]
     }
   ]
