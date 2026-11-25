@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "sections": [
     {
       "id": "official",
@@ -48145,6 +48145,488 @@
       "aliases": [
         "X",
         "Deleted Bot"
+      ]
+    },
+    {
+      "id": "bilibili-refund-half-hour",
+      "added": "2026-11-25",
+      "title": "客服退款按官方岗位指南走一遍：确认卡半小时过期",
+      "url": "https://www.bilibili.com/video/BV1MYydzPEdL",
+      "blurb": "把退款派下去之后，它会自己读政策、翻最近一小时的工单并收成一页建议，动钱或外发前才弹出确认卡，而这张卡半小时就过期。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "安全",
+        "计费"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "note-grokbotter-money-gate",
+      "added": "2026-11-25",
+      "title": "钱只让 Bot 看到和备好：付款必须自己点头",
+      "url": "https://note.com/grokbotter/n/ne9a4a503eac7",
+      "blurb": "收据和账单可以交给 Bot 归堆并写成催款草稿，但付款、退款和转账要逐笔由人批准，卡不要存进保险库，否则下次结账不会再问你。",
+      "section": "tutorials",
+      "tags": [
+        "安全",
+        "跑腿"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "timeline-footsteps-quota",
+      "added": "2026-11-25",
+      "title": "用手机到场取代定时轮询，周额度少烧一半",
+      "url": "https://timeline.place/guides/footsteps-instead-of-cron",
+      "blurb": "工作日例行把云电脑一周叫醒将近六百次，周四下午额度就空了，改成人到了地方才跑之后，后台唤醒从 568 次降到 274 次，周日夜里还剩四成以上。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "上手"
+      ],
+      "aliases": [
+        "Timeline",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "reddit-usage-thirty-five",
+      "added": "2026-11-25",
+      "title": "写代码交给 Claude Code，重活放到本机 OpenBot，五天只到 35%",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y4b02q/this_one_setup_cut_my_grok_bot_usage_in_half/",
+      "blurb": "写代码交给装在云电脑里的 Claude Code 和 Codex，重活交给 Mac mini 上本地运行的 OpenBot，Grok Bot 只负责调度，五天用量从以前见底变成 35%。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Reddit",
+        "OpenBot",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "youtube-kacper-cape-town",
+      "added": "2026-11-25",
+      "title": "1.0 之后五项升级：开普敦行程先不订，工具可以逐项放行",
+      "url": "https://www.youtube.com/watch?v=kSEsTZg2Jv4",
+      "blurb": "Kacper 在自己的账号上让一只 Bot 排出开普敦两周的航班、日程和地图但先不订，另一只去社区目录里找录音间桌板，并把 Gmail 和 Stripe 的每个工具单独设成放行、送审或拦住。",
+      "section": "tutorials",
+      "tags": [
+        "跑腿",
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "YouTube",
+        "Kacper"
+      ]
+    },
+    {
+      "id": "youtube-datacamp-noble",
+      "added": "2026-11-25",
+      "title": "跟做项目跟踪：Scout、Ledger、Foreman 各管一件事",
+      "url": "https://www.youtube.com/watch?v=L5PUk8Q6HRE",
+      "blurb": "Noble Plastics 的项目经理在这场跟做里，把收件箱和团队群聊交给 Scout、Ledger、Foreman 三只各管一件事的 Bot，总管按名字找到同事，并提醒周额度只够把整队跑一两遍。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube",
+        "DataCamp",
+        "Noble Plastics"
+      ]
+    },
+    {
+      "id": "github-splunk-o11y",
+      "added": "2026-11-25",
+      "title": "把云电脑的磁盘、内存和例程心跳送进 Splunk",
+      "url": "https://github.com/pfrederiksen/grokbot-splunk-o11y",
+      "blurb": "云电脑的磁盘、内存和例程心跳可以按小时送进 Splunk，采集连续两次失败才提醒，免得例程自己不出声时没人发觉。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "GitHub",
+        "Splunk"
+      ]
+    },
+    {
+      "id": "x-rafy-t3-lead",
+      "added": "2026-11-25",
+      "title": "Grok Bot 当工程经理：用 T3 Connect 把编码派回本机",
+      "url": "https://x.com/0xRafy/status/2125273516362637528",
+      "blurb": "云端的 Grok Bot 连不上笔记本的本机地址，他改用 T3 Connect 接上 MCP，并在每条任务简报里写明改派本机上的 Claude、Codex 或 Grok Build，因为仓库活默认仍会交给 Cursor 云端代理。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "X",
+        "T3 Code",
+        "MCP"
+      ]
+    },
+    {
+      "id": "bilibili-fourteen-bots",
+      "added": "2026-11-25",
+      "title": "两个月 3124 元养到 14 只：首席接活，人事再补岗",
+      "url": "https://www.bilibili.com/video/BV1dpy5zfEsW",
+      "blurb": "两个月花掉 3124 元养到 14 只 Bot，派错活和交错东西被打回一百二十多次后，改由首席统一接需求、人事再补岗位，每只 Bot 只干一件事。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "devto-three-ultra-busywork",
+      "added": "2026-11-25",
+      "title": "三份每月 200 美元的套餐怎么交活，以及把用量打到九成的翻车",
+      "url": "https://dev.to/jakeparks/how-my-grok-bots-talk-across-three-200month-plans-and-the-90-usage-trick-that-failed-3gh2",
+      "blurb": "单份套餐不够，作者按产品拆成三份每月 200 美元的 Ultra，让 Bot 在云电脑上跑 Codex，再用 Vercel Board 传话，可一旦要求把用量打到九成，Bot 就开始编造任务。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "dev.to",
+        "Codex",
+        "Vercel Board"
+      ]
+    },
+    {
+      "id": "devto-x-monitor-zero",
+      "added": "2026-11-25",
+      "title": "盯 X 找线索十四天：47 条提及，真正的线索是 0",
+      "url": "https://dev.to/crzy_undefinedundefined/grok-bot-2-i-ran-an-x-monitor-for-leads-and-complaints-for-14-days-47-mentions-0-real-leads-46-3i30",
+      "blurb": "连续十四个晚上的例行搜索收进 47 条提及，真正的线索和投诉是 0，其中 46 条是误报，品牌提及还盯着四周前已经改掉的旧用户名。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营"
+      ],
+      "aliases": [
+        "dev.to"
+      ]
+    },
+    {
+      "id": "note-konno-landing",
+      "added": "2026-11-25",
+      "title": "下飞机时活已排好：人在场用 Claude Code，人不在用 Grok Bot",
+      "url": "https://note.com/workwithai/n/n72ec7724051d",
+      "blurb": "登机前把一件事交给按时启动的 Grok Bot，重活再转给云端的 Claude Code 或 Codex，落地后手机上只剩要点通过的判断等待。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "note-konno-thirteen",
+      "added": "2026-11-25",
+      "title": "一个人管 13 个 Bot，1.0 之后先改的五件事",
+      "url": "https://note.com/workwithai/n/nac45697ddbee",
+      "blurb": "开会只请懂这一单的那一个 Bot，抢跑只开在最常商量的那只上，必须问人的事写进说明，团队里先共享按步骤干活的那只，登录共享放到最后。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "id": "reddit-urd-genealogy",
+      "added": "2026-11-25",
+      "title": "家谱 Bot 自己翻教会档案，一天追到十八世纪",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y48tli/my_grok_bot_has_spent_the_last_day_doing/",
+      "blurb": "作者单开名为 Urd 的 Bot 给夫妻两边修家谱，它自己找教会记录和网上数据库、先提假设再拿档案核对，大约一天覆盖了本人这边四分之一，最早到十八世纪。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Reddit",
+        "Urd"
+      ]
+    },
+    {
+      "id": "substack-kamil-lessons",
+      "added": "2026-11-25",
+      "title": "早餐前，两个 Bot 已备好一页课题和配套 3D 打印",
+      "url": "https://aimaker.substack.com/p/grok-bots-daily-lessons",
+      "blurb": "Kamil 让 Claudia 在群聊里对齐 School Bot 和 Print Bot，一个印早课讲义，一个去跑配套的 3D 打印，给八岁和五岁的孩子用。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "Substack",
+        "Kamil"
+      ]
+    },
+    {
+      "id": "x-blake-black-friday",
+      "added": "2026-11-25",
+      "title": "黑五优惠页交给 Bot：189 个目录站、128 张合作卡片",
+      "url": "https://x.com/BlakeWhittle7/status/2125279883634803026",
+      "blurb": "他把黑五目录收成一张 Google 表，Bot 在工作日寻找新开的优惠榜并填写公开表单，用 WPVibe 先备份再改自己的优惠页，189 个站点里已有 72 个挂出优惠、页上有 128 张合作卡片，付费坑位和表上没有的折扣会停下来等他点头。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "销售"
+      ],
+      "aliases": [
+        "X",
+        "WordPress",
+        "WPVibe"
+      ]
+    },
+    {
+      "id": "x-tama-beaker",
+      "added": "2026-11-25",
+      "title": "只给一个目标：凌晨四点前做出能嵌进帖子的小游戏",
+      "url": "https://x.com/Te_te_krub/status/2125287370954330444",
+      "blurb": "曼谷时间 11 月 24 日凌晨他只提出要一个能在帖子里玩的游戏，小队自己选题、比价并买下域名，检查的 Bot 打回了把最高分存在浏览器里的版本，付款和发帖仍由他亲手确认。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "X",
+        "TAMA"
+      ]
+    },
+    {
+      "id": "ryan-jev-evals",
+      "added": "2026-11-25",
+      "title": "Grok Bot 跑局间评测，让 Jev 靠评测学会打《大乱斗》",
+      "url": "https://ryanperry.io/post/grok-bot-taught-my-jev-agent-to-play-smash-bros",
+      "blurb": "代码先算出局面，Jev 再选战术，Grok Bot 跑的是让它变强的评测，作者的结论是变强靠评测而不是再堆技能。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "Jev",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "github-grok-bot-helper",
+      "added": "2026-11-25",
+      "title": "Windows 上用全局快捷键唤起 Grok Bot",
+      "url": "https://github.com/cremess/grok-bot-helper",
+      "blurb": "它补上 Windows 版还没有的全局快捷提问，默认只读本机缓存显示 Bot 列表和最新回复，发出的消息仍交给 Grok Bot 桌面端确认。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "上手"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "github-muse2grok",
+      "added": "2026-11-25",
+      "title": "让 Muse 把任务交给 Grok Bot，并在原聊天里收回答复",
+      "url": "https://github.com/JidaDiao/muse2grok",
+      "blurb": "自托管桥把 Muse 的委托记在本地账本里，用入站 Webhook 叫醒对应的 Grok Bot，断线后还能按操作编号取回已保存的答复。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Muse"
+      ]
+    },
+    {
+      "id": "github-grokbot-rednote",
+      "added": "2026-11-25",
+      "title": "让 Grok Bot 用已登录的 Chrome 搜索小红书",
+      "url": "https://github.com/HongtianChan/Grokbot-RedNote",
+      "blurb": "Mac 上的本地服务借用已经登录的 Chrome 替 Bot 检索小红书，对话里只带回标题和链接，仓库写明还在开发、不能商用。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "GitHub",
+        "小红书"
+      ]
+    },
+    {
+      "id": "github-action-board",
+      "added": "2026-11-25",
+      "title": "给首席幕僚 Bot 用的本地决策板",
+      "url": "https://github.com/zedatrix/action-board",
+      "blurb": "幕僚 Bot 用命令行把待拍板的事写上本地网页，人在页面或聊天里作答后，结果经 Webhook 回到同一只 Bot。",
+      "section": "skills",
+      "tags": [
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "github-recitbot",
+      "added": "2026-11-25",
+      "title": "让 Grok Bot 在你的 Cloudflare 上录屏并拿回私密链接",
+      "url": "https://github.com/thetylerdooks/recitbot-server",
+      "blurb": "Bot 可以下令在你自己的 Cloudflare 账号上录一段屏，成片放在私有存储里，结束后只拿回一条不公开的分享链接。",
+      "section": "skills",
+      "tags": [
+        "视频",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "github-agent-buddy",
+      "added": "2026-11-25",
+      "title": "Windows 顶部的小角色，显示 Grok Bot 做到哪一步",
+      "url": "https://github.com/Bryson-he/agent-buddy",
+      "blurb": "屏幕顶部的角色通过安全隧道和一份短技能接收 Grok Bot 的进度和待确认问题，人可以留在当前窗口里直接作答。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Agent Buddy"
+      ]
+    },
+    {
+      "id": "reddit-sales-zero-accept",
+      "added": "2026-11-25",
+      "title": "销售双 Bot 连发三天领英请求，接受率是零",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y4hbe8/are_grok_bots_bad_for_highly_nuanced_tasks_or_am/",
+      "blurb": "线索 Bot 用 Apify 在领英、X 和 YouTube 上找信号，再经 Expandi 每天发出约二十条连接请求，两三天无人通过，同一名单交给原来的 Claude 销售代理后才发现目标偏成了已融资超过五千万美元的公司。",
+      "section": "reviews",
+      "tags": [
+        "销售",
+        "多Bot"
+      ],
+      "aliases": [
+        "Reddit",
+        "Expandi"
+      ]
+    },
+    {
+      "id": "github-opencrew",
+      "added": "2026-11-25",
+      "title": "开源的 Grok Bot 替代：浏览器里每只 Bot 自选模型",
+      "url": "https://github.com/ZETA44444/opencrew",
+      "blurb": "它按 Grok Bot 的小队形态做了开源版，每只 Bot 用你自己的密钥和模型，用 @ 分派任务，例程和记忆都留在这台浏览器里。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "上手",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "OpenCrew"
+      ]
+    },
+    {
+      "id": "forum-desktop-load-403",
+      "added": "2026-11-25",
+      "title": "桌面端 1.2.3 集体无法加载：请求在进账号之前就被 403",
+      "url": "https://forum.cursor.com/t/grokbot-desktop-client-unable-to-load-sessions-on-windows-mobile-works-hotspot-fails/179134",
+      "blurb": "同一账号手机正常、Windows 桌面 1.2.3 却显示无法加载时，重试和重置到不了账号层，因为客户端用 Safari 样式的 User-Agent 走 Node 的 TLS 指纹，Cloudflare 直接回了 403。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "forum-long-call-lost",
+      "added": "2026-11-25",
+      "title": "长语音通话收尾让 Bot 写文档，它往往只记得最后几句",
+      "url": "https://forum.cursor.com/t/long-call-content-can-be-lost/179119",
+      "blurb": "整段语音通话的记录留在聊天里的通话卡片上，但负责写文件的一侧只拿到挂断时交代的任务和最后几句，长讨论收尾一句全部写进文档会落空。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-fyi-no-reply",
+      "added": "2026-11-25",
+      "title": "别的 Bot 发来知会后可以安静结束，不必再回一个句号",
+      "url": "https://forum.cursor.com/t/grok-bot-agents-spam-sendmessage-on-agent-fyi-and-post-tool-turns-burns-usage/168211",
+      "blurb": "11 月 24 日官方确认，别的 Bot 发来的知会或确认不再迫使接收方开口，它可以直接结束回合，不必再刷句号气泡或用空 Shell 硬收尾。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-disk-359",
+      "added": "2026-11-25",
+      "title": "换到临时大磁盘后，87GB 的工作盘显示占用 359GB",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-not-answering-since-nov-22-nov-21-work-drive-wiped-update-fails-tickets-t-k93350-t-l5848/179144",
+      "blurb": "客服把机器换到临时大磁盘并要求尽快压到 100GB 以下之后，原来大约 87GB 的工作盘显示占用 359GB，家目录里的密钥没有迁过来。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
       ]
     }
   ]
