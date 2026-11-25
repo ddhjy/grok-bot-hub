@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "sections": [
     {
       "id": "official",
@@ -48627,6 +48627,582 @@
       ],
       "aliases": [
         "Cursor Forum"
+      ]
+    },
+    {
+      "id": "bili-morning-lead-squad",
+      "added": "2026-11-26",
+      "title": "早上八点开工的获客小队：地图筛店，信只出草稿",
+      "url": "https://www.bilibili.com/video/BV1k4yiziEp1",
+      "blurb": "找店、写开发信和打回不合格结果分给三个 Bot，用谷歌地图筛客户、Gmail 只出草稿，Pages 看板定时跑，真正发出去之前仍要人审。",
+      "section": "tutorials",
+      "tags": [
+        "销售",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "哔哩哔哩"
+      ]
+    },
+    {
+      "id": "github-software-factory",
+      "added": "2026-11-26",
+      "title": "一只 Foreman Bot 领工单：合并、推送和删分支保持关闭",
+      "url": "https://github.com/dante-sparras/software-factory",
+      "blurb": "每台机器装一次技能、每个仓库跑一条命令，Foreman 可以自己领工单，合并、推代码和删分支保持关闭。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "T3",
+        "Foreman"
+      ]
+    },
+    {
+      "id": "github-shorts-clips",
+      "added": "2026-11-26",
+      "title": "长视频做成 Shorts：每一步点头，说出排期才上传",
+      "url": "https://github.com/noam99moyal/shorts-clips-pipeline",
+      "blurb": "选片段、写标题和出片都会停下来等你点头，你说出排期之后才会按计划时间上传。",
+      "section": "tutorials",
+      "tags": [
+        "视频",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube Shorts"
+      ]
+    },
+    {
+      "id": "devto-obsidian-find-note",
+      "added": "2026-11-26",
+      "title": "忘了标题也能找回：Grok Bot 把剪藏补进今日笔记",
+      "url": "https://dev.to/sirwanafifi/grok-bot-can-now-find-and-link-notes-in-obsidian-146b",
+      "blurb": "装上 Obsidian 插件并把本机命令设成先审批，他只凭机场代客泊车这点印象，就让 Grok Bot 找回剪藏并在今日笔记里补上链接。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "substack-carnage-model-exam",
+      "added": "2026-11-26",
+      "title": "每周在自己的电脑上考模型：没赢过现役的就不换",
+      "url": "https://0xcarnage.substack.com/p/how-to-make-grok-bot-run-the-most",
+      "blurb": "每周例行在你自己的电脑上挑本地模型、装上并跑一套固定考试，新模型没赢过现役的就保持不动，每一步命令仍要你批准。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "本机模型"
+      ]
+    },
+    {
+      "id": "x-prompter-obsidian-privacy",
+      "added": "2026-11-26",
+      "title": "Obsidian 官方插件接到 Grok Bot：先单独建库",
+      "url": "https://x.com/alex_prompter/status/2125607480692498640",
+      "blurb": "Obsidian 官方插件让 Grok Bot 能写 Markdown、建 Bases 和画布，接之前先单独建保险库，两周内只往收件箱新建，并记住同一账号的其他 Bot 共用云电脑、也能看见同步进去的笔记。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "youtube-tella-creator-guide",
+      "added": "2026-11-26",
+      "title": "给视频创作者的一条流水线：选题、写稿，手机上收尾",
+      "url": "https://www.youtube.com/watch?v=lw7FmYowJ3k",
+      "blurb": "Tella 把研究例程、写稿技能和自家连接器串成一条流水线，人在外面用手机就能把一条片子从灵感到发布收尾。",
+      "section": "tutorials",
+      "tags": [
+        "视频",
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "Tella",
+        "YouTube"
+      ]
+    },
+    {
+      "id": "juejin-tax-invoices",
+      "added": "2026-11-26",
+      "title": "代报第三季度税，并开出两张对公发票寄出",
+      "url": "https://juejin.cn/post/7711743882738548771",
+      "blurb": "阿志让 Bot 登进电子税务网站做完第三季度申报，又开出两张对公发票并写邮件发出，同文也提醒同一账号的 Bot 共用一台云电脑，报税开票前要把审批留住。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "掘金"
+      ]
+    },
+    {
+      "id": "devto-pizza-hevy",
+      "added": "2026-11-26",
+      "title": "同一周练满三天，常点披萨进 Uber Eats 购物车",
+      "url": "https://dev.to/sirwanafifi/i-built-a-grok-bot-that-rewards-workouts-with-pizza-1m49",
+      "blurb": "同一周在 Hevy 记满三个三十分钟训练日后，Grok Bot 会在 Uber Eats 组好不超过 20 英镑的常点披萨，钱还没付之前购物车要你自己看一眼。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Hevy",
+        "Uber Eats"
+      ]
+    },
+    {
+      "id": "note-nekokase-policy-handoff",
+      "added": "2026-11-26",
+      "title": "内容店主用 Grok Bot，策略一卡就改派开源下家",
+      "url": "https://note.com/nekokase_studio/n/n6527c2e1f85b",
+      "blurb": "卖内容时按收益、审计和备忘拆了几个 Bot，一聊到市面上的动漫漫画就被策略判停、活也做不完，于是改让 OpenMausBot 和 OpenBot 接着做合法讨论。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "OpenMausBot",
+        "OpenBot"
+      ]
+    },
+    {
+      "id": "note-kobefs-x-announce",
+      "added": "2026-11-26",
+      "title": "小店公告：Muse 起稿，发一封邮件让 Grok Bot 去发 X",
+      "url": "https://note.com/kobefs/n/ncb4474537394",
+      "blurb": "店铺改版公告由 Muse 起稿，再发邮件给带专用邮箱的 Grok Bot 去发 X 并置顶，人只点批准并转告双重验证码，资料固定这类收尾仍要自己动手。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "跑腿"
+      ],
+      "aliases": [
+        "Muse",
+        "X"
+      ]
+    },
+    {
+      "id": "note-joseg-79-bots",
+      "added": "2026-11-26",
+      "title": "养到 79 个 Bot 先把自己绕晕，现在真正在跑的五件事",
+      "url": "https://note.com/joseg/n/n94d6db0321ed",
+      "blurb": "Bot 一度堆到 79 个，互相聊天就把额度耗掉，后来电话只找统括那一只，晨间邮件和任务分给专员，重活改交给 Codex、Claude Code 和本地 Mac。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Codex",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "x-rhanley-shipping-skill",
+      "added": "2026-11-26",
+      "title": "同一类手持面单隔天改口：旧技能句子还在就继续拦截",
+      "url": "https://x.com/rhanley/status/2125639535245574519",
+      "blurb": "球星卡店的发货 Bot 对同一种手持面单照片先放行后拦截，因为技能和装箱模板里还留着必须拍密封包裹的旧句子，他当天把各处改成面单加运单号、姓名和邮编一致即可，第二天就不再追问。",
+      "section": "cases",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "x-f150-water-pump",
+      "added": "2026-11-26",
+      "title": "按 VIN 写成 F-150 水泵指南：外置皮带泵和扭矩都在里面",
+      "url": "https://x.com/cooksbayouboy/status/2125642133826900143",
+      "blurb": "他的幕僚长按 VIN 查出这台 2017 F-150 用的是皮带驱动的外置水泵，不用打开正时盖，并把零件号、当地报价和泵螺栓扭矩收成一份自己能照着拧的指南。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "VIN"
+      ]
+    },
+    {
+      "id": "youtube-dossier-calendar",
+      "added": "2026-11-26",
+      "title": "会前给每个要见的人做一份档案，挂进日历",
+      "url": "https://www.youtube.com/watch?v=CMwXbtur0SE",
+      "blurb": "会前它翻旧邮件、笔记和公开资料，收成一份 PDF 挂进日历并提前约 15 分钟提醒，会后把谁在何时做什么写回同一条日程。",
+      "section": "cases",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "YouTube"
+      ]
+    },
+    {
+      "id": "github-figma-bridge-skill",
+      "added": "2026-11-26",
+      "title": "把 Grok Bot 接到你电脑上的 Figma",
+      "url": "https://github.com/CageEcho/grok-figma-bridge-skill",
+      "blurb": "云电脑上的命令够不到桌面里的 Figma，这份技能改走只绑定本机的网关和 Tailscale 私网，并写明同事电脑和公司网络还没测过。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Figma",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "github-build-bridge",
+      "added": "2026-11-26",
+      "title": "签过名的活才交给本机 Grok Build，正文不出这台电脑",
+      "url": "https://github.com/AdventureNLearn/build-bridge",
+      "blurb": "作业留在本机并用你自己的密钥签名，没签名或被改过的会被拒，离开这台电脑的只有不含正文的叫醒。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "安全"
+      ],
+      "aliases": [
+        "Grok Build"
+      ]
+    },
+    {
+      "id": "github-grok-radar",
+      "added": "2026-11-26",
+      "title": "在 Mac 上看谁在跑、本周还剩多少额度",
+      "url": "https://github.com/kissy-yang/grok-radar",
+      "blurb": "运行状态和每周额度来自本机缓存，把草稿交给指定 Bot 之前要你确认，真正发送仍在官方客户端里完成。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "Grok Radar"
+      ]
+    },
+    {
+      "id": "github-signalhouse-plugin",
+      "added": "2026-11-26",
+      "title": "在 Grok Bot 里查 Signal House 号码，发送先停下来问",
+      "url": "https://github.com/signalhouse-sms/signalhouse-plugin",
+      "blurb": "查余额、号码和 10DLC 审核保持只读，发短信、买号和注册活动会先停下来等你批准。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "Signal House",
+        "10DLC"
+      ]
+    },
+    {
+      "id": "github-switchboard-bridge",
+      "added": "2026-11-26",
+      "title": "让 Claude 经一次性回执取回 Grok Bot 的答复",
+      "url": "https://github.com/Slingshot-Swag/grok-bot-bridge",
+      "blurb": "Webhook 只表示这轮已经开始，这个 Cloudflare Worker 给每条消息一个一次性回执地址，Claude 才能把答复取回来。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "Claude",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "github-google-ads-skills",
+      "added": "2026-11-26",
+      "title": "Google Ads 审计和改词：先干跑，批准后才写入账户",
+      "url": "https://github.com/white-space-solutions/google-ads-agent-skills",
+      "blurb": "拉数据和出审计保持只读，否定词和新建搜索广告系列先做干跑，你批准并打开执行开关后才会写入账户。",
+      "section": "skills",
+      "tags": [
+        "销售",
+        "插件"
+      ],
+      "aliases": [
+        "Google Ads"
+      ]
+    },
+    {
+      "id": "x-plan-picker",
+      "added": "2026-11-26",
+      "title": "加购额度前先问 Plan Picker：按当天价格算最省的改法",
+      "url": "https://x.com/justinfredette/status/2125649015224099084",
+      "blurb": "升级或加购额度之前，Plan Picker 会读你的真实用量和当天套餐价格，算出最省的改法，有时只是砍掉一条例程，而且它不会自行购买、升级或取消。",
+      "section": "skills",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Plan Picker"
+      ]
+    },
+    {
+      "id": "note-butarou-orca-slack",
+      "added": "2026-11-26",
+      "title": "周额度不够：中继从 Grok Bot 换成 Slack 上的 Orca",
+      "url": "https://note.com/butarou_cg/n/n3bf5ee902e66",
+      "blurb": "日常中转都走 Grok Bot 时周额度掉得太快，换成 Slack 里的 Orca Bot 后代理会自己对话，但投错项目频道时它不会喊停，会在另一个仓库里继续做下去。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "Orca"
+      ]
+    },
+    {
+      "id": "youtube-thirty-euro-edit",
+      "added": "2026-11-26",
+      "title": "让 Bot 团队做这支片子：两周后 30 欧元还值不值",
+      "url": "https://www.youtube.com/watch?v=AVWnxJeeneQ",
+      "blurb": "第一周它们自己找素材、录屏并在 Canva 里剪，周额度打满时手里只剩一段六分钟预览，第二周换成成片脚本后，再和 Hermes 对照哪些剪辑仍得自己上手。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "视频",
+        "多Bot"
+      ],
+      "aliases": [
+        "Hermes",
+        "Canva"
+      ]
+    },
+    {
+      "id": "reddit-openbot-gemini-mini",
+      "added": "2026-11-26",
+      "title": "协作 Bot 迁到家里 Mac mini 上的 OpenBot，改接 Gemini",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y514vi/transferred_from_grokbot_to_openbotgemini_to_save/",
+      "blurb": "他用两个月养熟一批会分工协作的 Bot 后，单条指令有时吃掉周额度一成，于是把代理迁到 OpenBot，服务器放在家里的 Mac mini 并接上一年约 86 美元的 Gemini Pro，手机和电脑都能连，准备让 12 月 3 日到期的 Grok 订阅停掉。",
+      "section": "alternatives",
+      "tags": [
+        "计费",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "OpenBot",
+        "Gemini",
+        "Mac mini"
+      ]
+    },
+    {
+      "id": "forum-idle-sleep-hours",
+      "added": "2026-11-26",
+      "title": "没人开口几分钟云电脑就会睡，后台循环算不上在干活",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-pauses-for-hours-when-no-bot-is-active-not-a-crash-seen-on-2-separate-accounts/179244",
+      "blurb": "官方把整夜停摆定性为空闲睡眠，虚拟机里的常驻进程不会保活，目前也没有始终在线档，用量耗尽后定时任务同样叫不醒，存档把 /workspace 和 /home/box 一起算进约 119.6 GiB，超了更新和重置都会失败。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-unsubscribe-keeps-bots",
+      "added": "2026-11-26",
+      "title": "停订一个月 Bot 和记忆还在，自装软件不在那份存档里",
+      "url": "https://forum.cursor.com/t/if-i-unsubscribe-for-a-month-then-will-i-lose-my-grok-bot-data/179294",
+      "blurb": "官方答复停订不会删掉 Bot、群聊、记忆和例程，云电脑只保留可重建的存档，自己装的软件不在其中，而且旧版 Ultra 结束后多半只能改订 X 订阅，想留住旧套餐应先降到仍含 Grok Bot 的 Pro。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "Ultra",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-bot-computers-allowlist",
+      "added": "2026-11-26",
+      "title": "内网地址被拦时，放行项在 Bot Computers 而不是小组页",
+      "url": "https://forum.cursor.com/t/local-egress-routing-where-do-admins-allow-private-vpn-addresses-internal-site-still-err-connection-closed/179259",
+      "blurb": "成员电脑已开本地出口、浏览器仍对 10.x 内网站点报 ERR_CONNECTION_CLOSED 时，团队管理员要到 Grok Bot 页的 Bot Computers 填写主机名和地址段，Allowed Destinations 抬不起这条私网限制。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-secrets-not-forwarded",
+      "added": "2026-11-26",
+      "title": "Bot 里存的密钥交不给 Cloud Agent，得到仪表盘单独加",
+      "url": "https://forum.cursor.com/t/forwarding-bot-secrets-to-cloud-agents-is-not-enabled-for-this-account/179300",
+      "blurb": "出现 forwarding bot secrets to cloud agents is not enabled 时账号侧没有开关可开，密钥要加在 Cloud Agents 的 Secrets 里，而且只有新启动的 Agent 才会把它读成环境变量。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "工程"
+      ],
+      "aliases": [
+        "Cloud Agent",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-screen-bad-snapshot",
+      "added": "2026-11-26",
+      "title": "屏幕起不来但 Shell 正常：11 月 24 日坏快照要手动更新",
+      "url": "https://forum.cursor.com/t/grok-bot-screen-cannot-start-but-shell-still-works/179250",
+      "blurb": "报错写着更新也没用时先核对现象，11 月 24 日的自动更新把电脑停在坏快照上，Xvfb 在跑而 VNC 和窗口管理器没起来，手动更新云电脑能换到修复版，文件和登录会话还在。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Xvfb",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-mail-namebright-bounce",
+      "added": "2026-11-26",
+      "title": "mail.grokbot.com 一度指到过期域名，退信不会补投",
+      "url": "https://forum.cursor.com/t/grok-bot-agent-email-domain-mail-grokbot-com-down-cname-to-expired-namebright-com-no-mx-mail-bouncing/179297",
+      "blurb": "11 月 25 日 Bot 收件域名的 MX 被指到停车场页面，邮件触发的例程全部落空，大约 15:00 UTC 记录已恢复，但退掉的信不会再送达，重要邮件需要重发。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "mail.grokbot.com",
+        "Namebright",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-sleep-wipes-usr-local",
+      "added": "2026-11-26",
+      "title": "云电脑睡着被换掉后，装在 /usr/local/bin 的命令行工具会没",
+      "url": "https://forum.cursor.com/t/notify-users-or-log-it-when-a-grok-bot-computer-is-cleaned-up-and-replaced/179288",
+      "blurb": "睡眠后的自动清理会悄悄换一台电脑，工作区和登录还在，手装在 /usr/local/bin 的 claude 与 codex 则被清掉，紧接着的夜间任务会因此失败。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "工程"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-desktop-130-attachments",
+      "added": "2026-11-26",
+      "title": "桌面 1.3.0 在频道里发图片会被拒，私聊和手机端仍可以",
+      "url": "https://forum.cursor.com/t/grok-bot-unable-to-upload-attachments/179235",
+      "blurb": "官方确认桌面 1.3.0 会拒绝群聊频道里的附件，同一 Bot 的一对一聊天以及手机端群聊仍然能把图片和文件送进去。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "reddit-super-token-rate",
+      "added": "2026-11-26",
+      "title": "更高档用量对不上宣传：Super 每 1% 大约还剩 700 到 800 万 token",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y4vfc9/grok_bot_usage_on_higher_tiers/",
+      "blurb": "楼主怀疑更高档宣传的 Plus 四倍用量注水，回复里有人对照 Cursor 导出的用量，说 Super 现在每 1% 大约 700 到 800 万 token，几周前还是 1200 万，也有人升到一百美元档后仍要把例行任务改成脚本才觉得喘得过气。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "Super",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-genealogy-local-refuse",
+      "added": "2026-11-26",
+      "title": "家谱网站被云端拦住后，Bot 又拒绝改走自己的电脑",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y55zit/grok_bot_refusing_to_use_my_pc_to_get_around_it/",
+      "blurb": "做家谱时云端浏览器进不去，Bot 先建议改走本机，接着又改口说以后不该这么做，有人让它去读官方关于流量走本机的说明，来回几轮后它自己改了主意。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-ios-proplus-login",
+      "added": "2026-11-26",
+      "title": "苹果内购的 Pro+ 登不进去，恢复购买也不见了",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y54a2l/cannot_login_anymore/",
+      "blurb": "两个月前经 iOS 内购买的 Grok Bot Pro+ 上跑着整盘生意，两天前客户端不再认出账号并要求重新订阅，苹果侧付款仍有效，应用里却没有恢复购买，客服停了回复。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Pro+",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-overage-switch-stuck",
+      "added": "2026-11-26",
+      "title": "周额度显示已回到 1%，仍被团队超额开关拦住",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y4tml5/really_need_help/",
+      "blurb": "Premium 用户看到每周用量重置到 1% 后仍打不开 Bot，提示是团队关闭了套餐外用量，本人以为一直是个人账号，回复写明这是超额开关，周重置不会把它重新打开。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Premium",
+        "Reddit"
       ]
     }
   ]
