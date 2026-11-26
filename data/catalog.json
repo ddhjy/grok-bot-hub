@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "sections": [
     {
       "id": "official",
@@ -49203,6 +49203,451 @@
       "aliases": [
         "Premium",
         "Reddit"
+      ]
+    },
+    {
+      "id": "bili-ultra-six-pools",
+      "added": "2026-11-27",
+      "title": "周额度周中见底：把 Google AI Ultra 的六个池子接到前台调度",
+      "url": "https://www.bilibili.com/video/BV1fZ1FzaEcB",
+      "blurb": "共享周额度总在周中见红时，可以看铁柱怎么让 Grok Bot 只当前台调度，把代码和媒体算力拆进 Google AI Ultra 里互不占用的六个额度池，并守住五条防扣费红线。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "铁柱",
+        "Bilibili",
+        "Google AI Ultra"
+      ]
+    },
+    {
+      "id": "forum-team-plugin-logins",
+      "added": "2026-11-27",
+      "title": "团队共享 Bot 的插件登录：先开经理共享，再按连接器选",
+      "url": "https://forum.cursor.com/t/how-do-plugin-permissions-work-on-a-shared-team-grok-bot/179350",
+      "blurb": "仪表盘 Grok Bot 页要先打开让经理把登录共享给 Bot，再到这只 Bot 的齿轮、General、Bot-Connectors 里按连接器改成用你的账号，默认仍是每位队友自己登录，所有者的登录不会自动套上，在 Slack 里点名这只 Bot 的人也走同一套规则，给 Bot 单独开账号在楼主试过的连接器上仍是灰的。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-remote-mcp-oauth",
+      "added": "2026-11-27",
+      "title": "远程 MCP 要在 Grok Bot 里弹出 Connect：OAuth 检查清单",
+      "url": "https://forum.cursor.com/t/remote-mcp-with-oauth-in-grok-bot-the-checklist-that-made-it-work-for-us-a-template-to-try/179353",
+      "blurb": "Cursor 里能连上的远程 MCP 到 Grok Bot 不弹登录时，服务必须从 Cursor 云端公网可达，未登录要带回资源元数据地址的 401，两份发现文档、PKCE 和无客户端密钥的动态注册都要公开，还要放行回调地址并下发刷新令牌，否则常驻 Bot 的访问令牌一过期就断。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "OAuth",
+        "MCP"
+      ]
+    },
+    {
+      "id": "forum-railway-client-metadata",
+      "added": "2026-11-27",
+      "title": "Railway 拒绝动态注册后，插件登录改走客户端元数据文档",
+      "url": "https://forum.cursor.com/t/grok-bot-railway-plugin-authenticate-fails-with-dynamic-client-registration-is-disabled/175903",
+      "blurb": "Railway 的授权服务器仍给出动态注册地址，注册请求却返回 403 表示该功能已关闭，官方插件会在登录弹出前失败，11 月 26 日工作人员说对方拒绝注册时将改用客户端元数据文档完成登录，已经连上的账号不用再操作。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Railway",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-tailscale-utf8-replace",
+      "added": "2026-11-27",
+      "title": "Tailscale 显示已连接，云电脑却要换机后才认 MagicDNS",
+      "url": "https://forum.cursor.com/t/grok-bot-tailscale-shows-connected-but-the-bot-computer-cannot-reach-the-tailnet-update-bots-computer-also-never-replaces-the-instance/179338",
+      "blurb": "管理页显示 Connected 只说明授权在，已经开着的云电脑不会中途接上 tailnet，更新前的存档若卡在非 UTF-8 文件名上会悄悄取消，改名后再发一条消息才会真正换机，之后只有开机时带上的默认 MagicDNS 域名能通。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Tailscale",
+        "MagicDNS",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-desktop-130-dm-attach",
+      "added": "2026-11-27",
+      "title": "桌面 1.3.0 一对一也传不了附件：成员关系刚变过的账号",
+      "url": "https://forum.cursor.com/t/grok-bot-1-3-0-windows-attachments-fail-in-1-1-chat-after-update-website-still-works/179367",
+      "blurb": "工作人员确认这和更换 VPN 节点无关，桌面 1.3.0 会在上传开始前就拒绝附件，命中的是团队或工作区成员关系最近变过的账号，和群聊那条已知故障是两件事，同一对话在网页和手机上仍能把文件发出去。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "1.3.0"
+      ]
+    },
+    {
+      "id": "forum-bf-email-autosend",
+      "added": "2026-11-27",
+      "title": "黑五营销邮件一点开，就替你把购物提示词发出去",
+      "url": "https://forum.cursor.com/t/grok-bot-marketing-email-link-sent-a-chat-prompt-as-me-without-pressing-send/179309",
+      "blurb": "工作人员确认那封黑五邮件的链接一在 X 或 Grok 应用里打开，就会让默认主 Bot 自行发出预设的找优惠提示词，并不等你按发送，链接只能指向这次活动，但主 Bot 若已有下单或对外发消息的权限，仍可能顺着这句你没写过的话继续做下去。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "跑腿"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Black Friday"
+      ]
+    },
+    {
+      "id": "github-daily-dunk",
+      "added": "2026-11-27",
+      "title": "夜里只用手机拍板：Bot 做每日 NBA 扣篮短片并把网站当天上线",
+      "url": "https://github.com/mkeremkeskin/your-daily-dunk",
+      "blurb": "作者把核对官方比赛记录、剪成约二十秒并上传都交给 Grok Bot，每条发出前仍等他点头，11 月 26 日 11:42 买下域名，大约 12:25 就用不会随流量计费的静态托管上线。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "运营"
+      ],
+      "aliases": [
+        "Your Daily Dunk",
+        "NBA"
+      ]
+    },
+    {
+      "id": "github-hidden-cost-experiments",
+      "added": "2026-11-27",
+      "title": "七个 Grok Bot 的额度实验：空回复、批量和转交差多少",
+      "url": "https://github.com/Allegorise/grokbots-hidden-cost-experiments",
+      "blurb": "作者拿 11 月 24 日的用量导出重算：十条换算并成一次，记录的 token 大约少九成，把一道算术题转给另一只 Bot 再转述回来，拟合花费大约是自己算的 9.7 倍，拟合价不是官方标价。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "Allegorise"
+      ]
+    },
+    {
+      "id": "github-windows-deskctl",
+      "added": "2026-11-27",
+      "title": "让 Grok Bot 在托盘打开后操作这台 Windows 桌面",
+      "url": "https://github.com/nacho-mon/grokbot-desktop",
+      "blurb": "服务只听本机回环地址，托盘一关，截图和键鼠立刻停掉，每条命令仍要你在这台电脑的 Shell 里点头。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "gbd",
+        "Windows"
+      ]
+    },
+    {
+      "id": "github-grok-x-mcp",
+      "added": "2026-11-27",
+      "title": "用自己的 Grok Bot 例程，给别的聊天应用搜 X",
+      "url": "https://github.com/marciob/grok-x-mcp",
+      "blurb": "这个只用 Node 自带模块的 MCP 把搜索交给 Bot 里的 X 连接器，聊天应用再用一次性回执把帖子和配图取回来，例程只能打到 443 端口。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "MCP",
+        "X"
+      ]
+    },
+    {
+      "id": "github-t3code-grokbot-skill",
+      "added": "2026-11-27",
+      "title": "在 Grok Bot 的电脑上把 T3 Code 装到能验收",
+      "url": "https://github.com/AFK-agent-team/set-up-t3code-in-grokbot",
+      "blurb": "这份中文技能按六层检查 Tailscale 休眠、配对页交付和隔离授权，离线复盘页记下守护进程 17.239 秒恢复、84 项请求检查和 11 次 WebSocket 101。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "T3 Code",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "github-grokbot-switch",
+      "added": "2026-11-27",
+      "title": "本机一忙就亮红灯，Grok Bot 改去另一台电脑干活",
+      "url": "https://github.com/oahuminister-collab/grokbot-switch",
+      "blurb": "桌面上的红绿开关会在你开始打字时收回租约，Bot 应停下当前窗口，把这单活挪到另一台机器，心跳检查失败就得交出租约。",
+      "section": "skills",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "GrokBot Switch"
+      ]
+    },
+    {
+      "id": "github-whoop-webhook-relay",
+      "added": "2026-11-27",
+      "title": "验过签名的 WHOOP 事件，再叫醒 Grok Bot 例程",
+      "url": "https://github.com/lwclark/whoop-webhook-relay",
+      "blurb": "这个小服务核对 WHOOP 的 HMAC 签名后，把事件类型和追踪号转发给你的例程地址，密钥留在环境变量里，签错的请求直接 401。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "WHOOP"
+      ]
+    },
+    {
+      "id": "github-duskbot",
+      "added": "2026-11-27",
+      "title": "Dusk Bot：自带电脑和例程的 Grok Bot 替代",
+      "url": "https://github.com/DuskBotAI/duskbot",
+      "blurb": "每个 Bot 有自己的浏览器桌面、定时任务和审批卡片，也可以把现有的 Grok Bot 迁进来，聊天和文件放在你自己的机器上。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "dusk.bot",
+        "Dusk Bot"
+      ]
+    },
+    {
+      "id": "note-itchuuu-service-bank",
+      "added": "2026-11-27",
+      "title": "把小型网页工厂交给 Grok Bot，额度重置当天又赶出 15 个",
+      "url": "https://note.com/itchuuu/n/n276424ce56dc",
+      "blurb": "策划、实现、390×844 检品和晚间汇总拆成定时班次，管道跑出 32 个可玩的小服务，额度重置当天又赶出 15 个，iPhone 上对话框被压扁后才补上 WebKit，Cloudflare 写权限过期时还得人重新点头。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "计费"
+      ],
+      "aliases": [
+        "itchuuu",
+        "Cloudflare Pages"
+      ]
+    },
+    {
+      "id": "note-fennel-company-daily",
+      "added": "2026-11-27",
+      "title": "公司日报不放进个人的 Grok Bot",
+      "url": "https://note.com/hot_fennel6675/n/ncf1573532a18",
+      "blurb": "工作日早上用它清个人邮箱、只起草不代发还能做，首日归档了 47 封，可把半年公司 Excel 日报丢上云盘后，它标出了含密码、报价和健康备注的日子，作者就此停手。",
+      "section": "cases",
+      "tags": [
+        "安全",
+        "跑腿"
+      ],
+      "aliases": [
+        "Note"
+      ]
+    },
+    {
+      "id": "note-yachimat-cinemap",
+      "added": "2026-11-27",
+      "title": "动画预演卡在浏览器：CineMap 登录和长提示词都过不去",
+      "url": "https://note.com/yachimat/n/n416c6a488c46",
+      "blurb": "脚本、角色、成片和剪辑仍留人审，浏览器里的 CineMap 要人手过 TapNow 登录，一长串从脚本到成片的提示词会被收下却什么也不做，三维截图超时后坐标点击还会把额度烧光，于是 Bot 只当导演和记录。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "视频",
+        "计费"
+      ],
+      "aliases": [
+        "CineMap",
+        "TapNow"
+      ]
+    },
+    {
+      "id": "note-haioka-vertical-ui",
+      "added": "2026-11-27",
+      "title": "画面丢给外部模型，竖排和不换行会反复回来",
+      "url": "https://note.com/haioka_rio/n/n38d419fcc98e",
+      "blurb": "约二十个 Bot 共用一台电脑，统筹自己不写画面，店用应用却一次次被外模竖着堆，还把前一天 1 到 10 分钟由店员定价画成店家定的 15 分钟套餐，于是每条委托补上五条版式规矩，只重出设计图、先不写代码。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Note"
+      ]
+    },
+    {
+      "id": "reddit-streamdeck-voice",
+      "added": "2026-11-27",
+      "title": "免费 Stream Deck 插件：一键拉起指定 Grok Bot 的语音",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y64pu7/free_streamdeck_voice_to_grokbot_plugin/",
+      "blurb": "在 Mac 上把每只 Bot 绑到 Elgato Stream Deck 的一个按键，点一下就打开那只的语音通话，再点一下挂断，安装包放在帖中的公开仓库里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Stream Deck",
+        "ExpeditedProjects"
+      ]
+    },
+    {
+      "id": "reddit-microcenter-60",
+      "added": "2026-11-27",
+      "title": "价格保护 Bot 盯购物收据，从 Micro Center 要回 60 美元",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y63z7t/grokbot_got_me_60_back_from_microcenter/",
+      "blurb": "它对着邮件里的收据盯降价，并按店家规则在网页客服里把显示器差价要了回来，这一单 60 美元就盖过了当月订阅。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Micro Center",
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-batch-fifteen",
+      "added": "2026-11-27",
+      "title": "12 个 Bot 收成 4 个后，互相闲聊烧掉的用量掉了下去",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1y5xg0s/solving_usage_problems_one_workflow_and_rule_at_a/",
+      "blurb": "合并角色、把 Bot 之间的对话攒成 15 分钟一批、并让各 Bot 在审批范围内自己做完之后，互发消息明显变少，任务完成时间反而更短。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-rodrigo-maybe-harness",
+      "added": "2026-11-27",
+      "title": "同一个选餐厅小应用做一个月：Grok Bot 第一版最接近成品，14.3 小时烧完一周额度",
+      "url": "https://x.com/RodrigoRiveraAv/status/2126010355281248500",
+      "blurb": "他把同一个选餐厅的小应用分别交给 Grok Bot、Claude Duet 和 ChatGPT Dot 做了一个月，Grok Bot 的第一版最接近成品，也会自己提出按访客限流，但 14.3 小时就用完一周额度，整队 Bot 因此停了 6.9 天，审查时还得把 117 个文件的仓库逐份翻出来重建。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "工程"
+      ],
+      "aliases": [
+        "Maybe",
+        "Claude Duet",
+        "ChatGPT Dot"
+      ]
+    },
+    {
+      "id": "x-felix-design-cliff",
+      "added": "2026-11-27",
+      "title": "设计 Bot 只交一个漏斗悬崖：看过导师页的人 94.6% 从没打开预约",
+      "url": "https://x.com/felixleezd/status/2126009136550949009",
+      "blurb": "ADPList 的设计 Bot 每周只从漏斗里带回一个悬崖，三十天里看过导师页的人有 94.6% 从没打开预约，而打开预约的人大约 70% 会订完，聊天里点头之前不交给工程 Bot，上线十四天再回读同一窗口。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "ADPList",
+        "Paper"
+      ]
+    },
+    {
+      "id": "x-eric-template-scrub",
+      "added": "2026-11-27",
+      "title": "公开模板不带走记忆和 MCP：发布前先清密钥，删掉模板链接才失效",
+      "url": "https://x.com/EricSoundMinds/status/2126009604815384888",
+      "blurb": "桌面从 Bot 名字进入分享再选创建副本，手机则是分享为模板，链接公开后谁都能装，所以发布前要清掉密钥、内网地址和客户信息，删掉模板才会关掉这条链接，插件得另交服务器地址或公开仓库。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "模板",
+        "SpaceXSI"
+      ]
+    },
+    {
+      "id": "youtube-kacper-eight-plugins",
+      "added": "2026-11-27",
+      "title": "一百多个插件里留下的八个：Gmail、Obsidian、Firecrawl 和 Tailscale 实跑",
+      "url": "https://www.youtube.com/watch?v=bS37feTDxyE",
+      "blurb": "会议记录从 Gmail 收进 Obsidian，更新日志被 Firecrawl 收成表，云端 Bot 经 Tailscale 去问家里电脑上的模型时第一次没通，失败原因留在画面里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Firecrawl",
+        "Obsidian",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "youtube-zorac-fsd",
+      "added": "2026-11-27",
+      "title": "Zorac：从十二小时特斯拉 FSD 直播里剪片段的那只 Grok Bot",
+      "url": "https://www.youtube.com/watch?v=2UEaA_xhjlI",
+      "blurb": "Keith 开着网约车直播时，这只 Bot 读字幕、对画面、剪出片段、加上字幕再发出去，十二小时的直播里找出过新的超充站，也把急刹从时速 51 迈剪到 38 迈的那一段。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "跑腿"
+      ],
+      "aliases": [
+        "Zorac",
+        "Tesla FSD"
+      ]
+    },
+    {
+      "id": "youtube-stew-ads-six",
+      "added": "2026-11-27",
+      "title": "接上官方 Google Ads 连接器，一条提示改完真实账户里的六处",
+      "url": "https://www.youtube.com/watch?v=EovaOrG8PX4",
+      "blurb": "一条审计提示找出六处修改，每条先走过 Google 的测试模式，大约一分钟内全部写进真实广告账户，但它没问过这门生意，也漏了落地页。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "插件"
+      ],
+      "aliases": [
+        "Google Ads",
+        "PPC.io"
       ]
     }
   ]
