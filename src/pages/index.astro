@@ -22,6 +22,14 @@ const jsonLd = {
     description: entry.blurb,
   })),
 };
+
+// Keep catalog-controlled text inside the JSON-LD script element.
+const jsonLdText = JSON.stringify(jsonLd)
+  .replace(/</g, "\\u003c")
+  .replace(/>/g, "\\u003e")
+  .replace(/&/g, "\\u0026")
+  .replace(/\u2028/g, "\\u2028")
+  .replace(/\u2029/g, "\\u2029");
 ---
 
 <Base
@@ -34,5 +42,5 @@ const jsonLd = {
     <Directory />
   </main>
   <Footer />
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+  <script type="application/ld+json" is:inline set:html={jsonLdText} />
 </Base>
